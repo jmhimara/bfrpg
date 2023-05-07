@@ -1,0 +1,70 @@
+# Monsters Intro
+
+## Terms
+
+**Name:** The first thing given for each monster is its name (or its most common name, if the monster is known by more than one). If an asterisk appears after the monster's name, it indicates that the monster is only able to be hit by special weapons (such as silver or magical weapons, or creatures affected only by fire, etc.) which makes the monster harder to defeat.
+
+**Armor Class:** This line gives the creature's AC for normal combat. If the monster customarily wears armor, the first listed AC value is with that armor, and the second, in parentheses, is unarmored. Some monsters are only able to be hit (damaged) by silver or magical weapons; these are indicated either in words or with a dagger †; some monsters may only be hit with magical weapons, indicated by a double dagger ‡.
+
+**Hit Dice:** This line gives the creature's number of hit dice, and lists any bonus hit points. Monsters always roll eight sided dice (d8) for hit points, unless otherwise noted. So for example a creature with 3+2 hit dice rolls 3d8 and adds 2 points to the total.
+
+One or two asterisks (*) may appear after the hit dice figure; where present, they indicate a Special Ability Bonus to experience points (XP) awarded for the monster. See **Character Advancement** in the **Adventure** section for more details.
+
+If the monster's **Attack Bonus** is different than its number of Hit Dice, for convenience the Attack Bonus will be listed in parentheses after the Hit Dice figure.
+
+**Movement:** This line gives the monster's movement rate, or rates for those monsters able to move in more than one fashion. For example, Bugbears have a normal walking movement of 30', and this is all that is listed for them. Mermaids can only move about in the water, and so their movement is given as **Swim 40'**. Pegasi can both walk and fly, so their movement is listed as **80' Fly 160'**.
+
+In addition, a distance may appear in parentheses after a movement figure; this is the creature's turning distance (see **Part 5: The Encounter**). If a turning distance is not listed, assume 5'.
+
+**Attacks:** The number (and sometimes type or types) of attacks the monster can perform. For example, Goblins may attack once with a weapon, so they are marked **1 weapon**. Ghouls are marked **2 claws/1 bite** as they can attack with both claws and also bite in one round.
+
+**Damage:** The damage figures caused by successful attacks by the monster. Generally this will be defined in terms of one or more die rolls.
+
+**No. Appearing:** This is given in terms of one or more die rolls. Monsters that only appear underground and have no lairs will have a single die roll; those that have lairs and/or those that can be found in the wilderness will be noted appropriately. For example, a monster noted as "1d6, Wild 2d6, Lair 3d6" is encountered in groups of 1d6 individuals in a dungeon setting, 2d6 individuals in the wilderness, or 3d6 individuals in a lair.
+
+Note that number appearing applies to combatants. Non-combatant monsters (juveniles, and sometimes females) do not count in this number. The text of the monster description should explain this in detail where it matters, but the GM is always the final arbiter.
+
+**Save As:** The character class and level the monster uses for saving throws. Most monsters save as Fighters of a level equal to their hit dice.
+
+**Morale:** The number that must be rolled equal to or less than on 2d6 for the monster to pass a Morale Check. Monsters having a Morale of 12 never fail morale checks, and fight until destroyed (or until they have no enemies left).
+
+**Treasure Type:** This line reflects how much wealth the creature owns. See the **Treasure** section for more details. In most cases, a creature keeps valuables in its home or lair and has no treasure with it when it travels. Intelligent creatures that own useful, portable treasure (such as magic items) tend to carry and use these, leaving bulky items at home.
+
+**XP**: The number of experience points awarded for defeating this monster. In some cases, the figure will vary; for instance, Dragons of different age categories will have different XP values. Review the Experience Points awards table in the **Adventure** section, above, to calculate the correct figure in these cases.
+
+
+## Beasts of Burden
+
+
+::: {.table-responsive}
+
+|      | **Camel**    | **Donkey** | **Horse, Draft** | **Horse, Riding** |**Horse, War** | **Mule** | **Pony** | 
+|----|-----|----|---|---|-----|----|---|
+| Armor Class: | 13 | 13 | 13 | 13 | 13 | 13 | 13 | 
+| Hit Dice: | 2 | 2 | 3 | 2 | 3 | 2 | 1 | 
+| \# of Attacks: | 1 bite/1 hoof | 1 bite | 2 hooves | 2 hooves | 2 hooves | 1 kick or 1 bite | 1 bite | 
+| Damage: | 1/1d4 | 1d2 | 1d4/1d4 | 1d4/1d4 | 1d6/1d6 | 1d4 or 1d2 | 1d4 | 
+| Movement: | 50'(10') [40'(10')] | 40' (10') | 60' (10') | 80' (10') | 60' (10') | 40' (10') | 40' (10') | 
+| No. Appearing: | Wild 2d4 | Wild 2d4 | domestic only | Wild 10d10 | domestic only | domestic only | domestic only | 
+| Save As: | Fighter: 2 | Fighter: 2 | Fighter: 3 | Fighter: 2 | Fighter: 3 | Fighter: 2 | Fighter: 1 | 
+| Morale: | 7 | 7 | 7 | 7 | 9 | 7 | 6 (9) | 
+| XP: | 75 | 75 | 145 | 75 | 145 | 75 | 25 | 
+
+:::
+
+
+For convenience, animals commonly used to carry loads and/or characters are listed here together. Such creatures obviously have no treasure.
+
+**Camels** are known for their ability to travel long distances without food or water. The statistics presented here are for the dromedary, or one-humped camel, which thrives in warm deserts. A dromedary stands about 7 feet tall at the shoulder, with its hump rising 1 foot higher. The two-humped, or Bactrian, camel is suited to cooler, rocky areas. It is stockier, slower (speed given in brackets), and tougher than the dromedary. A light load for a camel is up to 400 pounds; a heavy load, up to 800 pounds.
+
+**Donkeys** are long-eared, horselike creatures. They are surefooted and sturdy, and can be taken into dungeons or caverns. The statistics presented here could also describe burros. A light load for a donkey is up to 70 pounds; a heavy load, up to 140 pounds.
+
+**Draft Horses** include large breeds of working horses such as Clydesdales. These animals are usually ready for heavy work by age three. A light load for a draft horse is up to 350 pounds; a heavy load, up to 700 pounds.
+
+**Riding Horses** include smaller breeds of working horses such as quarter horses and Arabians as well as wild horses. These animals are usually ready for useful work by age two. Riding horses cannot fight while a rider is mounted. A light load for a riding horse is up to 250 pounds; a heavy load, up to 500 pounds.
+
+**War Horses** are trained and bred for strength and aggression. They usually are not ready for warfare before age three. A light load for a warhorse is up to 350 pounds; a heavy load, up to 700 pounds.
+
+**Mules** are sterile crossbreeds of donkeys and horses. They can be taken into dungeons or caverns. A mule is similar to a riding horse, but slightly stronger and more agile. A light load for a mule is up to 300 pounds; a heavy load, up to 600 pounds.
+
+A **Pony** is a small horse, under 5 feet tall at the shoulder. Ponies are otherwise similar to riding horses and cannot fight while carrying a rider. Ponies can be trained for war, and the morale in parentheses above is for a war pony; this does not allow them to fight while carrying a rider. A light load for a pony is up to 275 pounds; a heavy load, up to 550 pounds.

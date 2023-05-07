@@ -1,0 +1,41 @@
+# Character Abilities 
+
+## Ability Scores
+
+Each character will have a score ranging from 3 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a **Prime Requisite** ability score, which must be at least 9 in order for the character to become a member of that class; also, there are required minimum and maximum scores for each character race other than Humans, as described under **Character Races**, below.
+
+| Ability Score | Bonus/Penalty |
+|:------:|:------:|
+| 3 | -3 |
+| 4-5 | -2 |
+| 6-8 | -1 |
+| 9-12 | 0 |
+| 13-15 | +1 |
+| 16-17 | +2 |
+| 18 | +3 |
+
+**Strength:** As the name implies, this ability measures the character's raw physical power. Strength is the Prime Requisite for Fighters. Apply the ability bonus or penalty for Strength to all attack and damage rolls in melee (hand to hand) combat. Note that a penalty here will not reduce damage from a successful attack below one point in any case (see the **Combat** section for details).
+
+**Intelligence:** This is the ability to learn and apply knowledge. Intelligence is the Prime Requisite for Magic-Users. The ability bonus for Intelligence is added to the number of languages the character is able to learn to read and write; if the character has an Intelligence penalty, he or she cannot read more than a word or two, and will only know his or her native language.
+
+**Wisdom:** A combination of intuition, willpower and common sense. Wisdom is the Prime Requisite for Clerics. The Wisdom bonus or penalty may apply to some saving throws vs. magical attacks, particularly those affecting the target's will.
+
+**Dexterity:** This ability measures the character's quickness and balance as well as aptitude with tools. Dexterity is the Prime Requisite for Thieves. The Dexterity bonus or penalty is applied to all attack rolls with missile (ranged) weapons, to the character's Armor Class value, and to the character's Initiative die roll.
+
+**Constitution:** A combination of general health and vitality. Apply the Constitution bonus or penalty to each hit die rolled by the character. Note that a penalty here will not reduce any hit die roll to less than 1 point.
+
+**Charisma:** This is the ability to influence or even lead people; those with high Charisma are well-liked, or at least highly respected. Apply the Charisma bonus or penalty to reaction rolls. Also, the number of retainers a character may hire, and the loyalty of those retainers, is affected by Charisma.
+
+## Hit Points and Hit Dice
+
+When a character is injured, he or she loses hit points from his or her current total. Note that this does not change the figure rolled, but rather reduces the current total; healing will restore hit points, up to but not exceeding the rolled figure.
+
+When his or her hit point total reaches 0, your character may be dead. This may not be the end for the character; don't tear up the character sheet.
+
+First level characters begin play with a single hit die of the given type, plus the Constitution bonus or penalty, with a minimum of 1 hit point. Each time a character gains a level, the player should roll another hit die and add the character's Constitution bonus or penalty, with the result again being a minimum of 1 point. Add this amount to the character's maximum hit points figure. Note that, after 9^th^ level, characters receive a fixed number of hit points each level, as shown in the advancement table for the class, and no longer add the Constitution bonus or penalty.
+
+## Languages
+
+All characters begin the game knowing their native language. In most campaign worlds, Humans all (or nearly all) speak the same language, often called "Common." Each demi-human race has its own language, i.e. Elvish, Dwarvish, or Halfling, and members of the demi-human races begin play knowing both their own language and Common (or the local Human language if it isn't called Common).
+
+Characters with Intelligence of 13 or higher may choose to begin the game knowing one or more languages other than those given above; the number of additional languages that may be learned is equal to the Intelligence bonus (+1, +2, or +3). Characters may choose to learn other demi-human languages, as well as humanoid languages such as Orc, Goblin, etc. The GM will decide which humanoid languages may be learned. The player may choose to leave one or more bonus language "slots" open, to be filled during play. Some Game Masters may even allow player characters to learn exotic languages such as Dragon; also, "dead" or otherwise archaic languages might be allowed to more scholarly characters.

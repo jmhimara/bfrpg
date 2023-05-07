@@ -1,0 +1,58 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Basic Fantasy RPG, 4th edition"
+  author: "Chris Gonnerman"
+  date: "5/2/2023"  
+  chapters:
+    - index.qmd
+    - part: Introduction
+      chapters:
+        - whatIsThis.qmd
+    - part: Player Characters
+      chapters: 
+        - char-creation.qmd
+        - abilities.qmd
+        - races.qmd
+        - class.qmd
+        - equipment.qmd
+        - vehicles.qmd
+    - part: Magic
+      chapters: 
+        - spells.qmd
+        - allSpells.qmd
+    - part: Adventure
+      chapters: 
+        - dungeonAdventures.qmd
+        - wildAdventures.qmd
+        - hirelings.qmd
+        - advancement.qmd
+    - part: Encounters
+      chapters: 
+        - combat.qmd
+    - part: Monsters
+      chapters: 
+        - monsters.qmd
+        - monstersAll.qmd
+    - part: Treasure
+      chapters: 
+        - treasure.qmd
+        - magicItems.qmd
+    - part: GM Information
+      chapters: 
+        - gm01.qmd
+        - gm02.qmd
+
+
+
+
+format:
+  html:
+    theme: cosmo
+    number-depth: 0
+    css: custom.css
+    toc-depth: 4
+    execute:
+      echo: false

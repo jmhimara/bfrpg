@@ -1,0 +1,157 @@
+# Treasure
+
+*"Your idea was good, Darion," said Morningstar after we had turned the sarcophagus lid halfway around. "You just got in a bit of a hurry to try it."*
+
+*"Indeed," I said, feeling foolish. I looked into the sarcophagus; lying atop the mummified remains inside I saw a sword, held in both bony hands with the point toward the corpse's feet. The golden blade was untarnished; the huge ruby set into the crossguard shone in the torchlight.*
+
+*I didn't reach for it, though I found myself sorely tempted. "Barthal," I said, "tell me, is it safe to reach within?" The Halfling climbed up onto the edge of the platform and leaned over the sarcophagus, peering around within.*
+
+*"I don't see a trap," he remarked after careful study. "Do you think the dead one, there, will rise up if you touch his sword?"*
+
+*"He might," answered Apoqulis, "but I doubt it. The skeletons were likely the only guardians in this tomb."*
+
+*All eyes seemed to be on me. Reluctantly I reached within, grasping the sword by the blade with my mailed glove so as to avoid touching the corpse. The long-dead chieftain didn't want to part with his weapon, but after a bit of twisting I worked it loose.*
+
+*Shaking bits of desiccated flesh from the hilt, I grasped the weapon properly and held it aloft. It felt good in my hand... I wondered what magic it might contain?*
+
+*Barthal's voice shook me out of my contemplation. "Look here!" he said, and I looked down. He had opened a secret panel in the platform... and as I looked on, gold and silver coins began to spill out. Barthal cried out gleefully, "Jackpot!"*
+
+## Distribution of Treasure
+
+Some adventurers choose to adventure to battle evil, while other seek to attain glory or power... but others go in search of treasure, gold and jewels and magical items. Below is the information the Game Master will need to satisfy the greedy.
+
+## Random Treasure Generation
+
+The tables below describe the various treasure types assigned to monsters, as well as unguarded treasures appropriate to various dungeon levels. To generate a random treasure, find the indicated treasure type and read across; where a percentage chance is given, roll percentile dice to see if that sort of treasure is found. If so, roll the indicated dice to determine how much.
+
+Tables for the random generation of gems, jewelry (and bejeweled art pieces), and magic items are provided after the main treasure tables.
+
+## Placed Treasures
+
+The Game Master is never required to roll for treasure; rather, treasure may be placed, or random treasures amended, as desired or needed for the purposes of the adventure. Special treasures are always placed; for example, a special magic item needed to complete an adventure.
+
+## Adjusting Treasure Awards
+
+There will be many cases where random treasure generation is not the best method to employ. For instance, a larger than average treasure assigned to a smaller than average lair of monsters might need to be reduced. It is up to the Game Master to decide how much treasure he or she wishes to allow into the campaign. Too much gold (or other treasure which can be converted to gold) may make things too easy for the player characters. Similarly, too many magic items may also make things too easy.
+
+If you are a novice Game Master, remember that you can always give more treasure, but it can be difficult to drain treasure from the party without angering the players... particularly if you use heavy-handed methods. Start small, and work up as you gain experience.
+
+## Treasure Types:
+
+### Lair Treasures
+
+::: {.column-screen-inset-right}
+
+<div class="tableFixHead">
+
+| **Type** | **100's of** **Copper** | **100's of** **Silver**  | **100's of** **Electrum** | **100's of**  **Gold**   | **100's of** **Platinum** | **Gems and** **Jewelry**  | **Magic Items** |
+|---|---|---|---|---|---|---|---|
+| A | 50% 5d6 | 60% 5d6 | 40% 5d4 | 70% 10d6 | 50% 1d10 | 50% 6d6, 50% 6d6 | 30%any 3 |
+| B | 75% 5d10 | 50% 5d6 | 50% 5d4 | 50% 3d6 | None | 25% 1d6, 25% 1d6 | 10% 1 weapon or armor |
+| C | 60% 6d6 | 60% 5d4 | 30% 2d6 | None | None | 25% 1d4, 25% 1d4 | 15%any 1d2 |
+| D | 30% 4d6 | 45% 6d6 | None | 90% 5d8 | None | 30% 1d8, 30% 1d8 | 20%any 1d2 + 1 potion |
+| E | 30% 2d8 | 60% 6d10 | 50% 3d8 | 50% 4d10 | None | 10% 1d10, 10% 1d10 | 30%any 1d4 + 1 scroll |
+| F | None | 40% 3d8 | 50% 4d8 | 85% 6d10 | 70% 2d8 | 20% 2d12, 10% 1d12 | 35% any 1d4 except weapons + 1 potion + 1 scroll |
+| G | None | None | None | 90% 4d6x10 | 75% 5d8 | 25% 3d6, 25% 1d10 | 50% any 1d4 + 1 scroll |
+| H | 75% 8d10 | 75% 6d10x10 | 75% 3d10x10 | 75% 5d8x10 | 75% 9d8 | 50% 1d100, 50% 10d4 | 20%any 1d4 + 1 potion + 1 scroll |
+| I | None | None | None | None | 80% 3d10 | 50% 2d6, 50% 2d6 | 15%any 1 |
+| J | 45% 3d8 | 45% 1d8 | None | None | None | None  | None |
+| K | None | 90% 2d10 | 35% 1d8 | None | None | None | None |
+| L | None | None | None | None | None | 50% 1d4  | None |
+| M | None | None | None | 90% 4d10 | 90% 2d8x10 | 55% 5d4, 45% 2d6 | None |
+| N | None | None | None | None | None | None | 40%2d4 potions |
+| O | None | None | None | None | None | None | 50%1d4 scrolls |
+
+</div>
+
+:::
+
+### Individual Treasures
+
+::: {.column-screen-inset-right}
+
+| **Type** | **Pieces of** **Copper**  | **Pieces of** **Silver**  | **Pieces of** **Electrum** | **Pieces of** **Gold** | **Pieces of** **Platinum**  | **Gems and** **Jewelry** | **Magic Items** |
+|---|---|---|---|---|---|---|---|
+| P | 3d8 | None | None | None | None | None | None |
+| Q | None | 3d6 | None | None | None | None  | None |
+| R | None | None | 2d6 | None | None | None  | None |
+| S | None | None | None | 2d4 | None | None | None |
+| T | None | None | None | None | 1d6 | None | None |
+| U | 50% 1d20 | 50% 1d20 | None | 25% 1d20 | None | 5% 1d4, 5% 1d4 | 2%Any |
+| V | None | 25% 1d20 | 25% 1d20 | 50% 1d20 | 25% 1d20 | 10% 1d4, 10% 1d4 | 5% Any |
+
+::: 
+
+### Unguarded Treasures
+
+::: {.column-screen-inset-right}
+
+| **Level** | **100's of** **Copper**  | **100's of** **Silver**  | **100's of** **Electrum**  | **100's of** **Gold**  | **100's of** **Platinum**  | **Gems and** **Jewelry**  | **Magic Items** |
+|---|---|---|---|---|---|---|---|
+| 1 | 75%1d8 | 50%1d6 | 25%1d4 | 7%1d4 | 1%1d4 | 7%1d4, 3%1d4 | 2%Any 1 |
+| 2 | 50%1d10 | 50%1d8 | 25%1d6 | 20%1d6 | 2%1d4 | 10%1d6, 7%1d4 | 5%Any 1 |
+| 3 | 30%2d6 | 50%1d10 | 25%1d8 | 50%1d6 | 4%1d4 | 15%1d6, 7%1d6 | 8%Any 1 |
+| 4-5 | 20%3d6 | 50%2d6 | 25%1d10 | 50%2d6 | 8%1d4 | 20%1d8, 10%1d6 | 12%Any 1 |
+| 6-7 | 15%4d6 | 50%3d6 | 25%1d12 | 70%2d8 | 15%1d4 | 30%1d8, 15%1d6 | 16%Any 1 |
+| 8+ | 10%5d6 | 50%5d6 | 25%2d8 | 75%4d6 | 30%1d4 | 40%1d8, 30%1d8 | 20%Any 1 |
+
+::: 
+
+Note: Unguarded treasures should be rare; see the **Game Master** section, below, for advice on placement of unguarded treasure.
+
+### Gems and Jewelry
+
+Use the tables below to determine the base value and number found when gems are indicated in a treasure hoard. If the number generated in the main table above is small, roll for each gem; but if the number is large (10 or more, at the GM's option), after each roll for Type and Base Value, roll the indicated die to see how many such gems are in the hoard.
+
+| **d%** | **Type** | **Base Value** **in Gold Pieces** | **Number** **Found** |
+|---|----|---|----|
+| 01-20 | Ornamental | 10 | 1d10 |
+| 21-45 | Semiprecious | 50 | 1d8 |
+| 46-75 | Fancy | 100 | 1d6 |
+| 76-95 | Precious | 500 | 1d4 |
+| 96-00 | Gem | 1000 | 1d2 |
+|  | Jewel | 5000 | 1 |
+
+The values of gems vary from the above for reasons of quality, size, etc. The GM may use the table below to adjust the values of the gems in the hoard, at his or her option. This is why there is no die result given in the table above for Jewel; on a roll of 12 on the table below, a Gem can become a Jewel.
+
+| **2d6** | **Value Adjustment** |
+|---|----|
+| 2 | Next Lower Value Row |
+| 3 | 1/2 |
+| 4 | 3/4 |
+| 5-9 | Normal Value |
+| 10 | 1.5 Times |
+| 11 | 2 Times |
+| 12 | Next Higher Value Row  |
+
+| **d%** | **Gem Type**  | **d%** | **Gem Type** |
+|---|----|---|----|
+| 01-10 | Greenstone |  66-70 | Topaz |
+| 11-20 | Malachite |  71-75 | Bloodstone |
+| 21-28 | Aventurine |  76-79 | Sapphire |
+| 29-38 | Phenalope |  80-89 | Diamond |
+| 39-45 | Amethyst |  90-94 | Fire Opal |
+| 46-54 | Fluorospar |  95-97 | Ruby |
+| 55-60 | Garnet |  98-00 | Emerald |
+| 61-65 | Alexandrite |   |  |
+
+Standard items of jewelry are valued at 2d8x100 gp value. The table below can be used to generate descriptions of the items themselves.
+
+
+| **d%** | **Type** |  **d%** | **Type** |
+|---|----|---|----|
+| 01-06 | Anklet |  56-62 | Earring |
+| 07-12 | Belt |  63-65 | Flagon |
+| 13-14 | Bowl |  66-68 | Goblet |
+| 15-21 | Bracelet  | 69-73 | Knife |
+| 22-27 | Brooch |  74-77 | Letter Opener |
+| 28-32 | Buckle |  78-80 | Locket |
+| 33-37 | Chain |  81-82 | Medal |
+| 38-40 | Choker |  83-89 | Necklace |
+| 41-42 | Circlet |  90 | Plate |
+| 43-47 | Clasp |  91-95 | Pin |
+| 48-51 | Comb |  96 | Sceptre |
+| 52 | Crown |  97-99 | Statuette |
+| 53-55 | Cup |  00 | Tiara
+
+ |
