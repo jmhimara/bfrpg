@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Basic Fantasy RPG, 4th edition - 1&nbsp; Introduction</title>
+<title>Basic Fantasy RPG, 4th edition - 17&nbsp; Monsters Index</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,8 +64,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./char-creation.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./treasure.html" rel="next">
+<link href="./monstersAll.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -60,13 +94,15 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
 
 
 <link rel="stylesheet" href="custom.css">
 </head>
 
-<body class="nav-sidebar floating slimcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -75,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./whatIsThis.html">Introduction</a></li><li class="breadcrumb-item"><a href="./whatIsThis.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./monsters.html">Monsters</a></li><li class="breadcrumb-item"><a href="./monstersTab.html"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Monsters Index</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -117,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./whatIsThis.html" class="sidebar-item-text sidebar-link active">
+  <a href="./whatIsThis.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
   </div>
 </li>
@@ -268,7 +304,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./monstersTab.html" class="sidebar-item-text sidebar-link">
+  <a href="./monstersTab.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Monsters Index</span></span></a>
   </div>
 </li>
@@ -318,6 +354,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Crafting Adventures</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./test.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Animals</span></span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -326,23 +368,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#what-is-this" id="toc-what-is-this" class="nav-link active" data-scroll-target="#what-is-this">What is this ?</a></li>
-  <li><a href="#what-is-a-role-playing-game" id="toc-what-is-a-role-playing-game" class="nav-link" data-scroll-target="#what-is-a-role-playing-game">What is a Role-Playing Game?</a></li>
-  <li><a href="#what-do-i-need-to-play" id="toc-what-do-i-need-to-play" class="nav-link" data-scroll-target="#what-do-i-need-to-play">What Do I Need to Play?</a></li>
-  <li><a href="#using-the-dice" id="toc-using-the-dice" class="nav-link" data-scroll-target="#using-the-dice">Using the Dice</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
+<h1 class="title"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Monsters Index</span></h1>
 </div>
 
 
@@ -357,56 +390,101 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><em>It was our third foray into the dungeons beneath the ancient fortress in the middle of the river. We were on the second level down from the ruins, standing before the great bronze doors beyond which we believed lay the tomb of an ancient barbarian chieftain. I hadn’t believed the tales of the old drunk at the tavern back at Morgansfort, but for some reason Apoqulis, the Cleric, believed him. Turned out his stories were true… mostly, anyway.</em></p>
-<p><em>I held a torch for Barthal, the Thief, as he tried briefly to pick the lock. He turned around and said, “It must be held by magic. The lock won’t even wiggle.”</em></p>
-<p><em>Morningstar, the Elf, smiled. “I have just the thing,” she said, drawing from her backpack the scroll we took from the goblins. She unrolled it and began to read, and though I couldn’t understand her words I could see the characters burning away as she read them, little wisps of smoke as from a candle rising up from each in turn. Seeing that she was nearly through, I turned my attention to the lock. I’m not sure what I was expecting, but the little puff of dust that came from it as she finished didn’t seem like much. She turned to Barthal and said, “Try again.”</em></p>
-<p><em>I’m tempted to say that Barthal bent to his work, but he’s a Halfling; at just over three feet tall he could look straight into the lock without stooping a bit. I must have looked impatient, as Apoqulis leaned over to me and said, “Be still, Darion, he’ll be through in a moment or two.”</em></p>
-<p><em>Then I heard a loud click, and Barthal turned to me with a smile. “It’s open, my friend. After you!” I handed him the torch, then stepped to the doors, sword drawn, and Morningstar joined me, likewise ready. I steeled myself and opened the doors…</em></p>
-<p><em>Beyond lay a stone sarcophagus, resting atop a raised platform. Strewn about the floor were many human skeletons. Apoqulis made a sign with his hand that I didn’t recognize; then we walked in carefully, trying not to trip over the bones. I noticed among the bones several bronze swords, covered in verdigris. I stepped to the sarcophagus. “The lid is likely very heavy,” I said. “Come, Morningstar, rather than lift it, let’s turn it about so we can see what treasures lie inside.”</em></p>
-<p><em>Morningstar called “Wait!” but it was too late… I had already laid hands upon the sarcophagus. The bones on the floor began to rattle, then rose up and assembled themselves in a mockery of life. Without delay they picked up their swords from the floor and began to attack us. I would have to wait until later to kick myself, I mused, as I put my back against the sarcophagus and began to fight the monsters…</em></p>
-<section id="what-is-this" class="level1">
-<h1>What is this ?</h1>
-<p>The <strong>Basic Fantasy Role-Playing Game</strong> is a rules-light game system written with inspiration from early roleplaying game systems.&nbsp; It is intended for those who are fans of “old-school” game mechanics.&nbsp; Basic Fantasy RPG is simple enough for children in perhaps second or third grade to play, yet still has enough depth for adults as well.</p>
-</section>
-<section id="what-is-a-role-playing-game" class="level1">
-<h1>What is a Role-Playing Game?</h1>
-<p>In the almost 50 years since the first role-playing game appeared, much has changed. Most people have at least heard the names of one or two such games, and many, many people have played. Still, there are those who have not tried RPGs; if you are one of those people, this part is for you.</p>
-<p>Role-playing games are played by a number of players, commonly two to eight, and a Game Master, or GM (often called something else, but the job remains the same regardless of the title). Each player generally plays one character, called a player character or PC, while the Game Master is responsible for running the world, creating and managing the towns, nations, ruins, non-player characters (or NPCs), monsters, treasure, and all other things that aid or challenge the players. Dice are often used to determine the success or failure of most actions that take place in the game; Basic Fantasy RPG uses polyhedral dice, described below, for this purpose.</p>
-<p>In <em>effect</em>, role-playing games are just grown-up games of pretend. If you remember playing pretend as a child, you may recall having some difficulty deciding whose idea should have precedence… if one child plays a knight and the other a dragon, who will win? Surely the knight doesn’t win every time. Role-playing games have rules to determine such things. These rules can range from the very free-form and simple to the very complex and detailed.</p>
-<p>This game attempts to walk the line between simple and complex, free-form and detailed. Too much detail and complexity slows the game down as players and GM spend much time leafing through the rules and little time actually playing. Free-form games with simple resolution systems demand more mental agility from the participants, and are much more dependent on the good judgment of the Game Master to maintain balance. Basic Fantasy Role-Playing Game falls between these two extremes, having rules for the most common activities and guidelines to help the Game Master judge the unexpected.</p>
-</section>
-<section id="what-do-i-need-to-play" class="level1 page-columns page-full">
-<h1>What Do I Need to Play?</h1>
-<p>If you are to be a player, you should have a pencil, some notebook paper, and a set of dice. Someone in your player group probably needs to have some graph paper (4 or 5 squares per inch is best) for drawing maps. You can use preprinted character sheets (such as those available on the Basic Fantasy RPG website) if you wish, but notebook paper works fine.</p>
+<p>Select search field(s). Hold <code>shift</code> or drag mouse to select multiple.</p>
+<p>Monster name is always part of the search field.</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="7" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 6;"><span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> d <span class="op">=</span> <span class="cf">await</span> <span class="fu">FileAttachment</span>(<span class="st">"monsters.json"</span>)<span class="op">.</span><span class="fu">json</span>()</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> d</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-1" data-nodetype="declaration">
 
-<div class="no-row-height column-margin column-container"><div class="">
-<p><img src="./images/d20.jpg" class="img-fluid" style="width:50.0%"></p>
-</div></div><p>If you are the Game Master, you need all of the above. If this is your first time as GM, or you have limited preparation time, you might wish to use a pre-written adventure (called a module) rather than create one yourself. Several modules are distributed for free on the <a href="https://www.basicfantasy.org/">basicfantasy.org</a> website; many of the modules available on the website are specifically designed for use with a party of new players. Adventure modules written for other game systems may also be used, but the Game Master may need to spend some time “converting” such a module before beginning play.</p>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="15" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 14;"><span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>cols <span class="op">=</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">keys</span>(data[<span class="dv">0</span>])</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>cols2 <span class="op">=</span> cols<span class="op">.</span><span class="fu">slice</span>(<span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-1" data-nodetype="declaration">
 
-<div class="no-row-height column-margin column-container"><div class="">
-<p><img src="./images/d10.jpg" class="img-fluid" style="width:50.0%"></p>
-<p><img src="./images/d100.jpg" class="img-fluid" style="width:50.0%"></p>
-</div><div class="">
-<p><img src="./images/d4.jpg" class="img-fluid" style="width:50.0%"></p>
-</div><div class="">
-<p><img src="./images/d6.jpg" class="img-fluid" style="width:50.0%"></p>
-<p><img src="./images/d8.jpg" class="img-fluid" style="width:50.0%"></p>
-<p><img src="./images/d12.jpg" class="img-fluid" style="width:50.0%"></p>
-</div></div>
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-2" data-nodetype="declaration">
 
-</section>
-<section id="using-the-dice" class="level1">
-<h1>Using the Dice</h1>
-<p>The 20 sided die, or <strong>d20</strong>, is one of the most important dice in the game: it is used to resolve attack rolls and saving throws (concepts that will be explained later). In general, the die is rolled, modifiers added or subtracted, and if the total result equals or exceeds a target number, the roll is a success; otherwise it has failed.</p>
-<p>The 10 sided die, or <strong>d10</strong>, is used to generate numbers from 1 to 10; it is numbered 0 to 9, but a roll of 0 is normally counted as 10. A pair of d10’s are also used together to generate numbers from 1 to 100, where a roll of 00 is counted as 100. The two dice should be different colors, and the player must declare which is the tens die and which is the ones die before rolling them! (Or, the player may have a die marked with double digits, as shown.) Rolling two d10’s in this way is called a <strong>percentile roll</strong>, or <strong>d%</strong>. These rolls are generally against target numbers, but for the roll to be a success, the result must be equal to or less than the target number. So for example, a character using a Thief ability (described later) with a 30% chance of success rolls the dice: if the result is 01 to 30, the roll is a success.</p>
-<p>The 4 sided die, or <strong>d4</strong>, is a special case. It is not so much rolled as “flipped,” and the number which is upright is the result of the roll. Note that d4’s are made in two different styles, as shown; regardless of which style you have, the number rolled is the one which is upright on all visible sides.</p>
-<p>The other dice normally used have 6, 8, and 12 sides, and are called <strong>d6</strong>, <strong>d8</strong>, and <strong>d12</strong>. d6’s may be made with either numbers or pips; it makes no difference which type you choose.</p>
-<p>When multiple dice are to be rolled and added together, it’s noted in the text like this: <strong>2d6</strong> (roll two d6 dice and add them together), or <strong>3d4</strong> (roll three d4 dice and add them together). A modifier may be noted as a “plus” value, such as <strong>2d8+2</strong> (roll two d8 dice and add them together, then add 2 to the total).</p>
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="19" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 18;"><span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>viewof theseCols <span class="op">=</span>  Inputs<span class="op">.</span><span class="fu">select</span>(cols2<span class="op">,</span> {<span class="dt">multiple</span><span class="op">:</span><span class="kw">true</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span>cols2})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="25" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 24;"><span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>viewof search  <span class="op">=</span> {</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> n <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">search</span>(data<span class="op">,</span>{</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>  <span class="dt">columns</span><span class="op">:</span>[cols[<span class="dv">0</span>]]<span class="op">.</span><span class="fu">concat</span>(theseCols)</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="cf">return</span> n</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-4" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="column-screen table-responsive">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="38" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 37;"><span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">table</span>(search<span class="op">,</span> {<span class="dt">width</span><span class="op">:</span><span class="st">"auto"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-5-1" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="40" data-source-offset="-40"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 39;"><span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> div <span class="op">=</span> d3<span class="op">.</span><span class="fu">select</span>(DOM<span class="op">.</span><span class="fu">element</span>(<span class="st">'div'</span>))</span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">style</span>(<span class="st">'overflow-x'</span><span class="op">,</span> <span class="st">'auto'</span>)<span class="op">;</span></span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> div<span class="op">.</span><span class="fu">node</span>()<span class="op">;</span></span>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-5-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
+
+<script type="ojs-module-contents">
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"data = {\r\n  const d = await FileAttachment(\"monsters.json\").json()\r\n  return d\r\n}\r\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"cols = Object.keys(data[0])\r\ncols2 = cols.slice(1)\r\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"viewof theseCols =  Inputs.select(cols2, {multiple:true, value:cols2})\r\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"viewof search  = {\r\n  let n = Inputs.search(data,{\r\n  columns:[cols[0]].concat(theseCols)\r\n});\r\nreturn n\r\n}\r\n"},{"methodName":"interpret","cellName":"ojs-cell-5","inline":false,"source":"Inputs.table(search, {width:\"auto\"})\r\n\r\n{\r\n      const div = d3.select(DOM.element('div'))\r\n    .style('overflow-x', 'auto');\r\n\r\n  return div.node();\r\n}\r\n"},{"methodName":"interpretQuiet","source":"shinyInput('theseCols')"},{"methodName":"interpretQuiet","source":"shinyInput('search')"}]}
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -642,13 +720,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      <a href="./monstersAll.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Monster Descriptions</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./char-creation.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Player Characters</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./treasure.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Treasure</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

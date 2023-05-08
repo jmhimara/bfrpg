@@ -35,17 +35,12 @@ This game attempts to walk the line between simple and complex, free-form and de
 If you are to be a player, you should have a pencil, some notebook paper, and a set of dice.  Someone in your player group probably needs to have some graph paper (4 or 5 squares per inch is best) for drawing maps.  You can use preprinted character sheets (such as those available on the Basic Fantasy RPG website) if you wish, but notebook paper works fine.
 
 
-If you are the Game Master, you need all of the above. If this is your first time as GM, or you have limited preparation time, you might wish to use a pre-written adventure (called a module) rather than create one yourself.  Several modules are distributed for free on the [basicfantasy.org](https://www.basicfantasy.org/) website; many of the modules available on the website are specifically designed for use with a party of new players.  Adventure modules written for other game systems may also be used, but the Game Master may need to spend some time "converting" such a module before beginning play.
-
-# Using the Dice
-
-The 20 sided die, or **d20**, is one of the most important dice in the game: it is used to resolve attack rolls and saving throws (concepts that will be explained later).  In general, the die is rolled, modifiers added or subtracted, and if the total result equals or exceeds a target number, the roll is a success; otherwise it has failed.
-
 ::: {.column-margin}
 ![](./images/d20.jpg){width=50%}
 :::
 
-The 10 sided die, or **d10**, is used to generate numbers from 1 to 10; it is numbered 0 to 9, but a roll of 0 is normally counted as 10.  A pair of d10's are also used together to generate numbers from 1 to 100, where a roll of 00 is counted as 100.  The two dice should be different colors, and the player must declare which is the tens die and which is the ones die before rolling them!  (Or, the player may have a die marked with double digits, as shown.) Rolling two d10's in this way is called a **percentile roll**, or **d%**.  These rolls are generally against target numbers, but for the roll to be a success, the result must be equal to or less than the target number.  So for example, a character using a Thief ability (described later) with a 30% chance of success rolls the dice: if the result is 01 to 30, the roll is a success.
+
+If you are the Game Master, you need all of the above. If this is your first time as GM, or you have limited preparation time, you might wish to use a pre-written adventure (called a module) rather than create one yourself.  Several modules are distributed for free on the [basicfantasy.org](https://www.basicfantasy.org/) website; many of the modules available on the website are specifically designed for use with a party of new players.  Adventure modules written for other game systems may also be used, but the Game Master may need to spend some time "converting" such a module before beginning play.
 
 ::: {.column-margin}
 ![](./images/d10.jpg){width=50%}
@@ -53,13 +48,9 @@ The 10 sided die, or **d10**, is used to generate numbers from 1 to 10; it is nu
 ![](./images/d100.jpg){width=50%}
 :::
 
-The 4 sided die, or **d4**, is a special case. It is not so much rolled as "flipped," and the number which is upright is the result of the roll.  Note that d4's are made in two different styles, as shown; regardless of which style you have, the number rolled is the one which is upright on all visible sides.
-
 ::: {.column-margin}
 ![](./images/d4.jpg){width=50%}
 :::
-
-The other dice normally used have 6, 8, and 12 sides, and are called **d6**, **d8**, and **d12**.  d6's may be made with either numbers or pips; it makes no difference which type you choose.
 
 ::: {.column-margin}
 ![](./images/d6.jpg){width=50%}
@@ -69,5 +60,22 @@ The other dice normally used have 6, 8, and 12 sides, and are called **d6**, **d
 ![](./images/d12.jpg){width=50%}
 
 :::
+
+# Using the Dice
+
+The 20 sided die, or **d20**, is one of the most important dice in the game: it is used to resolve attack rolls and saving throws (concepts that will be explained later).  In general, the die is rolled, modifiers added or subtracted, and if the total result equals or exceeds a target number, the roll is a success; otherwise it has failed.
+
+
+The 10 sided die, or **d10**, is used to generate numbers from 1 to 10; it is numbered 0 to 9, but a roll of 0 is normally counted as 10.  A pair of d10's are also used together to generate numbers from 1 to 100, where a roll of 00 is counted as 100.  The two dice should be different colors, and the player must declare which is the tens die and which is the ones die before rolling them!  (Or, the player may have a die marked with double digits, as shown.) Rolling two d10's in this way is called a **percentile roll**, or **d%**.  These rolls are generally against target numbers, but for the roll to be a success, the result must be equal to or less than the target number.  So for example, a character using a Thief ability (described later) with a 30% chance of success rolls the dice: if the result is 01 to 30, the roll is a success.
+
+
+
+The 4 sided die, or **d4**, is a special case. It is not so much rolled as "flipped," and the number which is upright is the result of the roll.  Note that d4's are made in two different styles, as shown; regardless of which style you have, the number rolled is the one which is upright on all visible sides.
+
+
+
+The other dice normally used have 6, 8, and 12 sides, and are called **d6**, **d8**, and **d12**.  d6's may be made with either numbers or pips; it makes no difference which type you choose.
+
+
 
 When multiple dice are to be rolled and added together, it's noted in the text like this: **2d6** (roll two d6 dice and add them together), or **3d4** (roll three d4 dice and add them together).  A modifier may be noted as a "plus" value, such as **2d8+2** (roll two d8 dice and add them together, then add 2 to the total).

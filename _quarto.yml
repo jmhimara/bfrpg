@@ -36,6 +36,7 @@ book:
       chapters: 
         - monsters.qmd
         - monstersAll.qmd
+        - monstersTab.qmd
     - part: Treasure
       chapters: 
         - treasure.qmd
@@ -44,9 +45,7 @@ book:
       chapters: 
         - gm01.qmd
         - gm02.qmd
-
-
-
+        - test.qmd
 
 format:
   html:

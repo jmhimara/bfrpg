@@ -1,0 +1,48 @@
+# Monsters Index
+
+Select search field(s). Hold `shift` or drag mouse to select multiple. 
+
+Monster name is always part of the search field. 
+
+```{ojs}
+data = {
+  const d = await FileAttachment("monsters.json").json()
+  return d
+}
+```
+
+```{ojs}
+cols = Object.keys(data[0])
+cols2 = cols.slice(1)
+```
+
+```{ojs}
+viewof theseCols =  Inputs.select(cols2, {multiple:true, value:cols2})
+```
+
+<br>
+
+```{ojs}
+viewof search  = {
+  let n = Inputs.search(data,{
+  columns:[cols[0]].concat(theseCols)
+});
+return n
+}
+```
+
+<br>
+
+::: {.column-screen .table-responsive}
+```{ojs}
+Inputs.table(search, {width:"auto"})
+
+{
+      const div = d3.select(DOM.element('div'))
+    .style('overflow-x', 'auto');
+
+  return div.node();
+}
+```
+
+::: 

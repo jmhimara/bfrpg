@@ -34,7 +34,7 @@ export function turnUndead (level, roll) {
         return "1 HD / Skeleton"
       } else if (roll >=17 && roll < 19) {
         return "2 HD / Zombie"
-      } else if (roll >=17 && roll < 19) {
+      } else if (roll >=17 && roll < 21) {
         return "3 HD / Ghoul"
       } else { return "Nothing"}
     case 2:

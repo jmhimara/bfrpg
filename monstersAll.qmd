@@ -1,8 +1,21 @@
+---
+format: 
+  html:
+    includes: include-after-body
+---
+
 # Monster Descriptions 
+
+<input type="text" id="input" placeholder="Filter Monsters">
+
+<!-- <div class="container"> -->
+
+<div class="monster" data-tag="Ant, Giant"  >
 
 ## Ant, Giant
 
-|   |   |
+
+|   | Ant, Giant  |
 |--------------|----|
 | Armor Class: | 17 |
 | Hit Dice: | 4 |
@@ -19,9 +32,12 @@ Giant ants are among the hardiest and most adaptable vermin. Soldiers and worker
 
 Giant ants may occasionally mine shiny metals such as gold or silver; one in three (1-2 on 1d6) giant ant lairs will contain 1d100 x 1d100 gp value in relatively pure nuggets.
 
+</div>
+<div class="monster" data-tag="Antelope" >
+
 ## Antelope
 
-|   |   |
+|   | Antelope  |
 |--------------|----|
 | Armor Class: | 13 |
 | Hit Dice: | 1 to 4 |
@@ -36,9 +52,12 @@ Giant ants may occasionally mine shiny metals such as gold or silver; one in thr
 
 The statistics above represent common sorts of wild herd animals, including deer (1 hit die), aurochs (2 hit dice), elk or moose (3 hit dice) and bison (4 hit dice). Such creatures are often skittish and likely to flee if provoked, but males are more aggressive in the presence of females (the parenthesized morale applies in this case).
 
+</div>
+<div class="monster" data-tag="Ape, Carnivorous" >
+
 ## Ape, Carnivorous
 
-|   |   |
+|   | Ape, Carnivorous  |
 |--------------|----|
 | Armor Class: | 14 |
 | Hit Dice: | 4 |
@@ -53,9 +72,12 @@ The statistics above represent common sorts of wild herd animals, including deer
 
 These powerful creatures resemble gorillas but are far more aggressive; though they are actually omnivores, they prefer meat, and they kill and eat anything they can catch. An adult male carnivorous ape is 5-1/2 to 6 feet tall and weighs 300 to 400 pounds.
 
+</div>
+<div class="monster" data-tag="Assassin Vine" >
+
 ## Assassin Vine
 
-|   |   |
+|   |  Assassin Vine |
 |--------------|----|
 | Armor Class: | 15 |
 | Hit Dice: | 6 |
@@ -78,9 +100,12 @@ A mature plant consists of a main vine, about 20 feet long. Smaller vines up to 
 
 A subterranean version of the assassin vine grows near hot springs, volcanic vents, and other sources of thermal energy. These plants have thin, wiry stems and gray leaves shot through with silver, brown, and white veins so that they resemble mineral deposits. An assassin vine growing underground usually generates enough offal to support a thriving colony of mushrooms and other fungi, which spring up around the plant and help conceal it.
 
+</div>
+<div class="monster" data-tag="Basilisk" >
+
 ## Basilisk
 
-|   |   |
+|   |  Basilisk |
 |--------------|-----|
 | Armor Class: | 16 |
 | Hit Dice: | 6** |
@@ -96,6 +121,9 @@ A subterranean version of the assassin vine grows near hot springs, volcanic ven
 A basilisk is an eight-legged reptilian monster that petrifies living creatures with a mere gaze. A basilisk usually has a dull brown body with a yellowish underbelly. Some specimens sport a short, curved horn atop the nose. An adult basilisk's body grows to about 6 feet long, not including its tail, which can reach an additional length of 5 to 7 feet. The creature weighs about 300 pounds.
 
 Any living creature which meets the gaze of the basilisk must save vs. Petrification or be turned to stone instantly. In general, any creature surprised by the basilisk will meet its gaze. Those who attempt to fight the monster while averting their eyes suffer penalties of -4 to attack and -2 to AC. It is possible to use a mirror to fight the monster, in which case the penalties are -2 to attack and no penalty to AC. If a basilisk sees its own reflection in a mirror it must save vs. Petrification or be turned to stone; a petrified basilisk loses its power to petrify. Basilisks instinctively avoid mirrors or other reflective surfaces, even drinking with their eyes closed, but if an attacker can manage to surprise the monster with a mirror it may see its reflection.
+
+</div>
+<div class="monster" data-tag="Bat (and Bat, Giant)" >
 
 ## Bat (and Bat, Giant)
 
@@ -118,13 +146,19 @@ A group of normal-sized bats has no effective attack (at least in terms of doing
 
 A giant bat has a wingspan of 15 feet and weighs about 200 pounds. They have the same sensory abilities as normal-sized bats, but being much larger, they are able to attack adventurers; many are carnivorous, making such attacks likely.
 
+</div>
+<div class="monster" data-tag="Bear" >
+
 ## Bear
 
 Bears attack by rending opponents with their claws, dragging them in and biting them. A successful hit with both paws indicates a hug attack for additional damage (as given for each specific bear type). All bears are very tough to kill, and are able to move and attack for one round after losing all hit points.
 
+</div>
+<div class="monster" data-tag=" Bear, Black" >
+
 ### Bear, Black
 
-|   |   |
+|   |  Bear, Black |
 |--------------|-----|
 | Armor Class: | 14 |
 | Hit Dice: | 4 |
@@ -141,9 +175,12 @@ The black bear is a forest-dwelling omnivore that usually is not dangerous unles
 
 Black bears may actually be pure black, blond, or cinnamon in color. They are rarely more than 5 feet long.
 
+</div>
+<div class="monster" data-tag=" Bear, Cave" >
+
 ### Bear, Cave
 
-|   |   |
+|   |   Bear, Cave |
 |--------------|-----|
 | Armor Class: | 15 |
 | Hit Dice: | 7 |
@@ -158,9 +195,12 @@ Black bears may actually be pure black, blond, or cinnamon in color. They are ra
 
 These monstrous bears are even larger than grizzly bears. They are ferocious killers, attacking almost anything of equal or smaller size.
 
+</div>
+<div class="monster" data-tag=" Bear, Grizzly (or Brown)" >
+
 ### Bear, Grizzly (or Brown)
 
-|   |   |
+|   |   Bear, Grizzly (or Brown) |
 |--------------|-----|
 | Armor Class: | 14 |
 | Hit Dice: | 5 |
@@ -175,9 +215,12 @@ These monstrous bears are even larger than grizzly bears. They are ferocious kil
 
 These massive carnivores weigh more than 1,800 pounds and stand nearly 9 feet tall when they rear up on their hind legs. They are bad-tempered and territorial.
 
+</div>
+<div class="monster" data-tag=" Bear, Polar" >
+
 ### Bear, Polar
 
-|   |   |
+|   |   Bear, Polar |
 |--------------|-----|
 | Armor Class: | 14 |
 | Hit Dice: | 6 |
@@ -192,9 +235,12 @@ These massive carnivores weigh more than 1,800 pounds and stand nearly 9 feet ta
 
 These long, lean carnivores are slightly taller than grizzly bears, and just as hostile.
 
+</div>
+<div class="monster" data-tag="Bee, Giant" >
+
 ## Bee, Giant
 
-|   |   |
+|   |  Bee, Giant |
 |--------------|-----|
 | Armor Class: | 13 |
 | Hit Dice: | 1d4hp* |
@@ -209,9 +255,12 @@ These long, lean carnivores are slightly taller than grizzly bears, and just as 
 
 Although many times larger, growing to a length of about a foot, giant bees behave generally the same as their smaller cousins. Giant bees are usually not aggressive except when defending themselves or their hive. Those stung by a giant bee must save vs. Poison or die. A giant bee that successfully stings another creature pulls away, leaving its stinger in the creature. The bee then dies.
 
+</div>
+<div class="monster" data-tag="Beetle, Giant Bombardier" >
+
 ## Beetle, Giant Bombardier
 
-|   |   |
+|   |  Beetle, Giant Bombardier |
 |--------------|-----|
 | Armor Class: | 16 |
 | Hit Dice: | 2* |
@@ -228,9 +277,12 @@ Giant bombardier beetles have red head and thorax sections and black abdomens. T
 
 Giant bombardier beetles, like most beetles, have more or less the same visual acuity in all directions, and thus suffer no penalty to Armor Class when attacked from behind.
 
+</div>
+<div class="monster" data-tag="Beetle, Giant Fire" >
+
 ## Beetle, Giant Fire
 
-|   |   |
+|   |  Beetle, Giant Fire |
 |--------------|-----|
 | Armor Class: | 16 |
 | Hit Dice: | 1+2 |
@@ -247,9 +299,12 @@ These luminous nocturnal insects are prized by miners and adventurers. They have
 
 Giant fire beetles are about 2 feet long. They are normally timid but will fight if cornered. Like most beetles, they have more or less the same visual acuity in all directions, and thus suffer no penalty to Armor Class when attacked from behind.
 
+</div>
+<div class="monster" data-tag="Beetle, Giant Tiger" >
+
 ## Beetle, Giant Tiger
 
-|   |   |
+|   |  Beetle, Giant Tiger |
 |--------------|-----|
 | Armor Class: | 17 |
 | Hit Dice: | 3+1 |
@@ -266,9 +321,12 @@ Giant tiger beetles are predatory monsters around 5 feet long. Their carapaces t
 
 They are fast runners, depending on their speed to run down prey, and they willingly prey on any creature of man size or smaller. Like most beetles, they have more or less the same visual acuity in all directions, and thus suffer no penalty to Armor Class when attacked from behind.
 
+</div>
+<div class="monster" data-tag="Black Pudding*" >
+
 ## Black Pudding*
 
-|   |   |
+|   |  Black Pudding* |
 |--------------|-----|
 | Armor Class: | 14 |
 | Hit Dice: | 10* (+9) |
@@ -289,9 +347,12 @@ Cold or ice based attacks do not harm a black pudding, but such an attack will p
 
 The typical black pudding measures 10 feet across and 2 feet thick, and weighs about 10,000 pounds. Black puddings of smaller sizes may be encountered, possibly as a result of the splitting described above.
 
+</div>
+<div class="monster" data-tag="Blink Dog" >
+
 ## Blink Dog
 
-|   |   |
+|   |  Blink Dog |
 |--------------|-----|
 | Armor Class: | 15 |
 | Hit Dice: | 4* |
@@ -310,9 +371,12 @@ Blink dogs hunt in packs, teleporting in a seemingly random fashion until they s
 
 Blink dogs are medium-sized dogs, typically light brown in color and short haired, though other varieties are rumored to exist. They have their own language, a mixture of barks, yaps, whines, and growls that can transmit complex information. They are usually shy, avoiding a fight if possible, but they hate **displacers** and will generally attack them on sight.
 
+</div>
+<div class="monster" data-tag="Blood Rose" >
+
 ## Blood Rose
 
-|   |   |
+|   |  Blood Rose |
 |--------------|-----|
 | Armor Class: | 13 |
 | Hit Dice: | 2* to 4* |
@@ -331,9 +395,12 @@ The fragrance of the flowers is detectable up to 30' from the plant in ideal con
 
 Each blood rose plant will have 1, 2 or 3 whiplike canes studded with thorns with which it can attack. When a cane hits, it wraps around the victim and begins to drain blood, doing 1d6 points of damage per round. A blood rose which has recently (within one day) "eaten" this way will have flowers ranging from pink to deep wine red in color, which will fade slowly back to white or yellow as the plant digests the blood it has consumed.
 
+</div>
+<div class="monster" data-tag="Boar" >
+
 ## Boar
 
-|   |   |
+|   |  Boar |
 |--------------|-----|
 | Armor Class: | 13 |
 | Hit Dice: | 3 |
@@ -350,9 +417,12 @@ Though not carnivores, these wild swine are bad-tempered and usually charge anyo
 
 A boar is covered in coarse, grayish-black fur. Adults are about 4 feet long and 3 feet high at the shoulder.
 
+</div>
+<div class="monster" data-tag="Bugbear" >
+
 ## Bugbear
 
-|   |   |
+|   |  Bugbear |
 |--------------|-----|
 | Armor Class: | 15 (13) |
 | Hit Dice: | 3+1 |
@@ -371,9 +441,12 @@ Bugbears prefer to ambush opponents if they can. When hunting, they often send s
 
 One out of every eight bugbears will be a hardened warrior of 4+4 Hit Dice (240 XP), with a +2 bonus to damage. In lairs of 16 or more bugbears, there will be a chieftain of 6+6 Hit Dice (500 XP), with a +3 bonus to damage. Bugbears gain a +1 bonus to their morale if they are led by a hardened warrior or chieftain. In the lair, bugbears never fail a morale check as long as the chieftain is alive. In addition, there is a 2 in 6 chance that a shaman will be present in a lair. A shaman is equal to an ordinary bugbear statistically, but possesses 1d4+1 levels of Clerical abilities.
 
+</div>
+<div class="monster" data-tag="Caecilia, Giant" >
+
 ## Caecilia, Giant
 
-|   |   |
+|   |  Caecilia, Giant |
 |--------------|-----|
 | Armor Class: | 14 |
 | Hit Dice: | 6* |
@@ -392,9 +465,12 @@ A caecilia can swallow a single small humanoid or demi-human (such as a goblin o
 
 Once a caecilia has swallowed an opponent, it will generally attempt to disengage from combat, going to its lair to rest and digest its meal.
 
+</div>
+<div class="monster" data-tag="Cave Locust, Giant" >
+
 ## Cave Locust, Giant
 
-|   |   |
+|   |  Cave Locust, Giant |
 |--------------|-----|
 | Armor Class: | 16 |
 | Hit Dice: | 2** |
@@ -419,9 +495,12 @@ A giant cave locust can leap up to 60' horizontally, or up to 30' up. If one of 
 
 Finally, a giant cave locust can spray a greenish-brown goo (its digestive juices) up to 10' away. Each giant cave locust can perform this attack just once per encounter. This spit attack will usually be reserved until they fail a morale check, in which case all remaining giant cave locusts will spit at their nearest opponent, and then all will attempt to flee in the next round. To spit on an opponent, the giant cave locust rolls an attack against Armor Class 11 (plus Dexterity and magical bonuses, but no normal armor value applies). If the attack hits, the target must save vs. Poison or be unable to do anything for 3d6 rounds due to the horrible smell.
 
+</div>
+<div class="monster" data-tag="Caveman" >
+
 ## Caveman
 
-|   |   |
+|   |  Caveman |
 |--------------|-----|
 | Armor Class: | 12 |
 | Hit Dice: | 2 |
@@ -436,9 +515,12 @@ Finally, a giant cave locust can spray a greenish-brown goo (its digestive juice
 
 Cavemen are a species closely related to humans; they are shorter and stockier, and much more heavily muscled. They do not all actually live in caves. Whether they are actually less intelligent than "normal" humans or not is a matter of debate, but it is true that they do not have the facility for language as other human, demi-human and humanoid races.
 
+</div>
+<div class="monster" data-tag="Centaur" >
+
 ## Centaur
 
-|   |   |
+|   |  Centaur |
 |--------------|-----|
 | Armor Class: | 15 (13) |
 | Hit Dice: | 4 |
@@ -455,9 +537,12 @@ Centaurs appear to be half man, half horse, having the torso, arms and head of a
 
 Centaurs are generally haughty and aloof, but very honorable. Most would rather die than allow humans, demi-humans, or humanoids to ride on their backs.
 
+</div>
+<div class="monster" data-tag="Centipede, Giant" >
+
 ## Centipede, Giant
 
-|   |   |
+|   |  Centipede, Giant |
 |--------------|-----|
 | Armor Class: | 11 |
 | Hit Dice: | 1d4 Hit Points* |
@@ -474,9 +559,12 @@ Giant centipedes are larger versions of the normal sort, being 2 to 3 feet long.
 
 Giant centipedes tend to attack anything that resembles food, biting with their jaws and injecting their poison. Those bitten by a giant centipede must save vs. Poison at +2 or die.
 
+</div>
+<div class="monster" data-tag="Cheetah" >
+
 ## Cheetah
 
-|   |   |
+|   |  Cheetah |
 |--------------|-----|
 | Armor Class: | 14 |
 | Hit Dice: | 2 |
@@ -491,9 +579,12 @@ Giant centipedes tend to attack anything that resembles food, biting with their 
 
 A Cheetah is one of the fastest land animals - a large (about 100 pounds) cat capable of reaching up to 75 miles per hour when running. It hunts alone or in small groups (usually composed of siblings). It will rarely attack humans unless compelled to do so, but a female will ferociously defend her young.
 
+</div>
+<div class="monster" data-tag="Chimera" >
+
 ## Chimera
 
-|   |   |
+|   |  Chimera |
 |--------------|-----|
 | Armor Class: | 16 |
 | Hit Dice: | 9** (+8) |
@@ -510,9 +601,12 @@ Chimeras are strange creatures having a lion's body with the heads of a lion, a 
 
 Chimeras are cruel and voracious. They can speak Dragon but seldom bother to do so, except when toadying to more powerful creatures.
 
+</div>
+<div class="monster" data-tag="Cockatrice" >
+
 ## Cockatrice
 
-|   |   |
+|   |  Cockatrice |
 |--------------|-----|
 | Armor Class: | 14 |
 | Hit Dice: | 5** |
@@ -531,9 +625,12 @@ A male cockatrice has wattles and a comb, just like a rooster. Females, much rar
 
 Anyone touched by a cockatrice, or who touches one (even if gloved), must save vs. Petrification or be turned to stone.
 
+</div>
+<div class="monster" data-tag="Crab, Giant" >
+
 ## Crab, Giant
 
-|   |   |
+|   |  Crab, Giant |
 |--------------|-----|
 | Armor Class: | 18 |
 | Hit Dice: | 3 |
@@ -550,9 +647,12 @@ Giant crabs naturally resemble the ordinary variety, but are much larger, averag
 
 Giant crabs carry their eyes on armored stalks, which means that no bonus is awarded for attacking them from behind.
 
+</div>
+<div class="monster" data-tag="Crocodile" >
+
 ## Crocodile
 
-|  | **Normal** | **Large** | **Giant** |
+|  | **Normal Crocodile** | **Large Crocodile** | **Giant Crocodile** |
 |--------------|-----|----|----|
 | Armor Class: | 15 | 17 | 19 |
 | Hit Dice: | 2 | 6 | 15 (+11) |
@@ -571,9 +671,12 @@ Crocodiles are aggressive predators 11 to 12 feet long. They lie mostly submerge
 
 **Giant Crocodiles:** These huge creatures usually live in salt water and are generally more than 20 feet long. Giant crocodiles fight and behave like their smaller cousins.
 
+</div>
+<div class="monster" data-tag="Dinosaur, Deinonychus" >
+
 ## Dinosaur, Deinonychus
 
-|   |   |
+|   |  Dinosaur, Deinonychus |
 |--------------|-----|
 | Armor Class: | 15 |
 | Hit Dice: | 3 |
@@ -587,6 +690,9 @@ Crocodiles are aggressive predators 11 to 12 feet long. They lie mostly submerge
 | XP: | 145 |
 
 The Deinonychus (sometimes mistakenly called a "Velociraptor") is a medium-sized feathered dinosaur weighting approximately 150 pounds and reaching about 11 feet of length (tail included). It is an avid predator and a skilled pack-hunter; its warm blood, aerodynamic build and vicious maw allow it to feed on larger but more primitive dinosaurs.
+
+</div>
+<div class="monster" data-tag="Dinosaur, Pterodactyl (and Pteranodon)" >
 
 ## Dinosaur, Pterodactyl (and Pteranodon)
 
@@ -607,9 +713,12 @@ Pterodactyls are prehistoric winged reptilian creatures, having a wingspan of ar
 
 Pteranodons are essentially giant-sized pterodactyls, having wingspans of 25 feet or more. They are predators, and may attack adventuring parties.
 
+</div>
+<div class="monster" data-tag="Dinosaur, Stegosaurus" >
+
 ## Dinosaur, Stegosaurus
 
-|   |   |
+|   |  Dinosaur, Stegosaurus |
 |--------------|-----|
 | Armor Class: | 17 |
 | Hit Dice: | 11 (+9) |
@@ -624,9 +733,12 @@ Pteranodons are essentially giant-sized pterodactyls, having wingspans of 25 fee
 
 Although fearsome looking, the stegosaurus is actually a peaceable creature and will only fight in self-defense, either biting, trampling, or using its spiked tail, depending on where the opponent is standing in relation to the dinosaur. A stegosaurus can't use its tail and bite attacks against the same creature in the same round.
 
+</div>
+<div class="monster" data-tag="Dinosaur, Triceratops" >
+
 ## Dinosaur, Triceratops
 
-|   |   |
+|   |  Dinosaur, Triceratops |
 |--------------|-----|
 | Armor Class: | 19 |
 | Hit Dice: | 11 (+9) |
@@ -641,9 +753,12 @@ Although fearsome looking, the stegosaurus is actually a peaceable creature and 
 
 A triceratops is a three-horned herbivorous dinosaur. They are aggressive toward interlopers, attacking anyone who might appear to be a threat. These creatures are about 25 feet long and weigh about 20,000 pounds. A triceratops will usually attempt to trample smaller opponents. Up to two adjacent man-sized or up to four smaller opponents may be trampled simultaneously; the triceratops rolls a single attack roll which is compared to the Armor Class of each of the potential victims, and then rolls a separate damage roll for each one successfully hit. The gore attack may only be used against a single man-sized or larger creature, but may be used in the same round as the trample if the creature being gored is larger than man sized. Also note that a charging bonus may be applied to the gore attack.
 
+</div>
+<div class="monster" data-tag="Dinosaur, Tyrannosaurus Rex" >
+
 ## Dinosaur, Tyrannosaurus Rex
 
-|   |   |
+|   |  Dinosaur, Tyrannosaurus Rex |
 |--------------|-----|
 | Armor Class: | 23 |
 | Hit Dice: | 18 (+12) |
@@ -660,9 +775,12 @@ The tyrannosaurus rex is a bipedal carnivorous dinosaur. Despite its enormous si
 
 The statistics above can also be used to represent other large bipedal carnosaurs, such as the allosaurus.
 
+</div>
+<div class="monster" data-tag="Displacer" >
+
 ## Displacer
 
-|   |   |
+|   |  Displacer |
 |--------------|-----|
 | Armor Class: | 16 |
 | Hit Dice: | 6* |
@@ -681,9 +799,12 @@ The real power and danger of the Displacer is its power of **displacement**, wh
 
 Any character fighting a Displacer for the first time will miss his or her first strike regardless of the die roll. Thereafter, all attacks against displacers will be at a penalty of -2 to the attack roll. This is not cumulative with the penalty for fighting blind. Some monsters, such as bats, do not depend on vision to fight and thus may be able to perceive the monster's true location and fight without penalty.
 
+</div>
+<div class="monster" data-tag="Djinni*" >
+
 ## Djinni*
 
-|   |   |
+|   |  Djinni* |
 |--------------|-----|
 | Armor Class: | 15 ‡ |
 | Hit Dice: | 7+1** |
@@ -706,9 +827,12 @@ Djinn may assume the form of a whirlwind at will, with no limit as to the number
 
 Due to their highly magical nature, djinn cannot be harmed by non-magical weapons. They are immune to normal cold, and suffer only half damage from magical attacks based on either cold or wind.
 
+</div>
+<div class="monster" data-tag="Dog" >
+
 ## Dog
 
-|  | **Normal** | **Riding** |
+|  | **Normal Dog** | **Riding Dog** |
 |--------------|-----|----|
 | Armor Class: | 14 | 14 |
 | Hit Dice: | 1+1 | 2 |
@@ -725,9 +849,12 @@ Normal dogs include most medium and large breeds, including wild dogs. After bit
 
 Riding dogs are a large breed, used primarily by Halflings for transport. They may be trained for war, and equipped with barding to improve their Armor Class. They can maintain a hold in the same way that normal dogs do. A light load for a riding dog is up to 150 pounds; a heavy load, up to 300 pounds.
 
+</div>
+<div class="monster" data-tag="Doppleganger" >
+
 ## Doppleganger
 
-|   |   |
+|   |  Doppleganger |
 |--------------|-----|
 | Armor Class: | 15 |
 | Hit Dice: | 4* |
@@ -745,6 +872,9 @@ Dopplegangers are strange beings that are able to take on the shapes of those th
 Dopplegangers make excellent use of their natural mimicry to stage ambushes, bait traps, and infiltrate humanoid society. Although not usually evil, they are interested only in themselves and regard all others as playthings to be manipulated and deceived.
 
 When in its natural form, a doppleganger strikes with its powerful fists. In the shape of a warrior or some other armed person, it attacks with whatever weapon is appropriate. In such cases, it uses its mind reading power to employ the same tactics and strategies as the person it is impersonating.
+
+</div>
+<div class="monster" data-tag="Dragon" >
 
 ## Dragon
 
@@ -774,9 +904,12 @@ Some dragons learn to cast spells; the odds that a dragon can cast spells are th
 
 Although goals and ideals vary among varieties, all dragons are covetous. They like to hoard wealth, collecting mounds of coins and gathering as many gems, jewels, and magic items as possible. Those with large hoards are loath to leave them for long, venturing out of their lairs only to patrol the immediate area or to get food. For dragons, there is no such thing as enough treasure. It's pleasing to look at, and they bask in its radiance. Dragons like to make beds of their hoards, shaping nooks and mounds to fit their bodies. Note that, for most monsters, the Treasure Type given is for a lair of average numbers; for dragons, the Treasure Type is for a single individual of average age. Note also that mated pairs do not share treasure! Rather than adjusting the treasure amounts for the number of monsters, adjust for the age of the dragon; a dragon of the highest age category would have about double the given amount, while one of the next to lowest age category would have perhaps a tenth that amount (hatchlings have no treasure).
 
+</div>
+<div class="monster" data-tag=" Dragon, Black" >
+
 ### Dragon, Black
 
-|   |   |
+|   |   Dragon, Black |
 |--------------|-----|
 | Armor Class: | 18 |
 | Hit Dice: | 7** |
@@ -815,9 +948,12 @@ Black dragons are immune to all forms of acid. A black dragon may hold its breat
 
 : Black Dragon Age Table {#tbl-black-dragon-age}
 
+</div>
+<div class="monster" data-tag=" Dragon, Blue" >
+
 ### Dragon, Blue
 
-|   |   |  
+|   | Dragon, Blue    | 
 |--------------|---|
 | Armor Class: | 20 |
 | Hit Dice: | 9** (+8) |
@@ -858,9 +994,12 @@ Blue dragons are immune to normal lightning, and suffer only half damage from ma
 
 : Blue Dragon Age Table {#tbl-blue-dragon-age}
 
+</div>
+<div class="monster" data-tag=" Dragon, Gold" >
+
 ### Dragon, Gold
 
-|   |   |   
+|   | Dragon, Gold    |  
 |--------------|---|
 | Armor Class: | 22 |
 | Hit Dice: | 11** (+9) |
@@ -904,9 +1043,12 @@ Gold dragons are immune to all poisons, as well as normal fire. They suffer only
 
 : Gold Dragon Age Table {#tbl-gold-dragon-age}
 
+</div>
+<div class="monster" data-tag=" Dragon, Green" >
+
 ### Dragon, Green
 
-|   |   |
+|   |   Dragon, Green |
 |--------------|---|
 | Armor Class: | 19 |
 | Hit Dice: | 8** |
@@ -946,9 +1088,12 @@ Green dragons are immune to all poisons. Note that, despite their breath weapon 
 
 : Green Dragon Age Table {#tbl-green-dragon-age}
 
+</div>
+<div class="monster" data-tag=" Dragon, Red" >
+
 ### Dragon, Red
 
-|   |  |
+|   |  Dragon, Red |
 |--------------|---|
 | Armor Class: | 21 |
 | Hit Dice: | 10** (+9) |
@@ -988,9 +1133,12 @@ Red dragons are immune to normal fire, and suffer only half damage from magical 
 
 : Red Dragon Age Table {#tbl-red-dragon-age}
 
+</div>
+<div class="monster" data-tag=" Dragon, Sea" >
+
 ### Dragon, Sea
 
-|   |   |
+|   |   Dragon, Sea |
 |--------------|---|
 | Armor Class: | 19 |
 | Hit Dice: | 8** |
@@ -1029,9 +1177,12 @@ Sea dragons are neutral in outlook, in much the same way as white dragons. They 
 
 : Sea Dragon Age Table {#tbl-sea-dragon-age}
 
+</div>
+<div class="monster" data-tag=" Dragon, White" >
+
 ### Dragon, White
 
-|   |   |
+|   |   Dragon, White |
 |--------------|---|
 | Armor Class: | 17 |
 | Hit Dice: | 6** |
@@ -1071,9 +1222,12 @@ White dragons are immune to normal cold, and take only half damage from magical 
 
 : White Dragon Age Table {#tbl-white-dragon-age}
 
+</div>
+<div class="monster" data-tag=" Dragon Turtle" >
+
 ### Dragon Turtle
 
-|   |   |   
+|   | Dragon Turtle    |
 |--------------|---|
 | Armor Class: | 22 |
 | Hit Dice: | 30** |
@@ -1111,9 +1265,12 @@ style="position: absolute; top: 0in; left: 0in" Due to their massive size, drago
 
 : Dragon Turtle Age Table {#tbl-dragon-turtle-age}
 
+</div>
+<div class="monster" data-tag="Dryad" >
+
 ## Dryad
 
-|   |   |  
+|   | Dragon, Blue     |  
 |--------------|---|
 | Armor Class: | 15 |
 | Hit Dice: | 2* |
@@ -1132,9 +1289,12 @@ A dryad's delicate features are much like a female elf's, though her flesh is li
 
 Shy, intelligent, and resolute, dryads are as elusive as they are alluring -- they avoid physical combat and are rarely seen unless they wish to be. If threatened, or in need of an ally, a dryad can charm (as the spell **charm person**), attempting to gain control of the attacker(s) who could help the most against the rest. Any attack on her tree, however, provokes the dryad into a frenzied defense.
 
+</div>
+<div class="monster" data-tag="Eagle, Giant" >
+
 ## Eagle, Giant
 
-|   |   |  
+|   |  Eagle, Giant |
 |--------------|---|
 | Armor Class: | 15 |
 | Hit Dice: | 4 |
@@ -1153,9 +1313,12 @@ A giant eagle typically attacks from a great height, diving earthward at tremend
 
 A solitary giant eagle is typically hunting or patrolling in the vicinity of its nest and generally ignores creatures that do not appear threatening. A mated pair attacks in concert, making repeated diving attacks to drive away intruders, and fights to the death to defend their nest or hatchlings.
 
+</div>
+<div class="monster" data-tag="Efreeti*" >
+
 ## Efreeti*
 
-|   |   |  
+|   |  Efreeti* |
 |--------------|---|
 | Armor Class: | 21 ‡ |
 | Hit Dice: | 10* (+9) |
@@ -1178,6 +1341,9 @@ Efreet may assume the form of a column of fire at will, with no limit as to the 
 
 Due to their highly magical nature, efreet cannot be harmed by non-magical weapons. They are immune to normal fire, and suffer only half damage from magical fire attacks.
 
+</div>
+<div class="monster" data-tag="Elemental*" >
+
 ## Elemental*
 
 Elementals are incarnations of the elements that compose existence.
@@ -1186,9 +1352,12 @@ It is possible to summon an elemental by one of three means: By the use of a *s
 
 Due to their highly magical nature, elementals cannot be harmed by non-magical weapons.
 
+</div>
+<div class="monster" data-tag=" Elemental, Air*" >
+
 ### Elemental, Air*
 
-|   | **Staff** | **Device** | **Spell** |
+|   | **Staff Elemental, Air** | **Device Elemental, Air** | **Spell Elemental, Air** |
 |---|-----------|-----------|------|
 | Armor Class: | 18 ‡ | 20 ‡ | 22 ‡ |
 | Hit Dice: | 8* | 12* (+10) | 16* (+12) |
@@ -1202,6 +1371,9 @@ Due to their highly magical nature, elementals cannot be harmed by non-magical w
 | XP: | 945 | 1,975 | 3,385 |
 
 Air elementals resemble "dust devils," that is, small whirlwinds, but they are much more powerful. Air elementals take double damage when attacked by earth-based attacks (including by earth elementals). An air elemental may choose either to attack a single opponent, thus receiving one attack per round at the listed damage, or may choose to knock all opponents in a 5' radius to the ground; if the latter attack is used, all creatures of 2 hit dice or less must save vs. Death Ray or fall prone. Creatures of 3 or more levels or hit dice are not so affected. Air elementals do an additional 1d8 points of damage against creatures or vehicles which are airborne.
+
+</div>
+<div class="monster" data-tag=" Elemental, Earth*" >
 
 ### Elemental, Earth*
 
@@ -1219,6 +1391,9 @@ Air elementals resemble "dust devils," that is, small whirlwinds, but they are m
 | XP: | 945 | 1,975 | 3,385 |
 
 Earth elementals resemble crude, headless humanoid statues, with clublike hands and feet. They cannot cross a body of water wider than their own height. Earth elementals take double damage when attacked by fire (including fire elementals). They do an additional 1d8 points of damage against creatures, vehicles, or structures which rest on the ground.
+
+</div>
+<div class="monster" data-tag=" Elemental, Fire*" >
 
 ### Elemental, Fire*
 
@@ -1239,6 +1414,9 @@ Fire elementals are simply flames, which may appear generally humanoid for brief
 
 Remember that a fire elemental is constantly burning; such a creature may easily start fires if it moves into an area containing items which burn easily, such as dry wood, paper, or oil. No specific rules are given for such fires, but the GM is directed to the rules for burning oil for an example of fire damage.
 
+</div>
+<div class="monster" data-tag=" Elemental, Water*" >
+
 ### Elemental, Water*
 
 |  | **Staff** | **Device** | **Spell** |
@@ -1257,9 +1435,12 @@ Remember that a fire elemental is constantly burning; such a creature may easily
 Water elementals resemble roiling waves of water, which seem to fall upon any creature attacked, only to reform the next round. They take double damage when attacked with air or wind attacks (including air elementals). A water elemental cannot move more than 60' from a body of water. They do an extra 1d8 points of damage against creatures, vehicles, or structures which are in the water.
 
 
+</div>
+<div class="monster" data-tag="Elephant" >
+
 ## Elephant
 
-|  |  |
+|  | Elephant |
 |---|-----------|
 | Armor Class: | 18 |
 | Hit Dice: | 9 (+8) |
@@ -1278,9 +1459,12 @@ A light load for an African elephant is 7,500 pounds; a heavy load, up to 15,000
 
 An elephant has no treasure as such, but the tusks of an elephant are worth 1d8 x 100 gp.
 
+</div>
+<div class="monster" data-tag="Fish, Giant Barracuda" >
+
 ## Fish, Giant Barracuda
 
-|  | **Huge** | **Giant** |
+|  | **Huge Barracuda** | **Giant Barracuda** |
 |---|------|-----|
 | Armor Class: | 16 | 15 |
 | Hit Dice: | 5 | 9 (+8) |
@@ -1297,9 +1481,12 @@ Barracuda are predatory fish found in salt water. Huge barracudas are about 12' 
 
 Giant barracudas always appear singly and are 50% likely to break off the attack after 1d4 rounds if they haven't killed their prey. Both kinds are attracted to shiny objects.
 
+</div>
+<div class="monster" data-tag="Fish, Giant Bass" >
+
 ## Fish, Giant Bass
 
-|  |  |
+|  | Fish, Giant Bass |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 2 |
@@ -1316,9 +1503,12 @@ Giant bass are generally between 10' and 25' long. Most are greenish-grey, marke
 
 Giant bass are predatory, and on a natural attack roll of 20 a giant bass will swallow whole a dwarf-sized or smaller creature, which then takes 2d4 damage per round until it is dead. Swallowed characters can attack only with daggers or similar short weapons. Note that each giant bass can swallow at most one character, and a giant bass which has swallowed a character will attempt to retreat (having achieved its goal).
 
+</div>
+<div class="monster" data-tag="Fish, Giant Catfish" >
+
 ## Fish, Giant Catfish
 
-|  |  |
+|  | Fish, Giant Catfish |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 8 |
@@ -1335,9 +1525,12 @@ Giant catfish fins are edged with a natural poison that causes a painful burning
 
 Because of its large size (15 to 20 feet long) and body design, a giant catfish cannot target more than one of its attacks on any single creature; that is, it cannot bite and fin the same opponent, nor use both fins on one victim.
 
+</div>
+<div class="monster" data-tag="Fish, Giant Piranha" >
+
 ## Fish, Giant Piranha
 
-|  |  |
+|  | Fish, Giant Piranha |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 4 |
@@ -1352,9 +1545,12 @@ Because of its large size (15 to 20 feet long) and body design, a giant catfish 
 
 Giant piranha average 5' in length at adulthood, and are aggressive carnivores. They are able to sense blood in the water just as sharks do, and once they smell or taste blood in the water, their morale rises to the parenthesized figure.
 
+</div>
+<div class="monster" data-tag="Fly, Giant" >
+
 ## Fly, Giant
 
-|  |  |
+|  | Fly, Giant |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 2 |
@@ -1369,9 +1565,12 @@ Giant piranha average 5' in length at adulthood, and are aggressive carnivores. 
 
 Giant flies look much like ordinary houseflies, but are about 3' long. Some are banded yellow and black, and are thus mistaken for giant bees. Giant flies are predators; after killing prey, they will sometimes lay eggs in the remains.
 
+</div>
+<div class="monster" data-tag="Frog, Giant (and Toad, Giant)" >
+
 ## Frog, Giant (and Toad, Giant)
 
-|  |  |
+|  | Frog, Giant (and Toad, Giant) |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 2 |
@@ -1388,9 +1587,12 @@ Giant frogs are enlarged versions of the common frog; most resemble bullfrogs in
 
 A giant frog can stretch its tongue out up to 15' and drag up to dwarf-sized prey to its mouth; on every subsequent round, the victim is hit automatically. On a natural 20 attack roll, the victim is swallowed whole, taking 1d6 damage per round thereafter. Each giant frog can swallow only one such victim.
 
+</div>
+<div class="monster" data-tag="Gargoyle*" >
+
 ## Gargoyle*
 
-|  |  |
+|  | Gargoyle* |
 |---|-----------|
 | Armor Class: | 15 ‡ |
 | Hit Dice: | 4** |
@@ -1407,9 +1609,12 @@ Gargoyles are demonic-looking winged humanoid monsters with gray stone-like skin
 
 Gargoyles require no food, water, or air. Due to their highly magical nature, they can only be harmed by magical weapons.
 
+</div>
+<div class="monster" data-tag="Gelatinous Cube" >
+
 ## Gelatinous Cube
 
-|  |  |
+|  | Gelatinous Cube |
 |---|-----------|
 | Armor Class: | 12 |
 | Hit Dice: | 4* |
@@ -1428,9 +1633,12 @@ A gelatinous cube attacks by slamming its body into its prey. It is capable of l
 
 Any treasure indicated will be visible inside the creature, which must be slain if the treasure is to be recovered.
 
+</div>
+<div class="monster" data-tag="Ghast" >
+
 ## Ghast
 
-|  |  |
+|  | Ghast |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 2** |
@@ -1451,9 +1659,12 @@ An afflicted humanoid who dies of ghast fever rises as a ghast at the next midni
 
 The stink of death and corruption surrounding these creatures is overwhelming. Living creatures within 10 feet must succeed on a save vs. Poison or be sickened for 2d6 rounds (-2 to attack rolls). A creature that successfully saves cannot be affected again by the same ghast's stench for 24 hours. A **neutralize poison** spell removes the effect from a sickened creature.
 
+</div>
+<div class="monster" data-tag="Ghost*" >
+
 ## Ghost*
 
-|  |  |
+|  | Ghost* |
 |---|-----------|
 | Armor Class: | 20 ‡ |
 | Hit Dice: | 10* (+9) |
@@ -1478,9 +1689,12 @@ Once per turn, a ghost can use **telekinesis** (as the spell) as if it were a 
 
 Instead of attacking, a ghost may attempt to possess a living creature. This ability is similar to a **magic jar** spell (as if cast by a 10th level Magic-User), except that it does not require a receptacle. To use this ability, the ghost must be able to move into the target (so it is possible to outrun it). The target can resist the attack with a successful save vs. Spells. A creature that successfully saves is immune to being possessed by that ghost for 24 hours. If the save fails, the ghost enters the target's body and controls it; control may be maintained until the ghost chooses to leave the victim's body, or until it is driven out by means of a **remove curse** spell. While it is possessing a living creature, a ghost may not use any of its special abilities.
 
+</div>
+<div class="monster" data-tag="Ghoul" >
+
 ## Ghoul
 
-|  |  |
+|  | Ghoul |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 2* |
@@ -1501,9 +1715,12 @@ Humanoids bitten by ghouls may be infected with ghoul fever. Each time a humanoi
 
 An afflicted humanoid who dies of ghoul fever rises as a ghoul at the next midnight. A humanoid who becomes a ghoul in this way retains none of the knowledge or abilities he or she possessed in life. The newly-risen ghoul is not under the control of any other ghouls, but hungers for the flesh of the living and behaves like any other ghoul in all respects.
 
+</div>
+<div class="monster" data-tag="Giant, Cloud" >
+
 ## Giant, Cloud
 
-|  |  |
+|  | Giant, Cloud |
 |---|-----------|
 | Armor Class: | 19 (13) |
 | Hit Dice: | 12+3* (+10) |
@@ -1522,9 +1739,12 @@ Cloud giants dress in the finest clothing available and wear jewelry. To many, a
 
 Cloud giants fight in well-organized units, using carefully developed battle plans. They prefer to fight from a position above their opponents. Cloud giants can throw large stones up to 200' for 3d6 points of damage each. Also, 5% of cloud giants have the abilities of a Magic-User of level 2 to 8 (2d4). A favorite tactic is to circle the enemies, barraging them with rocks while the giants with magical abilities confound them with spells. In battle, cloud giants wear finely crafted, intricately engraved plate mail.
 
+</div>
+<div class="monster" data-tag="Giant, Cyclops" >
+
 ## Giant, Cyclops
 
-|  |  |
+|  | Giant, Cyclops |
 |---|-----------|
 | Armor Class: | 15 (13) |
 | Hit Dice: | 13* (+10) |
@@ -1543,9 +1763,12 @@ They are reclusive and unfriendly to almost all of the smaller races.
 
 A cyclops can throw a large rock up to 200' for 3d6 points of damage, but they aim poorly and thus suffer an attack penalty of -2. Once per year, a cyclops can cast the spell **bestow curse** (the reverse of the spell **remove curse**).
 
+</div>
+<div class="monster" data-tag="Giant, Fire" >
+
 ## Giant, Fire
 
-|  |  |
+|  | Giant, Fire |
 |---|-----------|
 | Armor Class: | 17 (13) |
 | Hit Dice: | 11+2* (+9) |
@@ -1564,9 +1787,12 @@ Fire giants are unfriendly to almost all other human, demi-human, and humanoid r
 
 A fire giant can throw large stones up to 200' for 3d6 damage. Fire giants are immune to all fire-based attacks.
 
+</div>
+<div class="monster" data-tag="Giant, Frost" >
+
 ## Giant, Frost
 
-|  |  |
+|  | Giant, Frost |
 |---|-----------|
 | Armor Class: | 17 (13) |
 | Hit Dice: | 10+1* (+9) |
@@ -1587,9 +1813,12 @@ Frost giants are, first and foremost, cunning. They dislike the smaller races as
 
 A frost giant can throw large stones up to 200' for 3d6 damage. Frost giants are immune to all ice or cold-based attacks.
 
+</div>
+<div class="monster" data-tag="Giant, Hill" >
+
 ## Giant, Hill
 
-|  |  |
+|  | Giant, Hill |
 |---|-----------|
 | Armor Class: | 15 (13) |
 | Hit Dice: | 8 |
@@ -1606,9 +1835,12 @@ The smallest of giants, adult hill giants stand between ten and twelve feet in h
 
 Whether attacking with a weapon or st, hill giants deal 2d8 damage. Hill giants are brutish and aggressive. They are sometimes found leading groups of ogres or bugbears. Hill giants often keep **dire wolves** as pets.
 
+</div>
+<div class="monster" data-tag="Giant, Stone" >
+
 ## Giant, Stone
 
-|  |  |
+|  | Giant, Stone |
 |---|-----------|
 | Armor Class: | 17 (15) |
 | Hit Dice: | 9 (+8) |
@@ -1627,9 +1859,12 @@ A stone giant can throw large stones up to 300' for 3d6 damage.
 
 Stone giants are reclusive, but they will defend their territory (typically in rocky mountainous terrain) against any who trespass therein.
 
+</div>
+<div class="monster" data-tag="Giant, Storm" >
+
 ## Giant, Storm
 
-|  |  |
+|  | Giant, Storm |
 |---|-----------|
 | Armor Class: | 19 (13) |
 | Hit Dice: | 15** (+11) |
@@ -1650,9 +1885,12 @@ Storm giants prefer to attack first with their **lightning bolts** (which work
 
 Unlike most other giants, storm giants have been known to befriend humans, elves, or dwarves.
 
+</div>
+<div class="monster" data-tag="Gnoll" >
+
 ## Gnoll
 
-|  |  |
+|  | Gnoll |
 |---|-----------|
 | Armor Class: | 15 (13) |
 | Hit Dice: | 2 |
@@ -1671,9 +1909,12 @@ Gnolls are nocturnal, and have Darkvision with a 30' range. They are cruel carni
 
 One out of every six gnolls will be a hardened warrior of 4 Hit Dice (240 XP) having a +1 bonus to damage due to strength. Gnolls gain a +1 bonus to their morale if they are led by such a warrior. In lairs of 12 or greater, there will be a pack leader of 6 Hit Dice (500 XP) having a +2 bonus to damage. In the lair, gnolls never fail a morale check as long as the pack leader is alive. In addition, a lair has a chance equal to 1-2 on 1d6 of a shaman being present, and 1 on 1d6 of a witch or warlock. A shaman is equivalent to a hardened warrior statistically, and in addition has Clerical abilities at level 1d4+1. A witch or warlock is equivalent to a regular gnoll, and has Magic-User abilities of level 1d4.
 
+</div>
+<div class="monster" data-tag="Gnome" >
+
 ## Gnome
 
-|  |  |
+|  | Gnome |
 |---|-----------|
 | Armor Class: | 15 (11) |
 | Hit Dice: | 1 |
@@ -1694,9 +1935,12 @@ Gnomes speak their own language, Gnomish, and many know the language of the dwar
 
 Most gnomes encountered outside their home are warriors; the statistics above are for such. In the lair, for every warrior there will be an average of three civilians having 1-1 Hit Dice and Armor Class 11; such gnomes have Morale of 7. One out of every eight gnome warriors will be a sergeant having 3 Hit Dice (145 XP). Gnomes gain a +1 bonus to their morale if they are led by a sergeant. Both warriors and sergeants commonly wear chainmail. In gnomish communities, one out of every sixteen warriors will be a captain of 5 Hit Dice (360 XP) with an Armor Class of 16 (11), adding a shield. In addition, in communities of 35 or greater, there will be a king of 7 Hit Dice (670 XP), with an Armor Class of 18 (11), in plate mail and carrying a shield, having a +1 bonus damage due to strength. In their community, gnomes never fail a morale check as long as the king is alive. There is a chance equal to 1-4 on 1d6 that a community will have a Cleric of level 1d6+1, and 1-2 on 1d6 of a Magic-User of level 1d6. Gnomish Clerics and Magic-Users are equivalent to regular gnomish warriors statistically.
 
+</div>
+<div class="monster" data-tag="Goblin" >
+
 ## Goblin
 
-|  |  |
+|  | Goblin |
 |---|-----------|
 | Armor Class: | 14 (11) |
 | Hit Dice: | 1-1 |
@@ -1717,6 +1961,9 @@ Some goblins ride **dire wolves** into combat, and large groups of goblins wil
 
 One out of every eight goblins will be a warrior of 3-3 Hit Dice (145 XP). Goblins gain a +1 bonus to their morale if they are led by a warrior. In a lair or other settlement, one out of every fifteen will be a chieftain of 5-5 Hit Dice (360 XP) in chainmail with an Armor Class of 15 (11) and movement of 10' that gains a +1 bonus to damage due to strength. In lairs or settlements of 30 or more goblins, there will be a goblin king of 7-7 Hit Dice (670 XP), with an Armor Class of 16 (11), wearing chainmail and carrying a shield, with a movement of 10', and having a +1 bonus to damage. Goblins have a +2 bonus to morale while their king is present (this is not cumulative with the bonus given by a warrior leader). In addition, a lair has a chance equal to 1 on 1d6 of a shaman being present (or 1-2 on 1d6 if a goblin king is present). A shaman is equivalent to a regular goblin statistically, but has Clerical abilities at level 1d4+1.
 
+</div>
+<div class="monster" data-tag="Golem*" >
+
 ## Golem*
 
 Golems are magically created automatons of great power. Constructing one involves the employment of mighty magic and elemental forces. The animating force for a golem is an elemental spirit. The process of creating the golem binds the spirit to the artificial body and subjects it to the will of the golem's creator.
@@ -1725,9 +1972,12 @@ Being mindless, golems generally do nothing without orders from their creators. 
 
 Golems have immunity to most magical and supernatural effects, except when otherwise noted. They can only be hit by magical weapons.
 
+</div>
+<div class="monster" data-tag=" Golem, Amber*" >
+
 ### Golem, Amber*
 
-|  |  |
+|  |  Golem, Amber* |
 |---|-----------|
 | Armor Class: | 21 ‡ |
 | Hit Dice: | 10* (+9) |
@@ -1744,9 +1994,12 @@ Amber golems are generally built to resemble lions or other great cats. They are
 
 style="position: absolute; top: 0.2in; left: 0in" A magical attack that deals electricity damage heals 1 point of damage for every 3 full points of damage the attack would otherwise deal. For example, an amber golem hit by a **lightning bolt** for 20 points of damage is instead healed up to 6 points. If the amount of healing would cause the golem to exceed its full normal hit points, the excess is ignored.
 
+</div>
+<div class="monster" data-tag=" Golem, Bone*" >
+
 ### Golem, Bone*
 
-|  |  |
+|  |  Golem, Bone* |
 |---|-----------|
 | Armor Class: | 19 ‡ |
 | Hit Dice: | 8* |
@@ -1765,9 +2018,12 @@ Instead of four one-handed weapons, a bone golem can be armed with two two-hande
 
 When a bone golem enters combat, there is a cumulative 1% chance each round that its elemental spirit breaks free and the golem goes berserk. The uncontrolled golem goes on a rampage, attacking the nearest living creature or smashing some object smaller than itself if no creature is within reach, then moving on to spread more destruction. The golem's creator, if within 60 feet, can try to regain control by speaking firmly and persuasively to the golem; he or she must make a save vs. Spells to succeed at this, and at least 1 round of time is required for each check. It takes 1 round of inactivity by the golem to reset the golem's berserk chance to 0%.
 
+</div>
+<div class="monster" data-tag=" Golem, Bronze*" >
+
 ### Golem, Bronze*
 
-|  |  |
+|  |  Golem, Bronze* |
 |---|-----------|
 | Armor Class: | 20 ‡ |
 | Hit Dice: | 20** (+13) |
@@ -1786,9 +2042,12 @@ The interior of a bronze golem is molten metal. Creatures hit by one in combat s
 
 When a bronze golem enters combat, there is a cumulative 1% chance each round that its elemental spirit will break free. Such a golem will go on a rampage, attacking the nearest living creature or smashing some object smaller than itself if no creature is within reach, then moving on to cause more destruction. The golem's creator, if within 60 feet, can try to regain control by speaking firmly and persuasively to the golem; he or she must make a save vs. Spells to succeed at this, and at least 1 round of time is required for each check. It takes 1 round of inactivity by the golem to reset the chance it will go berserk to 0%.
 
+</div>
+<div class="monster" data-tag=" Golem, Clay*" >
+
 ### Golem, Clay*
 
-|  |  |
+|  |  Golem, Clay* |
 |---|-----------|
 | Armor Class: | 22 ‡ |
 | Hit Dice: | 11** (+9) |
@@ -1807,9 +2066,12 @@ When a clay golem enters combat, there is a cumulative 1% chance each round that
 
 The damage a clay golem deals doesn't heal naturally, and magical healing cures only 1 point per die rolled (but add all bonuses normally).
 
+</div>
+<div class="monster" data-tag=" Golem, Flesh*" >
+
 ### Golem, Flesh*
 
-|  |  |
+|  |  Golem, Flesh* |
 |---|-----------|
 | Armor Class: | 20 ‡ |
 | Hit Dice: | 9** (+8) |
@@ -1828,9 +2090,12 @@ When a flesh golem enters combat, there is a cumulative 1% chance each round tha
 
 A magical attack that deals cold or fire damage slows a flesh golem (as the **slow** spell) for 2d6 rounds, with no saving throw. A magical attack that deals electricity damage breaks any slow effect on the golem and heals 1 point of damage for every 3 full points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, the excess is ignored. For example, a flesh golem hit by a lightning bolt heals 3 points of damage if the attack would have dealt 11 points of damage.
 
+</div>
+<div class="monster" data-tag=" Golem, Iron*" >
+
 ### Golem, Iron*
 
-|  |  |
+|  |  Golem, Iron* |
 |---|-----------|
 | Armor Class: | 25 ‡ |
 | Hit Dice: | 17** (+12) |
@@ -1849,9 +2114,12 @@ Iron golems can exhale a cloud of poisonous gas which fills a 10-foot cube and p
 
 A magical attack that deals electricity damage slows an iron golem (as the **slow** spell) for 3 rounds, with no saving throw. A magical attack that deals fire damage breaks any slow effect on the golem and heals 1 point of damage for each 3 full points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, the excess is ignored. For example, an iron golem hit by a fireball gains back 6 hit points if the damage total is 19 points. An iron golem is affected normally by rust attacks, such as that of a rust monster, suffering 2d6 points of damage for each hit (with no saving throw normally allowed).
 
+</div>
+<div class="monster" data-tag=" Golem, Stone*" >
+
 ### Golem, Stone*
 
-|  |  |
+|  |  Golem, Stone* |
 |---|-----------|
 | Armor Class: | 25 ‡ |
 | Hit Dice: | 14** (+11) |
@@ -1871,9 +2139,12 @@ Stone golems are formidable opponents, being physically powerful and difficult t
 A **stone to flesh** spell may be used to weaken the monster. The spell does not actually change the golem's structure, but for one full round after being affected, the golem is vulnerable to normal weapons. The stone golem is allowed a save vs. Spells to resist this effect.
 
 
+</div>
+<div class="monster" data-tag=" Golem, Wood*" >
+
 ### Golem, Wood*
 
-|  |  |
+|  |  Golem, Wood* |
 |---|-----------|
 | Armor Class: | 13 ‡ |
 | Hit Dice: | 2+2* |
@@ -1888,9 +2159,12 @@ A **stone to flesh** spell may be used to weaken the monster. The spell does n
 
 Wood golems are small constructs, not more than 4' in height, and are crudely made. Being made of wood makes them vulnerable to fire-based attacks; thus, wood golems suffer one extra point of damage per die from fire; any saving throws against such effects are at a penalty of -2. They move stiffly, suffering a -1 penalty to Initiative.
 
+</div>
+<div class="monster" data-tag="Gorgon" >
+
 ## Gorgon
 
-|  |  |
+|  | Gorgon |
 |---|-----------|
 | Armor Class: | 19 |
 | Hit Dice: | 8* |
@@ -1907,9 +2181,12 @@ Gorgons are magical monsters resembling bulls made of iron. Their breath can tur
 
 A typical gorgon stands over 6 feet tall at the shoulder, measures 8 feet from snout to tail, and weighs about 4,000 pounds. Gorgons are nothing if not aggressive. They attack intruders on sight, attempting to gore or petrify them. There is no way to calm these furious creatures, and they are impossible to domesticate.
 
+</div>
+<div class="monster" data-tag="Gray Ooze" >
+
 ## Gray Ooze
 
-|  |  |
+|  | Gray Ooze |
 |---|-----------|
 | Armor Class: | 12 |
 | Hit Dice: | 3* |
@@ -1926,9 +2203,12 @@ Gray oozes are amorphous creatures that live only to eat. They inhabit undergrou
 
 A gray ooze secretes a digestive acid that quickly dissolves organic material and metal, but not stone. After a successful hit, the ooze will stick to the creature attacked, dealing 2d8 damage per round automatically. Normal (non-magical) armor or clothing dissolves and becomes useless immediately. A non-magical metal or wooden weapon that strikes a gray ooze also dissolves immediately. Magical weapons, armor, and clothing are allowed a saving throw (use the wearer's save vs. Death Ray, adding any magical "plus" value to the roll if applicable).
 
+</div>
+<div class="monster" data-tag="Green Slime*" >
+
 ## Green Slime*
 
-|  |  |
+|  | Green Slime* |
 |---|-----------|
 | Armor Class: | hit only by fire or cold |
 | Hit Dice: | 2** |
@@ -1947,9 +2227,12 @@ On the first round of contact, the slime can be scraped off a creature (most lik
 
 If not destroyed or scraped off within 6+1d4 rounds, the victim will be completely transformed into green slime; such a character or creature cannot be retrieved by any magic short of a **wish**.
 
+</div>
+<div class="monster" data-tag="Griffon" >
+
 ## Griffon
 
-|  |  |
+|  | Griffon |
 |---|-----------|
 | Armor Class: | 18 |
 | Hit Dice: | 7 |
@@ -1968,9 +2251,12 @@ Griffons nest on high mountaintops, soaring down to feed on horses, the beast's 
 
 Griffons can be trained as mounts if raised in captivity, but even in this case they may try to attack horses if any come within about 120'. Roll a morale check in this case; if the check is failed, the griffon will try to attack immediately. A light load for a griffon is up to 400 pounds; a heavy load, up to 900 pounds.
 
+</div>
+<div class="monster" data-tag="Hangman Tree" >
+
 ## Hangman Tree
 
-|  |  |
+|  | Hangman Tree |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 5 |
@@ -1987,9 +2273,12 @@ Hangman trees are horrible, semi-animate creatures that fertilize themselves wit
 
 The roots of this tree are also animated; they do not attack, but they do pull dead bodies below the surface of the ground for "digestion."
 
+</div>
+<div class="monster" data-tag="Harpy" >
+
 ## Harpy
 
-|  |  |
+|  | Harpy |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 2* |
@@ -2004,10 +2293,13 @@ The roots of this tree are also animated; they do not attack, but they do pull d
 
 A harpy looks like a giant vulture bearing the torso and face of a human female. They are able to attack with their claws as well as with normal weapons, but their most insidious ability is their song. When a harpy sings, all creatures (other than harpies) within a 300' radius must succeed on a save vs. Spells or become **charmed**. The same harpy's song cannot affect a creature that successfully saves again for 24 hours. A charmed victim walks toward the harpy, taking the most direct route available. If the path leads into a dangerous area (through ame, off a cliff, or the like), that creature is allowed a second saving throw to resist the charm. Charmed creatures can take no actions other than to defend themselves. A victim within reach of the harpy offers no resistance to the monster's attacks. The effect continues for as long as the harpy sings, and for one round thereafter.
 
+</div>
+<div class="monster" data-tag="Hawk" >
+
 ## Hawk
 
 
-|  | **Normal** | **Giant** |
+|  | **Normal Hawk** | **Giant Hawk** |
 |---|------|-----|
 | Armor Class: | 12 | 14 |
 | Hit Dice: | 1d4 Hit Points | 4 |
@@ -2024,9 +2316,12 @@ Hawks are similar to eagles but slightly smaller, being 1 to 2 feet long with wi
 
 Giant hawks are 4 to 6 feet long, with wingspans of 12 feet or more; they can carry off creatures of Halfling size or smaller.
 
+</div>
+<div class="monster" data-tag="Hellhound" >
+
 ## Hellhound
 
-|  |  |
+|  | Hellhound |
 |---|-----------|
 | Armor Class: | 14 to 18 |
 | Hit Dice: | 3** to 7** |
@@ -2045,9 +2340,12 @@ A hellhound's breath weapon is a cone of flame 10' wide at the far end which is 
 
 Note that hellhounds vary with regard to the number of hit dice each has. If generating a group randomly, roll 1d6+1 for the hit dice of each, reading a total of 2 as 3. A hellhound has an Armor Class equal to 11 plus its hit dice.
 
+</div>
+<div class="monster" data-tag="Hippogriff" >
+
 ## Hippogriff
 
-|  |  |
+|  | Hippogriff |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 3 |
@@ -2066,9 +2364,12 @@ A hippogriff avoids the territories and civilizations of other creatures, dwelli
 
 Hippogriffs are omnivorous, entering combat only as defense, save for those times a griffon is met. They are prized as flying mounts since, unlike griffons, they are relatively safe around horses; note that it is still necessary to raise one in captivity in order to use it as a mount. A light load for a hippogriff is up to 400 pounds; a heavy load, up to 900 pounds.
 
+</div>
+<div class="monster" data-tag="Hobgoblin" >
+
 ## Hobgoblin
 
-|  |  |
+|  | Hobgoblin |
 |---|-----------|
 | Armor Class: | 14 (11) |
 | Hit Dice: | 1 |
@@ -2087,9 +2388,12 @@ Hobgoblins are cruel and calculating warriors, always looking to exploit those w
 
 One out of every six hobgoblins will be a warrior of 3 Hit Dice (145 XP). Regular hobgoblins gain a +1 bonus to their morale if they are led by a warrior. In hobgoblin lairs, one out of every twelve will be a chieftain of 5 Hit Dice (360 XP) in chainmail with an Armor Class of 15 (11) and a movement of 20', having a +1 bonus to damage due to strength. In lairs of 30 or greater, there will be a hobgoblin king of 7 Hit Dice (670 XP), adding a shield for an Armor Class of 16 (11) (movement is still 20') having a +2 bonus to damage. In the lair, hobgoblins never fail a morale check as long as the king is alive. In addition, a lair has a chance equal to 1-2 on 1d6 of a shaman being present (or 1-3 on 1d6 if a hobgoblin king is present), and 1 on 1d6 of a witch or warlock. A shaman is equivalent to a hobgoblin warrior statistically, but has Clerical abilities at level 1d6+1. A witch or warlock is equivalent to a regular hobgoblin, but has Magic-User abilities of level 1d6.
 
+</div>
+<div class="monster" data-tag="Hydra" >
+
 ## Hydra
 
-|  |  |
+|  | Hydra |
 |---|-----------|
 | Armor Class: | 16 to 23 |
 | Hit Dice: | 5 to 12 (+10) |
@@ -2108,9 +2412,12 @@ A hydra may be slain by damage in the normal fashion; however, most who fight th
 
 Some hydras live in the ocean; use the given movement as a swimming rate rather than walking in this case. A very few hydras can breathe fire; those that have this ability can emit a flame 10' wide and 20' long one time per head per day. This attack will be used about one time in three (1-2 on 1d6) if it is available; roll for each head which is attacking. Each such attack does 3d6 damage, with a save vs. Dragon Breath reducing the amount by half.
 
+</div>
+<div class="monster" data-tag="Hyena" >
+
 ## Hyena
 
-|  |  |
+|  | Hyena |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 2+1 |
@@ -2126,9 +2433,12 @@ Some hydras live in the ocean; use the given movement as a swimming rate rather 
 Hyenas are doglike carnivores who exhibit some of the behaviors of canines but are not related. They not only hunt but also scavenge and steal meals. A hungry hyena will chew on anything that is even remotely tainted by blood, meat or other food traces. They will mostly be found in the same savanna-like environments where lions and zebras may be found. They can live in clans of up to a hundred individuals, though smaller groups are more common. They are among the favorite pets of gnolls, who may take them into regions where they are not normally found.
 
 
+</div>
+<div class="monster" data-tag="Hyenodon" >
+
 ## Hyenodon
 
-|  |  |
+|  | Hyenodon |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 3+1 |
@@ -2143,9 +2453,12 @@ Hyenas are doglike carnivores who exhibit some of the behaviors of canines but a
 
 These ancient four legged predators are named for their tooth shape, and while they are not technically prehistoric hyenas, the statistics work for the giant prehistoric varieties of hyenas as well. Many varieties of hyenodons were smallish, sometimes no bigger than a common hyena, and the statistics for standard hyenas may be used for them. The above statistics are for the larger types of Hyenodons or giant varieties of Hyena. A notable feature is that their massively built skull features a long jaw (similar to that of a crocodile) full of teeth, with four great fangs.
 
+</div>
+<div class="monster" data-tag="Insect Swarm" >
+
 ## Insect Swarm
 
-|  |  |
+|  | Insect Swarm |
 |---|-----------|
 | Armor Class: | Immune to normal weapons, including most magical types |
 | Hit Dice: | 2* to 4* |
@@ -2164,9 +2477,12 @@ Any living creature within the volume or area of the swarm suffers 1d3 points of
 
 Damage is reduced to a single point per round for three rounds if the character manages to exit the swarm. It is possible to "ward off" the insects by swinging a weapon, shield, or other similar-sized object around, and in this case also damage is reduced to 1 point per round. If a lit torch is used in this way, the swarm takes 1d4 damage per round. Weapons, even magic weapons, do not harm an insect swarm. An entire swarm can be affected by a **sleep** spell. Smoke can be used to drive a swarm away (if the swarm moves away from the victim(s) due to smoke, the damage stops immediately). Finally, a victim who dives into water will take damage for only one more round.
 
+</div>
+<div class="monster" data-tag="Invisible Stalker" >
+
 ## Invisible Stalker
 
-|  |  |
+|  | Invisible Stalker |
 |---|-----------|
 | Armor Class: | 19 |
 | Hit Dice: | 8* |
@@ -2185,9 +2501,12 @@ A summoned invisible stalker undertakes whatever task the summoner commands, eve
 
 Invisible stalkers have an amorphous form. A **detect invisible** spell shows only a dim outline of a cloud. Don't forget to apply the standard penalty of -4 on the attack die when an invisible stalker is attacked by a creature which is unable to see it.
 
+</div>
+<div class="monster" data-tag="Jaguar" >
+
 ## Jaguar
 
-|  |  |
+|  | Jaguar |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 4 |
@@ -2202,9 +2521,12 @@ Invisible stalkers have an amorphous form. A **detect invisible** spell shows 
 
 These great cats are about 8 to 9 feet long (from nose to tail-tip) and weigh about 165 pounds. Unlike other great cats, they enjoy swimming and often hunt near rivers or lakes. Jaguars kill with their powerful bite, preferring to deliver a fatal wound to the skull of their prey.
 
+</div>
+<div class="monster" data-tag="Kobold" >
+
 ## Kobold
 
-|  |  |
+|  | Kobold |
 |---|-----------|
 | Armor Class: | 13 (11) |
 | Hit Dice: | 1d4 Hit Points |
@@ -2223,9 +2545,12 @@ One out of every six kobolds will be a warrior of 1 Hit Dice (25 XP). Kobolds ga
 
 Kobolds are cunning foes. They see all larger races as enemies, and are thus likely to be hostile when encountered. However, they are naturally cowardly, and prefer to avoid combat, leading enemies into ambushes or traps rather than facing them directly. Sometimes kobold tribes build and inhabit extensive dungeon areas filled with deadly traps which only they know how to avoid.
 
+</div>
+<div class="monster" data-tag="Leech, Giant" >
+
 ## Leech, Giant
 
-|  |  |
+|  | Leech, Giant |
 |---|-----------|
 | Armor Class: | 17 |
 | Hit Dice: | 6 |
@@ -2242,9 +2567,12 @@ Giant leeches are slimy, segmented wormlike creatures which live in water. Salt 
 
 Once a giant leech hits in combat, it attaches to the victim and sucks blood, causing an additional 1d6 damage each round until the victim or the leech is dead. There is no way to remove the leech other than to kill it.
 
+</div>
+<div class="monster" data-tag="Lion" >
+
 ## Lion
 
-|  |  |
+|  | Lion |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 5 |
@@ -2259,15 +2587,21 @@ Once a giant leech hits in combat, it attaches to the victim and sucks blood, ca
 
 The statistics presented here describe a male African lion, which is 5 to 8 feet long and weighs 330 to 550 pounds. Females are slightly smaller but use the same statistics.
 
+</div>
+<div class="monster" data-tag="Living Statue" >
+
 ## Living Statue
 
 Living statues are magically animated. They are true automatons, unlike golems, which are animated by elemental spirits. While this means that living statues have no chance of going "berserk," it also means that they may only perform simple programmed activities. They may not be commanded in any meaningful fashion. They make very effective guards for tombs, treasure rooms, and similar places.
 
 Living statues can be crafted to resemble any sort of living creature, but most commonly are made to look like humans or demi-humans.
 
+</div>
+<div class="monster" data-tag=" Living Statue, Crystal" >
+
 ### Living Statue, Crystal
 
-|  |  |
+|  |  Living Statue, Crystal |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 3 |
@@ -2282,9 +2616,12 @@ Living statues can be crafted to resemble any sort of living creature, but most 
 
 Crystal living statues have no particular special powers, unlike those made of iron or stone.
 
+</div>
+<div class="monster" data-tag=" Living Statue, Iron" >
+
 ### Living Statue, Iron
 
-|  |  |
+|  |  Living Statue, Iron |
 |---|-----------|
 | Armor Class: | 18 |
 | Hit Dice: | 4* |
@@ -2299,9 +2636,12 @@ Crystal living statues have no particular special powers, unlike those made of i
 
 If struck by a non-magical metal (even partially metal) weapon, the weapon may become stuck in the monster. If this happens, it cannot be removed until the statue is "killed." The wielder is allowed a save vs. Spells to avoid this.
 
+</div>
+<div class="monster" data-tag=" Living Statue, Stone" >
+
 ### Living Statue, Stone
 
-|  |  |
+|  |  Living Statue, Stone |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 5* |
@@ -2316,9 +2656,12 @@ If struck by a non-magical metal (even partially metal) weapon, the weapon may b
 
 A stone living statue attacks by spraying molten rock from its fingertips. The range of the spray is 5'.
 
+</div>
+<div class="monster" data-tag="Lizard, Giant Draco" >
+
 ## Lizard, Giant Draco
 
-|  |  |
+|  | Lizard, Giant Draco |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 4+2 |
@@ -2333,9 +2676,12 @@ A stone living statue attacks by spraying molten rock from its fingertips. The r
 
 Giant draco lizards are able to extend their ribs and connected skin to form a sort of wing, allowing them to fly for short distances (no more than three rounds, and ascending is impossible). An average giant draco lizard is 8' long, including its nearly 3' long tail. They are fierce predators.
 
+</div>
+<div class="monster" data-tag="Lizard, Giant Gecko" >
+
 ## Lizard, Giant Gecko
 
-|  |  |
+|  | Lizard, Giant Gecko |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 3+1 |
@@ -2350,9 +2696,12 @@ Giant draco lizards are able to extend their ribs and connected skin to form a s
 
 Giant gecko lizards range from 4' to 6' in length, and are generally green in color, though grey or white versions can be found underground. They can climb walls and even walk across ceilings at full movement rate due to their specialized toe pads. They are carnivores, typically attacking weaker prey from above.
 
+</div>
+<div class="monster" data-tag="Lizard, Giant Horned Chameleon" >
+
 ## Lizard, Giant Horned Chameleon
 
-|  |  |
+|  | Lizard, Giant Horned Chameleon |
 |---|-----------|
 | Armor Class: | 18 |
 | Hit Dice: | 5 |
@@ -2369,9 +2718,12 @@ Giant horned chameleons average 8' to 10' in length. They are typically green, b
 
 The horns of the giant horned chameleon are used only in mating rituals, not in combat.
 
+</div>
+<div class="monster" data-tag="Lizard, Giant Tuatara" >
+
 ## Lizard, Giant Tuatara
 
-|  |  |
+|  | Lizard, Giant Tuatara |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 6 |
@@ -2386,9 +2738,12 @@ The horns of the giant horned chameleon are used only in mating rituals, not in 
 
 Giant tuataras are large, being 10' to 12' long, and heavily built. They are predators with a powerful shearing bite. Giant tuataras are more resistant to cold than most lizards, and are thus sometimes found hunting deep underground. They are also known to hibernate in cold weather.
 
+</div>
+<div class="monster" data-tag="Lizard Man" >
+
 ## Lizard Man
 
-|  |  |
+|  | Lizard Man |
 |---|-----------|
 | Armor Class: | 15 (12) |
 | Hit Dice: | 2 |
@@ -2407,6 +2762,9 @@ Lizard men are excellent swimmers and can hold their breath for an extended peri
 
 Lizard men are largely indifferent to other races, being primarily interested in their own survival. If aroused, however, they are fearsome warriors, using simple but sound tactics.
 
+</div>
+<div class="monster" data-tag="Lycanthrope*" >
+
 ## Lycanthrope*
 
 Lycanthropes are humans who can transform themselves into animals. In its natural form, a lycanthrope looks like any other human, though those who have been afflicted for a long time tend to acquire features reminiscent of their animal forms. In animal form, a lycanthrope resembles a powerful version of the normal animal, but on close inspection, its eyes (which often glow red in the dark) show a faint spark of unnatural intelligence.
@@ -2415,9 +2773,12 @@ Lycanthropy is spread like a disease. Any human who loses half or more of his or
 
 In animal form, lycanthropes may be hit only by silver or magical weapons.
 
+</div>
+<div class="monster" data-tag=" Lycanthrope, Werebear*" >
+
 ### Lycanthrope, Werebear*
 
-|  |  |
+|  |  Lycanthrope, Werebear* |
 |---|-----------|
 | Armor Class: | 18 † |
 | Hit Dice: | 6* |
@@ -2432,9 +2793,12 @@ In animal form, lycanthropes may be hit only by silver or magical weapons.
 
 Werebears are humans that can transform into large bears. When in human form, they typically appear as well-muscled, imposing figures, with an abundance of thick hair. Werebears typically dwell in deep forests, far from civilization. They are distrustful of those that they do not know, but will ferociously defend those that they have befriended.
 
+</div>
+<div class="monster" data-tag=" Lycanthrope, Wereboar*" >
+
 ### Lycanthrope, Wereboar*
 
-|  |  |
+|  |  Lycanthrope, Wereboar* |
 |---|-----------|
 | Armor Class: | 16 † |
 | Hit Dice: | 4* |
@@ -2449,9 +2813,12 @@ Werebears are humans that can transform into large bears. When in human form, th
 
 Wereboars in human form tend to be a stocky, muscular individuals of average height. They dress in simple garments that are easy to remove, repair, or replace. In either form, wereboars are as aggressive and ferocious as normal boars.
 
+</div>
+<div class="monster" data-tag=" Lycanthrope, Wererat*" >
+
 ### Lycanthrope, Wererat*
 
-|  |  |
+|  |  Lycanthrope, Wererat* |
 |---|-----------|
 | Armor Class: | 13 † |
 | Hit Dice: | 3* |
@@ -2470,9 +2837,12 @@ In addition to assuming the form of a giant rat, wererats can assume an intermed
 
 Unlike most lycanthropes, wererats prefer to inhabit civilized areas, particularly cities. They frequently lair in sewers or other underground areas, coming out by night to steal from or kill city folk.
 
+</div>
+<div class="monster" data-tag=" Lycanthrope, Weretiger*" >
+
 ### Lycanthrope, Weretiger*
 
-|  |  |
+|  |  Lycanthrope, Weretiger* |
 |---|-----------|
 | Armor Class: | 17 † |
 | Hit Dice: | 5* |
@@ -2487,9 +2857,12 @@ Unlike most lycanthropes, wererats prefer to inhabit civilized areas, particular
 
 Weretigers are humans that can transform into tigers. In human form, they tend to be tall, trim, and very agile. They tend to live and hunt close to human settlements, and are excellent trackers (5 in 6 chance to track prey in either form). Weretigers will typically only attack if provoked.
 
+</div>
+<div class="monster" data-tag=" Lycanthrope, Werewolf*" >
+
 ### Lycanthrope, Werewolf*
 
-|  |  |
+|  |  Lycanthrope, Werewolf* |
 |---|-----------|
 | Armor Class: | 15 † |
 | Hit Dice: | 4* |
@@ -2504,9 +2877,12 @@ Weretigers are humans that can transform into tigers. In human form, they tend t
 
 Werewolves in human form have no distinguishing traits. They may be found anywhere humans are found. They are ferocious predators, equally willing to eat animal or human flesh.
 
+</div>
+<div class="monster" data-tag="Manticore" >
+
 ## Manticore
 
-|  |  |
+|  | Manticore |
 |---|-----------|
 | Armor Class: | 18 |
 | Hit Dice: | 6+1* |
@@ -2523,9 +2899,12 @@ Manticores look like an overgrown lion with thick leathery wings and an ugly hum
 
 Manticores are vicious predators, having a preference for human flesh. They will use their ranged attacks to "soften up" potential prey before closing to melee.
 
+</div>
+<div class="monster" data-tag="Mastodon" >
+
 ## Mastodon
 
-|  |  |
+|  | Mastodon |
 |---|-----------|
 | Armor Class: | 18 |
 | Hit Dice: | 15 *(+11) |
@@ -2542,9 +2921,12 @@ Mastodons (and mammoths, which can also be represented by the above statistics) 
 
 A mastodon has no treasure as such, but the tusks of a mastodon are worth 2d4 x 100 gp.
 
+</div>
+<div class="monster" data-tag="Medusa" >
+
 ## Medusa
 
-|  |  |
+|  | Medusa |
 |---|-----------|
 | Armor Class: | 12 |
 | Hit Dice: | 4** |
@@ -2565,9 +2947,12 @@ A medusa often wears garments that enhance its body while hiding its face behind
 
 Medusae are shy and reclusive, owing no doubt to the fact that, once the lair of one is found, any humans living nearby will not rest until she is slain. They are hateful creatures, however, and will seek to destroy as many humans as they can without being discovered.
 
+</div>
+<div class="monster" data-tag="Mermaid" >
+
 ## Mermaid
 
-|  |  |
+|  | Mermaid |
 |---|-----------|
 | Armor Class: | 12 |
 | Hit Dice: | 1* |
@@ -2596,9 +2981,12 @@ A mermaid with a child will not generally be encountered, as they remain in the 
 
 style="position: absolute; top: 0in; left: 0in" Mermaids arm themselves with spears or daggers. They hunt fish and harvest kelp for food. Mermaids sometimes possess more than 1 hit die, and about 3% have some Clerical abilities.
 
+</div>
+<div class="monster" data-tag="Minotaur" >
+
 ## Minotaur
 
-|  |  |
+|  | Minotaur |
 |---|-----------|
 | Armor Class: | 14 (12) |
 | Hit Dice: | 6 |
@@ -2613,9 +3001,12 @@ style="position: absolute; top: 0in; left: 0in" Mermaids arm themselves with spe
 
 Minotaurs are huge bull-headed humanoid monsters. A minotaur stands more than 7 feet tall and weighs about 700 pounds. Most minotaurs are very aggressive, and fly into a murderous rage if provoked or hungry. Although minotaurs are not especially intelligent, they possess innate cunning and logical ability. They never become lost, and can track enemies with 85% accuracy. They gain +2 to damage when using melee weapons due to their great Strength. Minotaurs often wear toughened hides for armor.
 
+</div>
+<div class="monster" data-tag="Mountain Lion" >
+
 ## Mountain Lion
 
-|  |  |
+|  | Mountain Lion |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 3+2 |
@@ -2630,9 +3021,12 @@ Minotaurs are huge bull-headed humanoid monsters. A minotaur stands more than 7 
 
 These great cats are about 7 feet long (from nose to tail-tip) and weigh about 140 pounds. They see well in darkness and may be found hunting day or night.
 
+</div>
+<div class="monster" data-tag="Mummy*" >
+
 ## Mummy*
 
-|  |  |
+|  | Mummy* |
 |---|-----------|
 | Armor Class: | 17 ‡ (see below) |
 | Hit Dice: | 5** |
@@ -2649,9 +3043,12 @@ Mummies are **undead** monsters, linen-wrapped preserved corpses animated thro
 
 As they are undead, mummies are immune to **sleep**, **charm** and **hold** magic. They can only be injured by spells, fire, or magical weapons; furthermore, magic weapons do only half damage, while any sort of fire-based attack does double damage. Those injured by mummy attacks will contract **mummy rot**, a disease that prevents normal or magical healing; a **cure disease** spell must be applied to the victim before he or she may again regain hit points.
 
+</div>
+<div class="monster" data-tag="Nixie" >
+
 ## Nixie
 
-|  |  |
+|  | Nixie |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 1* |
@@ -2670,9 +3067,12 @@ Ten or more nixies can work together to cast a powerful charm (similar to **cha
 
 Nixies are fey creatures, and thus unpredictable. However, they are rarely malicious, attacking only when they feel threatened.
 
+</div>
+<div class="monster" data-tag="Ochre Jelly*" >
+
 ## Ochre Jelly*
 
-|  |  |
+|  | Ochre Jelly* |
 |---|-----------|
 | Armor Class: | 12 (only hit by fire or cold) |
 | Hit Dice: | 5* |
@@ -2689,9 +3089,12 @@ Ochre jellies are ochre-colored amorphous monsters, similar to the gray ooze in 
 
 Ochre jellies can only be hit (damaged) by fire or cold. Attacks with weapons or electricity/lightning cause the creature to divide into 1d4+1 smaller jellies of 2 hit dice apiece. If divided, the resulting smaller jellies do 1d6 damage with each hit.
 
+</div>
+<div class="monster" data-tag="Octopus, Giant" >
+
 ## Octopus, Giant
 
-|  |  |
+|  | Octopus, Giant |
 |---|-----------|
 | Armor Class: | 19 |
 | Hit Dice: | 8 |
@@ -2708,9 +3111,12 @@ These creatures are aggressive and territorial hunters, with arms reaching 10 fe
 
 If a giant octopus fails a morale check, it will squirt out a cloud of black "ink" 40' in diameter and then jet away at twice normal speed for 2d6 rounds.
 
+</div>
+<div class="monster" data-tag="Ogre" >
+
 ## Ogre
 
-|  |  |
+|  | Ogre |
 |---|-----------|
 | Armor Class: | 15 (12) |
 | Hit Dice: | 4+1 |
@@ -2727,9 +3133,12 @@ Ogres appear as large, very ugly humans. Adult ogres stand 9 to 10 feet tall and
 
 One out of every six ogres will be a pack leader of 6+1 Hit Dice (500 XP). Ogres gain a +1 bonus to their morale if they are led by a pack leader. In ogre lairs of 10 or greater, there will also be an ogre bully of 8+2 Hit Dice (875 XP), with an Armor Class of 17 (13) (movement 20') and having a +4 bonus to damage due to strength. Ogre bullies generally wire together pieces of chainmail to wear over their hides. Ogres gain +2 to morale so long as the ogre bully is present (and alive).
 
+</div>
+<div class="monster" data-tag="Orc" >
+
 ## Orc
 
-|  |  |
+|  | Orc |
 |---|-----------|
 | Armor Class: | 14 (11) |
 | Hit Dice: | 1 |
@@ -2748,9 +3157,12 @@ Orcs have Darkvision to a range of 60'. They suffer a -1 attack penalty in brigh
 
 One out of every eight orcs will be a warrior of 2 Hit Dice (75 XP). Orcs gain a +1 bonus to their morale if they are led by a warrior. In orc lairs, one out of every twelve will be a chieftain of 4 Hit Dice (240 XP) in chainmail with an Armor Class of 15 (11), a movement 20', and having a +1 bonus to damage due to strength. In lairs of 30 or more, there will be an orc king of 6 Hit Dice (500 XP), with an Armor Class of 16 (11), in chainmail with a shield, movement 20', and having a +2 bonus to damage. In the lair, orcs never fail a morale check as long as the orc king is alive. In addition, a lair has a chance equal to 1-2 on 1d6 of a shaman being present. A shaman is equivalent to a warrior orc statistically, but has Clerical abilities at level 1d4+1.
 
+</div>
+<div class="monster" data-tag="Owlbear" >
+
 ## Owlbear
 
-|  |  |
+|  | Owlbear |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 5 |
@@ -2767,9 +3179,12 @@ Owlbears appear to be bears with owlish faces, including a large, sharp beak. An
 
 Owlbears fight much as do bears, but are more aggressive (as noted above). As with normal bears, an owlbear must hit with both claws in order to do the listed "hug" damage.
 
+</div>
+<div class="monster" data-tag="Pegasus" >
+
 ## Pegasus
 
-|  |  |
+|  | Pegasus |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 4 |
@@ -2784,9 +3199,12 @@ Owlbears fight much as do bears, but are more aggressive (as noted above). As wi
 
 The pegasus is a magnificent winged horse. Though highly prized as aerial steeds, pegasi are wild and shy creatures not easily tamed. A typical pegasus stands 6 feet high at the shoulder, weighs 1,500 pounds, and has a wingspan of 20 feet. A light load for a pegasus is up to 400 pounds; a heavy load, up to 900 pounds.
 
+</div>
+<div class="monster" data-tag="Pixie" >
+
 ## Pixie
 
-|  |  |
+|  | Pixie |
 |---|-----------|
 | Armor Class: | 17 |
 | Hit Dice: | 1* |
@@ -2807,9 +3225,12 @@ Pixies are whimsical, enjoying nothing so much as a good joke or prank, especial
 
 Pixies can only fly for 3 turns maximum before requiring rest of at least one turn, during which time the pixie may walk at normal speed but may not fly.
 
+</div>
+<div class="monster" data-tag="Purple Worm" >
+
 ## Purple Worm
 
-|  |  |
+|  | Purple Worm |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 11* (+9) to 20* (+13) |
@@ -2828,9 +3249,12 @@ The creature has a poisonous stinger in its tail; those injured by it must save 
 
 Any time a purple worm successfully bites a man-sized or smaller opponent with a natural roll of 19 or 20, the opponent has been swallowed, and will suffer 3d6 damage per round afterward due to being digested. A character who has been swallowed can only effectively attack with small cutting or stabbing weapons such as dagger or shortsword.
 
+</div>
+<div class="monster" data-tag="Rat" >
+
 ## Rat
 
-|  | **Normal** | **Giant** |
+|  | **Normal Rat** | **Giant Rat** |
 |---|------|-----|
 | Armor Class: | 11 | 13 |
 | Hit Dice: | 1 Hit Point | 1d4 Hit Points |
@@ -2851,9 +3275,12 @@ Any rat bite has a 5% chance of causing a disease. A character who suffers one o
 
 \* Note: The XP award for normal rats is for driving away or killing an entire pack of normal size. If the adventurers are forced to flee, the GM should award 3 XP per rat slain.
 
+</div>
+<div class="monster" data-tag="Rhagodessa, Giant" >
+
 ## Rhagodessa, Giant
 
-|  |  |
+|  | Rhagodessa, Giant |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 4 |
@@ -2872,9 +3299,12 @@ Giant rhagodessas are the size of a pony. Those found in desert terrain are gene
 
 A hit by a leg does no damage, but the victim is stuck fast, and will be drawn to the rhagodessa's mouth the next round and automatically hit for 2d8 damage. The rhagodessa will not use its bite attack against a foe it has not captured in this way, and neither will it attack more than one foe with its legs. If threatened, a rhagodessa which has captured a victim will attempt to withdraw to consume its prey in peace.
 
+</div>
+<div class="monster" data-tag="Rhinoceros" >
+
 ## Rhinoceros
 
-|  | **Black** | **Woolly** |
+|  | **Black Rhino** | **Woolly Rhino** |
 |---|----|-------|
 | Armor Class: | 17 | 19 |
 | Hit Dice: | 8 | 12 (+10) |
@@ -2893,9 +3323,12 @@ The statistics presented here are based on the African black rhino, which is 6 t
 
 The woolly rhinoceros is a prehistoric beast with long fur, found in primitive "lost world" areas in colder territories. They behave much as the black rhino does.
 
+</div>
+<div class="monster" data-tag="Roc" >
+
 ## Roc
 
-|  | **Normal** | **Large** | **Giant** |
+|  | **Normal Roc** | **Large Roc** | **Giant Roc** |
 |---|------|-----|----|
 | Armor Class: | 18 | 18 | 18 |
 | Hit Dice: | 6 | 12 (+10) | 32 (+16) |
@@ -2914,9 +3347,12 @@ A light load for a normal roc is 150 pounds, while a heavy load is 300 pounds. O
 
 A roc attacks from the air, swooping earthward to snatch prey in its powerful talons and carry it off for itself and its young to devour. Any successful hit with both claw (talon) attacks against a single creature results in that creature being carried off, unless of course the creature is too large for the roc to carry. While being carried, the victim will not be further attacked, so as to be as "fresh" as possible when given to the hatchlings (or consumed by the roc itself if it is solitary). A solitary roc is typically hunting and will attack any man-sized or larger creature that appears edible. A mated pair of rocs attack in concert, fighting to the death to defend their nests or hatchlings.
 
+</div>
+<div class="monster" data-tag="Rock Baboon" >
+
 ## Rock Baboon
 
-|  |  |
+|  | Rock Baboon |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 2 |
@@ -2933,9 +3369,12 @@ Rock baboons are a large, particularly intelligent variety of baboon. An adult m
 
 Rock baboons are omnivorous, but prefer meat. They are aggressive, naturally cruel creatures. They will prepare ambushes in rocky or forested terrain and attack any party they outnumber.
 
+</div>
+<div class="monster" data-tag="Rot Grub" >
+
 ## Rot Grub
 
-|  |  |
+|  | Rot Grub |
 |---|-----------|
 | Armor Class: | 10 |
 | Hit Dice: | 1 hp |
@@ -2950,9 +3389,12 @@ Rock baboons are omnivorous, but prefer meat. They are aggressive, naturally cru
 
 Rot grubs are 1-inch long vermin found in carrion, dung, and other such garbage and organic material. Their skin color is white or brown. When a living creature contacts an area (dung heap, offal, etc) infested with rot grubs, the grubs will attack if they can come in contact the victim's skin. A rot grub secretes an anesthetic when it bites and will burrow into the flesh. A burrowing grub can be noticed if the victim succeeds at a Wisdom check. If successful, the victim sees strange rippling beneath his skin. If failed, the creature does not notice the grubs. During the first two rounds, a burrowing rot grub can be killed by applying fire to the infested skin or by cutting open the infested skin with any slashing weapon. Either method deals 2d6 points of damage to the victim, but kills the grubs. After the second round, only a cure disease can kill the grubs as they burrow to the victim's heart and devour it in 1d3 turns.
 
+</div>
+<div class="monster" data-tag="Rust Monster*" >
+
 ## Rust Monster*
 
-|  |  |
+|  | Rust Monster* |
 |---|-----------|
 | Armor Class: | 18 |
 | Hit Dice: | 5* |
@@ -2971,9 +3413,12 @@ A rust monster's touch transforms metal objects into rust (or verdigris, or othe
 
 The metal oxides created by this monster are its food; a substantial amount of metal dropped in its path may cause it to cease pursuit of metal-armored characters. Use a morale check to determine this.
 
+</div>
+<div class="monster" data-tag="Sabre-Tooth Cat" >
+
 ## Sabre-Tooth Cat
 
-|  |  |
+|  | Sabre-Tooth Cat |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 8 |
@@ -2988,10 +3433,13 @@ The metal oxides created by this monster are its food; a substantial amount of m
 
 The sabre-tooth cat, or *smilodon*, is a prehistoric great cat with very large canine teeth. They behave much as do mountain lions or jaguars.
 
+</div>
+<div class="monster" data-tag="Salamander*" >
+
 ## Salamander*
 
 
-|  | Flame | Frost |
+|  | Flame Salamander | Frost Salamander |
 |---|------|----|
 | Armor Class: | 19 ‡ | 21 ‡ |
 | Hit Dice: | 8* | 12* (+10) |
@@ -3012,9 +3460,12 @@ Salamanders are large, lizard-like creatures from the elemental planes. They are
 
 Flame and frost salamanders hate each other, and each type will attack the other on sight, in preference over any other foe. If summoned by a Magic-User, a salamander is often assigned to protect a location, doorway, or treasure hoard; in such a case, the salamander will attack anyone attempting to gain unauthorized access to the protected area. Those which arrive through natural rifts may have any goals or motivations the GM wishes, and thus may choose to parley, fight, or even ignore adventurers.
 
+</div>
+<div class="monster" data-tag="Scorpion, Giant" >
+
 ## Scorpion, Giant
 
-|  |  |
+|  | Scorpion, Giant |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 4* |
@@ -3029,9 +3480,12 @@ Flame and frost salamanders hate each other, and each type will attack the other
 
 Giant scorpions are quite large, sometimes as large as a donkey. They are aggressive predators and generally attack on sight. If a claw attack hits, the giant scorpion receives a +2 attack bonus with its stinger (but two claw hits do not give a double bonus). Those hit by the stinger must save vs. Poison or die. Giant scorpions are most commonly found in desert areas or caverns.
 
+</div>
+<div class="monster" data-tag="Sea Serpent" >
+
 ## Sea Serpent
 
-|  |  |
+|  | Sea Serpent |
 |---|-----------|
 | Armor Class: | 17 |
 | Hit Dice: | 6 |
@@ -3046,9 +3500,12 @@ Giant scorpions are quite large, sometimes as large as a donkey. They are aggres
 
 Sea serpents are, obviously, serpentine monsters which live in the sea. They range from 20' to 40' long. A sea serpent can choose to wrap around a ship and constrict; in this case, roll 2d10 for damage.
 
+</div>
+<div class="monster" data-tag="Shadow*" >
+
 ## Shadow*
 
-|  |  |
+|  | Shadow* |
 |---|-----------|
 | Armor Class: | 13 ‡ |
 | Hit Dice: | 2* |
@@ -3067,9 +3524,12 @@ A shadow's attack does 1d4 damage (from cold) and drains 1 point of Strength fro
 
 Due to their incorporeal nature, shadows cannot be harmed by non-magical weapons.
 
+</div>
+<div class="monster" data-tag="Shark, Bull" >
+
 ## Shark, Bull
 
-|  |  |
+|  | Shark, Bull |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 2 |
@@ -3086,9 +3546,12 @@ Bull sharks are so named because of their stocky, broad build. Male bull sharks 
 
 Bull sharks are able to tolerate fresh water, and often travel up rivers in search of prey.
 
+</div>
+<div class="monster" data-tag="Shark, Great White" >
+
 ## Shark, Great White
 
-|  |  |
+|  | Shark, Great White |
 |---|-----------|
 | Armor Class: | 19 |
 | Hit Dice: | 8 |
@@ -3103,9 +3566,12 @@ Bull sharks are able to tolerate fresh water, and often travel up rivers in sear
 
 Great white sharks range from 12' to 15' in length on the average, though specimens ranging up to 30' in length have been reported. They are apex predators. Great white sharks have the ability to sense the electromagnetic fields of living creatures, allowing them to find prey even when light or water clarity are poor, and are able to smell blood at great distances.
 
+</div>
+<div class="monster" data-tag="Shark, Mako" >
+
 ## Shark, Mako
 
-|  |  |
+|  | Shark, Mako |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 4 |
@@ -3120,9 +3586,12 @@ Great white sharks range from 12' to 15' in length on the average, though specim
 
 Mako sharks are fast-moving predators found in temperate and tropical seas. They average 9' to 13' in length and weigh up to 1,750 pounds. Mako sharks are known for their ability to leap out of the water; they are able to leap up to 20' in the air.
 
+</div>
+<div class="monster" data-tag="Shrew, Giant" >
+
 ## Shrew, Giant
 
-|  |  |
+|  | Shrew, Giant |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 1* |
@@ -3141,9 +3610,12 @@ Giant shrews move so swiftly that they are able to bite twice per round, and the
 
 A few giant shrew species (generally no more than 5% of those encountered) are venomous. The bite of such a giant shrew will kill the victim unless a save vs. Poison is made. A victim bitten twice in a round need only save once for that round, but of course will have to save again in subsequent rounds if bitten again. Venomous giant shrews are considered 1* with respect to hit dice.
 
+</div>
+<div class="monster" data-tag="Shrieker" >
+
 ## Shrieker
 
-|  |  |
+|  | Shrieker |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 3 |
@@ -3160,9 +3632,12 @@ A shrieker is a large (3' to 5' tall and about the same size across), semi-mobil
 
 A shrieker has no means of attack. Instead, it lures monsters to its vicinity by emitting a loud noise. Movement or a light source within 10 feet of a shrieker causes the fungus to emit a piercing sound that lasts for 1d3 rounds. The sound attracts nearby creatures that are disposed to investigate it. Some creatures that live near shriekers learn that the fungus' noise means there is food nearby. In game terms, the GM should roll a wandering monster check each round that a shrieker shrieks.
 
+</div>
+<div class="monster" data-tag="Skeleton" >
+
 ## Skeleton
 
-|  |  |
+|  | Skeleton |
 |---|-----------|
 | Armor Class: | 13 (see below) |
 | Hit Dice: | 1 |
@@ -3177,9 +3652,12 @@ A shrieker has no means of attack. Instead, it lures monsters to its vicinity by
 
 Skeletons are mindless **undead** created by an evil Magic-User or Cleric, generally to guard a tomb or treasure hoard, or to act as guards for their creator. They take only ½ damage from edged weapons, and only a single point from arrows, bolts or sling stones (plus any magical bonus). As with all undead, they can be **Turned** by a Cleric, and are immune to **sleep, charm** or **hold** magic. As they are mindless, no form of mind reading is of any use against them. Skeletons never fail morale, and thus always fight until destroyed.
 
+</div>
+<div class="monster" data-tag="Snake, Giant Rattlesnake" >
+
 ## Snake, Giant Rattlesnake
 
-|  |  |
+|  | Snake, Giant Rattlesnake |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 2* |
@@ -3194,9 +3672,12 @@ Skeletons are mindless **undead** created by an evil Magic-User or Cleric, gen
 
 style="position: absolute; top: 0in; left: 0in" Giant rattlesnakes are simply much enlarged versions of the normal rattlesnake (see **pit vipers**, below, for details). They average 14' to 20' in length at adulthood.
 
+</div>
+<div class="monster" data-tag="Snake, Pit Viper" >
+
 ## Snake, Pit Viper
 
-|  |  |
+|  | Snake, Pit Viper |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 1* |
@@ -3217,9 +3698,12 @@ Pit vipers are named for the thermally sensitive "pits" between their eyes and n
 
 Rattlesnakes are a variety of pit viper; in addition to the details given above, a rattlesnake has a rattle (from which it gets its name) at the end of its tail. The rattle is used to warn away larger creatures.
 
+</div>
+<div class="monster" data-tag="Snake, Python" >
+
 ## Snake, Python
 
-|  |  |
+|  | Snake, Python |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 5* |
@@ -3234,9 +3718,12 @@ Rattlesnakes are a variety of pit viper; in addition to the details given above,
 
 After a successful bite attack, a python will wrap itself around the victim (in the same round), constricting for 2d4 damage plus an additional 2d4 per round thereafter. The hold may be broken on a roll of 1 on 1d6 (add the victim's Strength bonus to the range, so a Strength of 16 would result in a range of 1-3 on 1d6); breaking the hold takes a full round.
 
+</div>
+<div class="monster" data-tag="Snake, Sea" >
+
 ## Snake, Sea
 
-|  |  |
+|  | Snake, Sea |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 3* |
@@ -3253,9 +3740,12 @@ Sea snakes are relatively small; the largest varieties rarely exceed 6' in lengt
 
 Fortunately, sea snakes rarely attack; only if molested (grabbed, stepped on, etc.) will they do so. They are very clumsy when out of the water.
 
+</div>
+<div class="monster" data-tag="Snake, Spitting Cobra" >
+
 ## Snake, Spitting Cobra
 
-|  |  |
+|  | Snake, Spitting Cobra |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 1* |
@@ -3270,9 +3760,12 @@ Fortunately, sea snakes rarely attack; only if molested (grabbed, stepped on, et
 
 Spitting cobras average about 7' in length at adulthood. They use their spreading hood to warn other creatures not to bother them, and generally refrain from attacking if possible to allow larger creatures time to retreat. Failure to retreat from the spitting cobra will likely result in the cobra spitting venom; the cobra can project its venom up to 5', and any creature hit must roll a save vs. Poison or be blinded permanently (though the **cure blindness** spell can be used to heal this injury). If the cobra cannot deter a creature by spitting, it will attack using its bite. In this case, those successfully hit must save vs. Poison or die.
 
+</div>
+<div class="monster" data-tag="Spectre*" >
+
 ## Spectre*
 
-|  |  |
+|  | Spectre* |
 |---|-----------|
 | Armor Class: | 17 ‡ |
 | Hit Dice: | 6** |
@@ -3289,9 +3782,12 @@ A spectre looks much as it did in life and can be easily recognized by those who
 
 Like all undead, they may be Turned by Clerics and are immune to **sleep**, **charm** and **hold** magics. Due to their incorporeal nature, they cannot be harmed by non-magical weapons.
 
+</div>
+<div class="monster" data-tag="Spider, Giant Black Widow" >
+
 ## Spider, Giant Black Widow
 
-|  |  |
+|  | Spider, Giant Black Widow |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 3* |
@@ -3308,9 +3804,12 @@ The giant black widow spider is a much enlarged version of the ordinary black wi
 
 The venom of the giant black widow is strong, such that those bitten must save vs. Poison at a penalty of -2 or die. Giant black widow spiders spin strong, sticky, nearly invisible webs, usually across passageways or cave entrances, or sometimes between trees in the wilderness; those who stumble into these webs become stuck, and must roll to escape just as if opening a door. Any character stuck in such a web cannot effectively cast spells or use a weapon.
 
+</div>
+<div class="monster" data-tag="Spider, Giant Crab" >
+
 ## Spider, Giant Crab
 
-|  |  |
+|  | Spider, Giant Crab |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 2* |
@@ -3325,9 +3824,12 @@ The venom of the giant black widow is strong, such that those bitten must save v
 
 Crab spiders are ambush predators, hiding using various forms of camouflage and leaping out to bite their surprised prey. Giant crab spiders are horribly enlarged, being around 3' in length. They can change color slowly (over the course of a few days), taking on the overall coloration of their preferred lair or ambush location. After this change is complete, the spider is able to surprise potential prey on 1-4 on 1d6 when in that preferred location. Anyone bitten by a giant crab spider must save vs. Poison or die.
 
+</div>
+<div class="monster" data-tag="Spider, Giant Tarantula" >
+
 ## Spider, Giant Tarantula
 
-|  |  |
+|  | Spider, Giant Tarantula |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 4* |
@@ -3346,9 +3848,12 @@ Each round the original victim dances, he or she must save vs. Poison again or t
 
 **Neutralize poison** will cure the original victim, and **dispel magic** will stop the dance for all victims in the area of effect, whether they are original or secondary.
 
+</div>
+<div class="monster" data-tag="Sprite" >
+
 ## Sprite
 
-|  |  |
+|  | Sprite |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 1d4 Hit Points * |
@@ -3365,9 +3870,12 @@ Sprites are reclusive fey creatures, looking like tiny elves just a foot tall wi
 
 Five sprites acting together can cast **remove curse**, or its reversed form **bestow curse**, once per day. The latter spell is often used as an attack.
 
+</div>
+<div class="monster" data-tag="Squid, Giant" >
+
 ## Squid, Giant
 
-|  |  |
+|  | Squid, Giant |
 |---|-----------|
 | Armor Class: | 17 |
 | Hit Dice: | 6 |
@@ -3384,9 +3892,12 @@ These voracious creatures can have bodies more than 20 feet long and attack almo
 
 If a giant squid fails a morale check, it will squirt out a cloud of black "ink" 30' in diameter and then jet away at twice normal speed for 3d8 rounds.
 
+</div>
+<div class="monster" data-tag="Stirge" >
+
 ## Stirge
 
-|  |  |
+|  | Stirge |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 1* |
@@ -3403,9 +3914,12 @@ A stirge's coloration ranges from rust-red to reddish-brown, with a dirty yellow
 
 If a stirge hits a creature, it attaches and drains blood equal to 1d4 damage per round (on its Initiative). The creature can only be removed by killing it; any attack on the creature receives an attack bonus of +2, but any attack that misses hits the victim instead.
 
+</div>
+<div class="monster" data-tag="Tentacle Worm" >
+
 ## Tentacle Worm
 
-|  |  |
+|  | Tentacle Worm |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 3* |
@@ -3424,9 +3938,12 @@ A tentacle worm can attack as many as three adjacent opponents. Those hit must s
 
 If all opponents of a tentacle worm are rendered paralyzed, it will begin to feed upon the paralyzed victims, doing 1 point of damage every 1d8 rounds until the victim is dead; if other paralyzed victims are still alive, the worm is 50% likely to move on immediately to another still-living victim. Otherwise, it continues to eat the corpse of the slain victim for 1d4 turns.
 
+</div>
+<div class="monster" data-tag="Tiger" >
+
 ## Tiger
 
-|  |  |
+|  | Tiger |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 6 |
@@ -3441,9 +3958,12 @@ If all opponents of a tentacle worm are rendered paralyzed, it will begin to fee
 
 These great cats stand more than 3 feet tall at the shoulder and are about 9 feet long. They weigh from 400 to 600 pounds.
 
+</div>
+<div class="monster" data-tag="Titanothere" >
+
 ## Titanothere
 
-|  |  |
+|  | Titanothere |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 12 (+10) |
@@ -3458,9 +3978,12 @@ These great cats stand more than 3 feet tall at the shoulder and are about 9 fee
 
 A titanothere is a huge prehistoric animal that resembles the rhinoceros; adults average 10' tall and 13' long. They have large, forked horns rather than the pointed horns of rhinos. Like rhinos, they are herd animals, and males aggressively defend the herd; females only enter combat if the male(s) are defeated or the attackers are very numerous. If a single titanothere is encountered, it will be a rogue male; they are bad tempered and prone to attacking smaller creatures that enter their territory.
 
+</div>
+<div class="monster" data-tag="Treant" >
+
 ## Treant
 
-|  |  |
+|  | Treant |
 |---|-----------|
 | Armor Class: | 19 |
 | Hit Dice: | 8* |
@@ -3479,9 +4002,12 @@ Treants speak their own language, plus Common and Elvish. Most also can manage a
 
 A treant can animate trees within 180' at will, controlling up to two trees at a time. It takes one round for a normal tree to uproot itself. Thereafter it moves at a speed of 10' and fights as a treant in all respects. Such trees lose their ability to move if the treant that animated them is incapacitated or moves out of range.
 
+</div>
+<div class="monster" data-tag="Troglodyte" >
+
 ## Troglodyte
 
-|  |  |
+|  | Troglodyte |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 2 |
@@ -3502,9 +4028,12 @@ Troglodytes are very hostile, attacking equal or weaker non-troglodyte groups on
 
 One out of every eight troglodytes will be a warrior of 4 Hit Dice (240 XP) that gains a +1 bonus to damage due to Strength. Troglodytes gain a +1 bonus to their morale if they are led by a warrior. In lairs of 24 or more, there will be a troglodyte leader of 6 Hit Dice (500 XP) with an Armor Class of 17 and having a +2 bonus to damage due to Strength. In the lair, troglodytes never fail a morale check as long as the leader is alive.
 
+</div>
+<div class="monster" data-tag="Troll" >
+
 ## Troll
 
-|  |  |
+|  | Troll |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 6* |
@@ -3522,6 +4051,9 @@ A typical adult troll stands 9 feet tall and weighs 500 pounds. A troll's rubber
 Trolls have the power of regeneration; they heal 1 hit point of damage each round after being injured. A troll reduced to 0 hit points is not dead, but only disabled for 2d6 rounds, at which point it will regain 1 hit point. Note that the troll may "play dead" until it has regenerated further. Damage from fire and acid cannot be regenerated, and must heal at the normal rate; a troll can only be killed by this sort of damage. The lower morale rating (in parentheses) is used when the troll faces attackers armed with fire or acid. If a troll loses a limb or body part, the lost portion regrows in one turn; or, the creature can reattach the severed member instantly by holding it to the stump.
 
 Trolls are hateful creatures, reveling in combat and bloodshed. Though trolls could easily use a variety of weapons, they much prefer the sensation of flesh being rent by their teeth and claws.
+
+</div>
+<div class="monster" data-tag="Unicorn (and Alicorn)" >
 
 ## Unicorn (and Alicorn)
 
@@ -3549,9 +4081,12 @@ An Alicorn resembles a unicorn in all details, save that they always have yellow
 
 Alicorns cannot heal or transport themselves by magic as unicorns do. However, alicorns may become invisible at will, exactly as if wearing a **ring of invisibility**.
 
+</div>
+<div class="monster" data-tag="Urgoblin" >
+
 ## Urgoblin
 
-|  |  |
+|  | Urgoblin |
 |---|-----------|
 | Armor Class: | 14 (11) |
 | Hit Dice: | 2* |
@@ -3568,9 +4103,12 @@ These creatures appear to be normal **hobgoblins**, but urgoblins are actually 
 
 Some hobgoblin tribes consider urgoblins an abomination, and kill them whenever they can be identified. Other hobgoblin tribes employ them as bodyguards for the chieftain, and accord them great honor. There are even rumors of a tribe entirely made up of urgoblins, with kidnapped hobgoblin females as their mates; reportedly they slit the throats of all infants born to their mates, so that only those who have the power of regeneration survive.
 
+</div>
+<div class="monster" data-tag="Vampire*" >
+
 ## Vampire*
 
-|  |  |
+|  | Vampire* |
 |---|-----------|
 | Armor Class: | 18 to 20 ‡ |
 | Hit Dice: | 7** to 9** (+8) |
@@ -3605,9 +4143,12 @@ Vampires are also unable to cross running water, although they can be carried ov
 
 **Slaying a Vampire:** Reducing a vampire's hit points to 0 or lower incapacitates it but doesn't always destroy it, as described above. However, certain attacks can slay vampires. Exposing any vampire to direct sunlight disorients it: It can act for only one round and is destroyed utterly in the next round if it cannot escape. Similarly, immersing a vampire in running water robs it of one-third of its hit points each round until it is destroyed at the end of the third round of immersion. Driving a wooden stake through a vampire's heart instantly slays the monster. However, it returns to life if the stake is removed, unless the body is destroyed, by water or sunlight as described above, or by burning it completely in a funeral pyre.
 
+</div>
+<div class="monster" data-tag="Water Termite, Giant" >
+
 ## Water Termite, Giant
 
-|  |  |
+|  | Water Termite, Giant |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 1 to 4 |
@@ -3626,9 +4167,12 @@ However, the primary concern regarding these monsters is the damage they can do 
 
 These creatures are found in fresh and salt water as well as in swamps. The freshwater variety tend to be smaller, 1-2 hit dice, the saltwater variety 3-4 hit dice, and those found in swamps range from 2-3 hit dice.
 
+</div>
+<div class="monster" data-tag="Weasel, Giant (or Ferret, Giant)" >
+
 ## Weasel, Giant (or Ferret, Giant)
 
-|  |  |
+|  | Weasel, Giant (or Ferret, Giant) |
 |---|-----------|
 | Armor Class: | 17 |
 | Hit Dice: | 5 |
@@ -3647,9 +4191,12 @@ Weasels of all sorts are cunning, crafty hunters, and surprise their prey on 1-3
 
 There are many varieties of normal-sized weasel, including several which are called ferrets; in some territories, the giant weasel is thus called a giant ferret. The only distinction is that those which are tamed are always called ferrets, though not all giant ferrets are tame. Various humanoid races as well as some fairy creatures are known to tame giant ferrets for use as guards or war-animals.
 
+</div>
+<div class="monster" data-tag="Whale, Killer" >
+
 ## Whale, Killer
 
-|  |  |
+|  | Whale, Killer |
 |---|-----------|
 | Armor Class: | 17 |
 | Hit Dice: | 6 |
@@ -3666,9 +4213,12 @@ These ferocious creatures are about 30 feet long. Killer whales, also called "or
 
 Killer whales eat fish, squid, seals, and other whales, but are not above consuming a meal of human or demi-human fare.
 
+</div>
+<div class="monster" data-tag="Whale, Narwhal" >
+
 ## Whale, Narwhal
 
-|  |  |
+|  | Whale, Narwhal |
 |---|-----------|
 | Armor Class: | 19 |
 | Hit Dice: | 12 (+10) |
@@ -3683,9 +4233,12 @@ Killer whales eat fish, squid, seals, and other whales, but are not above consum
 
 Narwhals are aquatic mammals resembling large dolphins with a single (or rarely, double) tusk protruding straight forward from the mouth. The tusk is helical in shape, and they are sometimes cut short and sold as "unicorn horns." However, they have no particular magical value. Narwhals are found in cold northern seas. They are not particularly aggressive.
 
+</div>
+<div class="monster" data-tag="Whale, Sperm" >
+
 ## Whale, Sperm
 
-|  |  |
+|  | Whale, Sperm |
 |---|-----------|
 | Armor Class: | 22 |
 | Hit Dice: | 36* (+16) |
@@ -3700,9 +4253,12 @@ Narwhals are aquatic mammals resembling large dolphins with a single (or rarely,
 
 These creatures can be up to 60 feet long. They prey on giant squid. Sperm whales can emit an invisible focused beam of sound 5' wide up to a 50' range underwater. This blast of sound disorients target creatures, leaving them effectively stunned for 1d4 rounds. A stunned character can neither move nor take action for the indicated duration. No attack roll is required, but a save vs. Death Ray is allowed to resist. A sperm whale can emit as many such blasts of sound as it desires, once per round, instead of biting.
 
+</div>
+<div class="monster" data-tag="Wight*" >
+
 ## Wight*
 
-|  |  |
+|  | Wight* |
 |---|-----------|
 | Armor Class: | 15 † |
 | Hit Dice: | 3* |
@@ -3723,10 +4279,13 @@ Any humanoid slain by a wight becomes a wight by the next sunset (but not less t
 
 Like all undead, wights may be Turned by Clerics and are immune to **sleep**, **charm** and **hold** magics. Wights are harmed only by silver or magical weapons, and take only half damage from burning oil.
 
+</div>
+<div class="monster" data-tag="Wolf" >
+
 ## Wolf
 
 
-|  | **Normal** | **Dire** |
+|  | **Normal Wolf** | **Dire Wold** |
 |---|-----------|----------|
 | Armor Class: | 13 | 14 |
 | Hit Dice: | 2 | 4 |
@@ -3743,9 +4302,12 @@ Wolves are pack hunters known for their persistence and cunning. They prefer to 
 
 Dire wolves are efficient pack hunters that will kill anything they can catch. Dire wolves are generally mottled gray or black, about 9 feet long and weighing some 800 pounds.
 
+</div>
+<div class="monster" data-tag="Wraith*" >
+
 ## Wraith*
 
-|  |  |
+|  | Wraith* |
 |---|-----------|
 | Armor Class: | 15 ‡ |
 | Hit Dice: | 4** |
@@ -3762,9 +4324,12 @@ Wraiths are incorporeal creatures born of evil and darkness. In some cases, the 
 
 Like all undead, they may be Turned by Clerics and are immune to **sleep**, **charm** and **hold** magics. Due to their incorporeal nature, they cannot be harmed by non-magical weapons.
 
+</div>
+<div class="monster" data-tag="Wyvern" >
+
 ## Wyvern
 
-|   |  |
+|   | Wyvern |
 |---|-----------|
 | Armor Class: | 18 |
 | Hit Dice: | 7* |
@@ -3785,9 +4350,12 @@ Wyverns attack nearly anything that isn't obviously more powerful than themselve
 
 If a wyvern hits with both its talons, it may attempt to carry off its victim; only victims weighing 300 pounds or less can be carried off, and the wyvern can only carry a victim for at most 6 rounds. While flying with a victim, the wyvern cannot make any further attacks against it, but of course if the victim makes a nuisance of itself (such as by injuring the wyvern), it may be dropped.
 
+</div>
+<div class="monster" data-tag="Yellow Mold" >
+
 ## Yellow Mold
 
-|  |  |
+|  | Yellow Mold |
 |---|-----------|
 | Armor Class: | Can always be hit |
 | Hit Dice: | 2* |
@@ -3802,9 +4370,12 @@ If a wyvern hits with both its talons, it may attempt to carry off its victim; o
 
 If disturbed, a patch of this mold bursts forth with a cloud of poisonous spores. Each patch covers from 10 to 25 square feet; several patches may grow adjacent to each other, and will appear to be a single patch in this case. Each patch can emit a cloud of spores once per day. All within 10 feet of the mold will be affected by the spores and must save vs. Death Ray or take 1d8 points of damage per round for 6 rounds. Sunlight renders yellow mold dormant.
 
+</div>
+<div class="monster" data-tag="Zombie" >
+
 ## Zombie
 
-|  |  |
+|  | Zombie |
 |---|-----------|
 | Armor Class: | 12 (see below) |
 | Hit Dice: | 2 |
@@ -3818,3 +4389,23 @@ If disturbed, a patch of this mold bursts forth with a cloud of poisonous spores
 | XP: | 75 |
 
 Zombies are the **undead** corpses of humanoid creatures. They are deathly slow, but they move silently, are very strong and must be literally hacked to pieces to "kill" them. They take only half damage from blunt weapons, and only a single point from arrows, bolts or sling stones (plus any magical bonus). A zombie never has Initiative and always acts last in any given round. Like all undead, they may be Turned by Clerics and are immune to **sleep**, **charm** and **hold** magics. As they are mindless, no form of mind reading is of any use against them. Zombies never fail morale checks, and thus always fight until destroyed.
+
+</div>
+<!-- </div> -->
+
+
+```{=html}
+
+<script>
+let input = document.getElementById('input');
+let animalDivs = document.querySelectorAll('.monster');
+
+input.addEventListener('input', function(e) {
+  const term = this.value.toLowerCase();
+  animalDivs.forEach(function(div) {
+    const animal = div.dataset.tag.toLocaleLowerCase();
+    div.hidden = !animal.includes(term)
+  });
+});
+</script>
+```

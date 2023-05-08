@@ -39,7 +39,7 @@ In cases where the reaction of the monsters to the party is not obvious, a **re
 | 8-11 | Favorable |
 | 12 or more | Very Favorable |
 
-: Monster Reaction Roll Table {#tbl-monsterReactions}
+: Monster Reaction Roll Table {#tbl-monsterReactions} 
 
 ::: {.column-margin}
 ```{ojs}
