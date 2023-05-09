@@ -53,7 +53,7 @@ return n
 
 Inputs.table(search, {width:"auto",
 format:{
-    Name: id => htl.html`<a href=#\ onclick="my_modal('${id}')">${id}</a>`
+    Name: id => htl.html`<a href=#\ onclick="test('${id}')">${id}</a>`
 }})
 
 ```
@@ -75,24 +75,39 @@ function my_modal(name){
 
 <div id="my"> </div>
 
-<!-- Modal ... for later--> 
-<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+```
+
+
+```{=html}
+
+<script>
+
+function test(name){
+$(document).ready(function() {
+    $.get('monstersAll.html', function(data) {
+      var content = $(data).find("[data-tag='" + name + "']").html();
+      $('#myModal .modal-body').html(content);
+      $('#myModal').modal('show');
+    });
+    }
+);}
+</script>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Monsters</h1>
+        <h5 class="modal-title" id="exampleModalLabel"> </h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body" id="my_div">
-
+      <div class="modal-body" id="modal-text">
+        ...
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
-</div> -->
-
-
-
+</div>
 ```

@@ -456,7 +456,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">table</span>(search<span class="op">,</span> {<span class="dt">width</span><span class="op">:</span><span class="st">"auto"</span><span class="op">,</span></span>
 <span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a><span class="dt">format</span><span class="op">:</span>{</span>
-<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Name</span><span class="op">:</span> id <span class="kw">=&gt;</span> htl<span class="op">.</span><span class="fu">html</span><span class="vs">`&lt;a href=#</span><span class="sc">\ </span><span class="vs">onclick="my_modal('</span><span class="sc">${</span>id<span class="sc">}</span><span class="vs">')"&gt;</span><span class="sc">${</span>id<span class="sc">}</span><span class="vs">&lt;/a&gt;`</span></span>
+<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Name</span><span class="op">:</span> id <span class="kw">=&gt;</span> htl<span class="op">.</span><span class="fu">html</span><span class="vs">`&lt;a href=#</span><span class="sc">\ </span><span class="vs">onclick="test('</span><span class="sc">${</span>id<span class="sc">}</span><span class="vs">')"&gt;</span><span class="sc">${</span>id<span class="sc">}</span><span class="vs">&lt;/a&gt;`</span></span>
 <span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a>}})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-5" data-nodetype="expression">
@@ -478,33 +478,44 @@ function my_modal(name){
 
 <div id="my"> </div>
 
-<!-- Modal ... for later--> 
-<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+
+<script>
+
+function test(name){
+$(document).ready(function() {
+    $.get('monstersAll.html', function(data) {
+      var content = $(data).find("[data-tag='" + name + "']").html();
+      $('#myModal .modal-body').html(content);
+      $('#myModal').modal('show');
+    });
+    }
+);}
+</script>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Monsters</h1>
+        <h5 class="modal-title anchored" id="exampleModalLabel"> </h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body" id="my_div">
-
+      <div class="modal-body" id="modal-text">
+        ...
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
-</div> -->
-
-
-
+</div>
 
 
 
 </main> <!-- /main -->
 
 <script type="ojs-module-contents">
-{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"data = {\r\n  const d = await FileAttachment(\"monsters.json\").json()\r\n  return d\r\n}\r\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"cols = Object.keys(data[0])\r\ncols2 = cols.slice(1)\r\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"viewof theseCols =  Inputs.select(cols2, {multiple:true, value:cols2})\r\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"viewof search  = {\r\n  let n = Inputs.search(data,{\r\n  columns:[cols[0]].concat(theseCols)\r\n});\r\nreturn n\r\n}\r\n"},{"methodName":"interpret","cellName":"ojs-cell-5","inline":false,"source":"// import { jQuery as $ } from \"@ddspog/useful-libs\"\r\n\r\nInputs.table(search, {width:\"auto\",\r\nformat:{\r\n    Name: id => htl.html`<a href=#\\ onclick=\"my_modal('${id}')\">${id}</a>`\r\n}})\r\n\r\n"},{"methodName":"interpretQuiet","source":"shinyInput('theseCols')"},{"methodName":"interpretQuiet","source":"shinyInput('search')"}]}
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"data = {\r\n  const d = await FileAttachment(\"monsters.json\").json()\r\n  return d\r\n}\r\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"cols = Object.keys(data[0])\r\ncols2 = cols.slice(1)\r\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"viewof theseCols =  Inputs.select(cols2, {multiple:true, value:cols2})\r\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"viewof search  = {\r\n  let n = Inputs.search(data,{\r\n  columns:[cols[0]].concat(theseCols)\r\n});\r\nreturn n\r\n}\r\n"},{"methodName":"interpret","cellName":"ojs-cell-5","inline":false,"source":"// import { jQuery as $ } from \"@ddspog/useful-libs\"\r\n\r\nInputs.table(search, {width:\"auto\",\r\nformat:{\r\n    Name: id => htl.html`<a href=#\\ onclick=\"test('${id}')\">${id}</a>`\r\n}})\r\n\r\n"},{"methodName":"interpretQuiet","source":"shinyInput('theseCols')"},{"methodName":"interpretQuiet","source":"shinyInput('search')"}]}
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

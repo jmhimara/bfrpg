@@ -2062,7 +2062,7 @@
     "href": "monstersTab.html",
     "title": "17  Monsters Index",
     "section": "",
-    "text": "Select search field(s). Hold shift or drag mouse to select multiple.\nMonster name is always part of the search field.\n\ndata = {\n  const d = await FileAttachment(\"monsters.json\").json()\n  return d\n}\n\n\n\n\n\n\n\ncols = Object.keys(data[0])\ncols2 = cols.slice(1)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nviewof theseCols =  Inputs.select(cols2, {multiple:true, value:cols2})\n\n\n\n\n\n\n\n\nviewof search  = {\n  let n = Inputs.search(data,{\n  columns:[cols[0]].concat(theseCols)\n});\nreturn n\n}\n\n\n\n\n\n\n\n\n\n// import { jQuery as $ } from \"@ddspog/useful-libs\"\n\nInputs.table(search, {width:\"auto\",\nformat:{\n    Name: id =&gt; htl.html`&lt;a href=#\\ onclick=\"my_modal('${id}')\"&gt;${id}&lt;/a&gt;`\n}})"
+    "text": "Select search field(s). Hold shift or drag mouse to select multiple.\nMonster name is always part of the search field.\n\ndata = {\n  const d = await FileAttachment(\"monsters.json\").json()\n  return d\n}\n\n\n\n\n\n\n\ncols = Object.keys(data[0])\ncols2 = cols.slice(1)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nviewof theseCols =  Inputs.select(cols2, {multiple:true, value:cols2})\n\n\n\n\n\n\n\n\nviewof search  = {\n  let n = Inputs.search(data,{\n  columns:[cols[0]].concat(theseCols)\n});\nreturn n\n}\n\n\n\n\n\n\n\n\n\n// import { jQuery as $ } from \"@ddspog/useful-libs\"\n\nInputs.table(search, {width:\"auto\",\nformat:{\n    Name: id =&gt; htl.html`&lt;a href=#\\ onclick=\"test('${id}')\"&gt;${id}&lt;/a&gt;`\n}})\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n  \n    \n      \n         \n        \n      \n      \n        ...\n      \n      \n        Close"
   },
   {
     "objectID": "treasure.html#distribution-of-treasure",
