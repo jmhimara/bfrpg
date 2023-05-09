@@ -1456,20 +1456,6 @@
     "text": "Harpy\n\n\n\n\nHarpy\n\n\n\n\nArmor Class:\n13\n\n\nHit Dice:\n2*\n\n\nNo. of Attacks:\n2 claws/1 weapon + special\n\n\nDamage:\n1d4/1d4/1d6 or by weapon + special\n\n\nMovement:\n20’ Fly 50’ (10’)\n\n\nNo. Appearing:\n1d6, Wild 2d4, Lair 2d4\n\n\nSave As:\nFighter: 2\n\n\nMorale:\n7\n\n\nTreasure Type:\nC\n\n\nXP:\n100\n\n\n\nA harpy looks like a giant vulture bearing the torso and face of a human female. They are able to attack with their claws as well as with normal weapons, but their most insidious ability is their song. When a harpy sings, all creatures (other than harpies) within a 300’ radius must succeed on a save vs. Spells or become charmed. The same harpy’s song cannot affect a creature that successfully saves again for 24 hours. A charmed victim walks toward the harpy, taking the most direct route available. If the path leads into a dangerous area (through ame, off a cliff, or the like), that creature is allowed a second saving throw to resist the charm. Charmed creatures can take no actions other than to defend themselves. A victim within reach of the harpy offers no resistance to the monster’s attacks. The effect continues for as long as the harpy sings, and for one round thereafter."
   },
   {
-    "objectID": "monstersAll.html#hawk",
-    "href": "monstersAll.html#hawk",
-    "title": "16  Monster Descriptions",
-    "section": "Hawk",
-    "text": "Hawk\n\n\n\n\nNormal Hawk\nGiant Hawk\n\n\n\n\nArmor Class:\n12\n14\n\n\nHit Dice:\n1d4 Hit Points\n4\n\n\nNo. of Attacks:\n1 claw or bite\n1 claw or bite\n\n\nDamage:\n1d2\n1d6\n\n\nMovement:\nFly 160’\nFly 150’ (10’)\n\n\nNo. Appearing:\nWild 1d6, Lair 1d6\nWild 1d3, Lair 1d3\n\n\nSave As:\nFighter: 1\nFighter: 4\n\n\nMorale:\n7\n8\n\n\nTreasure Type:\nNone\nNone\n\n\nXP:\n10\n240\n\n\n\nHawks are similar to eagles but slightly smaller, being 1 to 2 feet long with wingspans of 6 feet or less.\nGiant hawks are 4 to 6 feet long, with wingspans of 12 feet or more; they can carry off creatures of Halfling size or smaller."
-  },
-  {
-    "objectID": "monstersAll.html#hellhound",
-    "href": "monstersAll.html#hellhound",
-    "title": "16  Monster Descriptions",
-    "section": "Hellhound",
-    "text": "Hellhound\n\n\n\n\nHellhound\n\n\n\n\nArmor Class:\n14 to 18\n\n\nHit Dice:\n3** to 7**\n\n\nNo. of Attacks:\n1 bite or 1 breath\n\n\nDamage:\n1d6 or 1d6 per Hit Die\n\n\nMovement:\n40’\n\n\nNo. Appearing:\n2d4, Wild 2d4, Lair 2d4\n\n\nSave As:\nFighter: 3 to 7 (same as Hit Dice)\n\n\nMorale:\n9\n\n\nTreasure Type:\nC\n\n\nXP:\n205 - 800\n\n\n\nstyle=“position: absolute; top: 0in; left: 0in” Hellhounds are canine creatures sheathed in hellish flame. A typical hell hound stands 4½ feet high at the shoulder and weighs 120 pounds. They are native to another plane where they hunt in packs; sometimes powerful wizards or evil priests summon them for use as watchdogs. In addition to biting, each hellhound may breathe fire a number of times per day equal to its hit dice. In combat, one-third of the time (1-2 on 1d6) a hellhound will choose to breathe fire; otherwise it will attempt to bite. Roll each round to determine which attack form will be used.\nA hellhound’s breath weapon is a cone of flame 10’ wide at the far end which is 10’ long for those with 3 or 4 hit dice, 20’ long for those with 5 or 6 hit dice, and 30’ long for the largest hellhounds. This breath weapon does 1d6 points of damage per each hit die of the hellhound to all within the area of effect; a successful saving throw vs. Dragon Breath reduces damage to half normal.\nNote that hellhounds vary with regard to the number of hit dice each has. If generating a group randomly, roll 1d6+1 for the hit dice of each, reading a total of 2 as 3. A hellhound has an Armor Class equal to 11 plus its hit dice."
-  },
-  {
     "objectID": "monstersAll.html#hippogriff",
     "href": "monstersAll.html#hippogriff",
     "title": "16  Monster Descriptions",
