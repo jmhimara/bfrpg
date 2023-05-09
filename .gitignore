@@ -1,5 +1,5 @@
 /.quarto/
 /_site/
 /_book/
-./test.py
-./test.qdm
+test.py
+test.qdm

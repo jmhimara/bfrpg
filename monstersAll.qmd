@@ -154,7 +154,7 @@ A giant bat has a wingspan of 15 feet and weighs about 200 pounds. They have the
 Bears attack by rending opponents with their claws, dragging them in and biting them. A successful hit with both paws indicates a hug attack for additional damage (as given for each specific bear type). All bears are very tough to kill, and are able to move and attack for one round after losing all hit points.
 
 </div>
-<div class="monster" data-tag=" Bear, Black" >
+<div class="monster" data-tag="Bear, Black" >
 
 ### Bear, Black
 
@@ -176,7 +176,7 @@ The black bear is a forest-dwelling omnivore that usually is not dangerous unles
 Black bears may actually be pure black, blond, or cinnamon in color. They are rarely more than 5 feet long.
 
 </div>
-<div class="monster" data-tag=" Bear, Cave" >
+<div class="monster" data-tag="Bear, Cave" >
 
 ### Bear, Cave
 
@@ -196,7 +196,7 @@ Black bears may actually be pure black, blond, or cinnamon in color. They are ra
 These monstrous bears are even larger than grizzly bears. They are ferocious killers, attacking almost anything of equal or smaller size.
 
 </div>
-<div class="monster" data-tag=" Bear, Grizzly (or Brown)" >
+<div class="monster" data-tag="Bear, Grizzly (or Brown)" >
 
 ### Bear, Grizzly (or Brown)
 
@@ -216,7 +216,7 @@ These monstrous bears are even larger than grizzly bears. They are ferocious kil
 These massive carnivores weigh more than 1,800 pounds and stand nearly 9 feet tall when they rear up on their hind legs. They are bad-tempered and territorial.
 
 </div>
-<div class="monster" data-tag=" Bear, Polar" >
+<div class="monster" data-tag="Bear, Polar" >
 
 ### Bear, Polar
 
@@ -905,7 +905,7 @@ Some dragons learn to cast spells; the odds that a dragon can cast spells are th
 Although goals and ideals vary among varieties, all dragons are covetous. They like to hoard wealth, collecting mounds of coins and gathering as many gems, jewels, and magic items as possible. Those with large hoards are loath to leave them for long, venturing out of their lairs only to patrol the immediate area or to get food. For dragons, there is no such thing as enough treasure. It's pleasing to look at, and they bask in its radiance. Dragons like to make beds of their hoards, shaping nooks and mounds to fit their bodies. Note that, for most monsters, the Treasure Type given is for a lair of average numbers; for dragons, the Treasure Type is for a single individual of average age. Note also that mated pairs do not share treasure! Rather than adjusting the treasure amounts for the number of monsters, adjust for the age of the dragon; a dragon of the highest age category would have about double the given amount, while one of the next to lowest age category would have perhaps a tenth that amount (hatchlings have no treasure).
 
 </div>
-<div class="monster" data-tag=" Dragon, Black" >
+<div class="monster" data-tag="Dragon, Black" >
 
 ### Dragon, Black
 
@@ -949,7 +949,7 @@ Black dragons are immune to all forms of acid. A black dragon may hold its breat
 : Black Dragon Age Table {#tbl-black-dragon-age}
 
 </div>
-<div class="monster" data-tag=" Dragon, Blue" >
+<div class="monster" data-tag="Dragon, Blue" >
 
 ### Dragon, Blue
 
@@ -995,7 +995,7 @@ Blue dragons are immune to normal lightning, and suffer only half damage from ma
 : Blue Dragon Age Table {#tbl-blue-dragon-age}
 
 </div>
-<div class="monster" data-tag=" Dragon, Gold" >
+<div class="monster" data-tag="Dragon, Gold" >
 
 ### Dragon, Gold
 
@@ -1044,7 +1044,7 @@ Gold dragons are immune to all poisons, as well as normal fire. They suffer only
 : Gold Dragon Age Table {#tbl-gold-dragon-age}
 
 </div>
-<div class="monster" data-tag=" Dragon, Green" >
+<div class="monster" data-tag="Dragon, Green" >
 
 ### Dragon, Green
 
@@ -1089,7 +1089,7 @@ Green dragons are immune to all poisons. Note that, despite their breath weapon 
 : Green Dragon Age Table {#tbl-green-dragon-age}
 
 </div>
-<div class="monster" data-tag=" Dragon, Red" >
+<div class="monster" data-tag="Dragon, Red" >
 
 ### Dragon, Red
 
@@ -1134,7 +1134,7 @@ Red dragons are immune to normal fire, and suffer only half damage from magical 
 : Red Dragon Age Table {#tbl-red-dragon-age}
 
 </div>
-<div class="monster" data-tag=" Dragon, Sea" >
+<div class="monster" data-tag="Dragon, Sea" >
 
 ### Dragon, Sea
 
@@ -1178,7 +1178,7 @@ Sea dragons are neutral in outlook, in much the same way as white dragons. They 
 : Sea Dragon Age Table {#tbl-sea-dragon-age}
 
 </div>
-<div class="monster" data-tag=" Dragon, White" >
+<div class="monster" data-tag="Dragon, White" >
 
 ### Dragon, White
 
@@ -1223,7 +1223,7 @@ White dragons are immune to normal cold, and take only half damage from magical 
 : White Dragon Age Table {#tbl-white-dragon-age}
 
 </div>
-<div class="monster" data-tag=" Dragon Turtle" >
+<div class="monster" data-tag="Dragon Turtle" >
 
 ### Dragon Turtle
 
@@ -1353,7 +1353,7 @@ It is possible to summon an elemental by one of three means: By the use of a *s
 Due to their highly magical nature, elementals cannot be harmed by non-magical weapons.
 
 </div>
-<div class="monster" data-tag=" Elemental, Air*" >
+<div class="monster" data-tag="Elemental, Air*" >
 
 ### Elemental, Air*
 
@@ -1373,7 +1373,7 @@ Due to their highly magical nature, elementals cannot be harmed by non-magical w
 Air elementals resemble "dust devils," that is, small whirlwinds, but they are much more powerful. Air elementals take double damage when attacked by earth-based attacks (including by earth elementals). An air elemental may choose either to attack a single opponent, thus receiving one attack per round at the listed damage, or may choose to knock all opponents in a 5' radius to the ground; if the latter attack is used, all creatures of 2 hit dice or less must save vs. Death Ray or fall prone. Creatures of 3 or more levels or hit dice are not so affected. Air elementals do an additional 1d8 points of damage against creatures or vehicles which are airborne.
 
 </div>
-<div class="monster" data-tag=" Elemental, Earth*" >
+<div class="monster" data-tag="Elemental, Earth*" >
 
 ### Elemental, Earth*
 
@@ -1393,7 +1393,7 @@ Air elementals resemble "dust devils," that is, small whirlwinds, but they are m
 Earth elementals resemble crude, headless humanoid statues, with clublike hands and feet. They cannot cross a body of water wider than their own height. Earth elementals take double damage when attacked by fire (including fire elementals). They do an additional 1d8 points of damage against creatures, vehicles, or structures which rest on the ground.
 
 </div>
-<div class="monster" data-tag=" Elemental, Fire*" >
+<div class="monster" data-tag="Elemental, Fire*" >
 
 ### Elemental, Fire*
 
@@ -1415,7 +1415,7 @@ Fire elementals are simply flames, which may appear generally humanoid for brief
 Remember that a fire elemental is constantly burning; such a creature may easily start fires if it moves into an area containing items which burn easily, such as dry wood, paper, or oil. No specific rules are given for such fires, but the GM is directed to the rules for burning oil for an example of fire damage.
 
 </div>
-<div class="monster" data-tag=" Elemental, Water*" >
+<div class="monster" data-tag="Elemental, Water*" >
 
 ### Elemental, Water*
 
@@ -1973,7 +1973,7 @@ Being mindless, golems generally do nothing without orders from their creators. 
 Golems have immunity to most magical and supernatural effects, except when otherwise noted. They can only be hit by magical weapons.
 
 </div>
-<div class="monster" data-tag=" Golem, Amber*" >
+<div class="monster" data-tag="Golem, Amber*" >
 
 ### Golem, Amber*
 
@@ -1995,7 +1995,7 @@ Amber golems are generally built to resemble lions or other great cats. They are
 style="position: absolute; top: 0.2in; left: 0in" A magical attack that deals electricity damage heals 1 point of damage for every 3 full points of damage the attack would otherwise deal. For example, an amber golem hit by a **lightning bolt** for 20 points of damage is instead healed up to 6 points. If the amount of healing would cause the golem to exceed its full normal hit points, the excess is ignored.
 
 </div>
-<div class="monster" data-tag=" Golem, Bone*" >
+<div class="monster" data-tag="Golem, Bone*" >
 
 ### Golem, Bone*
 
@@ -2019,7 +2019,7 @@ Instead of four one-handed weapons, a bone golem can be armed with two two-hande
 When a bone golem enters combat, there is a cumulative 1% chance each round that its elemental spirit breaks free and the golem goes berserk. The uncontrolled golem goes on a rampage, attacking the nearest living creature or smashing some object smaller than itself if no creature is within reach, then moving on to spread more destruction. The golem's creator, if within 60 feet, can try to regain control by speaking firmly and persuasively to the golem; he or she must make a save vs. Spells to succeed at this, and at least 1 round of time is required for each check. It takes 1 round of inactivity by the golem to reset the golem's berserk chance to 0%.
 
 </div>
-<div class="monster" data-tag=" Golem, Bronze*" >
+<div class="monster" data-tag="Golem, Bronze*" >
 
 ### Golem, Bronze*
 
@@ -2043,7 +2043,7 @@ The interior of a bronze golem is molten metal. Creatures hit by one in combat s
 When a bronze golem enters combat, there is a cumulative 1% chance each round that its elemental spirit will break free. Such a golem will go on a rampage, attacking the nearest living creature or smashing some object smaller than itself if no creature is within reach, then moving on to cause more destruction. The golem's creator, if within 60 feet, can try to regain control by speaking firmly and persuasively to the golem; he or she must make a save vs. Spells to succeed at this, and at least 1 round of time is required for each check. It takes 1 round of inactivity by the golem to reset the chance it will go berserk to 0%.
 
 </div>
-<div class="monster" data-tag=" Golem, Clay*" >
+<div class="monster" data-tag="Golem, Clay*" >
 
 ### Golem, Clay*
 
@@ -2067,7 +2067,7 @@ When a clay golem enters combat, there is a cumulative 1% chance each round that
 The damage a clay golem deals doesn't heal naturally, and magical healing cures only 1 point per die rolled (but add all bonuses normally).
 
 </div>
-<div class="monster" data-tag=" Golem, Flesh*" >
+<div class="monster" data-tag="Golem, Flesh*" >
 
 ### Golem, Flesh*
 
@@ -2091,7 +2091,7 @@ When a flesh golem enters combat, there is a cumulative 1% chance each round tha
 A magical attack that deals cold or fire damage slows a flesh golem (as the **slow** spell) for 2d6 rounds, with no saving throw. A magical attack that deals electricity damage breaks any slow effect on the golem and heals 1 point of damage for every 3 full points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, the excess is ignored. For example, a flesh golem hit by a lightning bolt heals 3 points of damage if the attack would have dealt 11 points of damage.
 
 </div>
-<div class="monster" data-tag=" Golem, Iron*" >
+<div class="monster" data-tag="Golem, Iron*" >
 
 ### Golem, Iron*
 
@@ -2115,7 +2115,7 @@ Iron golems can exhale a cloud of poisonous gas which fills a 10-foot cube and p
 A magical attack that deals electricity damage slows an iron golem (as the **slow** spell) for 3 rounds, with no saving throw. A magical attack that deals fire damage breaks any slow effect on the golem and heals 1 point of damage for each 3 full points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, the excess is ignored. For example, an iron golem hit by a fireball gains back 6 hit points if the damage total is 19 points. An iron golem is affected normally by rust attacks, such as that of a rust monster, suffering 2d6 points of damage for each hit (with no saving throw normally allowed).
 
 </div>
-<div class="monster" data-tag=" Golem, Stone*" >
+<div class="monster" data-tag="Golem, Stone*" >
 
 ### Golem, Stone*
 
@@ -2140,7 +2140,7 @@ A **stone to flesh** spell may be used to weaken the monster. The spell does n
 
 
 </div>
-<div class="monster" data-tag=" Golem, Wood*" >
+<div class="monster" data-tag="Golem, Wood*" >
 
 ### Golem, Wood*
 
@@ -2597,7 +2597,7 @@ Living statues are magically animated. They are true automatons, unlike golems, 
 Living statues can be crafted to resemble any sort of living creature, but most commonly are made to look like humans or demi-humans.
 
 </div>
-<div class="monster" data-tag=" Living Statue, Crystal" >
+<div class="monster" data-tag="Living Statue, Crystal" >
 
 ### Living Statue, Crystal
 
@@ -2617,7 +2617,7 @@ Living statues can be crafted to resemble any sort of living creature, but most 
 Crystal living statues have no particular special powers, unlike those made of iron or stone.
 
 </div>
-<div class="monster" data-tag=" Living Statue, Iron" >
+<div class="monster" data-tag="Living Statue, Iron" >
 
 ### Living Statue, Iron
 
@@ -2637,7 +2637,7 @@ Crystal living statues have no particular special powers, unlike those made of i
 If struck by a non-magical metal (even partially metal) weapon, the weapon may become stuck in the monster. If this happens, it cannot be removed until the statue is "killed." The wielder is allowed a save vs. Spells to avoid this.
 
 </div>
-<div class="monster" data-tag=" Living Statue, Stone" >
+<div class="monster" data-tag="Living Statue, Stone" >
 
 ### Living Statue, Stone
 
@@ -2774,7 +2774,7 @@ Lycanthropy is spread like a disease. Any human who loses half or more of his or
 In animal form, lycanthropes may be hit only by silver or magical weapons.
 
 </div>
-<div class="monster" data-tag=" Lycanthrope, Werebear*" >
+<div class="monster" data-tag="Lycanthrope, Werebear*" >
 
 ### Lycanthrope, Werebear*
 
@@ -2794,7 +2794,7 @@ In animal form, lycanthropes may be hit only by silver or magical weapons.
 Werebears are humans that can transform into large bears. When in human form, they typically appear as well-muscled, imposing figures, with an abundance of thick hair. Werebears typically dwell in deep forests, far from civilization. They are distrustful of those that they do not know, but will ferociously defend those that they have befriended.
 
 </div>
-<div class="monster" data-tag=" Lycanthrope, Wereboar*" >
+<div class="monster" data-tag="Lycanthrope, Wereboar*" >
 
 ### Lycanthrope, Wereboar*
 
@@ -2814,7 +2814,7 @@ Werebears are humans that can transform into large bears. When in human form, th
 Wereboars in human form tend to be a stocky, muscular individuals of average height. They dress in simple garments that are easy to remove, repair, or replace. In either form, wereboars are as aggressive and ferocious as normal boars.
 
 </div>
-<div class="monster" data-tag=" Lycanthrope, Wererat*" >
+<div class="monster" data-tag="Lycanthrope, Wererat*" >
 
 ### Lycanthrope, Wererat*
 
@@ -2838,7 +2838,7 @@ In addition to assuming the form of a giant rat, wererats can assume an intermed
 Unlike most lycanthropes, wererats prefer to inhabit civilized areas, particularly cities. They frequently lair in sewers or other underground areas, coming out by night to steal from or kill city folk.
 
 </div>
-<div class="monster" data-tag=" Lycanthrope, Weretiger*" >
+<div class="monster" data-tag="Lycanthrope, Weretiger*" >
 
 ### Lycanthrope, Weretiger*
 
@@ -2858,7 +2858,7 @@ Unlike most lycanthropes, wererats prefer to inhabit civilized areas, particular
 Weretigers are humans that can transform into tigers. In human form, they tend to be tall, trim, and very agile. They tend to live and hunt close to human settlements, and are excellent trackers (5 in 6 chance to track prey in either form). Weretigers will typically only attack if provoked.
 
 </div>
-<div class="monster" data-tag=" Lycanthrope, Werewolf*" >
+<div class="monster" data-tag="Lycanthrope, Werewolf*" >
 
 ### Lycanthrope, Werewolf*
 
