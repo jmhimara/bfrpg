@@ -481,10 +481,19 @@ function my_modal(name){
 
 <script>
 
+function getMonsterContent(tag) {
+  var monsters = document.querySelectorAll('.monster[data-tag*="' + tag + '"], .monster[data-tag2*="' + tag + '"]');
+  var content = "";
+  for (var i = 0; i < monsters.length; i++) {
+    content += monsters[i].innerHTML;
+  }
+  return content;
+}
+
 function test(name){
 $(document).ready(function() {
     $.get('monstersAll.html', function(data) {
-      var content = $(data).find("[data-tag='" + name + "']").html();
+      var content = $(data).find("[data-tag='" + name + "'], [data-tag2='" + name + "'], [data-tag3='" + name + "']").html();// $(data).find("[data-tag='" + name + "']", "[data-tag2='" + name + "']").html();
       $('#myModal .modal-body').html(content);
       $('#myModal').modal('show');
     });
@@ -509,6 +518,8 @@ $(document).ready(function() {
     </div>
   </div>
 </div>
+
+<div id="t"> test </div>
 
 
 

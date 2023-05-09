@@ -741,7 +741,7 @@
         "XP": "3,385"
     },
     {
-        "Name": "Staff",
+        "Name": "Staff Elemental, Earth",
         "Armor Class": "18 \u2021",
         "Hit Dice": "8*",
         "Attacks": "1",
@@ -754,7 +754,7 @@
         "XP": "945"
     },
     {
-        "Name": "Device",
+        "Name": "Device Elemental, Earth",
         "Armor Class": "20 \u2021",
         "Hit Dice": "12* (+10)",
         "Attacks": "1",
@@ -767,7 +767,7 @@
         "XP": "1,975"
     },
     {
-        "Name": "Spell",
+        "Name": "Spell Elemental, Earth",
         "Armor Class": "22 \u2021",
         "Hit Dice": "16* (+12)",
         "Attacks": "1",
@@ -780,7 +780,7 @@
         "XP": "3,385"
     },
     {
-        "Name": "Staff",
+        "Name": "Staff Elemental, Fire",
         "Armor Class": "18 \u2021",
         "Hit Dice": "8*",
         "Attacks": "1",
@@ -793,7 +793,7 @@
         "XP": "945"
     },
     {
-        "Name": "Device",
+        "Name": "Device Elemental, Fire",
         "Armor Class": "20 \u2021",
         "Hit Dice": "12* (+10)",
         "Attacks": "1",
@@ -806,7 +806,7 @@
         "XP": "1,975"
     },
     {
-        "Name": "Spell",
+        "Name": "Spell Elemental, Fire",
         "Armor Class": "22 \u2021",
         "Hit Dice": "16* (+12)",
         "Attacks": "1",
@@ -819,7 +819,7 @@
         "XP": "3,385"
     },
     {
-        "Name": "Staff",
+        "Name": "Staff Elemental, Water",
         "Armor Class": "18 \u2021",
         "Hit Dice": "8*",
         "Attacks": "1",
@@ -832,7 +832,7 @@
         "XP": "945"
     },
     {
-        "Name": "Device",
+        "Name": "Device Elemental, Water",
         "Armor Class": "20 \u2021",
         "Hit Dice": "12* (+10)",
         "Attacks": "1",
@@ -845,7 +845,7 @@
         "XP": "1,975"
     },
     {
-        "Name": "Spell",
+        "Name": "Spell Elemental, Water",
         "Armor Class": "22 \u2021",
         "Hit Dice": "16* (+12)",
         "Attacks": "1",

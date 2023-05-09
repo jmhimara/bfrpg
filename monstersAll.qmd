@@ -828,7 +828,7 @@ Djinn may assume the form of a whirlwind at will, with no limit as to the number
 Due to their highly magical nature, djinn cannot be harmed by non-magical weapons. They are immune to normal cold, and suffer only half damage from magical attacks based on either cold or wind.
 
 </div>
-<div class="monster" data-tag="Dog" >
+<div class="monster"  data-tag="Normal Dog" data-tag2="Riding Dog">
 
 ## Dog
 
@@ -1353,11 +1353,12 @@ It is possible to summon an elemental by one of three means: By the use of a *s
 Due to their highly magical nature, elementals cannot be harmed by non-magical weapons.
 
 </div>
-<div class="monster" data-tag="Elemental, Air*" >
+<div class="monster" data-tag="Staff Elemental, Air" data-tag2="Device Elemental, Air" data-tag3="Spell Elemental, Air" >
 
-### Elemental, Air*
+### Elemental, Air
 
-|   | **Staff Elemental, Air** | **Device Elemental, Air** | **Spell Elemental, Air** |
+
+|   | Staff Elemental, Air | Device Elemental, Air | Spell Elemental, Air |
 |---|-----------|-----------|------|
 | Armor Class: | 18 ‡ | 20 ‡ | 22 ‡ |
 | Hit Dice: | 8* | 12* (+10) | 16* (+12) |
@@ -1373,11 +1374,11 @@ Due to their highly magical nature, elementals cannot be harmed by non-magical w
 Air elementals resemble "dust devils," that is, small whirlwinds, but they are much more powerful. Air elementals take double damage when attacked by earth-based attacks (including by earth elementals). An air elemental may choose either to attack a single opponent, thus receiving one attack per round at the listed damage, or may choose to knock all opponents in a 5' radius to the ground; if the latter attack is used, all creatures of 2 hit dice or less must save vs. Death Ray or fall prone. Creatures of 3 or more levels or hit dice are not so affected. Air elementals do an additional 1d8 points of damage against creatures or vehicles which are airborne.
 
 </div>
-<div class="monster" data-tag="Elemental, Earth*" >
+<div class="monster" data-tag="Staff Elemental, Earth" data-tag2="Device Elemental, Earth" data-tag3="Spell Elemental, Earth" >
 
 ### Elemental, Earth*
 
-|  | **Staff** | **Device** | **Spell** |
+|   | **Staff Elemental, Earth**   | **Device Elemental, Earth** | **Spell Elemental, Earth** |
 |---|-----------|-----------|------|
 | Armor Class: | 18 ‡ | 20 ‡ | 22 ‡ |
 | Hit Dice: | 8* | 12* (+10) | 16* (+12) |
@@ -1393,11 +1394,11 @@ Air elementals resemble "dust devils," that is, small whirlwinds, but they are m
 Earth elementals resemble crude, headless humanoid statues, with clublike hands and feet. They cannot cross a body of water wider than their own height. Earth elementals take double damage when attacked by fire (including fire elementals). They do an additional 1d8 points of damage against creatures, vehicles, or structures which rest on the ground.
 
 </div>
-<div class="monster" data-tag="Elemental, Fire*" >
+<div class="monster" data-tag="Staff Elemental, Fire" data-tag2="Device Elemental, Fire" data-tag3="Spell Elemental, Fire" >
 
 ### Elemental, Fire*
 
-|  | **Staff** | **Device** | **Spell** |
+|  | **Staff Elemental, Fire** | **Device Elemental, Fire** | **Spell Elemental, Fire** |
 |---|-----------|-----------|------|
 | Armor Class: | 18 ‡ | 20 ‡ | 22 ‡ |
 | Hit Dice: | 8* | 12* (+10) | 16* (+12) |
@@ -1415,11 +1416,11 @@ Fire elementals are simply flames, which may appear generally humanoid for brief
 Remember that a fire elemental is constantly burning; such a creature may easily start fires if it moves into an area containing items which burn easily, such as dry wood, paper, or oil. No specific rules are given for such fires, but the GM is directed to the rules for burning oil for an example of fire damage.
 
 </div>
-<div class="monster" data-tag="Elemental, Water*" >
+<div class="monster" data-tag="Staff Elemental, Water" data-tag2="Device Elemental, Water" data-tag3="Spell Elemental, Water" >
 
 ### Elemental, Water*
 
-|  | **Staff** | **Device** | **Spell** |
+|  | **Staff Elemental, Water** | **Device Elemental, Water** | **Spell Elemental, Water** |
 |---|-----------|-----------|------|
 | Armor Class: | 18 ‡ | 20 ‡ | 22 ‡ |
 | Hit Dice: | 8* | 12* (+10) | 16* (+12) |
@@ -2294,7 +2295,7 @@ The roots of this tree are also animated; they do not attack, but they do pull d
 A harpy looks like a giant vulture bearing the torso and face of a human female. They are able to attack with their claws as well as with normal weapons, but their most insidious ability is their song. When a harpy sings, all creatures (other than harpies) within a 300' radius must succeed on a save vs. Spells or become **charmed**. The same harpy's song cannot affect a creature that successfully saves again for 24 hours. A charmed victim walks toward the harpy, taking the most direct route available. If the path leads into a dangerous area (through ame, off a cliff, or the like), that creature is allowed a second saving throw to resist the charm. Charmed creatures can take no actions other than to defend themselves. A victim within reach of the harpy offers no resistance to the monster's attacks. The effect continues for as long as the harpy sings, and for one round thereafter.
 
 </div>
-<div class="monster" data-tag="Hawk" >
+<div class="monster" data-tag="Normal Hawk" data-tag2="Giant Hawk>
 
 ## Hawk
 
@@ -3250,7 +3251,7 @@ The creature has a poisonous stinger in its tail; those injured by it must save 
 Any time a purple worm successfully bites a man-sized or smaller opponent with a natural roll of 19 or 20, the opponent has been swallowed, and will suffer 3d6 damage per round afterward due to being digested. A character who has been swallowed can only effectively attack with small cutting or stabbing weapons such as dagger or shortsword.
 
 </div>
-<div class="monster" data-tag="Rat" >
+<div class="monster" data-tag="Normal Rat" data-tag2="Giant Rat" >
 
 ## Rat
 
@@ -3300,7 +3301,7 @@ Giant rhagodessas are the size of a pony. Those found in desert terrain are gene
 A hit by a leg does no damage, but the victim is stuck fast, and will be drawn to the rhagodessa's mouth the next round and automatically hit for 2d8 damage. The rhagodessa will not use its bite attack against a foe it has not captured in this way, and neither will it attack more than one foe with its legs. If threatened, a rhagodessa which has captured a victim will attempt to withdraw to consume its prey in peace.
 
 </div>
-<div class="monster" data-tag="Rhinoceros" >
+<div class="monster" data-tag="Black Rhino" data-tag2="Woolly Rhino" >
 
 ## Rhinoceros
 
@@ -3324,7 +3325,7 @@ The statistics presented here are based on the African black rhino, which is 6 t
 The woolly rhinoceros is a prehistoric beast with long fur, found in primitive "lost world" areas in colder territories. They behave much as the black rhino does.
 
 </div>
-<div class="monster" data-tag="Roc" >
+<div class="monster" data-tag="Normal Roc" data-tag2="Large Roc" data-tag3="Giant Roc">
 
 ## Roc
 
@@ -3434,7 +3435,7 @@ The metal oxides created by this monster are its food; a substantial amount of m
 The sabre-tooth cat, or *smilodon*, is a prehistoric great cat with very large canine teeth. They behave much as do mountain lions or jaguars.
 
 </div>
-<div class="monster" data-tag="Salamander*" >
+<div class="monster" data-tag="Flame Salamander" data-tag2="Frost Salamander*">
 
 ## Salamander*
 
@@ -4053,7 +4054,7 @@ Trolls have the power of regeneration; they heal 1 hit point of damage each roun
 Trolls are hateful creatures, reveling in combat and bloodshed. Though trolls could easily use a variety of weapons, they much prefer the sensation of flesh being rent by their teeth and claws.
 
 </div>
-<div class="monster" data-tag="Unicorn (and Alicorn)" >
+<div class="monster" data-tag="Unicorn" data-tag2="Alicorn">
 
 ## Unicorn (and Alicorn)
 
@@ -4280,7 +4281,7 @@ Any humanoid slain by a wight becomes a wight by the next sunset (but not less t
 Like all undead, wights may be Turned by Clerics and are immune to **sleep**, **charm** and **hold** magics. Wights are harmed only by silver or magical weapons, and take only half damage from burning oil.
 
 </div>
-<div class="monster" data-tag="Wolf" >
+<div class="monster" data-tag="Normal Wolf" data-tag2="Dire Wolf">
 
 ## Wolf
 
