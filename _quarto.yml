@@ -45,7 +45,6 @@ book:
       chapters: 
         - gm01.qmd
         - gm02.qmd
-        - test.qmd
 
 format:
   html:
