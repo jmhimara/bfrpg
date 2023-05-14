@@ -5,11 +5,13 @@
 
 First, you will need a piece of paper to write down the character's statistics on. You may use a preprinted character sheet if one is available, or you may simply use a piece of notebook paper. An example character is shown below. You should use a pencil to write down all information, as any statistic may change during play.
 
-Roll 3d6 for each ability score, as described in the **Character Abilities** section, and write the results after the names of the abilities. Write down the scores in the order you roll them; if you are unhappy with the scores you have rolled, ask your Game Master for advice, as he or she may allow some form of point or score exchanging.
+Roll 3d6 for each ability score, as described in the [Character Abilities](abilities.qmd#ability-scores) section, and write the results after the names of the abilities. Write down the scores in the order you roll them; if you are unhappy with the scores you have rolled, ask your Game Master for advice, as he or she may allow some form of point or score exchanging.
 
 Write down the ability score bonus (or penalty) for each score beside the score itself, as shown on the table on the next page.
 
-Choose a race and class for your character. Your character must meet the Prime Requisite minimum for a class, as described in the **Character Classes** section, in order to be a member of that class. Also note that there are minimum (and maximum) ability requirements for the various races which must be met, as described in the **Character Races** section.
+Choose a race and class for your character. Your character must meet the Prime Requisite minimum for a class, as described in the [Character Classes](class.qmd#character-classes) section, in order to be a member of that class. Also note that there are minimum (and maximum) ability requirements for the various races which must be met, as described in the [Character Races](races.qmd#character-races) section.
+
+![Character Information](./images/char.png){#fig-char-info}
 
 Write down the special abilities of your race and class choices, as described below. If you have chosen to play a Magic-User, ask your Game Master what spell or spells your character knows; it's up to the Game Master to decide this, but he or she may allow you to choose one or more spells yourself.
 
@@ -19,13 +21,13 @@ Roll the hit die appropriate for your class, adding your Constitution bonus or p
 
 Roll for your starting money. Generally your character will start with 3d6 times 10 gold pieces, but ask the Game Master before rolling.
 
-Now, purchase equipment for your character, as shown in the **Cost of Weapons and Equipment** section, below. Write your purchases on your character sheet, and note how much money remains afterward. Make sure you understand the weapon and armor restrictions for your class and race before making your purchases.
+Now, purchase equipment for your character, as shown in the [Equipment](equipment.qmd) section. Write your purchases on your character sheet, and note how much money remains afterward. Make sure you understand the weapon and armor restrictions for your class and race before making your purchases.
 
 Since you now know what sort of armor your character is wearing, you should note your Armor Class on your character sheet. Don't forget to add your Dexterity bonus or penalty to the figure.
 
-Look up your character's attack bonus (from the table in the **Encounter** section) and note it on your character sheet. Don't add your ability bonuses (or penalties) to this figure, as you will add a different bonus (Strength or Dexterity) depending on the sort of weapon you use in combat (i.e. melee or missile weapon).
+Look up your character's attack bonus (see @tbl-attacking-bonus in [Encounters](combat.qmd)) and note it on your character sheet. Don't add your ability bonuses (or penalties) to this figure, as you will add a different bonus (Strength or Dexterity) depending on the sort of weapon you use in combat (i.e. melee or missile weapon).
 
-Also look up your saving throws (from the tables near the end of the **Encounter** section) and note them on your character sheet. Adjust the saving throw figures based on your race, if your character is a demi-human (see **Character Races**, below). *Please note* that the saving throw bonuses for demi-humans are presented as "plus" values, to be added to the die roll; for convenience, you may simply subtract them from the saving throw numbers on the character sheet instead.
+Also look up your saving throws (from the tables near the end of the [Encounter](combat.qmd#saving-throw-tables-by-class) or at the appropriate [class](class.qmd#character-classes) ) and note them on your character sheet. Adjust the saving throw figures based on your race, if your character is a demi-human (see [Character Races](races.qmd)). *Please note* that the saving throw bonuses for demi-humans are presented as "plus" values, to be added to the die roll; for convenience, you may simply subtract them from the saving throw numbers on the character sheet instead.
 
 Finally, if you haven't done so already, name your character. This often takes longer than all the other steps combined.
 

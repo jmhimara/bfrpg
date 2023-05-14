@@ -2,7 +2,7 @@
 
 ## Ability Scores
 
-Each character will have a score ranging from 3 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a **Prime Requisite** ability score, which must be at least 9 in order for the character to become a member of that class; also, there are required minimum and maximum scores for each character race other than Humans, as described under **Character Races**, below.
+Each character will have a score ranging from 3 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a [Prime Requisite](class.qmd#character-classes) ability score, which must be at least 9 in order for the character to become a member of that class; also, there are required minimum and maximum scores for each character race other than Humans, as described under [Character Races](races.qmd#character-races).
 
 | Ability Score | Bonus/Penalty |
 |:------:|:------:|
@@ -14,17 +14,73 @@ Each character will have a score ranging from 3 to 18 in each of the following a
 | 16-17 | +2 |
 | 18 | +3 |
 
-**Strength:** As the name implies, this ability measures the character's raw physical power. Strength is the Prime Requisite for Fighters. Apply the ability bonus or penalty for Strength to all attack and damage rolls in melee (hand to hand) combat. Note that a penalty here will not reduce damage from a successful attack below one point in any case (see the **Combat** section for details).
+**Strength:** As the name implies, this ability measures the character's raw physical power. Strength is the Prime Requisite for [Fighters](class.qmd#fighter). Apply the ability bonus or penalty for Strength to all attack and damage rolls in melee (hand to hand) combat. Note that a penalty here will not reduce damage from a successful attack below one point in any case (see the [Combat](combat.qmd#damage) section for details).
 
-**Intelligence:** This is the ability to learn and apply knowledge. Intelligence is the Prime Requisite for Magic-Users. The ability bonus for Intelligence is added to the number of languages the character is able to learn to read and write; if the character has an Intelligence penalty, he or she cannot read more than a word or two, and will only know his or her native language.
+**Intelligence:** This is the ability to learn and apply knowledge. Intelligence is the Prime Requisite for [Magic-Users](class.qmd#magic-users). The ability bonus for Intelligence is added to the number of [languages](abilities.qmd#languages) the character is able to learn to read and write; if the character has an Intelligence penalty, he or she cannot read more than a word or two, and will only know his or her native language.
 
-**Wisdom:** A combination of intuition, willpower and common sense. Wisdom is the Prime Requisite for Clerics. The Wisdom bonus or penalty may apply to some saving throws vs. magical attacks, particularly those affecting the target's will.
+**Wisdom:** A combination of intuition, willpower and common sense. Wisdom is the Prime Requisite for [Clerics](class.qmd#cleric). The Wisdom bonus or penalty may apply to some saving throws vs. magical attacks, particularly those affecting the target's will.
 
-**Dexterity:** This ability measures the character's quickness and balance as well as aptitude with tools. Dexterity is the Prime Requisite for Thieves. The Dexterity bonus or penalty is applied to all attack rolls with missile (ranged) weapons, to the character's Armor Class value, and to the character's Initiative die roll.
+**Dexterity:** This ability measures the character's quickness and balance as well as aptitude with tools. Dexterity is the Prime Requisite for [Thieves](class.qmd#thief). The Dexterity bonus or penalty is applied to all [attack rolls](combat.qmd#attacking-maneuvers) with missile (ranged) weapons, to the character's [Armor Class](equipment.qmd#armor-and-shields) value, and to the character's [Initiative](combat.qmd#initiative) die roll.
 
 **Constitution:** A combination of general health and vitality. Apply the Constitution bonus or penalty to each hit die rolled by the character. Note that a penalty here will not reduce any hit die roll to less than 1 point.
 
-**Charisma:** This is the ability to influence or even lead people; those with high Charisma are well-liked, or at least highly respected. Apply the Charisma bonus or penalty to reaction rolls. Also, the number of retainers a character may hire, and the loyalty of those retainers, is affected by Charisma.
+**Charisma:** This is the ability to influence or even lead people; those with high Charisma are well-liked, or at least highly respected. Apply the Charisma bonus or penalty to reaction rolls. Also, the number of [retainers](hirelings.qmd#retainers) a character may hire, and the loyalty of those retainers, is affected by Charisma.
+
+#### Stat Roller
+
+```{ojs}
+import { generalDice } from "./custom.js"
+
+viewof statRolls = Inputs.button("Roll Stats", {value: null, reduce: () => [generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0)]})
+```
+
+
+```{ojs}
+import { calculateModifier } from "./custom.js"
+{
+    var x = ""
+/*     if (statRolls != null){
+        x = md`<br>${statRolls[0]} &emsp; (${calculateModifier(statRolls[0])}) 
+        <br>${statRolls[1]} &emsp; (${calculateModifier(statRolls[1])})
+        <br>${statRolls[2]} &emsp; (${calculateModifier(statRolls[2])})
+        <br>${statRolls[3]} &emsp; (${calculateModifier(statRolls[3])}) 
+        <br>${statRolls[4]} &emsp; (${calculateModifier(statRolls[4])}) 
+        <br>${statRolls[5]} &emsp; (${calculateModifier(statRolls[5])})`
+    } else {x = md`<br><b>Press button to roll stats<b>`} */
+
+    if (statRolls != null) {
+        x = html`<br><table style="max-width:20%;">
+                    <tr>
+                        <td>${statRolls[0]}</td>
+                        <td>(${calculateModifier(statRolls[0])})</td>
+                    </tr>
+                    <tr>
+                        <td>${statRolls[1]}</td>
+                        <td>(${calculateModifier(statRolls[1])})</td>
+                    </tr>
+                    <tr>
+                        <td>${statRolls[2]}</td>
+                        <td>(${calculateModifier(statRolls[2])})</td>
+                    </tr>
+                    <tr>
+                        <td>${statRolls[3]}</td>
+                        <td>(${calculateModifier(statRolls[3])})</td>
+                    </tr>
+                    <tr>
+                        <td>${statRolls[4]}</td>
+                        <td>(${calculateModifier(statRolls[4])})</td>
+                    </tr>
+                    <tr>
+                        <td>${statRolls[5]}</td>
+                        <td>(${calculateModifier(statRolls[5])})</td>
+                    </tr>
+                `
+    } else {x = md`<br><b>Press button to roll stats<b>`}
+
+    return x
+    } 
+
+```
 
 ## Hit Points and Hit Dice
 
@@ -32,7 +88,7 @@ When a character is injured, he or she loses hit points from his or her current 
 
 When his or her hit point total reaches 0, your character may be dead. This may not be the end for the character; don't tear up the character sheet.
 
-First level characters begin play with a single hit die of the given type, plus the Constitution bonus or penalty, with a minimum of 1 hit point. Each time a character gains a level, the player should roll another hit die and add the character's Constitution bonus or penalty, with the result again being a minimum of 1 point. Add this amount to the character's maximum hit points figure. Note that, after 9^th^ level, characters receive a fixed number of hit points each level, as shown in the advancement table for the class, and no longer add the Constitution bonus or penalty.
+First level characters begin play with a single hit die of the given type, plus the Constitution bonus or penalty, with a **minimum** of 1 hit point. Each time a character gains a level, the player should roll another hit die and add the character's Constitution bonus or penalty, with the result again being a minimum of 1 point. Add this amount to the character's maximum hit points figure. Note that, after 9^th^ level, characters receive a fixed number of hit points each level, as shown in the [advancement table for the class](class.qmd#character-classes), and no longer add the Constitution bonus or penalty.
 
 ## Languages
 

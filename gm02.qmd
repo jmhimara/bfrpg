@@ -149,7 +149,7 @@ When designing a wilderness area, one touch that will really set it apart is a c
 
 Another alternative is to roll six or eight or ten random encounters using the "generic" encounter table for the relevant terrain type, and use that list as your random encounter table for the area. When doing this, you probably should re-roll duplicates.
 
-## Strongholds 
+## Strongholds
 
 Many player characters, upon reaching higher levels, choose to settle down and build a **stronghold**. Generally this is allowed when a character reaches 9^th^ level or higher. The player character must obtain land on which to build; in some lands, frontier territory may be made available to any freeman (or freewoman) who can tame it; in others, land may be available for someone with enough gold; while in other cases the character will need to petition the local Count, Duke or King for a land grant.
 

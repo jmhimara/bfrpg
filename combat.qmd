@@ -32,6 +32,16 @@ When a group of player characters meet one or more monsters, it's important to k
 
 In cases where the reaction of the monsters to the party is not obvious, a **reaction roll** may be made. The Game Master rolls 2d6, adding the Charisma bonus of the "lead" character (or applying his or her Charisma penalty) along with any other adjustments he or she feels are reasonable, and consults the table below:
 
+```{ojs}
+
+import {generalTableSelect2, highlightTableRowRet} from "./custom.js"
+
+viewof mreaction = Inputs.button("Roll on Table", {value: 0, reduce: () => highlightTableRowRet("#monster-reaction", generalTableSelect2([2,6,0],[[2,2],[3,7],[8,11],[12,12]]))})
+md`2d6: ${mreaction}`
+```
+
+::: {#monster-reaction}
+
 | **Adjusted Die Roll** | **Result** |
 |--------------|--------------|
 | 2 or less | Immediate Attack |
@@ -41,36 +51,7 @@ In cases where the reaction of the monsters to the party is not obvious, a **re
 
 : Monster Reaction Roll Table {#tbl-monsterReactions} 
 
-::: {.column-margin}
-```{ojs}
-import { generalDice } from "./custom.js"
-
-viewof reactionClicks = Inputs.button("Roll Reaction", {value: 0, reduce: () => generalDice(2,6,0)})
-
-function reax(c) {
-
-}
-```
-<br>
-
-```{ojs}
-{
-    var reax = " "; 
-
-    if (reactionClicks > 0 && reactionClicks <= 2) {
-        reax = "Immediate Attack";
-    } else if (reactionClicks > 2 && reactionClicks <= 7) {
-        reax = "Unfavorable";
-    } else if (reactionClicks > 7 && reactionClicks <= 11) {
-        reax = "Favorable";
-    } else if (reactionClicks > 11 ) {
-        reax = "Very Favorable";
-    }
-    return ("Reaction: " + reactionClicks + ", " + reax)
-}
-```
-
-:::
+::::
 
 A result of 2 or less means that the player characters have so offended the monsters that they attack immediately. An Unfavorable result means that the monsters do not like the player characters, and will attack if they may reasonably do so. A Favorable result simply means that the monsters will consider letting the player characters live if they choose to parley; it does not necessarily mean that the monsters like the player characters. A Very Favorable result means that the monsters (or perhaps only the monster leader) do, in fact, like the player characters; this does not mean that the monsters will just hand over their treasure, but it does indicate that they may choose to cooperate with the player characters in mutually beneficial ways.
 
@@ -88,11 +69,11 @@ A character using a weapon with a long reach (spears, for instance) may choose t
 
 Each character or creature involved in combat may move, if desired, up to its encounter movement distance, and then attack, if any opponent is in range, when its Initiative number comes up. After attacking, a character or creature may not move again until the next round.
 
-Opponents more than 5' apart may move freely, but once two opposing figures are within 5' of each other, they are “engaged” and must abide by the rules under Defensive Movement, below.
+Opponents more than 5' apart may move freely, but once two opposing figures are within 5' of each other, they are “engaged” and must abide by the rules under [Disengaging From Melee](#disengaging-from-melee), below.
 
 ### Running
 
-Characters may choose to run; a running character is not normally allowed to attack (but see Charging, below). Running characters can move at double their normal encounter movement rate. Characters are allowed to run a number of rounds equal to 2 times the character's Constitution, after which they are exhausted and may only walk (at the normal encounter rate). For monsters not having a given Constitution, allow the monster to run for **24 rounds**. Exhausted characters or creatures must rest for at least a turn before running again.
+Characters may choose to run; a running character is not normally allowed to attack (but see [Charging](#charging), below). Running characters can move at double their normal encounter movement rate. Characters are allowed to run a number of rounds equal to 2 times the character's Constitution, after which they are exhausted and may only walk (at the normal encounter rate). For monsters not having a given Constitution, allow the monster to run for **24 rounds**. Exhausted characters or creatures must rest for at least a turn before running again.
 
 ### Maneuverability
 
@@ -130,19 +111,61 @@ The attack made after the charge is made at +2 on the attack roll. The charging 
 
 ### Evasion and Pursuit
 
-Sometimes a party of adventurers will want nothing more than to avoid a group of monsters (or sometimes, it's the monsters avoiding the adventurers). If one group is surprised, and the other is not, the unsurprised group may be able to escape automatically (unless something prevents them from making an exit).
+Sometimes a party of adventurers will want nothing
+more than to avoid a group of monsters (or sometimes,
+it's the monsters avoiding the adventurers). If one
+group is surprised, and the other is not, the unsurprised
+group may be able to escape automatically (unless
+something prevents them from making an exit).
+Otherwise, those wanting to evade the encounter begin
+doing so on their Initiative numbers. Note that the rules
+above for [Disengaging From Melee](#disengaging-from-melee) will naturally
+apply to any combatant who is in reach of an enemy.
 
-Otherwise, the characters wanting to flee begin doing so on their Initiative numbers. The GM may easily play out the pursuit, following along on his or her map (note that the players can't draw maps while they run headlong through the dungeon or wilderness area). Any time a character must pass through a doorway, make a hard turn, etc., the GM may require a saving throw vs. Death Ray (with Dexterity bonus added); if the save is failed, the character has fallen at that point and moves no further that round; he or she may stand up and make a full move on his or her Initiative number in the next round.
+The GM may easily play out the pursuit, following along
+on their map (note that the players can't draw maps
+while they run headlong through the dungeon or
+wilderness area). Any time a character must pass
+through a doorway, make a hard turn, etc., the GM
+may require a saving throw vs. Death Ray (with
+Dexterity bonus added); if the save is failed, the
+character has fallen at that point and moves no further
+that round; they may stand up and make a full move
+(but not a double move) on their Initiative number in
+the next round.
 
-If at any point the pursuers are within 5' (melee range) at the start of a round, they may begin melee combat; the fleeing characters will be subject to “parting shots” as described under Defensive Movement if they continue to flee after the pursuers close to melee range.
+If the fleeing characters or creatures are ever able to get
+beyond the pursuer's sight for a full round, they have
+evaded pursuit… the pursuers have lost them.
 
-If the fleeing characters or creatures are ever able to get beyond the pursuer's sight for a full round, they have evaded pursuit… the pursuers have lost them.
+### Disengaging From Melee
 
-### Defensive Movement
+When any combatant is within reach of the melee
+attacks of at least one enemy, that combatant is
+considered to be **engaged**. Such a combatant may
+**disengage** in one of two ways:
 
-Any time a character turns his or her back on an adjacent opponent (who has a ready weapon) and begins movement, that opponent is allowed a “parting shot” with a +2 bonus to attack, even if that opponent has already made all attacks for the round. Opponents with attack routines must choose one attack mode; for instance, a tiger with a claw/claw/bite routine could only claw once or bite once.
+First, the combatant may simply **flee**, turning away from
+all opponents they are engaged with and moving more
+than half normal movement. All opponents with whom
+they are engaged are allowed a "**parting shot**" with a
++2 bonus to attack, even if that opponent has already
+made all attacks for the round. Opponents who have
+multiple melee attacks per round make just one; for
+instance, a tiger with the usual "2 claws, 1 bite" routine
+could only claw once or bite once.
 
-Alternately, the character may begin backing away (at up to half normal walking movement) while continuing to fight (if the opponent remains within reach, that is, follows the retreating character). This is termed a fighting withdrawal.
+To avoid the parting shot, the combatant may choose
+to **withdraw**, i.e. back away by up to half normal
+movement. After a withdrawal, the character may still
+attack at any point later in the same round if an
+opponent is within reach
+
+
+
+### Attacking Maneuvers
+
+To roll "to hit," the attacker rolls 1d20 and adds his or her attack bonus (AB), as shown on the Attack Bonus table, as well as **Strength** bonus (if performing a melee attack) or **Dexterity** bonus (if performing a missile or ranged attack) and any other adjustments required by the situation. If the total is equal to or greater than the opponent's Armor Class, the attack hits and damage is rolled. A natural "1" on the die roll is always a failure. A natural "20" is always a hit, if the opponent can be hit at all (for example, monsters that can only be hit by silver or magic weapons cannot be hit by normal weapons, so a natural "20" with a normal weapon will not hit such a monster).
 
 | Fighter Level | Cleric or Thief Level | Magic-User Level | Monster Hit Dice | Attack Bonus |
 |---|---|----|----|----|
@@ -164,15 +187,11 @@ Alternately, the character may begin backing away (at up to half normal walking 
 |  |  |  | 28-31 | +15 |
 |  |  |  | 32 or more | +16|
 
-: Attacking Bonus Table {#tbl-attacking-bonus}
-
-### Attacking Maneuvers
-
-To roll "to hit," the attacker rolls 1d20 and adds his or her attack bonus (AB), as shown on the Attack Bonus table, as well as Strength bonus (if performing a melee attack) or Dexterity bonus (if performing a missile attack) and any other adjustments required by the situation. If the total is equal to or greater than the opponent's Armor Class, the attack hits and damage is rolled. A natural "1" on the die roll is always a failure. A natural "20" is always a hit, if the opponent can be hit at all (for example, monsters that can only be hit by silver or magic weapons cannot be hit by normal weapons, so a natural "20" with a normal weapon will not hit such a monster).
+: Attack Bonus Table {#tbl-attacking-bonus}
 
 #### Attacking from Behind
 
-Attacks made from behind an opponent usually receive a +2 attack bonus. This does not combine with the Sneak Attack ability (see the Thief, above).
+Attacks made from behind an opponent usually receive a +2 attack bonus. This does not combine with the [Sneak Attack](class.qmd#thief-abilities) ability.
 
 #### Normal Men
 
@@ -192,7 +211,7 @@ Melee occurs after a character has closed for combat and strikes at a monster or
 
 #### Missile Fire
 
-Missile weapons may be used to attack foes at a distance. The distance the attacker is from his target affects the attack roll, as shown on the Missile Weapon Ranges table in the **Characters** section, above. In general, opponents within Short range are attacked at +1 on the die, those beyond Short range but within Medium range are attacked at +0, and those beyond Medium but within Long range are attacked at -2. Foes beyond Long range cannot be effectively attacked.
+Missile weapons may be used to attack foes at a distance. The distance the attacker is from his target affects the attack roll, as shown on the [Missile Weapon Ranges](equipment.qmd#missile-weapon-ranges) table. In general, opponents within Short range are attacked at +1 on the die, those beyond Short range but within Medium range are attacked at +0, and those beyond Medium but within Long range are attacked at -2. Foes beyond Long range cannot be effectively attacked.
 
 If a character attempts to use a missile weapon against a foe who is within 5' of him or her (i.e. who is engaged with the shooter), a penalty of -5 is applied to the attack roll. This is due to the shooter dodging around to avoid the foe's attacks. The only exception is if the attacker is behind the target creature and undetected, or that creature is distracted so as to not be able to attack the shooter; in these cases, apply the usual +1 bonus (+3 total bonus if attacking from behind).
 
@@ -225,9 +244,25 @@ This rule is applied to attacks made by monsters, when appropriate. However, the
 
 This rule is intentionally vague; the GM must decide when and how to apply it based on the circumstances of the battle. It is recommended that no more than three allies be “tried” in this way, but the GM may make an exception as he or she sees fit.
 
+#### Oil
+
+A flask of oil can be used as a grenade-like missile. The oil must be set afire in order to inflict damage; otherwise the oil is just slippery. Assuming some means of igniting the oil is at hand, a direct hit to a creature deals 1d8 points of fire damage, plus in the next round the target takes an additional 1d8 points of damage, unless he or she spends the round extinguishing the flames by some reasonable means. The GM must judge the method used; rolling on the floor (assuming it's not oily also) or covering the flames with a wet blanket are good methods, for instance, while pouring or splashing water on burning oil does little good. In any event, a flask of burning oil only causes damage for two rounds at most.
+
+If the oil is ignited by some sort of wick or fuse, then all other creatures within 5 feet of the point of impact receive 1d6 points of fire damage from the splash. A save vs. Death Ray is allowed to avoid this damage. If the flask does not hit the intended target (as described under Grenade-Like Missiles, above), then that creature may still take damage from the splash, and receives a saving throw. No saving throw is allowed for a creature which has received a direct hit.
+
+A flask of oil spilled or splattered on the ground will burn for 10 rounds. Those attempting to cross the burning oil will receive 1d6 points of fire damage each round they are in it (with no saving throw in this case).
+
+Fire-resistant creatures, including creatures having fire-based abilities, are not damaged by burning oil.
+
+#### Holy Water
+
+Holy water damages undead creatures. A flask of holy water can be thrown as a grenade-like missile; the flask breaks if thrown against the body of a corporeal creature, but to use it against an incorporeal creature, it must be opened and poured out onto the target, generally requiring the attacker to be adjacent to the target.
+
+A direct hit by a flask of holy water deals 1d8 points of damage to an undead creature. In addition, each such creature within 5 feet of the point of impact receives 1d6 points of damage from the splash. Holy water is only effective for one round.
+
 #### Damage
 
-If an attack hits, the attacker rolls damage as given for the weapon. Melee attacks apply the Strength bonus or penalty to the damage dice, as do thrown missile weapons such as daggers or spears. Usually, attacks with bows or crossbows do not gain the Strength bonus, but sling bullets or stones do.
+If an attack hits, the attacker rolls damage as given for the weapon. Melee attacks apply the [Strength](abilities.qmd#ability-scores) bonus or penalty to the damage dice, as do thrown missile weapons such as daggers or spears. Usually, attacks with bows or crossbows do not gain the Strength bonus, but sling bullets or stones do.
 
 Also, magic weapons will add their bonuses to damage (and cursed weapons will apply their penalty). Note that, regardless of any penalties to damage, any successful hit will do at least one point of damage.
 
@@ -277,22 +312,6 @@ Large creatures able to fly may attempt to carry off their opponents (even if th
 
 Wrestling attacks against creatures with touch attacks (such as wights) will cause the attacker to suffer one such attack automatically every round.
 
-#### Oil
-
-A flask of oil can be used as a grenade-like missile. The oil must be set afire in order to inflict damage; otherwise the oil is just slippery. Assuming some means of igniting the oil is at hand, a direct hit to a creature deals 1d8 points of fire damage, plus in the next round the target takes an additional 1d8 points of damage, unless he or she spends the round extinguishing the flames by some reasonable means. The GM must judge the method used; rolling on the floor (assuming it's not oily also) or covering the flames with a wet blanket are good methods, for instance, while pouring or splashing water on burning oil does little good. In any event, a flask of burning oil only causes damage for two rounds at most.
-
-If the oil is ignited by some sort of wick or fuse, then all other creatures within 5 feet of the point of impact receive 1d6 points of fire damage from the splash. A save vs. Death Ray is allowed to avoid this damage. If the flask does not hit the intended target (as described under Grenade-Like Missiles, above), then that creature may still take damage from the splash, and receives a saving throw. No saving throw is allowed for a creature which has received a direct hit.
-
-A flask of oil spilled or splattered on the ground will burn for 10 rounds. Those attempting to cross the burning oil will receive 1d6 points of fire damage each round they are in it (with no saving throw in this case).
-
-Fire-resistant creatures, including creatures having fire-based abilities, are not damaged by burning oil.
-
-#### Holy Water
-
-Holy water damages undead creatures. A flask of holy water can be thrown as a grenade-like missile; the flask breaks if thrown against the body of a corporeal creature, but to use it against an incorporeal creature, it must be opened and poured out onto the target, generally requiring the attacker to be adjacent to the target.
-
-A direct hit by a flask of holy water deals 1d8 points of damage to an undead creature. In addition, each such creature within 5 feet of the point of impact receives 1d6 points of damage from the splash. Holy water is only effective for one round.
-
 #### Morale
 
 NPCs and monsters don't always fight to the death; in fact, most will try to avoid death whenever possible. Each monster listing includes the monster's Morale score, a figure between 2 and 12. To make a Morale check, roll 2d6; if the roll is equal to or less than the Morale score, the monster or monsters are willing to stand and fight. If the roll is higher than the score, the monster has lost its nerve. Monsters with a Morale score of 12 never fail a Morale check; they always fight to the death.
@@ -321,40 +340,40 @@ Undead monsters which are Turned flee from the Cleric and his or her party at ma
 
 Undead monsters subject to a D (Damaged) result suffer 1d8 damage per level of the Cleric (roll once and apply the same damage to all undead monsters affected); those reduced to zero hit points are utterly destroyed, being blasted into little more than dust. Those surviving this damage are still Turned as above.
 
+::: {.column-page-right}
 ::: {.table-responsive}
 
-| Cleric Level | Skeleton | Zombie | Ghoul | Wight | Wraith | Mummy | Spectre | Vampire | Ghost |
-|----|----|-----|-----|----|----|----|-----|-----|-----|
-|  |  1 Hit Die | 2 Hit Dice | 3 Hit Dice | 4 Hit Dice | 5 Hit Dice | 6 Hit Dice | 7 Hit Dice | 8 Hit Dice | 9+ Hit Dice |
-| 1 | 13 | 17 | 19 | No | No | No | No | No | No |
-| 2 | 11 | 15 | 18 | 20 | No | No | No | No | No |
-| 3 | 9 | 13 | 17 | 19 | No | No | No | No | No |
-| 4 | 7 | 11 | 15 | 18 | 20 | No | No | No | No |
-| 5 | 5 | 9 | 13 | 17 | 19 | No | No | No | No |
-| 6 | 3 | 7 | 11 | 15 | 18 | 20 | No | No | No |
-| 7 | 2 | 5 | 9 | 13 | 17 | 19 | No | No | No |
-| 8 | T | 3 | 7 | 11 | 15 | 18 | 20 | No | No |
-| 9 | T | 2 | 5 | 9 | 13 | 17 | 19 | No | No |
-| 10 | T | T | 3 | 7 | 11 | 15 | 18 | 20 | No |
-| 11 | D | T | 2 | 5 | 9 | 13 | 17 | 19 | No |
-| 12 | D | T | T | 3 | 7 | 11 | 15 | 18 | 20 |
-| 13 | D | D | T | 2 | 5 | 9 | 13 | 17 | 19 |
-| 14 | D | D | T | T | 3 | 7 | 11 | 15 | 18 |
-| 15 | D | D | D | T | 2 | 5 | 9 | 13 | 17 |
-| 16 | D | D | D | T | T | 3 | 7 | 11 | 15 |
-| 17 | D | D | D | D | T | 2 | 5 | 9 | 13 |
-| 18 | D | D | D | D | T | T | 3 | 7 | 11 |
-| 19 | D | D | D | D | D | T | 2 | 5 | 9 |
-| 20 | D | D | D | D | D | T | T | 3 | 7 |
+| Cleric Lvl | Skeleton | Zombie | Ghoul | Wight | Wraith | Mummy | Spectre | Vampire | Ghost |
+|--------------|----------|--------|-------|-------|--------|-------|---------|---------|-------|
+|              | 1 HD     | 2 HD   | 3 HD  | 4 HD  | 5 HD   | 6 HD  | 7 HD    | 8 HD    | 9+ HD |
+| 1            | 13       | 17     | 19    | No    | No     | No    | No      | No      | No    |
+| 2            | 11       | 15     | 18    | 20    | No     | No    | No      | No      | No    |
+| 3            | 9        | 13     | 17    | 19    | No     | No    | No      | No      | No    |
+| 4            | 7        | 11     | 15    | 18    | 20     | No    | No      | No      | No    |
+| 5            | 5        | 9      | 13    | 17    | 19     | No    | No      | No      | No    |
+| 6            | 3        | 7      | 11    | 15    | 18     | 20    | No      | No      | No    |
+| 7            | 2        | 5      | 9     | 13    | 17     | 19    | No      | No      | No    |
+| 8            | T        | 3      | 7     | 11    | 15     | 18    | 20      | No      | No    |
+| 9            | T        | 2      | 5     | 9     | 13     | 17    | 19      | No      | No    |
+| 10           | T        | T      | 3     | 7     | 11     | 15    | 18      | 20      | No    |
+| 11           | D        | T      | 2     | 5     | 9      | 13    | 17      | 19      | No    |
+| 12           | D        | T      | T     | 3     | 7      | 11    | 15      | 18      | 20    |
+| 13           | D        | D      | T     | 2     | 5      | 9     | 13      | 17      | 19    |
+| 14           | D        | D      | T     | T     | 3      | 7     | 11      | 15      | 18    |
+| 15           | D        | D      | D     | T     | 2      | 5     | 9       | 13      | 17    |
+| 16           | D        | D      | D     | T     | T      | 3     | 7       | 11      | 15    |
+| 17           | D        | D      | D     | D     | T      | 2     | 5       | 9       | 13    |
+| 18           | D        | D      | D     | D     | T      | T     | 3       | 7       | 11    |
+| 19           | D        | D      | D     | D     | D      | T     | 2       | 5       | 9     |
+| 20           | D        | D      | D     | D     | D      | T     | T       | 3       | 7     |
 
+:::
 ::: 
 
 <br>
 
-
-
 ```{ojs}
-viewof level = Inputs.select([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], {value:1, label: "Level"})
+viewof level = Inputs.select([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], {value:1, label: "Cleric Level"})
 
 viewof r = Inputs.select([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], {value:1, label: "Roll"})
 ```
@@ -406,7 +425,9 @@ A deafened creature can react only to what it can see or feel, is surprised on 1
 
 These penalties are for characters or creatures recently handicapped. Those who are normally blind or deaf may have reduced penalties at the GM's option.
 
-Note that the penalty for attacking an invisible opponent is the same as the penalty for attacking blind, that is, -4 on the attack roll.
+Note that the penalty for attacking an invisible opponent is the same as the penalty for attacking blind, that is, -4 on the attack roll. Do not apply this twice... a
+blind character attacking an invisible opponent is no
+worse off than if they were attacking a visible one
 
 ### Attacking a Vehicle
 
@@ -426,13 +447,13 @@ The five categories of saving throw as follows: **Death Ray or Poison**, **Mag
 
 In general, saving throw rolls are not adjusted by ability score bonus or penalty figures. There are a few exceptions:
 
--   Poison saving throws are always adjusted by the character's Constitution modifier.
--   Saving throws against illusions (such as **phantasmal force**) are always adjusted by the character's Intelligence modifier.
--   Saving throws against **charm** spells (and other forms of mind control) are adjusted by the character's Wisdom modifier.
+-   Poison saving throws are always adjusted by the character's [Constitution](abilities.qmd#ability-scores) modifier.
+-   Saving throws against illusions (such as **phantasmal force**) are always adjusted by the character's [Intelligence](abilities.qmd#ability-scores) modifier.
+-   Saving throws against **charm** spells (and other forms of mind control) are adjusted by the character's [Wisdom](abilities.qmd#ability-scores) modifier.
 
 The GM may decide on other saving throw adjustments as he or she sees fit.
 
-### Item Saving Throws
+#### Item Saving Throws
 
 Area effects (such as fireball or lightning bolt spells) may damage items carried by a character as well as injuring the character. For simplicity, assume that items carried are unaffected if the character or creature carrying them makes his or her own saving throw. However, very fragile items (paper vs. fire, glass vs. physical impact, etc.) may still be considered subject to damage even if the bearer makes his or her save.
 

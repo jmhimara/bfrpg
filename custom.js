@@ -17,6 +17,7 @@ function generalDice(n,d,m){
 }
 
 
+
 let tuTable = {
     1: {
       "min": 13,
@@ -27,7 +28,7 @@ let tuTable = {
     }
   }
 
-export function turnUndead (level, roll) {
+function turnUndead (level, roll) {
   switch (level){
     case 1:
       if (roll >=13 && roll < 17) {
@@ -264,7 +265,251 @@ export function turnUndead (level, roll) {
   }
 }
 
+
+function treasureGeMTable() {
+  const roll = generalDice(1,100,0)
+  if (roll >= 1 && roll <=20 ){
+    return 1
+  } else if (roll >= 21 && roll <= 45 ){
+    return 2
+  } else if (roll >= 46 && roll <= 75 ){
+    return 3
+  } else if (roll >= 76 && roll <= 95 ){
+    return 4 
+  } else {return 5}
+}
+
+export function treasureGeMTable2() {
+  const roll = generalDice(2,6,0)
+  if (roll === 2 ){
+    return 1
+  } else if (roll === 3 ){
+    return 2
+  } else if (roll === 4 ){
+    return 3
+  } else if (roll >= 5 && roll <= 9 ){
+    return 4 
+  } else if (roll === 10 ){
+    return 5 
+  } else if (roll === 11 ){
+    return 6 
+  }  else if (roll === 12 ){
+    return 7
+  } 
+}
+
+export function confusionTable() {
+  const roll = generalDice(1,10,0)
+  if (roll === 1 ){
+    return 1
+  } else if (roll === 2 ){
+    return 2
+  } else if (roll >=3 && roll <=5 ){
+    return 3
+  } else if (roll >= 6 && roll <= 7 ){
+    return 4 
+  } else if (roll >= 8 && roll <= 10 ){
+    return 5 }
+}
+
+export function generalTableSelect(dice, values) {
+  const roll = generalDice(dice[0], dice[1], dice[2])
+  var counter = 0
+  for (let i =0; i < values.length; i++) {
+    if (roll >= values[i][0] && roll <= values[i][1]) { return i + 1}
+  }
+}
+
+export function generalTableSelect2(dice, values) {
+  const roll = generalDice(dice[0], dice[1], dice[2])
+  var counter = 0
+  for (let i =0; i < values.length; i++) {
+    if (roll >= values[i][0] && roll <= values[i][1]) { return [i + 1,roll]}
+  }
+}
+
+export function treasureGeMTable3() {
+  const roll = generalDice(1,100,0)
+  if (roll >= 1 && roll <=10 ){
+    return 1
+  } else if (roll >= 11 && roll <= 20 ){
+    return 2
+  } else if (roll >= 21 && roll <= 28 ){
+    return 3
+  } else if (roll >= 29 && roll <= 38 ){
+    return 4 
+  } else if (roll >= 39 && roll <= 45 ){
+    return 5
+  } else if (roll >= 46 && roll <= 54 ){
+    return 6
+  } else if (roll >= 55 && roll <= 60 ){
+    return 7 
+  } else if (roll >= 61 && roll <= 65 ){
+    return 8
+  } else if (roll >= 66 && roll <= 70 ){
+    return 9
+  } else if (roll >= 71 && roll <= 75 ){
+    return 10 
+  } else if (roll >= 76 && roll <= 79 ){
+    return 11
+  } else if (roll >= 80 && roll <= 89 ){
+    return 12
+  } else if (roll >= 90 && roll <= 94 ){
+    return 13
+  } else if (roll >= 95 && roll <= 97 ){
+    return 14
+  } else if (roll >= 98 && roll <= 100 ){
+    return 15
+  } 
+}
+
+export function treasureGeMTable4() {
+  const roll = generalDice(1,100,0)
+  if (roll >= 1 && roll <=6 ){
+    return [1,1]
+  } else if (roll >= 7 && roll <= 12 ){
+    return [2,1]
+  } else if (roll >= 13 && roll <= 14 ){
+    return [3,1]
+  } else if (roll >= 15 && roll <= 21 ){
+    return [4,1]
+  } else if (roll >= 22 && roll <= 27 ){
+    return [5,1]
+  } else if (roll >= 28 && roll <= 32 ){
+    return [6,1]
+  } else if (roll >= 32 && roll <= 37 ){
+    return [7,1]
+  } else if (roll >= 38 && roll <= 40 ){
+    return [8,1]
+  } else if (roll >= 41 && roll <= 42 ){
+    return [9,1]
+  } else if (roll >= 42 && roll <= 47 ){
+    return [10,1]
+  } else if (roll >= 48 && roll <= 51 ){
+    return [11,1]
+  } else if (roll === 52 ){
+    return [12,1]
+  } else if (roll >= 53 && roll <= 55 ){
+    return [13,1]
+  } else if (roll >= 56 && roll <= 62 ){
+    return [1,3]
+  } else if (roll >= 63 && roll <= 65 ){
+    return [2,3]
+  } else if (roll >= 66 && roll <= 68 ){
+    return [3,3]
+  } else if (roll >= 69 && roll <= 73 ){
+    return [4,3]
+  } else if (roll >= 74 && roll <= 77 ){
+    return [5,3]
+  } else if (roll >= 78 && roll <= 80 ){
+    return [6,3]
+  } else if (roll >= 81 && roll <= 82 ){
+    return [7,3]
+  } else if (roll >= 83 && roll <= 89 ){
+    return [8,3]
+  } else if (roll === 90 ){
+    return [9,3]
+  } else if (roll >= 91 && roll <= 95 ){
+    return [10,3]
+  } else if (roll === 96  ){
+    return [11,3]
+  } else if (roll >= 97 && roll <= 99){
+    return [12,3]
+  } else if (roll === 100 ){
+    return [13,3]
+  } 
+}
+
+function highlightTableRow(table, num) {
+
+  // Get a reference to the table element
+  var table = document.querySelector(table + " " + "table");
+  // clear table of any highlights
+  for (var i = 0; i < table.rows.length; i++) {
+    table.rows[i].classList.remove('myHighlighted');
+  }
+  // Get a reference to the specific row that matches the random number
+  var row = table.rows[num];
+  // Add a class to highlight the row
+
+  row.classList.add("myHighlighted");
+}
+
+export function highlightTableRowRet(table, num) {
+
+  // Get a reference to the table element
+  var table = document.querySelector(table + " " + "table");
+  // clear table of any highlights
+  for (var i = 0; i < table.rows.length; i++) {
+    table.rows[i].classList.remove('myHighlighted');
+  }
+  // Get a reference to the specific row that matches the random number
+  var row = table.rows[num[0]];
+  // Add a class to highlight the row
+  row.classList.add("myHighlighted");
+  return num[1]
+}
+
+export function highlightTableCell(table, r, c) {
+
+  // Get a reference to the table element
+  var table = document.querySelector(table + " " + "table");
+  
+  // Remove existing highlights
+  // for (var i = 0; i < table.rows.length; i++) {
+  //   console.log(i);
+  //   var temp = table.rows[i].getElementsByTagName("td")
+  //   for (var j = 0; i < temp.length; j++){
+  //     console.log(i)
+  //     temp[j].classList.remove('myHighlightedCell');
+  //   }
+  // }
+
+  var highlightedCells = table.querySelectorAll(".myHighlightedCell");
+  for (var i = 0; i < highlightedCells.length; i++) {
+    highlightedCells[i].classList.remove("myHighlightedCell");
+  }
+  
+  // Get a reference to the specific cell that matches the  number
+  var rows = table.getElementsByTagName("tr");
+  var cells = rows[r].getElementsByTagName("td")
+  //console.log(cells)
+  // rows[num].classList.add("myHighlighted");
+  cells[c].classList.add("myHighlightedCell")
+  //console.log(cells[c])
+}
+
+export function calculateModifier (stat) {
+  switch (stat) {
+    case 3:
+      return "-3"
+    case 4: 
+    case 5: 
+      return "-2"
+    case 6: 
+    case 7:
+    case 8: 
+      return "-1"
+    case 9:
+    case 10:
+    case 11: 
+    case 12:
+      return "0"
+    case 13:
+    case 14:
+    case 15: 
+      return "+1"
+    case 16: 
+    case 17: 
+      return "+2"
+    case 18: 
+      return "+3"
+  }
+
+}
+
 export {
     rolld4, rolld6,
-    generalDice
+    generalDice, turnUndead, treasureGeMTable, highlightTableRow
 }
+

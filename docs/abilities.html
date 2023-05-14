@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -60,6 +94,8 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
 
 
@@ -330,7 +366,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#ability-scores" id="toc-ability-scores" class="nav-link active" data-scroll-target="#ability-scores">Ability Scores</a></li>
+  <li><a href="#ability-scores" id="toc-ability-scores" class="nav-link active" data-scroll-target="#ability-scores">Ability Scores</a>
+  <ul>
+  <li><a href="#stat-roller" id="toc-stat-roller" class="nav-link" data-scroll-target="#stat-roller">Stat Roller</a></li>
+  </ul></li>
   <li><a href="#hit-points-and-hit-dice" id="toc-hit-points-and-hit-dice" class="nav-link" data-scroll-target="#hit-points-and-hit-dice">Hit Points and Hit Dice</a></li>
   <li><a href="#languages" id="toc-languages" class="nav-link" data-scroll-target="#languages">Languages</a></li>
   </ul>
@@ -358,7 +397,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="ability-scores" class="level2">
 <h2 class="anchored" data-anchor-id="ability-scores">Ability Scores</h2>
-<p>Each character will have a score ranging from 3 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a&nbsp;<strong>Prime Requisite</strong>&nbsp;ability score, which must be at least 9 in order for the character to become a member of that class; also, there are required minimum and maximum scores for each character race other than Humans, as described under&nbsp;<strong>Character Races</strong>, below.</p>
+<p>Each character will have a score ranging from 3 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a&nbsp;<a href="./class.html#character-classes">Prime Requisite</a>&nbsp;ability score, which must be at least 9 in order for the character to become a member of that class; also, there are required minimum and maximum scores for each character race other than Humans, as described under&nbsp;<a href="./races.html#character-races">Character Races</a>.</p>
 <table class="table">
 <thead>
 <tr class="header">
@@ -397,18 +436,99 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p><strong>Strength:</strong>&nbsp;As the name implies, this ability measures the character’s raw physical power. Strength is the Prime Requisite for Fighters. Apply the ability bonus or penalty for Strength to all attack and damage rolls in melee (hand to hand) combat. Note that a penalty here will not reduce damage from a successful attack below one point in any case (see the&nbsp;<strong>Combat</strong>&nbsp;section for details).</p>
-<p><strong>Intelligence:</strong>&nbsp;This is the ability to learn and apply knowledge. Intelligence is the Prime Requisite for Magic-Users. The ability bonus for Intelligence is added to the number of languages the character is able to learn to read and write; if the character has an Intelligence penalty, he or she cannot read more than a word or two, and will only know his or her native language.</p>
-<p><strong>Wisdom:</strong>&nbsp;A combination of intuition, willpower and common sense. Wisdom is the Prime Requisite for Clerics. The Wisdom bonus or penalty may apply to some saving throws vs.&nbsp;magical attacks, particularly those affecting the target’s will.</p>
-<p><strong>Dexterity:</strong>&nbsp;This ability measures the character’s quickness and balance as well as aptitude with tools. Dexterity is the Prime Requisite for Thieves. The Dexterity bonus or penalty is applied to all attack rolls with missile (ranged) weapons, to the character’s Armor Class value, and to the character’s Initiative die roll.</p>
+<p><strong>Strength:</strong>&nbsp;As the name implies, this ability measures the character’s raw physical power. Strength is the Prime Requisite for <a href="./class.html#fighter">Fighters</a>. Apply the ability bonus or penalty for Strength to all attack and damage rolls in melee (hand to hand) combat. Note that a penalty here will not reduce damage from a successful attack below one point in any case (see the&nbsp;<a href="./combat.html#damage">Combat</a>&nbsp;section for details).</p>
+<p><strong>Intelligence:</strong>&nbsp;This is the ability to learn and apply knowledge. Intelligence is the Prime Requisite for <a href="./class.html#magic-users">Magic-Users</a>. The ability bonus for Intelligence is added to the number of <a href="./abilities.html#languages">languages</a> the character is able to learn to read and write; if the character has an Intelligence penalty, he or she cannot read more than a word or two, and will only know his or her native language.</p>
+<p><strong>Wisdom:</strong>&nbsp;A combination of intuition, willpower and common sense. Wisdom is the Prime Requisite for <a href="./class.html#cleric">Clerics</a>. The Wisdom bonus or penalty may apply to some saving throws vs.&nbsp;magical attacks, particularly those affecting the target’s will.</p>
+<p><strong>Dexterity:</strong>&nbsp;This ability measures the character’s quickness and balance as well as aptitude with tools. Dexterity is the Prime Requisite for <a href="./class.html#thief">Thieves</a>. The Dexterity bonus or penalty is applied to all <a href="./combat.html#attacking-maneuvers">attack rolls</a> with missile (ranged) weapons, to the character’s <a href="./equipment.html#armor-and-shields">Armor Class</a> value, and to the character’s <a href="./combat.html#initiative">Initiative</a> die roll.</p>
 <p><strong>Constitution:</strong>&nbsp;A combination of general health and vitality. Apply the Constitution bonus or penalty to each hit die rolled by the character. Note that a penalty here will not reduce any hit die roll to less than 1 point.</p>
-<p><strong>Charisma:</strong>&nbsp;This is the ability to influence or even lead people; those with high Charisma are well-liked, or at least highly respected. Apply the Charisma bonus or penalty to reaction rolls. Also, the number of retainers a character may hire, and the loyalty of those retainers, is affected by Charisma.</p>
+<p><strong>Charisma:</strong>&nbsp;This is the ability to influence or even lead people; those with high Charisma are well-liked, or at least highly respected. Apply the Charisma bonus or penalty to reaction rolls. Also, the number of <a href="./hirelings.html#retainers">retainers</a> a character may hire, and the loyalty of those retainers, is affected by Charisma.</p>
+<section id="stat-roller" class="level4">
+<h4 class="anchored" data-anchor-id="stat-roller">Stat Roller</h4>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="32" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 31;"><span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { generalDice } <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>viewof statRolls <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll Stats"</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="kw">null</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> [<span class="fu">generalDice</span>(<span class="dv">3</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>)<span class="op">,</span><span class="fu">generalDice</span>(<span class="dv">3</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>)<span class="op">,</span><span class="fu">generalDice</span>(<span class="dv">3</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>)<span class="op">,</span><span class="fu">generalDice</span>(<span class="dv">3</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>)<span class="op">,</span><span class="fu">generalDice</span>(<span class="dv">3</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>)<span class="op">,</span><span class="fu">generalDice</span>(<span class="dv">3</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>)]})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="39" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 38;"><span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { calculateModifier } <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> x <span class="op">=</span> <span class="st">""</span></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="co">/*     if (statRolls != null){</span></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="co">        x = md`&lt;br&gt;${statRolls[0]} &amp;emsp; (${calculateModifier(statRolls[0])}) </span></span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a><span class="co">        &lt;br&gt;${statRolls[1]} &amp;emsp; (${calculateModifier(statRolls[1])})</span></span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a><span class="co">        &lt;br&gt;${statRolls[2]} &amp;emsp; (${calculateModifier(statRolls[2])})</span></span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a><span class="co">        &lt;br&gt;${statRolls[3]} &amp;emsp; (${calculateModifier(statRolls[3])}) </span></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a><span class="co">        &lt;br&gt;${statRolls[4]} &amp;emsp; (${calculateModifier(statRolls[4])}) </span></span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="co">        &lt;br&gt;${statRolls[5]} &amp;emsp; (${calculateModifier(statRolls[5])})`</span></span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a><span class="co">    } else {x = md`&lt;br&gt;&lt;b&gt;Press button to roll stats&lt;b&gt;`} */</span></span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (statRolls <span class="op">!=</span> <span class="kw">null</span>) {</span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> <span class="fu">html</span><span class="vs">`&lt;br&gt;&lt;table style="max-width:20%;"&gt;</span></span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;tr&gt;</span></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;</span><span class="sc">${</span>statRolls[<span class="dv">0</span>]<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;(</span><span class="sc">${</span><span class="fu">calculateModifier</span>(statRolls[<span class="dv">0</span>])<span class="sc">}</span><span class="vs">)&lt;/td&gt;</span></span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;/tr&gt;</span></span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;tr&gt;</span></span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;</span><span class="sc">${</span>statRolls[<span class="dv">1</span>]<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;(</span><span class="sc">${</span><span class="fu">calculateModifier</span>(statRolls[<span class="dv">1</span>])<span class="sc">}</span><span class="vs">)&lt;/td&gt;</span></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;/tr&gt;</span></span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;tr&gt;</span></span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;</span><span class="sc">${</span>statRolls[<span class="dv">2</span>]<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;(</span><span class="sc">${</span><span class="fu">calculateModifier</span>(statRolls[<span class="dv">2</span>])<span class="sc">}</span><span class="vs">)&lt;/td&gt;</span></span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;/tr&gt;</span></span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;tr&gt;</span></span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;</span><span class="sc">${</span>statRolls[<span class="dv">3</span>]<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;(</span><span class="sc">${</span><span class="fu">calculateModifier</span>(statRolls[<span class="dv">3</span>])<span class="sc">}</span><span class="vs">)&lt;/td&gt;</span></span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;/tr&gt;</span></span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;tr&gt;</span></span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;</span><span class="sc">${</span>statRolls[<span class="dv">4</span>]<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;(</span><span class="sc">${</span><span class="fu">calculateModifier</span>(statRolls[<span class="dv">4</span>])<span class="sc">}</span><span class="vs">)&lt;/td&gt;</span></span>
+<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;/tr&gt;</span></span>
+<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;tr&gt;</span></span>
+<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;</span><span class="sc">${</span>statRolls[<span class="dv">5</span>]<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;(</span><span class="sc">${</span><span class="fu">calculateModifier</span>(statRolls[<span class="dv">5</span>])<span class="sc">}</span><span class="vs">)&lt;/td&gt;</span></span>
+<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;/tr&gt;</span></span>
+<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a><span class="vs">                `</span></span>
+<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> {x <span class="op">=</span> <span class="fu">md</span><span class="vs">`&lt;br&gt;&lt;b&gt;Press button to roll stats&lt;b&gt;`</span>}</span>
+<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> x</span>
+<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>    }</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="hit-points-and-hit-dice" class="level2">
 <h2 class="anchored" data-anchor-id="hit-points-and-hit-dice">Hit Points and Hit Dice</h2>
 <p>When a character is injured, he or she loses hit points from his or her current total. Note that this does not change the figure rolled, but rather reduces the current total; healing will restore hit points, up to but not exceeding the rolled figure.</p>
 <p>When his or her hit point total reaches 0, your character may be dead. This may not be the end for the character; don’t tear up the character sheet.</p>
-<p>First level characters begin play with a single hit die of the given type, plus the Constitution bonus or penalty, with a minimum of 1 hit point. Each time a character gains a level, the player should roll another hit die and add the character’s Constitution bonus or penalty, with the result again being a minimum of 1 point. Add this amount to the character’s maximum hit points figure. Note that, after 9<sup>th</sup>&nbsp;level, characters receive a fixed number of hit points each level, as shown in the advancement table for the class, and no longer add the Constitution bonus or penalty.</p>
+<p>First level characters begin play with a single hit die of the given type, plus the Constitution bonus or penalty, with a <strong>minimum</strong> of 1 hit point. Each time a character gains a level, the player should roll another hit die and add the character’s Constitution bonus or penalty, with the result again being a minimum of 1 point. Add this amount to the character’s maximum hit points figure. Note that, after 9<sup>th</sup>&nbsp;level, characters receive a fixed number of hit points each level, as shown in the <a href="./class.html#character-classes">advancement table for the class</a>, and no longer add the Constitution bonus or penalty.</p>
 </section>
 <section id="languages" class="level2">
 <h2 class="anchored" data-anchor-id="languages">Languages</h2>
@@ -419,6 +539,18 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+
+<script type="ojs-module-contents">
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"import { generalDice } from \"./custom.js\"\r\n\r\nviewof statRolls = Inputs.button(\"Roll Stats\", {value: null, reduce: () => [generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0)]})\r\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"import { calculateModifier } from \"./custom.js\"\r\n{\r\n    var x = \"\"\r\n/*     if (statRolls != null){\r\n        x = md`<br>${statRolls[0]} &emsp; (${calculateModifier(statRolls[0])}) \r\n        <br>${statRolls[1]} &emsp; (${calculateModifier(statRolls[1])})\r\n        <br>${statRolls[2]} &emsp; (${calculateModifier(statRolls[2])})\r\n        <br>${statRolls[3]} &emsp; (${calculateModifier(statRolls[3])}) \r\n        <br>${statRolls[4]} &emsp; (${calculateModifier(statRolls[4])}) \r\n        <br>${statRolls[5]} &emsp; (${calculateModifier(statRolls[5])})`\r\n    } else {x = md`<br><b>Press button to roll stats<b>`} */\r\n\r\n    if (statRolls != null) {\r\n        x = html`<br><table style=\"max-width:20%;\">\r\n                    <tr>\r\n                        <td>${statRolls[0]}</td>\r\n                        <td>(${calculateModifier(statRolls[0])})</td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td>${statRolls[1]}</td>\r\n                        <td>(${calculateModifier(statRolls[1])})</td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td>${statRolls[2]}</td>\r\n                        <td>(${calculateModifier(statRolls[2])})</td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td>${statRolls[3]}</td>\r\n                        <td>(${calculateModifier(statRolls[3])})</td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td>${statRolls[4]}</td>\r\n                        <td>(${calculateModifier(statRolls[4])})</td>\r\n                    </tr>\r\n                    <tr>\r\n                        <td>${statRolls[5]}</td>\r\n                        <td>(${calculateModifier(statRolls[5])})</td>\r\n                    </tr>\r\n                `\r\n    } else {x = md`<br><b>Press button to roll stats<b>`}\r\n\r\n    return x\r\n    } \r\n\r\n"},{"methodName":"interpretQuiet","source":"shinyInput('statRolls')"}]}
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

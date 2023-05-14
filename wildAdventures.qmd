@@ -34,12 +34,31 @@ The movement rates shown on the table above are figured based on an 8 hour day o
 
 Characters may choose to perform a **forced march**, traveling 12 hours per day. If this is done, add an additional 50% to the distance traveled. Each day of forced march performed after the first inflicts 1d6 damage on the characters (and their animals, if any). A save vs. Death Ray with Constitution bonus applied is allowed to avoid this damage, but after this save is failed once, it is not rolled again for that character or creature. A day spent resting "restarts" the progression.
 
+### Becoming Lost
+
+Though adventurers following roads, rivers, or other
+obvious landmarks are unlikely to become lost, striking
+out into trackless forest, windblown desert, and so on is
+another matter. Secretly roll a save vs. Death Ray,
+adjusted by the Wisdom of the party leader (i.e.,
+whichever character seems to be leading). An Ability
+Roll against Wisdom may be rolled, if that optional rule
+is in use. The GM must determine the effects of failure
 
 ### Waterborne Travel
 
-Travel by water may be done in a variety of boats or ships; see the table in the **Vehicles** section for details. Travel distances are based on a 12 hour day of travel, rather than the usual 8 hours per day given above. Note that sailed ships may travel 24 hours per day (if a qualified navigator is aboard), and so may be able to cover twice the normal distance per day of travel. This is in addition to the multiplier given below. If the ship stops each night, as is done by some vessels traveling along a coastline as well as those vessels having less than the minimum number of regular crewmen on board, the two-times multiplier does not apply.
+Travel by water may be done in a variety of boats or ships; see the table in the [Vehicles](vehicles.qmd#water-transportation) section for details. Travel distances are based on a 12 hour day of travel, rather than the usual 8 hours per day given above. Note that sailed ships may travel 24 hours per day (if a qualified navigator is aboard), and so may be able to cover twice the normal distance per day of travel. This is in addition to the multiplier given below. If the ship stops each night, as is done by some vessels traveling along a coastline as well as those vessels having less than the minimum number of regular crewmen on board, the two-times multiplier does not apply.
 
 Movement of sailed ships varies depending on weather conditions, as shown on the following table. **Sailing** movement modifiers shown apply when sailing with the wind; sailing against the wind involves **tacking** (called "zigzagging" by landlubbers) which reduces movement rates as indicated on the table.
+
+```{ojs}
+
+import {generalTableSelect, highlightTableRow} from "./custom.js"
+
+Inputs.button("Roll on Table", {value: 0, reduce: () => highlightTableRow("#wind-direction", generalTableSelect([1,12,0],[[1,1],[2,2],[3,3],[4,4],[5,5],[6,6],[7,7],[8,8],[9,12]]))})
+```
+
+:::{#wind-direction}
 
 | **d12** | **Wind Direction** |
 |---------|--------------------|
@@ -53,6 +72,16 @@ Movement of sailed ships varies depending on weather conditions, as shown on the
 | 8 | Northwesterly |
 | 9-12 | Prevailing wind direction for this locale |
 
+::: 
+
+```{ojs}
+
+Inputs.button("Roll on Table", {value: 0, reduce: () => highlightTableRow("#wind-condition", generalTableSelect([1,100,0],[[1,5],[6,13],[14,25],[26,40],[41,70],[71,85],[86,96],[97,100]]))})
+
+```
+
+:::{#wind-condition}
+
 | **d%** | **Wind Conditions** | **Sailing** | **Tacking** |
 |---------|--------------------|-------------|-------------|
 | 01-05 | Becalmed | x0 | x0 |
@@ -63,6 +92,8 @@ Movement of sailed ships varies depending on weather conditions, as shown on the
 | 71-85 | Strong Winds | x1 1/3 | x2/3 |
 | 86-96 | Very Strong Winds | x1 1/2 | x0 |
 | 97-00 | Gale | x2 | x0 |
+
+:::
 
 **Notes:**
 
@@ -75,7 +106,3 @@ Movement of sailed ships varies depending on weather conditions, as shown on the
 ### Traveling by Air
 
 When traveling by air, overland movement rates are doubled, and all terrain effects are ignored. Most winged creatures must maintain at least one-third normal forward movement in order to remain airborne; however, devices such as **flying carpets** generally do not have this limitation.
-
-### Becoming Lost
-
-Adventurers following roads, trails, rivers, streams, or other obvious landmarks are unlikely to become lost; however, when the party strikes out into trackless forest, windblown desert, etc., they may become lost. Secretly roll a save vs. Death Ray, adjusted by the Wisdom of the party leader (i.e., whichever player character seems to be leading). (Alternately, an Ability Roll against Wisdom may be rolled, if that optional rule is in use.) The GM must determine the effects of a failed roll.

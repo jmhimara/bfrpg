@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -60,6 +94,8 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
 
 
@@ -337,7 +373,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -362,6 +398,34 @@ ul.task-list li input[type="checkbox"] {
 <p>A retainer is a close associate of his employer. Retainers are hired for a share of treasure (typically at least 15% of the employer’s income) plus support costs (weapons, armor, rations, and basic equipment provided by the employer). Retainers are typically very loyal and are willing to take reasonable risks; in particular, they are the only sort of hireling who will generally accompany a player character into a dungeon, lair, or ruin.</p>
 <p>Hiring a retainer is more involved than hiring other NPCs. First, the player character must advertise for a retainer, typically by hiring a crier, posting notices in public places, or asking (and possibly paying) NPCs such as innkeepers or taverners to direct potential retainers to the player character. It is up to the Game Master to rule on what must be done, and how successful these activities are.</p>
 <p>If the player character is successful, one or more NPCs will present themselves to be interviewed. The Game Master should play out the interview with the player, and after all offers have been made and all questions asked, a reaction roll should be made. To check the potential retainer’s reaction, the Game Master rolls 2d6 and adds the player character’s Charisma bonus. In addition, the Game Master may apply any adjustments he or she feels are appropriate (a bonus of +1 for higher-than-average pay or the offer of a magic item such as a&nbsp;<strong>sword +1</strong>, or a penalty if the player character offers poor terms). The roll is read as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="15" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 14;"><span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {generalTableSelect2<span class="op">,</span> highlightTableRowRet} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>viewof reaction <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRowRet</span>(<span class="st">"#reaction-roll"</span><span class="op">,</span> <span class="fu">generalTableSelect2</span>([<span class="dv">2</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">2</span><span class="op">,</span><span class="dv">2</span>]<span class="op">,</span>[<span class="dv">3</span><span class="op">,</span><span class="dv">5</span>]<span class="op">,</span>[<span class="dv">6</span><span class="op">,</span><span class="dv">8</span>]<span class="op">,</span>[<span class="dv">9</span><span class="op">,</span><span class="dv">11</span>]<span class="op">,</span>[<span class="dv">12</span><span class="op">,</span><span class="dv">12</span>]]))})</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`2d6: </span><span class="sc">${</span>reaction<span class="sc">}</span><span class="vs">`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-3" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<div id="reaction-roll">
 <table class="table">
 <thead>
 <tr class="header">
@@ -392,6 +456,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>Refusal, -1 on further rolls</strong>&nbsp;means that all further reaction rolls made toward that player character in the given town or region will be at a penalty of -1 due to unkind words said by the NPC to his fellows. If the player character tries again in a different town, the penalty does not apply.</p>
 <p>If a&nbsp;<strong>Try again</strong>&nbsp;result is rolled, the potential retainer is reluctant, and needs more convincing; the player character must “sweeten” the deal in order to get an additional roll, such as by offering more pay, a magic item, etc. If the player character makes no better offer, treat&nbsp;<strong>Try again</strong>&nbsp;as a&nbsp;<strong>Refusal</strong>&nbsp;result.</p>
 <p><strong>Loyalty:</strong>&nbsp;All retainers have a Loyalty score, which is generally 7 plus the employer’s Charisma bonus (or penalty). The Loyalty score is used just as the Morale score of monsters or mercenaries is used.</p>
@@ -399,14 +464,14 @@ ul.task-list li input[type="checkbox"] {
 <p>In addition, the Game Master should roll a Loyalty check for each retainer at the end of each adventure, after&nbsp;treasure is divided, to determine if the retainer will remain with the player character. The GM may apply adjustments to this roll, probably no more than two points plus or minus, if the retainer is particularly well or poorly paid.</p>
 <p><strong>Maximum Number of Retainers:</strong>&nbsp;A player character may hire at most 4 retainers, adjusted by the character’s Charisma bonus or penalty. Any attempts to hire more than this number of retainers will be met with automatic refusals.</p>
 <p><strong>Level of Retainers:</strong>&nbsp;Normally, potential retainers will be one-half the level of the employer (or less). So, a first level character cannot hire retainers, second level PCs can only hire first level characters, and so on. Of course, there is no way for the retainers to directly know the level of the PC employer, nor for the employer to know the level of the potential retainer; but the Game Master should usually enforce this rule for purposes of game balance. It shouldn’t be surprising that first level characters can’t hire retainers, as they have no reputation to speak of yet.</p>
-<p><strong>Experience for Retainers:</strong>&nbsp;Unlike other hired NPCs, retainers do gain experience just as other adventurers do; however, as they are under the command of a player character, only one-half of a share of XP is allocated to each retainer. See&nbsp;<strong>Character Advancement</strong>, below, for an example.</p>
+<p><strong>Experience for Retainers:</strong>&nbsp;Unlike other hired NPCs, retainers do gain experience just as other adventurers do; however, as they are under the command of a player character, only one-half of a share of XP is allocated to each retainer. See&nbsp;<a href="./advancement.html#advancement">Character Advancement</a>.</p>
 </section>
 <section id="specialists" class="level3">
 <h3 class="anchored" data-anchor-id="specialists">Specialists</h3>
 <p>Specialists are NPCs who may be hired by player characters to perform various tasks. Specialists do not go on adventures or otherwise risk their lives fighting monsters, disarming traps, or any of the other dangerous things player characters and retainers may do. Rather, specialists perform services the player characters usually can’t perform for themselves, like designing and erecting castles, training animals, or operating ships.</p>
 <p>A player character is limited in the number of specialists he or she can hire only by the amount of money they cost; Charisma does not affect this.</p>
 <p><strong>Alchemist:</strong>&nbsp;<em>1,000 gp per month.</em>These characters are generally hired for one of two reasons: to make potions, or to assist a Magic-User with magical research.</p>
-<p>An alchemist can produce a potion, given the required materials and a sample or a written formula for the potion, in the same time and for the same cost as a Magic-User. They may also research new potions, but at twice the cost in time and materials as a Magic-User.</p>
+<p>An alchemist can produce a potion, given the required materials and a sample or a written formula for the potion, in the same time and for the same cost as a Magic-User. They may also research new potions, but at twice the cost in time and materials as a Magic-User. Review the rules for <a href="./gm01.html#magical-research">Magical Research</a> for details.</p>
 <p>Alternately, a Magic-User seeking to create certain magic items may employ an alchemist as an assistant. In this case, the alchemist adds 15% to the Magic-User’s chance of success.</p>
 <p><strong>Animal Trainer:</strong>&nbsp;<em>250 to 750 gp per month.</em>&nbsp;Characters wishing to ride hippogriffs or employ carnivorous apes as guards will need the assistance of an animal trainer. The lowest cost above is for an average animal trainer, able to train one type of “normal” animal such as carnivorous apes; those able to train more than one sort of animal, or to train monstrous creatures such as hippogriffs, are more expensive to hire. The Game Master must decide how long it takes to train an animal; in some cases, animal training may take years, a fact the player characters may find inconvenient as well as expensive. A single animal trainer can train and manage no more than 5 animals at a time, though in most cases once an animal is fully trained, if it is put into service right away the animal trainer won’t be needed to handle it any longer.</p>
 <p><strong>Armorer (or Weaponsmith):</strong>&nbsp;<em>100 to 500 gp per month.</em>&nbsp;Characters hiring mercenaries, or having armed and armored followers to take care of, will need the services of an armorer. In general, for every 50 Fighters employed, one armorer is required to care for their gear. The armorer’s equipment is not included in the costs given above, but the cost to maintain his apprentices is included; most such characters will have 1d4 apprentices assisting.</p>
@@ -443,18 +508,158 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <p>In general, all such characters are normal men, and are not armored; they will usually be armed with clubs, daggers, or shortswords. Player characters with appropriate backgrounds may act as Captain, but unless experienced as a ship’s captain, they will have difficulty commanding respect from the regular sailors (lower the Morale of such regular sailors by -2 if led by an inexperienced Captain).</p>
 </section>
-<section id="mercenaries" class="level3">
+<section id="mercenaries" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="mercenaries">Mercenaries</h3>
 <p>Mercenaries are hired warriors. They are generally hired in units as small as platoons: 32 to 48 Fighters, divided into two to four squads of soldiers; each squad is led by a corporal, while the platoon is led by a lieutenant plus a sergeant. Platoons are joined together into companies, each generally consisting of two to five platoons and led by a captain with a sergeant as his assistant (called a&nbsp;<strong>first sergeant</strong>).</p>
 <p>As mercenaries are almost always veteran troops, the average mercenary is a 1<sup>st</sup>&nbsp;level Fighter; 10% of corporals and 50% of sergeants are 2<sup>nd</sup>&nbsp;level. A mercenary lieutenant will generally be 2<sup>nd</sup>&nbsp;level, while a captain will be 2<sup>nd</sup>&nbsp;to 4<sup>th</sup>&nbsp;level and his first sergeant will be 2<sup>nd</sup>&nbsp;or 3<sup>rd</sup>&nbsp;level. Larger mercenary units will usually be beyond the reach of player characters until they have reached fairly high levels, and are left to the Game Master to detail.</p>
 <p>Mercenaries will virtually never go into a dungeon, lair, or ruin, at least until it has been fully cleared. Rather, they are used in outdoor military engagements; high level player characters may hire mercenaries to defend or help defend their castles or other holdings.</p>
 <p>Mercenaries housed in a player character’s stronghold require 200 square feet each but cost 25% less per month, as this is covered by their room and board. (Elven mercenaries, however, require 500 square feet of space each in order to reduce their pay, as they demand better living conditions.) See the&nbsp;<strong>Stronghold</strong>&nbsp;section for more details.</p>
 <p>Statistics are given below for the most common sorts of mercenaries; the statistics are for first level characters, and should be adjusted when higher level characters are indicated (as given above). In particular, multiply the given cost of each mercenary by his or her level. Listed costs are in gold pieces per month.</p>
+<div class="column-page-right">
+<table class="table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 6%">
+<col style="width: 53%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type of Mercenary</th>
+<th style="text-align: center;">Cost</th>
+<th style="text-align: left;">Equipment</th>
+<th style="text-align: center;">Morale</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Light Foot, Human</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Leather Armor, Shield, and Longsword</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="even">
+<td>Light Foot, Elf</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">Leather Armor, Shield, and Longsword</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="odd">
+<td>Light Foot, Orc</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Leather Armor and Spear</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr class="even">
+<td>Heavy Foot, Human</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Chainmail, Shield, and Longsword</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="odd">
+<td>Heavy Foot, Dwarf</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Chainmail, Shield, and Shortsword</td>
+<td style="text-align: center;">9</td>
+</tr>
+<tr class="even">
+<td>Heavy Foot, Orc</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Chainmail, Shield, and Shortsword</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="odd">
+<td>Archer, Human</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Leather Armor, Shortbow, and Shortsword</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="even">
+<td>Archer, Elf</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: left;">Chainmail, Shortbow, and Shortsword</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="odd">
+<td>Archer, Orc</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Leather Armor, Shortbow, and Shortsword</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="even">
+<td>Crossbowman, Human</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Chainmail, Crossbow, and Shortsword</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="odd">
+<td>Crossbowman, Dwarf</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: left;">Platemail, Crossbow, and Shortsword</td>
+<td style="text-align: center;">9</td>
+</tr>
+<tr class="even">
+<td>Longbowman, Human</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">Chainmail, Longbow, and Shortsword</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="odd">
+<td>Longbowman, Elf</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: left;">Chainmail, Longbow, and Longsword</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="even">
+<td>Light Horseman, Human</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">Leather Armor, Shield, Lance, and Longsword</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="odd">
+<td>Light Horseman, Elf</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: left;">Leather Armor, Lance, Shortbow, and Longsword</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="even">
+<td>Medium Horseman, Human</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: left;">Chainmail, Shield, Lance, and Longsword</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="odd">
+<td>Medium Horseman, Elf</td>
+<td style="text-align: center;">33</td>
+<td style="text-align: left;">Chainmail, Lance, Shortbow, and Longsword</td>
+<td style="text-align: center;">9</td>
+</tr>
+<tr class="even">
+<td>Heavy Horseman, Human</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: left;">Platemail, Shield, Lance, and Longsword</td>
+<td style="text-align: center;">8</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 
 </section>
 
 </main> <!-- /main -->
+
+<script type="ojs-module-contents">
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\r\nimport {generalTableSelect2, highlightTableRowRet} from \"./custom.js\"\r\n\r\nviewof reaction = Inputs.button(\"Roll on Table\", {value: 0, reduce: () => highlightTableRowRet(\"#reaction-roll\", generalTableSelect2([2,6,0],[[2,2],[3,5],[6,8],[9,11],[12,12]]))})\r\nmd`2d6: ${reaction}`\r\n"},{"methodName":"interpretQuiet","source":"shinyInput('reaction')"}]}
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

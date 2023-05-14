@@ -16,6 +16,14 @@ For game purposes, assume that one gold piece weighs 1/10^th^ of a pound, and t
 
 First level characters generally begin the game with 3d6 x 10 gp (unless the GM decides otherwise).
 
+```{ojs}
+import { generalDice } from "./custom.js"
+
+viewof goldRoll = Inputs.button("Roll Starting Gold", {value: 0, reduce: () => (10 * generalDice(3,6,0))})
+```
+
+**Starting Gold**: ${goldRoll}
+
 ## Misc. Equipment
 
 This list represents common adventuring equipment at average prices. Prices and availability may vary. Weights are expressed in pounds. Items marked * weigh very little; ten such items weigh one pound. Items marked ** have almost no weight and should not usually be counted.
@@ -81,7 +89,7 @@ A **Candle** will shed light over a 5' radius, with dim light extending 5' fur
 
 **Chalk** is useful for "blazing a trail" through a dungeon or ruin.
 
-**Holy Water** is explained in the **Encounter** section.
+**Holy Water** is explained in the [Encounter section](combat.qmd#holy-water).
 
 **Iron Spikes** are useful for spiking doors closed (or spiking them open) and may be used as crude pitons in appropriate situations.
 
@@ -128,19 +136,19 @@ A **Whetstone** is used to sharpen and maintain edged weapons such as swords, 
 | **Bows** |  |  |  |  |
 | Shortbow | 25 gp | M | 2 |  |
 | Shortbow Arrow | 1 sp |  | * | 1d6 |
-| Silver† Shortbow Arrow | 2 gp |  | * | 1d6 |
+| Silver^†^ Shortbow Arrow | 2 gp |  | * | 1d6 |
 | Longbow | 60 gp | L | 3 |  |
 | Longbow Arrow | 2 sp |  | * | 1d8 |
-| Silver† Longbow Arrow | 4 gp |  | * | 1d8 |
+| Silver^†^ Longbow Arrow | 4 gp |  | * | 1d8 |
 | Light Crossbow | 30 gp | M | 7 |  |
 | Light Quarrel | 2 sp |  | * | 1d6 |
-| Silver† Light Quarrel | 5 gp |  | * | 1d6 |
+| Silver^†^ Light Quarrel | 5 gp |  | * | 1d6 |
 | Heavy Crossbow | 50 gp | L | 14 |  |
 | Heavy Quarrel | 4 sp |  | * | 1d8 |
-| Silver† Heavy Quarrel | 10 gp |  | * | 1d8 |
+| Silver^†^ Heavy Quarrel | 10 gp |  | * | 1d8 |
 | **Daggers** |  |  |  |  |
 | Dagger | 2 gp | S | 1 | 1d4 |
-| Silver† Dagger | 25 gp | S | 1 | 1d4 |
+| Silver^†^ Dagger | 25 gp | S | 1 | 1d4 |
 | **Swords** |  |  |  |  |
 | Shortsword | 6 gp | S | 3 | 1d6 |
 | Longsword/Scimitar | 10 gp | M | 4 | 1d8 |
@@ -169,7 +177,7 @@ A **Whetstone** is used to sharpen and maintain edged weapons such as swords, 
 
 ## Weapon Size
 
-Humans and Elves must wield Large weapons with both hands, but may use Small or Medium weapons in one hand. Halflings may not use Large weapons at all, and must use Medium weapons with both hands. Dwarves, due to their stocky, powerful builds, are able to use Medium weapons one-handed and some Large weapons in two hands, but Large weapons more than four feet in length are prohibited (specifically, two-handed swords, polearms, and longbows). Some weapons must be used with both hands by design (such as bows and crossbows) but the maximum size limits still apply.
+[Humans](races.qmd#humans) and [Elves](races.qmd#elves) must wield Large weapons with both hands, but may use Small or Medium weapons in one hand. [Halflings](races.qmd#halflings) may not use Large weapons at all, and must use Medium weapons with both hands. [Dwarves](races.qmd#dwarves), due to their stocky, powerful builds, are able to use Medium weapons one-handed and some Large weapons in two hands, but Large weapons more than four feet in length are prohibited (specifically, two-handed swords, polearms, and longbows). Some weapons must be used with both hands by design (such as bows and crossbows) but the maximum size limits still apply.
 
 The GM should apply similar limitations to weapon-armed monsters; for instance, kobolds and goblins are similar in size to Halflings, and thus should have similar weapon limits.
 
@@ -202,7 +210,7 @@ Missile weapon ranges are given in feet. In the wilderness, substitute yards for
 
 ## Beasts of Burden
 
-Note: Statistics for the animals below are on Chapter TODO.
+Note: Statistics for the animals below are [here](monsters.qmd#beasts-of-burden).
 
 | Item | Price |
 |--------|------------|

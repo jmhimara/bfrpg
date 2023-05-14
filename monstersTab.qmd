@@ -47,6 +47,12 @@ return n
 
 <br>
 
+<!-- ::: {.column-screen}
+```{ojs}
+viewof theseStats = Inputs.checkbox(["Armor Class", "Hit Dice", "Attacks", "Damage","Movement","No. Appearing","Save","Morale","Treasure Type","XP"])
+```
+::: -->
+
 ::: {.column-screen .table-responsive}
 ```{ojs}
 // import { jQuery as $ } from "@ddspog/useful-libs"
@@ -119,6 +125,4 @@ $(document).ready(function() {
     </div>
   </div>
 </div>
-
-<div id="t"> test </div>
 ```

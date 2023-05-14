@@ -7,7 +7,7 @@ The following tables give details of various land and sea vehicles. Game Masters
 ::: {.column-screen-inset-right}
 
 | Vehicle | Length x width* | Weight | Cargo | Movement | Hardness / HP | Cost (gp) |
-|---|---|---|---|---|---|---|
+|---------|-----------------|--------|-------|----------|---------------|-----------|
 | Chariot | 15' x 6' | 300 | 750 lbs | 60' (10') | 10 / 10 | 400 |
 | Coach | 30' x 8' | 1,000 | 2,000 lbs | 40' (15') | 6 / 12 | 1,500 |
 | Wagon | 35' x 8' | 2,000 | 4,000 lbs | 20' (15') | 6 / 16 | 500 |
@@ -23,16 +23,16 @@ The following tables give details of various land and sea vehicles. Game Masters
 
 | Vehicle | Length x Width | Cargo | Crew | Movement | Miles/Day | Hardness / HP | Cost (gp) |
 |---|---|---|---|---|---|---|---|
-| Canoe | 15' x 4' | ½ ton | 1 | 40' | (5') | 30 | 4 / 4 | 50 |
-| Caravel | 55' x 15' | 75 tons | 10 | 20' | (20') | 42 | 8 / 75 | 10,000 |
-| Carrack | 60' x 20' | 135 tons | 20 | 30' | (30') | 48 | 10 / 120 | 20,000 |
-| Galley, Small | 100' x 15' | 210 tons | 90 | 20' | (20') | 36 / 24 | 8 / 75 | 15,000 |
-| Galley, Large | 120' x 20' | 375 tons | 160 | 30' | (25') | 42 / 24 | 10 / 120 | 30,000 |
-| Longship | 110' x 15' | 10 tons | 70 | 30' | (25') | 42 / 24 | 9 / 110 | 25,000 |
-| Raft/Barge | per 10' x 10' | 1 ton | 2 | 40' | (10') | 18 | 6 / 12 | 100 |
-| Riverboat | 50' x 20' | 50 tons | 10 | 20' | (20') | 30 | 8 / 30 | 3,500 |
-| Rowboat | 15' x 6' | 1 ton | 1 | 30' | (10') | 24 | 6 / 8 | 60 |
-| Sailboat | 40' x 8' | 5 tons | 1 | 40' | (15') | 36 | 7 / 20 | 2,000 |
+| Canoe | 15' x 4' | ½ ton | 1 | 40' (5') | 30 | 4 / 4 | 50 |
+| Caravel | 55' x 15' | 75 tons | 10 | 20' (20') | 42 | 8 / 75 | 10,000 |
+| Carrack | 60' x 20' | 135 tons | 20 | 30' (30') | 48 | 10 / 120 | 20,000 |
+| Galley, Small | 100' x 15' | 210 tons | 90 | 20' (20') | 36 / 24 | 8 / 75 | 15,000 |
+| Galley, Large | 120' x 20' | 375 tons | 160 | 30' (25') | 42 / 24 | 10 / 120 | 30,000 |
+| Longship | 110' x 15' | 10 tons | 70 | 30' (25') | 42 / 24 | 9 / 110 | 25,000 |
+| Raft/Barge | per 10' x 10' | 1 ton | 2 | 40' (10') | 18 | 6 / 12 | 100 |
+| Riverboat | 50' x 20' | 50 tons | 10 | 20' (20') | 30 | 8 / 30 | 3,500 |
+| Rowboat | 15' x 6' | 1 ton | 1 | 30'  (10') | 24 | 6 / 8 | 60 |
+| Sailboat | 40' x 8' | 5 tons | 1 | 40' (15') | 36 | 7 / 20 | 2,000 |
 
 
 ::: 
@@ -43,11 +43,11 @@ The** Crew** figure given reflects the minimum number of sailors and/or rowers
 
 **Cargo** for wagons is given in pounds, while for ships it is given in tons. If the ship sails night and day, each passenger requires living space equivalent to one ton of cargo; in addition, provisions for one man for one month occupy 1/10 of a ton of space.
 
-**Movement** is given separately here in feet (yards, actually; see **Time and Scale** in **Part 4: The Adventure** for an explanation) as well as miles per day. The encounter movement of ships is not directly related to the long-distance travel rate, since the crew must work hard to make the ship move quickly in combat, and this level of effort cannot be maintained day and night.
+**Movement** is given separately here in feet (yards, actually; see [Time and Scale](dungeonAdventures.qmd#time-and-scale) for an explanation) as well as miles per day. The encounter movement of ships is not directly related to the long-distance travel rate, since the crew must work hard to make the ship move quickly in combat, and this level of effort cannot be maintained day and night.
 
 The parenthesized figure represents maneuverability; see **Maneuverability** in **Part 5: The Encounter** for details.
 
-See **Attacking a Vehicle,** also in the **Encounter** section, for details on the **Hardness** and **HP** statistics.
+See **Attacking a Vehicle,** also in the [Encounter](combat.qmd#maneuverability) section, for details on the **Hardness** and **HP** statistics.
 
 A **chariot** requires a single horse, generally a warhorse, to pull it. Both **coaches** and** wagons** require at least a pair of draft horses to pull them.
 
@@ -61,8 +61,7 @@ The **longship** commonly used by northern raiders is very similar to the larg
 
 ## Siege Engines
 
-These are weapons used to attack strongholds, or sometimes ships. Their cost may be up to twice as high in a remote location. A siege engine that throws missiles (a ballista, onager or trebuchet) must have a trained artillerist to fire it; this is the character who makes the attack rolls for the weapon. Missile-throwing engines have attack penalties, detailed below. Note: siege engines are not generally usable against individuals or monsters; the GM may make exceptions for very large monsters like giants or dragons.
-
+These are weapons used to attack strongholds, or sometimes ships. Their cost may be up to twice as high in a remote location. A siege engine that throws missiles (a ballista, onager or trebuchet) must have a trained artillerist to fire it; this is the character who makes the attack rolls for the weapon. Missile-throwing engines have attack penalties, detailed below. Note: siege engines are not generally usable against individuals or monsters; the GM may make exceptions for very large monsters like giants or dragons. Review the rules in the [Stronghold](gm02.qmd#strongholds) section for details regarding attacking fortified buildings such as castles, towers, fortresses, and so on.
 
 ::: {.column-screen-inset-right}
 
@@ -71,6 +70,8 @@ These are weapons used to attack strongholds, or sometimes ships. Their cost may
 | Ballista | 100 gp | 1/4 | -3 | 2d8 | 50' | 100' | 150' |
 | Battering Ram | 200 gp | 1/3 | +0 | 2d8 | N/A | N/A | N/A |
 | Onager | 300 gp | 1/6 | -6 | 2d12 | 100' | 200' | 300' |
+| Screw | 200 gp | N/A |  N/A | 1d8  | N/A | N/A | N/A |
+| Sow | 100 gp | N/A | N/A | N/A | N/A | N/A | N/A |
 | Trebuchet | 400 gp | 1/10 | -8 | 3d10 | N/A | 300' | 400' |
 
 ::: 
@@ -80,6 +81,10 @@ These are weapons used to attack strongholds, or sometimes ships. Their cost may
 **Battering Ram:** These are usually operated under a sow (a sort of portable roof). They require a crew of eight or more.
 
 **Onager:** This weapon throws a stone with a fairly flat trajectory. An onager requires a crew of four to operate.
+
+**Screw**: This device may be used to attack a stronghold, by means of boring through the walls. A crew of at least eight is required to operate it. It is only used at the base of a wall, and it is usually operated under a sow. 
+
+**Sow**: This is a kind of portable roof, used for protection while performing slower attacks on a fortified building. Those under a sow will be harder to hit, receiving at least a +6 bonus to Armor Class against ranged attacks while taking cover under it. The sow itself has a hardness of 9 and 50 hit points. 
 
 **Trebuchet:** This mighty weapon uses a counterweight to fling a stone on a high, arcing path. It cannot fire at targets within 200 yards. If it is aimed at a target that is more than 20' higher than the weapon, there is an additional --2 attack penalty. A trebuchet requires a crew of eight to operate.
 

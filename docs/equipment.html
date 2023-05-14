@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -60,6 +94,8 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
 
 
@@ -373,6 +409,26 @@ ul.task-list li input[type="checkbox"] {
 <p>1 silver piece (sp)= 10 copper pieces (cp)</p>
 <p>For game purposes, assume that one gold piece weighs 1/10<sup>th</sup>&nbsp;of a pound, and that five coins will “fit” in a cubic inch of storage space (this isn’t literally accurate, but works well enough when applied to a box or chest).</p>
 <p>First level characters generally begin the game with 3d6 x 10 gp (unless the GM decides otherwise).</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="20" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 19;"><span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { generalDice } <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>viewof goldRoll <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll Starting Gold"</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> (<span class="dv">10</span> <span class="op">*</span> <span class="fu">generalDice</span>(<span class="dv">3</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<p><strong>Starting Gold</strong>: <span><span id="ojs-element-id-1"></span></span></p>
 </section>
 <section id="misc.-equipment" class="level2">
 <h2 class="anchored" data-anchor-id="misc.-equipment">Misc. Equipment</h2>
@@ -625,7 +681,7 @@ ul.task-list li input[type="checkbox"] {
 <p>A&nbsp;<strong>Backpack</strong>&nbsp;will hold a maximum 40 pounds or 3 cubic feet of goods. Some items may be lashed to the outside, and thus count toward the weight limit but not the volume limit. A Halfling’s backpack holds at most 30 pounds and/or 1½ cubic feet, but costs the same as a full-sized item.</p>
 <p>A&nbsp;<strong>Candle</strong>&nbsp;will shed light over a 5’ radius, with dim light extending 5’ further. A normal candle will burn about 3 turns per inch of height.</p>
 <p><strong>Chalk</strong>&nbsp;is useful for “blazing a trail” through a dungeon or ruin.</p>
-<p><strong>Holy Water</strong>&nbsp;is explained in the&nbsp;<strong>Encounter</strong>&nbsp;section.</p>
+<p><strong>Holy Water</strong>&nbsp;is explained in the&nbsp;<a href="./combat.html#holy-water">Encounter&nbsp;section</a>.</p>
 <p><strong>Iron Spikes</strong>&nbsp;are useful for spiking doors closed (or spiking them open) and may be used as crude pitons in appropriate situations.</p>
 <p>A&nbsp;<strong>Lantern</strong>&nbsp;will provide light covering a 30’ radius; dim light will extend about 20’ further. A lantern will consume a flask of oil in 18+1d6 turns. A&nbsp;<strong>Hooded Lantern</strong>&nbsp;allows the light to be hidden or revealed as the user pleases; in all other ways it performs as an ordinary lantern. A&nbsp;<strong>Bullseye Lantern</strong>&nbsp;projects a cone of light 30’ long and 30’ wide at the widest point, with dim light extending an additional 20’ beyond that point. This type of lantern is generally hooded.</p>
 <p>A&nbsp;<strong>Map or Scroll Case</strong>&nbsp;is a tubular oiled leather case used to carry maps, scrolls, or other paper items. The case will have a water-resistant (but not waterproof) cap which slides over the end, and a loop to allow the case to be hung from a belt or bandolier. A standard scroll case can hold up to 10 sheets of paper, or a single scroll of up to seven spells.</p>
@@ -708,7 +764,7 @@ ul.task-list li input[type="checkbox"] {
 <td>1d6</td>
 </tr>
 <tr class="even">
-<td>Silver† Shortbow Arrow</td>
+<td>Silver<sup>†</sup> Shortbow Arrow</td>
 <td>2 gp</td>
 <td></td>
 <td>*</td>
@@ -729,7 +785,7 @@ ul.task-list li input[type="checkbox"] {
 <td>1d8</td>
 </tr>
 <tr class="odd">
-<td>Silver† Longbow Arrow</td>
+<td>Silver<sup>†</sup> Longbow Arrow</td>
 <td>4 gp</td>
 <td></td>
 <td>*</td>
@@ -750,7 +806,7 @@ ul.task-list li input[type="checkbox"] {
 <td>1d6</td>
 </tr>
 <tr class="even">
-<td>Silver† Light Quarrel</td>
+<td>Silver<sup>†</sup> Light Quarrel</td>
 <td>5 gp</td>
 <td></td>
 <td>*</td>
@@ -771,7 +827,7 @@ ul.task-list li input[type="checkbox"] {
 <td>1d8</td>
 </tr>
 <tr class="odd">
-<td>Silver† Heavy Quarrel</td>
+<td>Silver<sup>†</sup> Heavy Quarrel</td>
 <td>10 gp</td>
 <td></td>
 <td>*</td>
@@ -792,7 +848,7 @@ ul.task-list li input[type="checkbox"] {
 <td>1d4</td>
 </tr>
 <tr class="even">
-<td>Silver† Dagger</td>
+<td>Silver<sup>†</sup> Dagger</td>
 <td>25 gp</td>
 <td>S</td>
 <td>1</td>
@@ -939,7 +995,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="weapon-size" class="level2">
 <h2 class="anchored" data-anchor-id="weapon-size">Weapon Size</h2>
-<p>Humans and Elves must wield Large weapons with both hands, but may use Small or Medium weapons in one hand. Halflings may not use Large weapons at all, and must use Medium weapons with both hands. Dwarves, due to their stocky, powerful builds, are able to use Medium weapons one-handed and some Large weapons in two hands, but Large weapons more than four feet in length are prohibited (specifically, two-handed swords, polearms, and longbows). Some weapons must be used with both hands by design (such as bows and crossbows) but the maximum size limits still apply.</p>
+<p><a href="./races.html#humans">Humans</a> and <a href="./races.html#elves">Elves</a> must wield Large weapons with both hands, but may use Small or Medium weapons in one hand. <a href="./races.html#halflings">Halflings</a> may not use Large weapons at all, and must use Medium weapons with both hands. <a href="./races.html#dwarves">Dwarves</a>, due to their stocky, powerful builds, are able to use Medium weapons one-handed and some Large weapons in two hands, but Large weapons more than four feet in length are prohibited (specifically, two-handed swords, polearms, and longbows). Some weapons must be used with both hands by design (such as bows and crossbows) but the maximum size limits still apply.</p>
 <p>The GM should apply similar limitations to weapon-armed monsters; for instance, kobolds and goblins are similar in size to Halflings, and thus should have similar weapon limits.</p>
 </section>
 <section id="missile-weapon-ranges" class="level2">
@@ -1065,7 +1121,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="beasts-of-burden" class="level2">
 <h2 class="anchored" data-anchor-id="beasts-of-burden">Beasts of Burden</h2>
-<p>Note: Statistics for the animals below are on Chapter TODO.</p>
+<p>Note: Statistics for the animals below are <a href="./monsters.html#beasts-of-burden">here</a>.</p>
 <table class="table">
 <thead>
 <tr class="header">
@@ -1102,9 +1158,25 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="section"></h2>
 
 
+<script type="ojs-module-contents">
+{"contents":[
+  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${goldRoll}</span>`", "cellName":"ojs-element-id-1"}
+]}
+</script>
 </section>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"import { generalDice } from \"./custom.js\"\r\n\r\nviewof goldRoll = Inputs.button(\"Roll Starting Gold\", {value: 0, reduce: () => (10 * generalDice(3,6,0))})\r\n"},{"methodName":"interpretQuiet","source":"shinyInput('goldRoll')"}]}
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

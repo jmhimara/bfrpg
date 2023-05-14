@@ -1,6 +1,6 @@
 # Dungeon Adventures
 
-### Time and Scale 
+### Time and Scale
 
 Time in the dungeon is measured in **game turns**, which are (approximately) 10 minutes long. When combat begins, the time scale changes to **combat rounds**, which are (approximately) 10 seconds long. Thus, there are 60 combat rounds per game turn.
 
@@ -13,11 +13,11 @@ Normal Human, Elven and Dwarvish player characters are able to carry up to 60 po
 
 These figures are affected by Strength; each +1 of Strength bonus adds 10% to the capacity of the character, while each -1 deducts 20%. Thus, carrying capacities for normal characters are as shown below (rounded to the nearest 5 pounds for convenience):
 
-+------------------------------------+------------+-------------+
-|   Dwarf,   Elf,       Human        | Halfling                 |
++:----------------------------------:+:------------------------:+
+|   Dwarf,  Elf, Human               | Halfling                 |
 +----------+------------+------------+------------+-------------+
 | Strength | Light Load | Heavy Load | Light Load | Heavy Load  |
-+:=========+============+===========:+============+=============+
++:=========+:==========:+:==========:+:==========:+:===========:+
 | 3        | 25         |  60        |20          |  40         |
 +----------+------------+------------+------------+-------------+
 | 4-5      | 35         | 90         | 30         | 60          |
@@ -33,7 +33,7 @@ These figures are affected by Strength; each +1 of Strength bonus adds 10% to th
 | 18       | 80         | 195        | 65         | 130         |
 +----------+------------+------------+------------+-------------+
 
-The carrying capacities of various domesticated animals are given in the **Monsters** section, in the entry for each type of animal.
+The carrying capacities of various domesticated animals are given in the [Monsters section](monsters.qmd#beasts-of-burden).
 
 ### Movement and Encumbrance
 
@@ -59,25 +59,43 @@ In any dungeon expedition, making maps is important. Generally one player will d
 
 A torch or lantern will provide light covering a **30' radius**; dim light will extend about **20' further**. Normal torches burn for 1d4+4 turns, while a flask of oil in a lantern will burn for 18+1d6 turns. A candle will shed light over a 5' radius, with dim light extending 5' further. In general, taper candles such as are used for illumination will burn about 3 turns per inch of height.
 
-::: {.column-margin}
+
 ```{ojs}
+/* import {view} from '@tomlarkworthy/view' */
 import {rolld4,rolld6} from "./custom.js"
 
-viewof click1 = Inputs.button("Torch Turns", {value: 0, reduce: () => (4 + rolld4() )})
+viewof torch = Inputs.input(0)
+
+htl.html`<div style="display:grid; grid-template-columns: 50% auto; vertical-align:midle"> 
+<div>
+${Inputs.bind(Inputs.button("Torch Turns (1d4+4)", {value: 0, reduce: () => (4 + rolld4() )}), viewof torch)}
+</div><div>
+Torch burn turns = ${torch.value}</div>
+</div>
+`
+
 
 ```
-
-Torch burn turns = **${click1}**
 
 <br>
 
 ```{ojs}
-viewof click2 = Inputs.button("Oil Lantern", {value: 0, reduce: () => (18 + rolld6() )})
+
+viewof oil = Inputs.input(0)
+
+htl.html`<div style="display:grid; grid-template-columns: 50% auto; vertical-align:midle">
+${Inputs.bind(Inputs.button("Oil Lantern (1d6 + 18)", {value: 0, reduce: () => (18 + rolld6() )}), viewof oil)}
+Lantern Turns = ${oil.value}
+</div>
+`
+
+
 ```
 
-Lantern Turns = **${click2}**
 
-:::
+
+${form.select}
+
 
 ### Darkvision
 
@@ -89,34 +107,46 @@ Darkvision is totally ineffective in any light greater than moonlight.
 
 A stuck door can be opened on a roll of 1 on 1d6; add the character's Strength bonus to the range, so that a character with a bonus of +2 can open a stuck door on a roll of 1-3 on 1d6.
 
-::: {.column-margin}
-```{ojs}
-viewof clickDoors = Inputs.button(" 1d6 ", {value: 0, reduce: () => (rolld6() )})
-```
-
-1d6 result = **${clickDoors}**
-:::
-
 Locked doors can be forced by rolling the same range, but on 1d10. Metal bars can sometimes be bent on a roll of this range on 1d20.
 
-::: {.column-margin}
-```{ojs}
-import {generalDice} from "./custom.js"
-viewof clickForceDoors = Inputs.button(" Force Door ", {value: 0, reduce: () => (generalDice(1,10,0) )})
-```
-
-Force door = **${clickForceDoors}**
-
-<br>
-
-```{ojs}
-viewof clickForcebars = Inputs.button(" Dorce Bar ", {value: 0, reduce: () => (generalDice(1,20,0) )})
-```
-
-Force door = **${clickForcebars}**
-:::
-
 A careful character might choose to listen at a door before opening it. Thieves have a special ability, Listen, which should be applied if the listener is a Thief. For other characters, the GM rolls 1d6, with 1 indicating success. Sounds heard might include voices, footsteps, or any other sound the GM considers appropriate. Of course, the room beyond the door might really be silent; thus, the Game Master must make the roll, so that a roll of 1 in such a case will not give anything away to the players.
+
+
+```{ojs}
+
+import {generalDice} from "./custom.js"
+
+viewof i = Inputs.input(0)
+viewof j = Inputs.input(0)
+viewof k = Inputs.input(0)
+
+
+viewof form = Inputs.form(
+  {
+    doors: Inputs.bind(Inputs.button(" 1d6 ", {value: 1, reduce: () => (rolld6() )}), viewof i),
+    forceBars: Inputs.bind(Inputs.button(" Force Bar ", {value: 0, reduce: () => (generalDice(1,20,0) )}), viewof j),
+    forceDoor: Inputs.bind(Inputs.button(" Force Door ", {value: 0, reduce: () => (generalDice(1,10,0) )}), viewof k),
+  },
+  {
+    template: (formParts) => htl.html`
+     <div>
+       <div style="
+         display: grid;
+         grid-template-columns: 50% auto; 
+         vertical-align:midle;
+         row-gap: 10px;
+       ">
+         ${Object.values(formParts)[0]} 1d6 result: ${i.value}
+         ${Object.values(formParts)[1]} Force Bar: ${j.value}
+         ${Object.values(formParts)[2]} Force Door: ${k.value}
+
+       </div>
+     </div>`
+  }
+)
+```
+
+
 
 ### Traps
 
@@ -132,7 +162,9 @@ Under normal conditions, searching for secret doors takes one turn per character
 
 Multiple characters searching for secret doors ensures that any such will eventually be found; however, if the first and second searchers fail, the next searcher must take two turns to search, and all subsequent searches of the area require an hour.
 
-Note that finding a secret door does not grant understanding of how it works. The GM
+Note that finding a secret door does not grant understanding of how it works. The GM may require
+additional rolls or other actions to be taken before the
+door can be opened.
 
 ### Dungeon Survival
 

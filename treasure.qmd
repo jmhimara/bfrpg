@@ -86,6 +86,8 @@ If you are a novice Game Master, remember that you can always give more treasure
 
 ::: {.column-screen-inset-right}
 
+::: {#unguarded-treasure}
+
 | **Level** | **100's of** **Copper**  | **100's of** **Silver**  | **100's of** **Electrum**  | **100's of** **Gold**  | **100's of** **Platinum**  | **Gems and** **Jewelry**  | **Magic Items** |
 |---|---|---|---|---|---|---|---|
 | 1 | 75%1d8 | 50%1d6 | 25%1d4 | 7%1d4 | 1%1d4 | 7%1d4, 3%1d4 | 2%Any 1 |
@@ -95,6 +97,7 @@ If you are a novice Game Master, remember that you can always give more treasure
 | 6-7 | 15%4d6 | 50%3d6 | 25%1d12 | 70%2d8 | 15%1d4 | 30%1d8, 15%1d6 | 16%Any 1 |
 | 8+ | 10%5d6 | 50%5d6 | 25%2d8 | 75%4d6 | 30%1d4 | 40%1d8, 30%1d8 | 20%Any 1 |
 
+:::
 ::: 
 
 Note: Unguarded treasures should be rare; see the **Game Master** section, below, for advice on placement of unguarded treasure.
@@ -102,6 +105,16 @@ Note: Unguarded treasures should be rare; see the **Game Master** section, bel
 ### Gems and Jewelry
 
 Use the tables below to determine the base value and number found when gems are indicated in a treasure hoard. If the number generated in the main table above is small, roll for each gem; but if the number is large (10 or more, at the GM's option), after each roll for Type and Base Value, roll the indicated die to see how many such gems are in the hoard.
+
+```{ojs}
+
+import {highlightTableRow, treasureGeMTable} from "./custom.js"
+
+viewof gemJewel = Inputs.button("Roll on Table", {value: 0, reduce: () => highlightTableRow("#gem-jewelry", treasureGeMTable())})
+
+```
+
+::: {#gem-jewelry}
 
 | **d%** | **Type** | **Base Value** **in Gold Pieces** | **Number** **Found** |
 |---|----|---|----|
@@ -112,7 +125,20 @@ Use the tables below to determine the base value and number found when gems are 
 | 96-00 | Gem | 1000 | 1d2 |
 |  | Jewel | 5000 | 1 |
 
+::: 
+
 The values of gems vary from the above for reasons of quality, size, etc. The GM may use the table below to adjust the values of the gems in the hoard, at his or her option. This is why there is no die result given in the table above for Jewel; on a roll of 12 on the table below, a Gem can become a Jewel.
+
+
+```{ojs}
+
+import {treasureGeMTable2} from "./custom.js"
+
+viewof gemJewel2 = Inputs.button("Roll on Table", {value: 0, reduce: () => highlightTableRow("#gem-jewelry-2", treasureGeMTable2())})
+
+```
+
+::: {#gem-jewelry-2}
 
 | **2d6** | **Value Adjustment** |
 |---|----|
@@ -124,34 +150,65 @@ The values of gems vary from the above for reasons of quality, size, etc. The GM
 | 11 | 2 Times |
 | 12 | Next Higher Value Row  |
 
-| **d%** | **Gem Type**  | **d%** | **Gem Type** |
-|---|----|---|----|
-| 01-10 | Greenstone |  66-70 | Topaz |
-| 11-20 | Malachite |  71-75 | Bloodstone |
-| 21-28 | Aventurine |  76-79 | Sapphire |
-| 29-38 | Phenalope |  80-89 | Diamond |
-| 39-45 | Amethyst |  90-94 | Fire Opal |
-| 46-54 | Fluorospar |  95-97 | Ruby |
-| 55-60 | Garnet |  98-00 | Emerald |
-| 61-65 | Alexandrite |   |  |
+::: 
+
+```{ojs}
+
+import {treasureGeMTable3} from "./custom.js"
+
+viewof gemJewel3 = Inputs.button("Roll on Table", {value: 0, reduce: () => highlightTableRow("#gem-jewelry-3", treasureGeMTable3())})
+
+```
+
+::: {#gem-jewelry-3}
+
+| **d%** | **Gem Type**  |
+|---|----|
+| 01-10 | Greenstone  
+| 11-20 | Malachite   
+| 21-28 | Aventurine  
+| 29-38 | Phenalope   
+| 39-45 | Amethyst    
+| 46-54 | Fluorospar  
+| 55-60 | Garnet      
+| 61-65 | Alexandrite 
+|  66-70 | Topaz |
+|  71-75 | Bloodstone |
+|  76-79 | Sapphire |
+|  80-89 | Diamond |
+|  90-94 | Fire Opal |
+|  95-97 | Ruby |
+|  98-00 | Emerald |
+|  
+
+:::
 
 Standard items of jewelry are valued at 2d8x100 gp value. The table below can be used to generate descriptions of the items themselves.
 
+```{ojs}
+
+import {treasureGeMTable4, highlightTableCell} from "./custom.js"
+
+viewof gemJewel4 = Inputs.button("Roll on Table", {value: 0, reduce: () => {var temp = treasureGeMTable4(); highlightTableCell("#gem-jewelry-4", temp[0], temp[1])}})
+
+```
+
+::: {#gem-jewelry-4}
 
 | **d%** | **Type** |  **d%** | **Type** |
 |---|----|---|----|
-| 01-06 | Anklet |  56-62 | Earring |
-| 07-12 | Belt |  63-65 | Flagon |
-| 13-14 | Bowl |  66-68 | Goblet |
-| 15-21 | Bracelet  | 69-73 | Knife |
-| 22-27 | Brooch |  74-77 | Letter Opener |
-| 28-32 | Buckle |  78-80 | Locket |
-| 33-37 | Chain |  81-82 | Medal |
-| 38-40 | Choker |  83-89 | Necklace |
+| 01-06 | Anklet  |  56-62 | Earring |
+| 07-12 | Belt    |  63-65 | Flagon |
+| 13-14 | Bowl    |  66-68 | Goblet |
+| 15-21 | Bracelet | 69-73 | Knife |
+| 22-27 | Brooch  |  74-77 | Letter Opener |
+| 28-32 | Buckle  |  78-80 | Locket |
+| 33-37 | Chain   |  81-82 | Medal |
+| 38-40 | Choker  |  83-89 | Necklace |
 | 41-42 | Circlet |  90 | Plate |
-| 43-47 | Clasp |  91-95 | Pin |
-| 48-51 | Comb |  96 | Sceptre |
-| 52 | Crown |  97-99 | Statuette |
-| 53-55 | Cup |  00 | Tiara
+| 43-47 | Clasp   |  91-95 | Pin |
+| 48-51 | Comb    |  96 | Sceptre |
+| 52 | Crown      |  97-99 | Statuette |
+| 53-55 | Cup     |  00 | Tiara |
 
- |
+:::

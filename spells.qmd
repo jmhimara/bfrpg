@@ -2,7 +2,7 @@
 title: "Spells"
 ---
 
-The number of spells of each level which a Cleric or Magic-User may cast per day is shown on the appropriate table in the **Characters** section, above. Each day, usually in the morning, spellcasters prepare spells to replace those they have used. Clerics do this through prayer, while Magic-Users must study their spellbooks. Spells prepared but not used persist from day to day; only those actually cast must be replaced. A spellcaster may always choose to dismiss a prepared spell (without casting it) in order to prepare a different spell of that level.
+The number of spells of each level which a Cleric or Magic-User may cast per day is shown on the appropriate table in the [Classes](class.qmd#character-classes) section. Each day, usually in the morning, spellcasters prepare spells to replace those they have used. Clerics do this through prayer, while Magic-Users must study their spellbooks. Spells prepared but not used persist from day to day; only those actually cast must be replaced. A spellcaster may always choose to dismiss a prepared spell (without casting it) in order to prepare a different spell of that level.
 
 Spellcasters must have at least one hand free, and be able to speak, in order to cast spells; thus, binding and gagging a spellcaster is an effective means of preventing him or her from casting spells. In combat, casting a spell usually takes the same time as making an attack. If a spellcaster is attacked (even if not hit) or must make a saving throw (whether successful or not) on the Initiative number on which he or she is casting a spell, the spell is spoiled and lost. As a specific exception, two spell casters releasing their spells at each other on the same Initiative number will both succeed in their casting; one caster may disrupt another with a spell only if he or she has a better Initiative, and chooses to delay casting the spell until *right before* the other caster.
 
@@ -113,7 +113,7 @@ Reversed, this spell becomes **protection from good**. It functions in all ways
 
 ::: {.callout-note icon=false collapse=true}
 
-## Purify Food and Water*
+## Purify Food and Water
 
 Cleric 1
 
@@ -1133,22 +1133,6 @@ By means of this spell the caster is able to see invisible characters, creatures
 
 ::: {.callout-note icon=false collapse=true}
  
-## ESP
- 
-Range: 60'
-
-Magic User 2
-
-Duration: 1 turn/level
-
-This spell permits the caster to detect the surface thoughts of one or more targets within range. The caster must designate a direction, and then concentrate for a turn in order to “hear” the thoughts. Each turn the caster may choose to “listen” in a different direction. The caster may stop listening, then resume again later, so long as the duration has not expired. The target creature is not normally aware of being spied upon in this way.
-
-Rock more than 2 inches thick or a thin coating of lead or gold will block the spell. All undead creatures are immune to this effect, as are mindless creatures such as golems.
-
-:::
-
-::: {.callout-note icon=false collapse=true}
- 
 ## Invisibility
  
 Range: touch
@@ -1208,6 +1192,24 @@ Duration: 1 round/level
 This spell allows the caster to sense the direction of a well-known or clearly visualized object. He or she can search for general items, in which case the nearest one of its kind is located if more than one is within range. The caster cannot specify a unique item unless he or she has observed that particular item firsthand (not merely through divination such as **clairvoyance** or a **crystal ball**). The spell is blocked by even a thin sheet of lead or gold. Creatures cannot be found by this spell.
 
 :::
+
+::: {.callout-note icon=false collapse=true}
+ 
+## Mind Reading
+ 
+Range: 60'
+
+Magic User 2
+
+Duration: 1 turn/level
+
+This spell, sometimes incorrectly called ESP, permits the caster to hear (and possibly see, if the target
+visualizes anything) the surface thoughts of one or more living creatures within range. The caster must designate a direction or select a visible target, and then concentrate for a turn in order to "hear" the thoughts. Each turn the caster may choose to "listen" in a different direction. The caster may stop listening, then resume again later, so long as the duration has not expired. The target creature is not normally aware of being spied upon in this way, though any creature already under the effect of this spell or any similar form of telepathy will instantly know and be able to sense the direction of the caster.
+
+Rock more than 2 inches thick or a thin coating of lead or gold will block the spell. All undead creatures are immune to this effect, as are mindless creatures such as golems.
+
+:::
+
 
 ::: {.callout-note icon=false collapse=true}
  

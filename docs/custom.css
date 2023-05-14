@@ -28,3 +28,11 @@ thead {
     display: block;
     margin: auto;
 }
+
+.myHighlighted {
+  background-color: rgb(135, 179, 154);
+}
+
+.myHighlightedCell {
+  background-color: rgb(135, 179, 154) !important;
+}

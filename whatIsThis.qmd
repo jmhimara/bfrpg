@@ -35,12 +35,12 @@ This game attempts to walk the line between simple and complex, free-form and de
 If you are to be a player, you should have a pencil, some notebook paper, and a set of dice.  Someone in your player group probably needs to have some graph paper (4 or 5 squares per inch is best) for drawing maps.  You can use preprinted character sheets (such as those available on the Basic Fantasy RPG website) if you wish, but notebook paper works fine.
 
 
+If you are the Game Master, you need all of the above. If this is your first time as GM, or you have limited preparation time, you might wish to use a pre-written adventure (called a module) rather than create one yourself.  Several modules are distributed for free on the [basicfantasy.org](https://www.basicfantasy.org/) website; many of the modules available on the website are specifically designed for use with a party of new players.  Adventure modules written for other game systems may also be used, but the Game Master may need to spend some time "converting" such a module before beginning play.
+
+<!-- 
 ::: {.column-margin}
 ![](./images/d20.jpg){width=50%}
 :::
-
-
-If you are the Game Master, you need all of the above. If this is your first time as GM, or you have limited preparation time, you might wish to use a pre-written adventure (called a module) rather than create one yourself.  Several modules are distributed for free on the [basicfantasy.org](https://www.basicfantasy.org/) website; many of the modules available on the website are specifically designed for use with a party of new players.  Adventure modules written for other game systems may also be used, but the Game Master may need to spend some time "converting" such a module before beginning play.
 
 ::: {.column-margin}
 ![](./images/d10.jpg){width=50%}
@@ -59,7 +59,7 @@ If you are the Game Master, you need all of the above. If this is your first tim
 
 ![](./images/d12.jpg){width=50%}
 
-:::
+::: -->
 
 # Using the Dice
 

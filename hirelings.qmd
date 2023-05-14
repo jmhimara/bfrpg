@@ -10,6 +10,16 @@ Hiring a retainer is more involved than hiring other NPCs. First, the player cha
 
 If the player character is successful, one or more NPCs will present themselves to be interviewed. The Game Master should play out the interview with the player, and after all offers have been made and all questions asked, a reaction roll should be made. To check the potential retainer's reaction, the Game Master rolls 2d6 and adds the player character's Charisma bonus. In addition, the Game Master may apply any adjustments he or she feels are appropriate (a bonus of +1 for higher-than-average pay or the offer of a magic item such as a **sword +1**, or a penalty if the player character offers poor terms). The roll is read as follows:
 
+```{ojs}
+
+import {generalTableSelect2, highlightTableRowRet} from "./custom.js"
+
+viewof reaction = Inputs.button("Roll on Table", {value: 0, reduce: () => highlightTableRowRet("#reaction-roll", generalTableSelect2([2,6,0],[[2,2],[3,5],[6,8],[9,11],[12,12]]))})
+md`2d6: ${reaction}`
+```
+
+:::{#reaction-roll}
+
 | **Adjusted Die Roll** | **Result** |
 |---|---|
 | 2 or less | Refusal, -1 on further rolls |
@@ -17,6 +27,8 @@ If the player character is successful, one or more NPCs will present themselves 
 | 6-8 | Try again |
 | 9-11 | Acceptance |
 | 12 or more | Acceptance, +1 to Loyalty |
+
+:::
 
 **Refusal, -1 on further rolls** means that all further reaction rolls made toward that player character in the given town or region will be at a penalty of -1 due to unkind words said by the NPC to his fellows. If the player character tries again in a different town, the penalty does not apply.
 
@@ -32,7 +44,7 @@ In addition, the Game Master should roll a Loyalty check for each retainer at th
 
 **Level of Retainers:** Normally, potential retainers will be one-half the level of the employer (or less). So, a first level character cannot hire retainers, second level PCs can only hire first level characters, and so on. Of course, there is no way for the retainers to directly know the level of the PC employer, nor for the employer to know the level of the potential retainer; but the Game Master should usually enforce this rule for purposes of game balance. It shouldn't be surprising that first level characters can't hire retainers, as they have no reputation to speak of yet.
 
-**Experience for Retainers:** Unlike other hired NPCs, retainers do gain experience just as other adventurers do; however, as they are under the command of a player character, only one-half of a share of XP is allocated to each retainer. See **Character Advancement**, below, for an example.
+**Experience for Retainers:** Unlike other hired NPCs, retainers do gain experience just as other adventurers do; however, as they are under the command of a player character, only one-half of a share of XP is allocated to each retainer. See [Character Advancement](advancement.qmd#advancement).
 
 ### Specialists
 
@@ -42,7 +54,7 @@ A player character is limited in the number of specialists he or she can hire on
 
 **Alchemist:** *1,000 gp per month.*These characters are generally hired for one of two reasons: to make potions, or to assist a Magic-User with magical research.
 
-An alchemist can produce a potion, given the required materials and a sample or a written formula for the potion, in the same time and for the same cost as a Magic-User. They may also research new potions, but at twice the cost in time and materials as a Magic-User.
+An alchemist can produce a potion, given the required materials and a sample or a written formula for the potion, in the same time and for the same cost as a Magic-User. They may also research new potions, but at twice the cost in time and materials as a Magic-User. Review the rules for [Magical Research](gm01.qmd#magical-research) for details.
 
 Alternately, a Magic-User seeking to create certain magic items may employ an alchemist as an assistant. In this case, the alchemist adds 15% to the Magic-User's chance of success.
 
@@ -80,3 +92,28 @@ Mercenaries will virtually never go into a dungeon, lair, or ruin, at least unti
 Mercenaries housed in a player character's stronghold require 200 square feet each but cost 25% less per month, as this is covered by their room and board. (Elven mercenaries, however, require 500 square feet of space each in order to reduce their pay, as they demand better living conditions.) See the **Stronghold** section for more details.
 
 Statistics are given below for the most common sorts of mercenaries; the statistics are for first level characters, and should be adjusted when higher level characters are indicated (as given above). In particular, multiply the given cost of each mercenary by his or her level. Listed costs are in gold pieces per month.
+
+:::{.column-page-right}
+
+| Type of Mercenary      | Cost | Equipment                                     | Morale    |  
+|------------------------|:----:|:----------------------------------------------|:---------:|
+| Light Foot, Human      | 2    | Leather Armor, Shield, and Longsword          | 8         |
+| Light Foot, Elf        | 8    | Leather Armor, Shield, and Longsword          | 8         |
+| Light Foot, Orc        | 1    | Leather Armor and Spear                       | 7         |
+| Heavy Foot, Human      | 3    | Chainmail, Shield, and Longsword              | 8         |
+| Heavy Foot, Dwarf      | 6    | Chainmail, Shield, and Shortsword             | 9         |
+| Heavy Foot, Orc        | 2    | Chainmail, Shield, and Shortsword             | 8         |
+| Archer, Human          | 5    | Leather Armor, Shortbow, and Shortsword       | 8         |
+| Archer, Elf            | 15   | Chainmail, Shortbow, and Shortsword           | 8         |
+| Archer, Orc            | 3    | Leather Armor, Shortbow, and Shortsword       | 8         |
+| Crossbowman, Human     | 5    | Chainmail, Crossbow, and Shortsword           | 8         |
+| Crossbowman, Dwarf     | 12   | Platemail, Crossbow, and Shortsword           | 9         |
+| Longbowman, Human      | 9    | Chainmail, Longbow, and Shortsword            | 8         |
+| Longbowman, Elf        | 20   | Chainmail, Longbow, and Longsword             | 8         |
+| Light Horseman, Human  | 10   | Leather Armor, Shield, Lance, and Longsword   | 8         |
+| Light Horseman, Elf    | 22   | Leather Armor, Lance, Shortbow, and Longsword | 8         |
+| Medium Horseman, Human | 15   | Chainmail, Shield, Lance, and Longsword       | 8         |
+| Medium Horseman, Elf   | 33   | Chainmail, Lance, Shortbow, and Longsword     | 9         |
+| Heavy Horseman, Human  | 20   | Platemail, Shield, Lance, and Longsword       | 8         |
+
+::: 

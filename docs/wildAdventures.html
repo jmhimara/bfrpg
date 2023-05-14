@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -60,6 +94,8 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
 
 
@@ -332,9 +368,9 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#wilderness-movement-rates" id="toc-wilderness-movement-rates" class="nav-link active" data-scroll-target="#wilderness-movement-rates">Wilderness Movement Rates</a></li>
   <li><a href="#overland-travel" id="toc-overland-travel" class="nav-link" data-scroll-target="#overland-travel">Overland Travel</a></li>
+  <li><a href="#becoming-lost" id="toc-becoming-lost" class="nav-link" data-scroll-target="#becoming-lost">Becoming Lost</a></li>
   <li><a href="#waterborne-travel" id="toc-waterborne-travel" class="nav-link" data-scroll-target="#waterborne-travel">Waterborne Travel</a></li>
   <li><a href="#traveling-by-air" id="toc-traveling-by-air" class="nav-link" data-scroll-target="#traveling-by-air">Traveling by Air</a></li>
-  <li><a href="#becoming-lost" id="toc-becoming-lost" class="nav-link" data-scroll-target="#becoming-lost">Becoming Lost</a></li>
   </ul>
 </nav>
     </div>
@@ -452,10 +488,34 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <p>Characters may choose to perform a&nbsp;<strong>forced march</strong>, traveling 12 hours per day. If this is done, add an additional 50% to the distance traveled. Each day of forced march performed after the first inflicts 1d6 damage on the characters (and their animals, if any). A save vs.&nbsp;Death Ray with Constitution bonus applied is allowed to avoid this damage, but after this save is failed once, it is not rolled again for that character or creature. A day spent resting “restarts” the progression.</p>
 </section>
+<section id="becoming-lost" class="level3">
+<h3 class="anchored" data-anchor-id="becoming-lost">Becoming Lost</h3>
+<p>Though adventurers following roads, rivers, or other obvious landmarks are unlikely to become lost, striking out into trackless forest, windblown desert, and so on is another matter. Secretly roll a save vs.&nbsp;Death Ray, adjusted by the Wisdom of the party leader (i.e., whichever character seems to be leading). An Ability Roll against Wisdom may be rolled, if that optional rule is in use. The GM must determine the effects of failure</p>
+</section>
 <section id="waterborne-travel" class="level3">
 <h3 class="anchored" data-anchor-id="waterborne-travel">Waterborne Travel</h3>
-<p>Travel by water may be done in a variety of boats or ships; see the table in the&nbsp;<strong>Vehicles</strong>&nbsp;section for details. Travel distances are based on a 12 hour day of travel, rather than the usual 8 hours per day given above. Note that sailed ships may travel 24 hours per day (if a qualified navigator is aboard), and so may be able to cover twice the normal distance per day of travel. This is in addition to the multiplier given below. If the ship stops each night, as is done by some vessels traveling along a coastline as well as those vessels having less than the minimum number of regular crewmen on board, the two-times multiplier does not apply.</p>
+<p>Travel by water may be done in a variety of boats or ships; see the table in the&nbsp;<a href="./vehicles.html#water-transportation">Vehicles</a>&nbsp;section for details. Travel distances are based on a 12 hour day of travel, rather than the usual 8 hours per day given above. Note that sailed ships may travel 24 hours per day (if a qualified navigator is aboard), and so may be able to cover twice the normal distance per day of travel. This is in addition to the multiplier given below. If the ship stops each night, as is done by some vessels traveling along a coastline as well as those vessels having less than the minimum number of regular crewmen on board, the two-times multiplier does not apply.</p>
 <p>Movement of sailed ships varies depending on weather conditions, as shown on the following table.&nbsp;<strong>Sailing</strong>&nbsp;movement modifiers shown apply when sailing with the wind; sailing against the wind involves&nbsp;<strong>tacking</strong>&nbsp;(called “zigzagging” by landlubbers) which reduces movement rates as indicated on the table.</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="56" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 55;"><span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {generalTableSelect<span class="op">,</span> highlightTableRow} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#wind-direction"</span><span class="op">,</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">12</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">1</span>]<span class="op">,</span>[<span class="dv">2</span><span class="op">,</span><span class="dv">2</span>]<span class="op">,</span>[<span class="dv">3</span><span class="op">,</span><span class="dv">3</span>]<span class="op">,</span>[<span class="dv">4</span><span class="op">,</span><span class="dv">4</span>]<span class="op">,</span>[<span class="dv">5</span><span class="op">,</span><span class="dv">5</span>]<span class="op">,</span>[<span class="dv">6</span><span class="op">,</span><span class="dv">6</span>]<span class="op">,</span>[<span class="dv">7</span><span class="op">,</span><span class="dv">7</span>]<span class="op">,</span>[<span class="dv">8</span><span class="op">,</span><span class="dv">8</span>]<span class="op">,</span>[<span class="dv">9</span><span class="op">,</span><span class="dv">12</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<div id="wind-direction">
 <table class="table">
 <thead>
 <tr class="header">
@@ -502,6 +562,16 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="77" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 76;"><span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#wind-condition"</span><span class="op">,</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">5</span>]<span class="op">,</span>[<span class="dv">6</span><span class="op">,</span><span class="dv">13</span>]<span class="op">,</span>[<span class="dv">14</span><span class="op">,</span><span class="dv">25</span>]<span class="op">,</span>[<span class="dv">26</span><span class="op">,</span><span class="dv">40</span>]<span class="op">,</span>[<span class="dv">41</span><span class="op">,</span><span class="dv">70</span>]<span class="op">,</span>[<span class="dv">71</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span>[<span class="dv">86</span><span class="op">,</span><span class="dv">96</span>]<span class="op">,</span>[<span class="dv">97</span><span class="op">,</span><span class="dv">100</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div id="wind-condition">
 <table class="table">
 <thead>
 <tr class="header">
@@ -562,6 +632,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>Notes:</strong></p>
 <p><strong>Becalmed:</strong>&nbsp;Sailing ships cannot move. Oared ships may move at the given rowing movement rate.</p>
 <p><strong>Very Strong Winds:</strong>&nbsp;Sailing against the wind (tacking) is not possible.</p>
@@ -570,15 +641,23 @@ ul.task-list li input[type="checkbox"] {
 <section id="traveling-by-air" class="level3">
 <h3 class="anchored" data-anchor-id="traveling-by-air">Traveling by Air</h3>
 <p>When traveling by air, overland movement rates are doubled, and all terrain effects are ignored. Most winged creatures must maintain at least one-third normal forward movement in order to remain airborne; however, devices such as&nbsp;<strong>flying carpets</strong>&nbsp;generally do not have this limitation.</p>
-</section>
-<section id="becoming-lost" class="level3">
-<h3 class="anchored" data-anchor-id="becoming-lost">Becoming Lost</h3>
-<p>Adventurers following roads, trails, rivers, streams, or other obvious landmarks are unlikely to become lost; however, when the party strikes out into trackless forest, windblown desert, etc., they may become lost. Secretly roll a save vs.&nbsp;Death Ray, adjusted by the Wisdom of the party leader (i.e., whichever player character seems to be leading). (Alternately, an Ability Roll against Wisdom may be rolled, if that optional rule is in use.) The GM must determine the effects of a failed roll.</p>
 
 
 </section>
 
 </main> <!-- /main -->
+
+<script type="ojs-module-contents">
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\r\nimport {generalTableSelect, highlightTableRow} from \"./custom.js\"\r\n\r\nInputs.button(\"Roll on Table\", {value: 0, reduce: () => highlightTableRow(\"#wind-direction\", generalTableSelect([1,12,0],[[1,1],[2,2],[3,3],[4,4],[5,5],[6,6],[7,7],[8,8],[9,12]]))})\r\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"\r\nInputs.button(\"Roll on Table\", {value: 0, reduce: () => highlightTableRow(\"#wind-condition\", generalTableSelect([1,100,0],[[1,5],[6,13],[14,25],[26,40],[41,70],[71,85],[86,96],[97,100]]))})\r\n\r\n"}]}
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
