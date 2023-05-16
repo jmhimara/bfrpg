@@ -610,6 +610,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </table>
 </div>
 </div>
+<p>* Type H treasures are specifically dragon treasure; the chance of each type of monetary treasure ranges from 35% at the second age category to 85% at the seventh, while the odds of gems, jewelry, and magic items are 5% per hit die of the monster. Hatchlings do not usually have any treasure.</p>
 </section>
 <section id="individual-treasures" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="individual-treasures">Individual Treasures</h3>
@@ -804,15 +805,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </table>
 </div>
 </div>
-<p>Note: Unguarded treasures should be rare; see the&nbsp;<strong>Game Master</strong>&nbsp;section, below, for advice on placement of unguarded treasure.</p>
+<p>Note: Unguarded treasures should be rare; see the&nbsp;<a href="./gm01.html">Game Master</a>&nbsp;section, below, for advice on placement of unguarded treasure.</p>
 </section>
 <section id="gems-and-jewelry" class="level3">
 <h3 class="anchored" data-anchor-id="gems-and-jewelry">Gems and Jewelry</h3>
 <p>Use the tables below to determine the base value and number found when gems are indicated in a treasure hoard. If the number generated in the main table above is small, roll for each gem; but if the number is large (10 or more, at the GM’s option), after each roll for Type and Base Value, roll the indicated die to see how many such gems are in the hoard.</p>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="111" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 110;"><span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {highlightTableRow<span class="op">,</span> treasureGeMTable} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
-<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a>viewof gemJewel <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#gem-jewelry"</span><span class="op">,</span> <span class="fu">treasureGeMTable</span>())})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="115" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 114;"><span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {highlightTableRow<span class="op">,</span> treasureGeMTable} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a>viewof gemJewel <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#gem-jewelry"</span><span class="op">,</span> <span class="fu">treasureGeMTable</span>())})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-1" data-nodetype="declaration">
@@ -886,9 +887,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p>The values of gems vary from the above for reasons of quality, size, etc. The GM may use the table below to adjust the values of the gems in the hoard, at his or her option. This is why there is no die result given in the table above for Jewel; on a roll of 12 on the table below, a Gem can become a Jewel.</p>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="135" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 134;"><span id="cb2-135"><a href="#cb2-135" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {treasureGeMTable2} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
-<span id="cb2-136"><a href="#cb2-136" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-137"><a href="#cb2-137" aria-hidden="true" tabindex="-1"></a>viewof gemJewel2 <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#gem-jewelry-2"</span><span class="op">,</span> <span class="fu">treasureGeMTable2</span>())})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="139" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 138;"><span id="cb2-139"><a href="#cb2-139" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {treasureGeMTable2} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb2-140"><a href="#cb2-140" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-141"><a href="#cb2-141" aria-hidden="true" tabindex="-1"></a>viewof gemJewel2 <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#gem-jewelry-2"</span><span class="op">,</span> <span class="fu">treasureGeMTable2</span>())})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-2-1" data-nodetype="declaration">
@@ -945,9 +946,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </table>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="157" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 156;"><span id="cb3-157"><a href="#cb3-157" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {treasureGeMTable3} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
-<span id="cb3-158"><a href="#cb3-158" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-159"><a href="#cb3-159" aria-hidden="true" tabindex="-1"></a>viewof gemJewel3 <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#gem-jewelry-3"</span><span class="op">,</span> <span class="fu">treasureGeMTable3</span>())})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="161" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 160;"><span id="cb3-161"><a href="#cb3-161" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {generalTableSelect} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb3-162"><a href="#cb3-162" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-163"><a href="#cb3-163" aria-hidden="true" tabindex="-1"></a>viewof gemJewel3 <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> </span>
+<span id="cb3-164"><a href="#cb3-164" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
+<span id="cb3-165"><a href="#cb3-165" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#gem-jewelry-3"</span><span class="op">,</span> </span>
+<span id="cb3-166"><a href="#cb3-166" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">5</span>]<span class="op">,</span>[<span class="dv">6</span><span class="op">,</span><span class="dv">12</span>]<span class="op">,</span>[<span class="dv">13</span><span class="op">,</span><span class="dv">20</span>]<span class="op">,</span>[<span class="dv">21</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span>[<span class="dv">31</span><span class="op">,</span><span class="dv">40</span>]<span class="op">,</span>[<span class="dv">41</span><span class="op">,</span><span class="dv">43</span>]<span class="op">,</span>[<span class="dv">44</span><span class="op">,</span><span class="dv">48</span>]<span class="op">,</span>[<span class="dv">49</span><span class="op">,</span><span class="dv">57</span>]<span class="op">,</span>[<span class="dv">58</span><span class="op">,</span><span class="dv">63</span>]<span class="op">,</span>[<span class="dv">64</span><span class="op">,</span><span class="dv">68</span>]<span class="op">,</span>[<span class="dv">69</span><span class="op">,</span><span class="dv">78</span>]<span class="op">,</span>[<span class="dv">79</span><span class="op">,</span><span class="dv">88</span>]<span class="op">,</span>[<span class="dv">89</span><span class="op">,</span><span class="dv">91</span>]<span class="op">,</span>[<span class="dv">92</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span>[<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-3-1" data-nodetype="declaration">
@@ -967,83 +971,79 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <table class="table">
 <thead>
 <tr class="header">
-<th><strong>d%</strong></th>
-<th><strong>Gem Type</strong></th>
+<th>d%</th>
+<th>Gem Type</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>01-10</td>
-<td>Greenstone</td>
+<td>01-05</td>
+<td>Alexandrite</td>
 </tr>
 <tr class="even">
-<td>11-20</td>
-<td>Malachite</td>
+<td>06-12</td>
+<td>Amethyst</td>
 </tr>
 <tr class="odd">
-<td>21-28</td>
+<td>13-20</td>
 <td>Aventurine</td>
 </tr>
 <tr class="even">
-<td>29-38</td>
-<td>Phenalope</td>
+<td>21-30</td>
+<td>Chlorastrolite</td>
 </tr>
 <tr class="odd">
-<td>39-45</td>
-<td>Amethyst</td>
-</tr>
-<tr class="even">
-<td>46-54</td>
-<td>Fluorospar</td>
-</tr>
-<tr class="odd">
-<td>55-60</td>
-<td>Garnet</td>
-</tr>
-<tr class="even">
-<td>61-65</td>
-<td>Alexandrite</td>
-</tr>
-<tr class="odd">
-<td>66-70</td>
-<td>Topaz</td>
-</tr>
-<tr class="even">
-<td>71-75</td>
-<td>Bloodstone</td>
-</tr>
-<tr class="odd">
-<td>76-79</td>
-<td>Sapphire</td>
-</tr>
-<tr class="even">
-<td>80-89</td>
+<td>31-40</td>
 <td>Diamond</td>
 </tr>
+<tr class="even">
+<td>41-43</td>
+<td>Emerald</td>
+</tr>
 <tr class="odd">
-<td>90-94</td>
+<td>44-48</td>
 <td>Fire Opal</td>
 </tr>
 <tr class="even">
-<td>95-97</td>
-<td>Ruby</td>
+<td>49-57</td>
+<td>Fluorospar</td>
 </tr>
 <tr class="odd">
-<td>98-00</td>
-<td>Emerald</td>
+<td>58-63</td>
+<td>Garnet</td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
+<td>64-68</td>
+<td>Heliotrope</td>
+</tr>
+<tr class="odd">
+<td>69-78</td>
+<td>Malachite</td>
+</tr>
+<tr class="even">
+<td>79-88</td>
+<td>Rhodonite</td>
+</tr>
+<tr class="odd">
+<td>89-91</td>
+<td>Ruby</td>
+</tr>
+<tr class="even">
+<td>92-95</td>
+<td>Sapphire</td>
+</tr>
+<tr class="odd">
+<td>96-00</td>
+<td>Topaz</td>
 </tr>
 </tbody>
 </table>
 </div>
 <p>Standard items of jewelry are valued at 2d8x100 gp value. The table below can be used to generate descriptions of the items themselves.</p>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="190" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 189;"><span id="cb4-190"><a href="#cb4-190" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {treasureGeMTable4<span class="op">,</span> highlightTableCell} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
-<span id="cb4-191"><a href="#cb4-191" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-192"><a href="#cb4-192" aria-hidden="true" tabindex="-1"></a>viewof gemJewel4 <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {<span class="kw">var</span> temp <span class="op">=</span> <span class="fu">treasureGeMTable4</span>()<span class="op">;</span> <span class="fu">highlightTableCell</span>(<span class="st">"#gem-jewelry-4"</span><span class="op">,</span> temp[<span class="dv">0</span>]<span class="op">,</span> temp[<span class="dv">1</span>])}})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="197" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 196;"><span id="cb4-197"><a href="#cb4-197" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {treasureGeMTable4<span class="op">,</span> highlightTableCell} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb4-198"><a href="#cb4-198" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-199"><a href="#cb4-199" aria-hidden="true" tabindex="-1"></a>viewof gemJewel4 <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {<span class="kw">var</span> temp <span class="op">=</span> <span class="fu">treasureGeMTable4</span>()<span class="op">;</span> <span class="fu">highlightTableCell</span>(<span class="st">"#gem-jewelry-4"</span><span class="op">,</span> temp[<span class="dv">0</span>]<span class="op">,</span> temp[<span class="dv">1</span>])}})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-4-1" data-nodetype="declaration">
@@ -1159,7 +1159,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </main> <!-- /main -->
 
 <script type="ojs-module-contents">
-{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\r\nimport {highlightTableRow, treasureGeMTable} from \"./custom.js\"\r\n\r\nviewof gemJewel = Inputs.button(\"Roll on Table\", {value: 0, reduce: () => highlightTableRow(\"#gem-jewelry\", treasureGeMTable())})\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"\r\nimport {treasureGeMTable2} from \"./custom.js\"\r\n\r\nviewof gemJewel2 = Inputs.button(\"Roll on Table\", {value: 0, reduce: () => highlightTableRow(\"#gem-jewelry-2\", treasureGeMTable2())})\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"\r\nimport {treasureGeMTable3} from \"./custom.js\"\r\n\r\nviewof gemJewel3 = Inputs.button(\"Roll on Table\", {value: 0, reduce: () => highlightTableRow(\"#gem-jewelry-3\", treasureGeMTable3())})\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"\r\nimport {treasureGeMTable4, highlightTableCell} from \"./custom.js\"\r\n\r\nviewof gemJewel4 = Inputs.button(\"Roll on Table\", {value: 0, reduce: () => {var temp = treasureGeMTable4(); highlightTableCell(\"#gem-jewelry-4\", temp[0], temp[1])}})\r\n\r\n"},{"methodName":"interpretQuiet","source":"shinyInput('gemJewel')"},{"methodName":"interpretQuiet","source":"shinyInput('gemJewel2')"},{"methodName":"interpretQuiet","source":"shinyInput('gemJewel3')"},{"methodName":"interpretQuiet","source":"shinyInput('gemJewel4')"}]}
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\r\nimport {highlightTableRow, treasureGeMTable} from \"./custom.js\"\r\n\r\nviewof gemJewel = Inputs.button(\"Roll on Table\", {value: 0, reduce: () => highlightTableRow(\"#gem-jewelry\", treasureGeMTable())})\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"\r\nimport {treasureGeMTable2} from \"./custom.js\"\r\n\r\nviewof gemJewel2 = Inputs.button(\"Roll on Table\", {value: 0, reduce: () => highlightTableRow(\"#gem-jewelry-2\", treasureGeMTable2())})\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"\r\nimport {generalTableSelect} from \"./custom.js\"\r\n\r\nviewof gemJewel3 = Inputs.button(\"Roll on Table\", \r\n{value: 0, \r\nreduce: () => highlightTableRow(\"#gem-jewelry-3\", \r\ngeneralTableSelect([1,100,0],[[1,5],[6,12],[13,20],[21,30],[31,40],[41,43],[44,48],[49,57],[58,63],[64,68],[69,78],[79,88],[89,91],[92,95],[96,100]]))})\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"\r\nimport {treasureGeMTable4, highlightTableCell} from \"./custom.js\"\r\n\r\nviewof gemJewel4 = Inputs.button(\"Roll on Table\", {value: 0, reduce: () => {var temp = treasureGeMTable4(); highlightTableCell(\"#gem-jewelry-4\", temp[0], temp[1])}})\r\n\r\n"},{"methodName":"interpretQuiet","source":"shinyInput('gemJewel')"},{"methodName":"interpretQuiet","source":"shinyInput('gemJewel2')"},{"methodName":"interpretQuiet","source":"shinyInput('gemJewel3')"},{"methodName":"interpretQuiet","source":"shinyInput('gemJewel4')"}]}
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

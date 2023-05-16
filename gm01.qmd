@@ -16,24 +16,65 @@ Besides "placed" monsters, dungeons usually contain wandering monsters. The Game
 
 In an average dungeon, a wandering monster encounter will occur on a roll of 1 on 1d6; the Game Master should check once every 3 turns. The circumstances of a specific dungeon may call for higher odds or more frequent (or possibly less frequent) wandering monster checks.
 
-::: {.table-responsive}
 
-| (1d12) | **Level 1** | **Level 2** | **Level 3** | **Level 4-5** | **Level 6-7** | **Level 8+** |
-|----|-----|-----|-----|-----|-----|-----|
-| 1 | Bee, Giant | Beetle, Giant Bombardier | Ant, Giant | Bear, Cave | Basilisk | Black Pudding |
-| 2 | Goblin | Fly, Giant | Ape, Carnivorous | Caecilia, Giant | Black Pudding | Chimera |
-| 3 | Green Slime* | Ghoul | Beetle, Giant Tiger | Cockatrice | Caecilia, Giant | Giant, Hill |
-| 4 | Kobold | Gnoll | Bugbear | Doppleganger | Displacer | Giant, Stone |
-| 5 | NPC Party: Adventurer | Gray Ooze | Doppleganger | Gray Ooze | Hydra | Hydra |
-| 6 | NPC Party: Bandit | Hobgoblin | Gargoyle* | Hellhound | Lycanthrope, Weretiger* | Lycanthrope, Wereboar* |
-| 7 | Orc | Lizard Man | Gelatinous Cube | Lycanthrope, Werewolf* | Mummy* | Purple Worm |
-| 8 | Skeleton | NPC Party: Adventurer | Lycanthrope, Wererat* | Minotaur | Owlbear | Salamander, Flame* |
-| 9 | Snake, Cobra | Snake, Pit Viper | Ogre | Ochre Jelly* | Rust Monster* | Salamander, Frost* |
-| 10 | Spider, Giant Crab | Spider, Giant Black Widow | Shadow* | Owlbear | Scorpion, Giant | Vampire* |
-| 11 | Stirge | Troglodyte | Tentacle Worm | Rust Monster* | Spectre* |  |
-| 12 | Wolf | Zombie | Wight* | Wraith* | Troll |  |
+```{ojs}
 
-::: 
+import {generalTableSelect, highlightTableRow} from "./custom.js"
+
+Inputs.button("Roll on Table", 
+{value: 0, 
+reduce: () => highlightTableRow("#dungeon-encounters-1", 
+generalTableSelect([1,12,0],[[ 1 , 1 ],[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12]]))})
+
+```
+
+:::{#dungeon-encounters-1}
+
+|  1d12 | Level 1               | Level 2                   | Level 3               |
+|------------|-----------------------|---------------------------|-----------------------|
+| 1          | Bee, Giant            | Beetle, Giant Bombardier  | Ant, Giant            |
+| 2          | Goblin                | Fly, Giant                | Ape, Carnivorous      |
+| 3          | Jelly, Green*         | Ghoul                     | Beetle, Giant Tiger   |
+| 4          | Kobold                | Gnoll                     | Bugbear               |
+| 5          | NPC Party: Adventurer | Jelly, Gray               | Doppleganger          |
+| 6          | NPC Party: Bandit     | Hobgoblin                 | Gargoyle*             |
+| 7          | Orc                   | Lizard Man                | Jelly, Glass          |
+| 8          | Stirge                | NPC Party: Adventurer     | Lycanthrope, Wererat* |
+| 9          | Skeleton              | Snake, Pit Viper          | Ogre                  |
+| 10         | Snake, Cobra          | Spider, Giant Black Widow | Shadow*               |
+| 11         | Spider, Giant Crab    | Lizard Man, Subterranean  | Tentacle Worm         |
+| 12         | Wolf                  | Zombie                    | Wight*                |
+
+:::
+
+
+```{ojs}
+
+Inputs.button("Roll on Table", 
+{value: 0, 
+reduce: () => highlightTableRow("#dungeon-encounters-2", 
+generalTableSelect([1,12,0],[[ 1 , 1 ],[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12]]))})
+
+```
+
+:::{#dungeon-encounters-2}
+
+| 1d12 | Level 4-5              | Level 6-7               | Level 8+               |
+|-----------|------------------------|-------------------------|------------------------|
+| 1         | Bear, Cave             | Basilisk                | Basilisk, Greater*     |
+| 2         | Caecilia, Giant        | Jelly, Black            | Chimera                |
+| 3         | Cockatrice             | Caecilia, Giant         | Deceiver, Greater      |
+| 4         | Doppleganger           | Deceiver                | Giant, Hill            |
+| 5         | Jelly, Gray            | Hydra                   | Giant, Stone           |
+| 6         | Hellhound              | Rust Monster*           | Hydra                  |
+| 7         | Rust Monster*          | Lycanthrope, Weretiger* | Jelly, Black           |
+| 8         | Lycanthrope, Werewolf* | Mummy*                  | Lycanthrope, Wereboar* |
+| 9         | Minotaur               | Owlbear                 | Purple Worm            |
+| 10        | Jelly, Ruddy*          | Scorpion, Giant         | Salamander, Flame*     |
+| 11        | Owlbear                | Spectre*                | Salamander, Frost*     |
+| 12        | Wraith*                | Troll                   | Vampire*               |
+
+:::
 
 ## Wilderness Encounters
 
@@ -41,65 +82,115 @@ The Game Master should check for random encounters in the wilderness about every
 
 To check for a wilderness encounter, roll 1d6; on a roll of 1, an encounter occurs. If a wilderness encounter is indicated, roll 2d8 on the appropriate table below. The Game Master should think carefully about how the encounter happens; check for surprise in advance, and if the monster is not surprised, it may be considered to have had time to set up an ambush (at the GM's option).
 
-| (2d8) | **Desert or Barren** | **Grassland** | **Inhabited Territories** |
-|----|-----|-----|-----|
-| 2 | Dragon, Blue | Dragon, Green | Dragon, Gold |
-| 3 | Hellhound | Troll | Ghoul |
-| 4 | Giant, Fire | Fly, Giant | Bugbear |
-| 5 | Purple Worm | Scorpion, Giant | Goblin |
-| 6 | Fly, Giant | NPC Party: Bandit | Centaur |
-| 7 | Scorpion, Giant | Lion | NPC Party: Bandit |
-| 8 | Camel | Boar, Wild | NPC Party: Merchant |
-| 9 | Spider, Giant Tarantula | NPC Party: Merchant | NPC Party: Pilgrim |
-| 10 | NPC Party: Merchant | Wolf | NPC Party: Noble |
-| 11 | Hawk | Bee, Giant | Dog |
-| 12 | NPC Party: Bandit | Gnoll | Gargoyle* |
-| 13 | Ogre | Goblin | Gnoll |
-| 14 | Griffon | Blink Dog | Ogre |
-| 15 | Gnoll | Wolf, Dire | Minotaur |
-| 16 | Dragon, Red | Giant, Hill | Vampire* |
+```{ojs}
 
-| (2d8) | **Jungle** | **Mountains or Hills** | **Ocean** |
-|----|-----|-----|-----|
-| 2 | Dragon, Green | Dragon, White | Dragon, Sea |
-| 3 | NPC Party: Bandit | Roc(1d6:1-3 Large, 4-5 Huge, 6 Giant) | Hydra |
-| 4 | Goblin | Displacer | Whale, Sperm |
-| 5 | Hobgoblin | Lycanthrope, Werewolf* | Crocodile, Giant |
-| 6 | Centipede, Giant | Mountain Lion | Crab, Giant |
-| 7 | Snake, Giant Python | Wolf | Whale, Killer |
-| 8 | Elephant | Spider, Giant Crab | Octopus, Giant |
-| 9 | Antelope | Hawk | Shark, Mako |
-| 10 | Jaguar | Orc | NPC Party: Merchant |
-| 11 | Stirge | Bat, Giant | NPC Party: Buccaneer (Pirate) |
-| 12 | Beetle, Giant Tiger | Hawk, Giant | Shark, Bull |
-| 13 | Caecilia, Giant | Giant, Hill | Roc (1d8: 1-5 Huge, 6-8 Giant) |
-| 14 | Shadow* | Chimera | Shark, Great White |
-| 15 | NPC Party: Merchant | Wolf, Dire | Mermaid |
-| 16 | Lycanthrope, Weretiger* | Dragon, Red | Sea Serpent |
+Inputs.button("Roll on Table", 
+{value: 0, 
+reduce: () => highlightTableRow("#wilderness-encounters-1", 
+generalTableSelect([2,8,0],[[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12],[ 13, 13],[ 14, 14], [ 15, 15],[ 16, 16]]))})
 
-| (2d8) | **River or Riverside** | **Swamp** | **Woods or Forest** |
-|----|-----|-----|-----|
-| 2 | Dragon, Black | Dragon, Black | Dragon, Green |
-| 3 | Fish, Giant Piranha | Shadow* | Alicorn (see Unicorn) |
-| 4 | Stirge | Troll | Treant |
-| 5 | Fish, Giant Bass | Lizard, Giant Draco | Orc |
-| 6 | NPC Party: Merchant | Centipede, Giant | Boar, Wild |
-| 7 | Lizardman | Leech, Giant | Bear, Black |
-| 8 | Crocodile | Lizardman | Hawk, Giant |
-| 9 | Frog, Giant | Crocodile | Antelope |
-| 10 | Fish, Giant Catfish | Stirge | Wolf |
-| 11 | NPC Party: Buccaneer | Orc | Ogre |
-| 12 | Troll | Toad, Giant (see Frog, Giant) | Bear, Grizzly |
-| 13 | Jaguar | Troglodyte | Wolf, Dire |
-| 14 | Nixie | Blood Rose | Giant, Hill |
-| 15 | Water Termite, Giant | Hangman Tree | Owlbear |
-| 16 | Dragon, Green | Basilisk | Unicorn |
+```
+
+:::{#wilderness-encounters-1}
+
+| 2d8 | Desert or Barren        | Grassland           | Inhabited Territories |
+|-----|-------------------------|---------------------|-----------------------|
+| 2   | Dragon, Desert          | Dragon, Plains      | Dragon, Cloud         |
+| 3   | Hellhound               | Troll               | Ghoul                 |
+| 4   | Giant, Fire             | Fly, Giant          | Bugbear               |
+| 5   | Purple Worm             | Scorpion, Giant     | Goblin                |
+| 6   | Fly, Giant              | NPC Party: Bandit   | Centaur               |
+| 7   | Scorpion, Giant         | Lion                | NPC Party: Bandit     |
+| 8   | Camel                   | Boar, Wild          | NPC Party: Merchant   |
+| 9   | Spider, Giant Tarantula | NPC Party: Merchant | NPC Party: Pilgrim    |
+| 10  | NPC Party: Merchant     | Wolf                | NPC Party: Noble      |
+| 11  | Hawk                    | Bee, Giant          | Dog                   |
+| 12  | NPC Party: Bandit       | Gnoll               | Gargoyle*             |
+| 13  | Ogre                    | Goblin              | Gnoll                 |
+| 14  | Griffon                 | Flicker Beast       | Ogre                  |
+| 15  | Gnoll                   | Wolf, Dire          | Minotaur              |
+| 16  | Dragon, Mountain        | Giant, Hill         | Vampire*              |
+
+:::
+
+```{ojs}
+
+Inputs.button("Roll on Table", 
+{value: 0, 
+reduce: () => highlightTableRow("#wilderness-encounters-2", 
+generalTableSelect([2,8,0],[[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12],[ 13, 13],[ 14, 14], [ 15, 15],[ 16, 16]]))})
+
+```
+
+:::{#wilderness-encounters-2}
+
+| (2d8) | **Jungle**          | **Mountains or Hills**                | **Ocean**                      |
+|-------|---------------------|---------------------------------------|--------------------------------|
+| 2     | Dragon, Green       | Dragon, White                         | Dragon, Sea                    |
+| 3     | NPC Party: Bandit   | Roc(1d6:1-3 Large, 4-5 Huge, 6 Giant) | Hydra                          |
+| 4     | Goblin              | Deceiver                              | Whale, Sperm                   |
+| 5     | Hobgoblin           | Lycanthrope, Werewolf*                | Crocodile, Giant               |
+| 6     | Centipede, Giant    | Mountain Lion                         | Crab, Giant                    |
+| 7     | Snake, Giant Python | Wolf                                  | Whale, Killer                  |
+| 8     | Elephant            | Spider, Giant Crab                    | Octopus, Giant                 |
+| 9     | Antelope            | Hawk                                  | Shark, Mako                    |
+| 10    | Jaguar              | Orc                                   | NPC Party: Merchant            |
+| 11    | Stirge              | Bat, Giant                            | NPC Party: Buccaneer (Pirate)  |
+| 12    | Beetle, Giant Tiger | Hawk, Giant                           | Shark, Bull                    |
+| 13    | Caecilia, Giant     | Giant, Hill                           | Roc (1d8: 1-5 Huge, 6-8 Giant) |
+| 14    | Shadow*             | Chimera                               | Shark, Great White             |
+| 15    | NPC Party: Merchant | Wolf, Dire                            | Mermaid                        |
+| 16   | Lycanthrope, Weretiger* | Dragon, Mountain | Sea Serpent |
+:::
+
+```{ojs}
+
+Inputs.button("Roll on Table", 
+{value: 0, 
+reduce: () => highlightTableRow("#wilderness-encounters-3", 
+generalTableSelect([2,8,0],[[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12],[ 13, 13],[ 14, 14], [ 15, 15],[ 16, 16]]))})
+
+```
+
+:::{#wilderness-encounters-3}
+
+| (2d8) | **River or Riverside** | **Swamp**                     | **Woods or Forest**   |
+|-------|------------------------|-------------------------------|-----------------------|
+| 2     | Dragon, Black          | Dragon, Black                 | Dragon, Green         |
+| 3     | Fish, Giant Piranha    | Shadow*                       | Alicorn (see Unicorn) |
+| 4     | Stirge                 | Troll                         | Treant                |
+| 5     | Fish, Giant Bass       | Lizard, Giant Draco           | Orc                   |
+| 6     | NPC Party: Merchant    | Centipede, Giant              | Boar, Wild            |
+| 7     | Lizardman              | Leech, Giant                  | Bear, Black           |
+| 8     | Crocodile              | Lizard Man                    | Hawk, Giant           |
+| 9     | Frog, Giant            | Crocodile                     | Antelope              |
+| 10    | Fish, Giant Catfish    | Stirge                        | Wolf                  |
+| 11    | NPC Party: Buccaneer   | Orc                           | Ogre                  |
+| 12    | Troll                  | Toad, Giant (see Frog, Giant) | Bear, Grizzly         |
+| 13    | Jaguar                 | Troglodyte                    | Wolf, Dire            |
+| 14    | Nixie                  | Blood Rose                    | Giant, Hill           |
+| 15    | Water Termite, Giant   | Hangman Tree                  | Owlbear               |
+| 16    | Dragon, Green          | Basilisk                      | Unicorn               |
+
+:::
 
 ## City, Town or Village Encounters
 
 It's important for the Game Master to remember that, unlike dungeon or wilderness environments, cities, towns and villages are busy places. During the day, most towns will have people on the streets more or less all the time; the absence of people on the streets is often an indication of something interesting. By night, much of the town will be dark and quiet, and encounters will be mostly Thieves or other unsavory types; but near popular eating (or drinking) establishments, people of all sorts are still likely to be encountered. The GM must make sure that his or her descriptions of the town environment make this clear; of course, this will also make it harder for the players to identify "real" encounters.
 
 The GM is encouraged to create his or her own encounter tables for use in each city, town or village created (or assign encounters by other means if desired); however, a set of "generic" encounter tables are provided below for those times when such preparation has not been completed. Roll 2d6 on the table below to determine what sort of encounter occurs; a description of each type of encounter appears below the table.
+
+
+```{ojs}
+
+Inputs.button("Roll on Table", 
+{value: 0, 
+reduce: () => highlightTableRow("#city-encounters", 
+generalTableSelect([2,6,0],[[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12]]))})
+
+```
+
+:::{#city-encounters}
 
 | (2d6) | Day Encounter | Night Encounter |
 |---|------|------|
@@ -114,6 +205,8 @@ The GM is encouraged to create his or her own encounter tables for use in each c
 | 10 | Mercenary | City Watch |
 | 11 | Wizard | Wizard |
 | 12 | Lycanthrope, Wererat* | Lycanthrope, Wererat* |
+
+:::
 
 **Beggar** encounters will often begin with a single beggar approaching the party, but there will generally be 2d4 beggars in the area, and if any party member gives anything to the first beggar, the others will descend on the party like flies. Each beggar is 90% likely to be a normal man, and 10% likely to be a 1^st^ level Thief, possibly scouting for the Thieves Guild or a local gang.
 
@@ -221,23 +314,84 @@ The standard character creation rules call for rolling 3d6 for each Ability Scor
 
 ### Hopeless Characters
 
-Sometimes a player will look at the six scores rolled, and declare the character "hopeless." The Game Master should always allow the player to scrap a character with less than 9 in the first four scores (since all four classes would be unavailable to that character). However, you as the Game Master might choose to allow the player to reroll a character with scores that are overall below average even if the character isn't as "hopeless" as this.
+Sometimes a player will roll for ability scores, look at
+the ability scores rolled, and declare the character
+"hopeless." Of course, no player can be required to
+play a character with less than 9 in the first four scores,
+since all four classes would be unavailable to that
+character. However, you as the Game Master might
+choose to allow the player to reroll a character with
+scores that are overall below average even if the
+character isn't as "hopeless" as this.
 
-Here's a suggestion: Sum up the Ability Score bonuses or penalties that apply to the character. If the total is negative, consider the character below average, and allow the player to scratch the entire set of scores and reroll. If the total is zero, the character is "average," and the player probably should go ahead and play the character as rolled. Obviously, if the total is greater than zero, the character should be played as rolled.
+Here's an alternate suggestion: Allow the player to
+"flip" all of their scores by subtracting them from 21.
+This will turn a roll of 15 (+1 bonus) into a 6 (-1
+penalty) but turn a roll of 3 (-3 penalty) into an 18 (+3
+bonus). This will result in a character who previously
+had mostly penalties becoming one with mostly
+bonuses. If this is allowed, **all scores must be flipped**,
+not just the bad ones! Doing this ensures the character
+is playable while still allowing the possibility of some
+penalty scores.
 
-As an alternative, a player who rolls a set of ability scores where the total of all the bonuses and penalties is negative may be allowed to "flip" the scores by subtracting all the scores (not just the "bad" ones) from 21. This makes a 3 into an 18, for example, and will result in a total of bonuses and penalties that is positive if the total was previously negative.
+It is of course possible to roll all average scores, such
+that the character has neither bonuses nor penalties and
+would not gain any benefit from flipping scores. The
+choice here should be the player's; if they wish to reroll
+all scores, the GM should probably allow it.
 
 ### Acquisition of Spells
 
-Clerics have an obvious advantage over Magic-Users, in that, in theory, they have access to any spell of any level which they can cast. However, note that Clerics are limited in their spell selection based on their deity, faith or ethos; for instance, a Cleric of the goddess of healing should not be surprised that his or her deity refuses to grant reversed healing spells. If a Cleric prays for a spell that is not allowed, the Game Master may choose to grant the character a different spell, or optionally (if the deity is angered) no spell at all for that "slot."
+Clerics have an obvious advantage over Magic-Users, in
+that, in theory, they have access to any spell of any
+level which they can cast. However, note that Clerics
+are limited in their spell selection based on their deity,
+faith or ethos; for instance, a Cleric of the goddess of
+healing should not be surprised that their deity refuses
+to grant reversed healing spells. If a Cleric prays for a
+spell that is not allowed, the Game Master may choose
+to grant the character a different spell, or optionally (if
+the deity is angered) no spell at all for that "slot."
 
-Magic-Users begin play knowing two spells, **read magic** plus one other (unless the GM grants more starting spells). Each time the character gains a level, he or she gains the ability to cast more spells; in addition, every other level the Magic-User gains access to the next higher level spells (until all levels are available). However, gaining the ability to cast these spells does not necessarily mean the Magic-User instantly learns new spells.
+Magic-Users begin play knowing two spells, **read magic**
+plus one other (unless the GM grants more starting
+spells). Each time the character gains a level, they gain
+the ability to cast more spells; in addition, every other
+level the Magic-User gains access to the next higher
+level spells (until all levels are available). However,
+gaining the ability to cast these spells does not
+necessarily mean the Magic-User instantly learns new
+spells.
 
-Magic-Users may learn spells by being taught by another Magic-User, or by studying another Magic-User's spellbook. If being taught, a spell can be learned in a single day; researching another Magic-User's spellbook takes one day per spell level. In either case, the spell learned must be transcribed into the Magic-User's own spellbook, at a cost of 500 gp per spell level transcribed.
+Magic-Users may learn spells by being taught by
+another Magic-User, or by studying another Magic-
+User's spellbook. If being taught, a spell can be learned
+in a single day; researching another Magic-User's
+spellbook takes one day per spell level. In either case,
+the spell learned must be transcribed into the Magic-
+User's own spellbook, at a cost of 500 gp per spell level
+transcribed.
 
-A Magic-User may add a new spell of any level he or she may cast at any point; however, spells of higher levels may not be learned or added to the Magic-User's spellbook. The Magic-User must find a teacher or acquire a reference work (such as another Magic-User's spellbook) in order to learn new spells, and the cost of such is in addition to the costs given above. Often a Magic-User will maintain a relationship with his or her original master, who will teach the character new spells either for free or in return for services. Sometimes two Magic-Users will agree to exchange known spells. In many cases the only option available to a Magic-User will be to pay another Magic-User (often an NPC) anywhere from 100 gp to 1000 gp per spell level in return for such training.
+A Magic-User may add a new spell of any level they
+may cast at any point; however, spells of higher levels
+may not be learned or added to the Magic-User's
+spellbook. The Magic-User must find a teacher or
+acquire a reference work (such as another Magic-User's
+spellbook) in order to learn new spells, and the cost of
+such is in addition to the costs given above. Often a
+Magic-User will maintain a relationship with their
+original master, who will teach the character new spells
+either for free or in return for services. Sometimes two
+Magic-Users will agree to exchange known spells. In
+many cases the only option available to a Magic-User
+will be to pay another Magic-User (often an NPC)
+anywhere from 100 gp to 1000 gp per spell level in
+return for such training.
 
-Magic-Users may also create entirely new spells (or alter existing spells); see the Magic Research rules, below, for details.
+Magic-Users may also create entirely new spells (or alter
+existing spells); see the Magic Research rules, below, for
+details.
 
 ### Weapon and Armor Restrictions
 
@@ -291,13 +445,13 @@ As a further option, the GM may choose to use a negative number equal to the cha
 
 ### "Save or Die" Poison
 
-Poisons, as described in the Encounter and Monster sections, kill characters instantly. Game Masters may find this makes the mortality rate of player characters a bit too high. On the other hand, poisons **should**be scary. Here's an optional rule which may make things a bit easier without entirely removing the fear from poison:
+Poisons, as described in the Encounter and Monster sections, kill characters instantly. Game Masters may find this makes the mortality rate of player characters a bit too high. On the other hand, poisons **should** be scary. Here's an optional rule which may make things a bit easier without entirely removing the fear from poison:
 
 Where a "save or die" poison is indicated, the victim must make a save vs. Poison or suffer 1d6 damage per round for 6 rounds, starting the round following the exposure to the poison; this is an average of 21 points of damage, but even a first level character might survive with a combination of luck and healing magic. The GM may create poisons which vary from these figures, of course. If the **Negative Hit Points** optional rule is being used, it is suggested to increase the poison duration to 10 rounds (an average 35 points).
 
 ### Awarding Experience Points for Treasure Gained
 
-style="position: absolute; top: 0in; left: 0in" The Game Master may also assign experience points for treasure gained, at a rate of 1 GP = 1 XP. This is optional; GMs wishing to advance their players to higher levels more quickly may choose to do this, while those preferring a more leisurely pace should omit it. If experience is awarded for treasure, it should be awarded only for treasure acquired and returned to a place of safety. Alternately, the GM may require treasure to be spent on training in order to count it for experience. This is a highly effective way to remove excess treasure from the campaign.
+The Game Master may also assign experience points for treasure gained, at a rate of 1 GP = 1 XP. This is optional; GMs wishing to advance their players to higher levels more quickly may choose to do this, while those preferring a more leisurely pace should omit it. If experience is awarded for treasure, it should be awarded only for treasure acquired and returned to a place of safety. Alternately, the GM may require treasure to be spent on training in order to count it for experience. This is a highly effective way to remove excess treasure from the campaign.
 
 ### Ability Rolls
 
@@ -449,3 +603,5 @@ Weapons which are to be enchanted with additional powers other than the normal b
 Some cursed items, such as cursed scrolls, are created that way specifically by the spellcaster. The difficulty of creating such an item is roughly the same as the difficulty of creating a spell scroll of **bestow curse**.
 
 Other cursed magic items may be the result of a failed attempt to create a useful item. The GM must decide whether or not a failed research project will actually create a cursed item.
+
+

@@ -454,16 +454,6 @@ export function highlightTableCell(table, r, c) {
 
   // Get a reference to the table element
   var table = document.querySelector(table + " " + "table");
-  
-  // Remove existing highlights
-  // for (var i = 0; i < table.rows.length; i++) {
-  //   console.log(i);
-  //   var temp = table.rows[i].getElementsByTagName("td")
-  //   for (var j = 0; i < temp.length; j++){
-  //     console.log(i)
-  //     temp[j].classList.remove('myHighlightedCell');
-  //   }
-  // }
 
   var highlightedCells = table.querySelectorAll(".myHighlightedCell");
   for (var i = 0; i < highlightedCells.length; i++) {

@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -60,6 +94,8 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
 
 
@@ -409,26 +445,42 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="dungeon-encounters">Dungeon Encounters</h2>
 <p>Besides “placed” monsters, dungeons usually contain wandering monsters. The Game Master may create special wandering monster tables for specific dungeons, or the general wandering monster tables (below) may be used.</p>
 <p>In an average dungeon, a wandering monster encounter will occur on a roll of 1 on 1d6; the Game Master should check once every 3 turns. The circumstances of a specific dungeon may call for higher odds or more frequent (or possibly less frequent) wandering monster checks.</p>
-<div class="table-responsive">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="22" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 21;"><span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {generalTableSelect<span class="op">,</span> highlightTableRow} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> </span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#dungeon-encounters-1"</span><span class="op">,</span> </span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">12</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[ <span class="dv">1</span> <span class="op">,</span> <span class="dv">1</span> ]<span class="op">,</span>[ <span class="dv">2</span> <span class="op">,</span> <span class="dv">2</span> ]<span class="op">,</span>[ <span class="dv">3</span> <span class="op">,</span> <span class="dv">3</span> ]<span class="op">,</span>[ <span class="dv">4</span> <span class="op">,</span> <span class="dv">4</span> ]<span class="op">,</span>[ <span class="dv">5</span> <span class="op">,</span> <span class="dv">5</span> ]<span class="op">,</span>[ <span class="dv">6</span> <span class="op">,</span> <span class="dv">6</span> ]<span class="op">,</span>[ <span class="dv">7</span> <span class="op">,</span> <span class="dv">7</span> ]<span class="op">,</span>[ <span class="dv">8</span> <span class="op">,</span> <span class="dv">8</span> ]<span class="op">,</span>[ <span class="dv">9</span> <span class="op">,</span> <span class="dv">9</span> ]<span class="op">,</span>[ <span class="dv">10</span><span class="op">,</span> <span class="dv">10</span>]<span class="op">,</span>[ <span class="dv">11</span><span class="op">,</span> <span class="dv">11</span>]<span class="op">,</span>[ <span class="dv">12</span><span class="op">,</span> <span class="dv">12</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<div id="dungeon-encounters-1">
 <table class="table">
 <colgroup>
-<col style="width: 11%">
 <col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
+<col style="width: 27%">
+<col style="width: 31%">
+<col style="width: 27%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>(1d12)</th>
-<th><strong>Level 1</strong></th>
-<th><strong>Level 2</strong></th>
-<th><strong>Level 3</strong></th>
-<th><strong>Level 4-5</strong></th>
-<th><strong>Level 6-7</strong></th>
-<th><strong>Level 8+</strong></th>
+<th>1d12</th>
+<th>Level 1</th>
+<th>Level 2</th>
+<th>Level 3</th>
 </tr>
 </thead>
 <tbody>
@@ -437,108 +489,175 @@ ul.task-list li input[type="checkbox"] {
 <td>Bee, Giant</td>
 <td>Beetle, Giant Bombardier</td>
 <td>Ant, Giant</td>
-<td>Bear, Cave</td>
-<td>Basilisk</td>
-<td>Black Pudding</td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>Goblin</td>
 <td>Fly, Giant</td>
 <td>Ape, Carnivorous</td>
-<td>Caecilia, Giant</td>
-<td>Black Pudding</td>
-<td>Chimera</td>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td>Green Slime*</td>
+<td>Jelly, Green*</td>
 <td>Ghoul</td>
 <td>Beetle, Giant Tiger</td>
-<td>Cockatrice</td>
-<td>Caecilia, Giant</td>
-<td>Giant, Hill</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>Kobold</td>
 <td>Gnoll</td>
 <td>Bugbear</td>
-<td>Doppleganger</td>
-<td>Displacer</td>
-<td>Giant, Stone</td>
 </tr>
 <tr class="odd">
 <td>5</td>
 <td>NPC Party: Adventurer</td>
-<td>Gray Ooze</td>
+<td>Jelly, Gray</td>
 <td>Doppleganger</td>
-<td>Gray Ooze</td>
-<td>Hydra</td>
-<td>Hydra</td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>NPC Party: Bandit</td>
 <td>Hobgoblin</td>
 <td>Gargoyle*</td>
-<td>Hellhound</td>
-<td>Lycanthrope, Weretiger*</td>
-<td>Lycanthrope, Wereboar*</td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>Orc</td>
 <td>Lizard Man</td>
-<td>Gelatinous Cube</td>
-<td>Lycanthrope, Werewolf*</td>
-<td>Mummy*</td>
-<td>Purple Worm</td>
+<td>Jelly, Glass</td>
 </tr>
 <tr class="even">
 <td>8</td>
-<td>Skeleton</td>
+<td>Stirge</td>
 <td>NPC Party: Adventurer</td>
 <td>Lycanthrope, Wererat*</td>
-<td>Minotaur</td>
-<td>Owlbear</td>
-<td>Salamander, Flame*</td>
 </tr>
 <tr class="odd">
 <td>9</td>
-<td>Snake, Cobra</td>
+<td>Skeleton</td>
 <td>Snake, Pit Viper</td>
 <td>Ogre</td>
-<td>Ochre Jelly*</td>
-<td>Rust Monster*</td>
-<td>Salamander, Frost*</td>
 </tr>
 <tr class="even">
 <td>10</td>
-<td>Spider, Giant Crab</td>
+<td>Snake, Cobra</td>
 <td>Spider, Giant Black Widow</td>
 <td>Shadow*</td>
-<td>Owlbear</td>
-<td>Scorpion, Giant</td>
-<td>Vampire*</td>
 </tr>
 <tr class="odd">
 <td>11</td>
-<td>Stirge</td>
-<td>Troglodyte</td>
+<td>Spider, Giant Crab</td>
+<td>Lizard Man, Subterranean</td>
 <td>Tentacle Worm</td>
-<td>Rust Monster*</td>
-<td>Spectre*</td>
-<td></td>
 </tr>
 <tr class="even">
 <td>12</td>
 <td>Wolf</td>
 <td>Zombie</td>
 <td>Wight*</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="51" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 50;"><span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> </span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#dungeon-encounters-2"</span><span class="op">,</span> </span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">12</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[ <span class="dv">1</span> <span class="op">,</span> <span class="dv">1</span> ]<span class="op">,</span>[ <span class="dv">2</span> <span class="op">,</span> <span class="dv">2</span> ]<span class="op">,</span>[ <span class="dv">3</span> <span class="op">,</span> <span class="dv">3</span> ]<span class="op">,</span>[ <span class="dv">4</span> <span class="op">,</span> <span class="dv">4</span> ]<span class="op">,</span>[ <span class="dv">5</span> <span class="op">,</span> <span class="dv">5</span> ]<span class="op">,</span>[ <span class="dv">6</span> <span class="op">,</span> <span class="dv">6</span> ]<span class="op">,</span>[ <span class="dv">7</span> <span class="op">,</span> <span class="dv">7</span> ]<span class="op">,</span>[ <span class="dv">8</span> <span class="op">,</span> <span class="dv">8</span> ]<span class="op">,</span>[ <span class="dv">9</span> <span class="op">,</span> <span class="dv">9</span> ]<span class="op">,</span>[ <span class="dv">10</span><span class="op">,</span> <span class="dv">10</span>]<span class="op">,</span>[ <span class="dv">11</span><span class="op">,</span> <span class="dv">11</span>]<span class="op">,</span>[ <span class="dv">12</span><span class="op">,</span> <span class="dv">12</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div id="dungeon-encounters-2">
+<table class="table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 28%">
+<col style="width: 29%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>1d12</th>
+<th>Level 4-5</th>
+<th>Level 6-7</th>
+<th>Level 8+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Bear, Cave</td>
+<td>Basilisk</td>
+<td>Basilisk, Greater*</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Caecilia, Giant</td>
+<td>Jelly, Black</td>
+<td>Chimera</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Cockatrice</td>
+<td>Caecilia, Giant</td>
+<td>Deceiver, Greater</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Doppleganger</td>
+<td>Deceiver</td>
+<td>Giant, Hill</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Jelly, Gray</td>
+<td>Hydra</td>
+<td>Giant, Stone</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Hellhound</td>
+<td>Rust Monster*</td>
+<td>Hydra</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Rust Monster*</td>
+<td>Lycanthrope, Weretiger*</td>
+<td>Jelly, Black</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Lycanthrope, Werewolf*</td>
+<td>Mummy*</td>
+<td>Lycanthrope, Wereboar*</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Minotaur</td>
+<td>Owlbear</td>
+<td>Purple Worm</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Jelly, Ruddy*</td>
+<td>Scorpion, Giant</td>
+<td>Salamander, Flame*</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Owlbear</td>
+<td>Spectre*</td>
+<td>Salamander, Frost*</td>
+</tr>
+<tr class="even">
+<td>12</td>
 <td>Wraith*</td>
 <td>Troll</td>
-<td></td>
+<td>Vampire*</td>
 </tr>
 </tbody>
 </table>
@@ -548,27 +667,39 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="wilderness-encounters">Wilderness Encounters</h2>
 <p>The Game Master should check for random encounters in the wilderness about every four hours of game time; this translates nicely to three night checks and three daytime checks. If your players choose to stand three night watches, you simply check for each watch; in the daytime, check morning, afternoon, and evening.</p>
 <p>To check for a wilderness encounter, roll 1d6; on a roll of 1, an encounter occurs. If a wilderness encounter is indicated, roll 2d8 on the appropriate table below. The Game Master should think carefully about how the encounter happens; check for surprise in advance, and if the monster is not surprised, it may be considered to have had time to set up an ambush (at the GM’s option).</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="85" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 84;"><span id="cb3-85"><a href="#cb3-85" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> </span>
+<span id="cb3-86"><a href="#cb3-86" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
+<span id="cb3-87"><a href="#cb3-87" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#wilderness-encounters-1"</span><span class="op">,</span> </span>
+<span id="cb3-88"><a href="#cb3-88" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">2</span><span class="op">,</span><span class="dv">8</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[ <span class="dv">2</span> <span class="op">,</span> <span class="dv">2</span> ]<span class="op">,</span>[ <span class="dv">3</span> <span class="op">,</span> <span class="dv">3</span> ]<span class="op">,</span>[ <span class="dv">4</span> <span class="op">,</span> <span class="dv">4</span> ]<span class="op">,</span>[ <span class="dv">5</span> <span class="op">,</span> <span class="dv">5</span> ]<span class="op">,</span>[ <span class="dv">6</span> <span class="op">,</span> <span class="dv">6</span> ]<span class="op">,</span>[ <span class="dv">7</span> <span class="op">,</span> <span class="dv">7</span> ]<span class="op">,</span>[ <span class="dv">8</span> <span class="op">,</span> <span class="dv">8</span> ]<span class="op">,</span>[ <span class="dv">9</span> <span class="op">,</span> <span class="dv">9</span> ]<span class="op">,</span>[ <span class="dv">10</span><span class="op">,</span> <span class="dv">10</span>]<span class="op">,</span>[ <span class="dv">11</span><span class="op">,</span> <span class="dv">11</span>]<span class="op">,</span>[ <span class="dv">12</span><span class="op">,</span> <span class="dv">12</span>]<span class="op">,</span>[ <span class="dv">13</span><span class="op">,</span> <span class="dv">13</span>]<span class="op">,</span>[ <span class="dv">14</span><span class="op">,</span> <span class="dv">14</span>]<span class="op">,</span> [ <span class="dv">15</span><span class="op">,</span> <span class="dv">15</span>]<span class="op">,</span>[ <span class="dv">16</span><span class="op">,</span> <span class="dv">16</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div id="wilderness-encounters-1">
 <table class="table">
 <colgroup>
-<col style="width: 21%">
-<col style="width: 26%">
-<col style="width: 26%">
-<col style="width: 26%">
+<col style="width: 6%">
+<col style="width: 33%">
+<col style="width: 28%">
+<col style="width: 31%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>(2d8)</th>
-<th><strong>Desert or Barren</strong></th>
-<th><strong>Grassland</strong></th>
-<th><strong>Inhabited Territories</strong></th>
+<th>2d8</th>
+<th>Desert or Barren</th>
+<th>Grassland</th>
+<th>Inhabited Territories</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>2</td>
-<td>Dragon, Blue</td>
-<td>Dragon, Green</td>
-<td>Dragon, Gold</td>
+<td>Dragon, Desert</td>
+<td>Dragon, Plains</td>
+<td>Dragon, Cloud</td>
 </tr>
 <tr class="even">
 <td>3</td>
@@ -639,7 +770,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>14</td>
 <td>Griffon</td>
-<td>Blink Dog</td>
+<td>Flicker Beast</td>
 <td>Ogre</td>
 </tr>
 <tr class="even">
@@ -650,18 +781,31 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>16</td>
-<td>Dragon, Red</td>
+<td>Dragon, Mountain</td>
 <td>Giant, Hill</td>
 <td>Vampire*</td>
 </tr>
 </tbody>
 </table>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="116" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 115;"><span id="cb4-116"><a href="#cb4-116" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> </span>
+<span id="cb4-117"><a href="#cb4-117" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
+<span id="cb4-118"><a href="#cb4-118" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#wilderness-encounters-2"</span><span class="op">,</span> </span>
+<span id="cb4-119"><a href="#cb4-119" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">2</span><span class="op">,</span><span class="dv">8</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[ <span class="dv">2</span> <span class="op">,</span> <span class="dv">2</span> ]<span class="op">,</span>[ <span class="dv">3</span> <span class="op">,</span> <span class="dv">3</span> ]<span class="op">,</span>[ <span class="dv">4</span> <span class="op">,</span> <span class="dv">4</span> ]<span class="op">,</span>[ <span class="dv">5</span> <span class="op">,</span> <span class="dv">5</span> ]<span class="op">,</span>[ <span class="dv">6</span> <span class="op">,</span> <span class="dv">6</span> ]<span class="op">,</span>[ <span class="dv">7</span> <span class="op">,</span> <span class="dv">7</span> ]<span class="op">,</span>[ <span class="dv">8</span> <span class="op">,</span> <span class="dv">8</span> ]<span class="op">,</span>[ <span class="dv">9</span> <span class="op">,</span> <span class="dv">9</span> ]<span class="op">,</span>[ <span class="dv">10</span><span class="op">,</span> <span class="dv">10</span>]<span class="op">,</span>[ <span class="dv">11</span><span class="op">,</span> <span class="dv">11</span>]<span class="op">,</span>[ <span class="dv">12</span><span class="op">,</span> <span class="dv">12</span>]<span class="op">,</span>[ <span class="dv">13</span><span class="op">,</span> <span class="dv">13</span>]<span class="op">,</span>[ <span class="dv">14</span><span class="op">,</span> <span class="dv">14</span>]<span class="op">,</span> [ <span class="dv">15</span><span class="op">,</span> <span class="dv">15</span>]<span class="op">,</span>[ <span class="dv">16</span><span class="op">,</span> <span class="dv">16</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-4" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div id="wilderness-encounters-2">
 <table class="table">
 <colgroup>
+<col style="width: 7%">
 <col style="width: 21%">
-<col style="width: 26%">
-<col style="width: 26%">
-<col style="width: 26%">
+<col style="width: 39%">
+<col style="width: 32%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -687,7 +831,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>4</td>
 <td>Goblin</td>
-<td>Displacer</td>
+<td>Deceiver</td>
 <td>Whale, Sperm</td>
 </tr>
 <tr class="even">
@@ -759,12 +903,31 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>16</td>
 <td>Lycanthrope, Weretiger*</td>
-<td>Dragon, Red</td>
+<td>Dragon, Mountain</td>
 <td>Sea Serpent</td>
 </tr>
 </tbody>
 </table>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="146" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 145;"><span id="cb5-146"><a href="#cb5-146" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> </span>
+<span id="cb5-147"><a href="#cb5-147" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
+<span id="cb5-148"><a href="#cb5-148" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#wilderness-encounters-3"</span><span class="op">,</span> </span>
+<span id="cb5-149"><a href="#cb5-149" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">2</span><span class="op">,</span><span class="dv">8</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[ <span class="dv">2</span> <span class="op">,</span> <span class="dv">2</span> ]<span class="op">,</span>[ <span class="dv">3</span> <span class="op">,</span> <span class="dv">3</span> ]<span class="op">,</span>[ <span class="dv">4</span> <span class="op">,</span> <span class="dv">4</span> ]<span class="op">,</span>[ <span class="dv">5</span> <span class="op">,</span> <span class="dv">5</span> ]<span class="op">,</span>[ <span class="dv">6</span> <span class="op">,</span> <span class="dv">6</span> ]<span class="op">,</span>[ <span class="dv">7</span> <span class="op">,</span> <span class="dv">7</span> ]<span class="op">,</span>[ <span class="dv">8</span> <span class="op">,</span> <span class="dv">8</span> ]<span class="op">,</span>[ <span class="dv">9</span> <span class="op">,</span> <span class="dv">9</span> ]<span class="op">,</span>[ <span class="dv">10</span><span class="op">,</span> <span class="dv">10</span>]<span class="op">,</span>[ <span class="dv">11</span><span class="op">,</span> <span class="dv">11</span>]<span class="op">,</span>[ <span class="dv">12</span><span class="op">,</span> <span class="dv">12</span>]<span class="op">,</span>[ <span class="dv">13</span><span class="op">,</span> <span class="dv">13</span>]<span class="op">,</span>[ <span class="dv">14</span><span class="op">,</span> <span class="dv">14</span>]<span class="op">,</span> [ <span class="dv">15</span><span class="op">,</span> <span class="dv">15</span>]<span class="op">,</span>[ <span class="dv">16</span><span class="op">,</span> <span class="dv">16</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-5" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div id="wilderness-encounters-3">
 <table class="table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 28%">
+<col style="width: 36%">
+<col style="width: 27%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>(2d8)</th>
@@ -813,7 +976,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>8</td>
 <td>Crocodile</td>
-<td>Lizardman</td>
+<td>Lizard Man</td>
 <td>Hawk, Giant</td>
 </tr>
 <tr class="even">
@@ -866,11 +1029,24 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+</div>
 </section>
 <section id="city-town-or-village-encounters" class="level2">
 <h2 class="anchored" data-anchor-id="city-town-or-village-encounters">City, Town or Village Encounters</h2>
 <p>It’s important for the Game Master to remember that, unlike dungeon or wilderness environments, cities, towns and villages are busy places. During the day, most towns will have people on the streets more or less all the time; the absence of people on the streets is often an indication of something interesting. By night, much of the town will be dark and quiet, and encounters will be mostly Thieves or other unsavory types; but near popular eating (or drinking) establishments, people of all sorts are still likely to be encountered. The GM must make sure that his or her descriptions of the town environment make this clear; of course, this will also make it harder for the players to identify “real” encounters.</p>
 <p>The GM is encouraged to create his or her own encounter tables for use in each city, town or village created (or assign encounters by other means if desired); however, a set of “generic” encounter tables are provided below for those times when such preparation has not been completed. Roll 2d6 on the table below to determine what sort of encounter occurs; a description of each type of encounter appears below the table.</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="184" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 183;"><span id="cb6-184"><a href="#cb6-184" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll on Table"</span><span class="op">,</span> </span>
+<span id="cb6-185"><a href="#cb6-185" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
+<span id="cb6-186"><a href="#cb6-186" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#city-encounters"</span><span class="op">,</span> </span>
+<span id="cb6-187"><a href="#cb6-187" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">2</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[ <span class="dv">2</span> <span class="op">,</span> <span class="dv">2</span> ]<span class="op">,</span>[ <span class="dv">3</span> <span class="op">,</span> <span class="dv">3</span> ]<span class="op">,</span>[ <span class="dv">4</span> <span class="op">,</span> <span class="dv">4</span> ]<span class="op">,</span>[ <span class="dv">5</span> <span class="op">,</span> <span class="dv">5</span> ]<span class="op">,</span>[ <span class="dv">6</span> <span class="op">,</span> <span class="dv">6</span> ]<span class="op">,</span>[ <span class="dv">7</span> <span class="op">,</span> <span class="dv">7</span> ]<span class="op">,</span>[ <span class="dv">8</span> <span class="op">,</span> <span class="dv">8</span> ]<span class="op">,</span>[ <span class="dv">9</span> <span class="op">,</span> <span class="dv">9</span> ]<span class="op">,</span>[ <span class="dv">10</span><span class="op">,</span> <span class="dv">10</span>]<span class="op">,</span>[ <span class="dv">11</span><span class="op">,</span> <span class="dv">11</span>]<span class="op">,</span>[ <span class="dv">12</span><span class="op">,</span> <span class="dv">12</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-6" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div id="city-encounters">
 <table class="table">
 <thead>
 <tr class="header">
@@ -937,6 +1113,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>Beggar</strong>&nbsp;encounters will often begin with a single beggar approaching the party, but there will generally be 2d4 beggars in the area, and if any party member gives anything to the first beggar, the others will descend on the party like flies. Each beggar is 90% likely to be a normal man, and 10% likely to be a 1<sup>st</sup>&nbsp;level Thief, possibly scouting for the Thieves Guild or a local gang.</p>
 <p><strong>Bully</strong>&nbsp;encounters will be with 2d4 young toughs; each is 70% likely to be a normal man, 30% likely to be a 1<sup>st</sup>&nbsp;level Fighter. Bullies generally appear unarmed, depending on their brawling ability in a fight (but keeping a dagger or shortsword hidden, to be used in case the fight is going against them). Bullies can be a bit unpredictable, such that the GM may want to use a reaction roll to determine the leader’s mood.</p>
 <p><strong>City Watch</strong>&nbsp;encounters will be with 2d6 watchmen, all 1<sup>st</sup>&nbsp;level Fighters save for the squad leader, who will be from 2<sup>nd</sup>&nbsp;through 4<sup>th</sup>&nbsp;level. They will confront “suspicious-looking” characters, but generally will need a good reason before they attempt to arrest or otherwise interfere with player characters.</p>
@@ -1013,16 +1190,16 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="hopeless-characters" class="level3">
 <h3 class="anchored" data-anchor-id="hopeless-characters">Hopeless Characters</h3>
-<p>Sometimes a player will look at the six scores rolled, and declare the character “hopeless.” The Game Master should always allow the player to scrap a character with less than 9 in the first four scores (since all four classes would be unavailable to that character). However, you as the Game Master might choose to allow the player to reroll a character with scores that are overall below average even if the character isn’t as “hopeless” as this.</p>
-<p>Here’s a suggestion: Sum up the Ability Score bonuses or penalties that apply to the character. If the total is negative, consider the character below average, and allow the player to scratch the entire set of scores and reroll. If the total is zero, the character is “average,” and the player probably should go ahead and play the character as rolled. Obviously, if the total is greater than zero, the character should be played as rolled.</p>
-<p>As an alternative, a player who rolls a set of ability scores where the total of all the bonuses and penalties is negative may be allowed to “flip” the scores by subtracting all the scores (not just the “bad” ones) from 21. This makes a 3 into an 18, for example, and will result in a total of bonuses and penalties that is positive if the total was previously negative.</p>
+<p>Sometimes a player will roll for ability scores, look at the ability scores rolled, and declare the character “hopeless.” Of course, no player can be required to play a character with less than 9 in the first four scores, since all four classes would be unavailable to that character. However, you as the Game Master might choose to allow the player to reroll a character with scores that are overall below average even if the character isn’t as “hopeless” as this.</p>
+<p>Here’s an alternate suggestion: Allow the player to “flip” all of their scores by subtracting them from 21. This will turn a roll of 15 (+1 bonus) into a 6 (-1 penalty) but turn a roll of 3 (-3 penalty) into an 18 (+3 bonus). This will result in a character who previously had mostly penalties becoming one with mostly bonuses. If this is allowed, <strong>all scores must be flipped</strong>, not just the bad ones! Doing this ensures the character is playable while still allowing the possibility of some penalty scores.</p>
+<p>It is of course possible to roll all average scores, such that the character has neither bonuses nor penalties and would not gain any benefit from flipping scores. The choice here should be the player’s; if they wish to reroll all scores, the GM should probably allow it.</p>
 </section>
 <section id="acquisition-of-spells" class="level3">
 <h3 class="anchored" data-anchor-id="acquisition-of-spells">Acquisition of Spells</h3>
-<p>Clerics have an obvious advantage over Magic-Users, in that, in theory, they have access to any spell of any level which they can cast. However, note that Clerics are limited in their spell selection based on their deity, faith or ethos; for instance, a Cleric of the goddess of healing should not be surprised that his or her deity refuses to grant reversed healing spells. If a Cleric prays for a spell that is not allowed, the Game Master may choose to grant the character a different spell, or optionally (if the deity is angered) no spell at all for that “slot.”</p>
-<p>Magic-Users begin play knowing two spells,&nbsp;<strong>read magic</strong>&nbsp;plus one other (unless the GM grants more starting spells). Each time the character gains a level, he or she gains the ability to cast more spells; in addition, every other level the Magic-User gains access to the next higher level spells (until all levels are available). However, gaining the ability to cast these spells does not necessarily mean the Magic-User instantly learns new spells.</p>
-<p>Magic-Users may learn spells by being taught by another Magic-User, or by studying another Magic-User’s spellbook. If being taught, a spell can be learned in a single day; researching another Magic-User’s spellbook takes one day per spell level. In either case, the spell learned must be transcribed into the Magic-User’s own spellbook, at a cost of 500 gp per spell level transcribed.</p>
-<p>A Magic-User may add a new spell of any level he or she may cast at any point; however, spells of higher levels may not be learned or added to the Magic-User’s spellbook. The Magic-User must find a teacher or acquire a reference work (such as another Magic-User’s spellbook) in order to learn new spells, and the cost of such is in addition to the costs given above. Often a Magic-User will maintain a relationship with his or her original master, who will teach the character new spells either for free or in return for services. Sometimes two Magic-Users will agree to exchange known spells. In many cases the only option available to a Magic-User will be to pay another Magic-User (often an NPC) anywhere from 100 gp to 1000 gp per spell level in return for such training.</p>
+<p>Clerics have an obvious advantage over Magic-Users, in that, in theory, they have access to any spell of any level which they can cast. However, note that Clerics are limited in their spell selection based on their deity, faith or ethos; for instance, a Cleric of the goddess of healing should not be surprised that their deity refuses to grant reversed healing spells. If a Cleric prays for a spell that is not allowed, the Game Master may choose to grant the character a different spell, or optionally (if the deity is angered) no spell at all for that “slot.”</p>
+<p>Magic-Users begin play knowing two spells, <strong>read magic</strong> plus one other (unless the GM grants more starting spells). Each time the character gains a level, they gain the ability to cast more spells; in addition, every other level the Magic-User gains access to the next higher level spells (until all levels are available). However, gaining the ability to cast these spells does not necessarily mean the Magic-User instantly learns new spells.</p>
+<p>Magic-Users may learn spells by being taught by another Magic-User, or by studying another Magic- User’s spellbook. If being taught, a spell can be learned in a single day; researching another Magic-User’s spellbook takes one day per spell level. In either case, the spell learned must be transcribed into the Magic- User’s own spellbook, at a cost of 500 gp per spell level transcribed.</p>
+<p>A Magic-User may add a new spell of any level they may cast at any point; however, spells of higher levels may not be learned or added to the Magic-User’s spellbook. The Magic-User must find a teacher or acquire a reference work (such as another Magic-User’s spellbook) in order to learn new spells, and the cost of such is in addition to the costs given above. Often a Magic-User will maintain a relationship with their original master, who will teach the character new spells either for free or in return for services. Sometimes two Magic-Users will agree to exchange known spells. In many cases the only option available to a Magic-User will be to pay another Magic-User (often an NPC) anywhere from 100 gp to 1000 gp per spell level in return for such training.</p>
 <p>Magic-Users may also create entirely new spells (or alter existing spells); see the Magic Research rules, below, for details.</p>
 </section>
 <section id="weapon-and-armor-restrictions" class="level3">
@@ -1060,12 +1237,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="save-or-die-poison" class="level3">
 <h3 class="anchored" data-anchor-id="save-or-die-poison">“Save or Die” Poison</h3>
-<p>Poisons, as described in the Encounter and Monster sections, kill characters instantly. Game Masters may find this makes the mortality rate of player characters a bit too high. On the other hand, poisons&nbsp;<strong>should</strong>be scary. Here’s an optional rule which may make things a bit easier without entirely removing the fear from poison:</p>
+<p>Poisons, as described in the Encounter and Monster sections, kill characters instantly. Game Masters may find this makes the mortality rate of player characters a bit too high. On the other hand, poisons&nbsp;<strong>should</strong> be scary. Here’s an optional rule which may make things a bit easier without entirely removing the fear from poison:</p>
 <p>Where a “save or die” poison is indicated, the victim must make a save vs.&nbsp;Poison or suffer 1d6 damage per round for 6 rounds, starting the round following the exposure to the poison; this is an average of 21 points of damage, but even a first level character might survive with a combination of luck and healing magic. The GM may create poisons which vary from these figures, of course. If the&nbsp;<strong>Negative Hit Points</strong>&nbsp;optional rule is being used, it is suggested to increase the poison duration to 10 rounds (an average 35 points).</p>
 </section>
 <section id="awarding-experience-points-for-treasure-gained" class="level3">
 <h3 class="anchored" data-anchor-id="awarding-experience-points-for-treasure-gained">Awarding Experience Points for Treasure Gained</h3>
-<p>style=“position: absolute; top: 0in; left: 0in” The Game Master may also assign experience points for treasure gained, at a rate of 1 GP = 1 XP. This is optional; GMs wishing to advance their players to higher levels more quickly may choose to do this, while those preferring a more leisurely pace should omit it. If experience is awarded for treasure, it should be awarded only for treasure acquired and returned to a place of safety. Alternately, the GM may require treasure to be spent on training in order to count it for experience. This is a highly effective way to remove excess treasure from the campaign.</p>
+<p>The Game Master may also assign experience points for treasure gained, at a rate of 1 GP = 1 XP. This is optional; GMs wishing to advance their players to higher levels more quickly may choose to do this, while those preferring a more leisurely pace should omit it. If experience is awarded for treasure, it should be awarded only for treasure acquired and returned to a place of safety. Alternately, the GM may require treasure to be spent on training in order to count it for experience. This is a highly effective way to remove excess treasure from the campaign.</p>
 </section>
 <section id="ability-rolls" class="level3">
 <h3 class="anchored" data-anchor-id="ability-rolls">Ability Rolls</h3>
@@ -1282,6 +1459,18 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+
+<script type="ojs-module-contents">
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\r\nimport {generalTableSelect, highlightTableRow} from \"./custom.js\"\r\n\r\nInputs.button(\"Roll on Table\", \r\n{value: 0, \r\nreduce: () => highlightTableRow(\"#dungeon-encounters-1\", \r\ngeneralTableSelect([1,12,0],[[ 1 , 1 ],[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12]]))})\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"\r\nInputs.button(\"Roll on Table\", \r\n{value: 0, \r\nreduce: () => highlightTableRow(\"#dungeon-encounters-2\", \r\ngeneralTableSelect([1,12,0],[[ 1 , 1 ],[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12]]))})\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"\r\nInputs.button(\"Roll on Table\", \r\n{value: 0, \r\nreduce: () => highlightTableRow(\"#wilderness-encounters-1\", \r\ngeneralTableSelect([2,8,0],[[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12],[ 13, 13],[ 14, 14], [ 15, 15],[ 16, 16]]))})\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"\r\nInputs.button(\"Roll on Table\", \r\n{value: 0, \r\nreduce: () => highlightTableRow(\"#wilderness-encounters-2\", \r\ngeneralTableSelect([2,8,0],[[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12],[ 13, 13],[ 14, 14], [ 15, 15],[ 16, 16]]))})\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-5","inline":false,"source":"\r\nInputs.button(\"Roll on Table\", \r\n{value: 0, \r\nreduce: () => highlightTableRow(\"#wilderness-encounters-3\", \r\ngeneralTableSelect([2,8,0],[[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12],[ 13, 13],[ 14, 14], [ 15, 15],[ 16, 16]]))})\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-6","inline":false,"source":"\r\nInputs.button(\"Roll on Table\", \r\n{value: 0, \r\nreduce: () => highlightTableRow(\"#city-encounters\", \r\ngeneralTableSelect([2,6,0],[[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12]]))})\r\n\r\n"}]}
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

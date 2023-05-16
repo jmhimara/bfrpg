@@ -66,6 +66,10 @@ If you are a novice Game Master, remember that you can always give more treasure
 
 :::
 
+
+\* Type H treasures are specifically dragon treasure; the chance of each type of monetary treasure ranges from 35% at the second age category to 85% at the seventh, while the odds of gems, jewelry, and magic items are 5% per hit die of the monster. Hatchlings do not usually have any treasure.
+
+
 ### Individual Treasures
 
 ::: {.column-screen-inset-right}
@@ -100,7 +104,7 @@ If you are a novice Game Master, remember that you can always give more treasure
 :::
 ::: 
 
-Note: Unguarded treasures should be rare; see the **Game Master** section, below, for advice on placement of unguarded treasure.
+Note: Unguarded treasures should be rare; see the [Game Master](gm01.qmd) section, below, for advice on placement of unguarded treasure.
 
 ### Gems and Jewelry
 
@@ -154,32 +158,35 @@ viewof gemJewel2 = Inputs.button("Roll on Table", {value: 0, reduce: () => highl
 
 ```{ojs}
 
-import {treasureGeMTable3} from "./custom.js"
+import {generalTableSelect} from "./custom.js"
 
-viewof gemJewel3 = Inputs.button("Roll on Table", {value: 0, reduce: () => highlightTableRow("#gem-jewelry-3", treasureGeMTable3())})
+viewof gemJewel3 = Inputs.button("Roll on Table", 
+{value: 0, 
+reduce: () => highlightTableRow("#gem-jewelry-3", 
+generalTableSelect([1,100,0],[[1,5],[6,12],[13,20],[21,30],[31,40],[41,43],[44,48],[49,57],[58,63],[64,68],[69,78],[79,88],[89,91],[92,95],[96,100]]))})
 
 ```
 
 ::: {#gem-jewelry-3}
 
-| **d%** | **Gem Type**  |
-|---|----|
-| 01-10 | Greenstone  
-| 11-20 | Malachite   
-| 21-28 | Aventurine  
-| 29-38 | Phenalope   
-| 39-45 | Amethyst    
-| 46-54 | Fluorospar  
-| 55-60 | Garnet      
-| 61-65 | Alexandrite 
-|  66-70 | Topaz |
-|  71-75 | Bloodstone |
-|  76-79 | Sapphire |
-|  80-89 | Diamond |
-|  90-94 | Fire Opal |
-|  95-97 | Ruby |
-|  98-00 | Emerald |
-|  
+| d%    | Gem Type       |
+|-------|----------------|
+| 01-05 | Alexandrite    |
+| 06-12 | Amethyst       |
+| 13-20 | Aventurine     |
+| 21-30 | Chlorastrolite |
+| 31-40 | Diamond        |
+| 41-43 | Emerald        |
+| 44-48 | Fire Opal      |
+| 49-57 | Fluorospar     |
+| 58-63 | Garnet         |
+| 64-68 | Heliotrope     |
+| 69-78 | Malachite      |
+| 79-88 | Rhodonite      |
+| 89-91 | Ruby           |
+| 92-95 | Sapphire       |
+| 96-00 | Topaz          |
+
 
 :::
 

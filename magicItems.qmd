@@ -2,6 +2,40 @@
 
 Determine the sort of item found by rolling on the following table:
 
+```{ojs}
+
+import {generalTableSelect, highlightTableRow} from "./custom.js"
+
+viewof form = Inputs.form(
+  {
+    button1: Inputs.button("Any", {value: 0, 
+        reduce: () => highlightTableRow("#armor-weapon-table", 
+            generalTableSelect([1,100,0],[[1,25],[26,35],[36,55],[56,85],[86,90],[91,95],[96,100]]))}),
+    button2: Inputs.button("Weapon or Armor", {value: 0, 
+        reduce: () => highlightTableRow("#armor-weapon-table", 
+            generalTableSelect([1,100,0],[[1,70], [71,100]]))}),
+    button3: Inputs.button("Any Except Weapon", {value: 0, 
+        reduce: () => highlightTableRow("#armor-weapon-table", 
+            generalTableSelect([1,100,0],[[-2,-1],[1,12],[13,40],[41,79],[80,86],[87,93],[94,100]]))}),
+  }, 
+  {
+    template: (formParts) => htl.html`
+     <div>
+       <div style="
+         display: grid;
+         grid-template-columns: 15% 30% 30%;
+         column-gap: 10px
+       ">
+         ${Object.values(formParts)}
+       </div>
+     </div>`
+  })
+
+
+```
+
+::: {#armor-weapon-table}
+
 | **Any** | **Weapon or Armor** | **Any Except Weapons** | **Type of Item** |
 |----|----|----|----| 
 | 01-25 | 01-70 |  | Weapon |
@@ -12,9 +46,22 @@ Determine the sort of item found by rolling on the following table:
 | 91-95 |  | 87-93 | Wand, Staff, or Rod |
 | 96-00 |  | 94-00 | Miscellaneous Magic |
 
+:::
+
 ## Magic Weapons
 
 First, roll d% on the following table to determine the weapon type:
+
+```{ojs}
+
+Inputs.button("Roll on Table", 
+{value: 0, 
+reduce: () => highlightTableRow("#weapon-type-table", 
+generalTableSelect([1,100,0],[[1,2],[3,9],[10,11],[12,19],[20,27],[28,31],[32,35],[36,43],[44,47],[48,59],[60,65],[66,79],[80,81],[82,83],[84,86],[87,94],[95,95],[96,96],[97,97],[98,100]]))})
+
+```
+
+:::{#weapon-type-table}
 
 | **d%** | **Weapon Type** |
 |----|-----|
@@ -39,28 +86,89 @@ First, roll d% on the following table to determine the weapon type:
 | 97 | Sling Bullet |
 | 98-00 | Spear |
 
+:::
+
 Next, roll on the Weapon Bonus tables. Follow the directions given if a roll on the Special Enemy or Special Ability tables are indicated; generally multiple rolls on the Special Ability table should be ignored when rolled.
 
-| **d% Melee** | **d% Missile** | **Weapon Bonus** |
-|----|----|----|
-| 01-40 | 01-46 | +1 |
-| 41-50 | 47-58 | +2 |
-| 51-55 | 59-64 | +3 |
-| 56-57 |  | +4 |
-| 58 |  | +5 |
-| 59-75 | 65-82 | +1, +2 vs. Special Enemy |
-| 76-85 | 83-94 | +1, +3 vs. Special Enemy |
-| 86-95 |  | Roll Again + Special Ability |
-| 96-98 | 95-98 | Cursed, -1* |
-| 99-00 | 99-00 | Cursed, -2* |
+```{ojs}
+
+Inputs.form(
+  {
+    button1: Inputs.button("d% Melee", {value: 0, 
+        reduce: () => highlightTableRow("#melee-missile-weapon", 
+            generalTableSelect([1,100,0],[[1,40],[41,50],[51,55],[56,57],[58,58],[59,75],[76,85],[86,95],[96,98],[99,100]]))}),
+    button2: Inputs.button("d% Missile", {value: 0, 
+        reduce: () => highlightTableRow("#melee-missile-weapon", 
+            generalTableSelect([1,100,0],[[1,40],[47,58],[59,64],[-2,-1],[-2,-1],[65,82],[83,94],[-2,-1],[95,98],[99,100]]))}),
+  }, 
+  {
+    template: (formParts) => htl.html`
+     <div>
+       <div style="
+         display: grid;
+         grid-template-columns: 30% 30% ;
+         column-gap: 10px
+       ">
+         ${Object.values(formParts)}
+       </div>
+     </div>`
+  })
+
+```
+
+:::{#melee-missile-weapon}
+
+| **d% Melee** | **d% Missile** | **Weapon Bonus**             |
+|--------------|----------------|------------------------------|
+| 01-40        | 01-46          | +1                           |
+| 41-50        | 47-58          | +2                           |
+| 51-55        | 59-64          | +3                           |
+| 56-57        |                | +4                           |
+| 58           |                | +5                           |
+| 59-75        | 65-82          | +1, +2 vs. Special Enemy     |
+| 76-85        | 83-94          | +1, +3 vs. Special Enemy     |
+| 86-95        |                | Roll Again + Special Ability |
+| 96-98        | 95-98          | Cursed, -1*                  |
+| 99-00        | 99-00          | Cursed, -2*                  |
+
+
+:::
 
 \* If cursed weapons are rolled along with special abilities, ignore the special ability roll.
 
-| **1d6** | **Special Enemy**  | **1d6** | **Special Enemy** |
-|----|----|----|-----| 
-| 1 | Dragons  | 4 | Regenerators |
-| 2 | Enchanted | 5 | Spell Users |
-| 3 | Lycanthropes  | 6 | Undead |
+```{ojs}
+
+Inputs.button("Roll on Table", 
+{value: 0, 
+reduce: () => highlightTableRow("#special-enemy-table", 
+generalTableSelect([1,6,0],[[1,1],[2,2],[3,3],[4,4],[5,5],[6,6]]))})
+
+```
+
+:::{#special-enemy-table}
+
+| **1d6** | **Special Enemy** |
+|---------|-------------------|
+| 1       | Dragons           |
+| 2       | Enchanted         |
+| 3       | Lycanthropes      |
+| 4       | Regenerators      |
+| 5       | Spell Users       |
+| 6       | Undead            |
+
+
+:::
+
+```{ojs}
+
+Inputs.button("Roll on Table", 
+{value: 0, 
+reduce: () => highlightTableRow("#special-ability-table", 
+generalTableSelect([1,20,0],[[1,9],[10,11],[12,12],[13,16],[17,19],[20,20]]))})
+
+```
+
+:::{#special-ability-table}
 
 | **1d20** | **Special Ability** |
 |----|----|
@@ -71,17 +179,49 @@ Next, roll on the Weapon Bonus tables. Follow the directions given if a roll on 
 | 17-19 | Locate Objects |
 | 20 | Wishes |
 
+:::
+
 ## Magic Armor
 
 Generate the type and bonus of each item of magic armor on the tables below.
 
-| **d%** | **Armor Type**  | **d%** | **Armor Bonus** |
-|----|----|----|-----| 
-| 01-09 | Leather Armor  | 01-50 | +1 |
-| 10-28 | Chain Mail  | 51-80 | +2 |
-| 29-43 | Plate Mail  | 81-90 | +3 |
-| 44-00 | Shield  | 91-95 | Cursed * |
-|  |   | 96-00 | Cursed, AC 11 ** |
+```{ojs}
+
+Inputs.form(
+  {
+    button1: Inputs.button("d% Armor Type", {value: 0, 
+        reduce: () => highlightTableRow("#magic-armor-table", 
+            generalTableSelect([1,100,0],[[1,9],[10,28],[29,43],[44,100]]))}),
+    button2: Inputs.button("d% Armor Bonus", {value: 0, 
+        reduce: () => highlightTableRow("#magic-armor-table", 
+            generalTableSelect([1,100,0],[[1,50],[51,80],[81,90],[91,95],[92,100]]))}),
+  }, 
+  {
+    template: (formParts) => htl.html`
+     <div>
+       <div style="
+         display: grid;
+         grid-template-columns: 40% 40% ;
+         column-gap: 10px
+       ">
+         ${Object.values(formParts)}
+       </div>
+     </div>`
+  })
+
+```
+
+:::{#magic-armor-table}
+
+| **d%** | **Armor Type** | **d%** | **Armor Bonus**  |
+|--------|----------------|--------|------------------|
+| 01-09  | Leather Armor  | 01-50  | +1               |
+| 10-28  | Chain Mail     | 51-80  | +2               |
+| 29-43  | Plate Mail     | 81-90  | +3               |
+| 44-00  | Shield         | 91-95  | Cursed *         |
+|        |                | 96-00  | Cursed, AC 11 ** |
+
+:::
 
 \* If Cursed armor is rolled, roll again and reverse the bonus (e.g., -1 instead of +1).
 
@@ -89,19 +229,61 @@ Generate the type and bonus of each item of magic armor on the tables below.
 
 ## Potions
 
-| **d%** | **Type** |   **d%** | **Type** |   **d%** | **Type** |
-|----|----|----|-----|----|-----| 
-| 01-03 | Clairaudience |   26-32 | Delusion |   64-68 | Heroism |
-| 04-06 | Clairvoyance |   33-35 | Diminution |   69-72 | Invisibility |
-| 07-08 | Cold Resistance |   36-39 | ESP |   73-76 | Invulnerability |
-| 09-11 | Control Animal |   40-43 | Fire Resistance |   77-80 | Levitation |
-| 12-13 | Control Dragon |   44-47 | Flying |   81-84 | Longevity |
-| 14-16 | Control Giant |   48-51 | Gaseous Form |   85-86 | Poison |
-| 17-19 | Control Human |   52-55 | Giant Strength |   87-89 | Polymorph Self |
-| 20-22 | Control Plant |   56-59 | Growth |   90-97 | Speed |
-| 23-25 | Control Undead |   60-63 | Healing | 98-00 | Treasure Finding |
+```{ojs}
+
+Inputs.button("Roll on Table", 
+{value: 0, 
+reduce: () => highlightTableRow("#potions-random-table", 
+generalTableSelect([1,100,0],[[1,3], [4,6], [7,8], [9,11], [12,13], [14,16], [17,19], [20,22], [23,25], [26,32], [33,35], [36,39], [40,43], [44,47], [48,51], [52,55], [56,59], [60,63], [64,68], [69,72], [73,76], [77,80], [81,84], [85,86], [87,89], [90,97], [98,100]]))})
+
+```
+
+:::{#potions-random-table}
+
+| **d%** | **Type**         |
+|--------|------------------|
+| 01-03  | Clairaudience    |
+| 04-06  | Clairvoyance     |
+| 07-08  | Cold Resistance  |
+| 09-11  | Control Animal   |
+| 12-13  | Control Dragon   |
+| 14-16  | Control Giant    |
+| 17-19  | Control Human    |
+| 20-22  | Control Plant    |
+| 23-25  | Control Undead   |
+| 26-32  | Delusion         |
+| 33-35  | Diminution       |
+| 36-39  | Fire Resistance  |
+| 40-43  | Flying           |
+| 44-47  | Gaseous Form     |
+| 48-51  | Giant Strength   |
+| 52-55  | Growth           |
+| 56-59  | Healing          |
+| 60-63  | Heroism          |
+| 64-68  | Invisibility     |
+| 69-72  | Invulnerability  |
+| 73-76  | Levitation       |
+| 77-80  | Longevity        |
+| 81-84  | Mind Reading     |
+| 85-86  | Poison           |
+| 87-89  | Polymorph Self   |
+| 90-97  | Speed            |
+| 98-00  | Treasure Finding |
+
+:::
 
 ## Scrolls
+
+```{ojs}
+
+Inputs.button("Roll on Table", 
+{value: 0, 
+reduce: () => highlightTableRow("#scrolls-table", 
+generalTableSelect([1,100,0],[[1,3], [4,6], [7,8], [9,9 ], [10,15], [16,20], [21,25], [26,29], [30,32], [33,34], [35,35  ], [36,40], [41,46], [47,56], [57,61], [62,75], [76,85], [86,89], [90,92], [93,100]]))})
+
+```
+
+:::{#scrolls-table}
 
 | **d%** | **General Type** |
 |----|----|
@@ -126,7 +308,20 @@ Generate the type and bonus of each item of magic armor on the tables below.
 | 90-92 | Map to Treasure Type G |
 | 93-00 | Map to 1d4 Magic Items |
 
+:::
+
 ## Rings
+
+```{ojs}
+
+Inputs.button("Roll on Table", 
+{value: 0, 
+reduce: () => highlightTableRow("#rings-table", 
+generalTableSelect([1,100,0],[[1,6],[7,12],[13,19],[20,30],[31,33],[34,44],[45,57],[58,66],[67,70],[71,71],[72,73],[74,75],[76,81],[82,83],[84,90],[91,97],[98,98],[99,100]]))})
+
+```
+
+:::{#rings-table}
 
 | **d%** | **Type** |
 |----|----|
@@ -149,7 +344,20 @@ Generate the type and bonus of each item of magic armor on the tables below.
 | 98 | Wishes |
 | 99-00 | X-Ray Vision |
 
+:::
+
 ## Wands, Staves and Rods
+
+```{ojs}
+
+Inputs.button("Roll on Table", 
+{value: 0, 
+reduce: () => highlightTableRow("#wands-table", 
+generalTableSelect([1,100,0],[[1,8],[9,13],[14,17],[18,28],[29,30],[31,34],[35,35],[36,40],[41,45],[46,50],[51,55],[56,60],[61,65],[66,73],[74,79],[80,84],[85,92],[93,100]]))})
+
+```
+
+:::{#wands-table}
 
 | **d%** | **Type** |
 |----|----|
@@ -172,40 +380,135 @@ Generate the type and bonus of each item of magic armor on the tables below.
 | 85-92 | Wand of Secret Door Detection |
 | 93-00 | Wand of Trap Detection |
 
+:::
+
 ## Miscellaneous Magic Items
 
-| **d%** | **Type** |
-|----|----|
-| 01-04 | Amulet of Proof against Detection and Location |
-| 05-06 | Bag of Devouring |
-| 07-12 | Bag of Holding |
-| 13-17 | Boots of Levitation |
-| 18-22 | Boots of Speed |
-| 23-27 | Boots of Traveling and Leaping |
-| 28 | Bowl Commanding Water Elementals |
-| 29 | Brazier Commanding Fire Elementals |
-| 30-35 | Broom of Flying |
-| 36 | Censer Commanding Air Elementals |
-| 37-39 | Cloak of Displacement |
-| 40-43 | Crystal Ball |
-| 44-45 | Crystal Ball with Clairaudience |
-| 46 | Drums of Panic |
-| 47 | Efreeti Bottle |
-| 48-54 | Elven Boots |
-| 55-61 | Elven Cloak |
-| 62-63 | Flying Carpet |
-| 64-70 | Gauntlets of Ogre Power |
-| 71-72 | Girdle of Giant Strength |
-| 73-78 | Helm of Reading Languages and Magic |
-| 79 | Helm of Telepathy |
-| 80 | Helm of Teleportation |
-| 81 | Horn of Blasting |
-| 82 | Horn of Doom |
-| 83-91 | Medallion of ESP |
-| 92 | Mirror of Life Trapping |
-| 93-97 | Rope of Climbing |
-| 98-99 | Scarab of Protection |
-| 00 | Stone Commanding Earth Elementals |
+Effect Subtables
+d%
+Subtable
+01-57
+Effect Subtable 1
+58-00
+Effect Subtable 2
+
+### **Effect Subtables**
+
+| d%    | Subtable          |
+|-------|-------------------|
+| 01-57 | Effect Subtable 1 |
+| 58-00 | Effect Subtable 2 |
+
+### **Effect Subtable 1**
+
+| d%    | Effect             | Form |
+|-------|--------------------|------|
+| 01    | Blasting           | G    |
+| 02-05 | Blending           | F    |
+| 06-13 | Cold Resistance    | F    |
+| 14-17 | Comprehension      | E    |
+| 18-22 | Control Animal     | C    |
+| 23-29 | Control Human      | C    |
+| 30-35 | Control Plant      | C    |
+| 36-37 | Courage            | G    |
+| 38-40 | Deception          | F    |
+| 41-52 | Delusion           | A    |
+| 53-55 | Djinni Summoning   | C    |
+| 56    | Doom               | G    |
+| 57-67 | Fire Resistance    | F    |
+| 68-80 | Invisibility       | F    |
+| 81-85 | Levitation         | B    |
+| 86-95 | Mind Reading       | C    |
+| 96-97 | Panic              | G    |
+| 98-00 | Penetrating Vision | D    |
+
+### **Effect Subtable 2**
+
+| d%    | Effect                       | Form |
+|-------|------------------------------|------|
+| 01-07 | Protection +1                | F    |
+| 08-10 | Protection +2                | F    |
+| 11    | Protection +3                | F    |
+| 12-14 | Protection from Energy Drain | F    |
+| 15-20 | Protection from Scrying      | F    |
+| 21-23 | Regeneration                 | C    |
+| 24-29 | Scrying                      | H    |
+| 30-32 | Scrying, Superior            | H    |
+| 33-39 | Speed                        | B    |
+| 40-42 | Spell Storing                | C    |
+| 43-50 | Spell Turning                | F    |
+| 51-69 | Stealth                      | B    |
+| 70-72 | Telekinesis                  | C    |
+| 73-74 | Telepathy                    | C    |
+| 75-76 | Teleportation                | C    |
+| 77-78 | True Seeing                  | D    |
+| 79-88 | Water Walking                | B    |
+| 89-99 | Weakness                     | C    |
+| 00    | Wishes                       | C    |
+
+
+Roll on the first table above to select a subtable, then
+roll again on the selected subtable to determine the
+exact effect. Finally, roll on the specified column of the
+Form table to determine the physical form of the item.
+
+### Form of Item
+
+::: {.table-responsive .column-screen-right}
+
+|                     | A     | B     | C     | D     | E     | F     | G     | H     |
+|---------------------|-------|-------|-------|-------|-------|-------|-------|-------|
+| Bell (or Chime)     | 01-02 |       |       |       |       |       | 01-17 |       |
+| Belt or Girdle      | 03-05 |       |       |       |       | 01-07 |       |       |
+| Boots               | 06-13 | 01-25 |       |       |       |       |       |       |
+| Bowl                | 14-15 |       |       |       |       |       |       | 01-17 |
+| Cloak               | 16-28 |       |       |       |       | 08-38 |       |       |
+| Crystal Ball or Orb | 29-31 |       |       |       |       |       |       | 18-67 |
+| Drums               | 32-33 |       |       |       |       |       | 18-50 |       |
+| Helm                | 34-38 |       |       |       | 01-40 |       |       |       |
+| Horn                | 39-43 |       |       |       |       |       | 51-00 |       |
+| Lens                | 44-46 |       |       | 01-17 |       |       |       |       |
+| Mirror              | 47-49 |       |       | 18-17 |       |       |       | 68-00 |
+| Pendant             | 50-67 | 26-50 | 01-40 | 18-50 | 41-80 | 39-50 |       |       |
+| Ring                | 68-00 | 51-00 | 41-00 | 51-00 | 81-00 | 51-00 |       |       |
+
+:::
+
+### Rare Items 
+
+| d%    | Type                                       |
+|-------|--------------------------------------------|
+| 01-05 | Bag of Devouring                           |
+| 06-20 | Bag of Holding                             |
+| 21-32 | Boots of Traveling and Leaping             |
+| 33-47 | Broom of Flying                            |
+| 48-57 | Device of Summoning Elementals (see below) |
+| 58-59 | Efreeti Bottle                             |
+| 60-64 | Flying Carpet                              |
+| 65-81 | Gauntlets of Ogre Power                    |
+| 82-86 | Girdle of Giant Strength                   |
+| 87-88 | Mirror of Imprisonment                     |
+| 89-00 | Rope of Climbing                           |
+
+
+## Devices of Summoning Elementals
+
+Review the information for [Elementals](monstersAll.qmd#elemental) 
+before randomly selecting any of these items, as you
+may not wish to allow all types of elementals in your
+campaign.
+
+| 1d8 | Type                                      |
+|-----|-------------------------------------------|
+| 1   | Bowl of Summoning Water Elementals        |
+| 2   | Brazier of Summoning Fire Elementals      |
+| 3   | Censer of Summoning Air Elementals        |
+| 4   | Crucible of Summoning Metal Elementals    |
+| 5   | Mallet of Summoning Wood Elementals       |
+| 6   | Marble Plate of Summoning Cold Elementals |
+| 7   | Rod of Summoning Lightning Elementals     |
+| 8   | Stone of Summoning Earth Elementals       |
+
 
 ## Explanation of Magic Items
 
@@ -285,8 +588,6 @@ A potion is an elixir concocted with a spell-like effect that affects only the d
 
 **Diminution:** This potion reduces the drinker and all items worn or carried to one-twelfth of his or her original height (so that a 6' tall character becomes 6" tall). The drinker's weight is divided by 1,728; this makes an armed warrior weigh less than 2.5 ounces. The affected creature cannot make an effective attack against any creature bigger than a house cat, but may be able to slip under doors or into cracks and has a 90% chance of moving about undetected (both in terms of sound and vision).
 
-**ESP:** This potion grants the power of the spell of the same name.
-
 **Fire Resistance:** This potion grants the imbiber the power of the spell **resist fire**.
 
 **Flying:** This spell grants the power of the spell **fly**.
@@ -309,6 +610,8 @@ A potion is an elixir concocted with a spell-like effect that affects only the d
 
 **Longevity:** The drinker of this potion becomes younger by 1d10 years.
 
+**Mind Reading**: This potion grants the power of the spell of the same name.
+
 **Poison:** This isn't a potion at all, it's a trap. The drinker must save vs. Poison or die, even if only a sip was imbibed.
 
 **Polymorph Self:** This potion grants the power of the spell of the same name.
@@ -330,6 +633,7 @@ Clerical scrolls are written in a normal language (being just specially enchante
 #### Spell Scrolls: Spell Level
 
 | **d%** | **Level of Spell** |
+|---|----|
 | 01-30 | 1st |
 | 31-55 | 2nd |
 | 56-75 | 3rd |
@@ -437,35 +741,219 @@ After all charges are used up from the staff, it remains a +2 walking staff. Onc
 
 **Wand of Trap Detection:** This wand grants the user a power equivalent to the spell **find traps**.
 
-### Miscellaneous Magic Items
+### Miscellaneous Items
 
-**Amulet of Proof against Detection and Location:** The wearer of this item is immune to all forms of scrying (including crystal balls, clairvoyance, clairaudience, and any other means of location or spying at a distance) as well as any form of mind reading (such as the spell **ESP**). Other characters who remain within 30' of the wearer are also immune to scrying, but not to mind reading.
+These items may take any of several forms, and have a
+variety of effects; when randomly rolled, the effect is
+determined first (as explained with the tables above)
+and then the form is rolled on a separate table.
+Generally, such an item is written as a [**Form**] of
+[**Effect**], for example, a **Cloak of Fire Resistance**.
 
-**Bag of Devouring:** This bag appears to be an ordinary sack. Detection for magical properties makes it seem as if it were a **bag of holding**, and in fact it performs exactly like one when first used. However, all items placed within disappear forever 1d6+6 turns later. The bag continues to weigh whatever it did after the items were placed within it (that is, one-tenth the total weight of the items), until it is again opened and discovered to be empty.
+Items with forms meant to be worn are limited in that
+only a normal number may be used at one time: at
+most two rings (one on each hand), one cloak, a pair of
+boots, one helm, and one pendant. If a character is
+wearing two items that grant the same continuous
+effect, such as **Cold Resistance** or **Protection**, only
+one such item will function. If the items have differing
+levels of effect, such as a **Cloak of Protection +1** and a
+**Ring of Protection +3**, only the more powerful item
+will operate (in this case, the ring).
 
-**Bag of Holding:** This appears to be a common cloth sack about 2 feet by 4 feet in size. The bag of holding opens into an extradimensional space, and is able to hold more than should be possible: up to 500 pounds of weight, and up to 70 cubic feet of volume. A bag of holding weighs one-tenth as much as the total of the objects held within. Any object to be stored in a bag of holding must fit through the opening, which has a circumference of 4 feet.
+While the tables on page 167 provide standard forms
+for miscellaneous items, the Game Master is in no way
+limited to what appears on the Form of Item table;
+items may be created with forms not normally allowed
+there, or indeed even in forms that are not there at all.
 
-If the bag is overloaded, or if sharp objects pierce it (from inside or outside), the bag ruptures and is ruined. All contents are lost forever. If a bag of holding is turned inside out, its contents spill out, unharmed, but the bag must be put right before it can be used again. If living creatures are placed within the bag, they can survive for up to one turn, after which time they suffocate. Retrieving a specific item from a bag of holding takes a full round during which no movement may be made.
+### Miscellaneous Item Effects
 
-**Boots of Levitation:** On command, these leather boots allow the wearer to **levitate** as if by the spell of the same name.
+**Blasting**: When this device is played (as appropriate
+for its form), it creates a powerful blast of sound filling a
+cone 10’ long and 2’ wide at the base. Those within
+the area of effect suffer 2d6 points of damage and are
+deafened for 1 full turn. A successful saving throw vs.
+Death Ray reduces damage by half and reduces the
+period of deafness to a single round.
 
-**Boots of Speed:** The wearer of these boots can click his or her boot heels together, thus activating a **haste**spell effect for up to 10 rounds each day. The duration of the **haste**effect need not be consecutive rounds; the boots can be turned off and on as desired.
+The device can also be used to damage or destroy
+buildings, fortifications, etc. Double the damage listed
+above when this item is used against a structure. The
+[Stronghold](gm02.qmd#strongholds) rules in the Game Master section contains
+further guidance on this.
 
-**Boots of Traveling and Leaping:** These boots increase the wearer's base land speed by an additional 10' per round. In addition to this traveling ability, these boots allow the wearer to make great leaps, jumping up to 10' high and/or 30' across.
+**Blending**: The wearer of this item becomes nearly
+invisible, granting an 80% chance that the wearer can
+move about unnoticed. If detected by onlookers, the
+wearer can be attacked without significant penalty.
 
-**Bowl Commanding Water Elementals:** This large container is usually fashioned from blue or green semiprecious stone. It is about 1 foot in diameter, half that deep, and relatively fragile. When the bowl is filled with fresh water, and certain words are spoken, a water elemental appears and follows the commands of the summoner (as described for the Elemental monster entry). The summoning words require 1 full round to speak. Only one such elemental can be called per day.
+**Cold Resistance**: The wearer of this device receives
+protection as the spell resist cold, but the protection
+works continually.
 
-**Brazier Commanding Fire Elementals:** This device appears to be a normal container for holding burning coals. When a fire is lit in the brazier and the proper summoning words are spoken, a fire elemental appears and follows the commands of the summoner (as described for the Elemental monster entry). The summoning words require 1 full round to speak. Only one such elemental can be called per day.
+**Comprehension**: The wearer of this device is granted
+the ability to read any language, including any form of
+magical script. Being able to read magic does not
+confer magical abilities upon the wearer, but if worn by
+a magic-user it grants the effects of **read magic**
+constantly. Note that when reading non-magical texts,
+the limitations described under the spell **read languages** apply to this device also.
 
-**Broom of Flying:** This broom is able to fly through the air for up to 9 hours per day (split up as its owner desires). The broom can carry 200 pounds and fly at a speed of 40 feet, or up to 400 pounds at a speed at 30 feet. In addition, the broom can travel alone to any destination named by the owner as long as he or she has a good idea of the location and layout of that destination. It comes to its owner from as far away as 300 yards when the command word is spoken.
+**Control Animal**: The wearer of this device can charm
+up to 6 hit dice of animals. The effect works much like
+a [charm person](allSpells.qmd#charm-animal) spell, but only affects animals
+(including giant-sized animals, but excluding fantastic
+creatures as well as anything more intelligent than a dog
+or cat). The wearer can activate the power at will,
+targeting any animal within 60' that they can see. The
+wearer may choose to end the effect for one or more
+controlled creatures at any time, in order to "free"
+enough hit dice to control a new target.
 
-**Censer Commanding Air Elementals:** This 6-inch-wide, 1-inch-high perforated golden vessel resembles a thurible found in a place of worship. If it is filled with incense and lit, summoning words spoken over it summon forth an air elemental which follows the commands of the summoner (as described for the Elemental monster entry). The summoning words require 1 full round to speak. Only one such elemental can be called per day.
+**Control Human**: The wearer of this device may cast
+the spell [charm person](allSpells.qmd#charm-person) at any target they can see
+within 60'. The wearer can use this power once per
+round, at will. If more than one humanoid is to be
+affected, the wearer cannot control more than 6 hit dice
+or levels of humanoids at a time; however, the wearer
+may choose to end the effect for one or more
+controlled creatures at any time, in order to "free"
+enough hit dice or levels to control a new target.
 
-**Cloak of Displacement:** This item appears to be a normal cloak, but when worn by a character its magical properties distort and warp light waves, causing the wearer's apparent location to shift around constantly over a range of 3' from his or her true location. The first melee or missile attack by any creature against the wearer will miss, and all further attacks by that attacker are made with an attack penalty of -2. This is not cumulative with the penalty for fighting blind.
+**Control Plant**: The wearer of this device may create
+an effect equivalent to a **Potion of Plant Control** at
+will, affecting plants or plant creatures within 60' that
+they can see. The effect lasts as long as the wearer
+remains within 60' of the plants or plant creatures. A
+saving throw is allowed just as for the potion.
 
-**Crystal Ball:** This is the most common form of scrying device, a crystal sphere about 6 inches in diameter. They may only be used by Magic-Users, who can use the device to see over virtually any distance. A crystal ball can be used three times per day, for up to a turn each time.
+**Courage**: When this device is played, all characters
+and creatures friendly to the user within 60 feet are
+affected as by the spell [remove fear](allSpells.qmd#remove-fear).
 
-The chance of success when using a crystal ball is as shown below. Total chances equal to or greater than 100% do not require a roll.
+Deception: This device grants to the wearer the power
+of the Deceiver (as described on page 75). Any
+attacker will believe the wearer is 3 feet from their true
+location, and the attacker's first strike will always miss.
+Thereafter, the attacker suffers a penalty of -2 on all
+attack rolls. This ring does not affect mindless
+creatures, constructs such as golems or living statues, or
+any sort of undead. Living creatures which are not
+mindless will be affected even if they do not use sight to
+target the wearer.
+
+Delusion: Whoever wears this device believes it is
+some other form of useful magical device, and behaves
+thus (so for example, if Darion believes he is wearing a
+**Ring of Invisibility** he will believe himself to actually be
+invisible). Unlike the potion of the same name, the
+device's effect is not dispelled by the wearer suffering
+damage; in fact, the only way to rid a character of this
+cursed item is with the spell [remove curse](allSpells.qmd#remove-curse).
+
+**Djinni Summoning**: Each device of this type has a
+specific djinni bound to it, which will be summoned to
+the wearer's location when they rub the device while
+wearing it. The djinni appears in the next round and
+protects, serves, and obeys the wearer. The djinni will
+serve at most 1 hour per day, and can be summoned at
+most once per day. If the djinni bound to a device is
+ever slain, the ring loses all magical properties.
+
+**Doom**: When this device is played (as appropriate for
+its form), this device will create animated skeletons or
+zombies as if by the spell [animate dead](allSpells.qmd#animate-dead). Up to 3d6 hit
+dice of undead monsters will be so created from
+remains within a 60' radius of the character who
+activated the device. If both skeletal and fleshy remains
+are available in the area of effect, skeletons will be
+animated in preference over zombies. If the user is a
+magic-user or cleric, the created undead may be
+controlled so long as that character retains the device.
+If played by a fighter or thief, the undead created will
+be uncontrolled, and will attack any living creatures
+nearby. The device may be used once per day, but no
+more than 18 hit dice of undead created by it may exist
+at any one time.
+
+**Fire Resistance**: The wearer of this device receives
+protection as the spell [resist fire](allSpells.qmd#resist-fire), but the protection
+works continually.
+
+**Invisibility**: The wearer of this device can become
+invisible (as the spell [invisibility](allSpells.qmd#invisibility)) on command. If the
+invisibility is dispelled (as described for the spell), the
+device may not be reactivated for one full turn. The
+invisibility effect otherwise lasts for 24 hours.
+Levitation: The wearer of this device may levitate (as
+the spell) at will by concentrating. There is no limit to
+how long this device may be used.
+
+**Mind Reading**: Whoever wears this device has access
+to a permanent form of the spell [mind reading](allSpells.qmd#mind-reading); it is
+always available but only activates when the wearer
+spends a full round concentrating upon it, and persists
+until the wearer ceases to use it. The effect can be
+activated as many times per day as the wearer wants.
+
+**Panic**: When this device is played (as appropriate for
+its form), all creatures more than 20 feet from the user
+but not over 120 feet away must save vs. Spells or be
+affected as by the spell [cause fear](allSpells.qmd#remove-fear).
+
+**Penetrating Vision**: On command, and for so long
+thereafter that the wearer concentrates on it, this device
+confers the power to see through solid matter as if it
+were transparent as glass. The effect extends at most
+20 feet, and the wearer sees as if in normal light even if
+they are in fact in total darkness.
+
+This effect is blocked by certain materials; the wearer
+can see through at most 3 feet of wood or soil, 1 foot of
+stone, or 1 inch of most metals. Gold or lead no thicker
+than foil will completely block the effect.
+
+The device may be used three times per day, and each
+use lasts at most one turn.
+
+**Protection**: The wearer of an item with this power
+receives the listed benefit (from +1 to +3) to their
+Armor Class for so long as the ring is worn. This bonus
+is also applied to the wearer's saving throw die rolls.
+
+**Protection from Energy Drain**: This device has the
+power to absorb and neutralize energy-draining attacks,
+death spells or effects (such as slay living), and curses
+that would otherwise affect the wearer. The device has
+2d6 charges when found, and each negative level,
+curse, or spell absorbed consumes one charge. When
+the device's charges are exhausted it disintegrates into
+golden sparkles and disappears.
+
+**Protection from Scrying**: The wearer of this item is
+immune to all forms of scrying (including crystal balls,
+clairvoyance, clairaudience, and any other means of
+location or spying at a distance) as well as any form of
+mind reading. Other characters who are within 30' of
+the wearer are also immune to scrying, but not to mind
+reading
+
+**Regeneration**: This device grants the wearer the
+power of regeneration, exactly as described in the
+description of the Troll on page 151, including the
+weakness with respect to acid and fire damage. Note
+that this device will only heal damage suffered while it is
+worn; pre-existing damage is not healed by putting on
+the device.
+
+**Scrying**: This device can be used to spy upon other
+people or locations, regardless of distance. A scrying
+device may only be used by Magic-Users. It can be
+used three times per day, for up to a turn each time.
+The chance of success when using a scrying device is as
+shown below. Total chances equal to or greater than
+100% do not require a roll.
 
 | **Knowledge and Connection** | **Chance** |
 |----|-----|
@@ -475,48 +963,357 @@ The chance of success when using a crystal ball is as shown below. Total chances
 | Possession or garment | +25% |
 | Body part, lock of hair, bit of nail, etc. | +50% |
 
-The user of the crystal ball is the only one who will see the image. No sound will be heard normally. **Detect magic**, **detect evil**, and **ESP** have a 3% chance per level of the caster of operating correctly if used with a crystal ball.
+The user of the device is the only one who will see the
+image. No sound will be heard normally. **Detect magic, detect evil, and mind reading** have a 3%
+chance per level of the caster of operating correctly if
+used with a scrying device.
 
-**Crystal Ball with Clairaudience:** This item works exactly like the standard crystal ball, above, but also allows the user to hear any sounds in the location viewed as if he or she were there.
+**Scrying, Superior**: This item works exactly like a
+standard scrying device, as described above, but also
+allows the user to hear any sounds in the location
+viewed as if they were there.
 
-**Drums of Panic:** These drums are kettle drums (hemispheres about 1-1/2 feet in diameter on stands). They come in pairs and are unremarkable in appearance. If both of the pair are sounded, all creatures of less than 6 hit dice within 120' (with the exception of those within a 20' radius safe zone around the drums) must save vs. Spells or flee in fear. The drums can be used once per day.
+**Speed**: The wearer of this device can activate it with a
+command word (or by clicking their heels together, if
+the item takes the form of boots) and gain the effect of
+a [haste](allSpells.qmd#haste) spell, and can end the effect the same way.
+The effect can be used for a total of 10 rounds each
+day.
 
-**Efreeti Bottle:** This item is typically fashioned of brass or bronze, with a lead stopper bearing special seals; or, it may be a lamp made of brass. A thin stream of smoke is often seen issuing from it. The bottle can be opened once per day. When opened, the efreeti imprisoned within issues from the bottle instantly. There is a 10% chance (01--10 on d%) that the efreeti is insane and attacks immediately upon being released. There is also a 10% chance (91--100) that the efreeti of the bottle grants three wishes. In either case, the efreeti afterward disappears forever. The other 80% of the time (11--90), the inhabitant of the bottle loyally serves the character for up to an hour per day for 101 days (or until the efreeti's death), doing as he or she commands. After 101 days have passed, the efreeti is freed from service and may return to its extradimensional home. Roll only the first time the bottle is opened (or the GM may choose which sort of bottle is found as he or she desires).
+**Spell Storing**: These much sought-after devices each
+contain a number of spells which can be cast by the
+wearer. Most of them contain Magic-User spells, but 1
+in 10 contains Clerical spells instead. *No device may contain spells of both types*! Each spell stored in the device is cast as if by the lowest-level character who
+could normally cast the spell, but not less than 6th level
+in any case.
 
-**Elven Boots:** These soft boots enable the wearer to move quietly in virtually any surroundings, granting a 90% chance of success when moving silently (as the Thief ability of the same name).
+Any class may wear and use this device, but it can only
+be recharged by casting the appropriate spell into it. A
+table is provided below to determine how many spells,
+and what levels they are. A spell storing device must be
+recharged with the same spells that were placed into it
+when it was made; so a **Pendant of Two Spell Storing**
+containing fireball and fly can only be recharged with
+those two spells.
 
-**Elven Cloak:** This cloak of neutral gray cloth is indistinguishable from an ordinary cloak of the same color. However, when worn with the hood drawn up around the head, the wearer becomes nearly invisible, granting an 80% chance that the wearer can move about unnoticed. If detected by onlookers, the wearer can be attacked without significant penalty.
+The wearer of one of these devices automatically knows
+the names of the spells stored within it, but is not
+granted detailed knowledge of how each spell works. If
+the wearer is not a magic-user and no such character is
+available to advise the wearer, there may be some
+difficulty in using it successfully (and safely).
 
-**Flying Carpet:** This rug is able to fly through the air on command. A flying carpet is typically 5' x 8' in size and can carry up to 500 pounds at a movement rate of 100' per round, or up to 1000 pounds (its maximum capacity) at a rate of 50' per round. A flying carpet can fly at any speed up to its maximum, and can hover on command.
+A device of this type found in a treasure hoard may be
+completely charged, or discharged, or partially charged,
+at the GM's option.
 
-**Gauntlets of Ogre Power:** These gauntlets are made of tough leather with iron studs running across the back of the hands and fingers. They grant the wearer a Strength bonus of +4 (instead of his or her own Strength bonus). Both gauntlets must be worn for the magic to be effective.
+| d%    | no of Spells | d%    | Level of Spell |
+|-------|--------------|-------|----------------|
+| 01-24 | 1            | 01-30 | 1st            |
+| 25-48 | 2            | 31-55 | 2nd            |
+| 49-67 | 3            | 56-75 | 3rd            |
+| 68-81 | 4            | 76-85 | 4th            |
+| 82-91 | 5            | 86-97 | 5th            |
+| 92-96 | 6            | 98-00 | 6th            |
+| 97-00 | 7            |       |                |
 
-**Girdle of Giant Strength:** This item grants the wearer the Strength of a giant. For so long as it is worn, the wearer gains a Strength bonus of +5 (instead of his or her own Strength bonus), and can throw large stones just as a stone giant does.
+**Spell Turning**: This device reflects spells cast directly
+at the wearer, but not area effect spells, back at the
+caster; so a [hold person](allSpells.qmd#hold-person) spell would be reflected, but
+not a [fireball](allSpells.qmd#fireball). It will reflect up to 2d6 spells before its
+power is exhausted.
 
-**Helm of Reading Languages and Magic:** Appearing as a normal helmet, this helm grants its wearer the ability to understand the spoken words of any creature and to read text in any language and any magical writing. Note that the limitations described under the spell **read languages** apply to this device also. Understanding a magical text does not necessarily imply spell use.
+**Stealth**: The wearer of this device can move quietly in
+virtually any surroundings, granting a 90% chance of
+success when moving silently (as the Thief ability of the
+same name).
 
-**Helm of Telepathy:** The wearer can read the surface thoughts of a target creature within 90' as if using the spell **ESP**. Furthermore, he or she can send a telepathic message to anyone whose surface thoughts are thus being read (allowing two-way communication). This helm may be used up to three times per day.
+**Telekinesis**: The wearer of this device can use the
+power of the spell [telekinesis](allSpells.qmd#telekinesis), as if cast by a 12th level
+Magic-User. The effect may be used as many times per
+day as the wearer wishes, but lasts only as long as the
+wearer concentrates on it.
 
-**Helm of Teleportation:** A character wearing this device may **teleport**three times per day, exactly as if he or she had cast the spell of the same name.
+**Telepathy**: Three times per day this item can be
+activated by use of its command word, at which point it
+will grant the wearer the power of a special version of
+the [mind reading](allSpells.qmd#mind-reading) spell which has a range of 90 feet
+and lasts for 1 turn. During this time the wearer can
+send thoughts to the mind of any creature whose
+thoughts the wearer is already reading, allowing
+communication.
 
-**Horn of Blasting:** This horn appears to be a normal trumpet. It can be sounded as a normal horn, but if the command word is spoken and the instrument is then played, it deals 2d6 points of damage to creatures within a cone 40' long and 40' wide at the far end, and causes them to be deafened for 2d6 rounds. Affected creatures may save vs. Death Ray, taking half damage and avoiding deafness if the save is made. Crystalline creatures take double damage. Nonliving creatures are generally immune to deafness, but still suffer damage as described.
+**Teleportation**: Upon command the wearer of this item
+may cast the spell [teleportation](allSpells.qmd#teleport) as if by a wizard of the
+12th level of ability. This power can be used up to 3
+times per day.
 
-If a horn of blasting is used magically more than once in a given day, there is a 10% cumulative chance with each extra use that it explodes and deals 3d6 points of damage to the person sounding it.
+**True Seeing**: Three times per day this device can grant
+the user the power of the spell [true seeing](allSpells.qmd#true-seeing). Each use
+lasts at most one turn.
 
-The horn can also be used to damage or destroy buildings, fortifications, etc. Double the damage listed above when a **horn of blasting** is used against a structure. The **Stronghold** rules in the **Game Master** section contains further guidance on this.
+**Water Walking**: This device allows the wearer to walk
+on any liquid as if it were firm ground. Mud, oil, snow,
+quicksand, running water, ice, and even lava can be
+traversed easily, since the wearer’s feet hover an inch or
+two above the surface. Molten lava will still cause the
+wearer damage from the heat since they are still near it.
+The wearer can walk, run, or otherwise move across
+the surface as if it were normal ground.
 
-**Horn of Doom:** When blown, this horn will create animated skeletons or zombies as if by the spell **animate dead.** Up to 3d6 hit dice of undead monsters will be so created from remains within a 60' radius of the character who blew the horn. If both skeletal and fleshy remains are available in the area of effect, skeletons will be animated in preference over zombies. If the user is a magic-user or cleric, the created undead may be controlled so long as that character retains the horn. If blown by a fighter or thief, the undead created will be uncontrolled. Uncontrolled undead monsters will attack any living creatures nearby. The horn may be used once per day, but no more than 18 hit dice of undead created by the horn may exist at any one time.
+**Weakness**: Whoever puts this device on is cursed;
+their Strength score is reduced immediately to 3. The
+device can only be removed with remove curse.
 
-**Medallion of ESP:** This appears to be a normal pendant disk hung from a neck chain. Usually fashioned from bronze, copper, or nickel-silver, the medallion allows the wearer to read the thoughts of others, as with the spell **ESP**. It can be used as many times per day as desired, but each such usage requires a minimum of 1 round of full concentration to activate, and the wearer must continue to concentrate to maintain the effect.
+**Wishes**: This device contains the power to grant
+wishes to the wearer. 1d4 wishes will remain within the
+ring when it is found. The GM must adjudicate all
+wishes, and instructions are given in the **Game Master**
+section regarding this.
 
-**Mirror of Life Trapping:** This crystal device is usually about 4 feet square and framed in metal or wood. It can be hung or placed on a surface and then activated by giving a command word. Only a Magic-User can properly control this device. The same command word deactivates the mirror. The character who activates the device is immune to it. The mirror has twenty extradimensional cells within it; any creature coming within 30' of the device and looking at its own reflection must make a save vs. Spells or be trapped within the mirror in one of the cells.
+### Rare Items
 
-When a creature is trapped, it is taken bodily into the mirror. Size is not a factor, but constructs and undead are not trapped. A victim's equipment (including clothing and anything being carried) is taken also. The mirror's owner can call the reflection of any creature trapped within to its surface and engage the powerless prisoner in conversation. He or she can also free any trapped creature by verbal command.
+**Bag of Devouring**: This device appears, to all tests, to
+be a normal **Bag of Holding**, and in fact it performs
+exactly like one at first. However, all items placed
+within disappear forever 1d6+6 turns later. The bag
+continues to weigh whatever it did after the items were
+placed within it (that is, one-tenth the total weight of the
+items), until it is opened and discovered to be empty.
 
-If the mirror's capacity is exceeded, one victim (determined randomly) is set free in order to accommodate the latest one. If the mirror is broken, all victims currently trapped in it are freed.
+**Bag of Holding**: This device is a bag which appears to
+be about 2 feet wide and 4 feet deep. It opens into an
+extradimensional space, and is able to hold more than
+should be possible: up to 500 pounds of weight, and up
+to 70 cubic feet of volume. The bag weighs one-tenth
+as much as the total of the objects held within. Any
+object to be stored in the bag must fit through the
+opening, which has a circumference of 4 feet.
 
-**Rope of Climbing:** This 50' long rope is no thicker than a wand, but it is strong enough to support 3,000 pounds. Upon command, the rope snakes forward, upward, downward, or in any other direction at 10' per round, attaching itself securely wherever its owner desires. It can unfasten itself and return in the same manner. The rope must have something to tie itself to in order to support weight other than its own. One end of the rope must be held by the user when its magic is invoked.
+Puncturing or tearing the bag will destroy its magic and
+cause all contents to be lost forever. If this item is
+turned inside out all contents are dumped. The bag is
+unharmed, but it will no longer work until it is turned
+right side out again. If living creatures are placed inside
+they will suffocate within a turn (with exceptions for
+creatures resistant to suffocation as determined by the
+GM). The bag's volume cannot be overfilled (as excess
+items simply cannot be put inside), but if overloaded
+above 500 pounds and then lifted it will be torn.
 
-**Scarab of Protection:** This device appears to be a silver medallion in the shape of a beetle. The scarab absorbs energy-draining attacks, death effects, and curses*.* Upon absorbing 2d6 such attacks, the scarab crumbles to dust and is destroyed.
+Getting any particular item from the bag requires the
+bearer to spend a round searching during which no
+movement may be made.
 
-**Stone Commanding Earth Elementals:** A stone of this nature is typically an oddly shaped piece of roughly polished rock. The possessor of such a stone need but utter a few words of summoning, and a Huge earth elemental comes to the summoner and follows the commands of the summoner (as described for the Elemental monster entry). The summoning words require 1 full round to speak. Only one such elemental can be called per day.
+**Boots of Traveling and Leaping**: These boots allow
+the wearer to make great leaps, jumping up to 10' high
+and/or 30' across. They improve the wearer's
+movement so greatly that they also increase their
+movement rate on land by an additional 10' per round.
+
+**Broom of Flying**: This broom is able to fly through the
+air for up to 9 hours per day (split up as its owner
+desires). The broom can carry 200 pounds and fly at a
+speed of 40 feet, or up to 400 pounds at a speed at 30
+feet. In addition, the broom can travel alone to any
+destination named by the owner as long as they have a
+good idea of the location and layout of that destination.
+It comes to its owner from as far away as 300 yards
+when the command word is spoken.
+
+**Efreeti Bottle**: This item may appear as an ornate
+bottle, or sometimes as a magic lamp. It can be
+activated once per day, by opening it if it takes the form
+of a bottle or by rubbing it if it takes the form of a lamp.
+When activated, smoke pours out and forms into an
+efreeti.
+
+The efreeti released was trapped in the bottle and
+forced to serve whoever activates it. However, an
+efreeti who has spent too long in a bottle may have lost
+its mind, and if this happens the efreeti will begin a
+frenzied attack upon whoever activated the bottle,
+disappearing when either the user of the bottle or the
+efreeti is dead. There is, fortunately, only a 1 in 10
+chance this will happen.
+
+On the other hand, there is also a 1 in 10 chance that
+the efreeti of the bottle is able to grant three wishes to
+the user. If this is the case, the efreeti will perform no
+other service, and cannot return to the bottle after it is
+activated until the user makes a wish. Subsequent
+wishes require additional activations, and upon the final
+wish being granted the efreeti disappears for good.
+
+Roll 1d10 when the bottle is first activated; on a roll of
+1, the efreeti is insane, while on a roll of 0 the efreeti
+has three wishes to grant. If neither of these results is
+rolled, the efreeti will serve the user for up to one hour
+per day for 101 days, after which time it is freed and
+will disappear. Note that after the first activation, every
+day that passes is counted toward the 101 days
+whether or not the user activates the bottle.
+
+**Flying Carpet**: This item appears to be a fancy rug of
+the sort found in the castle of a king. It has the power
+to fly, carrying those upon it as if they stand upon a
+solid surface. A flying carpet is typically 5' x 8' in size
+and can carry up to 500 pounds at a movement rate of
+100' per round, or up to 1,000 pounds (its maximum
+capacity) at a rate of 50' per round. A flying carpet can
+fly at any speed up to its maximum, and can hover on
+command.
+
+**Gauntlets of Ogre Power**: These thick leather gloves
+grant the wearer a Strength bonus of +4 (instead of
+their own Strength bonus). Both gauntlets must be
+worn for the magic to be effective.
+
+**Girdle of Giant Strength**: This broad leather belt
+grants the wearer the strength of a giant. For so long as
+it is worn, the wearer gains a Strength bonus of +5
+(instead of their own Strength bonus), and can throw
+large stones just as a stone giant does.
+
+**Mirror of Imprisonment**: This item can appear as any
+style of full-length or larger mirror. It is a form of
+magical trap, which can be set or deactivated by
+speaking a command word followed by "activate" or
+"deactivate."
+
+When in its active state, any character or creature who
+stands within 30 feet of the mirror and sees its reflection
+must save vs. Spells or be drawn bodily into the mirror,
+including all items worn or carried. The victim is placed
+within one of 20 metaphysical cells inside the mirror.
+Those trapped in the mirror are mere reflections and
+are unable to take any action. The last character who
+spoke the command word to the mirror is immune to its
+power, as are undead, constructs, and any creature that
+lacks eyes.
+
+A character who speaks the command word and then
+calls the number of a cell will cause the reflection of the
+occupant of that cell to appear in the mirror. The
+trapped creature can move and speak, but cannot cast
+spells or take any other real action. The controlling
+character may interrogate the trapped victim if desired,
+though the mirror does not compel the victim to
+respond or to be truthful. The controller may at any
+time speak the command word again and say "return"
+and the victim will be returned to its cell; or, the
+controller can say the command word followed by
+"come out" to free the victim, who appears standing
+beside the controller.
+
+Should all cells be full when a creature is drawn inside,
+one cell chosen at random will be emptied with the
+freed creature appearing where the trapped one had
+been standing. The freed creature is safe from the
+mirror for one turn thereafter before it can again be
+trapped. All victims will be freed instantly if the mirror
+is broken.
+
+**Rope of Climbing**: This 50 foot long rope is about ½
+inch in diameter, but is capable of supporting up to
+3,000 pounds if tied to a secure anchor point. When
+the user holds one end of the rope and speaks the
+command word, the rope animates, moving like a
+snake at a rate of 10' per round in whatever direction
+the user commands. The rope is even able to move
+into a completely vertical position if so ordered. It can
+be commanded to tie itself to any anchor point within
+reach (since the user must continue holding one end of
+the rope, it can reach no more than 50 feet from that
+point). The rope has no real strength and thus cannot
+lift or support any weight if not tied to an anchor point.
+
+### Devices for Summoning Elementals
+
+These devices all grant the power to summon and
+control an elemental. As noted, the GM is likely to
+choose to allow only certain types of Elementals, so not
+all of these devices may be available in your campaign.
+
+When one of these devices is activated in accordance
+with the summoning rules described for the Elemental
+monster entry on page 88, an appropriate elemental
+appears and follows the summoner's commands.
+
+**Bowl of Summoning Water Elementals**: This device
+is about the size of a punch bowl, and will be made of
+precious metals set with jewels. To activate this device,
+it must be filled with fresh water (at least a quart) and
+the command words inscribed around its rim must be
+spoken, which requires a full round to complete.
+
+**Brazier of Summoning Fire Elementals**: This device
+appears to be a small brazier, a metal bowl with legs
+and cage-like sides which stands about a 1½ feet tall.
+Braziers are meant to hold fire. To activate this device,
+a fire must be built in this brazier and the command
+words inscribed around its rim-band must be spoken,
+which requires a full round to complete.
+
+**Censer of Summoning Air Elementals**: This device
+appears to be an ornate but ordinary censer, a kind of
+bowl with a perforated lid and a chain which is used to
+lift and swing the device. These are normally used in
+worship, but this device is made for a different purpose.
+To activate this device, incense must be placed in the
+bowl, lit, and covered, and the command words
+inscribed around the edge of the lid must be spoken,
+which requires a full round to complete.
+
+**Crucible of Summoning Metal Elementals**: This
+device appears to be a small crucible, an open-topped
+vessel used for melting metal. To activate this device, it
+must be placed on a solid, adequately heat-resistant
+surface and the command words inscribed around the
+edge of the lid must be spoken, which requires a full
+round to complete.
+
+The crucible becomes very hot while the metal
+elemental is present, causing 2d8 points of damage to
+any character who dares to touch it barehanded and
+2d6 points even if wearing armor or ordinary fabric or
+leather gloves. The crucible requires a full turn to cool
+after use.
+
+**Mallet of Summoning Wood Elementals**: This is a
+wooden mallet of the sort used by builders to drive in
+pegs; though it could be used as a weapon, it is a poor
+excuse for one as it does just 1d4 points of damage on
+a hit and is not treated as a magic weapon. To activate
+this device, it must be held in the hand and the
+command words inscribed on one side of the hammer-
+head must then be spoken, which requires a full round
+to complete.
+
+**Marble Plate of Summoning Cold Elementals**: This
+device is a circular plate of marble about 9 inches in
+diameter and about ¾ of an inch thick. To activate this
+device, it must be placed level on a solid, stable surface
+and a full skin of fresh water must be poured upon it; as
+the water touches the base it magically freezes into a
+small sculpture of a cold elemental. The command
+words inscribed around the rim of the plate must then
+be spoken, which requires a full round to complete.
+
+**Rod of Summoning Lightning Elementals**: This
+device appears as a copper rod about ¾ inch thick and
+2 feet long, tipped with a polished ball of amber. The
+rod will have a smooth, polished green surface (a thin
+coating of verdigris) but will not be pitted or damaged
+by the corrosion. To activate this device it must be held
+in the hand and the command words inscribed on the
+length of the rod must then be spoken, which requires a
+full round to complete.
+
+**Stone of Summoning Earth Elementals**: This device
+is a roughly-cut but highly-polished stone in which a
+vein or cluster of precious or semi-precious stones is
+visible. To activate this device, it must be held in the
+user's hands and the command words inscribed on the
+smoothest area of the stone must be spoken, which
+requires a full round to complete.

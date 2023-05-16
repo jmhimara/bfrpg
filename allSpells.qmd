@@ -1561,7 +1561,7 @@ Those affected are thus concealed from other creatures passing through the area 
 
 <div class="spell" data-tag="Mind Control" id="Mind Control">
 
-## Mind Control
+## Mind Reading
 
 Range: 60'
 
