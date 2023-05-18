@@ -5,6 +5,7 @@ project:
 book:
   title: "Basic Fantasy RPG, 4th edition"
   author: "Chris Gonnerman"
+  google-analytics: "G-JS65M33XZB"
   date: "5/2/2023"  
   chapters:
     - index.qmd
@@ -52,8 +53,8 @@ book:
       chapters:
         - extraClasses.qmd
         - extraRaces.qmd
-        
-        
+
+
 
 format:
   html:
