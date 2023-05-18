@@ -72,12 +72,12 @@ Higher priced armorers or weaponsmiths may be hired to assist in making magic we
 
 Costs per month for each sort of character are given below:
 
-| Seaman Type | Cost |
-|--------|------|
-| Captain | 300 gp |
-| Navigator | 200 gp |
-| Sailor | 10 gp |
-| Rower | 3 gp |
+| Seaman Type | Cost   |
+|-------------|--------|
+| Captain     | 300 gp |
+| Navigator   | 200 gp |
+| Sailor      | 10 gp  |
+| Rower       | 3 gp   |
 
 In general, all such characters are normal men, and are not armored; they will usually be armed with clubs, daggers, or shortswords. Player characters with appropriate backgrounds may act as Captain, but unless experienced as a ship's captain, they will have difficulty commanding respect from the regular sailors (lower the Morale of such regular sailors by -2 if led by an inexperienced Captain).
 

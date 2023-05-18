@@ -498,6 +498,23 @@ export function calculateModifier (stat) {
 
 }
 
+
+export function convertToGold(value, coin) {
+  switch(coin){
+    case "gp":
+      return value
+    case "pp":
+      return value*5
+    case "sp": 
+      return value*0.1
+    case "cp":
+      return value*0.1*0.2
+  }
+}
+
+
+
+
 export {
     rolld4, rolld6,
     generalDice, turnUndead, treasureGeMTable, highlightTableRow

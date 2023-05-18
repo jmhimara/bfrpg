@@ -1,0 +1,441 @@
+# Additional Races
+
+## Gnomes
+
+### Introduction 
+
+This supplement provides information for playing Gnomes, an additional demi-human race, under the Basic Fantasy Role-Playing Game rule system.  If you do not already have a copy of the Basic Fantasy RPG rules, please visit the website and download a copy.
+
+### Description 
+
+:::{.column-margin}
+
+
+**Release 5**
+
+Copyright © 2007, 2011, 2017 Chris Gonnerman
+
+All Rights Reserved
+
+Distributed under the terms of the Open Game License version 1.0a
+:::
+
+Gnomes are small and stocky, more so than Halflings but not as much as Dwarves; both male and female Gnomes stand around three and a half feet tall and typically weigh around 90 pounds.  Their hair and beards may be blond, brown, black, or sometimes red.  They have a fair to ruddy complexion. The most noticeable features about a Gnome from the standpoint of other races is their pointed ears and noses.  They are renowned for their rapidly changing moods, sometimes gruff and contrary, sometimes whimsical and humorous.  They have a lifespan between two and three centuries long.
+
+**Restrictions:** Gnomes may become Clerics, Fighters, Magic-Users, Thieves, or Magic-User/Thieves. They are required to have a minimum Constitution of 9. Due to their small stature, they may not have a Strength higher than 17. Gnomes never roll larger than six-sided dice (d6) for hit points regardless of class. They may not employ Large weapons more than four feet in length (specifically, two-handed swords, polearms, and longbows). With respect to encumbrance, treat Gnomes as equivalent to Halflings.
+
+**Special Abilities:** All Gnomes have Darkvision with a 30' range. When attacked in melee by creatures larger than man-sized, Gnomes gain a +1 bonus to their Armor Class.
+
+Gnomes are naturally very observant; being smaller than most other races has made them cautious and aware of their surroundings. As a consequence, a gnome has a 10% chance to detect an invisible or hidden creature within a 30' radius. This ability does not apply to inanimate objects such as secret doors or invisible objects. A thief hiding in shadows, an invisible sprite, or a character wearing an elven cloak may all be detected in this way. As with any detection ability, the GM should make this roll.
+
+A gnome who has detected a hidden thief can see him or her dimly; truly invisible creatures are sensed by their breathing, by the way echoes change in their vicinity, and so on. When fighting an invisible opponent, a gnome who has successfully detected the invisible creature suffers only a -2 penalty on the attack roll, rather than the usual -4 penalty as given on page 52 of the Core Rules.
+
+**Saving Throws:** Gnomes save at +4 vs. Death Ray or Poison, and at +3 vs. Dragon Breath.
+
+## Half Humans
+
+### Introduction 
+
+This supplement provides information for playing half human characters under the Basic Fantasy Role-Playing Game rule system.  If you do not already have a copy of the Basic Fantasy RPG rules, please visit the website and download a copy.
+
+
+
+:::{.column-margin}
+
+**Release 3**
+
+Copyright © 2007, 2016 Chris Gonnerman
+
+All Rights Reserved
+
+Distributed under the terms of the Open Game License version 1.0a
+
+:::
+
+### Half-elf
+
+**Description:** Half-Elves are the result of crossbreeding between Elves and Humans. An average Half-Elf male stands around 5'5" in height, with females averaging an inch shorter. They have pointed ears, but their features tend to favor the Human parent a bit more than the Elf. Half-Elves are well tolerated by Humans in most cases, but are often shunned (or at best, ignored) by Elven society.
+
+**Restrictions:** Half-Elves may become members of any class or combination allowed to Elves. They are required to have a minimum Intelligence of 9, and like Elves they may not have Constitution scores higher than 17. They do not suffer from the Elven hit dice limit.
+
+**Special Abilities:** Half-Elves have Darkvision with a 30' range. They are able to find secret doors on a 1-2 on 1d6, but do not find secret doors on a cursory examination as Elves do. Half-Elves gain a bonus of +5% on all earned experience, except if the Half-Elf is a member of a combination class.
+
+**Saving Throws:** Half-Elves save at +1 vs. Magic Wands and Spells.
+
+Half-Ogre
+
+**Description:** Half-Ogres are the result of crossbreeding between Humans and Ogres. Such creatures tend to be outcasts within both Human and Ogrish communities, but they may often be found as leaders in communities of orcs or goblins. Half-Ogres are big, averaging around 7' in height, broad shouldered and rangy. Their features tend to favor the Ogrish parent, with dark coarse hair, tan or brown skin and dark eyes.
+
+**Restrictions:** Half-Ogres may become Clerics or Fighters only. A Half-Ogre must have a minimum of 13 in both Strength and Constitution, and may not have either Intelligence or Wisdom higher than 15.
+
+**Special Abilities:** Half-Ogres roll hit dice one size larger than normal; so a Half-Ogre Fighter rolls d10's for hit points, while a Half-Ogre Cleric rolls d8's. Half-Ogres gain a bonus of +5% on all earned experience. Due to their great size, they gain a bonus of +1 on the roll when opening doors or performing other feats of Strength. Finally, they have Darkvision with a 30' range.
+
+**Saving Throws:** Half-Ogres gain no special bonuses to their saving throw rolls.
+
+### Half-Orc
+
+**Description:** Half-Orcs are the result of crossbreeding between Humans and Orcs. Such creatures tend to be outcasts within Human communities, but sometimes rise to positions of leadership within Orcish communities. Half-Orcs are a bit shorter than Humans. Their features tend to favor the Orcish parent.
+
+**Restrictions:** Half-Orcs may become members of any class. A Half-Orc must have a minimum Constitution of 9, and are limited to a maximum Intelligence of 17.
+
+**Special Abilities:** Half-Orcs gain a bonus of +5% on all earned experience. They have Darkvision with a 60' range. When dealing with humanoids of Human-size or smaller, a Half-Orc gains an additional +1 on any reaction die roll, in addition to his or her Charisma bonus.
+
+**Saving Throws:** Half-Orcs save at +1 vs. Death Ray or Poison.
+
+## Less common Races
+
+This supplement provides information for adding a few new races to the Basic Fantasy Role-Playing Game rule system. If you do not already have a copy of the **Basic Fantasy RPG** **Core R****ules**, please visit the website and download a copy. Additional stats for these races, if used as NPCs and/or opponents, can be found in the **Basic Fantasy RPG Field Guide 1**
+
+:::{.column-margin}
+**Release 2**
+
+Copyright © 2009, 2018 R. Kevin Smoot
+
+All Rights Reserved
+
+Distributed under the terms of the Open Game License version 1.0a
+
+Artwork: Cory "Shonuff" Gelnett, Andrew Hartmann
+:::
+
+### Bisren 
+
+**Description:** The Bisren are a race descended from the great Minotaurs of legend. Normally peaceful, Bisren enjoy nature and keep a semi-nomadic lifestyle in regions that other races call wild. When threatened, Bisren can become quite dangerous, much like their warrior ancestors. Bisren are impressively muscled and generally average 7' tall, with some individuals reaching almost 8' in height.
+
+**Restrictions:** Bisren prefer professions associated with their nature-oriented lifestyles and may become Fighters or Clerics (often choosing Ranger or Druid if those optional classes are available). While it is rare to find a Bisren Thief, they are not barred from the class (although they do suffer several penalties to roguish abilities). A Bisren character must have minimum Strength and Constitution scores of 11. Not particularly bright or dexterous, Bisren are limited to 17 in both Dexterity and Intelligence. Bisren may wear human-sized armor, albeit often adjusted slightly to account for their size. Their cloven-hoof feet may not wear typical footwear, unless specially produced for Bisren. Specially-constructed helmets are likewise needed to fit their horned heads.
+
+**Special Abilities:** Bisren roll hit dice one size larger than normal; a d4 would become a d6, a d6 to d8, etc. Bisren are never truly unarmed, as they can gore for 1d6 damage with their horns. Bisren often charge into battle with a gore attack (+2 to hit with double damage, following all normal charging rules) and then switch to weaponry for the remainder of the fight. They must choose whether to attack with weapons or to gore; they cannot do both in a round. Bisren get an additional +1 bonus on feats of strength such as opening doors due to their great size.
+
+**Thief Ability Adjustments:** Roguish Bisren have a -10% penalty to Open Locks, Removing Traps, and Picking Pockets. Stealth checks (Moving Silently and Hiding) for Bisren are made normally, although in non-wilderness areas such as indoors, underground (dungeons), or in urban areas they suffer a -20% penalty to their chance to succeed. Outdoor traps, such as hunting snares or dead-falls, do not apply the above penalty and instead are made at +10% bonus.
+
+**Saving Throws:** Bisren gain no special bonuses to their saving throw rolls.
+
+### Caneins
+
+**Description:** A legend exists that there was a wizard who loved his dogs. This mage kept dogs as pets, trained them to guard his estate, and even used them in magical experiments to enhance their ability to serve. They were gifted with greater intelligence and a more humanoid stature. It is unknown whether the legend is entirely true or not, but it is generally assumed to be the genesis of the Caneins.
+
+Caneins are a race of dog-like humanoids, known for their extreme sense of loyalty whether to liege, friend, or family. There is a great deal of physical variance among the individual Caneins, with some short and stocky, others leanly-muscled, and variations in the colorations of their coats. However, all Caneins share a similar facial structure similar to the various bulldog or boxer-type dog breeds, having jowls and squat features. Caneins vary in their height, but are rarely larger than the average human. Caneins often form almost knight-like codes and attitudes, often serving a patron in exactly that capacity.
+
+**Restrictions:** Caneins can be any class, although they seldom become Thieves. Even when a Canein Thief is found, it typically uses the skills of that profession in more honorable ways than the typical rogue. A Canein must have a minimum Constitution of 9, and is limited to a maximum Intelligence of 17.
+
+**Special Abilities:** Caneins have a keen sense of smell, able to identify individuals by their scent alone. This power olfactory sense allows the Canein to determine the presence of concealed or invisible creatures, and any penalties associated with combating such foes is halved for the Canein. For instance, a Canein suffers only a -2 penalty when attacking an invisible pixie. All Caneins can track as a Ranger of equivalent level, and an actual Canein Ranger (if the class is allowed by the GM) gets a bonus of +20% on Tracking rolls.
+
+Caneins have +2 on any reaction rolls involving other canine creatures. However, Caneins do not like vile beasts such as werewolves, hellhounds, and the like, despite any similarities.
+
+**Saving Throws:** Caneins save at +2 vs. Death Ray or Poison as well as vs. Paralysis and Petrification effects.
+
+### Chelonians
+
+**Description:** Inhabiting river and lake regions, Chelonian are a race of reptilian humanoids bearing some semblance to turtles. They are normally content to remain within their own societies, but on occasion a more adventurous individual can be found. They are protected by thick scaly skin as well as a shell-like growth that covers their backside. Chelonian are seldom taller than 5' or so.
+
+**Restrictions:** Chelonian may become members of any class. A Chelonian must have a minimum Constitution score of 11, and is limited to a maximum Dexterity score of 17.
+
+Normal armors will not fit the physique of a Chelonian and they normally use only shields to enhance their defenses. Specially-constructed armors can be acquired, costing substantially more than listed prices and requiring extra time to create.
+
+**Special Abilities:** A Chelonian's thick skin grants it a base AC of 13 (equivalent to leather armor), and a Chelonian's back is especially tough with an AC of 17 (equivalent to plate mail only for rear attacks). Use these figures unless any armor worn grants better AC, then use the armor's AC. A shield will be still effective in either case.
+
+Chelonian swim no better than other humanoid races, but they can hold their breath twice as long. In addition, their underwater vision is also twice as good as normal.
+
+**Saving Throws:** Chelonian save at +2 vs. Poison.
+
+### Faun
+
+**Description:** Fauns are a fey-related race that resemble a sort of strange cross of goat with that of a small human or elf-like being. Standing only about 4' to 5' tall, they have a human-like torso and head, but the legs and feet of a goat. One can find Fauns with other small features reminisce of goats such as small horns or large ears. Fauns share the Halfling love of simple agrarian life, especially with respect to vineyards, as they prize wine (among other brews) above most things in life. Fauns love frivolity and are often quite adept at musical pursuits.
+
+**Restrictions:** Fauns can choose any class. A Faun will typically follow the tenets of nature deities, and Clerics and Druids (if allowed by the GM) can be found equally in their societies. A Faun must have a minimum Constitution score of 9, and is limited to a maximum Charisma score of 15, generally accounted to overly gregarious personalities and lack of inhibitions. Fauns may not wear typical human-style footwear.
+
+**Special Abilities:** Fauns have Darkvision out to 30'. They are resistant to charm-like effects from fey beings, getting a +4 bonus on relevant saves. This includes charms of dryads, nixies, and similar beings (GM's decision when necessary).
+
+**Saving Throws:**Like Dwarves, Fauns save at +4 vs. Death Ray or Poison, Magic Wands, Paralysis or Petrify, and Spells, and at +3 vs. Dragon Breath.
+
+### Phaerim
+
+**Description:** The beautiful Phaerim are related to fey such as booka, pixies, or similar faeries. Phaerim appear to be smaller than normal Elf-like folk, except that they have a pair of wings resembling those of dragonflies or sometimes butterflies. For unknown reasons, there are at least twice as many Phaerim females as there are males. Phaerim stand no taller than the average Halfling (3') but have a more slight build, seldom being heavier than 40 pounds.
+
+**Restrictions:** Phaerim can be any class but generally gravitate to magical classes. If allowed by the GM, Phaerim will be more likely to pursue classes associated with nature than the standard fare. Thus Rangers and Druids are more common than Fighters and Clerics.
+
+Phaerim are required to have a minimum Dexterity score of 9. Phaerim are quite captivating, and must also have a minimum Charisma score of 11. Due to their very small stature, they may not have a Strength score higher than 15. Also size related, Phaerim roll hit dice one size smaller than normal; a d8 would become a d6, a d6 to d4, and a d4 would instead be d3 (d6, 1-2=1, 3-4=2, 5-6=3). Phaerim may not use Large weapons, and must wield Medium weapons with both hands.
+
+**Special Abilities:** Phaerim normally walk like other races, but their most remarkable ability is limited flight while unencumbered (at double the normal movement rates). Phaerim can fly up to 10 rounds, but must remain grounded an equivalent amount of time after any flight. A lightly-encumbered Phaerim can fly up to 5 rounds but must rest for twice as many rounds as those flown (for instance, a lightly-encumbered flight of 4 rounds requires 8 rounds grounded). Phaerim take half-damage from falls due to their reduced weight and wings.
+
+Similar to Halflings, Phaerim are able to hide very effectively; so long as they remain still there is only a 10% chance they will be detected outdoors in forested environments. Even indoors, in dungeons, or in non-preferred terrain they are able to hide such that there is only a 30% chance of detection. Note that a Phaerim Thief will roll for hiding attempts only once, using either the Thief ability or the Phaerim ability, whichever is better.
+
+**Saving Throws:** Like Elves, Phaerim save at +1 vs. Paralysis or Petrify and +2 vs. Magic Wands and Spells.
+
+
+## Monsters as Characters
+
+### Introduction 
+
+This supplement provides information for adding race options to the Basic Fantasy Role-Playing Game rule system. If you do not already have a copy of the Basic Fantasy RPG rules, please visit the website and download a copy.
+
+The Basic Fantasy Community has a tradition of sharing various iterations of various subjects written by individuals. Each Game Master is the ultimate arbitrator of which (if any) races or other supplemental material are used in his or her games. When there exists duplication or overlapping of such topics, there is no "right or wrong", "official or unofficial"... as all such material is completely optional to begin with. When an option is desired in one's game, the GM is strongly encouraged to choose one distinct incarnation of the topic in question and stick to it, rather than allowing multiple varieties of the same subject.
+
+:::{.column-margin}
+**Release 4**
+
+Copyright © 2014, 2018 Sidney Parham, Omer Golan-Joel, R. Kevin Smoot, and steveman
+
+All Rights Reserved
+
+Distributed under the terms of the Open Game License version 1.0a
+
+Artwork: Al Cook, Andy "Atom" Taylor, Brian "Glad" Thomas, and Steve Zeiser
+:::
+
+### Combination Classes
+
+The monster races presented here do not always follow the traditional class combinations found in the core rules. Additional combinations are listed here. It is completely up to the GM if one or more of these combinations might be made available to the standard races found in the core rules or in other supplements.
+
+Recapping and extrapolating upon the core rules, to become a member of a combination class a character must meet the requirements of both classes. Combination class characters use the best hit die, attack bonus, and the best saving throw values of the combined classes.
+
+When allowed by the GM, certain optional subclasses might be allowed as a component of the combination class. Again, the GM may allow or disallow any particular combination class option based upon the race involved, campaign circumstances, or other factors. As always, the GM is the ultimate judge on this.
+
+**Cleric/Magic-User:** These rare characters combine the features of divine and arcane spell casters. Humanoid races often call these practitioners Witch Doctors, while other more civilized races often call them Theurgists, and they must pay homage to deities or faiths with focus upon arcane qualities. Generally, a Cleric/Magic-User does not have the ability to cast arcane spells in armor. Some races retain armor use in varying degrees such as Elves having the ability to utilize any armor and still cast spells. A Cleric/Magic-User must abide by the weapon restrictions of the Cleric class. A Cleric/Magic-User must gain experience equal to the combined requirements of both classes and rolls six-sided dice (d6) for hit points.
+
+**Cleric/Thief:** For humanoid races this combination is not so uncommon, but amongst the more civilized demi-human races, it is substantially more rare. These characters must serve deities of stealth, deceit, or basic roguish ideals, although not all such deities are inherently nefarious. As Clerics, one can wear any armor but the Thief abilities are difficult to use in most armors except leather. A Cleric/Thief must abide by the weapon restrictions of the Cleric class, but the Thief Backstab ability may still be performed utilizing a one-handed melee weapon such as a mace, warhammer, or club. A Cleric/Thief must gain experience equal to the combined requirements of both classes and rolls six-sided dice (d6) for hit points.
+
+**Fighter/Magic-User:** These characters may both fight and cast magic spells. Generally, a Fighter/Magic-User does not have the ability to cast arcane spells in armor. Some races retain armor use in varying degrees such as Elves having the ability to utilize any armor and still cast spells (or Gnomes in leather armor). They may utilize any weapon. A Fighter/Magic-User must gain experience equal to the combined requirements of both classes. A Fighter/Magic-User rolls eight-sided dice (d8) for hit points unless otherwise limited by his or her race (such as Elves).
+
+**Magic-User/Thief:** These characters combine stealthy skills with spell use. Generally, a Magic-User/Thief does not have the ability to cast arcane spells in armor. Some races retain armor use in varying degrees such as Gnomes in leather armor or Elves having the ability to utilize any armor and still cast spells. They may use any weapon allowed by the base classes. A Magic-User/Thief must gain experience equal to the combined requirements of both classes and rolls four-sided dice (d4) for hit points.
+
+### Bugbear
+
+**Description:** Bugbears look like huge, hairy goblins, standing about 6 feet tall. Their eyes are usually a darkish brown color and they move very quietly. They are wild and relatively fearless, and bully smaller humanoids whenever possible.
+
+**Restrictions:** A bugbear may become a Fighter, Cleric, or Thief. Bugbear Clerics are called Shamans. When permitted by the GM, bugbears may be allowed to advance in certain optional classes. Likewise, a GM may exclude certain choices. A bugbear character must have minimum Strength score of 13 and Dexterity score of 9. Bugbears are limited to a maximum of 15 in both Intelligence and Charisma.
+
+**Special Abilities:** Bugbears prefer to ambush opponents if they can. When hunting, they often send scouts ahead of the main group. Bugbear attacks are coordinated, and their tactics are sound if not brilliant. They are able to move in nearly complete silence, surprising opponents on 1-3 on 1d6. Like most dark dwelling races, a bugbear has Darkvision out to 60'.
+
+**Thief Ability Adjustments:** A bugbear Thief has a +20% bonus to Move Silently and despite its size gets a bonus of +10% on Hide checks.
+
+**Saving Throws:** A bugbear gains no special bonus to its saving throw rolls.
+
+**Initial Levels:** A bugbear character begins play at negative 3,000 experience points with 1d8 for hit points and an attack bonus of +1, but it does not have any stealth bonus (not learned yet). When it achieves -1,500 experience points it gets another 1d8 hit points and another point of attack bonus (+2 total). While in this immature state it can only utilize leather armor and saves as a 1st-level Fighter. Upon achieving zero experience points, it must choose its career path (class) as a 1st-level character and begins to abide by various class-based restrictions. It rolls using its new class-based hit die but retain previous hit points and attack bonuses (+2 bonus is added to attack bonus). At this point it has learned to be stealthy as well. When subjected to spells or effects where level or hit dice is a consideration, add two to its effective level.
+
+Thus, a bugbear with its first class level has 2d8 hit points and +2 attack bonus in addition to that granted by its chosen class. It is equivalent to a 3rd-level character.
+
+### Caveman
+
+**Description:** Cavemen are a species closely related to Humans; they are shorter and stockier, and much more heavily muscled. They do not all actually live in caves. Whether they are actually less intelligent than "normal" humans or not is a matter of debate, but it is true that they do not have the facility for language that other human, demi-human, and humanoid races have. However, they do seem to be able to communicate basic information amongst themselves through complex grunts and vocalizations similar to what one might hear from the great apes.
+
+**Restrictions:** A caveman may become a Fighter, Cleric, or Thief. Caveman Clerics are called Shamans by other races, although such spell casters vocalize their spells in peculiar ways that are unrecognizable by other races. Cavemen are wise in the ways of nature, and when permitted by the GM cavemen may be allowed to advance in certain optional classes, especially those associated with nature. Likewise, a GM may exclude certain choices. A caveman character must have a minimum Strength score of 13, and scores of 9 in both Dexterity and Constitution. Cavemen are limited to a maximum of 15 in both Intelligence and Charisma, generally accounting to their lack of ability to communicate or understand advanced concepts. A Caveman can 'learn' languages, but only rudimentary concepts are understood. In any case they cannot verbalize normal languages of other humanoids.
+
+**Special Abilities:** Cavemen are very attuned to their surroundings, and like Elves are seldom surprised, reducing the die roll range for surprise by 1 point. Therefore in normal situations, a caveman is surprised only on a roll of 1 on d6.
+
+**Thief Ability Adjustments:** A caveman Thief has a +20% bonus to Climb and +10% when Hiding or Moving Silently. It suffers -10% penalties with Open Locks or Find/Remove Traps. A caveman with Tracking skills has a +10% bonus.
+
+**Saving Throws:** Cavemen gain no special bonuses to saving throw rolls.
+
+**Initial Levels:** A Caveman begins play at negative 1,500 experience points with 1d8 for hit points and an attack bonus of +1. While in this immature state it can only utilize leather armor and makes saves as a 1st-level Fighter. Upon achieving zero experience points it must choose a career path (class) as a 1st-level character and begins to abide by various class-based restrictions. It rolls using this new class-based hit die but retain previous hit points and attack bonuses (+1 bonus is added to attack bonus). When subjected to spells or effects where level or hit dice is a consideration, add one to its effective level.
+
+Thus, a caveman at first class level has 1d8 hit points and +1 attack bonus in addition to that granted by its chosen class. It is equivalent to a 2nd-level character.
+
+### Centaur 
+
+**Description:** Centaurs appear to be half man, half horse, having the torso, arms, and head of a man in the position a horse's head would normally occupy. A centaur is as big as a heavy horse, but much taller and slightly heavier; average males are about 7' tall and weigh about 2,100 pounds, and females are just a bit smaller. Centaurs may charge with a spear or lance just as a man on horseback, with the same bonuses. Centaurs are generally haughty and aloof, but very honorable. Most would rather die than allow humans, demi-humans, or humanoids to ride on their backs.
+
+**Restrictions:** A centaur may become a Fighter, Cleric, or rarely Magic-User. Centaurs prefer professions associated with nature or the outdoors, and when permitted by the GMcentaurs may be allowed to advance in certain optional classes. Likewise, a GM may exclude certain choices. A centaur character must have minimum Strength and Constitution scores of 11 (which represents the human portion of their physique), and a Wisdom score of 9. A centaur's Dexterity and Charisma is limited to a maximum of 16. A centaur may not wear standard armor, only custom built, costing three or more times the normal purchase price. Likewise, normal footwear is unusable. A centaur in combat is treated as Large (for instance against Halflings) and one has to deal with a Turning Radius of 10'.
+
+**Special Abilities:** Due to its great mass, a classed centaur rolls hit dice one size larger than normal; a d4 would become a d6, a d6 to d8, etc. A centaur is never truly unarmed, as it can attack with its 2 front hooves for 1d6 points of damage each in addition to a weapon strike. A centaur often charges into battle (+2 to hit with double damage, following all normal charging rules) and when using a spear or lance is treated like a mounted person. A centaur must forgo all its attacks in order to cast spells. He gets an additional +1 bonus on feats of strength such as opening doors due to its great size.
+
+A centaur's base movement rate is 60' when lightly encumbered and 40' under heavier loads. A light load for a centaur is up to 250 pounds; a heavy load is up to 500 pounds, but a centaur is not accustomed to load bearing like similarly-sized true horses.
+
+**Thief Ability Adjustments:** There are no roguish centaurs, but if using non-standard class options one may have one or more typical Thief abilities, having a -20% penalty to Pick Pockets, Move Silently, and Hide. Climbing sheer walls is effectively impossible without block and tackle equipment, but when it comes to narrow ledges, steep inclines, or other "near climbing" situations the penalty is -40%.
+
+**Saving Throws:** A centaur gains no special bonuses to its saving throw roll. However, because of racial hit dice a centaur has a +1 bonus to all saves.
+
+**Initial Levels:** A centaur begins play at negative 4,500 experience points with 1d8 for hit points and an attack bonus of +1, but it does not have any hoof attack. When it reaches negative 3,000 experience points it gets another 1d8 hit points, another +1 attack bonus, and may make one hoof strike per round (in addition to any weapon). When it reaches -1,500 experience points it gets a third 1d8 in hit points and its racial save bonus of +1 (from hit dice), but it does not get another attack bonus at this time. While in this immature state, it may not wear armor, rolls saves as a 1st-level Fighter (note the previously mentioned bonus). Upon achieving 0 experience points, it must choose its career path (class) as a 1st-level character and begins to abide by various class-based restrictions. At this point it has full attack routines (2 hooves + weapon). When subjected to spells or effects where level or hit dice is a consideration, add three to its effective level.
+
+Thus, a centaur with its first class level has 3d8 hit points and +2 attack bonus in addition to that granted by its chosen class. It is equivalent to a 4th-level character.
+
+### Gnoll
+
+**Description:** Gnolls are hyena-headed, evil humanoids that wander in loose tribes. Most gnolls have dirty yellow or reddish-brown fur. An adult male gnoll is about 7' feet tall and weighs 300 pounds. Gnolls are nocturnal carnivores, preferring intelligent creatures for food because they scream more. Gnoll Fighters are the most common, but they show little discipline when fighting unless they have a strong leader. Gnoll Clerics are called Shamans and often prefer to utilize reversed (evil) versions of spells. Likewise, gnoll Magic-Users are generally called Warlocks or Witches (often preferring optional "evil-oriented" subclasses when allowed by the GM). Rarely one may come across a gnoll Cleric/Magic-User called a Witch-Doctor.
+
+**Restrictions:** A gnoll character may become a Fighter, Cleric, or occasionally a Magic-user. When permitted by the GM, certain optional subclasses are especially appropriate for gnolls. Likewise, a GM may exclude certain class choices as inappropriate. A gnoll character must have a minimum Strength score of 13 and Constitution score of 11. Gnolls are savage, brutish, and cruel, and are limited to scores of 15 in both Intelligence and Charisma.
+
+**Special Abilities:** In its role as a scavenger, a gnoll is especially attuned to scent. A gnoll is able to identify individuals by scent alone. This powerful olfactory sense allows it to determine the presence of concealed or invisible creatures, and any penalties associated with combating such foes is halved. For instance, a gnoll suffers only a -2 penalty when attacking an invisible pixie. Like most dark-dwelling races, gnolls have Darkvision out to 60'.
+
+**Thief Ability Adjustments:** Gnolls do not become standard Thieves, but if using non-standard class options a gnoll may have one or more typical Thief abilities. Such gnolls have a bonus of +10% on Hear Noise attempts. A gnoll with the Tracking ability has a +10% bonus on that skill due primarily from its keen sense of smell.
+
+**Saving Throws:** As a scavenger and carrion eater, a gnoll is especially hearty against many deadly effects. A gnoll character has saving throw bonuses of +4 vs. Death Ray, Poison, Paralysis, or Petrification.
+
+**Initial Levels:** A gnoll begins play at negative 1,500 experience points, 1d8 for hit points, and an attack bonus of +1. While in this immature state it can only utilize leather armor and saves as a 1st-level Fighter. Upon achieving 0 experience points, it must choose its career path (class) as a 1st-Level character and begin to abide by various class-based restrictions. It rolls using its new class-based hit die but retains previous hit points and attack bonuses (+1 bonus is added to attack bonus). When subjected to spells or effects where level or hit dice is a consideration, add one to its effective level.
+
+Thus, a gnoll with its first class level has 1d8 hit points and +1 attack bonus in addition to that granted by its chosen class. It is equivalent to a 2nd-level character.
+
+### Goblin
+
+**Description:** Goblins are small, wicked humanoids that favor ambushes, overwhelming odds, dirty tricks, and any other edge they can devise. An adult goblin stands around 3' tall and weighs around 40 pounds. Its eyes are usually bright and crafty-looking, varying in color from red to yellow. A goblin's skin color ranges from yellow through any shade of orange to a deep red; usually all members of a single tribe are about the same color. Goblins wear clothing of dark leather, tending toward drab, soiled-looking colors.
+
+**Restrictions:** A goblin may become any of the standard classes. Goblin Clerics are called Shamans, and on occasion one may encounter a Goblin Witch-Doctor, which is simply a Cleric/Magic-User combination class. When permitted by the GM a goblin may be allowed to advance in certain optional classes. Likewise, a GM may exclude certain choices. A goblin character must have a minimum Dexterity score of 9. Goblins do not have great fortitude, and are limited to maximum scores of 16 in Strength and Constitution. In addition to the Constitution limitation, goblins must subtract one point from every hit die roll, down to a minimum of 1 hit point per die. However, a goblin with a class hit die less than d6 does not apply the -1 deduction to hit point rolls (Constitution bonus/penalty still applies). A goblin may not use Large weapons, and must wield Medium weapons with both hands. Likewise a goblin must utilize smaller-sized armor.
+
+**Special Abilities:** Like Halflings, a goblin gains a +2 bonus to itsarmor class when attacked in melee by creatures larger than man-sized. Crafty and mechanically inclined, a goblin notices secret doors as well as an Elf (1‑2 on 1d6 rather than the usual 1 on 1d6). Likewise, one is so observant that it has a 1 in 1d6 chance to find a secret door with just a cursory look. Like Dwarves, a goblin is able to detect slanting passages, traps, shifting walls, and new construction on a roll of 1-2 on 1d6; a search must be performed before this roll may be made. Like most dark-dwelling races, a Goblin has Darkvision out to 60'.
+
+**Thief Ability Adjustments:** A goblin Thief has a +10% bonus to Open Locks and Finding/Removing Traps.
+
+**Saving Throws:** A goblin character gains no special bonuses to saving throw rolls.
+
+### Hobgoblin
+
+**Description:** Hobgoblins are larger cousins of goblins, being about the same size as humans. Its hair color ranges from dark reddish-brown to dark gray. It has dark orange or red-orange skin. Large males have blue or red noses. A hobgoblins' eyes are yellowish or dark brown, while its teeth are yellow. Its garments tend to be brightly colored, often blood red with black-tinted leather. Its weaponry is kept polished and in good repair.
+
+Hobgoblins are cruel and calculating warriors, always looking to exploit those weaker than themselves. They have a strong grasp of strategy and tactics and are capable of carrying out sophisticated battle plans. Under the leadership of a skilled strategist or tactician, their discipline can prove a deciding factor. Hobgoblins hate Elves and attack them first in preference over other opponents. Hobgoblin deities reinforce this militaristic outlook, and their Clerics often have access to one or more weapons outside of the normal clerical choices such as a sword or spear.
+
+**Restrictions:** A hobgoblin character may become any of the standard character classes. Hobgoblin Clerics are called Shamans, and on occasion one may encounter a Hobgoblin Witch-Doctor which is simply a Cleric/Magic-User combination class. When permitted by the GM a hobgoblin may be allowed to advance in certain optional classes. Likewise, a GM may exclude certain choices. A hobgoblin character must have minimum Strength and Charisma score of 9.
+
+**Special Abilities:** Militaristic and always on alert, a Hobgoblin character is seldom surprised. Like Elves, it is surprised only on a roll of 1 on 1d6 (one point better). Even against well-planned ambushes, surprise is only achieved against a hobgoblin on a roll of 1-3 on 1d6.
+
+While not as mechanically-minded as normal goblins, a hobgoblin is still very alert, noticing secret doors as well as an Elf (1-2 on 1d6 rather than the usual 1 on 1d6). Likewise, a hobgoblin is so observant that it has a 1 in 1d6 chance to find a secret door with just a cursory look. Like most dark-dwelling races, a hobgoblin has Darkvision out to 60'.
+
+**Thief Ability Adjustments:** Given their "always alert" status, a roguish hobgoblin has a +5% bonus to Listen and Finding/Removing Traps.
+
+**Saving Throws:** A hobgoblin character gains no special bonuses to its saving throw rolls.
+
+### Kobold
+
+**Description:** Kobolds are small, dog-faced reptilian humanoids. A kobold is 2' tall and weighs about 40 pounds. Kobolds tend to perceive larger races as enemies, and are naturally distrustful when encountered. Regardless, kobolds are cunning foes. It prefers ranged combat, closing only when it can see that its foes have been weakened. Whenever it can, a kobold sets up ambushes near trapped areas.
+
+**Restrictions:** A kobold character may become any of the standard character classes. When permitted by the GM a kobold may be allowed to advance in certain optional classes. Likewise, a GM may exclude certain choices. A kobold character must have a minimum Dexterity score of 11 and is limited to a maximum score of 15 in Strength. Also size related, a kobold rolls hit dice one size smaller than normal; a d8 would become a d6, a d6 to d4, and a d4 would instead be d3. A kobold may not use Large weapons, and must wield Medium weapons with both hands. Likewise a kobold must utilize smaller-sized armor.
+
+The tunneling kobolds dwell almost entirely within dark environs, and one will suffer a -1 penalty to attack rolls in bright sunlight or within the radius of **light** spells.
+
+**Special Abilities:** Like Halflings, a kobold gains a +2 bonus to its armor class when attacked in melee by creatures larger than man-sized. Another similarity to Halflings, a kobold also has a +1 attack bonus when using ranged weapons.
+
+Kobolds are masters of trap-works and are otherwise very mechanically inclined. A kobold character notices secret doors as well as an Elf (1-2 in 1d6 rather than the usual 1 in 1d6). Likewise, a kobold is so observant that it has a 1 in 1d6 chance to find a secret door with just a cursory look. Kobolds are masterful miners, and like Dwarves, a kobold is able to detect slanting passages, traps, shifting walls, and new construction on a roll of 1-2 on 1d6; a search must be performed before this roll may be made. A kobold has Darkvision out to 90'.
+
+**Thief Ability Adjustments:** Kobolds are considered to be masters at trap-works; a roguish kobold has a +15% bonus to Finding/Removing Traps. In addition, it has +5% bonuses to Open Locks, Move Silently, and Hiding.
+
+**Saving Throws:** A kobold saves at +4 against poison effects, a result of extensive exposure to various poisons in its environment while growing up.
+
+### Lizard Man
+
+**Description:** Kobolds are small, dog-faced reptilian humanoids. A kobold is 2' tall and weighs about 40 pounds. Kobolds tend to perceive larger races as enemies, and are naturally distrustful when encountered. Regardless, kobolds are cunning foes. It prefers ranged combat, closing only when it can see that its foes have been weakened. Whenever it can, a kobold sets up ambushes near trapped areas.
+
+**Restrictions:** A kobold character may become any of the standard character classes. When permitted by the GM a kobold may be allowed to advance in certain optional classes. Likewise, a GM may exclude certain choices. A kobold character must have a minimum Dexterity score of 11 and is limited to a maximum score of 15 in Strength. Also size related, a kobold rolls hit dice one size smaller than normal; a d8 would become a d6, a d6 to d4, and a d4 would instead be d3. A kobold may not use Large weapons, and must wield Medium weapons with both hands. Likewise a kobold must utilize smaller-sized armor.
+
+The tunneling kobolds dwell almost entirely within dark environs, and one will suffer a -1 penalty to attack rolls in bright sunlight or within the radius of **light** spells.
+
+**Special Abilities:** Like Halflings, a kobold gains a +2 bonus to its armor class when attacked in melee by creatures larger than man-sized. Another similarity to Halflings, a kobold also has a +1 attack bonus when using ranged weapons.
+
+**Description:** A lizard man is usually 6' to 7' tall with green, gray, or brown scales. Its tail is used for balance and is 3' to 4' long. Adult males can weigh from 200 to 250 pounds and are always very strong. Lizard men are largely indifferent to other races, being primarily interested in their own survival. If aroused, however, they are fearsome warriors, using simple but sound tactics.
+
+**Restrictions:** A lizard man may become a Fighter or Cleric. Lizard men generally prefer professions associated with nature or survival. When permitted by the GM alizard man may be allowed to advance in certain optional classes. Likewise, a GM may exclude certain choices. A lizard man character must have a minimum Strength score of 13. Lizard men have trouble relating to most other races and are limited to a maximum score of 15 in Charisma.
+
+**Special Abilities:** Lizard men are excellent swimmers and can hold their breath for an extended period of time (up to a full turn). One cannot swim while wearing armor; however, a lizard man often hides in the water even while armored, standing on the bottom with just nose and eyes exposed (similar to a crocodile). When it is able to employ this maneuver, a lizard man surprises on 1-4 on 1d6. A lizard man's scaly hide provides it with a +1 bonus to armor class, but otherwise only specially-made armors can be worn (often costing 3 or more times the normal price).
+
+A lizard man can bite for 1d4 points of damage, but it must forgo any weapon attacks that round. Upon a successful bite attack the lizard man may hold on, causing 1 point of damage each round (requiring the opponent to make a Strength check to break the hold). This is often done in or near water in order to drown a victim.
+
+**Thief Ability Adjustments:** Lizard men cannot become Thieves, but if non-standard class options are utilized, a lizard man has -10% penalty on Open Locks, Remove Traps, or Picking Pockets.
+
+**Saving Throws:** A lizard man gains no special bonuses to its saving throw rolls.
+
+**Initial Levels:** A lizard man begins play at negative 1,500 experience points, uses 1d8 for hit points, and has a +1 attack bonus. While in this immature state it can only utilize leather armor (if available) and saves as a 1st-level Fighter. Upon achieving 0 experience points, it must choose its career path (class) as a 1st-Level character and must abide by any class-based restrictions. It rolls using its new class-based hit die but retainsits previous hit points and attack bonuses (+1 bonus is added to attack bonus). When subjected to spells or effects where level or hit dice is a consideration, add one to its effective level.
+
+Thus, a lizard man in its first class level has 1d8 hit points and +1 attack bonus in addition to those granted by the chosen class. It is equivalent to a 2nd-level character.
+**Thief Ability Adjustments:** Kobolds are considered to be masters at trap-works; a roguish kobold has a +15% bonus to Finding/Removing Traps. In addition, it has +5% bonuses to Open Locks, Move Silently, and Hiding.
+
+**Saving Throws:** A kobold saves at +4 against poison effects, a result of extensive exposure to various poisons in its environment while growing up.
+
+### Ogre
+
+**Description:** Ogres appear as large, very ugly humans. Adult ogres stand 9' to 10' tall and weigh 600 to 650 pounds. Its skin color ranges from dull yellow to dull brown. Its clothing consists of poorly-cured furs and hides, which add to its naturally-repellent odor. Ogres are brutish and aggressive, but inherently lazy.
+
+**Restrictions:** An ogre may become a Fighter or rarely a Cleric. Ogres usually lack the sophistication for other options, but certain optional subclasses might be allowed by the GM. Likewise, a GM may exclude certain class choices as inappropriate. An ogre character must have a minimum Strength score of 15 and Constitution score of 13. An ogre is generally deficient in its intellect and ability to interact with others;  it is limited to a score of 13 for both Intelligence and Charisma. Likewise, an ogre is not wise nor particularly dexterous, and it is limited to a score of 15 in both Wisdom and Dexterity. An ogre in combat counts as a Large opponent (for instance against Halflings), and only specially-made large armors can be worn (often costing 3 or more times the normal price).
+
+**Special Abilities:** Due to its great mass, a properly classed ogre rolls hit dice one size larger than normal; a d4 would become a d6, a d6 to d8, etc. An ogre is never truly unarmed, as it can attack with its fists for 1d8 subduing points of damage per hit. An ogre character rolls attacks normally with most weapons, applying its Strength bonus to damage. However, when properly equipped with tremendously over-sized weapons (often crudely constructed), an ogre may forgo its normal damage bonus from strength and instead roll 2d6 for damage. An ogre gets an additional +1 bonus on feats of strength such as opening doors due to its great size. Like many humanoid races, an ogre has Darkvision out to 60.
+
+**Thief Ability Adjustments:** Ogres cannot become Thieves, but if non-standard class options are utilized, an Ogre has -20% penalty on Open Locks, Remove Traps or Picking Pockets. Likewise, stealth is difficult; an ogre has a -10% penalty to Move Silently and Hide. However, it can Climb readily, getting a +10% bonus, assuming what it is climbing is stable with the addition of the ogre's weight.
+
+**Saving Throws:** An ogre gains no special bonuses to its saving throw roll. However, because of the racial hit dice it has a +1 bonus to all saves.
+
+**Initial Levels:** An ogre begins play at negative 4,500 experience points, uses 1d8 for hit points, and has an attack bonus of +1, but its fist attack deals only 1d4 subduing points of damage. When it reaches -3,000 experience points it gets another 1d8 hit points, another +1 attack bonus, and its fist attacks deal 1d6 subduing points of damage. When it reaches -1,500 experience points it gets a third 1d8 in hit points and its racial save bonus of +1, but the ogre does not get another attack bonus at this time. While in this immature state, it may only wear leather armor (if available), and rolls saves as a 1st-level Fighter (note the previously mentioned bonus). Upon achieving 0 experience points, it must choose its career path (class) as a 1st-level character and begin to abide by various class based restrictions. At this point it has full attack potential. When subjected to spells or effects where level or hit dice is a consideration, add three to the ogre's effective level.
+
+Thus, an ogre at  its first class level has 3d8 hit points and +2 attack bonus in addition to that granted by its chosen class. It is equivalent to a 4th-level character.
+
+### Orc
+
+**Description:** Orcs are grotesque humanoids bent on war and domination. It has lupine ears, reddish eyes, truncated, upturned noses, and black hair (but very little body hair). An adult male orc is a little over 6' tall and weighs about 210 pounds; females are slightly smaller. An orc prefers to wear vivid colors that many humans would consider unpleasant, such as blood red, mustard yellow, yellow-green, and deep purple. It utilizes all manner of weapons and armor scavenged from battlefields. It speaks its own rough and simple language, but many also speak some Common or Goblin.
+
+**Restrictions:** An orc may become a Cleric, Fighter, or Thief. Orc Clerics are called Shamans. When permitted by the GM an orc may be allowed to advance in certain optional classes. Likewise, a GM may exclude certain class choices. An orc character must have a minimum Strength and Constitution score of 9. An orc is limited to a maximum score of 15 in both Intelligence and Charisma.
+
+Orcs prefer dark environs such as underground, deep ravines, or dark forested areas, and it suffers a -1 penalty to attack rolls in bright sunlight or within the radius of **light** spells.
+
+**Special Abilities:** Like most dark-dwelling races, orcs have Darkvision out to 60', but suffer penalties in bright light (see above).
+
+**Thief Ability Adjustments:** An orc Thief has a +10% bonus to Climb Walls and Listen.
+
+**Saving Throws:** An orc character has a +2 bonus on saves vs. Death Ray and Poison.
+
+### Troglodyte
+
+**Description:** Troglodytes are very intelligent lizard-like humanoid creatures. It has large red eyes and spiny "combs" on its legs, head, and arms. It normally stands 5' to 6' tall. In general troglodytes are very hostile, attacking equal or weaker non-troglodyte groups on sight. It prefers to attack with surprise, depending on its color-changing ability for this (see below).
+
+**Restrictions:** A troglodyte may become a Fighter, Cleric, or Thief. When permitted by the GM atroglodyte may be allowed to advance in certain optional classes. Likewise, a GM may exclude certain choices. A troglodyte character must have a minimum Intelligence and Constitution score of 11. Troglodyte mentality is often quite alien to most other races, and they are limited to maximum scores of 15 in both Wisdom and Charisma.
+
+**Special Abilities:** A troglodyte can change color at-will, and 50% of the time it can blend into the environment well enough to surprise on a roll of 1-5 on 1d6. Furthermore, it gains a +2 attack bonus during any surprise round due to its excellent ambush skills. Note that a troglodyte Thief will roll for hiding attempts only once, using either the Thief ability or the troglodyte ability, whichever is better.
+
+A troglodyte secretes an oily smelly substance that keeps its scaly skin supple. All mammals (including most character races) find the scent repulsive, and those within 10' of the troglodyte must make a save vs.Poison. Those failing the save suffer a -2 penalty to attack rolls while they remain within range of the troglodyte. Getting out of range negates the penalty, but renewed exposure reinstates the penalty. The result of the original save lasts 24 hours, when a new save can be rolled.
+
+A troglodyte can attack with its two front claws doing 1d4 points of damage each, as well as a bite attack for 1d4 points of damage. A troglodyte cannot mix its natural attacks with weapon strikes; it has to choose. A troglodyte's scaly hide provides it with a +1 bonus to armor class, but otherwise only specially-made armors can be worn (often costing 3 or more times the normal price).
+
+**Thief Ability Adjustments:** Because of its natural abilities, a troglodyte Thief has a +20% bonus to Hide attempts and +10% bonus when Moving Silently or Climbing. A troglodyte's natural hiding ability may be superior to its Thief skill, especially at lower levels.
+
+**Saving Throws:** A troglodyte character gains no special bonuses to its saving throw rolls.
+
+**Initial Levels:** A troglodyte begins play at negative 1,500 experience points, uses 1d8 for hit points, has an attack bonus of +1, and its natural attacks do 1d3 points of damage. While in this immature state it can only utilize leather armor (if available) and saves as a 1st-level Fighter. Upon achieving 0 experience points it must choose its career path (class) as a 1st-level character and begins to abide by any class-based restrictions. It rolls using its new class-based hit die but retains any previous hit points and attack bonuses (+1 bonus is added to its attack bonus). At this point, its natural attacks do full damage (1d4). When subjected to spells or effects where level or hit dice is a consideration, add one to its effective level.
+
+Thus, a troglodyte atits first class level has 1d8 hit points and +1 attack bonus in addition to that granted by its chosen class. It is equivalent to a 2nd-level character.
+
+
+
+
+<!-- -------------------------------------------------- -->
+
+## OPEN GAME LICENSE
+
+#### INTRODUCTION
+
+The Basic Fantasy Role-Playing Game ("BFRPG") is based on the System Reference Document v3.5 ("SRD"), which is Open Game Content. Also, some monster descriptive text was taken from the Castles and Crusades: Monsters Support Product ("MSP"), which is also Open Game Content. The text of the Open Game License itself is not Open Game Content. Instructions on using the License are provided within the License itself.
+
+Note regarding C&C Open Game Content used: The COPYRIGHT NOTICE section below lists both the Castles & Crusades: Players Handbook and the Castles & Crusades: Monster Support Document; both are listed because we are required to do so, but be advised that all Castles & Crusades materials used were taken only from the latter document.
+
+Designation of Open Game Content: The entire text as well as all maps and floorplans incorporated in BFRPG (except the Open Game License, as noted above, and the Product Identity License, below) is Open Game Content, released under the Open Game License, Version 1.0a (reproduced below) as described in Section 1(d) of the License. Artwork (other than maps and floorplans) incorporated in this document is not Open Game Content, and remains the property of the copyright holder.
+
+Designation of Product Identity: Product identity is not Open Game Content. The following is designated as product identity pursuant to OGL v1.0a(1)(e) and (7): (A) product and product line names, including Basic Fantasy Role-Playing Game, Basic Fantasy RPG, and BFRPG, as well as the phrase "make mine Basic"; (B) all artwork, logos, symbols, graphic designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual representations, including the "eye" logo, which is the personal mark of Chris Gonnerman for his various products, and which is Copyright © 2002 Chris Gonnerman, and the "Scribbled Dragon," which is Copyright © 2005 Erik Wilson; (C) logos and trademarks, including any trademark or registered trademark clearly identified as product identity by the owner of the product identity, and which specifically excludes the open game content.
+
+More information on the Open Game License can be found at: <http://www.wizards.com/d20>.
+
+
+#### OPEN GAME LICENSE VERSION 1.0A
+
+The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc ("Wizards"). All Rights Reserved.
+
+1.  **Definitions:** (a)"Contributors" means the copyright and/or trademark owners who have contributed Open Game Content; (b)"Derivative Material" means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) "Distribute" means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d)"Open Game Content" means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) "Product Identity" means product and product line names, logos and identifying marks including trade dress; artifacts; creatures characters; stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f) "Trademark" means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) "Use", "Used" or "Using" means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) "You" or "Your" means the licensee in terms of this agreement.
+2.  **The License:** This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.
+3.  **Offer and Acceptance:** By Using the Open Game Content You indicate Your acceptance of the terms of this License.
+4.  **Grant and Consideration:** In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game Content.
+5.  **Representation of Authority to Contribute:** If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.
+6.  **Notice of License Copyright:** You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder's name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.
+7.  **Use of Product Identity:** You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.
+8.  **Identification:** If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.
+9.  **Updating the License:** Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.
+10. **Copy of this License:** You MUST include a copy of this License with every copy of the Open Game Content You Distribute.
+11. **Use of Contributor Credits:** You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.
+12. **Inability to Comply:** If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.
+13. **Termination:** This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.
+14. **Reformation:** If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
+
+#### COPYRIGHT NOTICE
+
+-   Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+-   System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.
+-   Castles & Crusades: Players Handbook, Copyright 2004, Troll Lord Games; Authors Davis Chenault and Mac Golden.
+-   Castles & Crusades: Monsters Product Support, Copyright 2005, Troll Lord Games.
+-   The Basic Fantasy Field Guide Copyright © 2010 Chris Gonnerman and Contributors.
+-   Basic Fantasy Role-Playing Game Copyright © 2006-2015 Chris Gonnerman.
+-   Gnomes:  A Basic Fantasy Supplement Copyright © 2007, 2011, 2017 Chris Gonnerman.
+-   Half Humans:  A Basic Fantasy Supplement Copyright © 2007, 2016 Chris Gonnerman.
+-   New Races Copyright © 2009, 2018 R. Kevin Smoot
+-   Monsters as Player Characters:  A Basic Fantasy Supplement Copyright © 2010, 2018 Sidney Parham, Omer Golan-Joel, R. Kevin Smoot, and steveman.

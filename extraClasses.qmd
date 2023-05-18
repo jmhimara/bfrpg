@@ -1,0 +1,1812 @@
+# Additional Classes
+
+## Assassin 
+
+### Introduction 
+
+This supplement provides information for playing Assassins, an additional character class, under the Basic Fantasy Role-Playing Game rule system.  If you do not already have a copy of the Basic Fantasy RPG rules, please visit the website and download a copy.
+
+:::{.column-margin}
+Release 5 
+Copyright © 2007-2017, 2016 Eric C. Medders, Martín Serena, and Chris Gonnerman 
+Proofing: David Gerard Art by Martín Serena (Dimirag) 
+All Rights Reserved 
+Distributed under the terms of the Open Game License version 1.0a
+
+::: 
+
+
+### Class Description and Stats
+
+| Level | Exp. Points | Hit Dice |
+|-------|-------------|----------|
+| 1     | 0           | 1d4      |
+| 2     | 1,375       | 2d4      |
+| 3     | 2,750       | 3d4      |
+| 4     | 5,500       | 4d4      |
+| 5     | 11,000      | 5d4      |
+| 6     | 22,000      | 6d4      |
+| 7     | 44,000      | 7d4      |
+| 8     | 82,500      | 8d4      |
+| 9     | 165,000     | 9d4      |
+| 10    | 247,500     | 9d4+2    |
+| 11    | 330,000     | 9d4+4    |
+| 12    | 412,500     | 9d4+6    |
+| 13    | 495,000     | 9d4+8    |
+| 14    | 577,500     | 9d4+10   |
+| 15    | 660,000     | 9d4+12   |
+| 16    | 742,500     | 9d4+14   |
+| 17    | 825,000     | 9d4+16   |
+| 18    | 907,500     | 9d4+18   |
+| 19    | 990,000     | 9d4+20   |
+| 20    | 1,072,500   | 9d4+22   |
+
+
+There are men and women who make their living dealing death from the shadows. These people are called assassins. Most are trained by secret guilds or societies; civilized lands generally forbid and destroy such organizations. 
+
+Assassins must abide by the same weapon and armor restrictions as Thieves.  A prospective Assassin must have a minimum Dexterity and Intelligence of 9 each.  Only Humans may become Assassins.
+
+Assassins have several special abilities, as listed on the table below.  Some abilities are shared with the Thief class, and are described in the Core Rules.  Those abilities special to the Assassin class are as follows: 
+
+**Poison**:  Assassins learn the art of making lethal poisons. Poisons are often quite expensive to make; it is not uncommon for a single application of contact poison to cost 500 gp or more.  The GM is advised to take care that poison does not become too much of an easy solution for the Assassin. 
+
+**Assassinate**:  This is the Assassin's primary special ability. As with the Thief's Sneak Attack ability, any time an Assassin is behind an opponent in melee and it is reasonably likely the opponent doesn't know he or she is there, an attempt to assassinate may be made.  The attack must be carried out with a one-handed piercing weapon, such as a dagger or sword.  The attack is rolled at an attack bonus of +4, and if the attack hits, the victim must roll a saving throw vs. Death Ray or be instantly killed.  If this saving throw is a success, the victim still suffers normal weapon damage.  At the GM's option, characters two or more levels lower than the Assassin may be denied a saving throw.
+
+
+
+**Waylay**:  An Assassin can attempt to knock out an opponent in a single strike.  This is performed in much the same way as the Assassinate ability, but the Assassin must be using a weapon that does subduing damage normally (i.e. a club or cudgel).  The attack is rolled at a +4 attack bonus; if the Assassin hits, the victim must make a saving throw vs. Death Ray or be knocked unconscious. If this roll is made, the victim still suffers normal subduing damage.  Creatures knocked unconscious by a Waylay attack will remain that way for 2d8 turns if not awakened. 
+
+Note that bounty hunters are often Assassins, who use the Waylay ability in the course of their (more or less) lawful activities.
+
+### Assassin Abilities 
+
+| Level | Open Locks | Pick Pockets | Move Silently | Climb Walls | Hide | Listen | Poison |
+|-------|------------|--------------|---------------|-------------|------|--------|--------|
+| 1     | 15         | 20           | 20            | 70          | 5    | 25     | 25     |
+| 2     | 19         | 25           | 25            | 72          | 10   | 29     | 30     |
+| 3     | 23         | 30           | 30            | 74          | 15   | 33     | 35     |
+| 4     | 27         | 35           | 35            | 76          | 20   | 37     | 40     |
+| 5     | 31         | 40           | 40            | 78          | 25   | 41     | 45     |
+| 6     | 35         | 45           | 45            | 80          | 30   | 45     | 50     |
+| 7     | 39         | 50           | 50            | 82          | 35   | 49     | 55     |
+| 8     | 43         | 55           | 55            | 84          | 40   | 53     | 60     |
+| 9     | 47         | 60           | 60            | 86          | 45   | 57     | 65     |
+| 10    | 50         | 63           | 63            | 87          | 48   | 60     | 69     |
+| 11    | 53         | 66           | 66            | 88          | 51   | 63     | 73     |
+| 12    | 56         | 69           | 69            | 89          | 54   | 66     | 77     |
+| 13    | 59         | 72           | 72            | 90          | 57   | 69     | 81     |
+| 14    | 62         | 75           | 75            | 91          | 60   | 72     | 85     |
+| 15    | 65         | 78           | 78            | 92          | 63   | 75     | 89     |
+| 16    | 66         | 79           | 80            | 93          | 64   | 77     | 91     |
+| 17    | 67         | 80           | 82            | 94          | 65   | 79     | 93     |
+| 18    | 68         | 81           | 84            | 95          | 66   | 81     | 95     |
+| 19    | 69         | 82           | 86            | 96          | 67   | 83     | 97     |
+| 20    | 70         | 83           | 88            | 97          | 68   | 85     | 99     |
+
+
+
+## Barbarians
+
+### Introduction
+
+This supplement provides rules for playing Barbarians under the Basic Fantasy Role-Playing Game rules.  If you do not already have a copy of the Basic Fantasy RPG rules, please visit the website and download a copy.
+
+:::{.column-margin}
+Release 4 
+Copyright © 2011, 2018, 2020 Luigi Castellani 
+All Rights Reserved
+Distributed under the terms of the Open Game License version 1.0a 
+Artwork: John Fredericks 
+Proofing: Alan Vetter
+::: 
+
+### Class Descriptiom
+
+The new class described in this supplement is considered a subclass of the Fighter.  As such, it has the same attack bonus and saving throws as a Fighter of the same level. Barbarians should be treated as a Fighter for all purposes, unless otherwise noted.
+
+| Level | Exp. Points | Hit Dice  |
+|-------|-------------|-----------|
+| 1     | 0           | 1d10      |
+| 2     | 2,500       | 2d10      |
+| 3     | 5,000       | 3d10      |
+| 4     | 10,000      | 4d10      |
+| 5     | 20,000      | 5d10      |
+| 6     | 40,000      | 6d10      |
+| 7     | 80,000      | 7d10      |
+| 8     | 150,000     | 8d10      |
+| 9     | 300,000     | 9d10      |
+| 10    | 450,000     | 9d10+2    |
+| 11    | 600,000     | 9d10+4    |
+| 12    | 750,000     | 9d10+6    |
+| 13    | 900,000     | 9d10+8    |
+| 14    | 1,050,000   | 9d10+10   |
+| 15    | 1,200,000   | 9d10+12   |
+| 16    | 1,350,000   | 9d10+14   |
+| 17    | 1,500,000   | 9d10+16   |
+| 18    | 1,650,000   | 9d10+18   |
+| 19    | 1,800,000   | 9d10+20   |
+| 20    | 1,950,000   | 9d10+22   |
+
+**Requirements**: In order to qualify to be a Barbarian, a character requires a Strength of 9 or higher, a Dexterity of 9 or higher, and a Constitution of 9 or higher.  The class is open to Dwarves, Humans, as well as Half-Ogres and Half-Orcs if those options are available. 
+
+Barbarians may use any armor or shields, and may wield any weapons desired.
+
+Barbarians wearing no armor or at most leather armor may employ the following abilities:
+
+
+
+**Alertness**: Only a Thief one or more levels higher than the Barbarian can use their Backstab ability on the Barbarian. 
+
+**Animal reflexes**: The Barbarian can be surprised only on a roll of 1 on 1d6. 
+
+**Hunter**: In the wilderness Barbarians can surprise enemies on a roll of 1-3 on 1d6. 
+
+**Runner**: The Barbarian adds 5' to his or her tactical movement. 
+
+Barbarians have one additional special ability they can always use, regardless of armor worn:
+
+**Rage**: Once per day a Barbarian can fly into a Rage, which will last ten rounds.  While raging, a Barbarian cannot use any abilities that require patience or concentration, nor can he or she activate magic items of any kind (including potions).  Of course, magic items with a continuous effect (like a **Ring of Protection**) continue to function.
+
+While raging, the Barbarian must charge directly into combat with the nearest recognizable enemy.  If no enemy is nearby, the Barbarian must end his or her rage (see below) or else attack the nearest character. 
+
+While raging, the character temporarily gains a +2 bonus on attack rolls, damage rolls, and saving throws versus mind-altering spells, but suffers a penalty of -2 to armor class. 
+
+The Barbarian may prematurely end his or her rage with a successful save vs. Spells. 
+
+At the end of the rage, the Barbarian loses the rage modifiers and becomes fatigued, suffering a penalty of -2 to attack rolls, damage, armor class, and saving throws. While fatigued, the Barbarian may not charge nor move at a running rate.  This state of fatigue lasts for an hour. 
+
+A Barbarian may use this ability up to two times per day at 6th level and three times per day at 12th level.
+
+## Druids
+
+### Introduction
+
+This supplement provides information for playing Druids, a form of "specialist" Cleric, under the Basic Fantasy RolePlaying Game rule system.  If you do not already have a copy of the Basic Fantasy RPG Core Rules, please visit the website and download a copy.
+
+:::{.column-margin}
+Release 12
+
+Copyright © 2006-2022 Chris Gonnerman, Nazim N. Karaca, galstaff, Theo Zarras, Chris Hearn, R. Kevin Smoot, Rachel Ghoul, Alan Vetter, Tricky Nikki, Merias, and Mike West
+
+All Rights Reserved
+
+Distributed under the terms of the Open Game License version 1.0a
+
+::: 
+
+
+| Level | Exp.  Points | Hit Dice | 1      | 2 | 3 | 4 | 5 | 6 |
+|--------|--------------|----------|--------|---|---|---|---|---|
+| 1      | 0            | 1d6      | -      | - | - | - | - | - |
+| 2      | 1,500        | 2d6      | 1      | - | - | - | - | - |
+| 3      | 3,000        | 3d6      | 2      | - | - | - | - | - |
+| 4      | 6,000        | 4d6      | 2      | 1 | - | - | - | - |
+| 5      | 12,000       | 5d6      | 2      | 2 | - | - | - | - |
+| 6      | 24,000       | 6d6      | 2      | 2 | 1 | - | - | - |
+| 7      | 48,000       | 7d6      | 3      | 2 | 2 | - | - | - |
+| 8      | 90,000       | 8d6      | 3      | 2 | 2 | 1 | - | - |
+| 9      | 180,000      | 9d6      | 3      | 3 | 2 | 2 | - | - |
+| 10     | 270,000      | 9d6+1    | 3      | 3 | 2 | 2 | 1 | - |
+| 11     | 360,000      | 9d6+2    | 4      | 3 | 3 | 2 | 2 | - |
+| 12     | 450,000      | 9d6+3    | 4      | 4 | 3 | 2 | 2 | 1 |
+| 13     | 540,000      | 9d6+4    | 4      | 4 | 3 | 3 | 2 | 2 |
+| 14     | 630,000      | 9d6+5    | 4      | 4 | 4 | 3 | 2 | 2 |
+| 15     | 720,000      | 9d6+6    | 4      | 4 | 4 | 3 | 3 | 2 |
+| 16     | 810,000      | 9d6+7    | 5      | 4 | 4 | 3 | 3 | 2 |
+| 17     | 900,000      | 9d6+8    | 5      | 5 | 4 | 3 | 3 | 2 |
+| 18     | 990,000      | 9d6+9    | 5      | 5 | 4 | 4 | 3 | 3 |
+| 19     | 1,080,000    | 9d6+10   | 6      | 5 | 4 | 4 | 3 | 3 |
+| 20     | 1,170,000    | 9d6+11   | 6      | 5 | 5 | 4 | 3 | 3 |
+
+Druids are nature priests, revering the gods of the natural world.  Often a Druid uses mistletoe as a holy symbol, but this can vary with specific nature deities.  Druids spend their time contemplating nature or in mundane forms of service such as ministering in rural areas.  However, there are those who are called to go abroad to serve the natural order in a more direct way by working actively to restore balance.
+
+Druids advance at the same rate as Clerics, and they use the same combat and saving throw tables.  Druids can cast spells of divine nature starting at 2nd level, and they have the power of Animal Affinity (detailed at the end), working much like the Clerical ability to Turn Undead.  They can identify any natural animal or plant, and can identify clean water.
+
+The Prime Requisite for Druid is Wisdom; a character must have a Wisdom score of 9 or higher to become a Druid.  Druids may not utilize metal armor of any type, and they are likewise limited to wooden shields.  Druids utilize any one-handed melee weapon, as well as staff, sling, and shortbow.
+
+### Spells
+
+Below are listed spells available to the Druid subclass described above.  Spells in bold are new to this supplement.  Spells with a \* are reversible.
+
+#### First Level:
+
+|   |                        |
+|---|------------------------|
+| 1 | **Animal Friendship**      |
+| 2 | Create Water           |
+| 3 | Cure Light Wounds*     |
+| 4 | Detect Magic           |
+| 5 | **Detect Snares and Pits** |
+| 6 | **Entangle**               |
+| 7 | **Faerie Fire**           |
+| 8 | ***Pass Without Trace***     |
+
+#### Second Level: 
+
+|   |                    |
+|---|--------------------|
+| 1 | Charm Animal       |
+| 2 | Find Traps         |
+| 3 | **Heat Metal**\*        |
+| 4 | **Obscuring Mists**    |
+| 5 | **Produce Flame/Cold** |
+| 6 | **Slow Poison**        |
+| 7 | Speak With Animals |
+| 8 | **Warp Wood**\*         |
+
+
+#### Third Level: 
+
+|   |                      |
+|---|----------------------|
+| 1 | **Assume Animal Form**   |
+| 2 | **Call Lightning**       |
+| 3 | Cure Disease*        |
+| 4 | **Hold Animal**          |
+| 5 | Neutralize Poison*   |
+| 6 | **Plant Growth**         |
+| 7 | **Protection From Fire** |
+| 8 | Water Breathing      |
+
+#### Fourth Level: 
+
+|   |                                 |
+|---|---------------------------------|
+| 1 | **Call Woodland Beings**            |
+| 2 | **Control Temperature, 10' Radius** |
+| 3 | Cure Serious Wounds*            |
+| 4 | Lower Water                     |
+| 5 | **Protection From Lightning**       |
+| 6 | **Speak With Plants**               |
+| 7 | **Summon Animals I**                |
+| 8 | **Tree Sanctuary**                  |
+
+#### Fifth Level:
+
+|   |                     |
+|---|---------------------|
+| 1 | **Commune With Nature** |
+| 2 | **Control Winds**       |
+| 3 | Dispel Evil         |
+| 4 | **Flame Strike**        |
+| 5 | Growth of Animals   |
+| 6 | **Rock to Mud**\*        |
+| 7 | **Summon Animals II**   |
+| 8 | Wall of Fire        |
+
+#### Sixth Level
+
+|   |                         |
+|---|-------------------------|
+| 1 | **Animate Natural Objects** |
+| 2 | Find the Path           |
+| 3 | **Part Water**              |
+| 4 | **Pass Tree**               |
+| 5 | Reincarnate             |
+| 6 | **Summon Animals III**      |
+| 7 | **Weather Summoning**       |
+| 8 | Word of Recall          |
+
+### Description of New Spells
+
+#### **Animal Friendship** 
+
+Range: 30'
+
+Druid 1 
+
+Duration: permanent
+
+Upon encountering a normal or giant-sized (but not magical) animal, the caster may begin casting this spell, which requires an hour to complete. During this period the animal will remain nearby, and will not attack the caster or his or her allies for the duration of the casting (so long as they do not attack or otherwise disturb it). At the end of the casting, if the animal rolls a successful save vs. Spells, the spell has failed. At this point the animal acts naturally, without bearing the caster any special ill-will.
+
+If the animal fails its save, it becomes an *animal friend* and joins the caster for the rest of its natural life, assisting in any way it can. Both the caster and any other *a**nimal friends* are treated as treasured partners. There is no arcane mental connection, nor any particular control, but rather a strong fraternal bond which should go both ways. If the animal is treated poorly, or it's love not returned over a period of time, it can attempt another save vs. Spells at the GM's discretion.
+
+A caster may only have, at most, twice his or her level in hit dice of *animal friends*. If this spell is cast on an animal that would put the total above that number, it has no effect.
+
+
+#### **Animate Natural Objects**
+
+Druid 6 
+
+Range: 100'+10'/level
+
+Duration: 1 round/level
+
+This spell functions identically to the cleric spell **animate objects**, but it may only be cast on living trees, plants, or fungi, wooden objects, un-worked stone or earth, or naturally-occurring bodies of water or ice. At the GM's option other natural phenomena such as non-magical fires or weather effects might also be subject to this spell.
+
+#### **Assume Animal Form**
+
+Druid 3 
+
+Range: Self
+
+Duration: 1 hour/level
+
+This spell allows the caster to change into the form of any natural animal. The assumed animal form cannot have more hit dice than the caster's level. If slain, the caster reverts back to his or her original form.
+
+The caster gains the physical capabilities and statistics of the new form but retains his or her own mental abilities. The caster may remain transformed up to one hour per level, or end the spell earlier if he or she so desires.
+
+#### **Call Lightning** 
+
+Range: 100' + 10'/level
+
+Druid 3 
+
+Duration: 1 round/level
+
+Immediately upon completion of the spell, and at most once per round thereafter, the caster may call down a 5 ft wide, 30 ft long vertical bolt of lightning that deals 3d6 points of electricity damage. The bolt of lightning flashes down in a vertical stroke at whichever target point the caster chooses within the spell's range (measured from the caster's position at the time of casting). Any creature in the target area or in the path of the bolt is affected; a successful save vs. Spells reduces damage taken by half.
+
+The caster needs not call a bolt of lightning immediately; other actions, even spellcasting, can be performed. However, each round after the first the caster may choose to call a bolt instead of taking some other normal action. The caster may call a total number of bolts equal to one-third of his or her caster level, rounded down.
+
+If the caster is outdoors and in a stormy area -- a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a djinni or an air elemental) -- each bolt deals 3d8 points of damage instead of 3d6.
+
+This spell functions only where the open sky is accessible, generally meaning outdoors; bolts may be summoned through windows or skylights at the GM's discretion.
+
+#### **Call Woodland Beings**
+
+Druid 4 
+
+Range: 120'
+
+Duration: 1 round/level
+
+This spell summons woodland creatures. They appear where the caster designates and act immediately, on his or her turn (they cannot be summoned into an environment that cannot support them). They attack the caster opponents to the best of their ability. If the caster can communicate with the creatures, he or she can direct them not to attack, to attack particular enemies or to perform other actions.
+
+The caster may conjure one type of creature from this list, at his or her option:
+
+- 4 Centaurs,
+
+- 16 Pixies,
+
+- 2 Treants, or
+
+- 4 Unicorns
+
+This spell only works outdoors in a natural location; it will not function in any artificial structure, nor within the boundaries of any village, town, or city.
+
+#### **Commune With Nature**
+
+Druid 5 
+
+Range: see text
+
+Duration: instantaneous
+
+The caster becomes one with nature, attaining knowledge of the surrounding territory. After 10 minutes of concentration, the caster instantly gains knowledge of one fact per caster level among the following subjects: the ground or terrain, plants, minerals, bodies of water, people, general animal population, presence of woodland creatures, presence of powerful unnatural creatures, presence of settlement or structure, or even the general state of the natural setting.
+
+In outdoor settings, the spell operates in a radius of 1 mile per caster level. In natural underground settings -- caves, caverns, and the like -- the radius is limited to 100 ft per caster level. The spell does not function where nature has been replaced by construction or settlement, such as in dungeons and towns.
+
+#### **Control Temperature, 10' Radius**
+
+Druid 4
+
+Range: 0'
+
+Duration: 1 hour/level
+
+The caster can change automatically the surrounding temperature (10 ft radius sphere) by up to 10 degrees Fahrenheit per caster level. The change can be upward or downward (caster's choice).
+
+#### **Control Winds** 
+
+Range: 0 (see text)
+
+Druid 5 
+
+Duration: 10 minutes/level
+
+The caster alters wind force around him or her (40 ft per caster level radius cylinder 40 ft high). The caster can make the wind blow in a certain direction or manner, increase its strength, or decrease its strength. The new wind direction and strength persist until the spell ends or until the caster chooses to alter it, which requires concentration. The caster may create an "eye" of calm air up to 40 ft radius around him or her and may choose to limit the area of effect to any cylindrical area less than his or her full limit.
+
+The caster may choose wind patterns over the spell's area. He or she can choose a downdraft blows from the center outward, an updraft blows from the outer edges in toward the center, a rotation that causes the winds to circle the center or a blast that simply causes the winds to blow in one direction across the entire area from one side to the other.
+
+For every three caster levels, the caster can increase or decrease wind condition by one level (as described in the Waterborne Travel section of the **Basic Fantasy RPG Core Rules**).
+
+#### **Detect Snares and Pits**
+
+Druid 1 
+
+Range: 60'
+
+Duration: 10 turns
+
+By means of this spell, the caster can detect simple pits, deadfalls, and snares as well as mechanical traps constructed of natural materials. The spell does not detect complex traps, including trapdoor traps.
+
+This spell does detect certain natural hazards, for instance quicksand (detected as a snare), a sinkhole (a pit), or unsafe walls of natural rock (a deadfall). However, it does not reveal other potentially dangerous conditions. The spell does not detect magic traps (except those that operate by pit, deadfall, or snaring), nor mechanically complex ones, nor those that have been rendered safe or inactive.
+
+The amount of information revealed depends on how long the caster studies a particular area.
+
+-   1st Round: Presence or absence of hazards.
+
+-   2nd Round: Number of hazards and the location of each. If a hazard is outside the caster's line of sight, then the caster discern its direction but not its exact location.
+
+-   Each Additional Round: The general type and trigger for one particular hazard closely examined by the caster.
+
+Each round, the caster can turn to detect snares and pits in a new area. The spell can penetrate barriers, but 1 ft of stone, 1 in of common metal, a thin sheet of lead, or 3 ft of wood or dirt blocks it.
+
+#### **Entangle** 
+
+Range: 200'
+
+Druid 1
+
+Duration: 3 rounds/level
+
+This spell causes existing grasses, trees, bushes, shrubs, or other plants to entwine around creatures in a 40 ft x 40 ft area. At the GM's discretion a caster underground may use roots of plants or trees if such are present. Most creatures within the area of effect move at ¼ normal speed; very large and/or very strong creatures (at least as big or strong as a giant or dragon) move at ½ normal speed. If the creature affected is running at the time the spell is cast, the creature must make a saving throw vs Spell (with Dexterity bonus applied, if any) or trip and become prone and trapped until the end of spell. Entangled creatures may not attack nor take most actions other than movement due to the interference of the enchanted plants. This spell is only effective in a settings where plants will grow, including wilderness areas, farmland, and earthen-walled tunnels.
+
+
+#### **Faerie Fire** 
+
+Range: 200' +10'/level
+
+Druid 1 
+
+Duration: 1 minute/level
+
+A pale glow surrounds and outlines all objects including individuals within a 20 ft radius from a point chosen by the caster. Outlined subjects shed light as candles. Outlined creatures do not benefit from the concealment normally provided by darkness, and the spell effectively negates the effects of blur, displacement, invisibility, or similar effects. The light is too dim to have any special effect on undead or dark-dwelling creatures vulnerable to light. The faerie fire can be blue, green, or violet, according to your choice at the time of casting. The faerie fire does not cause any harm to the objects or creatures thus outlined.
+
+#### **Flame Strike** 
+
+Range: 60'
+
+Druid 5
+
+Duration: instantaneous
+
+A **f****lame** **s****trike** produces a vertical column of divine fire roaring downward (cylinder of 10 ft radius, 30 ft high). The spell deals 6d8 points of damage to any creatures within the area of effect; a save vs. Spells for half damage is allowed.
+
+
+#### **Heat Metal** 
+
+Range: 25'
+
+Druid 2 
+
+Duration: 7 rounds
+
+This spell causes a single item made of ferrous (iron-based) metal to become hot for a brief period of time. The affected item is warm to the touch immediately, and then becomes progressively hotter each round as indicated on the table below. The damage roll indicated is applied to any creature holding or wearing the affected item; a brief touch does no damage.
+
+| **Round** | **Temperature** | **Damage** |
+|-----------|-----------------|------------|
+| 1st       | Warm            | None       |
+| 2nd-3rd   | Hot             | 1d4 points |
+| 4th-5th   | Searing         | 2d4 points |
+| 6th       | Hot             | 1d4 points |
+| 7th       | Warm            | None       |
+
+Note that this spell can damage items harmed by heat, such as potions for example, and might boil water, wine, or oil stored in vessels within affected metal item, possibly causing an affected vessel to burst. Generally this will happen on the 4^th^ or 5^th^ round, when the effect is at its most powerful.
+
+The reverse of this spell is **chill metal**. It inflicts damage as outlined in the table above, but the damage is caused by cold instead of heat. Note that this can freeze water, congeal oil, and so on. Frozen water might burst its vessel.
+
+#### **Hold Animal** 
+
+Range: 180'
+
+Druid 3
+
+Duration: 2d8 turns
+
+This spell functions like **hold person,** except that it affects only animals; specifically, this means non-magical living creatures of animal intelligence, including giant-sized animals. A save vs. Spells is allowed to resist this spell.
+
+#### **Obscuring Mists** 
+
+Range: 20' radius
+
+Druid 2
+
+Duration: 1 turn/level
+
+This spell causes a bank of misty vapor to arise around the caster, remaining stationary once created. The vapor obscures all sight, including darkvision, beyond 2d4 feet. A strong wind can disperse the spell in one-quarter the usual duration
+
+#### **Part Water** 
+
+Range: 60'
+
+Druid 6
+
+Duration: 1 turn/level
+
+This spell, when cast on a body of water, causes it to part. This exposes a path that can be traversed as if it where dry land. Note that this spell does not change the topography of the bottom of the body of water, so the terrain my still be difficult to cross. The caster is able to affect a body of water up to 5 ft./caster level. The caster may dismiss this spell at any time.
+
+
+#### **Pass Tree** 
+
+Range: Touch
+
+Druid 6 
+
+Duration: Instantaneous
+
+This spell allows the caster and up to two others to teleport between any two living trees on the same plane. The caster chooses a general location or a specific tree. The caster must have personal knowledge of the specific tree or general area of the target destination.
+
+#### **Pass Without Trace** 
+
+Range: Touch
+
+Druid 1 
+
+Duration: 1 hour/level
+
+This spell permits up to one creature per caster level to move through any type of terrain, leaving neither footprints nor scent. Tracking the subjects by non-magical means is thus rendered impossible.
+
+#### **Plant Growth** 
+
+Range: special
+
+Druid 3 
+
+Duration: permanent
+
+This spell causes normal vegetation (grasses, briars, bushes, creepers, thistles, trees, vines) within 400 ft. + 40 ft./caster level to become thick and overgrown. The plants entwine to form a thicket or jungle that creatures must hack or force a way through. Movement rate is reduced to a maximum of 5 ft./round, or 10 ft for Large creatures. The area must have brush and trees in it for this spell to take effect. An area up to 100 ft radius may thus be altered. Also, the caster may specify an area (a path, a clearing, etc.) within the given area of effect which is not so affected.
+
+This spell has no effect on plant creatures, that is, any self-willed and/or animated plant.
+
+#### **Produce Flame/Cold** 
+
+Range: 0
+
+Druid 2 
+
+Duration: 1 min./level
+
+Flames as bright as a torch appear in the caster's open hand. The flames don't harm the caster or his or her equipment. Alternatively, a bluish, cold aura may be produced, which also sheds light as bright as torch-light.
+
+In addition to providing illumination, the flames or cold aura can be hurled or used to touch enemies. The caster can strike an opponent with a melee touch attack, dealing fire or cold damage respectively equal to 1d6, +1 points per caster level (maximum +5). Alternatively, the caster can hurl the flames or cold aura up to 50 ft as a thrown weapon. When doing so, the caster must make an attack roll (with no range penalty), and on a successful hit deals the same damage as the melee attack. As soon as the caster hurls the flames or cold aura, a new one appears in his or her hand. Each attack made reduces the remaining duration by 1 minute. If an attack reduces the remaining duration to 0 minutes or less, the spell ends with that attack.
+
+Neither variation of this spell functions underwater.
+
+#### **Protection From Fire**
+
+Druid 3 
+
+Range: Touch
+
+Duration: special
+
+If the caster touches himself or herself, this spell grants temporary immunity to fire (normal and magic). When the spell absorbs 12 points per caster level of magical fire damage, it is discharged. Otherwise the spell lasts for 1 turn per caster level.
+
+If the spell is cast upon another creature than the caster, **protection from fire** grants temporary immunity against normal fire. The spell also offers a +4 bonus to saving throws against magical fire and if the save is successful, the creature suffers no damage (and only 25% if the save fails). This version of the spell lasts for 1 turn per caster level.
+
+#### **Protection From Lightning**
+
+Druid 4 
+
+Range: Touch
+
+Duration: special
+
+This spell functions exactly like **protection from fire**, except that that it protects against any sort of electrical or lightning damage.
+
+#### **Rock to Mud*** 
+
+Range: 150'
+
+Druid 5
+
+Duration: permanent
+
+This spell turns natural, uncut or un-worked rock of any sort into an equal volume of mud; up to two 10 ft cubes per caster level may be so transformed. Magical stone is not affected by this spell. The depth of the mud created cannot exceed 10 ft. A creature unable to levitate, fly, or otherwise free itself from the mud sinks until hip- or chest-deep, reducing its speed to 5 ft and causing it to suffer a ‑2 penalty to attack rolls, saving throws, and armor class. Creatures large enough to walk on the bottom can wade through the area at a speed of 5 ft., suffering none of the other penalties given.
+
+If **rock to mud** is cast upon the ceiling of a cavern or tunnel, the mud falls to the floor and spreads out in a pool to a depth of 5 ft. The falling mud and the ensuing cave-in deal 8d6 points of damage to anyone caught directly beneath the area, or half damage to those who succeed a save vs. Death Ray.
+
+Castles and large stone buildings are generally immune to the effect of the spell, since **rock to mud** cannot affect worked stone and doesn't reach deep enough to undermine such a buildings' foundation. However, small buildings or structures often rest upon foundations shallow enough to be damaged or even partially-toppled by this spell.
+
+The mud remains until a successful **dispel magic** or **mud to rock** spell restores its substance (though not necessarily its form). Evaporation turns the mud to normal dirt over a period of days. The exact time depends on exposure to the sun, wind, and normal drainage.
+
+When using the reverse, **mud to rock**, the spell converts the same volume of mud into relatively soft stone (such as limestone or sandstone) permanently. Any creature in the mud must save vs. Death Ray to escape before the area transforms into rock (assuming it has enough movement to do so).
+
+#### **Slow Poison** 
+
+Range: Touch
+
+Druid 2 
+
+Duration: 1 hour/level
+
+The creature touched by the caster becomes temporarily immune to poison. Any poison in its system or any poison to which it is exposed during the spell's duration does not affect the subject until the spell's duration has expired. **Slow poison** does not cure any damage that poison may have already done, with exception of the following circumstances.
+
+If cast on a character who received lethal damage from poison the previous round, the spell will remove that round's poison damage only, and delay it for the duration of the spell. Prior poison damage will remain unaffected, but, as noted above, no further damage is accrued until the spell lapses, and will never accrue if the poison is neutralized while this spell is in effect. This will give the poisoned victim an opportunity to seek a cure to neutralize the poison before it is fatal.
+
+#### **Summon Animals I**
+
+Druid 4 
+
+Range: 40'/level
+
+Duration: One hour
+
+This spell summons 1d8 ordinary animals (including giant ones) of no more than 4 HD each if they are within range. The caster must name the type of animal summoned, and can have up to three choices. If none of the three species are found within range, the spell fails. The animals will be friendly when summoned and aid the caster's current task, including combat, in whatever way they can (to the best of their understanding). The caster may dismiss any animals called by this spell at any time.
+
+#### **Summon Animals II**
+
+Druid 5 
+
+Range: 60'/level
+
+Duration: One day
+
+This spell is a more powerful version of **Summon Animals I**. Up to 3d4 animals of 4 HD or less can be summoned, or 1d6 animals of 8 HD or less.
+
+#### **Summon Animals III**
+
+Druid 6 
+
+Range: 80'/level
+
+Duration: One day
+
+This spell is a more powerful version of **Summon Animals** **I****I**. Up to 4d6 animals of 4 HD or less can be summoned, or 3d4 animals of 8 HD or less, or 1d4 animals of 12 HD or less.
+
+#### **Tree Sanctuary** 
+
+Range: Touch
+
+Druid 4 
+
+Duration: 1 turn/level
+
+This spell enables the caster to create an invisible door in the trunk of a tree that is visible only to dryads and Druids. The tree must be at least 10 ft tall and planted in the earth for this spell to work. Once the spell is complete, the caster may enter the tree, effectively disappearing from sight. A caster may only affect one tree with this spell at a time. Furthermore, this spell may only be cast on a tree occupied by a dryad if the dryad allows it.
+
+The caster is completely aware of his or her surroundings while in the tree, being able to hear normally and see in a 360 degree radius, as well as being able to detect changes in the immediate temperature surrounding the tree. A Druid or Cleric may meditate to prepare spells in the tree. Each turn the caster sleeps inside the tree counts as a full hour of sleep. If the tree is an oak, the caster heals 1d4 hit points per turn spent inside the tree.
+
+The caster loses the senses of taste, smell, and touch, and may not speak or cast spells while inside the tree. The caster takes half of any damage the tree suffers, and if the tree is destroyed or cut down, the caster is forcefully expelled into the nearest available space.
+
+#### **Warp Wood*** 
+
+Range: 50'
+
+Druid 2
+
+Duration: instantaneous
+
+The caster causes non-magical wood in a 20 ft radius to bend and warp, permanently destroying its straightness, form, and strength. A warped door springs open or becomes stuck; a boat or ship springs a leak; warped weapons (like bows and arrows) are useless. The caster may warp wood object(s) up to 1 ft on all sides per caster level.
+
+Alternatively, the caster can "un-warp" non-magical wood (effectively warping it back to normal), straightening wood that has been warped by this spell or by other means. The caster can combine multiple consecutive **warp wood** spells to warp (or un-warp) an object that is too large to warp with a single spell.
+
+#### **Weather Summoning** 
+
+Range: 10 miles
+
+Druid 6 
+
+Duration: 5 turns/level
+
+The caster is able to summon nearby weather conditions. The caster must be aware of the weather condition to summon it. This spell does not grant control of the weather to the caster.
+
+
+
+### New Combat rules
+
+#### Animal Affinity
+
+Tame, Domesticated, or Normal Beasts of Burden are treated as half their actual Hit Dice.
+
+Monstrous Animals or other "Near-Natural" Animals are treated as 1 Hit Die higher.
+
+Druids have the Animal Affinity ability, which is the ability to calm or befriend normal animals. The Druid attempts to communicate a benign intent, and through his or her connection to the natural world the animals affected may be either calmed or befriended. The player rolls 1d20 and tells the GM the result. Note that the player should always roll, even if the GM knows the character can't succeed (or can't fail), as telling the player whether or not to roll may reveal too much.
+
+The GM looks up the Druid's level on the Druids Animal Affinity Table, below, and cross references it with the animal's hit dice. Tame or normally domesticated animals such as livestock, family pets, or normal beasts of burden are treated as half their actual HD, reflecting their relative easy manageability. Monstrous animals such as griffins, owlbears, pegasi, or other such "near-natural" creatures are treated as they are 1 HD more than listed to reflect their unique natures. If the table indicates "No" for that combination, it is not possible for the Druid to affect that type of animal. If the table gives a number, that is the minimum number needed on the 1d20 to Calm that sort of animal. If the table says "C" for that combination, that type of animal is automatically affected. If the result shown is a "B" for that combination, that type of animal is automatically befriended.
+
+If the roll is a success, 2d6 HD of animals are affected. Surplus hit dice are lost, but at least one animal is always affected if the first roll is a success.
+
+#### Druid Animal Affinity Table
+
+:::{.column-page-right}
+
+|                 |            |         |         |         |         |         |         |         |         |         |    |
+|-----------------|------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|----|
+| **Druid Level** | **< 1 HD** | **1HD** | **2HD** | **3HD** | **4HD** | **5HD** | **6HD** | **7HD** | **8HD** | **9HD** | **10HD**        |    
+| 1               | 9          | 13      | 17      | 19      | No      | No      | No      | No      | No      | No      | No |
+| 2               | 7          | 11      | 15      | 18      | 20      | No      | No      | No      | No      | No      | No |
+| 3               | 5          | 9       | 13      | 17      | 19      | No      | No      | No      | No      | No      | No |
+| 4               | 3          | 7       | 11      | 15      | 18      | 20      | No      | No      | No      | No      | No |
+| 5               | 2          | 5       | 9       | 13      | 17      | 19      | No      | No      | No      | No      | No |
+| 6               | C          | 3       | 7       | 11      | 15      | 18      | 20      | No      | No      | No      | No |
+| 7               | C          | 2       | 5       | 9       | 13      | 17      | 19      | No      | No      | No      | No |
+| 8               | C          | C       | 3       | 7       | 11      | 15      | 18      | 20      | No      | No      | No |
+| 9               | B          | C       | 2       | 5       | 9       | 13      | 17      | 19      | No      | No      | No |
+| 10              | B          | C       | C       | 3       | 7       | 11      | 15      | 18      | 20      | No      | No |
+| 11              | B          | B       | C       | 2       | 5       | 9       | 13      | 17      | 19      | No      | No |
+| 12              | B          | B       | C       | C       | 3       | 7       | 11      | 15      | 18      | 20      | No |
+| 13              | B          | B       | B       | C       | 2       | 5       | 9       | 13      | 17      | 19      | No |
+| 14              | B          | B       | B       | C       | C       | 3       | 7       | 11      | 15      | 18      | 20 |
+| 15              | B          | B       | B       | B       | C       | 2       | 5       | 9       | 13      | 17      | 19 |
+| 16              | B          | B       | B       | B       | C       | C       | 3       | 7       | 11      | 15      | 18 |
+| 17              | B          | B       | B       | B       | B       | C       | 2       | 5       | 9       | 13      | 17 |
+| 18              | B          | B       | B       | B       | B       | C       | C       | 3       | 7       | 11      | 15 |
+| 19              | B          | B       | B       | B       | B       | B       | C       | 2       | 5       | 9       | 13 |
+| 20              | B          | B       | B       | B       | B       | B       | C       | C       | 3       | 7       | 11 |
+
+::: 
+
+Tame, Domesticated, or Normal Beasts of Burden are treated as half their actual Hit Dice.
+Monstrous Animals or other "Near-Natural" Animals are treated as 1 Hit Die higher.
+
+If a mixed group of animals (say, a boar and a black bear) is to be affected, the player still rolls just once. The result is checked against the weakest sort first (the boar), and if they are successfully Calmed or Befriended, the same result is checked against the next higher type of animal. Likewise, the 2d6 HD are rolled only once. For example, if the group described above is to be affected by a 2^nd^ level Druid, he or she would first need to have rolled a 15 or higher to Calm the boar. If this is a success, 2d6 are rolled; assuming the 2d6 roll is a 6, this would Calm the boar and leave a remainder of 4 HD of effect. Black bears are in fact 4 HD animals, so assuming the original 1d20 roll was a 20, the black bear is Calmed as well. Obviously, were it a group of 2 boars and a black bear, the 2d6 roll would have to be a total of 8 or higher to affect them all.
+
+If a Druid succeeds at Calming or Befriending the animals, but not all animals present are affected, he or she may try again in the next round to affect those which remain. If any roll to Calm or Befriend the Animals fails, that Druid
+
+#### NEW MAGIC ITEMS
+
+The items listed below are magic items made by and for Druids. Unless otherwise noted in the item description, these items may be used by any class.
+
+**Ring of t****he Green**: This ring made of what appears to be a tight collection of tiny green vines. When worn, the vines will writhe and (painless) grow into the wearer's finger. It takes a full week for the ring to fully bond with the wearer. Once bonded, the ring provides two benefits. The first is that as long as the wearer is outdoors for a full hour of sunlight (or two full hours of overcast weather), the wearer doesn't need to eat or drink anything for the day. The second is that each hour of complete rest in the outdoors is the equivalent of four hours of sleep.
+
+**Ring of the Dryad**: This ring is made of highly polished wood. When worn the user is able to manifest the effects of a **tree** **sanctuary** spell once per day. The duration is for up to an hour, though the wearer can exist at any time.
+
+**Slippers of the Dryad**: When wearing these light slippers (or sandals; their appearance can vary), the wearer is under the continual effects of the **pass** **without** **trace** spell, and is able to pass through any naturally overgrown area unimpeded.
+
+**Staff of the Woodlands**: This staff operates as a +2 staff and provides its user with the continual effects of **pass without trace** spell. These abilities require no charges and continue to work even if the staff is exhausted of all charges. In addition it has several other abilities that do cost charges. The following powers cost one charge per use: **charm animal**, **speak with animals**, and**hold animal**. The following powers cost two charges per use: **summon animals II**, **animate natural object**. This item may only be used by Druids.
+
+
+**Sword of the Sylvan**: This slightly curved single-edged sword (counts as a longsword/scimitar) is a +1 magic weapon under normal circumstance, but when used outdoors in a temperate climate it becomes a +3 magic weapon.
+
+**Torc of Protection**: This ornamental neck ring functions as a **ring of protection**, but its power is passively activated by the wearer. If the wearer is level 1 through 8, the protection is +1; if the wearer is level 9 through 14, the protection is +2; if the wearer is level 15 or above, the protection is +3. As the protection is drawn from the wearer, this may only be used by Druids.
+
+**Vestment of the Druid**: This is a light covering that can be worn over other clothing or armor. It is typically green (though sometimes brown) in color with natural scenes embroidered across the front and back panels. The wearer may manifest the effects of the **animal** **shape** spell once a day. The duration is for up to one hour, though the wearer may end the effect early. This item may only be used by Druids.
+
+#### Making Magic Items
+
+Druids follow the rules for cleric for making spell scrolls; they cannot make non-spell (i.e. protection) scrolls.
+
+Druids of 7^th^ level and higher make potions as a Cleric, and Druids of 9^th^ level and higher may make the magic items listed here (plus any others that the GM feels are appropriate) as a Cleric.
+
+
+
+## Illusionists 
+
+### Introduction 
+
+This supplement provides information for playing Illusionists, a form of “specialist” Magic-User, under the Basic Fantasy Role-Playing Game rule system. If you do not already have a copy of the Basic Fantasy RPG Core Rules, please visit the website and download a copy.
+
+### Class Description 
+
+:::{.column-margin}
+
+**Release 8**
+
+Copyright © 2006-2012, 2018, 2020 Chris Gonnerman, Serge Petitclerc, R. Kevin Smoot, and Mike West.
+
+Art by John Fredericks
+
+Proofing: James Lemon
+
+All Rights Reserved
+
+Distributed under the terms of the Open Game License version 1.0a
+
+::: 
+
+| Level | Exp. Points | Hit Dice | 1 | 2 | 3 | 4 | 5 | 6 |
+|-------|-------------|----------|---|---|---|---|---|---|
+| 1     | 0           | 1d4      | 1 | - | - | - | - | - |
+| 2     | 2,500       | 2d4      | 2 | - | - | - | - | - |
+| 3     | 5,000       | 3d4      | 2 | 1 | - | - | - | - |
+| 4     | 10,000      | 4d4      | 2 | 2 | - | - | - | - |
+| 5     | 20,000      | 5d4      | 2 | 2 | 1 | - | - | - |
+| 6     | 40,000      | 6d4      | 3 | 2 | 2 | - | - | - |
+| 7     | 80,000      | 7d4      | 3 | 2 | 2 | 1 | - | - |
+| 8     | 150,000     | 8d4      | 3 | 3 | 2 | 2 | - | - |
+| 9     | 300,000     | 9d4      | 3 | 3 | 2 | 2 | 1 | - |
+| 10    | 450,000     | 9d4+1    | 4 | 3 | 3 | 2 | 2 | - |
+| 11    | 600,000     | 9d4+2    | 4 | 4 | 3 | 2 | 2 | 1 |
+| 12    | 750,000     | 9d4+3    | 4 | 4 | 3 | 3 | 2 | 2 |
+| 13    | 900,000     | 9d4+4    | 4 | 4 | 4 | 3 | 2 | 2 |
+| 14    | 1,050,000   | 9d4+5    | 4 | 4 | 4 | 3 | 3 | 2 |
+| 15    | 1,200,000   | 9d4+6    | 5 | 4 | 4 | 3 | 3 | 2 |
+| 16    | 1,350,000   | 9d4+7    | 5 | 5 | 4 | 3 | 3 | 2 |
+| 17    | 1,500,000   | 9d4+8    | 5 | 5 | 4 | 4 | 3 | 3 |
+| 18    | 1,650,000   | 9d4+9    | 6 | 5 | 4 | 4 | 3 | 3 |
+| 19    | 1,800,000   | 9d4+10   | 6 | 5 | 5 | 4 | 3 | 3 |
+| 20    | 1,950,000   | 9d4+11   | 6 | 5 | 5 | 4 | 4 | 3 |
+
+Illusionists are "specialist" Magic-Users who focus on the creation and manipulation of illusions, whether visual, auditory, or mental, and at higher levels quasi-real things made of tangible shadow. Though "normal" Magic-Users can create illusions, those created by a true Illusionist are superior in quality and realism.
+
+The Prime Requisite for an Illusionist is Intelligence. The Illusionist is required to have an Intelligence score of 13 or higher. Illusionists are poor fighters, with fighting ability equivalent to normal Magic-Users. Likewise they are no more hardy than standard Magic-Users (d4 hit die). They may not wear any armor of any sort or use shields. Like other Magic-Users, they can utilize a walking staff (or cudgel) or dagger, and of course they may use magical weapons of those types. Otherwise, Illusionists can generally be treated as equivalent to Magic-Users for any situation not covered here.
+
+Because of their expertise at creating and understanding illusions, Illusionists always gain an additional +2 on saves vs. any sort of illusion or phantasm.
+
+Illusionists produce magic much like other types of Magic-Users, but have different spell choices. They can learn spells from each other so long as the spells are available to both classes. Like other Magic-Users, a first level Illusionist begins play knowing **read magic** and one other spell of first level, recorded within a spell book. The GM may roll for the spell, assign it as he or she sees fit, or allow the player to choose it, at his or her option. See the **Illusionist Spells** section below for more details.
+
+### Illusionist Spells
+
+Illusionists cast spells through the exercise of knowledge and will, exactly as normal Magic-Users. They prepare spells by study of their spellbooks; each Illusionist has his or her own spellbook, containing the magical formulae for each spell the Illusionist has learned, written in a magical script that can only be read by the Illusionist who wrote it, or through the use of a special first-level spell: **read magic**. All Illusionists begin play with **read magic** as their first spell, and it is so ingrained that an Illusionist can prepare it without a spellbook. **Read magic** has a range of "touch" and is permanent with respect to any given magical work (spellbook or scroll).
+
+Illusionists may learn spells by being taught directly by another Illusionist or by studying another Illusionist's spellbook. The Illusionist may also learn appropriate spells from standard Magic-Users (or other arcane casters, if used); the spell always being at the level as it appears on the Illusionist Spell List. Likewise, a Magic-User may learn spells shared by the classes from an Illusionist. If being taught, a spell can be learned in a single day; researching another Illusionist's spellbook takes one day per spell level. Either way, the spell learned must be transcribed into the Illusionist's own spellbook, at a cost of 500 gp per spell level transcribed. A beginning Illusionist starts with a spellbook containing **read magic** and at least one other first-level spell, as determined by the Game Master, at no cost.
+
+Spells in **bold** are new to this supplement. Spells with an asterisk (*) following the name are reversible.
+
+#### First Level: 
+
+|    |                     |
+|----|---------------------|
+| 1  | **Audible Glamer **     |
+| 2  | **Detect Invisibility** |
+| 3  | **Change Self**         |
+| 4  | **Color Spray**         |
+| 5  | **Dancing Lights**      |
+| 6  | **Detect Illusion**     |
+| 7  | **Gaze Reflection**     |
+| 8  | Light*              |
+| 9  | Magic Mouth         |
+| 10 | Mirror Image        |
+| 11 | **Phantasmal Image**    |
+| 12 | Ventriloquism       |
+
+#### Second Level
+
+|    |                  |
+|----|------------------|
+| 1  | **Alter Self**       |
+| 2  | **Blur**             |
+| 3  | Continual Light* |
+| 4  | Detect Magic     |
+| 5  | **Dispel Illusion**  |
+| 6  | **Hypnotic Pattern** |
+| 7  | Invisibility     |
+| 8  | **Obscurement**      |
+| 9  | Phantasmal Force |
+| 10 | **Phantom Trap**     |
+| 11 | Read Languages   |
+| 12 | **Rope Trick**       |
+
+
+#### Third Level
+
+|    |                          |
+|----|--------------------------|
+| 1  | Clairvoyance             |
+| 2  | **Color Cloud**              |
+| 3  | Darkvision               |
+| 4  | **Displacement**             |
+| 5  | **Illusory Script**          |
+| 6  | **Illusory Wall**            |
+| 7  | Invisibility, 10' Radius |
+| 8  | **Phantom Messenger**        |
+| 9  | **Phantom Steed**            |
+| 10 | **Shadow Door**              |
+| 11 | **Spectral Force**           |
+| 12 | **Stinking Cloud**           |
+
+#### Fourth Level: 
+
+|    |                       |
+|----|-----------------------|
+| 1  | **Advanced Illusion**     |
+| 2  | Confusion             |
+| 3  | Dispel Magic          |
+| 4  | Hallucinatory Terrain |
+| 5  | Hold Person           |
+| 6  | **Improved Invisibility** |
+| 7  | Massmorph             |
+| 8  | **Phantasmal Killer**     |
+| 9  | **Rainbow Pattern**       |
+| 10 | Silence, 15' Radius   |
+| 11 | **Solid Fog**             |
+| 12 | **Suggestion**            |
+
+
+#### Fifth Level: 
+
+|    |                     |
+|----|---------------------|
+| 1  | Cloudkill           |
+| 2  | **Dream**               |
+| 3  | Feeblemind          |
+| 4  | **Mirage Arcana**       |
+| 5  | **Mislead**             |
+| 6  | **Nightmare**           |
+| 7  | **Programmed Illusion** |
+| 8  | Projected Image     |
+| 9  | **Seeming**             |
+| 10 | Wizard Eye          |
+
+
+#### Sixth Level: 
+
+|    |                    |
+|----|--------------------|
+| 1  | **False Vision**       |
+| 2  | Invisible Stalker  |
+| 3  | **Mass Invisibility**  |
+| 4  | **Mass Suggestion**    |
+| 5  | **Permanent Illusion** |
+| 6  | **Shadow Walk**        |
+| 7  | True Seeing        |
+| 8  | **Maze**               |
+| 9  | **Phase Door**         |
+| 10 | **Veil**               |
+
+### Description of New Spells
+
+
+####  **Advanced Illusion** 
+
+Range: 180'
+
+Illusionist 4 
+
+Duration: 1 minute / level
+
+This spell functions like the spell **spectral force** except that the illusion follows a script determined by the caster. The illusion follows the script without requiring the caster to concentrate on it. If the illusion includes intelligible speech, however, such speech is likewise scripted, so the illusion will not respond if spoken to.
+
+#### **Alter Self** 
+
+Range: self
+
+Illusionist 2 
+
+Duration: 10 minutes / level
+
+This spell allows the caster to assume the form of a creature of the same body type (i.e. humanoid). The new form must be within 50% of his or her normal size. The assumed form can't have more hit dice than the caster's level, nor more than 5 HD at most. The caster can change into a member of his or her own kind or even into him- or herself.
+
+The caster retains his or her own ability scores, class, level, hit points, attack bonus and saving throws. If the new form is capable of speech, he or she can communicate normally and cast spells. The caster acquires the physical qualities of the new form, including armor class, movement capabilities (such as climbing, swimming and flight, but not including magical movement abilities such as **levitation**), natural weapons (such as claws, bite, and so on), racial abilities, and any gross physical qualities (wings, additional extremities, etc).
+
+Using alter self does not permit additional attacks, and the caster does not gain any special, supernatural, or spell-like abilities of the new form.
+
+#### **Audible Glamer** 
+
+Range: 60' + 10' / level
+
+Illusionist 1 
+
+Duration: 2 rounds / level
+
+**Audible glamer** allows the caster to creates a volume of sound that rises, recedes, approaches, or remains at a fixed location. The caster chooses what type of sound he or she creates when casting the spell, and cannot thereafter change the sound's basic character.
+
+The volume of sound created is equivalent to the noise of two normal Humans per caster level. Thus, talking, singing, shouting, walking, marching, or running sounds can be created. The noise an **audible glamer** spell produces can be virtually any type of sound within the volume limit. A horde of rats running and squeaking is about the same volume as six Humans running and shouting. A roaring lion is equal to the noise from twelve humans, while a roaring dragon is equal to the noise from twenty Humans.
+
+Note that this spell is particularly effective when cast in conjunction with **phantasmal force**.
+
+If a character states that he or she does not believe the sound, a save vs. Spells is made; if the save succeeds, the character hears the sound as distant and obviously fake.
+
+#### **Blur** 
+
+Range: touch
+
+Illusionist 2 
+
+Duration: 1 minute / level
+
+When a **blur** spell is cast, the caster causes the outline of the creature touched to appear blurred, shifting and wavering. This distortion causes all missile and melee combat attacks to be made at -4 on the first attempt and ‑2 on all successive attacks. It also grants a +1 on the saving throw die roll against any direct magical attack.
+
+A **detect invisible** spell does not counteract the blur effect, but a **true seeing** spell does. Opponents that cannot see the subject ignore the spell's effect (though fighting an unseen opponent carries penalties of its own).
+
+#### **Change Self** 
+
+Range: self
+
+Illusionist 1 
+
+Duration: 1 turn / level
+
+This spell allows the caster to alter his or her appearance. This includes not only body shape and facial features, but also clothing, armor, weapons, and equipment. The caster can seem up to one foot shorter or taller, and may appear thin, fat, or any size in between. This spell cannot change the overall body shape of the caster (to look like a dog, for example). Otherwise, the extent of the apparent change is up to the caster.
+
+The spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile (touch) or audible (sound) properties of the caster or his equipment.
+
+A creature that interacts with the caster may, at the discretion of the GM, be allowed a save vs. Spells to recognize the illusion.
+
+#### **Color Cloud** 
+
+Range: 40' (see text)
+
+Illusionist 3 
+
+Duration: 1 round/level
+
+This spell is similar to **color spray**. It causes a vivid cloudof clashing colors which cause living creatures in the area of effect (or who enter the area of effect) to become blinded or possibly even unconscious. The cloud covers an area up to 20 feetsquare or 20 feet in diameter, as chosen by the caster. Each creature within the cloud is affected according to its hit dice:
+
+-   4 HD or less: The creature becomes unconscious for 2d4 rounds, then is blinded for 1d4 rounds.
+
+-   5to 8 HD: The creature is blinded for 1d4 rounds.
+
+-   9 or more HD: The creature is blinded for 1 round.
+
+All creatures having more levels or hit dice than the spell caster, or having 10 or more levels or hit dice in any case, are entitled to a save vs. Spells to negate the effect. Sightless creatures are not affected by this spell.
+
+#### **Color Spray** 
+
+Range: 20' (see text)
+
+Illusionist 1 
+
+Duration: instantaneous
+
+This spell causes a vivid cone of clashing colors to be projected from the caster's hands, causing living creatures in the area of effect to become blinded or possibly unconscious. The cone has a 5-foot diameter at the base, 20-foot diameter at the end, and is 20 feet long. Each creature within the cone is affected according to its hit dice:
+
+-   2 HD or less: The creature is unconscious for 2d4 rounds, then blinded for 1d4 rounds.
+
+-   3 or 4 HD: The creature is blinded for 1d4 rounds.
+
+-   5 or more HD: The creature is blinded for 1 round.
+
+All creatures having more levels or hit dice than the spell caster, or having 6 or more levels or hit dice in any case, are entitled to a save vs. Spells to negate the effect. Sightless creatures are not affected by color spray.
+
+#### **Dancing Lights** 
+
+Range: 40' + 10' / level
+
+Illusionist 1 
+
+Duration: 2 rounds / level
+
+Depending on the version of the spell selected, the caster creates up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will-o'-wisps), or one faintly glowing, vaguely humanoid shape.
+
+The dancing lights must stay within a 10-foot radius area in relation to each other but otherwise move as the caster desires, up to 100 feet per round. Note that concentration is not required; if ignored, the lights continue to move as they were moving when the caster last directed them. If the lights pass beyond the maximum range, the spell ends immediately.
+
+#### **Detect Illusion** 
+
+Range: 60'
+
+Illusionist 2 
+
+Duration: 2 turns
+
+This spell allows the caster to recognize illusions by sight. To the caster, all illusions within the given range appear slightly translucent and obviously fake. **Detect illusion** allows detection of visual illusions only; it does not detect auditory illusions such as **audible glamer**.
+
+#### **Dispel Illusion** 
+
+Range: 120'
+
+Illusionist 2 
+
+Duration: instantaneous
+
+The caster can use this spell to end all ongoing "illusion spells" within a 20-foot cubic area. **Dispel illusion** affects spells such as **audible glamer**, **phantasmal image**, **phantasmal force**, **spectral force**, **advanced illusion**, and so on. If there is any question as to whether or not a spell is an illusion, the GM's discretion will apply.
+
+Any illusion spell cast by a character of a level equal to or less than the **dispel illusion** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance of failure for each level the illusion's caster level exceeds the **dispel illusion** caster level. For example, a 10th-level caster dispelling an illusion created by a 14th level caster has a 20% chance of failure.
+
+When an Illusionist attempts to dispel an illusion cast by a non-Illusionist, the Illusionist is treated as if he or she were two levels higher; if it is not obvious whether the illusion was created by an Illusionist or not, the GM should assume it was.
+
+Non-illusion spells cannot be ended by this spell.
+
+#### **Displacement** 
+
+Range: touch
+
+Illusionist 3 
+
+Duration: 2 rounds / level
+
+When a **displacement** spell is cast, the caster causes the creature touched to appear 2 feet away from its actual position. This distortion causes all missile and melee combat attacks to be made at -4 on all attacks. It also grants a +2 on the saving throw die roll against any direct magical attack.
+
+A **detect invisible** spell does not counteract the blur effect, but a **true seeing** spell does. Opponents that cannot see the subject ignore the spell's effect (though fighting an unseen opponent carries penalties of its own)..
+
+#### **Dream** 
+
+Range: see text
+
+Illusionist 5 
+
+Duration: special
+
+This spell allows the caster, or a messenger touched by the caster, to send a recipient a message through the recipient's dreams. When the spell is cast, the caster must identify the recipient in an unambiguous way. The messenger (whether the caster or someone else) then appears in the recipient's dream and then delivers the message. The message is purely one-way, and there is no opportunity for questions or interaction. When the recipient wakes up, they will remember the message perfectly.
+
+After casting the spell, the messenger is helpless and completely unaware of their surroundings until the spell ends. If the recipient is awake when the spell is cast, the messenger can either end the spell immediately or wait until the recipient goes to sleep. Once the recipient goes to sleep, the message can be delivered. Whether the messenger has to wait or not, the messenger immediately becomes fully aware again once the message is delivered. Creatures who do not sleep cannot be a recipient of this spell.
+
+#### **False Vision** 
+
+Range: touch
+
+Illusionist 6 
+
+Duration: 1 hour / level
+
+Any attempt to observeanything within the area of this spell from most kinds of scrutiny will fail. Those looking into the area see a false image (as the spell **advanced illusion**), as defined by the caster at the time of the casting. As long as the duration lasts, the caster can concentrate to change the image as desired. While not concentrating, the image remains static. Those inside the affected area can see and hear outside the affected area normally. Anyone inside the affected area are immune to **ESP** spells.
+
+Divination spells like **magic mirror**, **clairvoyance**, and **clariaudience** cannot perceive anything within the area. **False vision** does not stop creatures or objects from moving into and out of the area, but they will likely need to disbelieve the illusion before they try.
+
+#### **Gaze Reflection** 
+
+Range: 0
+
+Illusionist 1 
+
+Duration: 1 round / level
+
+The spell creates a mirror like image in the air in front of the caster's face. Any gaze attack, such as that from a basilisk or a medusa, will be reflected back upon the attacker when it looks at the caster.
+
+#### **Hypnotic Pattern** 
+
+Range: 120'
+
+Illusionist 2 
+
+Duration: concentration
+
+A shifting pattern of light moves through the air mesmerizing those who look at it. Roll 2d6 plus the caster level to determine how many HD are affected by the spell. Creatures with the smallest hit dice are affected first, and among those with the same HD, those closest to the effect are affected first. HD of effect that are not sufficient to affect the next creature are wasted. Affected creatures will stop and watch the effect until the duration expires or they are threatened. Sightless creatures cannot be affected by this spell.
+
+The effect continues for 2 rounds after the caster stops concentrating on the spell.
+
+#### **Illusory Script** 
+
+Range: touch
+
+Illusionist 3 
+
+Duration: permanent
+
+This spell allows the caster to write whatever they want on whatever they want. The caster specifies who they want to read it. (This can be an individual, class of individuals, a group, etc.) For anyone else this appears to be an unintelligible magical writing of some kind, though an Illusionist will recognize it as an Illusory Script.
+
+Any unauthorized creature attempting to read the script must save vs. Spells or fall under the effects of a Suggestion. The Suggestion only applies for 30 minutes and must be very short and simple (for example, "Put this down and leave").
+
+#### **Illusory Wall** 
+
+Range: 60'
+
+Illusionist 3 
+
+Duration: permanent
+
+This spell creates the illusion of a wall, floor, ceiling, or similar surface, covering up to a 10-foot square area, up to 1 foot thick. The section of wall created appears absolutely real when viewed, but physical objects can pass through it without difficulty. When the spell is used to hide pits, traps, or normal doors, any detection abilities that do not require sight work normally. Touch or a probing search may reveal the true nature of the surface; the GM may either allow a save vs. Spells to detect the illusion, or if the probing attempt is well devised the GM may allow it to automatically succeed. In either case, such measures do not cause the illusion to disappear.
+
+#### **Improved Invisibility** 
+
+Range: touch
+
+Illusionist 4 
+
+Duration: 1 round / level
+
+This spell works exactly like **invisibility**, except that it does not end if the subject attacks or casts a spell.
+
+#### **Mass Invisibility** 
+
+Range: 240'
+
+Illusionist 6 
+
+Duration: special
+
+Magic-User 7
+
+This spell bestows the effect of an **invisibility** spell on all creatures within a 30-foot by 30-foot area. Each subject will remain invisible until he or she attacks or casts a spell. A subject that leaves the original area of effect remains invisible.
+
+#### **Mass Suggestion** 
+
+Range: 30'
+
+Illusionist 6 
+
+Duration: up to 1 hour / level
+
+This spell bestows the effect of a **suggestion** spell on all creatures within a 30-foot by 30-foot area. The single suggestion applies to all of the targets. Each target gets its own saving throw.
+
+#### **Maze** 
+
+Range: 60'
+
+Illusionist 6 
+
+Duration: 1 turn (see text)
+
+By means of this spell, the caster banishes the target creature into an extra-dimensional labyrinth. Once per round, the victim of this spell may attempt a save vs. Spells to escape the labyrinth. If the victim does not escape, the maze disappears after 10 minutes, freeing the victim at that time.
+
+On escaping or leaving the maze, the target creature reappears where it had been when the maze spell was cast. If this location is filled with a solid object, the subject appears in the nearest open space. Spells and abilities that move a creature within a plane, such as **teleport** or **dimension door**, do not help a creature escape a **maze** spell.
+
+Minotaurs are not affected by this spell.
+
+#### **Mirage Arcana** 
+
+Range: 120'
+
+Illusionist 5 
+
+Duration: instantaneous
+
+This spell works as **hallucinatory terrain**, except that any kind of terrain may be re-imaged, including terrain, structures, and equipment. This allows buildings to be hidden or added, and other equipment to be hidden or shown. Creatures, however, cannot be disguised or concealed, though they may always hide themselves within the illusion just as they could hide were the illusory terrain real. This spell requires a full turn to cast.
+
+#### **Mislead** 
+
+Range: 100'
+
+Illusionist 5 
+
+Duration: special
+
+The caster becomes invisible (as if by means of **improved invisibility**) and at the same time an illusory double of him or her appears (as if by means of **spectral force**). The caster is then free to go elsewhere while his or her double moves away. The double appears within the given range, but thereafter moves as the caster directs it (which requires concentration). The double may be controlled at any distance from the caster, so long as the caster remains able to see it.
+
+The caster can make the double appear superimposed perfectly over his or her body so that observers don't notice an image appearing when the caster turns invisible. The caster and the double can then move in different directions. The double moves at the caster's speed and can talk and gesture as if it were real, but it cannot attack or cast spells, though it can pretend to do so.
+
+The illusory double lasts as long as the caster concentrates upon it, plus 3 additional rounds. After the caster ceases concentration, the illusory double continues to carry out the same activity until the duration expires. The improved invisibility lasts for 1 round per caster level, regardless of concentration.
+
+#### **Nightmare** 
+
+Range: see text
+
+Illusionist 5 
+
+Duration: instantaneous
+
+This spell allows the caster to send a horrific phantasmal vision through the recipient's dreams. When the spell is the caster must identify the recipient in an unambiguous way. The nightmare prevents restful sleep and causes 1d10 points of damage to the recipient. They are then unable regain spells again for 24 hours. The recipient is allowed a saving through vs. Spells, which can be modified by how well the caster knows the recipient and if the caster has some token connected to the recipient.
+
+If **dispel evil** is cast on the recipient while this spell is being cast, the nightmare is dismissed with no effect and the caster is paralyzed for 1 turn per level of the caster performing the **dispel evil**.
+
+If the recipient is awake when the spell is cast, the caster can either end the spell immediately or wait in a trance until the recipient goes to sleep. Once the recipient goes to sleep, the message can be delivered. Whether the caster has to wait or not, the caster immediately becomes fully aware again once the message is delivered. The caster is completely helpless physically and mentally while in the trance. Creatures who do not sleep cannot be a recipient of this spell..
+
+#### **Obscurement** 
+
+Range: 100' + 10' / level
+
+Illusionist 2 
+
+Duration: 10 minutes / level
+
+A bank of fog up to a 20' cube in volume billows out from the point the caster designates. The cloud moves at a rate of 10 feet per round under the control of the caster (so long as he or she concentrates on it). The fog obscures all sight, including darkvision, beyond 5 feet; beyond that all creatures will be effectively blind.
+
+The cloud persists for the entire duration even if the caster ceases to concentrate upon it, but a moderate wind (11+ mph) disperses the fog in 4 rounds and a strong wind (21+ mph) disperses it in 1 round. This spell does not function underwater.
+
+#### **Permanent Illusion** 
+
+Range: 180'
+
+Illusionist 6 
+
+Duration: permanent
+
+This spell functions much like **advanced illusion** except that the spell is permanent. The "script" for this spell simply repeats endlessly.
+
+#### **Phantasmal Image** 
+
+Range: 180'
+
+Illusionist 1 Duration: concentration
+
+This spell is often the first spell an Illusionist will learn. The spell creates the visual illusion of an object, creature, or other effect, as visualized by the caster up to a maximum size of a 20-foot cube. The illusion does not create sound, smell, texture, temperature, or movement. The image persists so long as the caster concentrates upon it.
+
+A save vs. Spells may be granted by the GM any time he or she feels the illusion is likely to be seen through, especially if the player describes an illusion which seems improbable or otherwise poorly conceived.
+
+#### **Phantasmal Killer** 
+
+Range: 100' + 10' / level
+
+Illusionist 4
+
+Duration: instantaneous
+
+When this spell is cast, it creates a quasi-real creature that is the target's worst possible fear. It is literally the worst possible creature to fight that the target can imagine. Only the target can see the phantasmal killer; the caster sees a rough shape.
+
+The target must make a save vs. Spells to disbelieve the phantasmal killer. If the saving throw is failed, the killer then touches the target, who must then save vs. Petrify or die from fear. Even if the target makes the second saving throw, they still take 3d6 of damage.
+
+#### **Phantom Messenger** 
+
+Range: special
+
+Illusionist 3 
+
+Duration: special
+
+When this spell is cast, it creates a quasi-real, birdlike creature. It may appear as a small hawk/falcon or as a large dove, and may be any shade of gray from nearly white to nearly black. It does not fight, but all normal animals shun it and only monstrous ones will attack. The messenger has an Armor Class of 18 and 2 hit points, plus 1 per level of the caster. If it loses all of its hit points, the messenger disappears.
+
+The messenger flies at a movement rate of 120 feet per round. It can bear up to one ounce per five full levels of the caster (one ounce up to level 9, two ounces up to level 14, three ounces up to level 19, and four ounces at level 20).
+
+When created, the messenger must be given a specific destination, which can be any location on the same plane of existence to which the caster has been at least once (even if he or she was lost at the time). After the caster attaches any message or small item(s) to the legs of the bird, he or she releases it and it flies without error to the specified location.
+
+The caster may additionally visualize a specific person whom the messenger will seek out near the target location. Note that this does not allow location of a person; the messenger will fly around the target area looking for the designated creature.
+
+The messenger will travel at its maximum movement from the caster to the target location. Distance is no object; the messenger will continue indefinitely until the target area is reached. If a target creature was specified, the messenger will then fly around up to one day per level of the caster looking, until the target creature is found; otherwise the messenger will immediately land in the target area. After it lands the messenger will wait patiently for the message or item(s) to be removed, and then will disappear in a faint puff of smoke or mist. If the item(s) or message are not removed immediately the messenger will disappear anyway after waiting one round per level of the caster, dropping the items on the spot; this will also happen if a target creature is specified and cannot be found (the messenger will land first before this happens so as not to drop any carried objects a great distance).
+
+#### **Phantom Steed** 
+
+Range: touch
+
+Illusionist 3 
+
+Duration: 1 hour / level
+
+The caster conjures a quasi-real horse-like creature. The steed can be ridden only by the caster or by the one person for whom he or she specifically created the mount. A phantom steed has a black head and body, gray mane and tail, and smoke-colored insubstantial hooves that make no sound. It has what seems to be a saddle, bit, and bridle. It does not fight, but animals shun it and refuse to attack it.
+
+The mount has an AC of 18 and 12 hit points. If it loses all its hit points, the phantom steed disappears. A phantom steed has a speed of 40 feet per caster level. It can bear its rider's weight and what he or she carries (the steed cannot carry saddlebags or the like).
+
+These mounts gain additional powers according to the caster's level:
+
+8th level: Ability to ride over sandy, muddy, or even swampy ground without difficulty or decrease in speed.
+
+10th level: Ability to pass over water as if it were firm, dry ground.
+
+12th level: Ability to travel in the air as if it were firm land instead, so chasms and the like can be crossed without benefit of a bridge. Note, however, that the mount can not casually take off and fly.
+
+14th level: Ability to fly as if it were a pegasus.
+
+A phantom steed's abilities include those of mounts of lower caster levels; for example, one created by a 13^th^ level caster can pass over water, sand, or mud as well as crossing chasms.
+
+#### **Phantom Trap** 
+
+Range: touch
+
+Illusionist 2 
+
+Duration: permanent
+
+The spell makes a lock or other small mechanism appear to be trapped. Anyone that can detect traps, or any spell that can detect traps will show the item to be trapped, and the person checking will be convinced that the trap is present. Nothing happens if the trap is sprung, as there is no trap. The purpose is to dissuade thieves or make the thieves waste time.
+
+#### **Phase Door** 
+
+Range: touch
+
+Illusionist 6 
+
+Duration: 1 usage / 2 levels
+
+This spell creates a magical passage through a wall, the floor, the ceiling, or even through a section of ground. The **phase door** is invisible and inaccessible to all creatures except the caster, who is the only one that can use the passage. The passage is 10 feet deep plus another 5 feet for every three caster levels. The caster disappears when entering the **phase door** and appears when he or she exits. If desired, the caster can take one other creature through the door. This counts as two uses of the door. The door does not allow light, sound, or spell effects through it, nor it is possible to see through it without using it.
+
+A **phase door** is subject to **dispel magic**, but only from someone who is of higher level than the caster. If anyone is within the passage when it is dispelled, he or she is harmlessly ejected (determine randomly in which direction).
+
+It is possible to allow other creatures to use the **phase door** by setting a triggering condition for the door. This condition can be as simple or elaborate as desired. It can be based on a creature's name or identity, but otherwise must be based on observable actions or qualities. Intangibles such as level, class, Hit Dice, and hit points don't qualify.
+
+#### **Programmed Illusion** 
+
+Range: 180'
+
+Illusionist 5 
+
+Duration: special
+
+This spell functions like **advanced illusion**, except that this spell activates when a specific condition occurs. The caster sets the triggering condition when casting the spell. The event that triggers the illusion can be as general or as specific and detailed as desired, but must be based on an audible, tactile, olfactory, or visual trigger. The trigger cannot be based on some quality not normally obvious to the senses, such as religious belief or magical ability. For example, the spell could be set to trigger when a character wearing robes and a pointed hat enters an area, but not when a Magic-User enters the area.
+
+The spell remains ready indefinitely. When triggered, the spell will last at most 1 round per caster level.
+
+#### **Rainbow Pattern** 
+
+Range: 180'
+
+Illusionist 4 
+
+Duration: concentration
+
+This spell functions as **hypnotic pattern**, except that it affects up to 24 HD of creatures and the caster may move the pattern by up to 30 feet per round. If moved, all creatures under its effects will follow the flowing lights, trying to keep as close to it as possible. If any affected creatures move into a dangerous area, they get a new saving throw. If the view is moved out of sight of an affected creature, they are not longer affected.
+
+This spell will continue for 2 rounds after the caster stops concentrating on it.
+
+#### **Rope Trick** 
+
+Range: touch
+
+Illusionist 2 
+
+Duration: 1 hour / level
+
+When this spell is cast upon a piece of normal, non-magical rope from 5 to 30 feet long, one end of the rope rises into the air until the whole rope hangs perpendicular to the ground, as if affixed at the upper end. The upper end is, in fact, fastened to an extra-dimensional space, similar to a **B****ag of** **H****olding**. Creatures in the space are hidden, beyond the reach of divination spells, unless those spells work across planes.
+
+The space holds as many as eight creatures of man-size or smaller (larger creatures cannot fit through the invisible opening at the top of the rope). Creatures in the space can pull the rope up into the space, making the rope "disappear." Otherwise, the rope simply hangs in air.
+
+Spells cannot be cast through the extra-dimensional opening, nor can area effects cross it. Those in the extra-dimensional space can see out of it as if a 3' square window were centered on the rope. The window is present, but is invisible, and even creatures that can see the window can't see through it.
+
+The rope can be climbed by only one person at a time. The rope trick spell enables climbers to reach a normal place if they do not climb all the way to the extra-dimensional space.
+
+When the spell ends, creatures or objects within the extra-dimensional space are ejected through the window. The rope, if still attached, drops free at the same moment.
+
+#### **Seeming** 
+
+Range: 30'
+
+Illusionist 5 
+
+Duration: 1 turn / level
+
+This spell works as **change self**, but instead can affect up to one person per two levels of the caster. All creatures to be affected must be willing and within the given range. The caster may choose which creatures are affected and may include themselves.
+
+#### **Shadow Door** 
+
+Range: 10'
+
+Illusionist 3 
+
+Duration: 1 round / level
+
+The caster creates the illusion of a door, which he or she will appear to pass through and close. In reality, the caster becomes **invisible** (as the spell) when the spell is cast. Any creatures opening the "door" will see an empty 10-foot square room, of similar style to the surrounding area. The caster remains **invisible** for the duration of the spell, unless, as with an **invisibility** spell, he or she attacks any creature or casts a spell.
+
+#### **Shadow Walk** 
+
+Range: touch (see text)
+
+Illusionist 6 
+
+Duration: 1 hour / level
+
+**Shadow Walk** can only be cast in an area of heavy shadows. The caster and up to one willing creature per level are transported to the shadowy edge of reality. In this region of shadow, the caster (and all the creatures that accompany him or her) moves at an effective rate of 50 miles per hour.
+
+Because of the blurring of reality, the caster can't make out details of the terrain or areas he or she passes over during transit, nor can he or she predict perfectly where the travel will end. When the spell effect ends, the caster and any creatures accompanying him or her arrives 1d10 × 100 feet in a random horizontal direction from the desired endpoint. The caster and his or her companions always arrive at ground level, except if the landing area is in a body of water (in which case they arrive at the water level) or underground. If arriving underground, the altitude of arrival should be as close as possible to the same altitude as the intended endpoint location.
+
+#### **Solid Fog** 
+
+Range: 100' + 10' / level
+
+Illusionist 4
+
+Duration: 1 minute / level
+
+This spell functions like **obscurement**, but in addition it is so thick that any creature trying to move through it is slowed to a speed of 5 feet, irrespective of its normal movement. It also takes a -2 penalty to all attack and damage rolls made in the fog. The solid fog also stops any physical projectiles, making ranged weapon attacks ineffective. The reduction of movement also applies to falling, so any distance that falls through the fog doesn't count toward falling damage.
+
+This fog is more difficult to disperse than **obscurement**. It takes a severe wind (31+ mph) to disperse it, doing so in 1 round.
+
+#### **Spectral Force** 
+
+Range: 180'
+
+Illusionist 3 
+
+Duration: special
+
+This spell functions like **phantasmal force**, except for the following: sound, smell, and thermal effects are included; creatures created do not necessarily disappear when touched, assuming the caster causes the illusion to react appropriately. For instance the caster displays illusory wounds when the image is attacked. The spell will last for 3 rounds after concentration ceases.
+
+#### **Stinking Cloud** 
+
+Range: 100' +10' / level
+
+Illusionist 3 
+
+Duration: 10 rounds / level
+
+The spell functions like **obscurement**, but any living creature in the cloud becomes nauseated such that they may not attack, concentrate, cast spells, or do anything other than move. A creature remains nauseated as long as the creature is in the cloud and for 1d4 + 1 rounds after leaving the cloud. A creature may save vs. Spells to avoid the effect of the cloud, but must save every round they remain in the cloud.
+
+#### **Suggestion** 
+
+Range: 30'
+
+Illusionist 4 
+
+Duration: up to 1 hour / level
+
+The caster influences a target creature by suggesting a course of activity limited to a sentence or two. The **suggestion** must be worded in such a manner as to make the activity sound reasonable. Asking the creature to do some obviously harmful act automatically negates the effect of the spell.
+
+The suggested course of activity can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes the activity. The caster can specify conditions that will trigger an activity during the duration. If the condition is not met before the spell duration expires, the activity is not performed.
+
+If the recipient creature makes its saving throw, the spell has no effect. A very reasonable suggestion causes the save to be made with a penalty (-1 or -2 is recommended).
+
+The creature to be influenced must, of course, be able to understand the **suggestion**, i.e., it must be spoken in a language which the spell recipient understands. Undead are not subject to **suggestion**.
+
+#### **Veil** 
+
+Range: 400' radius
+
+Illusionist 6 
+
+Duration: 1 hour / level
+
+This spell works as **change self**, but instead can affect any number of willing creatures within the given range. The caster may choose which creatures are affected and may include themselves.
+
+### Illusions, Saving Throws And Disbelief
+
+The victim of an illusion does not automatically get to save vs. Spells to resist the effects of the illusion. Rather, the victim must have a good reason to believe that a creature, object, or situation is an illusion. The Game Master must base his or her decision on the quality and the credibility of the illusion.
+
+A high-quality illusion is one created by a caster who has a clear "mental image" of the creature, an object, or situation being simulated. For example, the quality of an illusion of a dragon cannot be high if the caster has never seen a real dragon.
+
+An illusion can be credible only if the creature, the object, or the situation is realistic. For example, the illusion of a door on a wall is credible, but not a door floating in the air. Illusions created by higher-level spells are generally more credible since several senses are affected.
+
+If an illusion is of low quality and/or is not credible, the GM may decide to allow an automatic save vs. Spells.
+
+In addition, a player can announce to the Game Master that his or her character does not "believe" in the existence of a creature, an object, or a situation. The GM must then make a secret save vs. Spells for that character. Note that the GM should always make a roll, even if the creature, object, or situation is not an illusion, as omitting the roll would give this fact away to the player.
+
+If a saving throw vs. an illusion is successful, the Game Master must announce this fact to the player; if the character then tells his or her comrades, they in turn receive a save vs. Spells with a +4 bonus.
+
+### New Magic Items
+
+The items listed below are magic items made by and for Illusionists. Unless otherwise noted in the item description, these items may be used by any class.
+
+**Dust of Appearance**: This is a very find metallic looking powder. When a handful is scattered into the air, everything in a 10-foot radius is coated with the powder, negating the effects of **invisibility**, **blur**, or **displacement**. The dust's effects last for 1 turn and cannot be blown away or effectively removed. A container will typically have 1d4+4 handfuls.
+
+**Dust of Disappearance**: This dust looks exactly like dust of appearance and is stored the same way (with the same quantities). When a handful is sprinkled on a creature or object, it becomes invisible as if from **improved invisibility**. This invisibility cannot be dispelled, but will wear off quickly in 2d6 rounds. Anyone under the effects of the dust does not know when the invisibility will end.
+
+**Dust of Illusion**: This dust resembles powered chalk, but if stared at, it will shift in color and texture. When a handful is sprinkled on a creature or object, its form can be changed as if by a **change self** spell. (Unlike the spell, the dust affects objects in a similar manner, subject to the GM's discretion.) The effects last for 2 hours.
+
+**Gem of Seeing**: This gem is of exceeding high quality, but otherwise appears to be a simple gem. When peered through, however, it allows the user to see as if under the effects of **true seeing**. This may be used for up to 30 minutes in any given day, but its use may be broken up into separate minute uses.
+
+**Hat of Disguise**: This very ordinary looking hat allows the user to use the **change self** spell whenever desired. As part of the disguise, the hat may be changed to look like anything, but it must be some kind of headgear.
+
+**Ring of Blur**: This metal ring has a smoky texture that seems to have unclear edges and a very slowly shifting pattern that can only really be seen if looked at for a while. On command, this ring gives the user the effect of the **blur** spell.
+
+**Ring of Chameleon Power**: This thin metal ring will automatically match the skin color of the wearer's finger and become nearly invisible. The user can create a subtle illusion around him or her that will allow the user to hide. The effectiveness is influenced by the circumstances (doing this in plain sight isn't likely to succeed, doing it while no one is looking is guaranteed to work), subject to the GM's decision. The effect is an illusion, so the user is still there and can always be accidentally found. In addition, it can provide the benefit of **change self** whenever desired.
+
+**Robe of Scintillating Colors**: The robe appears to be a non-described neutral gray color. When activated by the wearer, however, the robe displays a shifting pattering of indescribable colors, constantly shifting and cascading from the top of the robe to the bottom hem, casting off scintillating light. It takes 1 round after the wearer activates the effect for the colors to fully start flowing. This affects everyone within 30 feet of the robe. Those looking at the robe must save vs. Petrify or be dazed for 1d4+1 rounds, unable to take action until the effect ends.
+
+In addition, the scintillating colors give the wearer concealment. The concealment starts at a -1 modifier, increasing by another -1 per round until it reaches a full -4 modifier.
+
+While activated everything in a 30-foot radius is illuminated.
+
+The effect can be used no more than a total of 30 rounds per day.
+
+**Staff of Illusion**: This staff is made of dark wood, with detailed carvings of spiral and fractal patterns for its entire length. This staff allows the user to cast **detect illusion**. This requires no charges and continues to work even if the staff is exhausted of all charges. In addition is has several other abilities that do cost charges. The following powers cost one charge per use: **a****lter self**, **m****irror image**, and **p****hantasmal force**. The following powers cost two charges per use: **p****rogrammed illusion**and**rainbow pattern**. This item may only be used by Illusionists.
+
+Making Magic Items
+
+Illusionists follow the rules for magic-users for making magic items. Illusionists may make spell scrolls and any magic items on this page, as well as any other items the GM feels are appropriate.
+
+## Ranger and Paladin
+
+### Introduction 
+
+This supplement provides rules for playing Rangers and Paladins under the Basic Fantasy Role-Playing Game rules.  If you do not already have a copy of the Basic Fantasy RPG rules, please visit the website and download a copy.
+
+The new classes described in this supplement are considered subclasses of the Fighter.  As such, they have the same attack bonus and saving throws as Fighters of the same level.  They should be treated as Fighters for all purposes, unless otherwise noted.
+
+:::{.column-margin}
+Release 4
+
+Copyright © 2011-2012, 2018-2021 Chris Gonnerman and Wynter Sturtevant III
+
+All Rights Reserved
+
+Distributed under the terms of the Open Game License version 1.0a
+:::
+
+### Ranger
+
+| Level | Points    | Hit Dice |
+|-------|-----------|----------|
+| 1     | 0         | 1d8      |
+| 2     | 2,200     | 2d8      |
+| 3     | 4,400     | 3d8      |
+| 4     | 8,800     | 4d8      |
+| 5     | 17,600    | 5d8      |
+| 6     | 35,200    | 6d8      |
+| 7     | 70,400    | 7d8      |
+| 8     | 132,000   | 8d8      |
+| 9     | 264,000   | 9d8      |
+| 10    | 396,000   | 9d8+2    |
+| 11    | 528,000   | 9d8+4    |
+| 12    | 660,000   | 9d8+6    |
+| 13    | 792,000   | 9d8+8    |
+| 14    | 924,000   | 9d8+10   |
+| 15    | 1,056,000 | 9d8+12   |
+| 16    | 1,188,000 | 9d8+14   |
+| 17    | 1,320,000 | 9d8+16   |
+| 18    | 1,452,000 | 9d8+18   |
+| 19    | 1,584,000 | 9d8+20   |
+| 20    | 1,716,000 | 9d8+22   |
+
+Rangers are specialized warriors who roam the borderlands, where their mission is to keep the beasts and monsters of the untamed lands at bay. They generally operate alone or in small groups, and rely on stealth and surprise to meet their objectives.
+
+**Requirements:** To become a Ranger, a character must have a Strength score of 9 or higher (just as with any Fighter), a Wisdom of 11 or higher, and a Dexterity of 11 or higher. They may use any weapon and may wear any armor, but note that some of the Ranger's special talents and abilities are unavailable when wearing heavier than leather armor. Humans, Elves, and Halflings may become Rangers. If the Half-Humans supplement is used, Half-Elves and Half-Orcs may also become Rangers.
+
+**Special Abilities:** Rangers can Move Silently, Hide, and Track when in wilderness areas, at percentages given in the table below. Apply a -20% penalty when attempting these abilities in urban areas. Move Silently and Hide may not be used in armor heavier than leather (unless the **Thief Options** supplement is in use, in which case the adjustments in that supplement should be applied).
+
+| Level | Move  Silently | Hide | Tracking |
+|-------|----------------|------|----------|
+| 1     | 25             | 10   | 40       |
+| 2     | 30             | 15   | 44       |
+| 3     | 35             | 20   | 48       |
+| 4     | 40             | 25   | 52       |
+| 5     | 45             | 30   | 56       |
+| 6     | 50             | 35   | 60       |
+| 7     | 55             | 40   | 64       |
+| 8     | 60             | 45   | 68       |
+| 9     | 65             | 50   | 72       |
+| 10    | 68             | 53   | 75       |
+| 11    | 71             | 56   | 78       |
+| 12    | 74             | 59   | 81       |
+| 13    | 77             | 62   | 84       |
+| 14    | 80             | 65   | 87       |
+| 15    | 83             | 68   | 90       |
+| 16    | 85             | 69   | 91       |
+| 17    | 87             | 70   | 92       |
+| 18    | 89             | 71   | 93       |
+| 19    | 91             | 72   | 94       |
+| 20    | 93             | 73   | 95       |
+
+**Note:** *If the GM allows Thief characters to allocate their ability percentages, as given on page 153 of the **Basic Fantasy RPG** **Core Rules**, then the Ranger may also be allowed to do so. Rangers gain 14 points per level from 2^nd^ to 9^th^ levels, 9 points per level from 10^th^ to 15^th^ levels, and 4 points per level thereafter.*
+
+When tracking, the Ranger must roll once per hour traveled or lose the trail.
+
+A Ranger must declare a **chosen enemy**. Against this chosen enemy, the Ranger gets a bonus of +3 to damage. This enemy might be a certain category of creature such as giants, humanoids, or dragons. With the GM's permission, the list might include rival organizations, nations, or similar agencies.
+
+Rangers are always expert bowmen. When using any regular bow (shortbow or longbow, but not crossbow), a Ranger adds +2 to his or her Attack Bonus. At 5^th^ level, a Ranger may fire three arrows every two rounds (a 3/2 rate of fire). This means one attack on every odd round, two on every even round, with the second attack coming at the end of the round. At 9^th^ level, the Ranger may fire two arrows every round, with the second attack coming at the end of the round.
+
+
+### Paladin
+
+| Level | Exp. Points | Hit Dice | 1 | 2 |
+|-------|-------------|----------|---|---|
+| 1     | 0           | 1d8      | - | - |
+| 2     | 2,500       | 2d8      | - | - |
+| 3     | 5,000       | 3d8      | - | - |
+| 4     | 10,000      | 4d8      | - | - |
+| 5     | 20,000      | 5d8      | - | - |
+| 6     | 40,000      | 6d8      | - | - |
+| 7     | 80,000      | 7d8      | - | - |
+| 8     | 150,000     | 8d8      | - | - |
+| 9     | 300,000     | 9d8      | - | - |
+| 10    | 450,000     | 9d8+2    | 1 | - |
+| 11    | 600,000     | 9d8+4    | 2 | - |
+| 12    | 750,000     | 9d8+6    | 2 | 1 |
+| 13    | 900,000     | 9d8+8    | 2 | 2 |
+| 14    | 1,050,000   | 9d8+10   | 3 | 2 |
+| 15    | 1,200,000   | 9d8+12   | 3 | 3 |
+| 16    | 1,350,000   | 9d8+14   | 4 | 3 |
+| 17    | 1,500,000   | 9d8+16   | 4 | 4 |
+| 18    | 1,650,000   | 9d8+18   | 5 | 4 |
+| 19    | 1,800,000   | 9d8+20   | 5 | 5 |
+| 20    | 1,950,000   | 9d8+22   | 6 | 5 |
+
+**Requirements:** To become a Paladin, a character must have at least a Strength score of 9, a Wisdom score of 11, and a Charisma score of 11. There are no racial restrictions for the Paladin. They may use any weapon and may wear any armor or shield. If your GM is using the nine alignments option/supplement, you must either be Lawful Good or Chaotic Evil.
+
+**Special Abilities:** Paladins emanate an aura equivalent to the spell **protection from evil** (or good, depending on the Paladin's particular faith) in a 10' radius. The Paladin can also **detect evil** (or good, as above) at will, as the spell.
+
+Once per day, per level, a Paladin can make his or her non-magical melee weapon or attack form equivalent to a magic weapon for purposes of hitting creatures only able to be struck with a silver or magical weapon. This effect lasts for a turn.
+
+Once per day, the paladin can **Lay on Hands** to any wounded character and heal 2 points of damage; add the Paladin's Charisma bonus to this figure. On each odd-numbered level (3^rd^, 5^th^, etc.) the Paladin may do this one additional time per day (so, twice per day at 3^rd^ level, three times per day at 5^th^ level, etc.) Starting at 7^th^ level, the Paladin may choose to **cure disease** (as the spell) instead of providing healing as above. At 11^th^ level, the Paladin may also substitute **neutralize poison**.
+
+A Paladin can Turn (or **c****ommand**) undead as if a Cleric of a level equal to half his or her own, rounded down, starting at 2^nd^ level.
+
+Paladins gain the ability to cast appropriate Clerical spells at level 10. For purposes of spell effects that vary based on the Cleric's level, use one-half the Paladin's level, rounded down.
+
+A Paladin must tithe, giving a minimum of 10% of all treasures gained or other profits as an offering to his or her deity.
+
+A Paladin must obey a code of honor, as defined by the Game Master, and must try to perform duties assigned by his or her deity or religious hierarchy. If the Paladin breaks the code, all powers granted are taken away, and the character must atone for his or her actions as soon as possible. Until the Paladin successfully atones, as defined by the Game Master, he or she is considered an ordinary Fighter.
+
+### Fighter Class Option
+
+There is a valid argument that no one would want to play a standard Fighter in a game with Ranger and Paladin classes available, based on the relative power levels of the classes. If you feel that this is or may be an issue in your game, you may wish to apply the following optional rule:
+
+Weapon Specialization
+
+Under this rule, the player of a Fighter may choose a weapon in which the character is especially skilled. Specialization only applies to "true" Fighters, and not to any subclasses thereof which may appear in this or any other supplement, unless otherwise noted.
+
+At first level, the player applies one **rank** of specialization to the chosen weapon. This choice must be quite specific; for instance, a specialization in the longsword will give no bonuses when using a shortsword.
+
+Every third level after first (that is, 4^th^, 7^th^, 10^th^, etc.) the player applies another rank of specialization. Each new rank may be applied to an existing specialization, or to a new specialization.
+
+For instance, at first level Darion's player assigns a rank to longsword. Darion gains a bonus of +1 on attack rolls when using a longsword. At 4^th^ level, the player may assign the new rank to longsword, giving a bonus of +1 on attack rolls and +1 on damage; or, the rank may be applied to a new weapon, such as the longbow, in which case both weapons have +1 on attack rolls but no bonus to damage.
+
+As indicated in the Attacks Per Round column, at higher ranks of specialization the Fighter is allowed to attack more than one time per round. 3/2 means that the character may attack three time in every two rounds, once in the odd-numbered round and twice in the even-numbered round. At 2/1 the Fighter is allowed to attack with the specialized weapon two times per round. Additional attacks always come after all other attacks are resolved; that is, the Fighter attacks once on his or her Initiative number, then again after all "first" attacks are done. If more than one weapon specialist is involved in a battle, count Initiative down twice, once for "first" attacks and again for "second" attacks.
+
+| Rank | Combat Bonuses (Attack / Damage) | Attacks per Round |
+|------|----------------------------------|-------------------|
+| 1    | +1 / +0                          | 1 / 1             |
+| 2    | +1 / +1                          | 1 / 1             |
+| 3    | +2 / +1                          | 3 / 2             |
+| 4    | +2 / +2                          | 3 / 2             |
+| 5    | +3 / +2                          | 2 / 1             |
+| 6    | +3 / +3                          | 2 / 1             |
+
+Some GMs do not like the 3/2 rate, as it does involve keeping track of even and odd rounds. In such a case, the GM may either choose to use 1/1 for both ranks, or 1/1 for rank 3 and 2/1 for rank 4.
+
+*NOTE: This is the same rule presented in the **Combat Options** supplement, Release 4. If you are using both this supplement and that one, and the Combat Options supplement is newer than Release 4, please verify whether this rule is different in the other supplement; if so, as GM you must decide which version to apply.*
+
+## Scout
+
+### Introduction 
+
+This supplement provides rules for playing Scouts under the Basic Fantasy Role-Playing Game rules. If you do not already have a copy of the Basic Fantasy RPG rules, please visit the website and download a copy.
+
+### Class Description 
+
+The new class described in this supplement is a subclass of the Thief.  As such, they have the same attack bonus and saving throws as Thieves of the same level.  Scouts have been toughened by self-sufficiency and isolation from the supplies and comforts of civilized lands, and therefore use a d6 for hit dice. It also takes more training to be a Scout, and therefore Scouts advance at the same rate as Clerics. Scouts should be treated as Thieves for all purposes, except as described herein.
+
+:::{.column-margin}
+
+Release 4
+
+Copyright © 2010-2011, 2018 Jason Brentlinger
+
+All Rights Reserved
+
+Distributed under the terms of the Open Game License version 1.0a
+
+:::
+
+| Level | Exp. Points | Hit Dice |
+|-------|-------------|----------|
+| 1     | 0           | 1d6      |
+| 2     | 1,500       | 2d6      |
+| 3     | 3,000       | 3d6      |
+| 4     | 6,000       | 4d6      |
+| 5     | 12,000      | 5d6      |
+| 6     | 24,000      | 6d6      |
+| 7     | 48,000      | 7d6      |
+| 8     | 90,000      | 8d6      |
+| 9     | 180,000     | 9d6      |
+| 10    | 270,000     | 9d6+2    |
+| 11    | 360,000     | 9d6+4    |
+| 12    | 450,000     | 9d6+6    |
+| 13    | 540,000     | 9d6+8    |
+| 14    | 630,000     | 9d6+10   |
+| 15    | 720,000     | 9d6+12   |
+| 16    | 810,000     | 9d6+14   |
+| 17    | 900,000     | 9d6+16   |
+| 18    | 990,000     | 9d6+18   |
+| 19    | 1,080,000   | 9d6+20   |
+| 20    | 1,170,000   | 9d6+22   |
+
+Scouts specialize in stealth operations in the wilderness. They are similar to Rangers in some ways, having similar functions and abilities.
+
+**Requirements:** To become a Scout, a character must have a Strength score of 9 or higher, a Wisdom of 11 or higher, and a Dexterity of 11 or higher. They may not wear metal armor as it interferes with stealthy activities, nor may they use shields of any sort. Leather armor is acceptable, however. They may only use small melee weapons, the shortbow, and the longbow. Humans, Elves, and Halflings may become Scouts. If the Half-Humans supplement is used, Half-Elves and Half-Orcs may also become Scouts.
+
+**Special Abilities:** Scouts can Move Silently, Hide, Listen, Open Locks, Detect Traps, Climb Walls, and Track using the table below.
+
+When tracking, the Scout must roll once per hour traveled or lose the trail.
+
+Scouts are able to detect traps, but unlike Thieves they have no special ability to remove them.
+
+Scouts cannot pick pockets, as stealing is neither their specialty nor purpose. They usually avoid doing anything that might allow or encourage someone to track them.
+
+Unlike a Thief, a scout gains no bonuses for back stabbing, though normal bonuses for attacking from behind or with surprise are applied.
+
+Scouts are always expert bowmen. When using any regular bow (shortbow or longbow, but not crossbow), a Scout adds +2 to his or her Attack Bonus. At 5^th^ level, a Scout may fire three arrows every two rounds (a 3/2 rate of fire). This means one attack on every odd round, two on every even round, with the second attack coming at the end of the round. At 9^th^ level, the Scout may fire two arrows every round, with the second attack coming at the end of the round.
+
+Scouts prefer to stay out of direct combat, and therefore practice only with small weapons as they are lighter and easier to carry. They specialize in dual wielding, however prefer to utilize their off-handed weapon as a defensive item, similar to a buckler shield. This must be declared at the start of the round, and in this case no special penalty is applied to the primary weapon, and the off-handed weapon adds an additional +1 to the wielder's AC value against a single melee attacker per round. If the weapon has a magical weapon bonus, it may be applied, but only the base bonus for those weapons with multiple values. If chosen, Scouts may attack with both weapons. In this case, they may attack with their primary weapon with a -2 penalty and their secondary with a -5 penalty to hit. Subtract from this penalty the character's Dexterity bonus, with a minimum penalty of +0 (so a character with 18 Dexterity does not get a +1 bonus to hit this way).
+
+If a scout is operating alone or greater then 30' away from a party (or in a party composed entirely of scouts), he or she surprises foes on a 1-3 on 1d6.
+
+### Scout Abilities
+
+:::{.column-page-right}
+
+| Level | Open Locks | Detect Traps | Move Silently | Climb Walls | Hide | Listen | Tracking |
+|-------------|------------|--------------|---------------|-------------|------|--------|----------|
+| 1           | 10         | 10           | 25            | 50          | 10   | 30     | 40       |
+| 2           | 15         | 15           | 30            | 52          | 15   | 34     | 44       |
+| 3           | 20         | 20           | 35            | 54          | 20   | 38     | 48       |
+| 4           | 25         | 25           | 40            | 56          | 25   | 42     | 52       |
+| 5           | 30         | 30           | 45            | 58          | 30   | 46     | 56       |
+| 6           | 35         | 35           | 50            | 60          | 35   | 50     | 60       |
+| 7           | 40         | 40           | 55            | 62          | 40   | 54     | 64       |
+| 8           | 45         | 45           | 60            | 64          | 45   | 58     | 68       |
+| 9           | 50         | 50           | 65            | 66          | 50   | 62     | 72       |
+| 10          | 53         | 53           | 68            | 68          | 53   | 65     | 75       |
+| 11          | 56         | 56           | 71            | 70          | 56   | 68     | 78       |
+| 12          | 59         | 59           | 74            | 72          | 59   | 71     | 81       |
+| 13          | 62         | 62           | 77            | 74          | 62   | 74     | 84       |
+| 14          | 65         | 65           | 80            | 76          | 65   | 77     | 87       |
+| 15          | 68         | 68           | 83            | 78          | 68   | 80     | 90       |
+| 16          | 69         | 69           | 85            | 79          | 69   | 83     | 91       |
+| 17          | 70         | 70           | 87            | 80          | 70   | 86     | 92       |
+| 18          | 71         | 71           | 89            | 81          | 71   | 89     | 93       |
+| 19          | 72         | 72           | 91            | 82          | 72   | 92     | 94       |
+| 20          | 73         | 73           | 93            | 83          | 73   | 95     | 95       |
+
+::: 
+
+**Note:** *If the GM allows Thief characters to allocate their ability percentages, as given on page 153 of the **Basic Fantasy RPG** **Core Rules**, then the Scout may also be allowed to do so. Scouts gain 30 points per level from 2^nd^ to 9^th^ levels, 20 points per level from 10^th^ to 15^th^ levels, and 10 points per level thereafter.*
+
+<!-- -------------------------------------------------- -->
+
+## OPEN GAME LICENSE
+
+#### INTRODUCTION
+
+The Basic Fantasy Role-Playing Game ("BFRPG") is based on the System Reference Document v3.5 ("SRD"), which is Open Game Content. Also, some monster descriptive text was taken from the Castles and Crusades: Monsters Support Product ("MSP"), which is also Open Game Content. The text of the Open Game License itself is not Open Game Content. Instructions on using the License are provided within the License itself.
+
+Note regarding C&C Open Game Content used: The COPYRIGHT NOTICE section below lists both the Castles & Crusades: Players Handbook and the Castles & Crusades: Monster Support Document; both are listed because we are required to do so, but be advised that all Castles & Crusades materials used were taken only from the latter document.
+
+Designation of Open Game Content: The entire text as well as all maps and floorplans incorporated in BFRPG (except the Open Game License, as noted above, and the Product Identity License, below) is Open Game Content, released under the Open Game License, Version 1.0a (reproduced below) as described in Section 1(d) of the License. Artwork (other than maps and floorplans) incorporated in this document is not Open Game Content, and remains the property of the copyright holder.
+
+Designation of Product Identity: Product identity is not Open Game Content. The following is designated as product identity pursuant to OGL v1.0a(1)(e) and (7): (A) product and product line names, including Basic Fantasy Role-Playing Game, Basic Fantasy RPG, and BFRPG, as well as the phrase "make mine Basic"; (B) all artwork, logos, symbols, graphic designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual representations, including the "eye" logo, which is the personal mark of Chris Gonnerman for his various products, and which is Copyright © 2002 Chris Gonnerman, and the "Scribbled Dragon," which is Copyright © 2005 Erik Wilson; (C) logos and trademarks, including any trademark or registered trademark clearly identified as product identity by the owner of the product identity, and which specifically excludes the open game content.
+
+More information on the Open Game License can be found at: <http://www.wizards.com/d20>.
+
+
+#### OPEN GAME LICENSE VERSION 1.0A
+
+The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc ("Wizards"). All Rights Reserved.
+
+1.  **Definitions:** (a)"Contributors" means the copyright and/or trademark owners who have contributed Open Game Content; (b)"Derivative Material" means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) "Distribute" means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d)"Open Game Content" means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) "Product Identity" means product and product line names, logos and identifying marks including trade dress; artifacts; creatures characters; stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f) "Trademark" means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) "Use", "Used" or "Using" means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) "You" or "Your" means the licensee in terms of this agreement.
+2.  **The License:** This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.
+3.  **Offer and Acceptance:** By Using the Open Game Content You indicate Your acceptance of the terms of this License.
+4.  **Grant and Consideration:** In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game Content.
+5.  **Representation of Authority to Contribute:** If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.
+6.  **Notice of License Copyright:** You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder's name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.
+7.  **Use of Product Identity:** You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.
+8.  **Identification:** If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.
+9.  **Updating the License:** Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.
+10. **Copy of this License:** You MUST include a copy of this License with every copy of the Open Game Content You Distribute.
+11. **Use of Contributor Credits:** You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.
+12. **Inability to Comply:** If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.
+13. **Termination:** This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.
+14. **Reformation:** If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
+
+#### COPYRIGHT NOTICE
+
+-   Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+-   System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.
+-   Castles & Crusades: Players Handbook, Copyright 2004, Troll Lord Games; Authors Davis Chenault and Mac Golden.
+-   Castles & Crusades: Monsters Product Support, Copyright 2005, Troll Lord Games.
+-   The Basic Fantasy Field Guide Copyright © 2010 Chris Gonnerman and Contributors.
+-   Basic Fantasy Role-Playing Game Copyright © 2006-2015 Chris Gonnerman.
+-   Assassins:  A Basic Fantasy Supplement Copyright © 2007-2017  Eric C. Medders, Martin Serena, and Chris Gonnerman.
+-   Quasi Classes:  A Basic Fantasy Supplement Copyright © 2009, 2014 R. Kevin Smoot. 
+-   Barbarians: A Basic Fantasy Supplement Copyright © 2011, 2018, 2020 Luigi Castellani
+-   Druids:  A Basic Fantasy Supplement Copyright © 2006-2022 Chris Gonnerman, Nazim N. Karaca, galstaff, Theo Zarras, Chris Hearn, R. Kevin Smoot, Rachel Ghoul, Alan Vetter, Tricky Nikki, Merias, and Mike West.
+-   Illusionists:  A Basic Fantasy Supplement Copyright © 2006-2009, 2018, 2020 Chris Gonnerman, Serge Petitclerc, R. Kevin Smoot, and Mike West.
+-   Rangers: A Basic Fantasy Supplement Copyright © 2010-2011 Jason Brentlinger.
+-   Rangers and Paladins: A Basic Fantasy Supplement Copyright © 2011-2012, 2018-2021 Chris Gonnerman and Wynter Sturtevant III
+-   Fighter Subclasses:  A Basic Fantasy Supplement Copyright © 2006 William Smith.
+-   Scouts: A Basic Fantasy Supplement Copyright © 2010-2011, 2018 Jason Brentlinger.

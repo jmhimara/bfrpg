@@ -1,0 +1,500 @@
+[
+    [
+        {
+            "Item": "Backpack",
+            "Price": "4 gp",
+            "Weight": "*"
+        },
+        {
+            "Item": "Belt Pouch",
+            "Price": "1 gp",
+            "Weight": "*"
+        },
+        {
+            "Item": "Bit and bridle",
+            "Price": "15 sp",
+            "Weight": "3"
+        },
+        {
+            "Item": "Candles, 12",
+            "Price": "1 gp",
+            "Weight": "*"
+        },
+        {
+            "Item": "Chalk, small bag of pieces",
+            "Price": "2 gp",
+            "Weight": "*"
+        },
+        {
+            "Item": "Cloak",
+            "Price": "2 gp",
+            "Weight": "1"
+        },
+        {
+            "Item": "Clothing, common outfit",
+            "Price": "4 gp",
+            "Weight": "1"
+        },
+        {
+            "Item": "Glass bottle or vial",
+            "Price": "1 gp",
+            "Weight": "*"
+        },
+        {
+            "Item": "Grappling Hook",
+            "Price": "2 gp",
+            "Weight": "4"
+        },
+        {
+            "Item": "Holy Symbol",
+            "Price": "25 gp",
+            "Weight": "*"
+        },
+        {
+            "Item": "Holy Water, per vial",
+            "Price": "10 gp",
+            "Weight": "*"
+        },
+        {
+            "Item": "Horseshoes & shoeing",
+            "Price": "1 gp",
+            "Weight": "10"
+        },
+        {
+            "Item": "Ink, per jar",
+            "Price": "8 gp",
+            "Weight": "\u00bd"
+        },
+        {
+            "Item": "Iron Spikes, 12",
+            "Price": "1 gp",
+            "Weight": "1"
+        },
+        {
+            "Item": "Ladder, 10 ft.",
+            "Price": "1 gp",
+            "Weight": "20"
+        },
+        {
+            "Item": "Lantern",
+            "Price": "5 gp",
+            "Weight": "2"
+        },
+        {
+            "Item": "Lantern, Bullseye",
+            "Price": "14 gp",
+            "Weight": "3"
+        },
+        {
+            "Item": "Lantern, Hooded",
+            "Price": "8 gp",
+            "Weight": "2"
+        },
+        {
+            "Item": "Manacles (without padlock)",
+            "Price": "6 gp",
+            "Weight": "4"
+        },
+        {
+            "Item": "Map or scroll case",
+            "Price": "1 gp",
+            "Weight": "\u00bd"
+        },
+        {
+            "Item": "Mirror, small metal",
+            "Price": "7 gp",
+            "Weight": "*"
+        },
+        {
+            "Item": "Oil (per flask)",
+            "Price": "1 gp",
+            "Weight": "1"
+        },
+        {
+            "Item": "Padlock (with 2 keys)",
+            "Price": "12 gp",
+            "Weight": "1"
+        },
+        {
+            "Item": "Paper (per sheet)",
+            "Price": "1 gp",
+            "Weight": "**"
+        },
+        {
+            "Item": "Pole, 10\u2019 wooden",
+            "Price": "1 gp",
+            "Weight": "10"
+        },
+        {
+            "Item": "Quill",
+            "Price": "1 sp",
+            "Weight": "**"
+        },
+        {
+            "Item": "Quill Knife",
+            "Price": "1 gp",
+            "Weight": "*"
+        },
+        {
+            "Item": "Quiver or Bolt case",
+            "Price": "1 gp",
+            "Weight": "1"
+        },
+        {
+            "Item": "Rations, Dry, one week",
+            "Price": "10 gp",
+            "Weight": "14"
+        },
+        {
+            "Item": "Rope, Hemp (per 50 ft.)",
+            "Price": "1 gp",
+            "Weight": "5"
+        },
+        {
+            "Item": "Rope, Silk (per 50 ft.)",
+            "Price": "10 gp",
+            "Weight": "2"
+        },
+        {
+            "Item": "Sack, Large",
+            "Price": "1 gp",
+            "Weight": "*"
+        },
+        {
+            "Item": "Sack, Small",
+            "Price": "5 sp",
+            "Weight": "*"
+        },
+        {
+            "Item": "Saddle, Pack",
+            "Price": "5 gp",
+            "Weight": "15"
+        },
+        {
+            "Item": "Saddle, Riding",
+            "Price": "10 gp",
+            "Weight": "35"
+        },
+        {
+            "Item": "Saddlebags, pair",
+            "Price": "4 gp",
+            "Weight": "7"
+        },
+        {
+            "Item": "Spellbook (128 pages)",
+            "Price": "25 gp",
+            "Weight": "1"
+        },
+        {
+            "Item": "Tent, Large (ten men)",
+            "Price": "25 gp",
+            "Weight": "20"
+        },
+        {
+            "Item": "Tent, Small (one man)",
+            "Price": "5 gp",
+            "Weight": "10"
+        },
+        {
+            "Item": "Thieves\u2019 picks and tools",
+            "Price": "25 gp",
+            "Weight": "1"
+        },
+        {
+            "Item": "Tinderbox, flint and steel",
+            "Price": "3 gp",
+            "Weight": "1"
+        },
+        {
+            "Item": "Torches, 6",
+            "Price": "1 gp",
+            "Weight": "1"
+        },
+        {
+            "Item": "Whetstone",
+            "Price": "1 gp",
+            "Weight": "1"
+        },
+        {
+            "Item": "Whistle",
+            "Price": "1 gp",
+            "Weight": "**"
+        },
+        {
+            "Item": "Wineskin/Waterskin",
+            "Price": "1 gp",
+            "Weight": "2"
+        },
+        {
+            "Item": "Winter blanket",
+            "Price": "1 gp",
+            "Weight": "3"
+        }
+    ],
+    [
+        {
+            "Weapon": "Hand Axe",
+            "Price": "4 gp",
+            "Size": "S",
+            "Weight": "5",
+            "Dmg.": "1d6"
+        },
+        {
+            "Weapon": "Battle Axe",
+            "Price": "7 gp",
+            "Size": "M",
+            "Weight": "7",
+            "Dmg.": "1d8"
+        },
+        {
+            "Weapon": "Great Axe",
+            "Price": "14 gp",
+            "Size": "L",
+            "Weight": "15",
+            "Dmg.": "1d10"
+        },
+        {
+            "Weapon": "Shortbow",
+            "Price": "25 gp",
+            "Size": "M",
+            "Weight": "2",
+            "Dmg.": ""
+        },
+        {
+            "Weapon": "Shortbow Arrow",
+            "Price": "1 sp",
+            "Size": "",
+            "Weight": "*",
+            "Dmg.": "1d6"
+        },
+        {
+            "Weapon": "Silver\u2020 Shortbow Arrow",
+            "Price": "2 gp",
+            "Size": "",
+            "Weight": "*",
+            "Dmg.": "1d6"
+        },
+        {
+            "Weapon": "Longbow",
+            "Price": "60 gp",
+            "Size": "L",
+            "Weight": "3",
+            "Dmg.": ""
+        },
+        {
+            "Weapon": "Longbow Arrow",
+            "Price": "2 sp",
+            "Size": "",
+            "Weight": "*",
+            "Dmg.": "1d8"
+        },
+        {
+            "Weapon": "Silver\u2020 Longbow Arrow",
+            "Price": "4 gp",
+            "Size": "",
+            "Weight": "*",
+            "Dmg.": "1d8"
+        },
+        {
+            "Weapon": "Light Crossbow",
+            "Price": "30 gp",
+            "Size": "M",
+            "Weight": "7",
+            "Dmg.": ""
+        },
+        {
+            "Weapon": "Light Quarrel",
+            "Price": "2 sp",
+            "Size": "",
+            "Weight": "*",
+            "Dmg.": "1d6"
+        },
+        {
+            "Weapon": "Silver\u2020 Light Quarrel",
+            "Price": "5 gp",
+            "Size": "",
+            "Weight": "*",
+            "Dmg.": "1d6"
+        },
+        {
+            "Weapon": "Heavy Crossbow",
+            "Price": "50 gp",
+            "Size": "L",
+            "Weight": "14",
+            "Dmg.": ""
+        },
+        {
+            "Weapon": "Heavy Quarrel",
+            "Price": "4 sp",
+            "Size": "",
+            "Weight": "*",
+            "Dmg.": "1d8"
+        },
+        {
+            "Weapon": "Silver\u2020 Heavy Quarrel",
+            "Price": "10 gp",
+            "Size": "",
+            "Weight": "*",
+            "Dmg.": "1d8"
+        },
+        {
+            "Weapon": "Dagger",
+            "Price": "2 gp",
+            "Size": "S",
+            "Weight": "1",
+            "Dmg.": "1d4"
+        },
+        {
+            "Weapon": "Silver\u2020 Dagger",
+            "Price": "25 gp",
+            "Size": "S",
+            "Weight": "1",
+            "Dmg.": "1d4"
+        },
+        {
+            "Weapon": "Shortsword",
+            "Price": "6 gp",
+            "Size": "S",
+            "Weight": "3",
+            "Dmg.": "1d6"
+        },
+        {
+            "Weapon": "Longsword/Scimitar",
+            "Price": "10 gp",
+            "Size": "M",
+            "Weight": "4",
+            "Dmg.": "1d8"
+        },
+        {
+            "Weapon": "Two-Handed Sword",
+            "Price": "18 gp",
+            "Size": "L",
+            "Weight": "10",
+            "Dmg.": "1d10"
+        },
+        {
+            "Weapon": "Warhammer",
+            "Price": "4 gp",
+            "Size": "S",
+            "Weight": "6",
+            "Dmg.": "1d6"
+        },
+        {
+            "Weapon": "Mace",
+            "Price": "6 gp",
+            "Size": "M",
+            "Weight": "10",
+            "Dmg.": "1d8"
+        },
+        {
+            "Weapon": "Maul",
+            "Price": "10 gp",
+            "Size": "L",
+            "Weight": "16",
+            "Dmg.": "1d10"
+        },
+        {
+            "Weapon": "Club/Cudgel/Walking Staff",
+            "Price": "2 sp",
+            "Size": "M",
+            "Weight": "1",
+            "Dmg.": "1d4"
+        },
+        {
+            "Weapon": "Quarterstaff",
+            "Price": "2 gp",
+            "Size": "L",
+            "Weight": "4",
+            "Dmg.": "1d6"
+        },
+        {
+            "Weapon": "Pole Arm",
+            "Price": "9 gp",
+            "Size": "L",
+            "Weight": "15",
+            "Dmg.": "1d10"
+        },
+        {
+            "Weapon": "Sling",
+            "Price": "1 gp",
+            "Size": "S",
+            "Weight": "*",
+            "Dmg.": ""
+        },
+        {
+            "Weapon": "Bullet",
+            "Price": "1 sp",
+            "Size": "",
+            "Weight": "*",
+            "Dmg.": "1d4"
+        },
+        {
+            "Weapon": "Stone",
+            "Price": "0 gp",
+            "Size": "",
+            "Weight": "*",
+            "Dmg.": "1d3"
+        },
+        {
+            "Weapon": "Spear",
+            "Price": "5 gp",
+            "Size": "M",
+            "Weight": "5",
+            "Dmg.": ""
+        }
+    ],
+    [
+        {
+            "Armor Type": "No Armor",
+            "Price": "0 gp",
+            "Weight": "0",
+            "AC": "11"
+        },
+        {
+            "Armor Type": "Leather Armor",
+            "Price": "20 gp",
+            "Weight": "15",
+            "AC": "13"
+        },
+        {
+            "Armor Type": "Chain Mail",
+            "Price": "60 gp",
+            "Weight": "40",
+            "AC": "15"
+        },
+        {
+            "Armor Type": "Plate Mail",
+            "Price": "300 gp",
+            "Weight": "50",
+            "AC": "17"
+        },
+        {
+            "Armor Type": "Shield",
+            "Price": "7 gp",
+            "Weight": "5",
+            "AC": "+1"
+        }
+    ],
+    [
+        {
+            "Item": "Horse, Draft",
+            "Price": "120 gp"
+        },
+        {
+            "Item": "Horse, War",
+            "Price": "200 gp"
+        },
+        {
+            "Item": "Horse, Riding",
+            "Price": "75 gp"
+        },
+        {
+            "Item": "Pony*",
+            "Price": "40 gp"
+        },
+        {
+            "Item": "Pony, War*",
+            "Price": "80 gp"
+        }
+    ]
+]

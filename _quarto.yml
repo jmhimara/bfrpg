@@ -45,6 +45,15 @@ book:
       chapters: 
         - gm01.qmd
         - gm02.qmd
+    - part: Appendix
+      chapters:
+        - appendix_interactive.qmd
+    - part: Extra
+      chapters:
+        - extraClasses.qmd
+        - extraRaces.qmd
+        
+        
 
 format:
   html:
