@@ -1,0 +1,1083 @@
+# Aditional and Alternate Rules
+
+## Zero Level Spells
+
+### Introduction
+
+0 level spells are called **cantrips** when used by Magic-Users and related classes, and **orisons** when used by Clerics and related classes. A spell caster may cast a number of 0 level spells per day equal to his or her level plus ability bonus (Intelligence bonus for Magic-Users and related classes; Wisdom for Clerics and related classes). Since these spells take such a short amount of time to cast (due to their abbreviated verbal and somatic components), a character may cast one and take another action in the round at the same time. 0 level spells do not have to be prepared in advance, unlike more powerful magics.
+
+At the GM's option, a non-spellcaster character might be allowed to use cantrips, typically one plus his or her Intelligence modifier per day. Alternately, the number might be zero plus Intelligence modifier, making such characters more rare. Likewise, orisons may be allowed to non-Clerics who are very devout, with similar restrictions (using the Wisdom bonus rather than Intelligence). Such characters must take a whole round to cast one of these spells.
+
+:::{.column-margin}
+**Release 4**
+
+Copyright © 2009, 2020 Sidney Parham, Nazim Karaca, R. Kevin Smoot, ckutalik, steveman, Svankensen, Mike West, and Chris Gonnerman
+
+All Rights Reserved
+
+Distributed under the terms of the Open Game License version 1.0a
+:::
+
+This supplement includes information relevant to supplement (additional) classes found on the Basic Fantasy RPG website; specifically, Druids, Illusionists, Necromancers, and Spellcrafters. Note that these supplements are available only with your GM's agreement, even if he or she has chosen to include this supplement.
+
+### Learning 0 Level Spells
+
+A spellcaster learns a number of 0 level spells equal to 1d4 plus his or her relevant ability bonus while in training, and can learn additional cantrips any time a trainer is available. Non-spellcasters may only learn 0 level spells from a trainer.
+
+### Using 0 Level Spells
+
+Cantrips typically have a range of 10 feet and a duration of instantaneous. As with standard spells, some 0 level spells may be reversible, signified by an asterisk following the name.
+
+### New Spells
+
+#### Clerical and Druidic Orisons
+
+**Call to Worship:** This orison mentally notifies patrons of the cleric's church (within one mile per level) that services are beginning. The orison does not provide an actual compulsion to come.
+
+**Cure Minor Wounds:** Heals one hit point.
+
+**Guidance*:** The cleric grants +1 to any subject's next attack roll. Reversed, this becomes Misguide, which gives the subject -1 to his next attack roll.
+
+**Meal Blessing:** The cleric says this short prayer before a meal to give the diners a blessing. Anyone who eats the meal within twenty minutes heals 1 hit point. The meal must be normally prepared and obtained in a way that the deity permits.
+
+**Mend:** Mends breaks, dents, and holes in small objects.
+
+**Predict Weather:** The cleric may predict the weather up to 24 hours in advance.
+
+**Virtue:** A subject gains one temporary hit point.
+
+**Ward*:** Grants +1 to the subject's next saving throw. Reversed, this becomes Curse, which gives the opposite effect.
+
+**Water to Wine:** The cleric may turn one flask or mug of water to wine.
+
+#### Magic-User and Illusionist Cantrips
+
+**Animate Tool:** A single, small tool (such as a quill pen, spoon, sewing needle, or small hammer) is animated by this cantrip. It will perform a single, repetitive task (such as writing dictated words, stirring a pot of soup, sewing the hem of a dress, or nailing boards into a house) for as long as a turn. The magic user must be able to perform the repeated action by hand himself. Weapons may not be animated by this cantrip, and objects animated may not be used as weapons.
+
+**Clean\*:** A mage making use of this cantrip may clean, shine, dust, or polish a small object or surface of up to 1 square foot. Reversed, this becomes Dirty, which can make the same area dirty, tarnished, scuffed, or dusty
+
+**Flare:** A flash of light, a very small ball of fire, or a puff of colored smoke can be created by this cantrip. They will not typically last longer than a second.
+
+**Flavor\*:** This cantrip may either make one dish taste any way the caster wants it to (which is an illusion), or add salt, spice, sweetener, or another flavoring agent (which is real). Reversed, it becomes Putrefy, which makes the food or drink either go bad (which is real) or taste as if it had been prepared wrongly (which is an illusion).
+
+**Inscribe:** This cantrip engraves up to 1 square foot of writing or drawing on almost any nonliving surface.
+
+**Irritate:** This cantrip forces another person to involuntarily blink, nod, itch, giggle, or some other small body motion.
+
+**Knot\*:** This spell may tightly knot or tangle a rope, string, or similar object in any knot the caster would be able to tie himself. Reversed, the Unknot spell may undo any knot the caster could unknot himself.
+
+**Mage Hand:** A spectral hand is conjured, which may either move one pound of materials at a speed of 10 feet per round for ten rounds (at a maximum range of 40 feet), or give an object a powerful push about equal to the caster's strength at a range of 10 feet.
+
+**Open/Close:** A normal, unlocked door, window, or other portal may be opened by this cantrip.
+
+**Summon Vermin\*:** This cantrip summons one small, totally ordinary insect (such as a beetle, fly, or spider), a small rodent (such as a field mouse), or a cloud of gnats into a certain area. If targeted intelligently, the spell may be able to disrupt spellcasting, but will never deal any actual damage (including poison) to the target. Reversed, this cantrip becomes Exterminate, which may kill any one creature of similar size as the ones described in the spell.
+
+**Transfigure:** This cantrip may change a small object (up to 27 cubic inches) into another shape, size, color, or texture. Radical changes (such as creating small living things) are not apt to last more than one turn, but minor changes (such as coloring a head of hair bright pink) may stay as long as a month. "Related" changes, such as creating a baby hedgehog from a pincushion) may last longer than non-related ones (such as changing a book into a lizard).
+
+#### Necromancer Cantrips
+
+Necromancers use the same list of cantrips as do Magic-Users. They also get three additional cantrips for their own use.
+
+**Bolster\*:**Undead within 10 feet of caster are harder to turn or command, being one point harder to affect (on Turning Table). The effect lasts one hour or until a Turning (or Command) attempt is made. Reversed, the cantrip makes undead one point easier for the same period.
+
+**Embalm:**Specially prepares one corpse for burial (or further use). When cast upon recently dead in preparation for **re-animation**type spells, the newly risen Zombie will have +1 on hit point rolls for each hit die (up to maximum hit points for each hit die).
+
+**Negate Stench\*:**Removes stench from one creature (or corpse), including ghouls or ghasts (save vs. Spells to resist effect). Lasts 1 round per level. Reversed, the relevant stench is made more potent, giving all victims of the stench a penalty of -2 on any relevant saving throw.
+
+
+## Alignment
+
+### Introduction 
+
+Alignment is a way of describing the moral code of a creature.  These rules are for use with the Basic Fantasy Role-Playing Game rules.  If you do not already have a copy of the Basic Fantasy RPG rules, please visit the website and download a copy.
+
+:::{.column-margin}
+**Version 2006.0**
+
+Copyright © 2006 Todd Roe
+
+All Rights Reserved
+
+Distributed under the terms of the Open Game License version 1.0a
+::: 
+
+### Basics of Alignment
+
+A creature's general moral and personal attitudes are represented by its alignment: lawful good, neutral good, chaotic good, lawful neutral, neutral, chaotic neutral, lawful evil, neutral evil, or chaotic evil.
+
+Depending on the campaign, the GM may require that players choose an alignment for their characters.
+
+Alignment is a tool for developing your character's identity. It is not a straitjacket for restricting your character. Each alignment represents a broad range of personality types or personal philosophies, so two characters of the same alignment can still be quite different from each other. In addition, few people are completely consistent.
+
+### Good vs. Evil
+
+Good characters and creatures protect innocent life. Evil characters and creatures debase or destroy innocent life, whether for fun or profit.
+
+"Good" implies altruism, respect for life, and a concern for the dignity of sentient beings. Good characters make personal sacrifices to help others.
+
+"Evil" implies hurting, oppressing, and killing others. Some evil creatures simply have no compassion for others and kill without qualms if doing so is convenient. Others actively pursue evil, killing for sport or out of duty to some evil deity or master.
+
+People who are neutral with respect to good and evil have compunctions against killing the innocent but lack the commitment to make sacrifices to protect or help others. Neutral people are committed to others by personal relationships.
+
+Being good or evil can be a conscious choice. For most people, though, being good or evil is an attitude that one recognizes but does not choose. Being neutral on the good--evil axis usually represents a lack of commitment one way or the other, but for some it represents a positive commitment to a balanced view. While acknowledging that good and evil are objective states, not just opinions, these folk maintain that a balance between the two is the proper place for people, or at least for them.
+
+Animals and other creatures incapable of moral action are neutral rather than good or evil. Even deadly vipers and tigers that eat people are neutral because they lack the capacity for morally right or wrong behavior.
+
+### Law vs. Chaos
+
+Lawful characters tell the truth, keep their word, respect authority, honor tradition, and judge those who fall short of their duties. Chaotic characters follow their consciences, resent being told what to do, favor new ideas over tradition, and do what they promise if they feel like it.
+
+"Law" implies honor, trustworthiness, obedience to authority, and reliability. On the downside, lawfulness can include close-mindedness, reactionary adherence to tradition, judgmentalness, and a lack of adaptability. Those who consciously promote lawfulness say that only lawful behavior creates a society in which people can depend on each other and make the right decisions in full confidence that others will act as they should.
+
+"Chaos" implies freedom, adaptability, and flexibility. On the downside, chaos can include recklessness, resentment toward legitimate authority, arbitrary actions, and irresponsibility. Those who promote chaotic behavior say that only unfettered personal freedom allows people to express themselves fully and lets society benefit from the potential that its individuals have within them.
+
+Someone who is neutral with respect to law and chaos has a normal respect for authority and feels neither a compulsion to obey nor a compulsion to rebel. She is honest but can be tempted into lying or deceiving others.
+
+Devotion to law or chaos may be a conscious choice, but more often it is a personality trait that is recognized rather than being chosen. Neutrality on the lawful--chaotic axis is usually simply a middle state, a state of not feeling compelled toward one side or the other. Some few such neutrals, however, espouse neutrality as superior to law or chaos, regarding each as an extreme with its own blind spots and drawbacks.
+
+Animals and other creatures incapable of moral action are neutral. Dogs may be obedient and cats free-spirited, but they do not have the moral capacity to be truly lawful or chaotic.
+
+### The Nine Alignments
+
+Nine distinct alignments define all the possible combinations of the lawful--chaotic axis with the good--evil axis. Each alignment description below depicts a typical character of that alignment. Remember that individuals vary from this norm, and that a given character may act more or less in accord with his or her alignment from day to day. Use these descriptions as guidelines, not as scripts.
+
+The first six alignments, lawful good through chaotic neutral, are the standard alignments for player characters. The three evil alignments are for monsters and villains.
+
+**Lawful Good, "Crusader"**: A lawful good character acts as a good person is expected or required to act. She combines a commitment to oppose evil with the discipline to fight relentlessly. She tells the truth, keeps her word, helps those in need, and speaks out against injustice. A lawful good character hates to see the guilty go unpunished.
+
+Lawful good is the best alignment you can be because it combines honor and compassion.
+
+**Neutral Good, "Benefactor"**: A neutral good character does the best that a good person can do. He is devoted to helping others. He works with kings and magistrates but does not feel beholden to them.
+
+Neutral good is the best alignment you can be because it means doing what is good without bias for or against order.
+
+**Chaotic Good, "Rebel"**: A chaotic good character acts as his conscience directs him with little regard for what others expect of him. He makes his own way, but he's kind and benevolent. He believes in goodness and right but has little use for laws and regulations. He hates it when people try to intimidate others and tell them what to do. He follows his own moral compass, which, although good, may not agree with that of society.
+
+Chaotic good is the best alignment you can be because it combines a good heart with a free spirit.
+
+**Lawful Neutral, "Judge"**: A lawful neutral character acts as law, tradition, or a personal code directs her. Order and organization are paramount to her. She may believe in personal order and live by a code or standard, or she may believe in order for all and favor a strong, organized government.
+
+Lawful neutral is the best alignment you can be because it means you are reliable and honorable without being a zealot.
+
+**Neutral, "Undecided"**: A neutral character does what seems to be a good idea. She doesn't feel strongly one way or the other when it comes to good vs. evil or law vs. chaos. Most neutral characters exhibit a lack of conviction or bias rather than a commitment to neutrality. Such a character thinks of good as better than evil---after all, she would rather have good neighbors and rulers than evil ones. Still, she's not personally committed to upholding good in any abstract or universal way.
+
+Some neutral characters, on the other hand, commit themselves philosophically to neutrality. They see good, evil, law, and chaos as prejudices and dangerous extremes. They advocate the middle way of neutrality as the best, most balanced road in the long run.
+
+Neutral is the best alignment you can be because it means you act naturally, without prejudice or compulsion.
+
+**Chaotic Neutral, "Free Spirit"**: A chaotic neutral character follows his whims. He is an individualist first and last. He values his own liberty but doesn't strive to protect others' freedom. He avoids authority, resents restrictions, and challenges traditions. A chaotic neutral character does not intentionally disrupt organizations as part of a campaign of anarchy. To do so, he would have to be motivated either by good (and a desire to liberate others) or evil (and a desire to make those different from himself suffer). A chaotic neutral character may be unpredictable, but his behavior is not totally random. He is not as likely to jump off a bridge as to cross it.
+
+Chaotic neutral is the best alignment you can be because it represents true freedom from both society's restrictions and a do-gooder's zeal.
+
+**Lawful Evil, "Dominator"**: A lawful evil villain methodically takes what he wants within the limits of his code of conduct without regard for whom it hurts. He cares about tradition, loyalty, and order but not about freedom, dignity, or life. He plays by the rules but without mercy or compassion. He is comfortable in a hierarchy and would like to rule, but is willing to serve. He condemns others not according to their actions but according to race, religion, homeland, or social rank. He is loath to break laws or promises.
+
+This reluctance comes partly from his nature and partly because he depends on order to protect himself from those who oppose him on moral grounds. Some lawful evil villains have particular taboos, such as not killing in cold blood (but having underlings do it) or not letting children come to harm (if it can be helped). They imagine that these compunctions put them above unprincipled villains.
+
+Some lawful evil people and creatures commit themselves to evil with a zeal like that of a crusader committed to good. Beyond being willing to hurt others for their own ends, they take pleasure in spreading evil as an end unto itself. They may also see doing evil as part of a duty to an evil deity or master.
+
+Lawful evil is sometimes called "diabolical," because devils are the epitome of lawful evil.
+
+Lawful evil is the most dangerous alignment because it represents methodical, intentional, and frequently successful evil.
+
+**Neutral Evil, "Malefactor"**: A neutral evil villain does whatever she can get away with. She is out for herself, pure and simple. She sheds no tears for those she kills, whether for profit, sport, or convenience. She has no love of order and holds no illusion that following laws, traditions, or codes would make her any better or more noble. On the other hand, she doesn't have the restless nature or love of conflict that a chaotic evil villain has.
+
+Some neutral evil villains hold up evil as an ideal, committing evil for its own sake. Most often, such villains are devoted to evil deities or secret societies.
+
+Neutral evil is the most dangerous alignment because it represents pure evil without honor and without variation.
+
+**Chaotic Evil, "Destroyer"**: A chaotic evil character does whatever his greed, hatred, and lust for destruction drive him to do. He is hot-tempered, vicious, arbitrarily violent, and unpredictable. If he is simply out for whatever he can get, he is ruthless and brutal. If he is committed to the spread of evil and chaos, he is even worse. Thankfully, his plans are haphazard, and any groups he joins or forms are poorly organized. Typically, chaotic evil people can be made to work together only by force, and their leader lasts only as long as he can thwart attempts to topple or assassinate him.
+
+Chaotic evil is sometimes called "demonic" because demons are the epitome of chaotic evil.
+
+Chaotic evil is the most dangerous alignment because it represents the destruction not only of beauty and life but also of the order on which beauty and life depend.
+
+#### A Note Regarding Abbreviations
+
+On the table following, the alignments of the various creatures are abbreviated.  The first letter of the abbreviation represents the creature's position with respect to Law and Chaos, and thus may be L, N, or C.  The second letter represents the creature's position with respect to Good and Evil, and thus may be G, N, or E.  Creatures which are neutral with regard to both Law vs. Chaos and Good vs. Evil would then be “NN,” but this is written as a single N for simplicity.
+
+
+### Basic Fantasy Monster Alignments
+
+Note: This is not up to date with the 4th edition. 
+
+<div style="max-height:400px; overflow-y:auto;column-count:3">
+
+Beasts of Burden	(N)
+
+Ant, Giant	(N)
+
+Antelope	(N)
+
+Ape, Carnivorous	(N)
+
+Basilisk	(N)
+
+Bat	(N)
+
+Bat, Giant	(N)
+
+Bear (all)	(N)
+
+Bee, Giant	(N)
+
+Beetle, Giant (all)	(N)
+
+Black Pudding	(N)
+
+Blink Dog	(LG)
+
+Blood Rose	(N)
+
+Boar	(N)
+
+Bugbear	(CE)
+
+Caecilia, Giant	(N)
+
+Cave Locust, Giant	(N)
+
+Caveman	(N)
+
+Centaur	(CG)
+
+Centipede, Giant	(N)
+
+Chimera	(CE)
+
+Cockatrice	(N)
+
+Crab, Giant	(N)
+
+Crocodile	(N)
+
+Displacer	(LE)
+
+Djinni	(CG)
+
+Dog (all)	(N)
+
+Doppleganger	(N)
+
+Dragon, Black	(CE)
+
+Dragon, Blue	(LE)
+
+Dragon, Gold	(LG)
+
+Dragon, Green	(LE)
+
+Dragon, Red	(CE)
+
+Dragon, Sea	(N)
+
+Dragon, White	(CE)
+
+Dragon Turtle	(N)
+
+Dryad	(N)
+
+Efreeti	(LE)
+
+Elemental (all)	(N)
+
+Elephant	(N)
+
+Fish, Giant (all)	(N)
+
+Fly, Giant	(N)
+
+Frog/Toad, Giant	(N)
+
+Gargoyle	(CE)
+
+Gelatinous Cube	(N)
+
+Ghoul	(CE)
+
+Giant, Cloud	(N)
+
+Giant, Cyclops	(CE)
+
+Giant, Fire	(LE)
+
+Giant, Frost	(CE)
+
+Giant, Hill	(CE)
+
+Giant, Stone	(N)
+
+Giant, Storm	(CG)
+
+Gnoll	(CE)
+
+Gnome	(NG)
+
+Goblin	(LE)
+
+Golem (all)	(N)
+
+Gorgon	(N)
+
+Gray Ooze	(N)
+
+Green Slime	(N)
+
+Griffon	(N)
+
+Hangman Tree	(NE)
+
+Harpy	(CE)
+
+Hawk	(N)
+
+Hellhound	(LE)
+
+Hippogriff	(N)
+
+Hobgoblin	(LE)
+
+Hydra	(N)
+
+Insect Swarm	(N)
+
+Invisible Stalker	(N)
+
+Jaguar	(N)
+
+Kobald	(LE)
+
+Leech, Giant	(N)
+
+Lion	(N)
+
+Living Statue (all)	(N)
+
+Lizard, Giant (all)	(N)
+
+Lizard Man	(N)
+
+Lycanthrope, Werebear	(CG)
+
+Lycanthrope, Wereboar	(N)
+
+Lycanthrope, Wererat	(LE)
+
+Lycanthrope, Weretiger	(N)
+
+Lycanthrope, Werewolf	(CE)
+
+Manticore	(LE)
+
+Medusa	(LE)
+
+Mermaid	(N)
+
+Minotaur	(CE)
+
+Mountain Lion	(N)
+
+Mummy	(LE)
+
+Nixie	(N)
+
+Ochre Jelly	(N)
+
+Octopus, Giant	(N)
+
+Ogre	(CE)
+
+Orc	(LE)
+
+Owlbear	(N)
+
+Pegasus	(CG)
+
+Pixie	(N)
+
+Pterodactyl/Pteranodon	(N)
+
+Purple Worm	(N)
+
+Rat (all)	(N)
+
+Rhagodessa, Giant	(N)
+
+Rhinoceros	(N)
+
+Roc	(N)
+
+Rock Baboon	(N)
+
+Rust Monster	(N)
+
+Sabre-tooth Cat	(N)
+
+Salamander	(N)
+
+Scorpion, Giant	(N)
+
+Sea Serpent	(N)
+
+Shadow	(NE)
+
+Shark (all)	(N)
+
+Shrew, Giant	(N)
+
+Shrieker	(N)
+
+Skeleton	(N)
+
+Snake (all)	(N)
+
+Spectre	(LE)
+
+Spider, Giant (all)	(N)
+
+Sprite	(NG)
+
+Squid, Giant	(N)
+
+Stegosaurus	(N)
+
+Stirge	(N)
+
+Tentacle Worm	(N)
+
+Tiger	(N)
+
+Titanothere	(N)
+
+Treant	(CG)
+
+Triceratops	(N)
+
+Troglodyte	(CE)
+
+Troll	(CE)
+
+Tyrannosaurus Rex	(N)
+
+Unicorn/Allcora	(CG)
+
+Urgoblin	(LE)
+
+Vampire	(CE)
+
+Water Termite, Giant	(N)
+
+Weasel/Ferret, Giant	(N)
+
+Whale (all)	(N)
+
+Wight	(LE)
+
+Wolf	(N)
+
+Wraith	(LE)
+
+Wyvern	(NE)
+
+Yellow Mold	(N)
+
+Zombie	N
+
+
+</div>
+
+## Armor and shields
+
+### Introduction 
+
+This supplement provides additional armor and shields for play under the Basic Fantasy Role-Playing Game rules.    If you do not already have a copy of the Basic Fantasy RPG rules, please visit the website and download a copy.
+
+The tables below provide an expanded range of armor and shields for use in the game.  Availability of these additional items is at the discretion of the Game Master, of course.
+
+Unless otherwise specified, a suit of armor takes 10 rounds minus the character's Dexterity bonus to put on or take off.
+
+:::{.column-margin}
+Release 3
+
+Copyright © 2010 Jeff Johnson
+
+All Rights Reserved
+
+Distributed under the terms of the Open Game License version 1.0a
+::: 
+
+Armor is often made of differing materials, especially shields. Some Plate Armor is made of bronze or possibly some other alloy, though it is most commonly made of steel. Differing materials and their effect on weight, cost and AC is beyond the scope of this document. Game Masters are encouraged to make these adjustments as they see fit while adhering to the simple and basic nature of the Basic Fantasy RPG.
+
+It is safe to assume that Armor which weighs 25 or less pounds is considered “Light” and armor that weighs 50 or more pounds is considered “Heavy”. Any armor that falls within those bounds may be considered “Medium”.
+
+### Armor
+
+| Armor Type       | Cost    | Weight | AC |
+|------------------|---------|--------|----|
+| No Armor         | 0 gp    | 0      | 11 |
+| Padded           | 15 gp   | 10     | 12 |
+| Hide             | 10 gp   | 30     | 13 |
+| Leather          | 20 gp   | 15     | 13 |
+| Studded Leather  | 30 gp   | 25     | 14 |
+| Ring Mail        | 25 gp   | 30     | 14 |
+| Chain Mail       | 60 gp   | 40     | 15 |
+| Scale Mail       | 80 gp   | 55     | 16 |
+| Splint Mail      | 100 gp  | 45     | 16 |
+| Plate Mail       | 300 gp  | 50     | 17 |
+| Field Plate Mail | 500 gp  | 70     | 18 |
+| Full Plate Mail  | 1500 gp | 80     | 19 |
+
+
+### Shield
+
+| Shield Type   | Cost | Weight | AC Bonus Melee/Missile |
+|---------------|------|--------|------------------------|
+| Buckler       | 5 gp | 2      | +1/0                   |
+| Medium Shield | 7 gp | 7      | +1/+1                  |
+| Tower Shield  | 5 gp | 12     | +1/+3                  |
+
+
+### Armor Descriptions
+
+**Padded Armor** is created from layers of cloth placed on top of each other. It is often ceremonial, being not much use, but does offer minimal amounts of protection. The layers of cloth are great for winter months because they provide solid insulation, but often get very sweaty and dirty unless properly laundered with frequency.
+
+**Hide Armor** is much like leather in its working and protection. Often hide armor can be found in remote areas or barbaric lands; it is the most common type used by orcs and many other humanoids. The process of creating hide armor involves curing the beast's hide and sewing it to clothing. It is often hot and itchy, but offers protection similar to regular leather armor.
+
+**Leather Armor** consists of pieces of hardened and/or layered leather. There are a variety of methods for creating this armor, most of which involve boiling, shaping, then stiffening the armor. The leather pieces are sewn to a cloth undergarment for maximum flexibility.
+
+**Studded Leather Armor** is similar to regular leather armor, but instead of hardening the leather, metal studs and/or small plates are riveted to it. The studs coupled with the leather material provide added protection from attacks at the slight cost of mobility.
+
+**Ring Mail Armor** consists of rings of steel directly sewn to an undergarment. The rings themselves offer great flexibility and decent protection. The underlying garment is usually a soft and supple leather which can withstand mild punishment.
+
+**Chain Mail Armor** consists of rings of metal that are interwoven, rather than being stitched to a leather garment. Chain mail is worn over a padded undergarment (see Padded Armor, above); if worn without the padded undergarment, chain mail armor provides an Armor Class of 13 at a weight of 30 pounds. Chain mail is very flexible and durable. It is one of the most popular and affordable armors available to player characters. Chain mail may be made either in the form of a suit (i.e. tunic and trousers) or in the form of a hauberk, which consists of a tunic with a skirt or kilt to protect the legs.
+
+**Scale Mail Armor** is made of metal scales directly woven to an undergarment that offers flexibility and moderate protection.
+
+**Splint Mail Armor** is a form of chain mail where small strips of thick metal are interwoven amongst the rings of the mail. These small embedded plates offer excellent coverage and thicker protection than regular Chain Mail at the price of additional weight and less flexibility.
+
+**Plate Mail Armor** is another common form of metal armor. Large plates of hard metal are fashioned to cover the torso, arms and legs and attached at the joints to an underlying suit of chain mail; a padded undergarment (see Padded Armor, above) is worn underneath. If plate mail is worn without the undergarment, the armor class provided is 15 at a weight of 40 pounds. The individual pieces of the plate mail have specific names, as follows:
+
+- **Breastplate** -- covers the chest and back of the wearer. This is also sometimes called a cuirass. The breastplate is the largest part of the armor and weighs about 16 lbs.
+
+- **Faulds** -- worn below the breastplate to cover the waist and hips. The faulds weight around 10 lbs.
+
+- **Tassets** -- worn on the thighs. Tassets compromise approximately 8 lbs. of the overall weight of the armor.
+
+- **Greaves** -- worn on the shins. A pair of greaves usually weighs about 4 lbs.
+
+- **Pauldrons** -- worn on the shoulders. Pauldrons, on average, weigh about 6 lbs.
+
+- **Vambraces** -- worn on the forearms. Vambraces generally weigh about 4 lbs.
+
+- **Gauntlets** -- worn on the hands. Gauntlets only weigh around 2 lbs.
+
+**Field Plate Armor** consists of solid pieces of plate armor, fastened together with a variety of complicated sliding parts, hinges, and straps. Small pieces of chain mail are used to cover hard-to-protect joints, such as behind the knees and under the arms. Field plate armor provides greater protection than regular plate mail with a relatively small increase in weight, but must be custom fitted to the wearer; this generally means that a character purchasing this sort of armor must wait at least a full week between placing the order and receiving the finished suit. Field plate armor is worn over a padded undergarment (see Padded Armor, above), and if worn without the undergarment, the Armor Class provided is 17 at a weight of 60 pounds.
+
+**Full Plate Armor** is generally identical to field plate armor, but is of superior design and manufacture; only an expert armorer can fashion it. The plates cover the wearer more fully, and chain mail is generally not used at all. Also, the plates themselves are designed to deflect weapon strikes away from any otherwise-vulnerable joint in the armor. Those who wear Full plate suffer a -1 penalty to attack rolls due to limited mobility while wearing the armor. Full plate cannot be put on alone and takes at least 1 turn to get into with assistance.
+
+
+### Shield Descriptions
+
+A **buckler** is a small shield worn on the forearm to block incoming attacks. It is usually about a foot in diameter. The wearer of a buckler receives +1 to his or her Armor Class when in melee combat, but gains no protection against missile fire. Bucklers may be used by those wielding two weapons, as described in the Combat Options supplement; if this is done, the character may either attack with the off-hand weapon or gain the benefit of the shield.
+
+A **medium shield** is usually about 3 feet in diameter and is often round, though shields may come in a variety of shapes. A medium shield is worn by looping one's arm through a strap and then grabbing a handle of some sort on the backside of the shield. A medium shield will give the wearer +1 AC in both melee and missile situations; in other words, this is the "standard" shield as described in the Core Rules.
+
+A **tower shield** is a very large shield that is almost the height of the wearer; such a shield is generally rectangular, but oval, elliptical, and curved shapes are not uncommon. Because of the bulky and cumbersome nature of such a large shield, it only offers protection similar to a medium shield while in melee (+1) yet gives superior protection against missile fire (+3) due to its size.
+
+### Optional Rules
+
+**Piecemeal Armor**
+
+In some instances, a Game Master may wish to allow characters to piece together the various parts of Plate Armor to create a customized appearance or for some other purpose. This is known as **Piecemail Armor**. For every two pieces of Plate Mail Armor, other than the breastplate, a character may add +1 to his AC, up to a total bonus of +3. The character cannot gain more than +3 AC. Note: a "piece" of plate mail encompasses both the right and left hand side of the respective part. A single vambrace is not considered a "piece" until a second vambrace accompanies it. A breastplate may only be worn over padded armor and offers a +2 bonus to AC.
+
+**For example:** Thorus the dwarven fighter currently wears chain mail. He finds a suit of Dwarven Plate Mail while exploring an abandoned mine, but one of the gauntlets and the breastplate is missing. He straps on the greaves, tassets, pauldrons, vambraces and faulds. Five full pieces have been strapped on, thus raising the Dwarf's overall armor class to 17. This also increases the overall weight of his armor by 32 lbs. to a total of 72 lbs. which is heavier than Plate due to overlapping the Plate Mail pieces with the chain mail pieces.
+
+
+## Background Skills 
+
+### Introduction 
+
+This document presents an alternative method for assigning background skills to characters in the Basic Fantasy Role-Playing Game. If you don't have a copy of the **Basic Fantasy RPG Core Rules**, please visit www.basicfantasy.org and download a copy... it's free!
+
+The **Basic Fantasy RPG Core Rules** allow you to create brave Fighters, devout Clerics, cunning Thieves, and brilliant Magic-Users for the sake of adventuring in varied fantasy worlds. But sometimes adventurers -- both during adventures and between them -- know how to do things other than fight, pray, sneak, or cast spells. These alternative and optional rules try to cover some of these secondary skills.
+
+### The Basis for These Rules
+
+The key concept here is "reasonableness" -- if it's reasonable, the Game Master should allow it (possibly requiring an Ability Roll).
+
+### Adventurers Know How to Adventure
+
+Player Characters (PCs) -- as opposed to most Normal Men -- are adventurers. While they might be mere upstart adventurers at level 1, they are still assumed to know the basics of adventuring and exploration. Assume that all player characters know how to tie knots, climb, swim, row a small boat, build a reasonable bonfire (usually requiring a tinderbox), make minor repairs and maintenance on arms and armor, and to ride a horse. Except for Barbarians (a Fighter subclass), assume that all PCs are literate in all the languages they speak, know how to read, and know math at least at an elementary school level; Barbarians have to take Literacy as a language.
+
+The fact that the adventurer knows how to do each of these basic tasks, however, does not mean that he or she will automatically succeed in doing them. The GM should judge each attempt and rule on its results. Simple stuff (such as climbing a ladder or a rope or lighting a bonfire out of dry wood with a tinderbox) should succeed automatically; difficult tasks (such as climbing a difficult cliff or a wall or trying to light a fire without a tinderbox) should require an Ability Roll (in our examples, based on Dexterity and Intelligence, respectively). Clearly impossible stuff (such as trying to set stones on fire with a tinderbox and no oil) should always fail -- no roll required.
+
+Note that thinking should usually be done by players, not characters. No Intelligence Roll should solve riddles or puzzles -- players should try and figure them out themselves (this way is usually far more enjoyable, too). In fact, characters are assumed to be literate and know a bit of math for this exact reason -- to allow the GM to present the players with interesting and enjoyable challenges without too many problems.
+
+### Background Skills
+
+Adventuring aside, talented characters may also be proficient in one or more professions which are not directly related to adventuring. Each character starts at level 1 with a number of Background Skills equal to his or her Prime Requisite Bonus (for a minimum of 0). Characters with low prime requisites have to work harder to learn the basic abilities of their class, and thus have less (or no) time to learn other trades; on the other hand, characters with high prime requisites have an easier time learning their class abilities and thus have more time available to learn additional professions.
+
+
+Each Background Skill is a broad profession, such as Mason, Carpenter, Gemcutter, Jeweler, Farmer, Woodsman, Blacksmith, and so on. It entails all the basic skills involved in this profession. Assume that a character can easily perform the day-to-day tasks of each his or her Background Skills as long as they have access to the required tools, equipment, and materials; there is no need to roll dice in such a case. Only difficult tasks require an Ability Roll. For example, a character with the Blacksmith background skill can easily produce horseshoes, pots, and even average-quality arrowheads as long as he or she has access to a functioning forge, coal, iron, and so on; only making a special item (such as a high-quality sword suitable to be later enchanted) will require an Ability Roll.
+
+NPCs, of course, are as skilled in their professions as the GM needs them to be.
+
+### Some Examples of Background Skills
+
+Percentile dice can be used to determine background skills, if desired, or the player may simply choose from the list (or make something up, with the agreement of the GM).
+
+|        |                 |
+|--------|-----------------|
+| 01-04  | Advocate        |
+| 05-08  | Alchemist       |
+| 09-12  | Armorer         |
+| 13-16  | Blacksmith      |
+| 17-20  | Bowyer/Fletcher |
+| 21-24  | Brewer          |
+| 25-28  | Cobbler         |
+| 29-32  | Carpenter       |
+| 33-36  | Cook            |
+| 37-40  | Engineer        |
+| 41-44  | Farmer          |
+| 45-48  | Gem Cutter      |
+| 49-52  | Herbalist       |
+| 53-56  | Jeweler         |
+| 57-60  | Mason           |
+| 61-64  | Merchant        |
+| 65-68  | Navigator       |
+| 69-72  | Physician       |
+| 73-76  | Potter          |
+| 77-80  | Sailor          |
+| 81-84  | Tailor          |
+| 85-88  | Tanner          |
+| 89-92  | Weapon Smith    |
+| 93-96  | Weaver          |
+| 97-100 | Woodsman        |
+
+
+### Learning New Background Skills
+
+Learning a new profession takes time. A lot of time. And sometimes a considerable amount of money, too. There are two ways to learn a new Background Skill: hiring a teacher or becoming an apprentice.
+
+A hired teacher can provide intensive training, taking a single season (for example, an entire winter) to teach a Background Skill. This option, however, is expensive as the teacher cannot do anything else during that time; the cost for intensive training is thus 2,000 gp. The student, too, cannot do anything else (including adventure) during that season. Alternatively, a skill can be taught from time to time between adventures, taking a whole year to fully learn it; in this case, the cost is 1,000 gp. Note that finding teachers for some professions (such as Alchemist or Engineer) might be more difficult (and expensive!) than for others.
+
+Being an apprentice is free of charge as the apprentice works for his or her master. On the other hand, the master has to work as well, and many of the tasks that the apprentice has to do are various menial jobs rather than dedicated learning. Full-time apprenticeship (which does not allow adventuring in the meantime) requires a whole year to learn a single Background Skill. Part-time apprenticeship (allowing adventuring) takes three years.
+
+
+## Combat Options
+
+### Introduction 
+
+This supplement additional combat options for player and non-player characters for use with the Basic Fantasy Role-Playing Game rules. If you do not already have a copy of the Basic Fantasy RPG rules, please visit the website and download a copy.
+
+:::{.column-margin}
+**Release 4**
+
+Copyright © 2007-2018 Chris Gonnerman, Luigi Castellani, and R. Kevin Smoot
+
+All Rights Reserved
+
+Distributed under the terms of the Open Game License version 1.0a
+:::
+
+### Using These Rules
+
+Below are defined various *optional* combat rules. The Game Master must choose which, if any, of these rules apply in his or her game.
+
+In order to make these options easier to use, each optional rule has a checkbox beside it. The GM may wish to print a copy of this supplement and mark the checkboxes for the rules he or she has chosen.
+
+### Weapon Specialization ☐
+
+Under this rule, the player of a Fighter may choose a weapon in which the character is especially skilled. Specialization only applies to "true" Fighters, and not to any subclasses thereof which may appear in other supplements, unless otherwise noted.
+
+At first level, the player applies one **rank** of specialization to the chosen weapon. This choice must be quite specific; for instance, a specialization in the longsword will give no bonuses when using a shortsword.
+
+Every third level after first (that is, 4^th^, 7^th^, 10^th^, etc.) the player applies another rank of specialization. Each new rank may be applied to an existing specialization, or to a new specialization.
+
+For instance, at first level Darion's player assigns a rank to longsword. Darion gains a bonus of +1 on attack rolls when using a longsword. At 4^th^ level, the player may assign the new rank to longsword, giving a bonus of +1 on attack rolls and +1 on damage; or, the rank may be applied to a new weapon, such as the longbow, in which case both weapons have +1 on attack rolls but no bonus to damage.
+
+As indicated in the Attacks Per Round column, at higher ranks of specialization the Fighter is allowed to attack more than one time per round. 3/2 means that the character may attack three time in every two rounds, once in the odd-numbered round and twice in the even-numbered round. At 2/1 the Fighter is allowed to attack with the specialized weapon two times per round. Additional attacks always come after all other attacks are resolved; that is, the Fighter attacks once on his or her Initiative number, then again after all "first" attacks are done. If more than one weapon specialist is involved in a battle, count Initiative down twice, once for "first" attacks and again for "second" attacks.
+
+| Rank | Combat Bonuses (Attack / Damage) | Attacks per Round |
+|------|----------------------------------|-------------------|
+| 1    | +1 / +0                          | 1 / 1             |
+| 2    | +1 / +1                          | 1 / 1             |
+| 3    | +2 / +1                          | 3 / 2             |
+| 4    | +2 / +2                          | 3 / 2             |
+| 5    | +3 / +2                          | 2 / 1             |
+| 6    | +3 / +3                          | 2 / 1             |
+
+Some GMs do not like the 3/2 rate, as it does involve keeping track of even and odd rounds.  In such a case, the GM may either choose to use 1/1 for both ranks, or 1/1 for rank 3 and 2/1 for rank 4.
+
+### Shield Specialist ☐
+
+A fighter character may spend a specialization rank to specialize with shields.
+
+If the Game Master utilizes other non-standard shield types (see the Armor & Shield Supplement) then the character must acquire specialization in each such type.
+
+A shield specialist receives an additional +1 bonus to AC while wielding the shield.
+
+### Armor Specialist ☐
+
+A fighter character may spend a specialization rank to consider a type of armor of his choice one step lighter in regards of movement rates.
+
+A fighter can only apply one rank of specialization to each type of armor.
+
+### Critical Hits ☐
+
+A natural 20 on the attack die roll results in a **threat**. Roll again -- if the player hits on the second roll (a normal hit, not just another natural 20), a **critical hit** is scored and double damage is done. However, if the only way the character can hit is to roll a natural 20, critical hits are not scored.
+
+### Fumbles ☐
+
+A natural 1 on the attack die roll may result in a **fumble**; if this occurs, the player must roll a save vs. Death Ray with Dexterity applied. If the save is failed, the character has fumbled.
+
+The effects of a fumble vary based on the type of weapon. For hand-held weapons, the weapon is dropped; use the grenade-like weapons table, to determine where, considering the wielder as if he or she were the "target" in the table. If the character binds his weapon to his hand (so he cannot drop it), then the fumble leads to the character suffering damage equal to the weapon's normal attack die (without Strength, magic, or other bonuses). For bows, a broken bowstring is the usual result; for crossbows, a fumble leads to a jammed mechanism requiring 2d10 rounds to clear.
+
+The GM is encouraged to make up alternate fumble results when appropriate to the circumstances, using these suggestions as a guideline.
+
+### Two Weapon Combat ☐
+
+This rule allows a character to use a weapon in each hand. The weapon in the primary hand suffers a penalty of -2 to hit, while the weapon in the off-hand is used at a -5 penalty normally. Subtract from this penalty the character's Dexterity bonus, with a minimum penalty of +0 (so a character with 18 Dexterity does not get a +1 bonus to hit this way). The primary weapon must, obviously, be one-handed, and the secondary must be a dagger, handaxe, or similar very small weapon.
+
+The off-handed weapon normally does not get multiple attacks, even if allowed by specialization. Like a monster using an attack routine (claw-claw-bite) the off-handed weapon attacks at the same time as the primary weapon.
+
+Note: Off-handed weapon attacks (with no primary hand attack) are at -3 penalty, with the Dexterity bonus subtracted as above.
+
+As an option, a character using two-weapon combat may choose to use the off-handed weapon as a defensive item similar to a shield. This must be declared at the start of the round.
+
+In this case, no special penalty is applied to the primary weapon, and the off-handed weapon adds +1 to the wielder's AC value against a single melee attacker per round.
+
+If the weapon has a magic weapon bonus, it may be applied, but only the base bonus for those weapons with multiple values.
+
+If the character using two weapons at once has a specialization bonus with the off-hand weapon he is using to defend, add the specialization AB modifier as well to the character's AC.
+
+### Defending ☐
+
+The application of Armor Class assumes that the character tries to avoid each incoming attack, while still making attacks himself. However, there will be occasions when the character just wants to avoid being hit. The player must declare that the character is **defending**. This can be done regardless of Initiative, and is therefore a good choice when fighting unarmored and the Initiative is lost.
+
+The defending character applies a bonus of +4 to AC. If the character is holding/using a specialized weapon, he or she may add the specialization "to hit" bonus to AC to reflect the additional parrying skill. Also, magic weapons usually confer the bonus to the AC of the defending character (as described under Two-Weapon Combat, above).
+
+### Alternative Staff Combat ☐
+
+Staves must generally be wielded with two hands, though a walking staff can be used in one hand, doing damage as a club if so used. A character using a staff of any kind with both hands may perform a normal attack, and still use the weapon to parry any single melee attack; this grants the wielder a +1 to AC vs. that attack, in much the same way as a shield would. Or, the staff may be used as a shield against any number of melee attackers, granting a bonus of +1 to AC, but in this case the wielder may make no attacks of his or her own; this is often combined with the Defending rule, above. When used as a defensive item, apply magical bonuses as explained in Two Weapon Combat, above.
+
+Alternately, the wielder may choose to make two attacks in any given round, treating the staff as if it were two clubs. The penalties given under Two Weapon Combat, above, are applied when the staff is used in this way, and the weapon may not be used to parry in this situation. The two attacks are separated by one Initiative number; i.e., a wielder who has rolled a 4 for Initiative attacks once on 4, and again on 3.
+
+### Unarmored Combat ☐
+
+Characters who, for whatever reason, engage in combat while wearing no armor whatsoever have a base Armor Class of 11, plus Dexterity bonus, *plus the character's normal Attack Bonus*. Use of a shield is allowed (to those characters who may use shields normally), as are magical protection items which are not otherwise properly armor (such as **rings** or **cloaks of protection**). This improved base Armor Class only applies to opponents the character is aware of and whose location is at least approximately known, as it is not possible to defend effectively against attackers you do not know about. This is sometimes called the "Swashbuckler Option."
+
+### Mounted Combat ☐
+
+When a combatant is mounted, the rider's Initiative roll is used for both rider and mount, as the rider is the one guiding the mount's movements. Thus, all attacks by rider and mount are effectively simultaneous and generally must all be against the same target. Some exotic mounts may vary from this rule at the GM's option, especially if the mount is unusually fast or slow. For example, a zombie steed still moves and attacks last in the round regardless of the rider's Initiative roll.
+
+When charging, only one of the rider or mount receives the charging bonus, and the other of the pair does not attack that turn. Note that normal steeds (horses) do not generally have attacks which benefit from a charging movement. To receive the benefits of charging, the rider must have proper riding equipment, i.e. a saddle with stirrups.
+
+The mount must be trained for mounted combat in order to coordinate attacks with rider. Otherwise, only the rider may attack, and does so at a -2 penalty to AB. Mounts having near human Intelligence (or better) are automatically considered trained for combat.
+
+A mount is generally large enough compared to the rider to allow the rider to "set against charge" when using an appropriate weapon. The rider and mount must remain stationary and the rider must have a proper saddle with stirrups to do this.
+
+Nearly all rider and mount combinations are considered large for purposes of fighting against small humanoids like Halflings, who may have special bonuses against such combatants.
+
+Unless otherwise specified by the attacker, all attacks are assumed to be directed against the rider rather than the mount. An attack that misses the rider by 1 to 2 points, but which would hit the mount's AC, is applied against the mount instead.
+
+An untrained mount that takes damage must roll a Morale check, and will generally attempt to flee immediately if the check fails (regardless of Initiative). The rider must save vs. Death Ray with Dexterity bonus applied or be thrown from the steed's back. A thrown rider suffers 1d6 points of falling damage, is prone, and cannot make any further action until the next round. A rider who retains his or her seat will regain control 1d4 rounds after the mount is out of sight of the attacker. The GM must rule if magic or other means is used to regain control. Also note, even trained mounts subjected to magical **fear** will respond in this way.
+
+**Jousting:** A joust is simply a situation in which two riders charge at each other with lances. All the standard rules apply to such attacks, except that the AC penalty for charging does not apply to their attacks against each other (but the penalty does apply to attacks made by bystanders).
+
+When a jouster is hit by his opponent he must make a save versus Death Ray with Strength bonus applied or else be unhorsed and land prone upon the ground, suffering 1d6 points of damage just as given above. Each full 5 points of damage dealt applies a -1 penalty to the save. If the save is failed by 5 or more points, then the unhorsed individual is also stunned for 1d3 rounds, suffering a penalty of -2 to AC and a -2 penalty to AB for the duration. If save is failed by 10 or more the combatant is knocked out completely for 2d4 rounds.
+
+Jousting with deliberately blunted lances (as is often done in tournaments) results in subdual damage, but all other effects above still apply. Damage from being unhorsed will still be normal damage, for instance.
+
+### Shield Bash ☐
+
+A character may use a shield as a weapon rather than as a defensive item. Such an attack is a normal melee attack and does 1d4 points of subdual damage, plus Strength modifier if any. Shield specialists receive a +1 bonus to damage. If the shield is magical, its normal bonuses may be applied to both the attack and damage roll.
+
+Naturally, the character loses all the AC benefits of the shield (including those for magic and specialization) until the beginning of the next round after attempting a shield bash. Penalties normally applied for an off-handed weapon do not apply, as shields are made to be carried and employed in that way.
+
+### Light Weapons ☐
+
+A fighter or thief character with a light weapon may choose to use his or her Dexterity modifier instead of Strength on attack rolls. Regardless of which bonus applies to attack rolls, the Strength modifier is always used to modify damage rolls. When using this rule, the short sword can be used to represent rapiers, sabers or any other fencing-type sword.
+
+Light weapons from the Core Rules include: hand axe, daggers, short sword (and variants), and warhammer (or throwing hammer).
+
+### Called Shots ☐
+
+Called shots are all those kind of attacks that are not performed with the intent of simply dealing damage but rather to achieve "special effects" like tripping, disarming, or otherwise subduing the target.
+
+The character executing a called shot makes a normal attack roll with a -4 penalty on the roll.
+
+Called shots may be resisted with a saving throw of some kind; when in doubt, the GM should consider either Paralyzation or Death Ray. If the attacker is a weapon specialist, apply the specialist's damage bonus as a penalty on this saving throw.
+
+Here are some samples of called shots:
+
+- **Disarm:** The character chooses to inflict no damage and simply disarm the enemy; the target is permitted to save vs. Paralyzation to hang on to his or her weapon.
+
+- **Trip:** The character tries to hook and pull down a foe instead of inflicting damage. On a successful hit, the victim must make a save vs. Paralyzation or fall to the ground. Standing up again is equivalent to a full move.
+
+
+## Secondary Skills
+
+### Introduction 
+
+This supplement defines a new system of *Secondary Skills* for player and non-player characters for use with the Basic Fantasy Role-Playing Game rules.  If you do not already have a copy of the Basic Fantasy RPG rules, please visit the website and download a copy.
+
+:::{.column-margin}
+**Release 2**
+
+Copyright © 2007, 2019 Ray Allen
+
+All Rights Reserved
+
+Distributed under the terms of the Open Game License version 1.0a
+
+:::
+
+### Secondary Skills
+
+Any additional skills from a character's background are considered secondary skills. These are skills that the character has from before their adventuring lives or skills that could be considered part of their character class. It is a method to flesh out a character and make them more unique.
+
+### The Skill Check Mechanic
+
+All of the character's skills start at level 1 and use the target number on the ability roll chart. When the player performs a skill action he or she rolls the d20, modified by the ability score of the skill. The roll must be greater than or equal to the target number on the Ability Rolls chart in the Optional Rules section of the **Basic Fantasy RPG Core Rules**. Every level after 1st, the character gets 3 skill level points that he or she can apply to any skill or skills as sees fit, so long as the skill level does not exceed his or her character level.
+
+If the character has a background or additional knowledge in a skill (like the son or daughter of a blacksmith), then that character receives a +1 bonus on skills that deal with the additional knowledge. The player and the GM should consider this option together.
+
+All skills on another class list are considered non-skilled and have a target number of 20. These skills cannot be raised through the use of skill level points. Using a non-skilled skill from the general list or your character's class list has a target number of 17.
+
+### Skills List and Descriptions
+
+Players may select skills from the general skills and their class skills sections.
+
+#### General Skills
+
+**Appraise** -- INT
+
+You can appraise common or well-known objects with an Appraise check. Failure means that you estimate the value at 50% to 150% (2d6+3 times 10%,) of its actual value.
+
+Appraising a rare or exotic item requires a successful check against a Target Number of 17 or higher. If the check is successful, you estimate the value correctly; failure means you cannot estimate the item's value.
+
+**Craft** (a single type of craft, e.g., armorer, bowyer, glass blower, leather-worker, potter, shipbuilder, silver-smith, wheelwright, weaver) -- INT
+
+A Craft skill is specifically focused on creating and/or repairing something. If nothing is created by the endeavor, it probably falls under the heading of a Profession skill rather than Craft. The character would be considered a "Master Craftsmen" with this skill. Time and proper materials are required to be present to succeed.
+
+**Diplomacy** -- CHA
+
+You can change the attitudes of others with a successful Diplomacy check. In negotiations, the GM adds the number of skill points in the character's diplomacy skill to the Reaction roll on the Reaction Roll table. More than one roll may be required for checks to resolve situations when two advocates or diplomats plead opposite cases in a hearing before a third party.
+
+**Handle Animal** -- CHA
+
+This task involves commanding an animal to perform a task or trick that it knows. If the animal is wounded or frightened, the Target Number increases by 2. If your check succeeds, the animal performs the task or trick.
+
+"*Push" an Animal*
+
+To push an animal means to get it to perform a task or trick that it doesn't know but is physically capable of performing. This category also covers making an animal perform a forced march or forcing it to hustle for more than 1 hour between sleep cycles. If the animal is wounded, the Target Number increases by 2 levels. If your check succeeds, the animal performs the task or trick on its next action.
+
+*Teach an Animal a Trick*
+
+You can teach an animal a specific trick with one week of work and a successful Handle Animal check. An animal can learn a maximum of six tricks. Possible tricks include, but are not necessarily limited to, the following.
+
+- **Attack:** The animal attacks apparent enemies.
+- **Come:** The animal comes to you, even if it normally would not do so.
+- **Defend:** The animal defends you (or is ready to defend you if no threat is present), even without any command being given. Alternatively, you can command the animal to defend a specific other character.
+- **Down:** The animal breaks off from combat or otherwise backs down. An animal that doesn't know this trick continues to fight until it must flee or its opponent is defeated.
+- **Fetch:** The animal goes and gets something. If you do not point out a specific item, the animal fetches some random object.
+- **Guard:** The animal stays in place and prevents others from approaching.
+- **Heel:** The animal follows you closely, even to places where it normally wouldn't go.
+- **Perform:** The animal performs a variety of simple tricks, such as sitting up, rolling over, barking, and so on.
+- **Seek:** The animal moves into an area and looks around for anything that is obviously alive or animate.
+- **Stay:** The animal stays in place, waiting for you to return. It does not challenge other creatures that come by, though it still defends itself if it needs to.
+- **Track:** The animal tracks the scent presented to it.
+- **Work:** The animal pulls or pushes a medium or heavy load.
+
+**Jump** -- STR
+
+- **Long Jump:** A long jump is a horizontal jump, made across a gap like a chasm or stream. At the midpoint of the jump, you attain a vertical height equal to one-quarter of the horizontal distance. The target number for the jump is equal to the distance jumped in feet.
+- **High Jump:** A high jump is a vertical leap made to reach a ledge high above or to grasp something overhead. The target number is equal to 4 times the distance to be cleared.
+
+**Labor** (type of manual labor, e.g., brick layer, carpenter, farmer, miner, sailor) -- CON
+
+The character is very accomplished at a particular type of manual labor. These are the types of labor that do not require large amounts of skill but do require some training.
+
+**Knowledge**  -- INT
+
+The character has understanding of one of these fields of study:
+
+- **Alchemy** (chemistry and the elements of nature)
+- **Arcana** (ancient mysteries, magic traditions, arcane symbols, cryptic phrases, constructs, dragons, magical beasts)
+- **Engineering** (buildings, aqueducts, bridges, fortifications, etc.)
+- **History** (royalty, wars, colonies, migrations, founding of cities)
+- **Religion** (gods and goddesses, mythic history, holy symbols, undead)
+- **Tactics** (troop movements, sieges, naval maneuvers)
+
+
+**Perform** -- CHA
+
+The character is proficient in one of the following: Act (comedy, drama, mime), Comedy (buffoonery, limericks, joke-telling), Dance (ballet, waltz, jig), Musical Instruments (one of bells, chimes, drums, fiddle, flute, gong, harp, harpsichord, lute, mandolin, pan pipes, piano, pipe organ, recorder, trumpet), Oratory (epic, ode, storytelling), Vocals (ballad, chant, melody)
+
+
+**Profession** (type of non-labor profession, e.g., estate management, cartography, cooking, lawyer, laymen clergy) -- WIS
+
+You can practice your trade and make a decent living. You know how to use the tools of your trade, how to perform the profession's daily tasks, how to supervise helpers, and how to handle common problems.
+
+**Ride** -- DEX
+
+The character is knowledgeable in the means of riding one type of mount. He or she can saddle, mount, ride, and dismount without a problem if not rushed but special actions while mounted require a skill check (e.g., guide your mount with knees, stay in saddle to avoid falling when your mount rears or bolts, get your mount to leap obstacles, attempt to control a mount not trained for combat while riding in battle).
+
+**Sense Motive** -- WIS
+
+This use of the skill involves making an assessment of the situation. You can get the feeling from another's behavior that something is wrong, such as when you're talking to an impostor. Alternatively, you can get the feeling that someone is trustworthy.
+
+**Spot** -- WIS
+
+The Spot skill is used primarily to detect characters or creatures who are hiding or to detect someone in disguise, and to read lips when you can't hear or understand what someone is saying.
+
+**Survival** -- WIS
+
+You can keep yourself and others safe and fed in the wild or to follow tracks in the wilderness.
+
+**Swim** -- STR
+
+Make a Swim check once per round while you are in the water. Success means you may swim at up to one-half your speed. Swimming in armor is normally impossible.
+
+#### Cleric Class Skills
+
+**Ceremony** (specific deity) -- WIS
+
+The character is proficient in the ceremonies of a single deity (usually his or her own deity). The character has a deep understanding of the meanings of every action taken in the ceremonies.
+
+**Heal** -- WIS
+
+The character understands how to give first-aid to save the dying. When a character falls below zero hit points, but not below -10, another character with the heal skill and attempt first-aid to save the life of the dying character. A Heal skill check, if successful, will stabilize the dying character. The character must spend one week in bed rest to restore the first hit point; after this, healing proceeds that the normal rate.
+
+**Spellcraft** -- INT
+
+You can identify spells and magic effects.
+
+#### Fighter Class Skills
+
+**Endurance** -- CON
+
+The character has the ability to perform tiring tasks for long periods of time. Each successful check allows the character to perform the task for one hour. Another check must be made every hour with a -1 cumulative penalty to the roll. When the character has completed the task or fails the check, they collapse and must rest for three times the amount of time used performing the task.
+
+**Intimidate** -- CHA
+
+You can change another's behavior. If you make your skill check result, you may treat the target as very favorable, but only for the purpose of actions taken while it remains intimidated. That is, the target retains its normal attitude, but will chat, advise, offer limited help, or advocate on your behalf while intimidated. The effect lasts as long as the target remains in your presence, and for 1d6×10 rounds afterward. After this time, the target's default attitude toward you shifts to unfavorable (or, if normally unfavorable, to immediate attack).
+
+**Leadership** -- CHA
+
+A successful Leadership skill check will add +1 to the Retainer's Loyalty score. It can also be used to convince non-retainer NPCs to follow an order, but in this case, the NPCs will not follow the order if there is a good reason to not do so. The use of the Leadership skill upon an NPC does not shift their attitude to unfavorable afterward.
+
+#### Magic-User Class Skills
+
+**Decipher Script** -- INT
+
+You can decipher writing in an unfamiliar language or a message written in an incomplete or archaic form. This includes intricate, exotic, or very old writing.
+
+If the check succeeds, you understand the general content of a piece of writing about one page long (or the equivalent). If the check fails, another check should be made to see if you avoid drawing a false conclusion about the text. (Success means that you do not draw a false conclusion; failure means that you do.)
+
+**Spellcraft** -- INT
+
+You can identify spells and magic effects.
+
+#### Thief Class Skills
+
+**Balance** -- DEX
+
+You can walk on a precarious surface. A successful check lets you move at half your speed along the surface for 1 round. A failure by 4 or less means you can't move for 1 round. A failure by 5 or more means you fall.
+
+**Bluff** -- CHA
+
+A successful Bluff check indicates that the target reacts as you wish, at least for a short time (usually 1 round or less) or believes something that you want it to believe. A bluff requires interaction between you and the target. Creatures unaware of you cannot be bluffed.
+
+**Decipher Script** -- INT
+
+You can decipher writing in an unfamiliar language or a message written in an incomplete or archaic form. This includes intricate, exotic, or very old writing.
+
+If the check succeeds, you understand the general content of a piece of writing about one page long (or the equivalent). If the check fails, another check should be made to see if you avoid drawing a false conclusion about the text (success means that you do not draw a false conclusion; failure means that you do).
+
+**Disguise** -- CHA
+
+This is the ability to change your character's appearance or impersonate another character. Your Disguise check result determines how good the disguise is. The target number of the check is determined by the situation the character is going to use the disguise. If you don't draw any attention to yourself, the GM may grant up to a +5 to the checks. If you come to the attention of people who are suspicious (such as a guard who is watching commoners walking through a city gate), a -5 may be appropriate to apply to the check.
+
+**Escape Artist** -- DEX
+
+The character with the Escape Artist skill has the uncanny ability to get loose from ropes when tied up.
+
+**Forgery** -- INT
+
+Forgery requires writing materials appropriate to the document being forged, enough light or sufficient visual acuity to see the details of what you're writing, wax for seals (if appropriate), and some time. To forge a document on which the handwriting is not specific to a person (military orders, a government decree, a business ledger, or the like), you need only to have seen a similar document before, and you gain a +4 bonus on your check. To forge a signature, you need an autograph of that person to copy, and you gain a +2 bonus on the check. To forge a longer document written in the hand of some particular person, a large sample of that person's handwriting is needed.
+
+The Forgery check is made secretly by the GM, so that you're not sure how good your forgery is.
+
+A document that contradicts procedure, orders, or previous knowledge, or one that requires sacrifice on the part of the person checking the document can increase that character's suspicion (and thus create favorable circumstances for the checker's opposing Forgery check).
+
+**Knowledge (rumors around town)** -- INT
+
+The character is knowledgeable of events in their home town or city. An evening's time, a few gold pieces for buying drinks and making new friends, and a Knowledge (rumors around town) check get you a general idea of a city's major news items, assuming there are no obvious reasons why the information would be withheld. The higher your check result, the better the information.
+
+**Tumble** -- DEX
+
+You can land softly when you fall. You can also tumble to entertain an audience (as though using the Perform skill). Treat a fall as if it were 10 feet shorter than it really is when determining damage upon a successful skill check.
+
+### Optional Skill Rules
+A character may take a skill not normally allowed to his or her class; however, the cost of the skill is three skill points. For example, a 1st level fighter takes the Escape Artist skill. It costs 3 skill level points and the character may not select another skill until he or she reaches second level. The target number is still 17 for these skills.
+
+Skill points per level are equal to the character's Charisma bonus with a minimum of one point per level.
+
+
+<!-- -------------------------------------------------- -->
+
+
+
+
+
+
+## OPEN GAME LICENSE
+
+#### INTRODUCTION
+
+The Basic Fantasy Role-Playing Game ("BFRPG") is based on the System Reference Document v3.5 ("SRD"), which is Open Game Content. Also, some monster descriptive text was taken from the Castles and Crusades: Monsters Support Product ("MSP"), which is also Open Game Content. The text of the Open Game License itself is not Open Game Content. Instructions on using the License are provided within the License itself.
+
+Note regarding C&C Open Game Content used: The COPYRIGHT NOTICE section below lists both the Castles & Crusades: Players Handbook and the Castles & Crusades: Monster Support Document; both are listed because we are required to do so, but be advised that all Castles & Crusades materials used were taken only from the latter document.
+
+Designation of Open Game Content: The entire text as well as all maps and floorplans incorporated in BFRPG (except the Open Game License, as noted above, and the Product Identity License, below) is Open Game Content, released under the Open Game License, Version 1.0a (reproduced below) as described in Section 1(d) of the License. Artwork (other than maps and floorplans) incorporated in this document is not Open Game Content, and remains the property of the copyright holder.
+
+Designation of Product Identity: Product identity is not Open Game Content. The following is designated as product identity pursuant to OGL v1.0a(1)(e) and (7): (A) product and product line names, including Basic Fantasy Role-Playing Game, Basic Fantasy RPG, and BFRPG, as well as the phrase "make mine Basic"; (B) all artwork, logos, symbols, graphic designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual representations, including the "eye" logo, which is the personal mark of Chris Gonnerman for his various products, and which is Copyright © 2002 Chris Gonnerman, and the "Scribbled Dragon," which is Copyright © 2005 Erik Wilson; (C) logos and trademarks, including any trademark or registered trademark clearly identified as product identity by the owner of the product identity, and which specifically excludes the open game content.
+
+More information on the Open Game License can be found at: <http://www.wizards.com/d20>.
+
+
+#### OPEN GAME LICENSE VERSION 1.0A
+
+The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc ("Wizards"). All Rights Reserved.
+
+1.  **Definitions:** (a)"Contributors" means the copyright and/or trademark owners who have contributed Open Game Content; (b)"Derivative Material" means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) "Distribute" means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d)"Open Game Content" means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) "Product Identity" means product and product line names, logos and identifying marks including trade dress; artifacts; creatures characters; stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f) "Trademark" means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) "Use", "Used" or "Using" means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) "You" or "Your" means the licensee in terms of this agreement.
+2.  **The License:** This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.
+3.  **Offer and Acceptance:** By Using the Open Game Content You indicate Your acceptance of the terms of this License.
+4.  **Grant and Consideration:** In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game Content.
+5.  **Representation of Authority to Contribute:** If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.
+6.  **Notice of License Copyright:** You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder's name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.
+7.  **Use of Product Identity:** You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.
+8.  **Identification:** If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.
+9.  **Updating the License:** Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.
+10. **Copy of this License:** You MUST include a copy of this License with every copy of the Open Game Content You Distribute.
+11. **Use of Contributor Credits:** You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.
+12. **Inability to Comply:** If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.
+13. **Termination:** This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.
+14. **Reformation:** If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
+
+#### COPYRIGHT NOTICE
+
+-   Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+-   System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.
+-   Castles & Crusades: Players Handbook, Copyright 2004, Troll Lord Games; Authors Davis Chenault and Mac Golden.
+-   Castles & Crusades: Monsters Product Support, Copyright 2005, Troll Lord Games.
+-   The Basic Fantasy Field Guide Copyright © 2010 Chris Gonnerman and Contributors.
+-   Basic Fantasy Role-Playing Game Copyright © 2006-2015 Chris Gonnerman.
+-   0 Level Spells:  A Basic Fantasy Supplement Copyright © 2009, 2020 Sidney Parham, Nazim Karaca, R. Kevin Smoot, ckutalik, steveman, Svankensen, Mike West, and Chris Gonnerman.
+-   Alignment:  A Basic Fantasy Supplement Copyright © 2006 Todd Roe.
+-   Armor and Shields: A Basic Fantasy Supplement Copyright © 2010 Jeff Johnson.
+-   Background Skills: A Basic Fantasy Supplement Copyright © 2009, 2018-2021 Omer Golan-Joel.
+-   Equipment Emporium: A Basic Fantasy Supplement Copyright © 2010-2018 Joe Ludlum, R. Kevin Smoot, and Alan Vetter
+-   Combat Options:  A Basic Fantasy Supplement Copyright © 2007-2018 Chris Gonnerman, Luigi Castellani, and R. Kevin Smoot
+-   Secondary Skills:  A Basic Fantasy Supplement Copyright © 2007, 2019 Ray Allen
