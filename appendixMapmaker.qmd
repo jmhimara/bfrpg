@@ -13,7 +13,7 @@ viewof grid1 = Inputs.button("Create Grid", {reduce: () =>  draw(Number(gridsize
 ```{ojs}
 viewof form = Inputs.form(
   {
-    button1: Inputs.button("Create Grid", {reduce: () =>  draw(Number(gridsize))}),
+    button1: "  ",
     button2: Inputs.button("Reset Grid", {reduce: () => resetGrid()})
   },
   {

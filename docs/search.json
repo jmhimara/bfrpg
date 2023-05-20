@@ -2363,7 +2363,7 @@
     "href": "appendixMapmaker.html",
     "title": "23  Dungeon Maker",
     "section": "",
-    "text": "viewof gridsize = Inputs.text({placeholder:\"Grid Size\"})\n\nviewof grid1 = Inputs.button(\"Create Grid\", {reduce: () =&gt;  draw(Number(gridsize))})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nviewof form = Inputs.form(\n  {\n    button1: Inputs.button(\"Create Grid\", {reduce: () =&gt;  draw(Number(gridsize))}),\n    button2: Inputs.button(\"Reset Grid\", {reduce: () =&gt; resetGrid()})\n  },\n  {\n    template: (formParts) =&gt; htl.html`\n     &lt;div&gt;\n       &lt;h3&gt;&lt;/h3&gt;\n       &lt;div style=\"\n         width: 400px;\n         display: flex;\n       \"&gt;\n         ${Object.values(formParts)}\n       &lt;/div&gt;\n     &lt;/div&gt;`\n  }\n)\n\n\n\n\n\n\n\n\n  \n  \n  \n\n\n  \n\n\n\nInputs.button(\"Export to PNG\", {reduce: () =&gt; exportToImage(25, \"png\", Number(gridsize), grid1.col, grid1.chars)})"
+    "text": "viewof gridsize = Inputs.text({placeholder:\"Grid Size\"})\n\nviewof grid1 = Inputs.button(\"Create Grid\", {reduce: () =&gt;  draw(Number(gridsize))})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nviewof form = Inputs.form(\n  {\n    button1: \"  \",\n    button2: Inputs.button(\"Reset Grid\", {reduce: () =&gt; resetGrid()})\n  },\n  {\n    template: (formParts) =&gt; htl.html`\n     &lt;div&gt;\n       &lt;h3&gt;&lt;/h3&gt;\n       &lt;div style=\"\n         width: 400px;\n         display: flex;\n       \"&gt;\n         ${Object.values(formParts)}\n       &lt;/div&gt;\n     &lt;/div&gt;`\n  }\n)\n\n\n\n\n\n\n\n\n  \n  \n  \n\n\n  \n\n\n\nInputs.button(\"Export to PNG\", {reduce: () =&gt; exportToImage(25, \"png\", Number(gridsize), grid1.col, grid1.chars)})"
   },
   {
     "objectID": "extraClasses.html#assassin",
