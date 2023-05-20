@@ -1,6 +1,14 @@
 # Dungeon Maker
 
+**How to use**
+
+- Input the size of the square grid to create the drawing canvas (note this erases anything you may have already drawn)
+- Click or drag to create rooms and hallways. Click to toggle between white and blue squares.
+- Click and then type a character on your keyboard to annotate a square with a letter or number. 
+
+
 :::{.column-screen-right}
+
 
 ```{ojs}
 viewof gridsize = Inputs.text({placeholder:"Grid Size"})
