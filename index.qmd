@@ -5,7 +5,7 @@
 **Basic Fantasy Role-Playing Game**: 
 4th Edition, Release 128
 
-All textual materials in this document, as well as all maps, floorplans, diagrams, charts, and forms included herein, are distributed under the terms of the Creative **Commons Attribution-ShareAlike 4.0 International License**. Most other artwork presented is property of the original artist and is used with permission. Note that you may not publish or otherwise distribute this work as is without
+All textual materials in this document, as well as all maps, floorplans, diagrams, charts, and forms included herein, are distributed under the terms of the **Creative Commons Attribution-ShareAlike 4.0 International License**. Most other artwork presented is property of the original artist and is used with permission. Note that you may not publish or otherwise distribute this work as is without
 permission of the original artists; you must remove all non-licensed artwork before doing so. The full license text can be viewed at:
 
 https://creativecommons.org/licenses/by-sa/4.0/
@@ -27,3 +27,4 @@ Credits from the PDF:
 : {tbl-colwidths="[25,75]"}
 :::
 
+This website was created by John Atom (jmhimara). All its code and unique content are also distributed under the **Creative Commons Attribution-ShareAlike 4.0 International License**. 
