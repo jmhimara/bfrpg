@@ -1,0 +1,249 @@
+# Dungeon Maker
+
+:::{.column-screen-right}
+
+```{ojs}
+viewof gridsize = Inputs.text({placeholder:"Grid Size"})
+
+viewof grid1 = Inputs.button("Create Grid", {reduce: () =>  draw(Number(gridsize))})
+
+```
+
+
+```{ojs}
+viewof form = Inputs.form(
+  {
+    button1: Inputs.button("Create Grid", {reduce: () =>  draw(Number(gridsize))}),
+    button2: Inputs.button("Reset Grid", {reduce: () => resetGrid()})
+  },
+  {
+    template: (formParts) => htl.html`
+     <div>
+       <h3></h3>
+       <div style="
+         width: 400px;
+         display: flex;
+       ">
+         ${Object.values(formParts)}
+       </div>
+     </div>`
+  }
+)
+```
+
+
+```{=html}
+
+<div style="width:80%; height:800px; border: 1px solid black; overflow:auto">
+  <style>
+    #grid {
+      display: grid;
+      gap: 0px;
+    }
+    .square {
+      width: 25px;
+      height: 25px;
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      background-color: white;
+      color:rgba(218, 118, 118, 1);
+      text-align: center;
+      vertical-align: center;
+    }
+  </style>
+  <div id="grid"></div>
+  <canvas></canvas>
+
+
+  <script>
+
+function resetGrid() {
+    var grid = document.getElementById('grid');
+    while (grid.firstChild) {
+        grid.removeChild(grid.firstChild);
+    }
+}
+
+function draw (nums) {
+   // Get the grid element and export button
+   resetGrid();
+   var grid = document.getElementById('grid');
+   // var exportBtn = document.getElementById('exportBtn');
+
+
+   var squareSize = 25
+   var num = nums
+
+   // Create an array to store the colors of each square
+   var colors = []
+   var characters = []
+
+   // Create the grid of squares
+  function createGrid(numSquares) {
+    colors = Array(numSquares * numSquares).fill('white');
+    characters = Array(numSquares * numSquares).fill('');
+    for (var i = 0; i < numSquares; i++) {
+      for (var j = 0; j < numSquares; j++) {
+        var square = document.createElement('div');
+        square.className = 'square';
+        square.setAttribute('tabindex', '0'); // Make the square focusable
+        square.addEventListener('mousedown', startDrag);
+        square.addEventListener('mouseover', changeColor);
+        square.addEventListener('mouseup', stopDrag);
+        square.addEventListener('click', changeColor);
+        square.addEventListener('keydown', function (event) {
+          console.log ("event", event)
+          var index = Array.prototype.indexOf.call(grid.children, this);
+          var char = String.fromCharCode(event.which);
+          this.textContent = char;
+          characters[index] = char;
+         });
+        grid.appendChild(square);
+        grid.style.width = `${numSquares * 25}px`
+        grid.style.gridTemplateColumns = `repeat(${numSquares}, minmax(0, 1fr))`
+        grid.style.gridTemplateRows = `repeat(${numSquares}, minmax(0, 1fr))`
+           }
+       }
+   }
+
+   // Variables to track dragging
+   var isDragging = false;
+
+   // Start dragging the mouse
+   function startDrag() {
+       isDragging = true;
+       changeColor.call(this); // Change color of the square immediately when mouse is pressed down
+   }
+
+   // Change the color of a square
+   function changeColor() {
+       var index = Array.prototype.indexOf.call(grid.children, this);
+       // event.preventDefault(); 
+
+       console.log(event.type) 
+
+       if (isDragging || (!isDragging && event.type === 'mousedown')) {
+        var char = String.fromCharCode(event.which);
+          console.log ("inside first if", char)
+           if (colors[index] === 'white') {
+               colors[index] = 'blue';
+               this.style.backgroundColor = 'blue';
+           } else {
+               colors[index] = 'white';
+               this.style.backgroundColor = 'white';
+           }
+       }
+        if (event.type === 'keydown') {
+          var char = String.fromCharCode(event.which); // Get the character from the pressed key
+          console.log(char)
+          this.textContent = char;
+          characters[index] = char; // Set the text content of the square
+        }
+       } 
+
+   // Stop dragging the mouse
+   function stopDrag() {
+       isDragging = false;
+   }
+
+   // Export the grid as an SVG image
+   // Export the grid as an SVG image
+   function exportToSVG() {
+       var svgString = '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">';
+       var squareSize = 400 / Math.sqrt(colors.length);
+       for (var i = 0; i < colors.length; i++) {
+           var x = (i % Math.sqrt(colors.length)) * squareSize;
+           var y = Math.floor(i / Math.sqrt(colors.length)) * squareSize;
+           svgString += '<rect x="' + x + '" y="' + y + '" width="' + squareSize + '" height="' + squareSize + '" fill="' + colors[i] + '"/>';
+       }
+       svgString += '</svg>';
+
+       var blob = new Blob([svgString], { type: 'image/svg+xml' });
+       var url = URL.createObjectURL(blob);
+       var link = document.createElement('a');
+       link.href = url;
+       link.download = 'grid.svg';
+       link.click();
+       URL.revokeObjectURL(url);
+   }
+
+
+
+
+
+   // Call the functions to create the grid and handle the export button click
+    createGrid(num); // Specify the number of squares in the grid
+    return {col:colors, chars: characters}
+
+
+}
+   // Export the grid as an image (PNG or JPEG)
+// Export the grid as an image (PNG or JPEG)
+
+function drawGridLines(num, ctx, width, height) {
+  ctx.strokeStyle = "rgba(0,0,0,0.3)";
+  ctx.lineWidth = 1;
+
+  var gridSize = num;
+  var squareSize = Math.floor(Math.min(width, height) / gridSize);
+
+  for (var x = 0; x <= gridSize; x++) {
+    ctx.beginPath();
+    ctx.moveTo(x * squareSize, 0);
+    ctx.lineTo(x * squareSize, height);
+    ctx.stroke();
+  }
+
+  for (var y = 0; y <= gridSize; y++) {
+    ctx.beginPath();
+    ctx.moveTo(0, y * squareSize);
+    ctx.lineTo(width, y * squareSize);
+    ctx.stroke();
+  }
+}
+
+function exportToImage(sqSize, format, numsquares, cols, chars) {
+  var canvas = document.createElement('canvas');
+  var ctx = canvas.getContext('2d');
+  canvas.width = numsquares*sqSize;
+  canvas.height = numsquares*sqSize;
+
+  cols.forEach(function(color, index) {
+    var x = (index % Math.sqrt(cols.length)) * sqSize;
+    var y = Math.floor(index / Math.sqrt(cols.length)) * sqSize;
+    ctx.fillStyle = color;
+    ctx.fillRect(x, y, sqSize, sqSize);
+    ctx.fillStyle = 'red';
+    ctx.font = "20px serif";
+    ctx.textAlign = "center";
+    ctx.fillText(chars[index], x+15, y+20 );
+  });
+  drawGridLines(numsquares, ctx, canvas.width, canvas.height);
+
+  var link = document.createElement('a');
+  if (format === 'png') {
+    link.href = canvas.toDataURL('image/png');
+    link.download = 'grid.png';
+  } else if (format === 'jpeg') {
+    link.href = canvas.toDataURL('image/jpeg', 0.8);
+    link.download = 'grid.jpg';
+  } else {
+    console.log('Invalid format specified.');
+    return;
+  }
+  
+  link.click();
+}
+
+exportBtn.addEventListener('click', function() {
+       exportToImage('png', num);});
+ 
+  </script>
+</div>
+```
+
+::: 
+
+```{ojs}
+Inputs.button("Export to PNG", {reduce: () => exportToImage(25, "png", Number(gridsize), grid1.col, grid1.chars)})
+```

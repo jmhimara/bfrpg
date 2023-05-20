@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Basic Fantasy RPG, 4th edition - 22&nbsp; Interactive tools</title>
+<title>Basic Fantasy RPG, 4th edition - 23&nbsp; Dungeon Maker</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,8 +64,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./appendixMapmaker.html" rel="next">
-<link href="./gm02.html" rel="prev">
+<link href="./extraClasses.html" rel="next">
+<link href="./appendix_interactive.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -120,7 +120,7 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./appendix_interactive.html">Appendix</a></li><li class="breadcrumb-item"><a href="./appendix_interactive.html"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Interactive tools</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./appendix_interactive.html">Appendix</a></li><li class="breadcrumb-item"><a href="./appendixMapmaker.html"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Dungeon Maker</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -376,13 +376,13 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./appendix_interactive.html" class="sidebar-item-text sidebar-link active">
+  <a href="./appendix_interactive.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Interactive tools</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./appendixMapmaker.html" class="sidebar-item-text sidebar-link">
+  <a href="./appendixMapmaker.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Dungeon Maker</span></span></a>
   </div>
 </li>
@@ -423,25 +423,14 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#character-generation-helpers" id="toc-character-generation-helpers" class="nav-link active" data-scroll-target="#character-generation-helpers">Character Generation Helpers</a>
-  <ul>
-  <li><a href="#character-abilities" id="toc-character-abilities" class="nav-link" data-scroll-target="#character-abilities">Character Abilities</a></li>
-  <li><a href="#starting-gold" id="toc-starting-gold" class="nav-link" data-scroll-target="#starting-gold">Starting Gold</a></li>
-  <li><a href="#buy-equipment" id="toc-buy-equipment" class="nav-link" data-scroll-target="#buy-equipment">Buy Equipment</a></li>
-  </ul></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Interactive tools</span></h1>
+<h1 class="title"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Dungeon Maker</span></h1>
 </div>
 
 
@@ -456,18 +445,11 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
 
 </header>
 
-<section id="character-generation-helpers" class="level2">
-<h2 class="anchored" data-anchor-id="character-generation-helpers">Character Generation Helpers</h2>
-<section id="character-abilities" class="level3">
-<h3 class="anchored" data-anchor-id="character-abilities">Character Abilities</h3>
+<div class="column-screen-right">
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="9" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 8;"><span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {generalDice<span class="op">,</span> calculateModifier} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>viewof statrolls <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll Statistics"</span><span class="op">,</span> {<span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> [<span class="fu">generalDice</span>(<span class="dv">3</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>)<span class="op">,</span><span class="fu">generalDice</span>(<span class="dv">3</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>)<span class="op">,</span><span class="fu">generalDice</span>(<span class="dv">3</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>)<span class="op">,</span><span class="fu">generalDice</span>(<span class="dv">3</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>)<span class="op">,</span><span class="fu">generalDice</span>(<span class="dv">3</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>)<span class="op">,</span><span class="fu">generalDice</span>(<span class="dv">3</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>)]}</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="6" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 5;"><span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>viewof gridsize <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">text</span>({<span class="dt">placeholder</span><span class="op">:</span><span class="st">"Grid Size"</span>})</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>viewof grid1 <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Create Grid"</span><span class="op">,</span> {<span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span>  <span class="fu">draw</span>(<span class="bu">Number</span>(gridsize))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-1" data-nodetype="declaration">
@@ -483,297 +465,253 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
 </div>
 </div>
 </div>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Ability</th>
-<th>Value</th>
-<th>Modifier</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Strength</td>
-<td><span><span id="ojs-element-id-1"></span></span></td>
-<td><span><span id="ojs-element-id-2"></span></span></td>
-</tr>
-<tr class="even">
-<td>Intelligence</td>
-<td><span><span id="ojs-element-id-3"></span></span></td>
-<td><span><span id="ojs-element-id-4"></span></span></td>
-</tr>
-<tr class="odd">
-<td>Wisdom</td>
-<td><span><span id="ojs-element-id-5"></span></span></td>
-<td><span><span id="ojs-element-id-6"></span></span></td>
-</tr>
-<tr class="even">
-<td>Dexterity</td>
-<td><span><span id="ojs-element-id-7"></span></span></td>
-<td><span><span id="ojs-element-id-8"></span></span></td>
-</tr>
-<tr class="odd">
-<td>Constitution</td>
-<td><span><span id="ojs-element-id-9"></span></span></td>
-<td><span><span id="ojs-element-id-10"></span></span></td>
-</tr>
-<tr class="even">
-<td>Charisma</td>
-<td><span><span id="ojs-element-id-11"></span></span></td>
-<td><span><span id="ojs-element-id-12"></span></span></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="starting-gold" class="level3">
-<h3 class="anchored" data-anchor-id="starting-gold">Starting Gold</h3>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="30" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 29;"><span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>viewof goldRoll <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Roll Gold (3d6 x 10)"</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> temp <span class="op">=</span> (<span class="dv">10</span> <span class="op">*</span> <span class="fu">generalDice</span>(<span class="dv">3</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>))<span class="op">;</span></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>  <span class="kw">set</span> (viewof startingGold<span class="op">,</span> temp)<span class="op">;</span></span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> temp}})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="13" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 12;"><span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>viewof form <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">form</span>(</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="dt">button1</span><span class="op">:</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Create Grid"</span><span class="op">,</span> {<span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span>  <span class="fu">draw</span>(<span class="bu">Number</span>(gridsize))})<span class="op">,</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    <span class="dt">button2</span><span class="op">:</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Reset Grid"</span><span class="op">,</span> {<span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">resetGrid</span>()})</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  }<span class="op">,</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    <span class="dt">template</span><span class="op">:</span> (formParts) <span class="kw">=&gt;</span> htl<span class="op">.</span><span class="fu">html</span><span class="vs">`</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="vs">     &lt;div&gt;</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="vs">       &lt;h3&gt;&lt;/h3&gt;</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="vs">       &lt;div style="</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="vs">         width: 400px;</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="vs">         display: flex;</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="vs">       "&gt;</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="vs">         </span><span class="sc">${</span><span class="bu">Object</span><span class="op">.</span><span class="fu">values</span>(formParts)<span class="sc">}</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="vs">       &lt;/div&gt;</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="vs">     &lt;/div&gt;`</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-2" data-nodetype="declaration">
 
 </div>
 </div>
 </div>
-<p><strong>Starting Gold</strong>: <span><span id="ojs-element-id-13"></span></span></p>
-</section>
-<section id="buy-equipment" class="level3">
-<h3 class="anchored" data-anchor-id="buy-equipment">Buy Equipment</h3>
+
+<div style="width:80%; height:800px; border: 1px solid black; overflow:auto">
+  <style>
+    #grid {
+      display: grid;
+      gap: 0px;
+    }
+    .square {
+      width: 25px;
+      height: 25px;
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      background-color: white;
+      color:rgba(218, 118, 118, 1);
+      text-align: center;
+      vertical-align: center;
+    }
+  </style>
+  <div id="grid"></div>
+  <canvas></canvas>
+
+
+  <script>
+
+function resetGrid() {
+    var grid = document.getElementById('grid');
+    while (grid.firstChild) {
+        grid.removeChild(grid.firstChild);
+    }
+}
+
+function draw (nums) {
+   // Get the grid element and export button
+   resetGrid();
+   var grid = document.getElementById('grid');
+   // var exportBtn = document.getElementById('exportBtn');
+
+
+   var squareSize = 25
+   var num = nums
+
+   // Create an array to store the colors of each square
+   var colors = []
+   var characters = []
+
+   // Create the grid of squares
+  function createGrid(numSquares) {
+    colors = Array(numSquares * numSquares).fill('white');
+    characters = Array(numSquares * numSquares).fill('');
+    for (var i = 0; i < numSquares; i++) {
+      for (var j = 0; j < numSquares; j++) {
+        var square = document.createElement('div');
+        square.className = 'square';
+        square.setAttribute('tabindex', '0'); // Make the square focusable
+        square.addEventListener('mousedown', startDrag);
+        square.addEventListener('mouseover', changeColor);
+        square.addEventListener('mouseup', stopDrag);
+        square.addEventListener('click', changeColor);
+        square.addEventListener('keydown', function (event) {
+          console.log ("event", event)
+          var index = Array.prototype.indexOf.call(grid.children, this);
+          var char = String.fromCharCode(event.which);
+          this.textContent = char;
+          characters[index] = char;
+         });
+        grid.appendChild(square);
+        grid.style.width = `${numSquares * 25}px`
+        grid.style.gridTemplateColumns = `repeat(${numSquares}, minmax(0, 1fr))`
+        grid.style.gridTemplateRows = `repeat(${numSquares}, minmax(0, 1fr))`
+           }
+       }
+   }
+
+   // Variables to track dragging
+   var isDragging = false;
+
+   // Start dragging the mouse
+   function startDrag() {
+       isDragging = true;
+       changeColor.call(this); // Change color of the square immediately when mouse is pressed down
+   }
+
+   // Change the color of a square
+   function changeColor() {
+       var index = Array.prototype.indexOf.call(grid.children, this);
+       // event.preventDefault(); 
+
+       console.log(event.type) 
+
+       if (isDragging || (!isDragging && event.type === 'mousedown')) {
+        var char = String.fromCharCode(event.which);
+          console.log ("inside first if", char)
+           if (colors[index] === 'white') {
+               colors[index] = 'blue';
+               this.style.backgroundColor = 'blue';
+           } else {
+               colors[index] = 'white';
+               this.style.backgroundColor = 'white';
+           }
+       }
+        if (event.type === 'keydown') {
+          var char = String.fromCharCode(event.which); // Get the character from the pressed key
+          console.log(char)
+          this.textContent = char;
+          characters[index] = char; // Set the text content of the square
+        }
+       } 
+
+   // Stop dragging the mouse
+   function stopDrag() {
+       isDragging = false;
+   }
+
+   // Export the grid as an SVG image
+   // Export the grid as an SVG image
+   function exportToSVG() {
+       var svgString = '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">';
+       var squareSize = 400 / Math.sqrt(colors.length);
+       for (var i = 0; i < colors.length; i++) {
+           var x = (i % Math.sqrt(colors.length)) * squareSize;
+           var y = Math.floor(i / Math.sqrt(colors.length)) * squareSize;
+           svgString += '<rect x="' + x + '" y="' + y + '" width="' + squareSize + '" height="' + squareSize + '" fill="' + colors[i] + '"/>';
+       }
+       svgString += '</svg>';
+
+       var blob = new Blob([svgString], { type: 'image/svg+xml' });
+       var url = URL.createObjectURL(blob);
+       var link = document.createElement('a');
+       link.href = url;
+       link.download = 'grid.svg';
+       link.click();
+       URL.revokeObjectURL(url);
+   }
+
+
+
+
+
+   // Call the functions to create the grid and handle the export button click
+    createGrid(num); // Specify the number of squares in the grid
+    return {col:colors, chars: characters}
+
+
+}
+   // Export the grid as an image (PNG or JPEG)
+// Export the grid as an image (PNG or JPEG)
+
+function drawGridLines(num, ctx, width, height) {
+  ctx.strokeStyle = "rgba(0,0,0,0.3)";
+  ctx.lineWidth = 1;
+
+  var gridSize = num;
+  var squareSize = Math.floor(Math.min(width, height) / gridSize);
+
+  for (var x = 0; x <= gridSize; x++) {
+    ctx.beginPath();
+    ctx.moveTo(x * squareSize, 0);
+    ctx.lineTo(x * squareSize, height);
+    ctx.stroke();
+  }
+
+  for (var y = 0; y <= gridSize; y++) {
+    ctx.beginPath();
+    ctx.moveTo(0, y * squareSize);
+    ctx.lineTo(width, y * squareSize);
+    ctx.stroke();
+  }
+}
+
+function exportToImage(sqSize, format, numsquares, cols, chars) {
+  var canvas = document.createElement('canvas');
+  var ctx = canvas.getContext('2d');
+  canvas.width = numsquares*sqSize;
+  canvas.height = numsquares*sqSize;
+
+  cols.forEach(function(color, index) {
+    var x = (index % Math.sqrt(cols.length)) * sqSize;
+    var y = Math.floor(index / Math.sqrt(cols.length)) * sqSize;
+    ctx.fillStyle = color;
+    ctx.fillRect(x, y, sqSize, sqSize);
+    ctx.fillStyle = 'red';
+    ctx.font = "20px serif";
+    ctx.textAlign = "center";
+    ctx.fillText(chars[index], x+15, y+20 );
+  });
+  drawGridLines(numsquares, ctx, canvas.width, canvas.height);
+
+  var link = document.createElement('a');
+  if (format === 'png') {
+    link.href = canvas.toDataURL('image/png');
+    link.download = 'grid.png';
+  } else if (format === 'jpeg') {
+    link.href = canvas.toDataURL('image/jpeg', 0.8);
+    link.download = 'grid.jpg';
+  } else {
+    console.log('Invalid format specified.');
+    return;
+  }
+  
+  link.click();
+}
+
+exportBtn.addEventListener('click', function() {
+       exportToImage('png', num);});
+ 
+  </script>
+</div>
+</div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="45" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 44;"><span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { convertToGold } <span class="im">from</span> <span class="st">"./custom.js"</span></span>
-<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">set</span>(input<span class="op">,</span> value) {</span>
-<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>  input<span class="op">.</span><span class="at">value</span> <span class="op">=</span> value<span class="op">;</span></span>
-<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a>  input<span class="op">.</span><span class="fu">dispatchEvent</span>(<span class="kw">new</span> <span class="bu">Event</span>(<span class="st">"input"</span><span class="op">,</span> {<span class="dt">bubbles</span><span class="op">:</span> <span class="kw">true</span>}))<span class="op">;</span></span>
-<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a>viewof startingGold <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">text</span>({<span class="dt">label</span><span class="op">:</span> <span class="st">"Starting Gold: "</span>})</span>
-<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a>spent <span class="op">=</span> {</span>
-<span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (myarray<span class="op">.</span><span class="at">length</span> <span class="op">!=</span> <span class="dv">0</span>){</span>
-<span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a>      <span class="kw">let</span> pricesGP <span class="op">=</span> myarray<span class="op">.</span><span class="fu">map</span>(x <span class="kw">=&gt;</span> x[<span class="dv">1</span>]<span class="op">.</span><span class="fu">split</span>(<span class="st">" "</span>))<span class="op">.</span><span class="fu">map</span>(x <span class="kw">=&gt;</span> <span class="fu">convertToGold</span>(<span class="bu">Number</span>(x[<span class="dv">0</span>])<span class="op">,</span> x[<span class="dv">1</span>]))</span>
-<span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a>      <span class="kw">let</span> total <span class="op">=</span> pricesGP<span class="op">.</span><span class="fu">reduce</span> ((x<span class="op">,</span>y) <span class="kw">=&gt;</span> x <span class="op">+</span> y)</span>
-<span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> total</span>
-<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {<span class="cf">return</span> <span class="dv">0</span>}</span>
-<span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a>remainingGold <span class="op">=</span> <span class="bu">Number</span>(startingGold) <span class="op">-</span> spent</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="247" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 246;"><span id="cb3-247"><a href="#cb3-247" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"Export to PNG"</span><span class="op">,</span> {<span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">exportToImage</span>(<span class="dv">25</span><span class="op">,</span> <span class="st">"png"</span><span class="op">,</span> <span class="bu">Number</span>(gridsize)<span class="op">,</span> grid1<span class="op">.</span><span class="at">col</span><span class="op">,</span> grid1<span class="op">.</span><span class="at">chars</span>)})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-3-1" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-3-2" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-3-3" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-3-4" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-3-5" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-</div>
-<p><strong>Remaining Gold</strong>: <span><span id="ojs-element-id-14"></span></span> gp</p>
-<p>Click to select. Use Ctrl (Cmd) or Shift to select multiple.</p>
-<div class="cell">
-<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="70" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 69;"><span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
-<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> d <span class="op">=</span> <span class="cf">await</span> <span class="fu">FileAttachment</span>(<span class="st">"equipment.json"</span>)<span class="op">.</span><span class="fu">json</span>()</span>
-<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> d</span>
-<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a>miscs <span class="op">=</span>  data[<span class="dv">0</span>]<span class="op">.</span><span class="fu">map</span>( x <span class="kw">=&gt;</span> [x[<span class="st">"Item"</span>]<span class="op">,</span> x[<span class="st">"Price"</span>]] )</span>
-<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a>weapons <span class="op">=</span> data[<span class="dv">1</span>]<span class="op">.</span><span class="fu">map</span>( x <span class="kw">=&gt;</span> [x[<span class="st">"Weapon"</span>]<span class="op">,</span> x[<span class="st">"Price"</span>]])</span>
-<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a>armor <span class="op">=</span> data[<span class="dv">2</span>]<span class="op">.</span><span class="fu">map</span>( x <span class="kw">=&gt;</span> [x[<span class="st">"Armor Type"</span>]<span class="op">,</span> x[<span class="st">"Price"</span>]])</span>
-<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a>animals <span class="op">=</span> data[<span class="dv">3</span>]<span class="op">.</span><span class="fu">map</span>( x <span class="kw">=&gt;</span> [x[<span class="st">"Item"</span>]<span class="op">,</span> x[<span class="st">"Price"</span>]])</span>
-<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a>allItems <span class="op">=</span> miscs<span class="op">.</span><span class="fu">concat</span>(weapons<span class="op">.</span><span class="fu">concat</span>(armor<span class="op">.</span><span class="fu">concat</span>(animals)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-4-1" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-4-2" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-4-3" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-4-4" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-4-5" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-4-6" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="83" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 82;"><span id="cb5-83"><a href="#cb5-83" aria-hidden="true" tabindex="-1"></a>viewof search  <span class="op">=</span> {</span>
-<span id="cb5-84"><a href="#cb5-84" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> n <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">search</span>(allItems)<span class="op">;</span></span>
-<span id="cb5-85"><a href="#cb5-85" aria-hidden="true" tabindex="-1"></a><span class="cf">return</span> n</span>
-<span id="cb5-86"><a href="#cb5-86" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div id="ojs-cell-5" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="91" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 90;"><span id="cb6-91"><a href="#cb6-91" aria-hidden="true" tabindex="-1"></a>viewof items <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(search<span class="op">,</span> {<span class="dt">multiple</span><span class="op">:</span> <span class="kw">true</span></span>
-<span id="cb6-92"><a href="#cb6-92" aria-hidden="true" tabindex="-1"></a><span class="op">,</span> <span class="dt">format</span><span class="op">:</span> (x) <span class="kw">=&gt;</span> <span class="vs">`</span><span class="sc">${</span>x[<span class="dv">0</span>]<span class="sc">}</span><span class="vs">,   (</span><span class="sc">${</span>x[<span class="dv">1</span>]<span class="sc">}</span><span class="vs">)`</span></span>
-<span id="cb6-93"><a href="#cb6-93" aria-hidden="true" tabindex="-1"></a>} )</span>
-<span id="cb6-94"><a href="#cb6-94" aria-hidden="true" tabindex="-1"></a>miscPrice <span class="op">=</span> items<span class="op">.</span><span class="fu">map</span>(x <span class="kw">=&gt;</span> x[<span class="dv">1</span>])</span>
-<span id="cb6-95"><a href="#cb6-95" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-96"><a href="#cb6-96" aria-hidden="true" tabindex="-1"></a>miscItems <span class="op">=</span> items<span class="op">.</span><span class="fu">map</span>(x <span class="kw">=&gt;</span> x[<span class="dv">0</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-6-1" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-6-2" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-6-3" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="102" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 101;"><span id="cb7-102"><a href="#cb7-102" aria-hidden="true" tabindex="-1"></a>mutable myarray <span class="op">=</span> []</span>
-<span id="cb7-103"><a href="#cb7-103" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-104"><a href="#cb7-104" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-105"><a href="#cb7-105" aria-hidden="true" tabindex="-1"></a>viewof b <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"add selected"</span><span class="op">,</span> {</span>
-<span id="cb7-106"><a href="#cb7-106" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> mutable myarray <span class="op">=</span> [<span class="op">...</span>mutable myarray]<span class="op">.</span><span class="fu">concat</span>(items) })</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-7-1" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-7-2" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-</div>
-<p><br></p>
-<div class="cell">
-<div class="sourceCode cell-code hidden" id="cb8" data-startfrom="111" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 110;"><span id="cb8-111"><a href="#cb8-111" aria-hidden="true" tabindex="-1"></a>viewof inventory <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(myarray<span class="op">,</span> {<span class="dt">multiple</span><span class="op">:</span><span class="kw">true</span></span>
-<span id="cb8-112"><a href="#cb8-112" aria-hidden="true" tabindex="-1"></a><span class="op">,</span> <span class="dt">format</span><span class="op">:</span> (x) <span class="kw">=&gt;</span> <span class="vs">`</span><span class="sc">${</span>x[<span class="dv">0</span>]<span class="sc">}</span><span class="vs">,   (</span><span class="sc">${</span>x[<span class="dv">1</span>]<span class="sc">}</span><span class="vs">)`</span></span>
-<span id="cb8-113"><a href="#cb8-113" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div id="ojs-cell-8" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code hidden" id="cb9" data-startfrom="119" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 118;"><span id="cb9-119"><a href="#cb9-119" aria-hidden="true" tabindex="-1"></a>viewof c <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="st">"remove selected"</span><span class="op">,</span> {</span>
-<span id="cb9-120"><a href="#cb9-120" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> mutable myarray <span class="op">=</span> [<span class="op">...</span>mutable myarray]<span class="op">.</span><span class="fu">filter</span>(item <span class="kw">=&gt;</span> <span class="op">!</span>inventory<span class="op">.</span><span class="fu">includes</span>(item)) })</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div id="ojs-cell-9" data-nodetype="declaration">
+<div id="ojs-cell-3" data-nodetype="expression">
 
 </div>
 </div>
 </div>
 
 
-<script type="ojs-module-contents">
-{"contents":[
-  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${statrolls[0]}</span>`", "cellName":"ojs-element-id-1"}
-,
-  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${calculateModifier(statrolls[0])}</span>`", "cellName":"ojs-element-id-2"}
-,
-  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${statrolls[1]}</span>`", "cellName":"ojs-element-id-3"}
-,
-  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${calculateModifier(statrolls[1])}</span>`", "cellName":"ojs-element-id-4"}
-,
-  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${statrolls[2]}</span>`", "cellName":"ojs-element-id-5"}
-,
-  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${calculateModifier(statrolls[2])}</span>`", "cellName":"ojs-element-id-6"}
-,
-  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${statrolls[3]}</span>`", "cellName":"ojs-element-id-7"}
-,
-  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${calculateModifier(statrolls[3])}</span>`", "cellName":"ojs-element-id-8"}
-,
-  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${statrolls[4]}</span>`", "cellName":"ojs-element-id-9"}
-,
-  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${calculateModifier(statrolls[4])}</span>`", "cellName":"ojs-element-id-10"}
-,
-  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${statrolls[5]}</span>`", "cellName":"ojs-element-id-11"}
-,
-  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${calculateModifier(statrolls[5])}</span>`", "cellName":"ojs-element-id-12"}
-,
-  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${goldRoll}</span>`", "cellName":"ojs-element-id-13"}
-,
-  {"methodName":"interpret","inline":"true","source":"htl.html`<span>${remainingGold.toFixed(1)}</span>`", "cellName":"ojs-element-id-14"}
-]}
-</script>
-</section>
-</section>
 
 </main> <!-- /main -->
-
 <script type="ojs-module-contents">
-{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\r\nimport {generalDice, calculateModifier} from \"./custom.js\"\r\n\r\n\r\n\r\nviewof statrolls = Inputs.button(\"Roll Statistics\", {reduce: () => [generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0)]}\r\n\r\n)\r\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"\r\n\r\nviewof goldRoll = Inputs.button(\"Roll Gold (3d6 x 10)\", {value: 0, reduce: () => {\r\n  let temp = (10 * generalDice(3,6,0));\r\n  set (viewof startingGold, temp);\r\n  return temp}})\r\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"\r\nimport { convertToGold } from \"./custom.js\"\r\n\r\nfunction set(input, value) {\r\n  input.value = value;\r\n  input.dispatchEvent(new Event(\"input\", {bubbles: true}));\r\n}\r\n\r\nviewof startingGold = Inputs.text({label: \"Starting Gold: \"})\r\n\r\nspent = {\r\n  if (myarray.length != 0){\r\n      let pricesGP = myarray.map(x => x[1].split(\" \")).map(x => convertToGold(Number(x[0]), x[1]))\r\n      let total = pricesGP.reduce ((x,y) => x + y)\r\n      return total\r\n  } else {return 0}\r\n}\r\n\r\nremainingGold = Number(startingGold) - spent\r\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"data = {\r\n  const d = await FileAttachment(\"equipment.json\").json()\r\n  return d\r\n}\r\n\r\nmiscs =  data[0].map( x => [x[\"Item\"], x[\"Price\"]] )\r\nweapons = data[1].map( x => [x[\"Weapon\"], x[\"Price\"]])\r\narmor = data[2].map( x => [x[\"Armor Type\"], x[\"Price\"]])\r\nanimals = data[3].map( x => [x[\"Item\"], x[\"Price\"]])\r\nallItems = miscs.concat(weapons.concat(armor.concat(animals)))\r\n"},{"methodName":"interpret","cellName":"ojs-cell-5","inline":false,"source":"viewof search  = {\r\n  let n = Inputs.search(allItems);\r\nreturn n\r\n}\r\n"},{"methodName":"interpret","cellName":"ojs-cell-6","inline":false,"source":"viewof items = Inputs.select(search, {multiple: true\r\n, format: (x) => `${x[0]},   (${x[1]})`\r\n} )\r\nmiscPrice = items.map(x => x[1])\r\n\r\nmiscItems = items.map(x => x[0])\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-7","inline":false,"source":"mutable myarray = []\r\n\r\n\r\nviewof b = Inputs.button(\"add selected\", {\r\n    reduce: () => mutable myarray = [...mutable myarray].concat(items) })\r\n"},{"methodName":"interpret","cellName":"ojs-cell-8","inline":false,"source":"viewof inventory = Inputs.select(myarray, {multiple:true\r\n, format: (x) => `${x[0]},   (${x[1]})`\r\n})\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-9","inline":false,"source":"\r\nviewof c = Inputs.button(\"remove selected\", {\r\n    reduce: () => mutable myarray = [...mutable myarray].filter(item => !inventory.includes(item)) })\r\n"},{"methodName":"interpretQuiet","source":"shinyInput('statrolls')"},{"methodName":"interpretQuiet","source":"shinyInput('goldRoll')"},{"methodName":"interpretQuiet","source":"shinyInput('startingGold')"},{"methodName":"interpretQuiet","source":"shinyInput('search')"},{"methodName":"interpretQuiet","source":"shinyInput('items')"},{"methodName":"interpretQuiet","source":"shinyInput('b')"},{"methodName":"interpretQuiet","source":"shinyInput('inventory')"},{"methodName":"interpretQuiet","source":"shinyInput('c')"}]}
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"viewof gridsize = Inputs.text({placeholder:\"Grid Size\"})\r\n\r\nviewof grid1 = Inputs.button(\"Create Grid\", {reduce: () =>  draw(Number(gridsize))})\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"viewof form = Inputs.form(\r\n  {\r\n    button1: Inputs.button(\"Create Grid\", {reduce: () =>  draw(Number(gridsize))}),\r\n    button2: Inputs.button(\"Reset Grid\", {reduce: () => resetGrid()})\r\n  },\r\n  {\r\n    template: (formParts) => htl.html`\r\n     <div>\r\n       <h3></h3>\r\n       <div style=\"\r\n         width: 400px;\r\n         display: flex;\r\n       \">\r\n         ${Object.values(formParts)}\r\n       </div>\r\n     </div>`\r\n  }\r\n)\r\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"Inputs.button(\"Export to PNG\", {reduce: () => exportToImage(25, \"png\", Number(gridsize), grid1.col, grid1.chars)})\r\n"},{"methodName":"interpretQuiet","source":"shinyInput('gridsize')"},{"methodName":"interpretQuiet","source":"shinyInput('grid1')"},{"methodName":"interpretQuiet","source":"shinyInput('form')"}]}
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
@@ -1018,13 +956,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./gm02.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Crafting Adventures</span></span>
+      <a href="./appendix_interactive.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Interactive tools</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./appendixMapmaker.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Dungeon Maker</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./extraClasses.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Additional Classes</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -49,6 +49,7 @@ book:
     - part: Appendix
       chapters:
         - appendix_interactive.qmd
+        - appendixMapmaker.qmd
     - part: Extra
       chapters:
         - extraClasses.qmd
