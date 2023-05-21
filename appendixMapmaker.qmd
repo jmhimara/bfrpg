@@ -3,11 +3,10 @@
 **How to use**
 
 - Input the size of the square grid to create the drawing canvas (note this erases anything you may have already drawn)
-- Click or drag to create rooms and hallways. Click to toggle between white and blue squares.
-- Click and then type a character on your keyboard to annotate a square with a letter or number. 
+- Click or drag to create rooms and hallways. The click toggles between white and blue squares.
+- Click on a square and then type a character on your keyboard to annotate a square with a letter or number (multiple characters are possible). 
+- Right click on a square to erase existing text. 
 
-
-:::{.column-screen-right}
 
 
 ```{ojs}
@@ -19,10 +18,12 @@ viewof grid1 = Inputs.button("Create Grid", {reduce: () =>  draw(Number(gridsize
 
 
 ```{ojs}
+size = 30
+
 viewof form = Inputs.form(
   {
     button1: "  ",
-    button2: Inputs.button("Reset Grid", {reduce: () => resetGrid()})
+    button2: Inputs.button("Delete Grid", {reduce: () => resetGrid()})
   },
   {
     template: (formParts) => htl.html`
@@ -39,18 +40,21 @@ viewof form = Inputs.form(
 )
 ```
 
+:::{.column-screen-inset}
+
+
+
 
 ```{=html}
-
-<div style="width:80%; height:800px; border: 1px solid black; overflow:auto">
+<div style="width:95%; height:600px; border: 1px solid black; resize:both; overflow:auto; margin:10px; align:center;">
   <style>
     #grid {
       display: grid;
       gap: 0px;
     }
     .square {
-      width: 25px;
-      height: 25px;
+      width: 30px;
+      height: 30px;
       display: inline-block;
       border: 1px solid rgba(0, 0, 0, 0.3);
       background-color: white;
@@ -79,7 +83,7 @@ function draw (nums) {
    // var exportBtn = document.getElementById('exportBtn');
 
 
-   var squareSize = 25
+   var squareSize = 30
    var num = nums
 
    // Create an array to store the colors of each square
@@ -90,10 +94,19 @@ function draw (nums) {
   function createGrid(numSquares) {
     colors = Array(numSquares * numSquares).fill('white');
     characters = Array(numSquares * numSquares).fill('');
+        
+
     for (var i = 0; i < numSquares; i++) {
       for (var j = 0; j < numSquares; j++) {
         var square = document.createElement('div');
+
+        // Initialize the square's string array
+
+
+
         square.className = 'square';
+
+        square.dataset.squareStrings = JSON.stringify([]);
         square.setAttribute('tabindex', '0'); // Make the square focusable
         square.addEventListener('mousedown', startDrag);
         square.addEventListener('mouseover', changeColor);
@@ -102,12 +115,39 @@ function draw (nums) {
         square.addEventListener('keydown', function (event) {
           console.log ("event", event)
           var index = Array.prototype.indexOf.call(grid.children, this);
-          var char = String.fromCharCode(event.which);
-          this.textContent = char;
-          characters[index] = char;
+
+          var squareStrings = JSON.parse(this.dataset.squareStrings);
+
+          var char = event.key;
+
+         if (
+            event.code === 'ShiftLeft' ||
+            event.code === 'ShiftRight'
+          ) {
+            // Ignore Shift key press
+            return;
+          }
+
+          if (event.shiftKey && char.length === 1) {
+            // Adjust the character if Shift key is pressed
+            char = char.toUpperCase();
+          }
+          console.log(char)
+          squareStrings.push(char);
+          this.textContent = squareStrings.join('');
+          this.dataset.squareStrings = JSON.stringify(squareStrings);
+          characters[index] = this.textContent;
+
          });
+        square.addEventListener('contextmenu', function (event) {
+          event.preventDefault();
+          var index = Array.prototype.indexOf.call(grid.children, this);
+          this.textContent = '';
+          this.dataset.squareStrings = JSON.stringify([]);
+          characters[index] = ""
+        });
         grid.appendChild(square);
-        grid.style.width = `${numSquares * 25}px`
+        grid.style.width = `${numSquares * squareSize}px`
         grid.style.gridTemplateColumns = `repeat(${numSquares}, minmax(0, 1fr))`
         grid.style.gridTemplateRows = `repeat(${numSquares}, minmax(0, 1fr))`
            }
@@ -141,12 +181,12 @@ function draw (nums) {
                this.style.backgroundColor = 'white';
            }
        }
-        if (event.type === 'keydown') {
+/*         if (event.type === 'keydown') {
           var char = String.fromCharCode(event.which); // Get the character from the pressed key
           console.log(char)
           this.textContent = char;
           characters[index] = char; // Set the text content of the square
-        }
+        } */
        } 
 
    // Stop dragging the mouse
@@ -253,5 +293,5 @@ exportBtn.addEventListener('click', function() {
 ::: 
 
 ```{ojs}
-Inputs.button("Export to PNG", {reduce: () => exportToImage(25, "png", Number(gridsize), grid1.col, grid1.chars)})
+Inputs.button("Export to PNG", {reduce: () => exportToImage(size, "png", Number(gridsize), grid1.col, grid1.chars)})
 ```
