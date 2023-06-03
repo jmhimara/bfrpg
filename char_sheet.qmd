@@ -47,10 +47,6 @@ if (recordsFile != null){
 
 ```
 
-```{ojs}
-char === undefined
-```
-
 {{< include char_sheet-loadFile.qmd >}}
 
 <br>
@@ -796,8 +792,8 @@ listen = {
 ```
 
 ```{ojs}
-
+dchar = {
 d3.select("#downloadCharButton").on("click", downloadJson);
-
+}
 // savetoFile()
 ```
