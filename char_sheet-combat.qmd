@@ -30,25 +30,25 @@
 
 
       <div class="g-col-3">
-        <input type="text" class="form-control form-control-sm weaponForm"  id="weaponForm1">
+        <input autocomplete="off"  type="text" class="form-control form-control-sm weaponForm"  id="weaponForm1">
       </div>
       <div class="g-col-2">
-        <input type="text" class="form-control form-control-sm attackForm"  id="attackForm1">
+        <input autocomplete="off"  type="text" class="form-control form-control-sm attackForm"  id="attackForm1">
       </div>
       <div class="g-col-2">
-        <input type="text" class="form-control form-control-sm damageForm" id="damageForm1">
+        <input autocomplete="off"  type="text" class="form-control form-control-sm damageForm" id="damageForm1">
       </div>  
       <div class="g-col-1">
-        <input type="text" class="form-control form-control-sm rangeSForm"  id="rangeSForm1">
+        <input autocomplete="off"  type="text" class="form-control form-control-sm rangeSForm"  id="rangeSForm1">
       </div>
       <div class="g-col-1">
-        <input type="text" class="form-control form-control-sm rangeMForm" id="rangeMForm1" >
+        <input autocomplete="off"  type="text" class="form-control form-control-sm rangeMForm" id="rangeMForm1" >
       </div>  
       <div class="g-col-1">
-        <input type="text" class="form-control form-control-sm rangeLForm" id="rangeLForm1">
+        <input autocomplete="off"  type="text" class="form-control form-control-sm rangeLForm" id="rangeLForm1">
       </div>
       <div class="g-col-2">
-        <input type="text" class="form-control form-control-sm notesForm"  id="notesForm1">
+        <input autocomplete="off"  type="text" class="form-control form-control-sm notesForm"  id="notesForm1">
       </div>   
       <div class="g-col-1"> 
             <span></span>
@@ -80,20 +80,20 @@
       </div> 
     
     <div class="g-col-3">
-        <input type="text" class="form-control form-control-sm ammoForm"  id="ammoForm1">
+        <input autocomplete="off" type="text" class="form-control form-control-sm ammoForm"  id="ammoForm1">
     </div>
     <div class="g-col-1">
         <div class="form-outline">
-            <input type="number" class="form-control form-control-sm countForm" value=0 id="countForm1"
+            <input autocomplete="off" type="number" class="form-control form-control-sm countForm" value=0 id="countForm1"
             onkeypress="return event.charCode >= 48 && event.charCode <= 57">
         </div>
     </div>  
     <div class="g-col-1">
-        <input type="text" class="form-control form-control-sm ammoDmgForm"  id="ammoDmgForm1">
+        <input autocomplete="off" type="text" class="form-control form-control-sm ammoDmgForm"  id="ammoDmgForm1">
     </div>
     <div class="g-col-6">
         <div class="form-outline">
-            <input type="text" class="form-control form-control-sm ammo-notesForm"  id="ammo-notesForm1">
+            <input autocomplete="off" type="text" class="form-control form-control-sm ammo-notesForm"  id="ammo-notesForm1">
         </div>
     </div>   
     <div class="g-col-1"> 
@@ -110,39 +110,39 @@
     <div class="turning">
         <div class="grid mb-3" style="--bs-columns:9">
         <div id="turn-hd1" class="g-col-3 g-col-md-1">
-            <input type="text" id="turn1" class="form-control form-control-sm turningForm">
+            <input autocomplete="off" type="text" id="turn1" class="form-control form-control-sm turningForm">
             <label for="turn1" class="form-labelm">1 HD / Skeleton</label>
         </div>
         <div id="turn-hd2" class="g-col-3 g-col-md-1">
-            <input type="text" id="turn2" class="form-control form-control-sm turningForm">
+            <input autocomplete="off" type="text" id="turn2" class="form-control form-control-sm turningForm">
             <label for="turn2">2 HD / Zombie</label>
         </div>
         <div id="turn-hd3" class="g-col-3 g-col-md-1" >
-            <input type="text" id="turn3" class="form-control form-control-sm turningForm">
+            <input autocomplete="off" type="text" id="turn3" class="form-control form-control-sm turningForm">
             <label for="turn3">3 HD / Ghoul</label>
         </div>
         <div id="turn-hd4"  class="g-col-3 g-col-md-1">
-            <input type="text" id="turn4" class="form-control form-control-sm turningForm">
+            <input autocomplete="off" type="text" id="turn4" class="form-control form-control-sm turningForm">
             <label for="turn4" class="form-labelm">4 HD / Wight</label>
         </div>
         <div id="turn-hd5" class="g-col-3 g-col-md-1">
-            <input type="text" id="turn5" class="form-control form-control-sm turningForm">
+            <input autocomplete="off" type="text" id="turn5" class="form-control form-control-sm turningForm">
             <label for="turn5">5 HD / Wraith</label>
         </div>
         <div id="turn-hd6"  class="g-col-3 g-col-md-1">
-            <input type="text" id="turn6" class="form-control form-control-sm turningForm">
+            <input autocomplete="off" type="text" id="turn6" class="form-control form-control-sm turningForm">
             <label for="turn6">6 HD / Mummy</label>
         </div>
         <div id="turn-hd7"  class="g-col-3 g-col-md-1">
-            <input type="text" id="turn7" class="form-control form-control-sm turningForm">
+            <input autocomplete="off" type="text" id="turn7" class="form-control form-control-sm turningForm">
             <label for="turn7" class="form-labelm">7 HD / Spectre</label>
         </div>
         <div id="turn-hd8" class="g-col-3 g-col-md-1">
-            <input type="text" id="turn8" class="form-control form-control-sm turningForm">
+            <input autocomplete="off" type="text" id="turn8" class="form-control form-control-sm turningForm">
             <label for="turn8">8 HD / Vampire</label>
         </div>
         <div id="turn-hd9"  class="g-col-3 g-col-md-1">
-            <input type="text" id="turn9" class="form-control form-control-sm turningForm">
+            <input autocomplete="off" type="text" id="turn9" class="form-control form-control-sm turningForm">
             <label for="turn9">9+ HD / Ghost</label>
         </div>
         </div> <!--  grid -->    
@@ -171,25 +171,25 @@ function addWeapon() {
     inputGroup
     .html(`
       <div class="g-col-3">
-        <input type="text" class="form-control form-control-sm weaponForm"  id="weaponForm${inputCount + 1}">
+        <input autocomplete="off" type="text" class="form-control form-control-sm weaponForm"  id="weaponForm${inputCount + 1}">
       </div>
       <div class="g-col-2">
-        <input type="text" class="form-control form-control-sm attackForm" id="attackForm${inputCount + 1}">
+        <input autocomplete="off" type="text" class="form-control form-control-sm attackForm" id="attackForm${inputCount + 1}">
       </div>
       <div class="g-col-2">
-        <input type="text" class="form-control form-control-sm damageForm"  id="damageForm${inputCount + 1}">
+        <input autocomplete="off" type="text" class="form-control form-control-sm damageForm"  id="damageForm${inputCount + 1}">
       </div>  
       <div class="g-col-1">
-        <input type="text" class="form-control form-control-sm rangeSForm"  id="rangeSForm${inputCount + 1}">
+        <input autocomplete="off" type="text" class="form-control form-control-sm rangeSForm"  id="rangeSForm${inputCount + 1}">
       </div>
       <div class="g-col-1">
-        <input type="text" class="form-control form-control-sm rangeMForm" id="rangeMForm${inputCount + 1}" >
+        <input autocomplete="off" type="text" class="form-control form-control-sm rangeMForm" id="rangeMForm${inputCount + 1}" >
       </div>  
       <div class="g-col-1">
-        <input type="text" class="form-control form-control-sm rangeLForm" id="rangeLForm${inputCount + 1}">
+        <input autocomplete="off" type="text" class="form-control form-control-sm rangeLForm" id="rangeLForm${inputCount + 1}">
       </div>
       <div class="g-col-2">
-        <input type="text" class="form-control form-control-sm notesForm"  id="notesForm${inputCount + 1}">
+        <input autocomplete="off" type="text" class="form-control form-control-sm notesForm"  id="notesForm${inputCount + 1}">
       </div>`)
     .append('div')
     .attr('class','g-col-1')
@@ -228,19 +228,19 @@ function addAmmo() {
     inputGroup
     .html(`
     <div class="g-col-3">
-        <input type="text" class="form-control form-control-sm ammoForm" id=ammoForm${inputCount + 1}>
+        <input autocomplete="off" type="text" class="form-control form-control-sm ammoForm" id=ammoForm${inputCount + 1}>
     </div>
     <div class="g-col-1">
         <div class="form-outline">
-            <input type="number" class="form-control form-control-sm countForm" value=0 id=countForm${inputCount + 1}>
+            <input autocomplete="off" type="number" class="form-control form-control-sm countForm" value=0 id=countForm${inputCount + 1}>
         </div>
     </div>
     <div class="g-col-1">
-        <input type="text" class="form-control form-control-sm ammoDmgForm"  id=ammoDmgForm${inputCount + 1}>
+        <input autocomplete="off" type="text" class="form-control form-control-sm ammoDmgForm"  id=ammoDmgForm${inputCount + 1}>
     </div>  
     <div class="g-col-6">
         <div class="form-outline">
-            <input type="text" class="form-control form-control-sm ammo-notesForm" id=ammo-notesForm${inputCount + 1}>
+            <input autocomplete="off" type="text" class="form-control form-control-sm ammo-notesForm" id=ammo-notesForm${inputCount + 1}>
         </div>
     </div>    
     `)

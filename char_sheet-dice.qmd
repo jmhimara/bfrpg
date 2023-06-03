@@ -10,7 +10,7 @@
 
     <div class="g-col-md-1">
         <div class="input-group">  
-            <input class="form-control rounded-start dice-number" type="number" value=1 min=1 style="width:4rem;" id="d4-number">  
+            <input autocomplete="off" class="form-control rounded-start dice-number" type="number" value=1 min=1 style="width:4rem;" id="d4-number">  
             <button type="button" class="btn btn-primary rounded-end" data-bs-toggle="popover" id="d4">
                 d4
             </button>
@@ -20,7 +20,7 @@
 
     <div class="g-col-md-1">
     <div class="input-group ">  
-        <input class="form-control rounded-start" type="number" value=1 min=1 style="width:4rem;" id="d6-number">  
+        <input autocomplete="off" class="form-control rounded-start" type="number" value=1 min=1 style="width:4rem;" id="d6-number">  
         <button type="button" class="btn btn-primary rounded-end" data-bs-toggle="popover" data-bs-placement="top" id="d6" data-bs-content="Top popover">
             d6
         </button>
@@ -29,7 +29,7 @@
 
     <div class="g-col-md-1">
     <div class="input-group ">  
-        <input class="form-control rounded-start" type="number" value=1 min=1 style="width:4rem;" id="d8-number">  
+        <input autocomplete="off" class="form-control rounded-start" type="number" value=1 min=1 style="width:4rem;" id="d8-number">  
         <button type="button" class="btn btn-primary rounded-end" data-bs-toggle="popover" data-bs-placement="top" id="d8">
             d8
         </button>
@@ -38,7 +38,7 @@
 
     <div class="g-col-md-1">
     <div class="input-group ">  
-        <input class="form-control rounded-start" type="number" value=1 min=1 style="width:4rem;" id="d10-number">  
+        <input autocomplete="off" class="form-control rounded-start" type="number" value=1 min=1 style="width:4rem;" id="d10-number">  
         <button type="button" class="btn btn-primary rounded-end" data-bs-toggle="popover" data-bs-placement="top" id="d10">
         d10
         </button>
@@ -47,7 +47,7 @@
 
     <div class="g-col-md-1">
     <div class="input-group ">  
-        <input class="form-control rounded-start" type="number" value=1 min=1 style="width:4rem;" id="d12-number">  
+        <input autocomplete="off" class="form-control rounded-start" type="number" value=1 min=1 style="width:4rem;" id="d12-number">  
         <button type="button" class="btn btn-primary rounded-end" data-bs-toggle="popover" data-bs-placement="top" id="d12">
             d12
         </button>  
@@ -56,7 +56,7 @@
 
     <div class="g-col-md-1">
     <div class="input-group ">  
-        <input class="form-control rounded-start" type="number" value=1 min=1 style="width:4rem;" id="d20-number">  
+        <input autocomplete="off" class="form-control rounded-start" type="number" value=1 min=1 style="width:4rem;" id="d20-number">  
         <button type="button" class="btn btn-primary rounded-end" data-bs-toggle="popover" data-bs-placement="top" id="d20">
             d20
         </button>  
@@ -65,7 +65,7 @@
 
     <div class="g-col-md-1">
     <div class="input-group ">  
-        <input class="form-control rounded-start" type="number" value=1 min=1 style="width:4rem;" id="d100-number">  
+        <input autocomplete="off" class="form-control rounded-start" type="number" value=1 min=1 style="width:4rem;" id="d100-number">  
         <button type="button" class="btn btn-primary rounded-end" data-bs-toggle="popover" id="d100">
             d100
         </button>  

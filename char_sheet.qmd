@@ -63,7 +63,7 @@ if (recordsFile != null){
       <div class=" g-col-12 g-col-md-7 ">
 
           <div class="mb-5">
-            <input id="Name" type="text" placeholder="Character Name" >
+            <input id="Name" type="text" placeholder="Character Name" autocomplete="off" >
           </div>
           <div>
             <dl class="field">
@@ -94,21 +94,21 @@ if (recordsFile != null){
       <div class="g-col-12 g-col-md-8">
         <div class="health" id="HP">
             <label for="hp1">HP</label>
-            <input type="text" id="hp1" class="hp text-center">
+            <input type="text" id="hp1" class="hp text-center" autocomplete="off">
             <strong style="font-size:2rem; margin-top:10px;">/</strong>
-            <input type="text" id="hp2" class="hp text-center">
+            <input type="text" id="hp2" class="hp text-center" autocomplete="off">
         </div>
       </div>
       <div class="g-col-12 g-col-sm-4">
         <div class="health" id="Armor">
             <label for="ACinput">AC</label>
-            <input type="text" id="ACinput" class="text-center">
+            <input type="text" id="ACinput" class="text-center" autocomplete="off">
         </div>
       </div>
       <div class="g-col-12 g-col-md-6">
         <div class="health" id="HD" style="margin-top:10px;">
             <label for="HDinput">HD</label>
-            <input type="text" id="HDinput">
+            <input type="text" id="HDinput" autocomplete="off">
     
         </div>
       </div>
@@ -180,33 +180,33 @@ if (recordsFile != null){
       
           <div id="Strength">
               <label for="strNum">Str</label>
-              <input type="number" id="strNum" value="10" min="3" max="25"> 
+              <input type="number" id="strNum" value="10" min="3" max="25" autocomplete="off"> 
               <span id=strMod>()</span>
           </div>
       
           <div id="Dexterity">
               <label for="dexNum">Dex</label>
-              <input type="number" id="dexNum" value="10" min="3" max="25"> <span id=dexMod>()</span>
+              <input autocomplete="off" type="number" id="dexNum" value="10" min="3" max="25"> <span id=dexMod>()</span>
           </div>
       
           <div id="Constitution">
               <label for="conNum">Con</label>
-              <input type="number" id="conNum" value="10" min="3" max="25"> <span id=conMod>()</span>
+              <input  autocomplete="off"type="number" id="conNum" value="10" min="3" max="25"> <span id=conMod>()</span>
           </div>
       
           <div id="Intelligence">
               <label for="intNum">Int</label>
-              <input type="number" id="intNum" value="10" min="3" max="25"> <span id=intMod>()</span>
+              <input  autocomplete="off" type="number" id="intNum" value="10" min="3" max="25"> <span id=intMod>()</span>
           </div>
       
           <div id="Wisdom">
               <label for="wisNum">Wis</label>
-              <input type="number" id="wisNum" value="10" min="3" max="25"> <span id=wisMod>()</span>
+              <input autocomplete="off" type="number" id="wisNum" value="10" min="3" max="25"> <span id=wisMod>()</span>
           </div>
       
           <div id="Charisma">
               <label for="chaNum">Cha</label>
-              <input type="number" id="chaNum" value="10" min="3" max="25"> <span id=chaMod>()</span>
+              <input autocomplete="off" type="number" id="chaNum" value="10" min="3" max="25"> <span id=chaMod>()</span>
           </div>
           </div>
       </div>
@@ -214,23 +214,23 @@ if (recordsFile != null){
           <h2>Saving Throws</h2>
           <div class="saves" >
           <div id="DRP">
-              <input type="text" id="save-drpBox">
+              <input  autocomplete="off" type="text" id="save-drpBox">
               <label for="save-drpBox">Death Ray, Poison</label>
           </div>
           <div id="Wand">
-              <input type="text" id="save-wandBox">
+              <input autocomplete="off" type="text" id="save-wandBox">
               <label for="save-wandBox">Magic Wands</label>
           </div>
           <div id="Par">
-              <input type="text" id="save-parBox" >
+              <input autocomplete="off" type="text" id="save-parBox" >
               <label for="save-parBox">Paralysis / Petrification</label>
           </div>
           <div id="DragonBreath">
-              <input type="text" id="save-dbBox">
+              <input autocomplete="off" type="text" id="save-dbBox">
               <label for="save-dbBox">Dragon Breath</label>
           </div>
           <div id="Spells">
-              <input type="text" id="save-spellBox" >
+              <input autocomplete="off" type="text" id="save-spellBox" >
               <label for="save-spellBox">Spells</label>
           </div>
           </div>
@@ -247,7 +247,7 @@ if (recordsFile != null){
                     <div class="input-group-prepend">
                         <span class="input-group-text">Open Locks</span>
                     </div>
-                    <input type="text" class="form-control rounded-start fw-bold" style="max-width:4rem;" id="thiefLocksInput">
+                    <input autocomplete="off" type="text" class="form-control rounded-start fw-bold" style="max-width:4rem;" id="thiefLocksInput">
                     <button class="btn btn-primary" type="button" id="thiefLocksButton"><i class="bi bi-dice-5"></i></button>
                     <div class="output-thief p-2 fs-5 fw-bold" style="min-width:2rem;" id="thiefLocksOut"></div>
                 </div>
@@ -255,7 +255,7 @@ if (recordsFile != null){
                     <div class="input-group-prepend">
                         <span class="input-group-text">Remove Traps</span>
                     </div>
-                    <input type="text" class="form-control rounded-start  fw-bold" style="max-width:4rem;" id="thiefTrapInput">
+                    <input  autocomplete="off" type="text" class="form-control rounded-start  fw-bold" style="max-width:4rem;" id="thiefTrapInput">
                     <button class="btn btn-primary" type="button" id="thiefTrapButton"><i class="bi bi-dice-5"></i></button>
                     <div class="output-thief p-2 fw-bold" style="min-width:2rem;" id="thiefTrapOut"></div>
                 </div>
@@ -263,7 +263,7 @@ if (recordsFile != null){
                     <div class="input-group-prepend">
                         <span class="input-group-text ">Pick Pockets</span>
                     </div>
-                    <input type="text" class="form-control rounded-start fw-bold" style="max-width:4rem;" id="thiefPocketsInput">
+                    <input autocomplete="off" type="text" class="form-control rounded-start fw-bold" style="max-width:4rem;" id="thiefPocketsInput">
                     <button class="btn btn-primary" type="button" id="thiefPocketsButton"><i class="bi bi-dice-5"></i></button>
                     <div class="output-thief p-2 fw-bold" style="min-width:2rem;" id="thiefPocketsOut"></div>
                 </div>
@@ -271,7 +271,7 @@ if (recordsFile != null){
                     <div class="input-group-prepend">
                         <span class="input-group-text ">Move Silently</span>
                     </div>
-                    <input type="text" class="form-control rounded-start fw-bold" style="max-width:4rem;" id="thiefSilentInput">
+                    <input autocomplete="off" type="text" class="form-control rounded-start fw-bold" style="max-width:4rem;" id="thiefSilentInput">
                     <button class="btn btn-primary" type="button" id="thiefSilentButton"><i class="bi bi-dice-5"></i></button>
                     <div class="output-thief p-2 fw-bold" style="min-width:2rem;" id="thiefSilentOut"></div>
                 </div>  
@@ -279,7 +279,7 @@ if (recordsFile != null){
                     <div class="input-group-prepend">
                         <span class="input-group-text ">Climb Walls</span>
                     </div>
-                    <input type="text" class="form-control rounded-start fw-bold" style="max-width:4rem;" id="thiefClimbInput">
+                    <input  autocomplete="off" type="text" class="form-control rounded-start fw-bold" style="max-width:4rem;" id="thiefClimbInput">
                     <button class="btn btn-primary fs-5" type="button" id="thiefClimbButton"><i class="bi bi-dice-5"></i></button>
                     <div class="output-thief p-2 fw-bold" style="min-width:2rem;" id="thiefClimbOut"></div>
                 </div>
@@ -287,7 +287,7 @@ if (recordsFile != null){
                     <div class="input-group-prepend">
                         <span class="input-group-text ">Hide</span>
                     </div>
-                    <input type="text" class="form-control rounded-start fw-bold" style="max-width:4rem;" id="thiefHideInput">
+                    <input autocomplete="off" type="text" class="form-control rounded-start fw-bold" style="max-width:4rem;" id="thiefHideInput">
                     <button class="btn btn-primary" type="button" id="thiefHideButton"><i class="bi bi-dice-5"></i></button>
                     <div class="output-thief p-2 fw-bold" style="min-width:2rem;" id="thiefHideOut"></div>
                 </div>      
@@ -295,7 +295,7 @@ if (recordsFile != null){
                     <div class="input-group-prepend">
                         <span class="input-group-text ">Listen</span>
                     </div>
-                    <input type="text" class="form-control rounded-start fw-bold" style="max-width:4rem;" id="thiefListenInput">
+                    <input autocomplete="off" type="text" class="form-control rounded-start fw-bold" style="max-width:4rem;" id="thiefListenInput">
                     <button class="btn btn-primary " type="button" id="thiefListenButton"><i class="bi bi-dice-5"></i></button>
                     <div class="output-thief p-2 fw-bold" style="min-width:2rem;" id="thiefListenOut"></div>
                 </div>                                                 
@@ -312,7 +312,7 @@ if (recordsFile != null){
              <div class="container mt-4 me-5">
                 <div id="inputContainer" class="mb-3">
                 <div class="input-group mb-2 rounded">
-                    <input type="text" class="form-control rounded lang" placeholder="Language 1" id="language1">
+                    <input autocomplete="off" type="text" class="form-control rounded lang" placeholder="Language 1" id="language1">
                 </div>
                 </div>
                 <button id="addInputButton" class="btn btn-primary rounded">Add Language</button>
@@ -325,7 +325,7 @@ if (recordsFile != null){
              <div class="container mt-4 me-5">
                 <div id="inputContainerSkills" class="mb-3">
                 <div class="input-group mb-2 rounded">
-                    <input type="text" class="form-control rounded oskill" id="skill1" placeholder="Skill 1" >
+                    <input autocomplete="off" type="text" class="form-control rounded oskill" id="skill1" placeholder="Skill 1" >
                 </div>
                 </div>
                 <button id="addSkillButton" class="btn btn-primary rounded">Add Skill</button>
@@ -658,6 +658,7 @@ function addInputField() {
       inputGroup
         .append('input')
         .attr('type', 'text')
+        .attr('autocomplete',"off")
         .attr('id', 'language' + (inputCount + 1))
         .attr('class', 'form-control rounded-start lang')
         .attr('placeholder', 'Language ' + (inputCount + 1));
@@ -688,6 +689,7 @@ function addSkill() {
 
       inputGroup
         .append('input')
+        .attr('autocomplete',"off")
         .attr('type', 'text')
         .attr('id', 'skill' + (inputCount + 1))
         .attr('class', 'form-control rounded-start oskill')

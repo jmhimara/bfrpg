@@ -143,16 +143,16 @@
 
 
         <div class="g-col-1 mt-2">
-            <input class="form-check-input miscMagical" type="checkbox" value=""  id="miscMagical1">
+            <input autocomplete="off" class="form-check-input miscMagical" type="checkbox" value=""  id="miscMagical1">
         </div>
         <div class="g-col-1 mt-2">
-            <input class="form-check-input miscEquipped" type="checkbox" value="" id="miscEquipped1">
+            <input autocomplete="off" class="form-check-input miscEquipped" type="checkbox" value="" id="miscEquipped1">
         </div>
         <div class="g-col-8">
-            <input type="text" class="form-control form-control-sm miscName"  id="miscName1">
+            <input autocomplete="off" type="text" class="form-control form-control-sm miscName"  id="miscName1">
         </div>
         <div class="g-col-1">
-            <input type="text" class="form-control form-control-sm weight miscWeight"
+            <input autocomplete="off" type="text" class="form-control form-control-sm weight miscWeight"
             onkeypress="return event.charCode >= 46 && event.charCode <= 57" id="miscWeight1">
         </div>  
         <div class="g-col-1"> 
@@ -178,7 +178,7 @@
          </div>
         <div class="g-col-1">
             <label for="totalWeight" class="form-label">Total</label>
-            <input type="text" class="form-control form-control-sm"  id="totalWeight" disabled >
+            <input autocomplete="off" type="text" class="form-control form-control-sm"  id="totalWeight" disabled >
         </div>  
         <div class="g-col-1"> 
 
@@ -238,16 +238,16 @@ function addWeaponEq() {
     inputGroup
     .html(`
         <div class="g-col-1 mt-2">
-            <input class="form-check-input weaponsEqMag" type="checkbox" value=""  id="itemMagical${inputCount + 1}">
+            <input autocomplete="off" class="form-check-input weaponsEqMag" type="checkbox" value=""  id="itemMagical${inputCount + 1}">
         </div>
         <div class="g-col-1 mt-2">
-            <input class="form-check-input weaponsEqEq" type="checkbox" value="" id="itemEquipped${inputCount + 1}">
+            <input autocomplete="off" class="form-check-input weaponsEqEq" type="checkbox" value="" id="itemEquipped${inputCount + 1}">
         </div>
         <div class="g-col-8">
-            <input type="text" class="form-control form-control-sm weaponsEqName"  id="itemName${inputCount + 1}">
+            <input autocomplete="off" type="text" class="form-control form-control-sm weaponsEqName"  id="itemName${inputCount + 1}">
         </div>
         <div class="g-col-1">
-            <input type="text" class="form-control form-control-sm weight weaponsEqWeight"
+            <input autocomplete="off" type="text" class="form-control form-control-sm weight weaponsEqWeight"
             onkeypress="return event.charCode >= 46 && event.charCode <= 57" id="itemWeight${inputCount + 1}">
         </div>  
     `)
@@ -285,16 +285,16 @@ function addArmorEq() {
     inputGroup
     .html(`
         <div class="g-col-1 mt-2">
-            <input class="form-check-input armorMagical" type="checkbox" value=""  id="armorMagical${inputCount + 1}"> 
+            <input autocomplete="off" class="form-check-input armorMagical" type="checkbox" value=""  id="armorMagical${inputCount + 1}"> 
         </div>
         <div class="g-col-1 mt-2">
-            <input class="form-check-input armorEquipped" type="checkbox" value="" id="armorEquipped${inputCount + 1}">
+            <input autocomplete="off" class="form-check-input armorEquipped" type="checkbox" value="" id="armorEquipped${inputCount + 1}">
         </div>
         <div class="g-col-8">
-            <input type="text" class="form-control form-control-sm armorName"  id="armorName${inputCount + 1}">
+            <input autocomplete="off" type="text" class="form-control form-control-sm armorName"  id="armorName${inputCount + 1}">
         </div>
         <div class="g-col-1">
-            <input type="text" class="form-control form-control-sm weight armorWeight"
+            <input autocomplete="off" type="text" class="form-control form-control-sm weight armorWeight"
             onkeypress="return event.charCode >= 46 && event.charCode <= 57" id="armorWeight${inputCount + 1}">
         </div>  
     `)
@@ -331,16 +331,16 @@ function addItemEq() {
     inputGroup
     .html(`
         <div class="g-col-1 mt-2">
-            <input class="form-check-input miscMagical" type="checkbox" value=""  id="miscMagical${inputCount + 1}">
+            <input autocomplete="off" class="form-check-input miscMagical" type="checkbox" value=""  id="miscMagical${inputCount + 1}">
         </div>
         <div class="g-col-1 mt-2">
-            <input class="form-check-input miscEquipped" type="checkbox" value="" id="miscEquipped${inputCount + 1}">
+            <input autocomplete="off" class="form-check-input miscEquipped" type="checkbox" value="" id="miscEquipped${inputCount + 1}">
         </div>
         <div class="g-col-8">
-            <input type="text" class="form-control form-control-sm miscName"  id="miscName${inputCount + 1}"> 
+            <input autocomplete="off" type="text" class="form-control form-control-sm miscName"  id="miscName${inputCount + 1}"> 
         </div>
         <div class="g-col-1">
-            <input type="text" class="form-control form-control-sm weight miscWeight"
+            <input autocomplete="off" type="text" class="form-control form-control-sm weight miscWeight"
             onkeypress="return event.charCode >= 46 && event.charCode <= 57" id="miscWeight${inputCount + 1}">
         </div>  
     `)

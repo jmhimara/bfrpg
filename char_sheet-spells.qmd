@@ -19,13 +19,13 @@
 
 
       <div class="g-col-1">
-        <input type="text" class="form-control  text-center spell-level"  id="spell-level-Form1">
+        <input autocomplete="off" type="text" class="form-control  text-center spell-level"  id="spell-level-Form1">
       </div>
       <div class="g-col-8">
-        <input type="text" class="form-control spell-name"  id="spell-name-Form1">
+        <input autocomplete="off" type="text" class="form-control spell-name"  id="spell-name-Form1">
       </div>
       <div class="g-col-2">
-        <input type="number" class="form-control spell-prep" id="spell-prep-Form1" value=0>
+        <input autocomplete="off" type="number" class="form-control spell-prep" id="spell-prep-Form1" value=0>
       </div>  
       <div class="g-col-1"> 
             <span></span>
@@ -52,13 +52,13 @@ function addSpell() {
     inputGroup
     .html(`
       <div class="g-col-1">
-        <input type="text" class="form-control text-center spell-level"  id="spell-level-Form${inputCount + 1}">
+        <input autocomplete="off" type="text" class="form-control text-center spell-level"  id="spell-level-Form${inputCount + 1}">
       </div>
       <div class="g-col-8">
-        <input type="text" class="form-control  spell-name"  id="spell-name-Form${inputCount + 1}">
+        <input autocomplete="off" type="text" class="form-control  spell-name"  id="spell-name-Form${inputCount + 1}">
       </div>
       <div class="g-col-2">
-        <input type="number" class="form-control  spell-prep" id="spell-prep-Form${inputCount + 1}" value=0>
+        <input autocomplete="off" type="number" class="form-control  spell-prep" id="spell-prep-Form${inputCount + 1}" value=0>
       </div> 
     `)
     .append('div')

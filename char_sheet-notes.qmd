@@ -3,7 +3,7 @@
 
 <div id="hirelingsContainer" class="mb-3">
     <div class="input-group mb-2 rounded">
-      <input type="text" class="form-control rounded hirelings" placeholder="Hireling 1" id="hireling1">
+      <input autocomplete="off" type="text" class="form-control rounded hirelings" placeholder="Hireling 1" id="hireling1">
     </div>
 </div>
 
