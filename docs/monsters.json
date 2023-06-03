@@ -676,7 +676,7 @@
         "XP:": "280"
     },
     {
-        "Name": "Dragon, Black",
+        "Name": "Dragon, Swamp",
         "Armor Class:": "18",
         "Hit Dice:": "7**",
         "No.\u00a0of Attacks:": "2 claws/1 bite or breath/1 tail",
@@ -689,7 +689,7 @@
         "XP:": "800"
     },
     {
-        "Name": "Dragon, Blue",
+        "Name": "Dragon, Desert",
         "Armor Class:": "20",
         "Hit Dice:": "9** (+8)",
         "No.\u00a0of Attacks:": "2 claws/1 bite or breath/1 tail",
@@ -702,20 +702,20 @@
         "XP:": "1,225"
     },
     {
-        "Name": "Dragon, Gold",
-        "Armor Class:": "22",
-        "Hit Dice:": "11** (+9)",
-        "No.\u00a0of Attacks:": "2 claws/1 bite or breath/1 tail",
-        "Damage:": "2d4/2d4/6d6 or breath/2d4",
-        "Movement:": "30\u2019 Fly 80\u2019 (20\u2019)",
-        "No.\u00a0Appearing:": "1, Wild 1, Lair 1d4",
-        "Save As:": "Fighter: 11 (as Hit Dice)",
-        "Morale:": "10",
+        "Name": "Dragon, Plains",
+        "Armor Class:": "16",
+        "Hit Dice:": "5**",
+        "No.\u00a0of Attacks:": "2 claws, 1 bite or breath, 1 tail",
+        "Damage:": "1d6 claw, 2d10 or breath, 1d8 tail",
+        "Movement:": "50’ Fly 80’ (10’)",
+        "No.\u00a0Appearing:": "1, Wild 1, Lair 1d6",
+        "Save As:": "Fighter: 5 (as Hit Dice)",
+        "Morale:": "8",
         "Treasure Type:": "H",
-        "XP:": "1,765"
+        "XP:": "450"
     },
     {
-        "Name": "Dragon, Green",
+        "Name": "Dragon, Forest",
         "Armor Class:": "19",
         "Hit Dice:": "8**",
         "No.\u00a0of Attacks:": "2 claws/1 bite or breath/1 tail",
@@ -728,7 +728,7 @@
         "XP:": "1,015"
     },
     {
-        "Name": "Dragon, Red",
+        "Name": "Dragon, Mountain",
         "Armor Class:": "21",
         "Hit Dice:": "10** (+9)",
         "No.\u00a0of Attacks:": "2 claws/1 bite or breath/1 tail",
@@ -754,7 +754,7 @@
         "XP:": "1,015"
     },
     {
-        "Name": "Dragon, White",
+        "Name": "Dragon, Ice",
         "Armor Class:": "17",
         "Hit Dice:": "6**",
         "No.\u00a0of Attacks:": "2 claws/1 bite or breath/1 tail",
@@ -780,12 +780,25 @@
         "XP:": "13,650"
     },
     {
-        "Name": "Dragon, Blue",
+        "Name": "Dragon, Cloud",
+        "Armor Class:": "22",
+        "Hit Dice:": "11**(+9)",
+        "No.\u00a0of Attacks:": "2 claws, 1 bite or breath, 1 tail",
+        "Damage:": "2d4 claw, 6d6 bite or breath, 2d4 tail",
+        "Movement:": "30' Fly 80' (20')",
+        "No.\u00a0Appearing:": "1, Wild 1, Lair 1d4",
+        "Save As:": "Fighter: 11 (as Hit Dice)",
+        "Morale:": "10",
+        "Treasure Type:": "",
+        "XP:": "1,765"
+    },
+    {
+        "Name": "Dryad",
         "Armor Class:": "15",
         "Hit Dice:": "2*",
         "No.\u00a0of Attacks:": "1 dagger or fist",
         "Damage:": "1d4",
-        "Movement:": "40\u2019",
+        "Movement:": "40'",
         "No.\u00a0Appearing:": "Lair 1d6",
         "Save As:": "Magic-User: 4",
         "Morale:": "6",

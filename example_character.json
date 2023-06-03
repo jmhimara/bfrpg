@@ -1,0 +1,113 @@
+{
+    "Name":"Char Name",
+    "Class":"Fighter",
+    "Race": "Human",
+    "Level": 1, 
+    "Experience":0,
+    "HP":10,
+    "MaxHP":10,
+    "HD":"1d8",
+    "AC":10,
+    "BAB":1,
+    "Movement":30,
+    "Initiative":1,
+    "Abilities": {
+        "Str": 14, 
+        "Int":10, 
+        "Wis":3,
+        "Dex":12,
+        "Con":14,
+        "Cha":10
+    },
+    "Saves":{
+        "DRP":8,
+        "MW":9,
+        "Par":10,
+        "DB":11,
+        "Spl":8
+    },
+    "OtherSkills":["Sailing", "Horse Riding"],
+    "ThiefSkills":{
+        "OpenLocks":1,
+        "RemoveTraps":2,
+        "PickPockets":3,
+        "MoveSilent":4,
+        "ClimbWalls":5,
+        "Hide":6,
+        "Listen":7
+    },
+    "Languages":["Common", "Elvish"],
+    "WeaponEq": [{
+        "name":"Longsword",
+        "attack":"1d20+1",
+        "damage":"1d8",
+        "notes": "gift from Orcus"
+    },
+    {
+        "name":"Longbow",
+        "attack":"1d20",
+        "S":70,
+        "M": 120,
+        "L":210
+    }],
+    "AmmoEq":[{
+        "name":"Arrows",
+        "count":50,
+        "damage":"1d6",
+        "notes":""
+    }],
+    "Turning": [0,0,0,0,0,0,0,0,0],
+    "Spells":[{
+        "spellLvl":1,
+        "spellName":"Cure Light Wounds",
+        "prep":1
+    },
+    {
+        "spellLvl":4,
+        "spellName":"Cure Serious Wounds",
+        "prep":1
+    }
+    ],
+    "Equipment":{
+        "Currency":{
+            "pp":10,
+            "gp":20,
+            "ep":30,
+            "sp":40,
+            "cp":50
+        },
+        "Weapons":[
+            {
+                "magic":false,
+                "equipped":true,
+                "name":"Longsword",
+                "weight":8
+            },
+            {
+                "magic":false,
+                "equipped":true,
+                "name":"Longbow",
+                "weight":6                
+            }
+        ],
+        "Armor":[
+            {
+                "magic":false,
+                "equipped":true,
+                "name":"Leather Armor",
+                "weight":20
+            }
+        ],
+        "Misc":[
+            {
+                "magic":false,
+                "equiped":false,
+                "name":"Emerald Ring",
+                "weight":0.1
+            }
+        ]
+    },
+    "Hirelings":["Jimmy", "Joe"],
+    "Background": "Background",
+    "MiscNotes":" Misc Notes"
+}

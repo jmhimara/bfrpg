@@ -1,0 +1,81 @@
+```{=html}
+
+    <div id="spellContainer" class="mb-3">
+        
+    <div class="grid g-0 justify-content-center " style="--bs-gap:0; --bs-columns:12">
+    <!-- labels -->
+      <div class="g-col-1">
+        Level
+      </div>
+      <div class="g-col-8">
+        Name
+      </div>
+      <div class="g-col-2">
+        Prep
+      </div>   
+      <div class="g-col-1"> 
+            <span></span>
+      </div> 
+
+
+      <div class="g-col-1">
+        <input type="text" class="form-control  text-center spell-level"  id="spell-level-Form1">
+      </div>
+      <div class="g-col-8">
+        <input type="text" class="form-control spell-name"  id="spell-name-Form1">
+      </div>
+      <div class="g-col-2">
+        <input type="number" class="form-control spell-prep" id="spell-prep-Form1" value=0>
+      </div>  
+      <div class="g-col-1"> 
+            <span></span>
+      </div>    
+    </div>
+    </div>
+
+    <div class="input-group  input-group-sm mb-3">
+        <button id="addSpellButton" class="btn btn-primary rounded">Add Spell</button>
+    </div>
+```
+
+```{ojs}
+
+function addSpell() {
+      var inputContainer = d3.select('#spellContainer');
+      var inputCount = inputContainer.selectAll('.grid').size();
+
+    var inputGroup = inputContainer
+      .append('div')
+      .attr('class','grid align-content-center').attr('style','--bs-gap:0;--bs-columns:12;')
+      .attr('id','spell'+(inputCount + 1))
+
+    inputGroup
+    .html(`
+      <div class="g-col-1">
+        <input type="text" class="form-control text-center spell-level"  id="spell-level-Form${inputCount + 1}">
+      </div>
+      <div class="g-col-8">
+        <input type="text" class="form-control  spell-name"  id="spell-name-Form${inputCount + 1}">
+      </div>
+      <div class="g-col-2">
+        <input type="number" class="form-control  spell-prep" id="spell-prep-Form${inputCount + 1}" value=0>
+      </div> 
+    `)
+    .append('div')
+    .attr('class','g-col-1')
+    .append('i')
+    .attr('class', 'bi bi-x-lg mt-3 text-danger')
+    .attr('style', 'cursor: pointer;')
+    .attr('id', 'spellDel' + (inputCount + 1))
+    .on('click', function() {
+          inputGroup.remove();
+        });
+      
+    }
+
+spell = {
+    const addInputButton = d3.select('#addSpellButton');
+    addInputButton.on('click', () => addSpell() );
+
+}
+```

@@ -1195,82 +1195,96 @@ help them behave like the person they have replaced.
 
 ## Dragon
 
+
 Dragons are large (sometimes very large) winged reptilian monsters. Unlike wyverns, dragons have four legs as well as two wings; this is how experts distinguish "true" dragons from other large reptilian monsters. All dragons are long-lived, and they grow slowly for as long as they live. For this reason, they are described as having seven "age categories," ranging from 3 less to 3 more hit dice than the average. For convenience, a table is provided following the description of each dragon type; this table shows the variation in hit dice, damage from their various attacks, and other features peculiar to dragons.
 
 If one dragon is encountered, it is equally likely to be a male or female ranging from -2 to +3 hit dice (1d6-3); two are a mated pair ranging from -1 to +2 hit dice (1d4-2). If three or four are encountered, they consist of a mated pair plus one or two young of -3 hit dice in size. If this is the case, the parents receive a Morale of 12 in combat since they are protecting their young.
 
-A dragon attacks with its powerful claws and bite, its long, whiplike tail, and most famously with its breath weapon. It prefers to fight on the wing, staying out of reach until it has worn down the enemy with the breath weapon (or possibly with spells, if the dragon can cast any). Older, more intelligent dragons are adept at sizing up the opposition and eliminating the most dangerous foes first (or avoiding them while picking off weaker enemies).
+In combat dragons use a powerful bite, slashing claws, a long, whiplike tail, and most famously some form of breath weapon. Tactically, dragons prefer to fight while flying, making passes over ground-based enemies to strike or breathe on them. Smarter and older dragons will look for the toughest or most dangerous foe to strike down first, particularly preferring to eliminate magic-users as early in a fight as possible.
 
-Each dragon can use its breath weapon as many times per day as it has hit dice, except that dragons of the lowest age category do not yet have a breath weapon. The breath may be used no more often than every other round, and the dragon may use its claws and tail at the same time. The tail swipe attack may only be used if there are opponents behind the dragon, while the claws may be used only on those opponents in front of the creature. Due to their serpentine necks, dragons may bite in any direction, even behind them.
+Each dragon can use its breath weapon as many times per day as it has hit dice, except that dragons of the lowest age category do not yet have a breath weapon. The breath may be used no more often than every other round, and the dragon may use its claws and tail in the same round. The tail swipe attack may only be used if there are opponents behind the dragon, while the claws may be used only on those opponents in front of the creature. Due to their serpentine necks, dragons may bite in any direction, even behind them.
 
 The breath weapon of a dragon does 1d8 points of damage per hit die (so, a 7 hit die dragon does 7d8 points of damage with its breath). Victims may make a save vs. Dragon Breath for half damage. The breath weapon may be projected in any direction around the dragon, even behind, for the same reason that the dragon can bite those behind it.
 
-There are three shapes (or areas of effect) which a dragon's breath weapon can cover. Each variety has a "normal" shape, which that type of dragon can use from the second age category (-2 hit dice) onward. Upon reaching the sixth age category (+2 hit dice), a dragon learns to shape its breath weapon into one of the other shapes (GM's option); at the seventh age category (+3 hit dice), the dragon is competent at producing all three shapes.
+There are three shapes (or areas of effect) which a dragon's breath weapon can cover. Each variety has a "normal" shape, which that type of dragon can use from the second age category (-2 hit dice) onward. Upon reaching the sixth age category (+2 hit dice), a dragon learns to shape its breath weapon into one of the other shapes (GM's option); at the seventh age category (+3 hit dice), the dragon can produce all three shapes.
 
-The shapes are:
+The shapes are: 
 
-**Cone Shaped:** The breath weapon begins at the dragon's mouth, and is about 2' wide at that point; it extends up to the maximum length (based on the dragon type and age) and is the maximum width at that point (again, as given for the dragon's type and age).
+**Cone Shaped:** The breath weapon begins at the dragon's mouth, and is about 2' wide at that point; it extends up to the maximum length (based on the dragon type and age) and is the maximum width at that point (again, as given for the dragon's type and age).
 
-**Line Shaped:** The breath weapon is 5' wide and extends the given length in a straight line.
+**Line Shaped:** The breath weapon is 5' wide (regardless of the given width figure) and extends the given length in a straight line.
 
-**Cloud Shaped:** The breath weapon covers an area up to the maximum given width (based on the dragon type and age) in both length and width (that is, the length figure given for the dragon type and age is ignored). A cloud-shaped breath weapon is, at most, 20' deep or high.
+**Cloud Shaped:** The breath weapon covers an area up to the maximum given width (based on the dragon type and age) in both length and width (that is, any length figure given for the dragon type and age is ignored). A cloud-shaped breath weapon is, at most, 20' deep or high.
 
-All dragons save for those of the lowest age category are able to speak Dragon. Each type has a given chance of "talking;" this is the chance that the dragon will know Common or a demi-human or humanoid language. Many who talk choose to learn Elvish. If the first roll for "talking" is successful, the GM may roll again, with each additional roll adding another language which the dragon may speak.
+All dragons save for those of the lowest age category are able to speak Dragon. Each type has a given chance of "talking;" this is the chance that the dragon will know Common or some other humanoid language. Many who talk choose to learn Elvish. If the first roll for "talking" is successful, the GM may roll again, with each additional roll adding another language which the dragon may speak.
 
 Some dragons learn to cast spells; the odds that a dragon can cast spells are the same as the odds that a dragon will learn to speak to lesser creatures, but each is rolled for separately.
 
-Although goals and ideals vary among varieties, all dragons are covetous. They like to hoard wealth, collecting mounds of coins and gathering as many gems, jewels, and magic items as possible. Those with large hoards are loath to leave them for long, venturing out of their lairs only to patrol the immediate area or to get food. For dragons, there is no such thing as enough treasure. It's pleasing to look at, and they bask in its radiance. Dragons like to make beds of their hoards, shaping nooks and mounds to fit their bodies. Note that, for most monsters, the Treasure Type given is for a lair of average numbers; for dragons, the Treasure Type is for a single individual of average age. Note also that mated pairs do not share treasure! Rather than adjusting the treasure amounts for the number of monsters, adjust for the age of the dragon; a dragon of the highest age category would have about double the given amount, while one of the next to lowest age category would have perhaps a tenth that amount (hatchlings have no treasure).
+All dragons crave wealth, hoarding as many coins, gems, items of jewelry, and best of all magic items in their lair as possible. The greater a dragon's hoard, the less it will seek to leave its lair, though of course it must hunt for food from time to time. Dragons rarely trust any other creature to defend their hoard, though some will entice aggressive but unintelligent creatures to live nearby in the hopes that they will kill and eat any thieves who might come nosing around.
+
+Unlike other monsters, multiple dragons encountered in a lair together do not share treasure; generate a full treasure for each dragon individually. Treasure for dragons is special, as noted on the treasure section . The odds of monetary treasure increase with the monster's age category, while the chances of gems, jewelry, and magic items are based upon its hit dice.
+
+Young dragons typically have brightly colored, glossy skin; as a dragon ages, both the color and the sheen slowly become dull.
+Experience Points (XP) given for dragons on the following pages are for non-spell-casting dragons of age category 4.  The GM must calculate the XP award for any specific dragon as given in the [character advancement section](advancement.qmd#experience-points-xp), adding a special ability bonus (i.e. a "star") if the dragon casts spells.
 
 </div>
-<div class="monster" data-tag="Dragon, Black" >
-
-### Dragon, Black
-
-|   |   Dragon, Black |
-|--------------|-----|
-| Armor Class: | 18 |
-| Hit Dice: | 7** |
-| No. of Attacks: | 2 claws/1 bite or breath/1 tail |
-| Damage: | 1d6/1d6/2d10 or breath/1d6 |
-| Movement: | 30' Fly 80' (15') |
-| No. Appearing: | 1, Wild 1, Lair 1d4 |
-| Save As: | Fighter: 7 (as Hit Dice) |
-| Morale: | 8 |
-| Treasure Type: | H |
-| XP: | 800 |
-
-Black dragons prefer to ambush their targets, using their surroundings as cover. When fighting in heavily forested swamps and marshes, they try to stay in the water or on the ground; trees and leafy canopies limit their aerial maneuverability. When outmatched, a black dragon attempts to fly out of sight, so as not to leave tracks, and hide in a deep pond or bog. Black dragons are more cruel than white dragons, but are still motivated mostly by the urge to live, breed and collect valuable items.
-
-Black dragons often choose to hide underwater, leaving only part of the head above the waterline, and leap up suddenly when prey comes within 100' (surprising on a roll of 1-4 on 1d6 in this case).
-
-Black dragons are immune to all forms of acid. A black dragon may hold its breath up to three turns while lying in wait underwater.
 
 
-|   |   |    |   |   |
-|--------------|---|---|---|---|---|---|---|
-| Age Category | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-| Hit Dice | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-| Attack Bonus | +4 | +5 | +6 | +7 | +8 | +8 | +9 |
-| Breath Weapon | | Special |
-| Length | - | 70' | 80' | 90' | 95' | 100' | 100' |
-| Width | - | 25' | 30' | 30' | 35' | 40' | 45' |
-| Chance/Talking | 0% | 15% | 20% | 25% | 35% | 50% | 60% |
-| Spells by Level |  |  |  |  |  |  |  |
-| Level 1 | - | 1 | 2 | 4 | 4 | 4 | 4 |
-| Level 2 | - | - | - | - | 1 | 2 | 3 |
-| Level 3 | - | - | - | - | - | 1 | 2 |
-| Claw | 1d4 | 1d4 | 1d6 | 1d6 | 1d6 | 1d8 | 1d8 |
-| Bite | 2d4 | 2d6 | 2d8 | 2d10 | 2d10 | 2d10 | 2d12 |
-| Tail | 1d4 | 1d4 | 1d4 | 1d6 | 1d6 | 1d8 | 1d8 |
+<div class="monster" data-tag="Dragon, Cloud" >
 
-: Black Dragon Age Table {#tbl-black-dragon-age}
+### Dragon, Cloud
+
+|                 | Dragon, Cloud                          |
+|-----------------|----------------------------------------|
+| Armor Class:    | 22                                     |
+| Hit Dice:       | 11\*\* (+9)                            |
+| No. of Attacks: | 2 claws, 1 bite or breath, 1 tail      |
+| Damage:         | 2d4 claw, 6d6 bite or breath, 2d4 tail |
+| Movement:       | 30\' Fly 80\' (20\')                   |
+| No. Appearing:  | 1, Wild 1, Lair 1d4                    |
+| Save As:        | Fighter: 11 (as Hit Dice)              |
+| Morale:         | 10                                     |
+| Treasure Type:  |                                        |
+| XP:             | 1,765                                  |
+
+Cloud dragons have the most varied appearance of all the true dragons. In an indoor environment or when underground a cloud dragon appears to be a bright metallic color, while outdoors their coloration is brighter and less metallic, and may take on a reddish or bluish cast reminiscent of a sunrise or sunset. Hatchlings have a coppery skin tone, brightening to silver at the second age category, then to gold at the fourth before fading to a platinum tone by age category 6. While most true dragons become duller in color and sheen as they age, cloud dragons do not.
+
+Cloud dragons are not cruel and do not seek to kill for pleasure. Many tales are told of cloud dragons offering assistance to adventurers, though they are every bit as avaricious as any dragon; adventurers in need of gold need not bother asking for a loan.
+
+Another way in which cloud dragons differ from other types is that they do not have fixed breath weapons. Upon reaching the second age category, a cloud dragon acquires the breath weapon of a randomly-chosen (or GM assigned) dragon type; upon reaching the fourth age category, they acquire a second breath weapon type. Cloud dragons possess the same immunities as the dragons whose breath weapons they reproduce.
+
+All cloud dragons have the power to assume the form of any type of humanoid (as described in the spell [charm person](allSpells.qmd#charm-person)) at will in a manner otherwise equivalent to the spell [polymorph self](allSpells.qmd#polymorph-self).
+
+|      |                     |     |     |     |     |      |      |
+|----------------------------|---------------------|-----|-----|-----|-----|------|------|
+| Age Category               | 1                   | 2   | 3   | 4   | 5   | 6    | 7    |
+| Hit Dice                   | 8                   | 9   | 10  | 11  | 12  | 13   | 14   |
+| Attack Bonus               | +8                  | +8  | +9  | +9  | +10 | +11  | +11  |
+| Breath Weapon              | Special (see above) |     |     |     |     |      |      |
+| Length                     | -                   | 70' | 80' | 90' | 95' | 100' | 110' |
+| Width                      | -                   | 30' | 35' | 45' | 50' | 55'  | 60'  |
+| Chance/Talking             | 0%                  | 35% | 70% | 85% | 90% | 95%  | 95%  |
+| Spells by Level            |                     |     |     |     |     |      |      |
+| Level 1                    | -                   | 1   | 2   | 3   | 4   | 5    | 6    |
+| Level 2                    | -                   | -   | 1   | 2   | 3   | 4    | 5    |
+| Level 3                    | -                   | -   | -   | 1   | 2   | 3    | 4    |
+| Level 4                    | -                   | -   | -   | -   | 1   | 2    | 3    |
+| Level 5                    | -                   | -   | -   | -   | -   | 1    | 2    |
+| Level 6                    | -                   | -   | -   | -   | -   | -    | 1    |
+| Claw                       | 1d6                 | 1d6 | 1d6 | 2d4 | 2d4 | 2d6  | 2d8  |
+| Bite                       | 3d6                 | 4d6 | 5d6 | 6d6 | 6d6 | 7d6  | 7d6  |
+| Tail                       | 1d4                 | 1d6 | 1d6 | 2d4 | 2d6 | 2d6  | 2d8  |
+
+: Cloud Dragon Age Table {#tbl-cloud-dragon-age}
 
 </div>
-<div class="monster" data-tag="Dragon, Blue" >
 
-### Dragon, Blue
 
-|   | Dragon, Blue    | 
+<div class="monster" data-tag="Dragon, Desert" >
+
+### Dragon, Desert (Blue Dragon)
+
+|   | Dragon, Desert    | 
 |--------------|---|
 | Armor Class: | 20 |
 | Hit Dice: | 9** (+8) |
@@ -1283,89 +1297,42 @@ Black dragons are immune to all forms of acid. A black dragon may hold its breat
 | Treasure Type: | H |
 | XP: | 1,225 |
 
-Blue dragons love to soar in the hot desert air, usually flying in the daytime when temperatures are highest. Some nearly match the color of the desert sky and use this coloration to their advantage. Their vibrant color makes blue dragons easy to spot in barren desert surroundings. However, they often burrow into the sand so only part of their heads are exposed, waiting until opponents come within 100 feet to spring out and attack (surprising on a roll of 1-4 on 1d6 in this case).
+Desert dragons have rough, gritty-feeling hide which is a dark steel blue color with a smoother, streaky brown underbelly. Their bodies are wiry and serpentine.
 
-Blue dragons lair in vast underground caverns, where they also store their treasure. Although they collect anything that looks valuable, they are most fond of gems, especially sapphires. Blue dragons are evil monsters, though not so fierce as red dragons. They particularly enjoy tricking intelligent prey into entering their lairs or passing by their hiding places to be ambushed and killed; usually one member of a party attacked by a blue dragon will be left alive for a while, and the dragon will play with that person as a cat plays with a mouse.
+They hunt by day in the heat of the sun, sometimes flying high overhead looking for prey, or sometimes choosing to bury themselves in the sand and lie in wait with only eyes and nostrils exposed. One will wait in this fashion until victims come within 100 feet, then spring out and attack (surprising on a roll of 1-4 on 1d6 in this case).
 
-Blue dragons are immune to normal lightning, and suffer only half damage from magical lightning.
+A desert dragon will usually choose to lair in an underground cavern, or perhaps in a ruined castle or desert outpost. They are evil monsters, though not so fierce as mountain dragons. They particularly enjoy tricking intelligent prey into entering their lairs or passing by their hiding places to be ambushed and killed; usually one member of a party attacked by a desert dragon will be left alive for a while, and the dragon will play with that person as a cat plays with a mouse.
 
+Desert dragons are immune to normal lightning, and suffer only half damage from magical lightning.
 
-
-|   |   |    |   |   |
-|--------------|---|---|---|---|---|---|---|
-| Age Category | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-| Hit Dice | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-| Attack Bonus | +6 | +7 | +8 | +8 | +9 | +9 | +10 |
-| Breath Weapon | | Special |
-| Length | - | 80' | 90' | 100' | 100' | 110' | 120' |
-| Width | - | 30' | 35' | 45' | 50' | 55' | 60' |
-| Chance/Talking | 0% | 15% | 20% | 40% | 50% | 60% | 70% |
-| Spells by Level |  |  |  |  |  |  |  |
-| Level 1 | - | 1 | 2 | 4 | 4 | 4 | 5 |
-| Level 2 | - | - | 1 | 2 | 3 | 4 | 4 |
-| Level 3 | - | - | - | - | 1 | 2 | 2 |
-| Level 4 | - | - | - | - | - | - | 1 |
-| Claw | 1d4 | 1d4 | 1d6 | 1d8 | 1d8 | 1d8 | 1d10 |
-| Bite | 2d6 | 3d6 | 3d8 | 3d8 | 3d8 | 3d8 | 3d10 |
-| Tail | 1d4 | 1d6 | 1d6 | 1d8 | 1d8 | 1d8 | 1d8 |
-
-: Blue Dragon Age Table {#tbl-blue-dragon-age}
-
-</div>
-<div class="monster" data-tag="Dragon, Gold" >
-
-### Dragon, Gold
-
-|   | Dragon, Gold    |  
-|--------------|---|
-| Armor Class: | 22 |
-| Hit Dice: | 11** (+9) |
-| No. of Attacks: | 2 claws/1 bite or breath/1 tail |
-| Damage: | 2d4/2d4/6d6 or breath/2d4 |
-| Movement: | 30' Fly 80' (20') |
-| No. Appearing: | 1, Wild 1, Lair 1d4 |
-| Save As: | Fighter: 11 (as Hit Dice) |
-| Morale: | 10 |
-| Treasure Type: | H |
-| XP: | 1,765 |
-
-Gold dragons usually parley before fighting. Those having spellcasting ability make heavy use of spells in combat. Among their favorites are **cloudkill**, **sleep**, and **slow**.
-
-All gold dragons have the power to assume human form at will (in a manner equivalent to the spell **polymorph self**, but performed at will).
-
-Unlike many other dragons, gold dragons are not cruel and do not seek to kill for pleasure. Many tales are told of gold dragons offering assistance to adventurers. They are, however, every bit as avaricious as any dragon; adventurers in need of gold need not bother asking for a loan.
-
-Gold dragons are immune to all poisons, as well as normal fire. They suffer only half damage from magical fire.
+|      |                  |     |     |      |      |      |      |
+|-----------------------------|------------------|-----|-----|------|------|------|------|
+| Age Category                | 1                | 2   | 3   | 4    | 5    | 6    | 7    |
+| Hit Dice                    | 6                | 7   | 8   | 9    | 10   | 11   | 12   |
+| Attack Bonus                | +6               | +7  | +8  | +8   | +9   | +9   | +10  |
+| Breath Weapon               | Lightning (Line) |     |     |      |      |      |      |
+| Length                      | -                | 80' | 90' | 100' | 100' | 110' | 120' |
+| Width                       | -                | -   | -   | -    | -    | 55'  | 60'  |
+| Chance/Talking              | 0%               | 15% | 20% | 40%  | 50%  | 60%  | 70%  |
+| Spells by Level             |                  |     |     |      |      |      |      |
+| Level 1                     | -                | 1   | 2   | 4    | 4    | 4    | 5    |
+| Level 2                     | -                | -   | 1   | 2    | 3    | 4    | 4    |
+| Level 3                     | -                | -   | -   | -    | 1    | 2    | 2    |
+| Level 4                     | -                | -   | -   | -    | -    | -    | 1    |
+| Claw                        | 1d4              | 1d4 | 1d6 | 1d8  | 1d8  | 1d8  | 1d10 |
+| Bite                        | 2d6              | 3d6 | 3d8 | 3d8  | 3d8  | 3d8  | 3d10 |
+| Tail                        | 1d4              | 1d6 | 1d6 | 1d8  | 1d8  | 1d8  | 1d8  |
 
 
-|   |   |    |   |   |
-|--------------|---|---|---|---|---|---|---|
-| Age Category | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-| Hit Dice | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-| Attack Bonus | +8 | +8 | +9 | +9 | +10 | +11 | +11 |
-| Breath Weapon | Fire or Poison Gas (Cone) |
-| Length | - | 70' | 80' | 90' | 95' | 100' | 110' |
-| Width | - | 30' | 35' | 45' | 50' | 55' | 60' |
-| Chance/Talking | 0% | 35% | 70% | 85% | 90% | 95% | 95% |
-| Spells by Level |  |  |  |  |  |  |  |
-| Level 1 | - | 1 | 2 | 3 | 4 | 5 | 6 |
-| Level 2 | - | - | 1 | 2 | 3 | 4 | 5 |
-| Level 3 | - | - | - | 1 | 2 | 3 | 4 |
-| Level 4 | - | - | - | - | 1 | 2 | 3 |
-| Level 5 | - | - | - | - | - | 1 | 2 |
-| Level 6 | - | - | - | - | - | - | 1 |
-| Claw | 1d6 | 1d6 | 1d6 | 2d4 | 2d4 | 2d6 | 2d8 |
-| Bite | 3d6 | 4d6 | 5d6 | 6d6 | 6d6 | 7d6 | 7d6 |
-| Tail | 1d4 | 1d6 | 1d6 | 2d4 | 2d6 | 2d6 | 2d8 |
-
-: Gold Dragon Age Table {#tbl-gold-dragon-age}
+: Desert Dragon Age Table {#tbl-desert-dragon-age}
 
 </div>
-<div class="monster" data-tag="Dragon, Green" >
 
-### Dragon, Green
+<div class="monster" data-tag="Dragon, Forest" >
 
-|   |   Dragon, Green |
+### Dragon, Forest (Green Dragon)
+
+|   |   Dragon, Forest |
 |--------------|---|
 | Armor Class: | 19 |
 | Hit Dice: | 8** |
@@ -1378,11 +1345,9 @@ Gold dragons are immune to all poisons, as well as normal fire. They suffer only
 | Treasure Type: | H |
 | XP: | 1,015 |
 
-Green dragons initiate fights with little or no provocation, picking on creatures of any size. If the target is intriguing or seems formidable, the dragon stalks the creature to determine the best time to strike and the most appropriate tactics to use. If the target appears weak, the dragon makes its presence known quickly -- it enjoys evoking terror.
+Forest dragons are bright leaf green in color, with a tan underbelly. They have long sinuous bodies and move with catlike grace. They are cruel monsters, but they are renowned for their curiosity. They especially like to question adventurers to learn more about their society and abilities, what is going on in the countryside, and if there is treasure nearby. Adventurers may be allowed to live so long as they remain interesting... but woe to them when the dragon becomes bored.
 
-Green dragons especially like to question adventurers to learn more about their society and abilities, what is going on in the countryside, and if there is treasure nearby. Adventurers may be allowed to live so long as they remain interesting... but woe to them when the dragon becomes bored.
-
-Green dragons are immune to all poisons. Note that, despite their breath weapon being described as "poison gas," damage done by it is exactly the same as with other dragons. More specifically, those in the area of effect do not have to "save or die" as with ordinary poison, but rather save vs. Breath Weapon for half damage.
+Forest dragons are immune to all poisons. Note that, despite their breath weapon being described as "poison gas," damage done by it is exactly the same as with other dragons. More specifically, those in the area of effect do not have to "save or die" as with ordinary poison, but rather save vs. Dragon Breath for half damage.
 
 
 |   |   |    |   |   |
@@ -1403,103 +1368,15 @@ Green dragons are immune to all poisons. Note that, despite their breath weapon 
 | Bite | 2d4 | 3d4 | 3d6 | 3d8 | 3d8 | 3d8 | 3d10 |
 | Tail | 1d4 | 1d4 | 1d6 | 1d6 | 1d6 | 1d8 | 1d8 |
 
-: Green Dragon Age Table {#tbl-green-dragon-age}
+: Forest Dragon Age Table {#tbl-forest-dragon-age}
 
 </div>
-<div class="monster" data-tag="Dragon, Red" >
 
-### Dragon, Red
+<div class="monster" data-tag="Dragon, Ice" >
 
-|   |  Dragon, Red |
-|--------------|---|
-| Armor Class: | 21 |
-| Hit Dice: | 10** (+9) |
-| No. of Attacks: | 2 claws/1 bite or breath/1 tail |
-| Damage: | 1d8/1d8/4d8 or breath/1d8 |
-| Movement: | 30' Fly 80' (20') |
-| No. Appearing: | 1, Wild 1, Lair 1d4 |
-| Save As: | Fighter: 10 (as Hit Dice) |
-| Morale: | 8 |
-| Treasure Type: | H |
-| XP: | 1,480 |
+### Dragon, Ice (White Dragon)
 
-Because red dragons are so confident, they seldom pause to appraise an adversary. On spotting a target, they make a snap decision whether to attack, using one of many strategies worked out ahead of time. A red dragon lands to attack small, weak creatures with its claws and bite rather than obliterating them with its breath weapon, so as not to destroy any treasure they might be carrying.
-
-Red dragons are cruel monsters, actively seeking to hunt, torment, kill and consume intelligent creatures. They are often said to prefer women and elves, but in truth a red dragon will attack almost any creature less powerful than itself.
-
-Red dragons are immune to normal fire, and suffer only half damage from magical fire.
-
-|   |   |    |   |   |
-|--------------|---|---|---|---|---|---|---|
-| Age Category | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-| Hit Dice | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-| Attack Bonus | +7 | +8 | +8 | +9 | +9 | +10 | +11 |
-| Breath Weapon | Fire (Cone) |
-| Length | - | 70' | 80' | 90' | 95' | 100' | 110' |
-| Width | - | 30' | 35' | 45' | 50' | 55' | 60' |
-| Chance/Talking | 0% | 15% | 30% | 50% | 60% | 70% | 85% |
-| Spells by Level |  |  |  |  |  |  |  |
-| Level 1 | - | 1 | 2 | 3 | 4 | 5 | 5 |
-| Level 2 | - | - | 1 | 2 | 3 | 4 | 5 |
-| Level 3 | - | - | - | 1 | 2 | 2 | 3 |
-| Level 4 | - | - | - | - | 1 | 2 | 2 |
-| Level 5 | - | - | - | - | - | 1 | 2 |
-| Claw | 1d4 | 1d6 | 1d8 | 1d8 | 1d8 | 1d10 | 1d10 |
-| Bite | 2d6 | 3d6 | 4d6 | 4d8 | 5d8 | 5d8 | 6d8 |
-| Tail | 1d4 | 1d6 | 1d6 | 1d8 | 1d8 | 1d8 | 1d10 |
-
-: Red Dragon Age Table {#tbl-red-dragon-age}
-
-</div>
-<div class="monster" data-tag="Dragon, Sea" >
-
-### Dragon, Sea
-
-|   |   Dragon, Sea |
-|--------------|---|
-| Armor Class: | 19 |
-| Hit Dice: | 8** |
-| No. of Attacks: | 2 claws/1 bite or breath |
-| Damage: | 1d6/1d6/3d8 or breath |
-| Movement: | 10' Fly 60' (20') Swim 60' (15') |
-| No. Appearing: | 1, Wild 1, Lair 1d4 |
-| Save As: | Fighter: 8 (as Hit Dice) |
-| Morale: | 8 |
-| Treasure Type: | H |
-| XP: | 1,015 |
-
-Though they live in the water and are somewhat adapted to it, Sea Dragons still must breathe air, similar to dolphins or whales. A Sea Dragon may hold its breath up to three turns while swimming or performing other moderate activity.
-
-These dragons have much the same physical structure as other dragons, but their feet are webbed and their tails are short, flat and broad; these adaptations help the sea dragon swim efficiently, but severely limit their ability to walk on dry land. Unlike other dragons, sea dragons do not have a tail attack. The breath weapon of a sea dragon is a cloud of steam; they are immune to damage from non-magical steam (including the breath weapon of another sea dragon), and suffer only half damage from magical steam attacks.
-
-Young sea dragons are light bluish-gray in color (similar to dolphins), darkening to a deep slate color in older individuals.
-
-Sea dragons are neutral in outlook, in much the same way as white dragons. They often maintain lairs in air-filled undersea caverns.
-
-|   |   |    |   |   |
-|--------------|---|---|---|---|---|---|---|
-| Age Category | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-| Hit Dice | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
-| Attack Bonus | +5 | +6 | +7 | +8 | +8 | +9 | +9 |
-| Breath Weapon | Steam (Cloud) |
-| Length | - | 70' | 80' | 90' | 95' | 100' | 100' |
-| Width | - | 25' | 30' | 40' | 45' | 50' | 55' |
-| Chance/Talking | 0% | 15% | 20% | 30% | 45% | 55% | 65% |
-| Spells by Level |  |  |  |  |  |  |  |
-| Level 1 | - | 1 | 2 | 3 | 3 | 4 | 4 |
-| Level 2 | - | - | 1 | 2 | 3 | 3 | 4 |
-| Level 3 | - | - | - | - | - | 1 | 2 |
-| Claw | 1d4 | 1d6 | 1d6 | 1d6 | 1d6 | 1d8 | 1d10 |
-| Bite | 2d4 | 3d4 | 3d6 | 3d8 | 3d8 | 3d8 | 3d10 |
-
-: Sea Dragon Age Table {#tbl-sea-dragon-age}
-
-</div>
-<div class="monster" data-tag="Dragon, White" >
-
-### Dragon, White
-
-|   |   Dragon, White |
+|   |   Dragon, Ice |
 |--------------|---|
 | Armor Class: | 17 |
 | Hit Dice: | 6** |
@@ -1512,11 +1389,13 @@ Sea dragons are neutral in outlook, in much the same way as white dragons. They 
 | Treasure Type: | H |
 | XP: | 610 |
 
-White Dragons prefer to live in cold regions, whether in the highest mountains or in the cold northern lands. They are the least intelligent of dragons, though this does not mean that they are stupid by any stretch of the imagination. They are motivated completely by a drive to live, to reproduce, and (of course) to accumulate treasure; they kill to live, not for pleasure.
+Ice dragons have pale blue-white skin, ranging from sky blue for a hatchling to the stark pure white of an ancient individual. They are the same color all over, having no contrasting underbelly color.
 
-White dragons prefer sudden assaults, swooping down from aloft or bursting from beneath water, snow, or ice. Typically, a white dragon begins with its icy breath weapon, then tries to eliminate a single opponent with a follow-up attack.
+They prefer to live in cold regions, whether in the highest mountains or in the cold northern lands. They are the least intelligent of dragons, though this does not mean that they are stupid by any stretch of the imagination. They are motivated completely by a drive to live, to reproduce, and (of course) to accumulate treasure; they kill to live, not for pleasure.
 
-White dragons are immune to normal cold, and take only half damage from magical cold or ice.
+In a fashion similar to swamp and desert dragons, an ice dragon will sometimes choose to bury itself in snow and wait, with only its eyes and nostrils exposed, in a place where prey is likely to pass by. The ice dragon will then burst out when likely prey approaches within 100', surprising on a roll of 1-4 on 1d6.
+
+Ice dragons are immune to normal cold, and take only half damage from magical cold or ice.
 
 
 
@@ -1537,9 +1416,197 @@ White dragons are immune to normal cold, and take only half damage from magical 
 | Bite | 2d4 | 2d6 | 2d6 | 2d8 | 2d8 | 2d10 | 2d10 |
 | Tail | 1d4 | 1d4 | 1d4 | 1d4 | 1d4 | 1d6 | 1d6 |
 
-: White Dragon Age Table {#tbl-white-dragon-age}
+: Ice Dragon Age Table {#tbl-ice-dragon-age}
 
 </div>
+
+<div class="monster" data-tag="Dragon, Mountain" >
+
+### Dragon, Mountain (Red Dragon)
+
+|   |  Dragon, Red |
+|--------------|---|
+| Armor Class: | 21 |
+| Hit Dice: | 10** (+9) |
+| No. of Attacks: | 2 claws/1 bite or breath/1 tail |
+| Damage: | 1d8/1d8/4d8 or breath/1d8 |
+| Movement: | 30' Fly 80' (20') |
+| No. Appearing: | 1, Wild 1, Lair 1d4 |
+| Save As: | Fighter: 10 (as Hit Dice) |
+| Morale: | 8 |
+| Treasure Type: | H |
+| XP: | 1,480 |
+
+Mountain dragons are red in color, ranging from the brilliant blood red of a hatchling to the dull terracotta color of an ancient individual. These dragons are powerfully built, with heavy-jawed heads and thick muscular bodies, yet their necks are still long enough to give them the legendary flexibility of a true dragon.
+
+They are cruel monsters, actively seeking to hunt, torment, kill and consume intelligent creatures. They are often said to prefer women and elves, but in truth a mountain dragon will attack almost any creature less powerful than itself.
+
+They are intelligent and self-assured, but also impatient and overconfident. One will often plan strategies in advance and then choose one at random when facing unknown opponents, without regard to whether or not the strategy is likely to work. The sheer power of a mountain dragon is often the only reason one is still alive.
+
+Mountain dragons are immune to normal fire, and suffer only half damage from magical fire.
+
+|   |   |    |   |   |
+|--------------|---|---|---|---|---|---|---|
+| Age Category | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| Hit Dice | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
+| Attack Bonus | +7 | +8 | +8 | +9 | +9 | +10 | +11 |
+| Breath Weapon | Fire (Cone) |
+| Length | - | 70' | 80' | 90' | 95' | 100' | 110' |
+| Width | - | 30' | 35' | 45' | 50' | 55' | 60' |
+| Chance/Talking | 0% | 15% | 30% | 50% | 60% | 70% | 85% |
+| Spells by Level |  |  |  |  |  |  |  |
+| Level 1 | - | 1 | 2 | 3 | 4 | 5 | 5 |
+| Level 2 | - | - | 1 | 2 | 3 | 4 | 5 |
+| Level 3 | - | - | - | 1 | 2 | 2 | 3 |
+| Level 4 | - | - | - | - | 1 | 2 | 2 |
+| Level 5 | - | - | - | - | - | 1 | 2 |
+| Claw | 1d4 | 1d6 | 1d8 | 1d8 | 1d8 | 1d10 | 1d10 |
+| Bite | 2d6 | 3d6 | 4d6 | 4d8 | 5d8 | 5d8 | 6d8 |
+| Tail | 1d4 | 1d6 | 1d6 | 1d8 | 1d8 | 1d8 | 1d10 |
+
+: Mountain Dragon Age Table {#tbl-mountain-dragon-age}
+
+</div>
+
+<div class="monster" data-tag="Dragon, Plains" >
+
+### Dragon, Plains (Yellow Dragon)
+
+|                 | Dragon, Plains                     |
+|-----------------|------------------------------------|
+| Armor Class:    | 16                                 |
+| Hit Dice:       | 5**                                |
+| No. of Attacks: | 2 claws, 1 bite or breath, 1 tail  |
+| Damage:         | 1d6 claw, 2d10 or breath, 1d8 tail |
+| Movement:       | 50' Fly 80' (10')                  |
+| No. Appearing:  | 1, Wild 1, Lair 1d6                |
+| Save As:        | Fighter: 5 (as Hit Dice)           |
+| Morale:         | 8                                  |
+| Treasure Type:  | H                                  |
+| XP:             | 450                                |
+
+
+Plains dragons are the smallest of the true dragons. They have yellow skin dappled with light green patches, spots, or sometimes thin stripes. The color dulls and darkens with age until it reaches an almost uniform tan color at the oldest age category. They have long sinuous bodies and unusually long legs, giving them the fastest land movement rate of any dragon, but they are also accomplished fliers, as fast and maneuverable as any dragon.
+
+Plains dragons may hunt on the wing, attacking suddenly from above and surprising on 1-3 on 1d6; or, they may lie in wait in tall grass or a copse of trees, using their coloration as camouflage. As one ages and its colors dull, this ability improves; when lying in wait, they gain surprise on 1-3 on 1d6 at age categories 2 and 3, on 1-4 in age categories 4 through 6, and on 1-5 at age category 7.
+
+The breath weapon of the plains dragon is a scorching, shimmering cone of heat, barely visible to the naked eye; at night, however, a glow like steel being forged can be seen streaming from the dragon's open mouth.
+
+|                 |             |     |     |      |      |      |      |
+|-----------------|-------------|-----|-----|------|------|------|------|
+| Age Category    | 1           | 2   | 3   | 4    | 5    | 6    | 7    |
+| Hit Dice        | 2           | 3   | 4   | 5    | 6    | 7    | 8    |
+| Attack Bonus    | +2          | +3  | +4  | +5   | +6   | +7   | +8   |
+| Breath Weapon   | Heat (Cone) |     |     |      |      |      |      |
+| Length          | -           | 50' | 60' | 70'  | 80'  | 85'  | 90'  |
+| Width           | -           | 25' | 30' | 30'  | 35'  | 40'  | 45'  |
+| Chance/Talking  | 0%          | 10% | 15% | 20%  | 30%  | 40%  | 50%  |
+| Spells by Level |             |     |     |      |      |      |      |
+| Level 1         | -           | 1   | 2   | 3    | 3    | 3    | 3    |
+| Level 2         | -           | -   | -   | -    | 1    | 2    | 3    |
+| Level 3         | -           | -   | -   | -    | -    | -    | 1    |
+| Claw            | 1d4         | 1d4 | 1d6 | 1d6  | 1d6  | 1d8  | 1d8  |
+| Bite            | 2d4         | 2d6 | 2d8 | 2d10 | 2d10 | 2d10 | 2d12 |
+| Tail            | 1d4         | 1d6 | 1d6 | 1d8  | 1d8  | 1d8  | 1d10 |
+
+
+: Plains Dragon Age Table {#tbl-plains-dragon-age}
+
+</div>
+
+
+
+<div class="monster" data-tag="Dragon, Sea" >
+
+### Dragon, Sea (Gray Dragon)
+
+|   |   Dragon, Sea |
+|--------------|---|
+| Armor Class: | 19 |
+| Hit Dice: | 8** |
+| No. of Attacks: | 2 claws/1 bite or breath |
+| Damage: | 1d6/1d6/3d8 or breath |
+| Movement: | 10' Fly 60' (20') Swim 60' (15') |
+| No. Appearing: | 1, Wild 1, Lair 1d4 |
+| Save As: | Fighter: 8 (as Hit Dice) |
+| Morale: | 8 |
+| Treasure Type: | H |
+| XP: | 1,015 |
+
+Young sea dragons are light bluish-gray in color (similar to dolphins), darkening to a deep slate color in older individuals. Their skin is smooth and sleek, and their bodies are more compact than most dragons, though their long neck gives them the same flexibility.
+
+Though they live in the water and are somewhat adapted to it, sea dragons still must breathe air, similar to dolphins or whales. A sea dragon may hold its breath up to three turns while swimming or performing other moderate activity.
+
+These dragons have much the same physical structure as other dragons, but their feet are webbed and their tails are short, flat and broad; these adaptations help the sea dragon swim efficiently, but severely limit their ability to walk on dry land. Unlike other dragons, sea dragons do not have a tail attack. The breath weapon of a sea dragon is a cloud of steam; they are immune to damage from non-magical steam (including the breath weapon of another sea dragon), and suffer only half damage from magical steam attacks.
+
+Sea dragons are neutral in outlook, in much the same way as ice dragons. They often maintain lairs in air-filled undersea caverns.
+
+|   |   |    |   |   |
+|--------------|---|---|---|---|---|---|---|
+| Age Category | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| Hit Dice | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+| Attack Bonus | +5 | +6 | +7 | +8 | +8 | +9 | +9 |
+| Breath Weapon | Steam (Cloud) |
+| Length | - | 70' | 80' | 90' | 95' | 100' | 100' |
+| Width | - | 25' | 30' | 40' | 45' | 50' | 55' |
+| Chance/Talking | 0% | 15% | 20% | 30% | 45% | 55% | 65% |
+| Spells by Level |  |  |  |  |  |  |  |
+| Level 1 | - | 1 | 2 | 3 | 3 | 4 | 4 |
+| Level 2 | - | - | 1 | 2 | 3 | 3 | 4 |
+| Level 3 | - | - | - | - | - | 1 | 2 |
+| Claw | 1d4 | 1d6 | 1d6 | 1d6 | 1d6 | 1d8 | 1d10 |
+| Bite | 2d4 | 3d4 | 3d6 | 3d8 | 3d8 | 3d8 | 3d10 |
+
+: Sea Dragon Age Table {#tbl-sea-dragon-age}
+
+</div>
+
+
+<div class="monster" data-tag="Dragon, Swamp" >
+
+### Dragon, Swamp (Black Dragon)
+
+|   |   Dragon, Black |
+|--------------|-----|
+| Armor Class: | 18 |
+| Hit Dice: | 7** |
+| No. of Attacks: | 2 claws/1 bite or breath/1 tail |
+| Damage: | 1d6/1d6/2d10 or breath/1d6 |
+| Movement: | 30' Fly 80' (15') |
+| No. Appearing: | 1, Wild 1, Lair 1d4 |
+| Save As: | Fighter: 7 (as Hit Dice) |
+| Morale: | 8 |
+| Treasure Type: | H |
+| XP: | 800 |
+
+Swamp dragons have green skin so dark as to appear to be black, especially in uncertain light or while wet. They often choose to hide underwater, leaving only part of the head above the waterline, and leap up suddenly when prey comes within 100' (surprising on a roll of 1-4 on 1d6 in this case).
+
+Though swamp dragons are more cruel than ice dragons, they are still motivated mostly by the urge to live, breed and collect valuable items.
+
+Swamp dragons are immune to all forms of acid. A swamp dragon may hold its breath up to three turns while lying in wait underwater.
+
+
+|   |   |    |   |   |
+|--------------|---|---|---|---|---|---|---|
+| Age Category | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| Hit Dice | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| Attack Bonus | +4 | +5 | +6 | +7 | +8 | +8 | +9 |
+| Breath Weapon | | Special |
+| Length | - | 70' | 80' | 90' | 95' | 100' | 100' |
+| Width | - | 25' | 30' | 30' | 35' | 40' | 45' |
+| Chance/Talking | 0% | 15% | 20% | 25% | 35% | 50% | 60% |
+| Spells by Level |  |  |  |  |  |  |  |
+| Level 1 | - | 1 | 2 | 4 | 4 | 4 | 4 |
+| Level 2 | - | - | - | - | 1 | 2 | 3 |
+| Level 3 | - | - | - | - | - | 1 | 2 |
+| Claw | 1d4 | 1d4 | 1d6 | 1d6 | 1d6 | 1d8 | 1d8 |
+| Bite | 2d4 | 2d6 | 2d8 | 2d10 | 2d10 | 2d10 | 2d12 |
+| Tail | 1d4 | 1d4 | 1d4 | 1d6 | 1d6 | 1d8 | 1d8 |
+
+: Swamp Dragon Age Table {#tbl-swamp-dragon-age}
+
+</div>
+
 <div class="monster" data-tag="Dragon Turtle" >
 
 ### Dragon Turtle
@@ -1547,23 +1614,19 @@ White dragons are immune to normal cold, and take only half damage from magical 
 |   | Dragon Turtle    |
 |--------------|---|
 | Armor Class: | 22 |
-| Hit Dice: | 30** |
+| Hit Dice: | 30** (AB +15) |
 | No. of Attacks: | 2 claws/1 bite or breath |
 | Damage: | 2d8/2d8/10d6 or 30d8 |
 | Movement: | 10' (10') Swim 30' (15') |
 | No. Appearing: | Wild 1 |
 | Save As: | Fighter: 20 at +5 |
 | Morale: | 10 |
-| Treasure Type: | H |
+| Treasure Type: | H (calculated at one-quarter hit dice)  |
 | XP: | 13,650 |
 
-A dragon turtle's rough, deep green shell is much the same color as the deep water the monster favors, and the silver highlights that line the shell resemble light dancing on open water. The turtle's legs, tail, and head are a lighter green, flecked with golden highlights. An adult dragon turtle can measure from 100 to 200 feet from snout to tail. They are occasionally mistaken for rocky outcroppings or even small islands.
+Dragon turtles are so large, up to 200 feet long, that they are occasionally mistaken for rocky outcroppings or even small islands. Though they are not true dragons, they do advance through the same sort of age categories as the true dragons do; however, each age category changes the dragon turtle's Hit Dice by 5.
 
-Dragon turtles are fierce fighters and generally attack any creature that threatens their territory or looks like a potential meal. Though they are not true dragons, they do advance through the same sort of age categories as the true dragons do; however, each age category changes the dragon turtle's Hit Dice by 5.
-
-style="position: absolute; top: 0in; left: 0in" Due to their massive size, dragon turtles are immune to virtually all poisons.
-
-
+Due to their massive size, dragon turtles are immune to virtually all poisons.
 
 |   |   |    |   |   |
 |--------------|---|---|---|---|---|---|---|
@@ -1583,11 +1646,13 @@ style="position: absolute; top: 0in; left: 0in" Due to their massive size, drago
 : Dragon Turtle Age Table {#tbl-dragon-turtle-age}
 
 </div>
+
+
 <div class="monster" data-tag="Dryad" >
 
 ## Dryad
 
-|   | Dragon, Blue     |  
+|   | Dryad    |  
 |--------------|---|
 | Armor Class: | 15 |
 | Hit Dice: | 2* |
@@ -3896,7 +3961,7 @@ turns.
 
 Huge monitors range from 8 to 11 feet in length. Their
 venom works faster than that of their smaller brethren;
-those bitten must save vs. Poison as +2 or suffer 1d6
+those bitten must save vs. Poison at +2 or suffer 1d6
 points of damage each round for 2d4 rounds.
 
 Giant monitor lizards range from 12 to 15 feet in length.

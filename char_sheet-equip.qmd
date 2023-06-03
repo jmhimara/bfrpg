@@ -1,0 +1,391 @@
+```{=html}
+
+<h2>Currency</h2>
+
+    <dl class="field">
+        <div class="currency" id="PP" style="" >
+            <dt>PP</dt>
+            <dd contenteditable="true" class="small" id="PPbox"></dd> 
+        </div>
+        <div class="currency" id="GP" style="" >
+            <dt>GP</dt>
+            <dd contenteditable="true" class="small" id="GPbox"></dd> 
+        </div>
+        <div class="currency" id="EP" style="" >
+            <dt>EP</dt>
+            <dd contenteditable="true" class="small" id="EPbox"></dd> 
+        </div>
+        <div class="currency"  id="SP">
+            <dt>SP</dt>
+            <dd contenteditable="true" class="small" id="SPbox"></dd> 
+        </div>
+    
+        <div class="currency" id="CP">
+            <dt>CP</dt>
+            <dd contenteditable="true" class="small" id="CPbox"></dd> 
+        </div>
+    
+    </dl>
+
+<h2>Weapons</h2>
+
+    <div id="weaponEqContainer" class="mb-3">
+        
+    <div class="grid g-0 justify-content-center " style="--bs-gap:0; --bs-columns:12">
+    <!-- labels -->
+        <div class="g-col-1">
+            M
+        </div>
+        <div class="g-col-1">
+            E
+        </div>
+        <div class="g-col-8">
+            Weapon
+        </div>
+        <div class="g-col-1">
+            Weight
+        </div>   
+        <div class="g-col-1"> 
+            <span></span>
+        </div> 
+
+
+        <div class="g-col-1 mt-2">
+            <input class="form-check-input weaponsEqMag" type="checkbox" value=""   id="itemMagical1">
+        </div>
+        <div class="g-col-1 mt-2">
+            <input class="form-check-input weaponsEqEq" type="checkbox" value=""  id="itemEquipped1">
+        </div>
+        <div class="g-col-8">
+            <input type="text" class="form-control form-control-sm weaponsEqName"  id="itemName1">
+        </div>
+        <div class="g-col-1">
+            <input type="text" class="form-control form-control-sm weight weaponsEqWeight"
+            onkeypress="return event.charCode >= 46 && event.charCode <= 57" id="itemWeight1">
+        </div>  
+        <div class="g-col-1"> 
+            <span></span>
+        </div>    
+    </div>
+    </div>
+
+    <div class="input-group  input-group-sm mb-3">
+        <button id="addWeaponEqButton" class="btn btn-primary rounded">Add Weapon</button>
+    </div>
+
+<h2>Armor</h2>
+
+    <div id="armorEqContainer" class="mb-3">
+        
+    <div class="grid g-0 justify-content-center " style="--bs-gap:0; --bs-columns:12">
+    <!-- labels -->
+        <div class="g-col-1">
+            M
+        </div>
+        <div class="g-col-1">
+            E
+        </div>
+        <div class="g-col-8">
+            Armor / Shield
+        </div>
+        <div class="g-col-1">
+            Weight
+        </div>   
+        <div class="g-col-1"> 
+            <span></span>
+        </div> 
+
+
+        <div class="g-col-1 mt-2">
+            <input class="form-check-input armorMagical" type="checkbox" value="" id="armorMagical1">
+        </div>
+        <div class="g-col-1 mt-2">
+            <input class="form-check-input armorEquipped" type="checkbox" value="" id="armorEquipped1">
+        </div>
+        <div class="g-col-8">
+            <input type="text" class="form-control form-control-sm armorName" id="armorName1">
+        </div>
+        <div class="g-col-1">
+            <input type="text" class="form-control form-control-sm weight armorWeight"
+            onkeypress="return event.charCode >= 46 && event.charCode <= 57" id="armorWeight1">
+        </div>  
+        <div class="g-col-1"> 
+            <span></span>
+        </div>    
+    </div>
+    </div>
+
+    <div class="input-group  input-group-sm mb-3">
+        <button id="addArmorEqButton" class="btn btn-primary rounded">Add Armor</button>
+    </div>
+
+<h2>Misc.</h2>
+
+    <div id="miscEqContainer" class="mb-3">
+        
+    <div class="grid g-0 justify-content-center " style="--bs-gap:0; --bs-columns:12">
+    <!-- labels -->
+        <div class="g-col-1">
+            M
+        </div>
+        <div class="g-col-1">
+            E
+        </div>
+        <div class="g-col-8">
+            Item
+        </div>
+        <div class="g-col-1">
+            Weight
+        </div>   
+        <div class="g-col-1"> 
+            <span></span>
+        </div> 
+
+
+        <div class="g-col-1 mt-2">
+            <input class="form-check-input miscMagical" type="checkbox" value=""  id="miscMagical1">
+        </div>
+        <div class="g-col-1 mt-2">
+            <input class="form-check-input miscEquipped" type="checkbox" value="" id="miscEquipped1">
+        </div>
+        <div class="g-col-8">
+            <input type="text" class="form-control form-control-sm miscName"  id="miscName1">
+        </div>
+        <div class="g-col-1">
+            <input type="text" class="form-control form-control-sm weight miscWeight"
+            onkeypress="return event.charCode >= 46 && event.charCode <= 57" id="miscWeight1">
+        </div>  
+        <div class="g-col-1"> 
+            <span></span>
+        </div>    
+    </div>
+    </div>
+
+    <div class="input-group  input-group-sm mb-3">
+        <button id="addItemEqButton" class="btn btn-primary rounded">Add Item</button>
+    </div>
+
+
+<hr>
+
+    <div class="grid g-0 justify-content-center " style="--bs-gap:0; --bs-columns:12">
+
+        <div class="g-col-1 mt-2">
+        </div>
+        <div class="g-col-1 mt-2">
+        </div>
+        <div class="g-col-8">
+         </div>
+        <div class="g-col-1">
+            <label for="totalWeight" class="form-label">Total</label>
+            <input type="text" class="form-control form-control-sm"  id="totalWeight" disabled >
+        </div>  
+        <div class="g-col-1"> 
+
+        </div>    
+    </div>
+
+<style>
+
+    dl.field .currency{
+          margin: 0;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: left;
+          flex-wrap: wrap;
+          max-width: 1200px;
+          font-size:1rem;
+          }
+    dl.field .currency dt {
+          display: inline-block;
+          font-weight: 400;
+          flex: 1 1 auto;
+          text-align: left;
+          padding-left: 0rem;
+          padding-right: 0px;
+          padding-bottom: 0rem;
+          margin-right: 10px;
+          margin-left:10px;
+      }
+    .field .currency dd.small{
+          min-width: 3rem;
+          height: 1rem;
+          align-items: center;
+          text-align: center;
+          margin:0;
+          margin-right:20px;
+          padding:0;
+          padding-top:0rem;
+          font-size:1rem;
+          font-weight: 500;
+    }
+
+</style>
+```
+
+```{ojs}
+
+function addWeaponEq() {
+      var inputContainer = d3.select('#weaponEqContainer');
+      var inputCount = inputContainer.selectAll('.grid').size();
+
+    var inputGroup = inputContainer
+      .append('div')
+      .attr('class','grid align-content-center').attr('style','--bs-gap:0;--bs-columns:12;')
+      .attr('id','weaponEq'+(inputCount + 1))
+
+    inputGroup
+    .html(`
+        <div class="g-col-1 mt-2">
+            <input class="form-check-input weaponsEqMag" type="checkbox" value=""  id="itemMagical${inputCount + 1}">
+        </div>
+        <div class="g-col-1 mt-2">
+            <input class="form-check-input weaponsEqEq" type="checkbox" value="" id="itemEquipped${inputCount + 1}">
+        </div>
+        <div class="g-col-8">
+            <input type="text" class="form-control form-control-sm weaponsEqName"  id="itemName${inputCount + 1}">
+        </div>
+        <div class="g-col-1">
+            <input type="text" class="form-control form-control-sm weight weaponsEqWeight"
+            onkeypress="return event.charCode >= 46 && event.charCode <= 57" id="itemWeight${inputCount + 1}">
+        </div>  
+    `)
+    .on("input", calcWeight)
+    .append('div')
+    .attr('class','g-col-1')
+    .append('i')
+    .attr('class', 'bi bi-x-lg mt-3 text-danger')
+    .attr('style', 'cursor: pointer;')
+    .attr('id', 'spellDel' + (inputCount + 1))
+    .on('click', function() {
+          inputGroup.remove();
+          calcWeight();
+        });
+      
+    }
+
+weaponEq = {
+    const addInputButton = d3.select('#addWeaponEqButton');
+    addInputButton.on('click', () => addWeaponEq() );
+
+}
+
+
+
+function addArmorEq() {
+      var inputContainer = d3.select('#armorEqContainer');
+      var inputCount = inputContainer.selectAll('.grid').size();
+
+    var inputGroup = inputContainer
+      .append('div')
+      .attr('class','grid align-content-center').attr('style','--bs-gap:0;--bs-columns:12;')
+      .attr('id','armorEq'+(inputCount + 1))
+
+    inputGroup
+    .html(`
+        <div class="g-col-1 mt-2">
+            <input class="form-check-input armorMagical" type="checkbox" value=""  id="armorMagical${inputCount + 1}"> 
+        </div>
+        <div class="g-col-1 mt-2">
+            <input class="form-check-input armorEquipped" type="checkbox" value="" id="armorEquipped${inputCount + 1}">
+        </div>
+        <div class="g-col-8">
+            <input type="text" class="form-control form-control-sm armorName"  id="armorName${inputCount + 1}">
+        </div>
+        <div class="g-col-1">
+            <input type="text" class="form-control form-control-sm weight armorWeight"
+            onkeypress="return event.charCode >= 46 && event.charCode <= 57" id="armorWeight${inputCount + 1}">
+        </div>  
+    `)
+    .on("input", calcWeight)
+    .append('div')
+    .attr('class','g-col-1')
+    .append('i')
+    .attr('class', 'bi bi-x-lg mt-3 text-danger')
+    .attr('style', 'cursor: pointer;')
+    .attr('id', 'armorEqDel' + (inputCount + 1))
+    .on('click', function() {
+          inputGroup.remove();
+          calcWeight();
+        });
+      
+    }
+
+armorEq = {
+    const addInputButton = d3.select('#addArmorEqButton');
+    addInputButton.on('click', () => addArmorEq() );
+
+}
+
+
+function addItemEq() {
+      var inputContainer = d3.select('#miscEqContainer');
+      var inputCount = inputContainer.selectAll('.grid').size();
+
+    var inputGroup = inputContainer
+      .append('div')
+      .attr('class','grid align-content-center').attr('style','--bs-gap:0;--bs-columns:12;')
+      .attr('id','miscEq'+(inputCount + 1))
+
+    inputGroup
+    .html(`
+        <div class="g-col-1 mt-2">
+            <input class="form-check-input miscMagical" type="checkbox" value=""  id="miscMagical${inputCount + 1}">
+        </div>
+        <div class="g-col-1 mt-2">
+            <input class="form-check-input miscEquipped" type="checkbox" value="" id="miscEquipped${inputCount + 1}">
+        </div>
+        <div class="g-col-8">
+            <input type="text" class="form-control form-control-sm miscName"  id="miscName${inputCount + 1}"> 
+        </div>
+        <div class="g-col-1">
+            <input type="text" class="form-control form-control-sm weight miscWeight"
+            onkeypress="return event.charCode >= 46 && event.charCode <= 57" id="miscWeight${inputCount + 1}">
+        </div>  
+    `)
+    .on("input", calcWeight)
+    .append('div')
+    .attr('class','g-col-1')
+    .append('i')
+    .attr('class', 'bi bi-x-lg mt-3 text-danger')
+    .attr('style', 'cursor: pointer;')
+    .attr('id', 'miscEqDel' + (inputCount + 1))
+    .on('click', function() {
+          inputGroup.remove();
+          calcWeight();
+        });
+      
+    }
+
+miscEq = {
+    const addInputButton = d3.select('#addItemEqButton');
+    addInputButton.on('click', () => addItemEq() );
+
+}
+```
+
+```{ojs}
+function calcWeight () {
+    const eq = d3.select('#equipment')
+    const wArray = d3.selectAll('.weight')
+    const totWField = d3.select('#totalWeight')
+
+    var sum = 0
+
+    wArray.each(function() {
+        var value = +d3.select(this).property("value");
+        sum += value;
+      });
+    
+    totWField.property("value", sum);
+    
+}
+
+totalW = {
+    const eq = d3.select('#equipment');
+    var inputs = eq.selectAll(".weight");
+
+    inputs.on("input", calcWeight);
+}
+```

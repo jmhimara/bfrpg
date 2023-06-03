@@ -1,91 +1,20 @@
 ---
-format: 
-  html:
-    includes: include-after-body
+title: "Reproducible Quarto Document"
+format: html
+theme: cosmo
+execute:
+      echo: false
 ---
 
-# Animals
-
-<input type="text" id="input">
-
-<div class="container">
-
-<div class="animal" data-tag="Dog"  >
-
-## Dog
-
-Dog
-
-|   | Ant, Giant  |
-|--------------|----|
-| Armor Class: | 17 |
-| Hit Dice: | 4 |
-| No. of Attacks: | 1 bite |
-| Damage: | 2d6 |
-| Movement: | 60' (10') |
-| No. Appearing: | 2d6, Wild 2d6, Lair 4d6 |
-| Save As: | Fighter: 4 |
-| Morale: | 7 on first sighting, 12 after engaged |
-| Treasure Type: | U or special |
-| XP: | 240 |
-
-
-</div>
-<div class="animal" data-tag="Cat"  >
-
-## Cat
-
-Cat
-
-|   | Ant, Giant  |
-|--------------|----|
-| Armor Class: | 17 |
-| Hit Dice: | 4 |
-| No. of Attacks: | 1 bite |
-| Damage: | 2d6 |
-| Movement: | 60' (10') |
-| No. Appearing: | 2d6, Wild 2d6, Lair 4d6 |
-| Save As: | Fighter: 4 |
-| Morale: | 7 on first sighting, 12 after engaged |
-| Treasure Type: | U or special |
-| XP: | 240 |
-
-
-</div>
-<div class="animal" data-tag="Giraffe"  >
-
-## Giraffe 
-
-|   | Ant, Giant  |
-|--------------|----|
-| Armor Class: | 17 |
-| Hit Dice: | 4 |
-| No. of Attacks: | 1 bite |
-| Damage: | 2d6 |
-| Movement: | 60' (10') |
-| No. Appearing: | 2d6, Wild 2d6, Lair 4d6 |
-| Save As: | Fighter: 4 |
-| Morale: | 7 on first sighting, 12 after engaged |
-| Treasure Type: | U or special |
-| XP: | 240 |
-
-Giraffe
-
-</div>
-</div>
+```{ojs}
+viewof x = Inputs.button("Button")
+```
 
 ```{=html}
+<div>
+<h2> Example HTML code block </h2>
 
-<script>
-let input = document.getElementById('input');
-let animalDivs = document.querySelectorAll('.animal');
+Number of clicks: `${x}`
 
-input.addEventListener('input', function(e) {
-  const term = this.value.toLowerCase();
-  animalDivs.forEach(function(div) {
-    const animal = div.dataset.tag.toLocaleLowerCase();
-    div.hidden = !animal.includes(term)
-  });
-});
-</script>
+<div>
 ```

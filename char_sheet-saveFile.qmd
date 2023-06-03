@@ -1,0 +1,170 @@
+```{ojs}
+
+
+function savetoFile(){
+    let char = {};
+
+    // Name and basic info
+    char.Name = d3.select('#Name').property("value")
+    char.Class = d3.select('#charClass').select('dd').text();
+    char.Race = d3.select('#charRace').select('dd').text();
+    char.Level = d3.select('#charLevel').select('dd').text();
+    char.Experience = d3.select('#charExperience').select('dd').text()
+
+    char.HP = d3.select('#hp1').property('value');
+    char.MaxHP = d3.select('#hp2').property('value');
+    char.AC = d3.select('#ACinput').property('value');
+    char.HD = d3.select('#HDinput').property('value');
+
+    char.BAB = d3.select('#BABbox').text();
+    char.Movement = d3.select('#MovementBox').text();
+    char.Initiative = d3.select('#InitiativeBox').text();
+
+    // Abilities
+    char.Abilities = {}; 
+    char.Abilities.Str = d3.select('#strNum').property('value' ); 
+    char.Abilities.Dex = d3.select('#dexNum').property('value' );
+    char.Abilities.Con = d3.select('#conNum').property('value');
+    char.Abilities.Wis = d3.select('#wisNum').property('value' );
+    char.Abilities.Int = d3.select('#intNum').property('value' );
+    char.Abilities.Cha = d3.select('#chaNum').property('value' );
+
+
+    //saves
+    char.Saves = {};
+    char.Saves.DRP = d3.select('#save-drpBox').property('value' ); 
+    char.Saves.MW = d3.select('#save-wandBox').property('value' );
+    char.Saves.Par = d3.select('#save-parBox').property('value');
+    char.Saves.DB = d3.select('#save-dbBox').property('value');
+    char.Saves.Spl = d3.select('#save-spellBox').property('value');
+
+      // Thieving skills 
+    char.ThiefSkills = {};
+    char.ThiefSkills.OpenLocks = d3.select('#thiefLocksInput ').property('value');
+    char.ThiefSkills.RemoveTraps = d3.select('#thiefTrapInput ').property('value');
+    char.ThiefSkills.PickPockets = d3.select('#thiefPocketsInput ').property('value');
+    char.ThiefSkills.MoveSilent = d3.select('#thiefSilentInput ').property('value');
+    char.ThiefSkills.ClimbWalls = d3.select('#thiefClimbInput ').property('value'); 
+    char.ThiefSkills.Hide = d3.select('#thiefHideInput ').property('value');
+    char.ThiefSkills.Listen = d3.select('#thiefListenInput ').property('value');
+
+
+    // Langs and skills
+    char.Languages = d3.selectAll(".lang").nodes().map((node) => node.value);
+    char.OtherSkills = d3.selectAll(".oskill").nodes().map((node) => node.value);
+
+
+    //attacks
+    char.WeaponEq = []
+    for (let i = 0; i < d3.selectAll(".weaponForm").size(); i++) {
+        char.WeaponEq.push( {
+            "name": d3.selectAll(".weaponForm").nodes().map((node) => node.value)[i],
+            "attack": d3.selectAll(".attackForm").nodes().map((node) => node.value)[i],
+            "damage": d3.selectAll(".damageForm").nodes().map((node) => node.value)[i],
+            "S": d3.selectAll(".rangeSForm").nodes().map((node) => node.value)[i],
+            "M": d3.selectAll(".rangeMForm").nodes().map((node) => node.value)[i],
+            "L": d3.selectAll(".rangeLForm").nodes().map((node) => node.value)[i],
+            "notes": d3.selectAll(".notesForm").nodes().map((node) => node.value)[i]}
+    )};
+
+    //ammo
+    char.AmmoEq = []
+    for (let i = 0; i < d3.selectAll(".ammoForm").size(); i++) {
+        char.AmmoEq.push( {
+            "name": d3.selectAll(".ammoForm").nodes().map((node) => node.value)[i],
+            "count": d3.selectAll(".countForm").nodes().map((node) => node.value)[i],
+            "damage": d3.selectAll(".ammoDmgForm").nodes().map((node) => node.value)[i],
+            "notes": d3.selectAll(".ammo-notesForm").nodes().map((node) => node.value)[i]}
+    )};
+
+    char.Turning =  d3.selectAll(".turningForm").nodes().map((node) => node.value);
+
+    // spells
+    char.Spells = [];
+    for (let i = 0; i < d3.selectAll(".spell-name").size(); i++) {
+        char.Spells.push( {
+            "spellName": d3.selectAll(".spell-name").nodes().map((node) => node.value)[i],
+            "spellLvl": d3.selectAll(".spell-level").nodes().map((node) => node.value)[i],
+            "prep": d3.selectAll(".spell-prep").nodes().map((node) => node.value)[i]}
+    )};
+
+
+    // Currency
+    char.Equipment={}
+    char.Equipment.Currency  = {}
+    char.Equipment.Currency.pp = d3.select('#PPbox').text()
+    char.Equipment.Currency.gp = d3.select('#GPbox').text()
+    char.Equipment.Currency.ep = d3.select('#EPbox').text()
+    char.Equipment.Currency.sp = d3.select('#SPbox').text()
+    char.Equipment.Currency.cp = d3.select('#CPbox').text()
+
+
+    // Equipment
+    char.Equipment.Weapons = [];
+    for (let i = 0; i < d3.selectAll(".weaponsEqMag").size(); i++) {
+        char.Equipment.Weapons.push( {
+            "magic": d3.selectAll(".weaponsEqMag").nodes().map((node) => node.checked)[i],
+            "equipped": d3.selectAll(".weaponsEqEq").nodes().map((node) => node.checked)[i],
+            "name": d3.selectAll(".weaponsEqName").nodes().map((node) => node.value)[i],
+            "weight": d3.selectAll(".weaponsEqWeight").nodes().map((node) => node.value)[i]
+            }
+    )};
+
+    char.Equipment.Armor = [];
+    for (let i = 0; i < d3.selectAll(".armorMagical").size(); i++) {
+        char.Equipment.Armor.push( {
+            "magic": d3.selectAll(".armorMagical").nodes().map((node) => node.checked)[i],
+            "equipped": d3.selectAll(".armorEquipped").nodes().map((node) => node.checked)[i],
+            "name": d3.selectAll(".armorName").nodes().map((node) => node.value)[i],
+            "weight": d3.selectAll(".armorWeight").nodes().map((node) => node.value)[i]
+            }
+    )};
+
+    char.Equipment.Misc = [];
+    for (let i = 0; i < d3.selectAll(".miscMagical").size(); i++) {
+        char.Equipment.Misc.push( {
+            "magic": d3.selectAll(".miscMagical").nodes().map((node) => node.checked)[i],
+            "equipped": d3.selectAll(".miscEquipped").nodes().map((node) => node.checked)[i],
+            "name": d3.selectAll(".miscName").nodes().map((node) => node.value)[i],
+            "weight": d3.selectAll(".miscWeight").nodes().map((node) => node.value)[i]
+            }
+    )};
+
+    //Notes
+    char.Hirelings = d3.selectAll(".hirelings").nodes().map((node) => node.value);
+    char.Background = d3.select('#background').text()
+    char.MiscNotes = d3.select('#miscNotes').text()
+
+
+    return char
+}
+
+function downloadJson() {
+      // Generate JSON data
+  var jsonData = savetoFile();
+  
+  // Convert JSON to string
+  var jsonString = JSON.stringify(jsonData, null, 2);
+  
+  // Create a Blob from the JSON string
+  var blob = new Blob([jsonString], { type: "application/json" });
+  
+  // Create a temporary URL for the Blob
+  var url = URL.createObjectURL(blob);
+  
+  // Create a link element
+  var link = document.createElement("a");
+  
+  // Set the link's properties
+  link.href = url;
+  link.download = "character.json";
+  
+  // Simulate a click event on the link to trigger the download
+  link.click();
+  
+  // Clean up the temporary URL
+  URL.revokeObjectURL(url);
+}
+
+
+```

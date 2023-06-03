@@ -1,0 +1,241 @@
+```{ojs}
+// Load json file into character sheet. 
+
+function addButtonMaybe (id,button) {
+    if (d3.select(id).empty()) {
+        d3.select(button).on('click')()
+    }
+}
+
+loadFile = {
+    ////////////////////////////
+if (char != undefined){
+
+
+    // Name and basic info 
+    d3.select('#Name').attr('value',char.Name);
+    d3.select('#charClass').select('dd').text(char.Class);
+    d3.select('#charRace').select('dd').text(char.Race);
+    d3.select('#charLevel').select('dd').text(char.Level);
+    d3.select('#charExperience').select('dd').text(char.Experience);
+
+    d3.select('#hp1').attr('value',char.HP);
+    d3.select('#hp2').attr('value',char.MaxHP);
+    d3.select('#ACinput').attr('value',char.AC);
+    d3.select('#HDinput').attr('value',char.HD);
+
+    d3.select('#BABbox').text(char.BAB);
+    d3.select('#MovementBox').text(char.Movement);
+    d3.select('#InitiativeBox').text(char.Initiative);
+
+    // Abilities
+    d3.select('#strNum').attr('value',char.Abilities.Str ); 
+    d3.select('#dexNum').attr('value',char.Abilities.Dex );
+    d3.select('#conNum').attr('value',char.Abilities.Con);
+    d3.select('#wisNum').attr('value',char.Abilities.Wis );
+    d3.select('#intNum').attr('value',char.Abilities.Int );
+    d3.select('#chaNum').attr('value',char.Abilities.Cha );
+
+    d3.select("#strMod").text(calculateModifier(char.Abilities.Str))
+    d3.select("#dexMod").text(calculateModifier(char.Abilities.Dex)) 
+    d3.select("#conMod").text(calculateModifier(char.Abilities.Con))
+    d3.select("#intMod").text(calculateModifier(char.Abilities.Wis))
+    d3.select("#wisMod").text(calculateModifier(char.Abilities.Int))
+    d3.select("#chaMod").text(calculateModifier(char.Abilities.Cha))
+
+
+    // Saves
+    d3.select('#save-drpBox').attr('value',char.Saves.DRP ); 
+    d3.select('#save-wandBox').attr('value',char.Saves.MW );
+    d3.select('#save-parBox').attr('value',char.Saves.Par);
+    d3.select('#save-dbBox').attr('value',char.Saves.DB);
+    d3.select('#save-spellBox').attr('value',char.Saves.Spl);
+
+
+    // Thieving skills 
+    d3.select('#thiefLocksInput ').attr('value',char.ThiefSkills.OpenLocks);
+    d3.select('#thiefTrapInput ').attr('value',char.ThiefSkills.RemoveTraps);
+    d3.select('#thiefPocketsInput ').attr('value',char.ThiefSkills.PickPockets);
+    d3.select('#thiefSilentInput ').attr('value',char.ThiefSkills.MoveSilent);
+    d3.select('#thiefClimbInput ').attr('value',char.ThiefSkills.ClimbWalls); 
+    d3.select('#thiefHideInput ').attr('value',char.ThiefSkills.Hide);
+    d3.select('#thiefListenInput ').attr('value',char.ThiefSkills.Listen);
+
+    // Langs and other skills
+
+    const langs = char.Languages
+    const oSkills = char.OtherSkills
+
+    if (langs.length <= 1) {
+        d3.select('#language1').attr('value',langs[0]);
+    } else {
+        d3.select('#language1').attr('value',langs[0]);
+        langs.slice(1).forEach( (x,i) => {
+            addButtonMaybe(('#language'+ String(i+2)), '#addInputButton')
+            // d3.select('#addInputButton').on('click')()
+            d3.select('#language' + String(i+2)).attr('value',x)
+        });
+    }
+
+    if (oSkills.length <= 1) {
+        d3.select('#skill1').attr('value',oSkills[0]);
+    } else {
+        d3.select('#skill1').attr('value',oSkills[0]);
+        oSkills.slice(1).forEach( (x,i) => {
+            addButtonMaybe(('#skill' + String(i+2)), '#addSkillButton')
+            d3.select('#skill' + String(i+2)).attr('value',x)
+        });
+    }
+
+    /// Attacks
+    const weaponEq = char.WeaponEq
+
+
+    if (weaponEq.length > 0) {
+        d3.select('#weaponForm1').attr('value',weaponEq[0].name);
+        d3.select('#attackForm1').attr('value',weaponEq[0].attack);
+        d3.select('#damageForm1').attr('value',weaponEq[0].damage);
+        d3.select('#rangeSForm1').attr('value',weaponEq[0].S);
+        d3.select('#rangeMForm1').attr('value',weaponEq[0].M);
+        d3.select('#rangeLForm1').attr('value',weaponEq[0].L);
+        d3.select('#notesForm1').attr('value',weaponEq[0].notes);
+        weaponEq.slice(1).forEach( (x,i) => {
+            addButtonMaybe(('#weaponForm' + String(i+2)), '#addWeaponButton')
+            // d3.select('#addWeaponButton').on('click')()
+            d3.select('#weaponForm' + String(i+2)).attr('value',x.name);
+            d3.select('#attackForm' + String(i+2)).attr('value',x.attack);
+            d3.select('#damageForm' + String(i+2)).attr('value',x.damage);
+            d3.select('#rangeSForm' + String(i+2)).attr('value',x.S);
+            d3.select('#rangeMForm' + String(i+2)).attr('value',x.M);
+            d3.select('#rangeLForm' + String(i+2)).attr('value',x.L);
+            d3.select('#notesForm' + String(i+2)).attr('value',x.notes);
+        })
+    }
+
+
+    // Ammo
+    const ammoEq = char.AmmoEq
+    if (ammoEq.length > 0) {
+        d3.select('#ammoForm1').attr('value',ammoEq[0].name);
+        d3.select('#countForm1').attr('value',ammoEq[0].count);
+        d3.select('#ammoDmgForm1').attr('value',ammoEq[0].damage);
+        d3.select('#ammo-notesForm1').attr('value',ammoEq[0].notes);
+        ammoEq.slice(1).forEach( (x,i) => {
+            addButtonMaybe(('#ammoForm' + String(i+2)), '#addAmmoButton')
+            //d3.select('#addAmmoButton').on('click')()
+            d3.select('#ammoForm' + String(i+2)).attr('value',x.name);
+            d3.select('#countForm' + String(i+2)).attr('value',x.count);
+            d3.select('#ammoDmgForm' + String(i+2)).attr('value',x.damage);
+            d3.select('#ammo-notesForm' + String(i+2)).attr('value',x.notes);
+        })
+    }
+
+    /// Turn Undead
+
+    const turning = char.Turning
+
+    turning.forEach( (x,i) => {
+        d3.select('#turn'+ String(i + 1)).attr('value',x)
+    })
+
+    // spells
+    const spells = char.Spells
+    if (spells.length > 0) {
+        d3.select('#spell-level-Form1').attr('value',spells[0].spellLvl);
+        d3.select('#spell-name-Form1').attr('value',spells[0].spellName);
+        d3.select('#spell-prep-Form1').attr('value',spells[0].prep);
+        spells.slice(1).forEach( (x,i) => {
+            addButtonMaybe(('#spell-level-Form' + String(i+2)), '#addSpellButton')
+            //d3.select('#addSpellButton').on('click')()
+            d3.select('#spell-level-Form' + String(i+2)).attr('value',x.spellLvl);
+            d3.select('#spell-name-Form' + String(i+2)).attr('value',x.spellName);
+            d3.select('#spell-prep-Form' + String(i+2)).attr('value',x.prep);
+        })
+    }
+
+    // Currency
+    d3.select('#PPbox').text(char.Equipment.Currency.pp)
+    d3.select('#GPbox').text(char.Equipment.Currency.gp)
+    d3.select('#EPbox').text(char.Equipment.Currency.ep)
+    d3.select('#SPbox').text(char.Equipment.Currency.sp)
+    d3.select('#CPbox').text(char.Equipment.Currency.cp)
+
+
+        // Weapon Inventory
+    const weaponsInv = char.Equipment.Weapons
+
+    if (weaponsInv.length > 0) {
+        d3.select('#itemMagical1').property('checked', weaponsInv[0].magic);
+        d3.select('#itemEquipped1').property('checked', weaponsInv[0].equipped);
+        d3.select('#itemName1').attr('value', weaponsInv[0].name);
+        d3.select('#itemWeight1').attr('value',weaponsInv[0].weight).on('input')();
+        weaponsInv.slice(1).forEach( (x,i) => {
+            addButtonMaybe(('#itemMagical' + String(i+2)), '#addWeaponEqButton')
+            //d3.select('#addWeaponEqButton').on('click')()
+            d3.select('#itemMagical' + String(i+2)).property('checked',x.magic);
+            d3.select('#itemEquipped' + String(i+2)).property('checked',x.equipped);
+            d3.select('#itemName' + String(i+2)).attr('value',x.name);
+            d3.select('#itemWeight' + String(i+2)).attr('value',x.weight)
+        })
+    }
+    d3.select('#itemWeight1').attr('value',weaponsInv[0].weight).on('input')();
+    
+    // armor Inventory
+    const armorInv = char.Equipment.Armor
+    console.log("hellow world")
+    console.log(char.Equipment.Armor)
+    if (armorInv.length > 0) {
+        d3.select('#armorMagical1').property('checked', armorInv[0].magic);
+        d3.select('#armorEquipped1').property('checked', armorInv[0].equipped);
+        d3.select('#armorName1').attr('value', armorInv[0].name);
+        d3.select('#armorWeight1').attr('value',armorInv[0].weight).on('input')(); //trigger the input for weight sum
+        armorInv.slice(1).forEach( (x,i) => {
+            addButtonMaybe(('#armorMagical' + String(i+2)), '#addArmorEqButton')
+            //d3.select('#addArmorEqButton').on('click')()
+            d3.select('#armorMagical' + String(i+2)).property('checked',x.magic);
+            d3.select('#armorEquipped' + String(i+2)).property('checked',x.equipped);
+            d3.select('#armorName' + String(i+2)).attr('value',x.name);
+            d3.select('#armorWeight' + String(i+2)).attr('value',x.weight).on('input')()
+            ;
+        })
+    }
+
+    // Misc Inventory
+    const miscInv = char.Equipment.Misc
+
+    if (miscInv.length > 0) {
+        d3.select('#miscMagical1').property('checked', miscInv[0].magic);
+        d3.select('#miscEquipped1').property('checked', miscInv[0].equipped);
+        d3.select('#miscName1').attr('value', miscInv[0].name);
+        d3.select('#miscWeight1').attr('value',miscInv[0].weight).on('input')(); //trigger the input for weight sum
+        miscInv.slice(1).forEach( (x,i) => {
+            addButtonMaybe(('#miscMagical' + String(i+2)), '#addItemEqButton')
+            //d3.select('#addItemEqButton').on('click')()
+            d3.select('#miscMagical' + String(i+2)).property('checked',x.magic);
+            d3.select('#miscEquipped' + String(i+2)).property('checked',x.equipped);
+            d3.select('#miscName' + String(i+2)).attr('value',x.name);
+            d3.select('#miscWeight' + String(i+2)).attr('value',x.weight)
+            ;
+        })
+    }
+    d3.select('#miscWeight1').on('input')();
+
+    /// notes
+    const hirelings = char.Hirelings
+
+    if (hirelings.length > 0) {
+        d3.select('#hireling1').attr('value', hirelings[0]);
+        hirelings.slice(1).forEach( (x,i) => {
+            addButtonMaybe(('#hireling' + String(i+2)), '#addHirelingButton')
+            //d3.select('#addHirelingButton').on('click')()
+            d3.select('#hireling' + String(i+2)).attr('value',x);
+        })
+    }
+
+    d3.select('#background').text(char.Background);
+    d3.select('#miscNotes').text(char.MiscNotes);
+
+}// if
+///////////////////////////////////
+}
+```

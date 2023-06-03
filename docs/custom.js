@@ -494,6 +494,8 @@ export function calculateModifier (stat) {
       return "+2"
     case 18: 
       return "+3"
+    default:
+      return "+3"
   }
 
 }
