@@ -19,7 +19,7 @@ https://quarto.org/
 Clone the repository and navigate to the root folder
 
 Run this command in the terminal to start a local dev server
-    quarto preview
+    `quarto preview`
 
 Run the following command to assemble the HTML
-    quarto render
+    `quarto render`
