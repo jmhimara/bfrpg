@@ -4,31 +4,32 @@
         
     <div class="grid g-0 justify-content-center " style="--bs-gap:0; --bs-columns:12">
     <!-- labels -->
-      <div class="g-col-1">
-        Level
+      <div class="g-col-2 g-col-sm-1">
+        <span>Level</span>
       </div>
-      <div class="g-col-8">
-        Name
+      <div class="g-col-7 g-col-sm-8">
+        <span>Name</span>
       </div>
       <div class="g-col-2">
-        Prep
+        <span>Prep</span>
       </div>   
       <div class="g-col-1"> 
-            <span></span>
+        <span></span>
       </div> 
+    </div>
 
-
-      <div class="g-col-1">
+    <div class="grid g-0 justify-content-center " style="--bs-gap:0; --bs-columns:12">
+      <div class="g-col-2 g-col-sm-1">
         <input autocomplete="off" type="text" class="form-control  text-center spell-level"  id="spell-level-Form1">
       </div>
-      <div class="g-col-8">
+      <div class="g-col-7 g-col-sm-8">
         <input autocomplete="off" type="text" class="form-control spell-name"  id="spell-name-Form1">
       </div>
       <div class="g-col-2">
         <input autocomplete="off" type="number" class="form-control spell-prep" id="spell-prep-Form1" value=0>
       </div>  
       <div class="g-col-1"> 
-            <span></span>
+        <span></span>
       </div>    
     </div>
     </div>
@@ -51,10 +52,10 @@ function addSpell() {
 
     inputGroup
     .html(`
-      <div class="g-col-1">
+      <div class="g-col-2 g-col-sm-1">
         <input autocomplete="off" type="text" class="form-control text-center spell-level"  id="spell-level-Form${inputCount + 1}">
       </div>
-      <div class="g-col-8">
+      <div class="g-col-7 g-col-sm-8">
         <input autocomplete="off" type="text" class="form-control  spell-name"  id="spell-name-Form${inputCount + 1}">
       </div>
       <div class="g-col-2">
