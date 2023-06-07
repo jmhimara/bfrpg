@@ -16,12 +16,16 @@ Any content (HTML, javascript, etc.) that is not part of the BFRPG IP is also di
 Download and install Quarto here:
 https://quarto.org/
 
-Clone the repository and navigate to the root folder
+Clone the repository and navigate to the root folder.
 
-Run this command in the terminal to start a local dev server
+Run this command in the terminal to start a local dev server:
 
     quarto preview
 
-Run the following command to assemble the HTML
+Run the following command to assemble the HTML:
 
     quarto render
+
+
+## Contributing
+Feel free to create a new issue if you notice any problems or submit a pull request.
