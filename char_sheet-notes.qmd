@@ -57,6 +57,7 @@ function addHireling() {
 
       inputGroup
         .append('input')
+        .attr('autocomplete',"off")
         .attr('type', 'text')
         .attr('id', 'hireling' + (inputCount + 1))
         .attr('class', 'form-control rounded-start hirelings')
