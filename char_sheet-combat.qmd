@@ -1,154 +1,154 @@
 ```{=html}
     <div id="attackContainer" class="mb-3">
         
-    <div class="grid g-0 justify-content-center " style="--bs-gap:0; --bs-columns:13">
-    <!-- labels -->
-      <div class="g-col-3">
-        Weapon or Spell
+      <div class="grid g-0 justify-content-center " style="--bs-gap:0; --bs-columns:13">
+      <!-- labels -->
+        <div class="g-col-3">
+          <span>Weapon or Spell</span>
+        </div>
+        <div class="g-col-2">
+          <span>Attack</span>
+        </div>
+        <div class="g-col-2">
+          <span>Damage</span>
+        </div>  
+        <div class="g-col-1">
+          <span>S+1</span>
+        </div>
+        <div class="g-col-1">
+          <span>M+0</span>
+        </div>  
+        <div class="g-col-1">
+          <span>L-2</span>
+        </div>
+        <div class="g-col-2">
+          <span>Notes</span>
+        </div>   
+        <div class="g-col-1"> 
+          <span></span>
+        </div> 
       </div>
-      <div class="g-col-2">
-        Attack
-      </div>
-      <div class="g-col-2">
-        Damage
-      </div>  
-      <div class="g-col-1">
-        S+1
-      </div>
-      <div class="g-col-1">
-        M+0
-      </div>  
-      <div class="g-col-1">
-        L-2
-      </div>
-      <div class="g-col-2">
-        Notes
-      </div>   
-      <div class="g-col-1"> 
-            <span></span>
-      </div> 
 
-
-      <div class="g-col-3">
-        <input autocomplete="off"  type="text" class="form-control form-control-sm weaponForm"  id="weaponForm1">
+      <div class="grid g-0 justify-content-center " style="--bs-gap:0; --bs-columns:13">
+        <div class="g-col-3">
+          <input autocomplete="off"  type="text" class="form-control form-control-sm weaponForm"  id="weaponForm1">
+        </div>
+        <div class="g-col-2">
+          <input autocomplete="off"  type="text" class="form-control form-control-sm attackForm"  id="attackForm1">
+        </div>
+        <div class="g-col-2">
+          <input autocomplete="off"  type="text" class="form-control form-control-sm damageForm" id="damageForm1">
+        </div>  
+        <div class="g-col-1">
+          <input autocomplete="off"  type="text" class="form-control form-control-sm rangeSForm"  id="rangeSForm1">
+        </div>
+        <div class="g-col-1">
+          <input autocomplete="off"  type="text" class="form-control form-control-sm rangeMForm" id="rangeMForm1" >
+        </div>  
+        <div class="g-col-1">
+          <input autocomplete="off"  type="text" class="form-control form-control-sm rangeLForm" id="rangeLForm1">
+        </div>
+        <div class="g-col-2">
+          <input autocomplete="off"  type="text" class="form-control form-control-sm notesForm"  id="notesForm1">
+        </div>   
+        <div class="g-col-1"> 
+          <span></span>
+        </div>    
       </div>
-      <div class="g-col-2">
-        <input autocomplete="off"  type="text" class="form-control form-control-sm attackForm"  id="attackForm1">
-      </div>
-      <div class="g-col-2">
-        <input autocomplete="off"  type="text" class="form-control form-control-sm damageForm" id="damageForm1">
-      </div>  
-      <div class="g-col-1">
-        <input autocomplete="off"  type="text" class="form-control form-control-sm rangeSForm"  id="rangeSForm1">
-      </div>
-      <div class="g-col-1">
-        <input autocomplete="off"  type="text" class="form-control form-control-sm rangeMForm" id="rangeMForm1" >
-      </div>  
-      <div class="g-col-1">
-        <input autocomplete="off"  type="text" class="form-control form-control-sm rangeLForm" id="rangeLForm1">
-      </div>
-      <div class="g-col-2">
-        <input autocomplete="off"  type="text" class="form-control form-control-sm notesForm"  id="notesForm1">
-      </div>   
-      <div class="g-col-1"> 
-            <span></span>
-      </div>    
-    </div>
     </div>
     <div class="input-group  input-group-sm mb-3">
-        <button id="addWeaponButton" class="btn btn-primary rounded">Add Weapon</button>
+      <button id="addWeaponButton" class="btn btn-primary rounded">Add Weapon</button>
     </div>
 
     <!-- Ammunition -->
     <div id="ammoContainer" class="mb-3">
-        
-    <div class="grid g-0 justify-content-center " style="--bs-gap:0; --bs-columns:13">
-      <div class="g-col-3">
-        Ammunition
+      <div class="grid g-0 justify-content-center" style="--bs-gap:0; --bs-columns:13">
+        <div class="g-col-3">
+          <span>Ammunition</span>
+        </div>
+        <div class="g-col-1">
+          <span>Count</span>
+        </div>  
+        <div class="g-col-1">
+          <span>Damage</span>
+        </div>  
+        <div class="g-col-6">
+          <span>Notes</span>
+        </div>   
+        <div class="g-col-1"> 
+          <span></span>
+        </div> 
       </div>
-      <div class="g-col-1">
-        Count
-      </div>  
-      <div class="g-col-1">
-        Damage
-      </div>  
-      <div class="g-col-6">
-        Notes
-      </div>   
-      <div class="g-col-1"> 
-            <span></span>
-      </div> 
-    
-    <div class="g-col-3">
-        <input autocomplete="off" type="text" class="form-control form-control-sm ammoForm"  id="ammoForm1">
-    </div>
-    <div class="g-col-1">
-        <div class="form-outline">
-            <input autocomplete="off" type="number" class="form-control form-control-sm countForm" value=0 id="countForm1"
-            onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+
+      <div class="grid g-0 justify-content-center " style="--bs-gap:0; --bs-columns:13">
+        <div class="g-col-3">
+          <input autocomplete="off" type="text" class="form-control form-control-sm ammoForm"  id="ammoForm1">
         </div>
-    </div>  
-    <div class="g-col-1">
-        <input autocomplete="off" type="text" class="form-control form-control-sm ammoDmgForm"  id="ammoDmgForm1">
-    </div>
-    <div class="g-col-6">
-        <div class="form-outline">
+        <div class="g-col-1">
+          <div class="form-outline">
+            <input autocomplete="off" type="number" class="form-control form-control-sm countForm" value=0 id="countForm1" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+          </div>
+        </div>  
+        <div class="g-col-1">
+          <input autocomplete="off" type="text" class="form-control form-control-sm ammoDmgForm"  id="ammoDmgForm1">
+        </div>
+        <div class="g-col-6">
+          <div class="form-outline">
             <input autocomplete="off" type="text" class="form-control form-control-sm ammo-notesForm"  id="ammo-notesForm1">
-        </div>
-    </div>   
-    <div class="g-col-1"> 
-            <span></span>
-    </div>    
-    </div>
+          </div>
+        </div>   
+        <div class="g-col-1"> 
+          <span></span>
+        </div>    
+      </div>
     </div>
     <div class="input-group  input-group-sm mb-3">
-        <button id="addAmmoButton" class="btn btn-primary rounded">Add Ammo</button>
+      <button id="addAmmoButton" class="btn btn-primary rounded">Add Ammo</button>
     </div>
 
     <h2>Turn Undead</h2>
 
     <div class="turning">
-        <div class="grid mb-3" style="--bs-columns:9">
+      <div class="grid mb-3" style="--bs-columns:9">
         <div id="turn-hd1" class="g-col-3 g-col-md-1">
-            <input autocomplete="off" type="text" id="turn1" class="form-control form-control-sm turningForm">
-            <label for="turn1" class="form-labelm">1 HD / Skeleton</label>
+          <input autocomplete="off" type="text" id="turn1" class="form-control form-control-sm turningForm">
+          <label for="turn1" class="form-labelm">1 HD / Skeleton</label>
         </div>
         <div id="turn-hd2" class="g-col-3 g-col-md-1">
-            <input autocomplete="off" type="text" id="turn2" class="form-control form-control-sm turningForm">
-            <label for="turn2">2 HD / Zombie</label>
+          <input autocomplete="off" type="text" id="turn2" class="form-control form-control-sm turningForm">
+          <label for="turn2">2 HD / Zombie</label>
         </div>
         <div id="turn-hd3" class="g-col-3 g-col-md-1" >
-            <input autocomplete="off" type="text" id="turn3" class="form-control form-control-sm turningForm">
-            <label for="turn3">3 HD / Ghoul</label>
+          <input autocomplete="off" type="text" id="turn3" class="form-control form-control-sm turningForm">
+          <label for="turn3">3 HD / Ghoul</label>
         </div>
         <div id="turn-hd4"  class="g-col-3 g-col-md-1">
-            <input autocomplete="off" type="text" id="turn4" class="form-control form-control-sm turningForm">
-            <label for="turn4" class="form-labelm">4 HD / Wight</label>
+          <input autocomplete="off" type="text" id="turn4" class="form-control form-control-sm turningForm">
+          <label for="turn4" class="form-labelm">4 HD / Wight</label>
         </div>
         <div id="turn-hd5" class="g-col-3 g-col-md-1">
-            <input autocomplete="off" type="text" id="turn5" class="form-control form-control-sm turningForm">
-            <label for="turn5">5 HD / Wraith</label>
+          <input autocomplete="off" type="text" id="turn5" class="form-control form-control-sm turningForm">
+          <label for="turn5">5 HD / Wraith</label>
         </div>
         <div id="turn-hd6"  class="g-col-3 g-col-md-1">
-            <input autocomplete="off" type="text" id="turn6" class="form-control form-control-sm turningForm">
-            <label for="turn6">6 HD / Mummy</label>
+          <input autocomplete="off" type="text" id="turn6" class="form-control form-control-sm turningForm">
+          <label for="turn6">6 HD / Mummy</label>
         </div>
         <div id="turn-hd7"  class="g-col-3 g-col-md-1">
-            <input autocomplete="off" type="text" id="turn7" class="form-control form-control-sm turningForm">
-            <label for="turn7" class="form-labelm">7 HD / Spectre</label>
+          <input autocomplete="off" type="text" id="turn7" class="form-control form-control-sm turningForm">
+          <label for="turn7" class="form-labelm">7 HD / Spectre</label>
         </div>
         <div id="turn-hd8" class="g-col-3 g-col-md-1">
-            <input autocomplete="off" type="text" id="turn8" class="form-control form-control-sm turningForm">
-            <label for="turn8">8 HD / Vampire</label>
+          <input autocomplete="off" type="text" id="turn8" class="form-control form-control-sm turningForm">
+          <label for="turn8">8 HD / Vampire</label>
         </div>
         <div id="turn-hd9"  class="g-col-3 g-col-md-1">
-            <input autocomplete="off" type="text" id="turn9" class="form-control form-control-sm turningForm">
-            <label for="turn9">9+ HD / Ghost</label>
+          <input autocomplete="off" type="text" id="turn9" class="form-control form-control-sm turningForm">
+          <label for="turn9">9+ HD / Ghost</label>
         </div>
-        </div> <!--  grid -->    
+      </div> <!--  grid -->    
     </div> <!-- turn div -->
-
-    </div> <!-- combat-tab -->
+  </div> <!-- combat-tab -->
 
 <!-- ------------------------------------------------------- 
 --------------------------------- -------------------------->
@@ -165,7 +165,7 @@ function addWeapon() {
 
     var inputGroup = inputContainer
       .append('div')
-      .attr('class','grid align-content-center').attr('style','--bs-gap:0;--bs-columns:13;')
+      .attr('class','grid g-0 justify-content-center').attr('style','--bs-gap:0;--bs-columns:13;')
       .attr('id','attack'+(inputCount + 1))
 
     inputGroup
@@ -222,7 +222,7 @@ function addAmmo() {
 
     var inputGroup = inputContainer
       .append('div')
-      .attr('class','grid align-content-center').attr('style','--bs-gap:0;--bs-columns:13;')
+      .attr('class','grid g-0 justify-content-center').attr('style','--bs-gap:0;--bs-columns:13;')
       .attr('id','ammo'+(inputCount + 1))
 
     inputGroup
