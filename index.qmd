@@ -32,5 +32,7 @@ Some tools to check out:
 - [Monster Index](monstersTab.qmd)
 - [Interactive Tools](appendix_interactive.qmd)
 - [Dungeon Maker](appendixMapmaker.qmd)
+- Simple [Character Sheet](char_sheet.qmd) tool that comes along with this SRD
+- Another awesome [Character Sheet](https://codex.quest/) tool created by J. Garrett Vorbeck. 
 
 This website was created by John Atom (jmhimara). All its code and unique content are also distributed under the **Creative Commons Attribution-ShareAlike 4.0 International License**. 

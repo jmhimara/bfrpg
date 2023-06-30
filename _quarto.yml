@@ -61,7 +61,9 @@ book:
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: cosmo
+      dark: Solar
     number-depth: 0
     css: custom.css
     toc-depth: 4
