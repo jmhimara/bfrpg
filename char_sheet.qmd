@@ -7,19 +7,6 @@ var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggl
 var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
   return new bootstrap.Popover(popoverTriggerEl)
 })
-
-document.addEventListener("DOMContentLoaded", function () {
-  var navLinks = document.getElementsByClassName("nav-link");
-  for (let i = 0; i < navLinks.length; i++) {
-    navLinks[i].addEventListener("click", function() {
-        navLinks[i].scrollIntoView();
-    });
-  }
-}, false);
-
-
-
-
 </script>
 
 
@@ -158,19 +145,19 @@ if (recordsFile != null){
 
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="attributes-tab" data-bs-toggle="tab" data-bs-target="#attributes" type="button" role="tab" aria-controls="attributes" aria-selected="true">Attributes</button>
+    <a href="#attributes" class="nav-link active" id="attributes-tab" data-bs-toggle="tab" data-bs-target="#attributes" type="button" role="tab" aria-controls="attributes" aria-selected="true">Attributes</a>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="combat-tab" data-bs-toggle="tab" data-bs-target="#combat" type="button" role="tab" aria-controls="combat" aria-selected="false">Combat</button>
+    <a href="#combat" class="nav-link" id="combat-tab" data-bs-toggle="tab" data-bs-target="#combat" type="button" role="tab" aria-controls="combat" aria-selected="false">Combat</a>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="Spells-tab" data-bs-toggle="tab" data-bs-target="#spells" type="button" role="tab" aria-controls="spells" aria-selected="false">Spells</button>
+    <a href="#spells" class="nav-link" id="Spells-tab" data-bs-toggle="tab" data-bs-target="#spells" type="button" role="tab" aria-controls="spells" aria-selected="false">Spells</a>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="equipment-tab" data-bs-toggle="tab" data-bs-target="#equipment" type="button" role="tab" aria-controls="equipment" aria-selected="false">Equipment</button>
+    <a href="#equipment" class="nav-link" id="equipment-tab" data-bs-toggle="tab" data-bs-target="#equipment" type="button" role="tab" aria-controls="equipment" aria-selected="false">Equipment</a>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="notes-tab" data-bs-toggle="tab" data-bs-target="#notes" type="button" role="tab" aria-controls="notes" aria-selected="false">Notes</button>
+    <a href="#notes" class="nav-link" id="notes-tab" data-bs-toggle="tab" data-bs-target="#notes" type="button" role="tab" aria-controls="notes" aria-selected="false">Notes</a>
   </li>
 </ul>
 
