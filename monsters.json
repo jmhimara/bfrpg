@@ -65,19 +65,6 @@
         "XP:": "240"
     },
     {
-        "Name": "Assassin Vine",
-        "Armor Class:": "15",
-        "Hit Dice:": "6",
-        "No.\u00a0of Attacks:": "1 entangle + special",
-        "Damage:": "1d8 + special",
-        "Movement:": "5\u2019",
-        "No.\u00a0Appearing:": "1d4+1",
-        "Save As:": "Fighter: 6",
-        "Morale:": "12",
-        "Treasure Type:": "U",
-        "XP:": "500"
-    },
-    {
         "Name": "Barkling",
         "Armor Class:": "15 (11)",
         "Hit Dice:": "1/2 (1d4 HP)",
@@ -258,19 +245,6 @@
         "Morale:": "9",
         "Treasure Type:": "U",
         "XP:": "145"
-    },
-    {
-        "Name": "Black Pudding*",
-        "Armor Class:": "14",
-        "Hit Dice:": "10* (+9)",
-        "No.\u00a0of Attacks:": "1 pseudopod",
-        "Damage:": "3d8",
-        "Movement:": "20\u2019",
-        "No.\u00a0Appearing:": "1",
-        "Save As:": "Fighter: 10",
-        "Morale:": "12",
-        "Treasure Type:": "None",
-        "XP:": "1,390"
     },
     {
         "Name": "Blink Dog",
@@ -1298,19 +1272,6 @@
         "Morale:": "11",
         "Treasure Type:": "C",
         "XP:": "320"
-    },
-    {
-        "Name": "Gelatinous Cube",
-        "Armor Class:": "12",
-        "Hit Dice:": "4*",
-        "No.\u00a0of Attacks:": "1",
-        "Damage:": "2d4 + paralysis",
-        "Movement:": "20\u2019",
-        "No.\u00a0Appearing:": "1",
-        "Save As:": "Fighter: 2",
-        "Morale:": "12",
-        "Treasure Type:": "V",
-        "XP:": "280"
     },
     {
         "Name": "Ghost*",
@@ -3095,7 +3056,7 @@
         "XP:": "25 - 240"
     },
     {
-        "Name": "Weasel, Giant (or Ferret, Giant)",
+        "Name": "Weasel",
         "Armor Class:": "17",
         "Hit Dice:": "5",
         "No.\u00a0of Attacks:": "1 bite + hold",
@@ -3173,7 +3134,7 @@
         "XP:": "75"
     },
     {
-        "Name": "Dire Wold",
+        "Name": "Dire Wolf",
         "Armor Class:": "14",
         "Hit Dice:": "4",
         "No.\u00a0of Attacks:": "1 bite",
