@@ -269,8 +269,8 @@ viewof gemJewel3 = Inputs.button("Roll on Table", {value: 0, reduce: () => highl
 
 | d10 | Behavior |
 |-----|-----|
-| 1 | Act Normally |
-| 2 | Move toward the caster, and attack if possible |
+| 1   | Act Normally |
+| 2   | Move toward the caster, and attack if possible |
 | 3--5 | Take no action except possibly to babble |
 | 6--7 | Move swiftly away from the caster |
 | 8--10 | Attack the nearest creature, regardless of whether it is a friend or foe |
@@ -296,8 +296,7 @@ Magic User 5
 
 Duration: special
 
-A portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened, allowing the Magic-User to summon an elemental from that plane. Review the [Elemental](monstersAll.qmd#elemental) entry in the
-Monsters section for further details regarding the types available and their statistics. At most one elemental of each type may be summoned by the caster in a given day. Once the elemental appears, it serves the conjurer indefinitely, provided the caster concentrates on nothing but controlling the creature; spell casting, combat, or movement over half the normal rate results in loss of concentration. The conjurer, while in control of an elemental, can dismiss it to its native plane at will (doing so on his or her Initiative if in combat). If the Magic-User loses concentration, control of the summoned Elemental is lost and cannot be regained. The creature then seeks to attack the conjurer and all others in its path. Only **dispel magic** or **dispel evil** will banish the elemental once control has been lost. An elemental may, of course, choose to return to its home plane on its own; such creatures will not choose to remain on the material plane for long.
+A portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened, allowing the Magic-User to summon an elemental from that plane. Review the [Elemental](monstersAll.qmd#elemental) entry in the Monsters section for further details regarding the types available and their statistics. At most one elemental of each type may be summoned by the caster in a given day. Once the elemental appears, it serves the conjurer indefinitely, provided the caster concentrates on nothing but controlling the creature; spell casting, combat, or movement over half the normal rate results in loss of concentration. The conjurer, while in control of an elemental, can dismiss it to its native plane at will (doing so on his or her Initiative if in combat). If the Magic-User loses concentration, control of the summoned Elemental is lost and cannot be regained. The creature then seeks to attack the conjurer and all others in its path. Only **dispel magic** or **dispel evil** will banish the elemental once control has been lost. An elemental may, of course, choose to return to its home plane on its own; such creatures will not choose to remain on the material plane for long.
 
 </div>
 <div class="spell" data-tag="Continual Light*" id="Continual Light*">
@@ -765,6 +764,7 @@ magical force to appear. It is about the size of a shield,
 about 3 feet in diameter and an inch deep at its center.
 It can support a maximum of 500 pounds of weight.
 (Note that water weighs about 8 pounds per gallon.)
+
 The disc floats level to the ground, at about the height
 of the caster's waist. It remains still when within 10' of
 the caster, and follows at the caster's movement rate if
@@ -820,42 +820,17 @@ Magic User 6
 
 Duration: special
 
-By means of this spell the caster compels a living
-creature to perform some specific action or services, or
-alternately to avoid performing some action. The target
-creature must be able to hear and understand the
-caster, or it cannot be affected. This spell will
-automatically fail if used to compel a creature to engage
-in some obviously self-destructive action.
+By means of this spell the caster compels a living creature to perform some specific action or services, or alternately to avoid performing some action.  The target creature must be able to hear and understand the caster, or it cannot be affected.  This spell will automatically fail if used to compel a creature to engage in some obviously self-destructive action. 
 
-A saving throw vs. Spells will allow an unwilling target
-to resist a geas when it is first cast. However, the target
-may choose to accept the geas, typically as part of a
-bargain with the caster for some service. Once
-subjected to this spell the subject must obey the
-instructions given by the caster indefinitely, though if
-the geas is to perform some action the spell effectively
-ends when that action has been completed.
+A saving throw vs. Spells will allow an unwilling target to resist a geas when it is first cast. However, the target may choose to accept the geas, typically as part of a bargain with the caster for some service. Once subjected to this spell the subject must obey the instructions given by the caster indefinitely, though if the geas is to perform some action the spell effectively ends when that action has been completed. 
 
-For every 24 hours that the subject chooses not to obey
-the geas (or is prevented from obeying it), it suffers a
-penalty of -2 to each of its ability scores, up to a
-maximum penalty of -8. No ability score can be
-reduced to less than 3 by this effect. If the subject
-resumes obeying the geas, all such penalties are
-removed after 24 hours.
+For every 24 hours that the subject chooses not to obey the geas (or is prevented from obeying it), it suffers a penalty of -2 to each of its ability scores, up to a maximum penalty of -8. No ability score can be reduced to less than 3 by this effect. If the subject resumes obeying the geas, all such penalties are removed after 24 hours. 
 
-If the task assigned to the subject of this spell is open-
-ended or otherwise unable to be completed, the subject
-is still compelled to try to perform the task, but the spell
-will end in no more than one day per caster level.
-Very clever creatures may be able to subvert the
-instructions given; the GM must decide on the results of
-any such attempts
+If the task assigned to the subject of this spell is openended or otherwise unable to be completed, the subject is still compelled to try to perform the task, but the spell will end in no more than one day per caster level. 
 
-This spell can be ended by **remove curse** cast by a
-character of higher level than the caster of the geas, but
-is never affected by **dispel magic**. 
+Very clever creatures may be able to subvert the instructions given; the GM must decide on the results of any such attempts. 
+
+This spell (and all effects thereof) can be ended by a **remove curse** spell from a caster of a higher level than the caster of the **geas**, or by a **wish**, or by the reverse of this spell.  **Dispel magic** does not affect a **geas** spell.
 
 </div>
 <div class="spell" data-tag="Growth of Animals" id="Growth of Animals">
@@ -868,11 +843,9 @@ Range: 60'+10'/level
 
 Duration: 1 turn/level
 
-This spell causes an animal to grow to twice its normal size and eight times its normal weight. The affected creature will do double normal damage with all physical attacks, and its existing natural Armor Class increases by 2. The animal's carrying capacity is also doubled. Unfriendly animals may save vs. Spells to resist this spell; normally, domesticated animals will not attempt to resist it, though they may become confused or panicky afterward (at the GM's discretion).
+This spell causes an animal to grow to double its normal size and eight times its normal weight.  The affected creature will do double normal damage with all physical attacks, and its existing natural Armor Class increases by 2.  The animal's carrying capacity is also doubled. Unfriendly animals may save vs. Spells to resist this spell; normally, domesticated animals will not attempt to resist it, though they may become confused or panicky afterward (at the GM's discretion). 
 
-All equipment worn or carried by an animal is similarly enlarged by the spell, though this change has no effect on the magical properties of any such equipment. Any enlarged item that leaves the enlarged creature's possession instantly returns to its normal size.
-
-The spell gives no means of command or influence over the enlarged animals.
+This spell does not give the caster control of the animal. Gear worn or carried by the animal are also enlarged but not altered in any other way.  If removed from the creature such items resume normal size instantly.  Any magical properties of enlarged items are not changed.
 
 </div>
 <div class="spell" data-tag="Growth of Plants*" id="Growth of Plants*">
@@ -1009,6 +982,19 @@ Cleric 2, Magic-User 3
 
 Duration: 2d8 turns
 
+```{ojs}
+// function rolld4() {
+//   var randomNumber = Math.floor(Math.random() * 4) + 1;
+//   return randomNumber;
+// }
+
+import {generalDice} from "./custom.js"
+
+viewof holdPerson = Inputs.button("Roll 2d8", {value: 0, reduce: () => generalDice(2,8,0)})
+```
+
+2d8 = ${holdPerson}
+
 This spell will render any living (not undead) humanoid
 creature (as defined in **charm person**) paralyzed.
 Creatures larger than ogres will not be affected by this
@@ -1122,6 +1108,7 @@ Note that casting this spell upon another makes the
 target invisible to the caster as well as everyone else. A
 party of invisible characters will likely experience
 problems with running into or tripping over each other.
+
 The spell lasts at most 24 hours if not ended sooner. It
 ends instantly if the target attacks an opponent or casts
 any spell. Other actions do not normally end the spell.
@@ -1191,7 +1178,7 @@ The knock spell opens stuck, barred, locked, **held**, or **wizard locked** d
 Each casting undoes a single method of securing the
 door or item, so that for example a door which is both
 locked and stuck can be unlocked but will still be stuck;
-a second casting of knock will open such a door.
+a second casting of **knock** will open such a door.
 
 </div>
 <div class="spell" data-tag="Levitate" id="Levitate">
@@ -1790,6 +1777,7 @@ attempted by the affected creatures against the subject.
 
 First, the subject receives a bonus of +2 to their Armor
 Class, and a similar bonus of +2 on all saving throws.
+
 Second, the barrier blocks all attempts to **charm** or
 otherwise control the subject, or to possess the subject
 (such as with **magic jar**). Such attempts simply fail
@@ -2023,9 +2011,7 @@ Cleric 6
 
 Duration: permanent
 
-This spell causes the subject's severed body members (fingers, toes, hands, feet, arms, legs, tails, or even heads of multiheaded creatures), broken bones, and ruined organs to grow back. After the spell is cast, the physical regeneration is complete in 1 round if the severed members are present and touching the creature. Otherwise, a full turn is required for the regeneration to complete.
-
-This spell also heals 3d8 points of damage. Regenerate has no effect on nonliving creatures or constructs (including undead).
+This is the most powerful of healing spells, able to cause lost or destroyed body parts, even internal organs, of a living creature to grow back and heal. Severed body parts can be put back in place and will reattach fully in a round (or one round per body part if multiple parts are to be reattached), but regrowing any number of lost body parts requires a full turn. In addition, the spell heals 3d8 points of damage just as if it were a normal **cure wounds** spell.
 
 </div>
 <div class="spell" data-tag="Reincarnate" id="Reincarnate">
@@ -2240,7 +2226,7 @@ Each casting of the spell removes a single negative level from a creature who ha
 
 Alternately, this spell can be used to restore drained ability score points. If applied to a character who has suffered temporary loss of ability points, it will restore up to 1d4 lost points to any one drained ability immediately. If applied to a character who has suffered permanent loss of ability points, 1 point can be restored.
 
-Restoration does not restore levels lost due to death (as described for the spell **raise dead**).
+This spell cannot restore any levels lost permanently, such as those lost due to death as described for the spells **raise dead** and **reincarnate**.
 
 </div>
 <div class="spell" data-tag="Shield" id="Shield">
@@ -2403,6 +2389,7 @@ corpse has been dead, but it must be essentially intact
 with at least a comple
 te mouth in order to answer
 questions.
+
 The corpse will answer at most one question per two
 caster levels, but if the duration expires any remaining
 questions are lost. The corpse only knows what it knew
@@ -2443,7 +2430,7 @@ Cleric 2
 
 Duration: 1 round/level
 
-This spell causes a warhammer made of pure force to spring into existence, attacking any foe chosen by the Cleric within range once per round. It deals 1d6 hit points of damage per strike, +1 point per three caster levels (maximum of +5). It uses the caster's normal attack bonus, striking as a magical weapon, and thus can inflict damage upon creatures that are only hit by magic weapons. If the hammer goes beyond the spell range, the Cleric loses sight of it, or the caster ceases to direct it, the hammer disappears. The hammer cannot be attacked or harmed by physical attacks, but **dispel magic**, **disintegrate**, or a **rod of cancellation** will dispel it.
+This spell causes a warhammer made of magical force to appear, attacking any foe chosen by the Cleric within range once per round.  The weapon moves about as if wielded by a person of about the caster's stature, but no such person is present.  It deals 1d6 hit points of damage per strike, +1 point per three caster levels (maximum of +5).  It uses the caster’s normal attack bonus, striking as a magical weapon, and thus can inflict damage upon creatures that are only hit by magic weapons.  If the Cleric loses sight of the weapon, causes it to move out of the spell range, or ceases to direct it, the hammer disappears.  The weapon is immune to any normal attack, but can be destroyed by **disintegrate**, **dispel magic**, or a **rod of cancellation**.
 
 </div>
 <div class="spell" data-tag="Sticks to Snakes" id="Sticks to Snakes">
@@ -2737,7 +2724,7 @@ are immune to being crushed and will simply be
 knocked down if the save fails.
 
 The wall is permanent, as indicated, but being made of
-iron is susceptible to rust and corrosion
+iron is susceptible to rust and corrosion.
 
 </div>
 <div class="spell" data-tag="Wall of Stone" id="Wall of Stone">
@@ -2875,7 +2862,7 @@ Magic User 4
 
 Duration: 6 turns
 
-With this spell the caster creates an invisible magical "eye" through which he or she can see. The eye has Darkvision, but otherwise sees exactly as the caster would. It can be created in any place the caster can see, up to a range of 240' away, and thereafter can move at a rate of 40' per round as directed by the caster. The eye will not move more than 240' feet away from the caster under any circumstances. The eye cannot pass through solid objects, but as it is exactly the size of a normal human's eye, it can pass through holes as small as 1 inch in diameter. The caster must concentrate to use the eye.
+With this spell the caster creates an invisible magical "eye" through which they can see. The eye has Darkvision with a range of 30 feet, but otherwise sees exactly as the caster would. It can be created in any place the caster can see, up to a range of 240 feet away, and thereafter can move at a rate of 40 feet per round as directed by the caster. The eye will not move more than 240 feet away from the caster under any circumstances.  The eye cannot pass through solid objects, but as it is exactly the size of a normal human's eye, it can pass through holes as small as 1 inch in diameter. The caster must concentrate to use the eye.
 
 </div>
 <div class="spell" data-tag="Wizard Lock" id="Wizard Lock">

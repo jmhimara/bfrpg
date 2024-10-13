@@ -51,11 +51,7 @@ book:
         - appendix_interactive.qmd
         - appendixMapmaker.qmd
         - char_sheet.qmd
-    - part: Extra
-      chapters:
-        - extraClasses.qmd
-        - extraRaces.qmd
-        - extraRules.qmd
+
 
 
 

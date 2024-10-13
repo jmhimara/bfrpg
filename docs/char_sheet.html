@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Basic Fantasy RPG, 4th edition - 24&nbsp; Character Sheet</title>
+<title>24&nbsp; Character Sheet – Basic Fantasy RPG, 4th edition</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -33,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -64,7 +64,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./extraClasses.html" rel="next">
 <link href="./appendixMapmaker.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -83,7 +82,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -92,6 +97,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -120,13 +126,13 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./appendix_interactive.html">Appendix</a></li><li class="breadcrumb-item"><a href="./char_sheet.html"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Character Sheet</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./appendix_interactive.html">Appendix</a></li><li class="breadcrumb-item"><a href="./char_sheet.html"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Character Sheet</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -135,7 +141,7 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Basic Fantasy RPG, 4th edition</a> 
@@ -159,9 +165,9 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Introduction</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -176,9 +182,9 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Player Characters</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -223,9 +229,9 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
  <span class="menu-text">Magic</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -246,9 +252,9 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
  <span class="menu-text">Adventure</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -281,9 +287,9 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
  <span class="menu-text">Encounters</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -298,9 +304,9 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
  <span class="menu-text">Monsters</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -327,9 +333,9 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
  <span class="menu-text">Treasure</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -350,9 +356,9 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
  <span class="menu-text">GM Information</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -373,9 +379,9 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
  <span class="menu-text">Appendix</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -400,47 +406,18 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true">
- <span class="menu-text">Extra</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extraClasses.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Additional Classes</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extraRaces.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Additional Races</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extraRules.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Aditional and Alternate Rules</span></span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./appendix_interactive.html">Appendix</a></li><li class="breadcrumb-item"><a href="./char_sheet.html"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Character Sheet</span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Character Sheet</span></h1>
 </div>
@@ -455,7 +432,9 @@ gtag('config', 'G-JS65M33XZB', { 'anonymize_ip': true});
   </div>
   
 
+
 </header>
+
 
 
 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
@@ -503,7 +482,7 @@ body {
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="606" data-source-offset="-44"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 605;"><span id="cb3-606"><a href="#cb3-606" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">addButtonMaybe</span> (id<span class="op">,</span>button) {</span>
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="606" data-source-offset="-42"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 605;"><span id="cb3-606"><a href="#cb3-606" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">addButtonMaybe</span> (id<span class="op">,</span>button) {</span>
 <span id="cb3-607"><a href="#cb3-607" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (d3<span class="op">.</span><span class="fu">select</span>(id)<span class="op">.</span><span class="fu">empty</span>()) {</span>
 <span id="cb3-608"><a href="#cb3-608" aria-hidden="true" tabindex="-1"></a>        d3<span class="op">.</span><span class="fu">select</span>(button)<span class="op">.</span><span class="fu">on</span>(<span class="st">'click'</span>)()</span>
 <span id="cb3-609"><a href="#cb3-609" aria-hidden="true" tabindex="-1"></a>    }</span>
@@ -758,7 +737,6 @@ body {
 <p><br></p>
 <div class="column-screen-inset">
 
-
   <h2 class="anchored">Character Details</h2>
     <br>
     
@@ -942,7 +920,7 @@ body {
 <br>
 
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="797" data-source-offset="-4"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 796;"><span id="cb4-797"><a href="#cb4-797" aria-hidden="true" tabindex="-1"></a>dice100 <span class="op">=</span> {</span>
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="797" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 796;"><span id="cb4-797"><a href="#cb4-797" aria-hidden="true" tabindex="-1"></a>dice100 <span class="op">=</span> {</span>
 <span id="cb4-798"><a href="#cb4-798" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-799"><a href="#cb4-799" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-800"><a href="#cb4-800" aria-hidden="true" tabindex="-1"></a></span>
@@ -1161,7 +1139,7 @@ body {
     <a href="combat.html#combat" class="nav-link" id="combat-tab" data-bs-toggle="tab" data-bs-target="#combat" type="button" role="tab" aria-controls="combat" aria-selected="false">Combat</a>
   </li>
   <li class="nav-item" role="presentation">
-    <a href="extraClasses.html#spells" class="nav-link" id="Spells-tab" data-bs-toggle="tab" data-bs-target="#spells" type="button" role="tab" aria-controls="spells" aria-selected="false">Spells</a>
+    <a href="#spells" class="nav-link" id="Spells-tab" data-bs-toggle="tab" data-bs-target="#spells" type="button" role="tab" aria-controls="spells" aria-selected="false">Spells</a>
   </li>
   <li class="nav-item" role="presentation">
     <a href="#equipment" class="nav-link" id="equipment-tab" data-bs-toggle="tab" data-bs-target="#equipment" type="button" role="tab" aria-controls="equipment" aria-selected="false">Equipment</a>
@@ -1502,7 +1480,7 @@ body {
 <!-- ------------------------------------------------------- 
 --------------------------------- -------------------------->
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="1" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">addWeapon</span>() {</span>
+<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="1" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">addWeapon</span>() {</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> inputContainer <span class="op">=</span> d3<span class="op">.</span><span class="fu">select</span>(<span class="st">'#attackContainer'</span>)<span class="op">;</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> inputCount <span class="op">=</span> inputContainer<span class="op">.</span><span class="fu">selectAll</span>(<span class="st">'.grid'</span>)<span class="op">.</span><span class="fu">size</span>()<span class="op">;</span></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -1571,7 +1549,7 @@ body {
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="1" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">addAmmo</span>() {</span>
+<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="1" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">addAmmo</span>() {</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> inputContainer <span class="op">=</span> d3<span class="op">.</span><span class="fu">select</span>(<span class="st">'#ammoContainer'</span>)<span class="op">;</span></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> inputCount <span class="op">=</span> inputContainer<span class="op">.</span><span class="fu">selectAll</span>(<span class="st">'.grid'</span>)<span class="op">.</span><span class="fu">size</span>()<span class="op">;</span></span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -1673,7 +1651,7 @@ body {
         <button id="addSpellButton" class="btn btn-primary rounded">Add Spell</button>
     </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="1" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">addSpell</span>() {</span>
+<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="1" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">addSpell</span>() {</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> inputContainer <span class="op">=</span> d3<span class="op">.</span><span class="fu">select</span>(<span class="st">'#spellContainer'</span>)<span class="op">;</span></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> inputCount <span class="op">=</span> inputContainer<span class="op">.</span><span class="fu">selectAll</span>(<span class="st">'.grid'</span>)<span class="op">.</span><span class="fu">size</span>()<span class="op">;</span></span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -1733,7 +1711,6 @@ body {
 --------------------------------- -------------------------->
 
     <div class="tab-pane" id="equipment" role="tabpanel" aria-labelledby="equipment-tab">
-
 
 
 <h2 class="anchored">Currency</h2>
@@ -1956,7 +1933,7 @@ body {
 
 </style>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb8" data-startfrom="1" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">addWeaponEq</span>() {</span>
+<div class="sourceCode cell-code hidden" id="cb8" data-startfrom="1" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">addWeaponEq</span>() {</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> inputContainer <span class="op">=</span> d3<span class="op">.</span><span class="fu">select</span>(<span class="st">'#weaponEqContainer'</span>)<span class="op">;</span></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> inputCount <span class="op">=</span> inputContainer<span class="op">.</span><span class="fu">selectAll</span>(<span class="st">'.grid'</span>)<span class="op">.</span><span class="fu">size</span>()<span class="op">;</span></span>
 <span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -2226,7 +2203,7 @@ body {
     }
 </style>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb10" data-startfrom="1" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">addHireling</span>() {</span>
+<div class="sourceCode cell-code hidden" id="cb10" data-startfrom="1" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">addHireling</span>() {</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> inputContainer <span class="op">=</span> d3<span class="op">.</span><span class="fu">select</span>(<span class="st">'#hirelingsContainer'</span>)<span class="op">;</span></span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> inputCount <span class="op">=</span> inputContainer<span class="op">.</span><span class="fu">selectAll</span>(<span class="st">'.input-group'</span>)<span class="op">.</span><span class="fu">size</span>()<span class="op">;</span></span>
 <span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -2861,7 +2838,7 @@ body {
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb12" data-startfrom="2" data-source-offset="-4"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 1;"><span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">savetoFile</span>(){</span>
+<div class="sourceCode cell-code hidden" id="cb12" data-startfrom="2" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 1;"><span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">savetoFile</span>(){</span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> char <span class="op">=</span> {}<span class="op">;</span></span>
 <span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Name and basic info</span></span>
@@ -3062,7 +3039,7 @@ body {
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"viewof recordsFile = Inputs.file({accept: \".json\"})\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"char = {\r\nif (recordsFile != null){\r\n    const data = recordsFile.json()\r\n    \r\n    return data\r\n}}\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"// Load json file into character sheet. \r\n\r\nfunction addButtonMaybe (id,button) {\r\n    if (d3.select(id).empty()) {\r\n        d3.select(button).on('click')()\r\n    }\r\n}\r\n\r\nloadFile = {\r\n    ////////////////////////////\r\nif (char != undefined){\r\n\r\n\r\n    // Name and basic info \r\n    d3.select('#Name').attr('value',char.Name);\r\n    d3.select('#charClass').select('dd').text(char.Class);\r\n    d3.select('#charRace').select('dd').text(char.Race);\r\n    d3.select('#charLevel').select('dd').text(char.Level);\r\n    d3.select('#charExperience').select('dd').text(char.Experience);\r\n\r\n    d3.select('#hp1').attr('value',char.HP);\r\n    d3.select('#hp2').attr('value',char.MaxHP);\r\n    d3.select('#ACinput').attr('value',char.AC);\r\n    d3.select('#HDinput').attr('value',char.HD);\r\n\r\n    d3.select('#BABbox').text(char.BAB);\r\n    d3.select('#MovementBox').text(char.Movement);\r\n    d3.select('#InitiativeBox').text(char.Initiative);\r\n\r\n    // Abilities\r\n    d3.select('#strNum').attr('value',char.Abilities.Str ); \r\n    d3.select('#dexNum').attr('value',char.Abilities.Dex );\r\n    d3.select('#conNum').attr('value',char.Abilities.Con);\r\n    d3.select('#wisNum').attr('value',char.Abilities.Wis );\r\n    d3.select('#intNum').attr('value',char.Abilities.Int );\r\n    d3.select('#chaNum').attr('value',char.Abilities.Cha );\r\n\r\n    d3.select(\"#strMod\").text(calculateModifier(char.Abilities.Str))\r\n    d3.select(\"#dexMod\").text(calculateModifier(char.Abilities.Dex)) \r\n    d3.select(\"#conMod\").text(calculateModifier(char.Abilities.Con))\r\n    d3.select(\"#intMod\").text(calculateModifier(char.Abilities.Wis))\r\n    d3.select(\"#wisMod\").text(calculateModifier(char.Abilities.Int))\r\n    d3.select(\"#chaMod\").text(calculateModifier(char.Abilities.Cha))\r\n\r\n\r\n    // Saves\r\n    d3.select('#save-drpBox').attr('value',char.Saves.DRP ); \r\n    d3.select('#save-wandBox').attr('value',char.Saves.MW );\r\n    d3.select('#save-parBox').attr('value',char.Saves.Par);\r\n    d3.select('#save-dbBox').attr('value',char.Saves.DB);\r\n    d3.select('#save-spellBox').attr('value',char.Saves.Spl);\r\n\r\n\r\n    // Thieving skills \r\n    d3.select('#thiefLocksInput ').attr('value',char.ThiefSkills.OpenLocks);\r\n    d3.select('#thiefTrapInput ').attr('value',char.ThiefSkills.RemoveTraps);\r\n    d3.select('#thiefPocketsInput ').attr('value',char.ThiefSkills.PickPockets);\r\n    d3.select('#thiefSilentInput ').attr('value',char.ThiefSkills.MoveSilent);\r\n    d3.select('#thiefClimbInput ').attr('value',char.ThiefSkills.ClimbWalls); \r\n    d3.select('#thiefHideInput ').attr('value',char.ThiefSkills.Hide);\r\n    d3.select('#thiefListenInput ').attr('value',char.ThiefSkills.Listen);\r\n\r\n    // Langs and other skills\r\n\r\n    const langs = char.Languages\r\n    const oSkills = char.OtherSkills\r\n\r\n    if (langs.length <= 1) {\r\n        d3.select('#language1').attr('value',langs[0]);\r\n    } else {\r\n        d3.select('#language1').attr('value',langs[0]);\r\n        langs.slice(1).forEach( (x,i) => {\r\n            addButtonMaybe(('#language'+ String(i+2)), '#addInputButton')\r\n            // d3.select('#addInputButton').on('click')()\r\n            d3.select('#language' + String(i+2)).attr('value',x)\r\n        });\r\n    }\r\n\r\n    if (oSkills.length <= 1) {\r\n        d3.select('#skill1').attr('value',oSkills[0]);\r\n    } else {\r\n        d3.select('#skill1').attr('value',oSkills[0]);\r\n        oSkills.slice(1).forEach( (x,i) => {\r\n            addButtonMaybe(('#skill' + String(i+2)), '#addSkillButton')\r\n            d3.select('#skill' + String(i+2)).attr('value',x)\r\n        });\r\n    }\r\n\r\n    /// Attacks\r\n    const weaponEq = char.WeaponEq\r\n\r\n\r\n    if (weaponEq.length > 0) {\r\n        d3.select('#weaponForm1').attr('value',weaponEq[0].name);\r\n        d3.select('#attackForm1').attr('value',weaponEq[0].attack);\r\n        d3.select('#damageForm1').attr('value',weaponEq[0].damage);\r\n        d3.select('#rangeSForm1').attr('value',weaponEq[0].S);\r\n        d3.select('#rangeMForm1').attr('value',weaponEq[0].M);\r\n        d3.select('#rangeLForm1').attr('value',weaponEq[0].L);\r\n        d3.select('#notesForm1').attr('value',weaponEq[0].notes);\r\n        weaponEq.slice(1).forEach( (x,i) => {\r\n            addButtonMaybe(('#weaponForm' + String(i+2)), '#addWeaponButton')\r\n            // d3.select('#addWeaponButton').on('click')()\r\n            d3.select('#weaponForm' + String(i+2)).attr('value',x.name);\r\n            d3.select('#attackForm' + String(i+2)).attr('value',x.attack);\r\n            d3.select('#damageForm' + String(i+2)).attr('value',x.damage);\r\n            d3.select('#rangeSForm' + String(i+2)).attr('value',x.S);\r\n            d3.select('#rangeMForm' + String(i+2)).attr('value',x.M);\r\n            d3.select('#rangeLForm' + String(i+2)).attr('value',x.L);\r\n            d3.select('#notesForm' + String(i+2)).attr('value',x.notes);\r\n        })\r\n    }\r\n\r\n\r\n    // Ammo\r\n    const ammoEq = char.AmmoEq\r\n    if (ammoEq.length > 0) {\r\n        d3.select('#ammoForm1').attr('value',ammoEq[0].name);\r\n        d3.select('#countForm1').attr('value',ammoEq[0].count);\r\n        d3.select('#ammoDmgForm1').attr('value',ammoEq[0].damage);\r\n        d3.select('#ammo-notesForm1').attr('value',ammoEq[0].notes);\r\n        ammoEq.slice(1).forEach( (x,i) => {\r\n            addButtonMaybe(('#ammoForm' + String(i+2)), '#addAmmoButton')\r\n            //d3.select('#addAmmoButton').on('click')()\r\n            d3.select('#ammoForm' + String(i+2)).attr('value',x.name);\r\n            d3.select('#countForm' + String(i+2)).attr('value',x.count);\r\n            d3.select('#ammoDmgForm' + String(i+2)).attr('value',x.damage);\r\n            d3.select('#ammo-notesForm' + String(i+2)).attr('value',x.notes);\r\n        })\r\n    }\r\n\r\n    /// Turn Undead\r\n\r\n    const turning = char.Turning\r\n\r\n    turning.forEach( (x,i) => {\r\n        d3.select('#turn'+ String(i + 1)).attr('value',x)\r\n    })\r\n\r\n    // spells\r\n    const spells = char.Spells\r\n    if (spells.length > 0) {\r\n        d3.select('#spell-level-Form1').attr('value',spells[0].spellLvl);\r\n        d3.select('#spell-name-Form1').attr('value',spells[0].spellName);\r\n        d3.select('#spell-prep-Form1').attr('value',spells[0].prep);\r\n        spells.slice(1).forEach( (x,i) => {\r\n            addButtonMaybe(('#spell-level-Form' + String(i+2)), '#addSpellButton')\r\n            //d3.select('#addSpellButton').on('click')()\r\n            d3.select('#spell-level-Form' + String(i+2)).attr('value',x.spellLvl);\r\n            d3.select('#spell-name-Form' + String(i+2)).attr('value',x.spellName);\r\n            d3.select('#spell-prep-Form' + String(i+2)).attr('value',x.prep);\r\n        })\r\n    }\r\n\r\n    // Currency\r\n    d3.select('#PPbox').text(char.Equipment.Currency.pp)\r\n    d3.select('#GPbox').text(char.Equipment.Currency.gp)\r\n    d3.select('#EPbox').text(char.Equipment.Currency.ep)\r\n    d3.select('#SPbox').text(char.Equipment.Currency.sp)\r\n    d3.select('#CPbox').text(char.Equipment.Currency.cp)\r\n\r\n\r\n        // Weapon Inventory\r\n    const weaponsInv = char.Equipment.Weapons\r\n\r\n    if (weaponsInv.length > 0) {\r\n        d3.select('#itemMagical1').property('checked', weaponsInv[0].magic);\r\n        d3.select('#itemEquipped1').property('checked', weaponsInv[0].equipped);\r\n        d3.select('#itemName1').attr('value', weaponsInv[0].name);\r\n        d3.select('#itemWeight1').attr('value',weaponsInv[0].weight).on('input')();\r\n        weaponsInv.slice(1).forEach( (x,i) => {\r\n            addButtonMaybe(('#itemMagical' + String(i+2)), '#addWeaponEqButton')\r\n            //d3.select('#addWeaponEqButton').on('click')()\r\n            d3.select('#itemMagical' + String(i+2)).property('checked',x.magic);\r\n            d3.select('#itemEquipped' + String(i+2)).property('checked',x.equipped);\r\n            d3.select('#itemName' + String(i+2)).attr('value',x.name);\r\n            d3.select('#itemWeight' + String(i+2)).attr('value',x.weight)\r\n        })\r\n    }\r\n    d3.select('#itemWeight1').attr('value',weaponsInv[0].weight).on('input')();\r\n    \r\n    // armor Inventory\r\n    const armorInv = char.Equipment.Armor\r\n    console.log(\"hellow world\")\r\n    console.log(char.Equipment.Armor)\r\n    if (armorInv.length > 0) {\r\n        d3.select('#armorMagical1').property('checked', armorInv[0].magic);\r\n        d3.select('#armorEquipped1').property('checked', armorInv[0].equipped);\r\n        d3.select('#armorName1').attr('value', armorInv[0].name);\r\n        d3.select('#armorWeight1').attr('value',armorInv[0].weight).on('input')(); //trigger the input for weight sum\r\n        armorInv.slice(1).forEach( (x,i) => {\r\n            addButtonMaybe(('#armorMagical' + String(i+2)), '#addArmorEqButton')\r\n            //d3.select('#addArmorEqButton').on('click')()\r\n            d3.select('#armorMagical' + String(i+2)).property('checked',x.magic);\r\n            d3.select('#armorEquipped' + String(i+2)).property('checked',x.equipped);\r\n            d3.select('#armorName' + String(i+2)).attr('value',x.name);\r\n            d3.select('#armorWeight' + String(i+2)).attr('value',x.weight).on('input')()\r\n            ;\r\n        })\r\n    }\r\n\r\n    // Misc Inventory\r\n    const miscInv = char.Equipment.Misc\r\n\r\n    if (miscInv.length > 0) {\r\n        d3.select('#miscMagical1').property('checked', miscInv[0].magic);\r\n        d3.select('#miscEquipped1').property('checked', miscInv[0].equipped);\r\n        d3.select('#miscName1').attr('value', miscInv[0].name);\r\n        d3.select('#miscWeight1').attr('value',miscInv[0].weight).on('input')(); //trigger the input for weight sum\r\n        miscInv.slice(1).forEach( (x,i) => {\r\n            addButtonMaybe(('#miscMagical' + String(i+2)), '#addItemEqButton')\r\n            //d3.select('#addItemEqButton').on('click')()\r\n            d3.select('#miscMagical' + String(i+2)).property('checked',x.magic);\r\n            d3.select('#miscEquipped' + String(i+2)).property('checked',x.equipped);\r\n            d3.select('#miscName' + String(i+2)).attr('value',x.name);\r\n            d3.select('#miscWeight' + String(i+2)).attr('value',x.weight)\r\n            ;\r\n        })\r\n    }\r\n    d3.select('#miscWeight1').on('input')();\r\n\r\n    /// notes\r\n    const hirelings = char.Hirelings\r\n\r\n    if (hirelings.length > 0) {\r\n        d3.select('#hireling1').attr('value', hirelings[0]);\r\n        hirelings.slice(1).forEach( (x,i) => {\r\n            addButtonMaybe(('#hireling' + String(i+2)), '#addHirelingButton')\r\n            //d3.select('#addHirelingButton').on('click')()\r\n            d3.select('#hireling' + String(i+2)).attr('value',x);\r\n        })\r\n    }\r\n\r\n    d3.select('#background').text(char.Background);\r\n    d3.select('#miscNotes').text(char.MiscNotes);\r\n\r\n}// if\r\n///////////////////////////////////\r\n}\r\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"\r\n\r\ndice100 = {\r\n\r\n\r\n\r\nconst popoverTriggerEl = document.querySelector('#d100');\r\nlet popoverVal = 0;\r\n\r\nconst popover = new bootstrap.Popover(popoverTriggerEl, {\r\n  content: popoverVal,\r\n  placement: 'top'\r\n});\r\n\r\npopoverTriggerEl.addEventListener('show.bs.popover', () => {\r\n    const diceNumber = Number(document.getElementById(\"d100-number\").value)\r\n    popoverVal = generalDice(diceNumber,100,0); // replace with a call to your function\r\n\r\n  popover.setContent({\r\n    '.popover-body': popoverVal.toString()\r\n  });\r\n});\r\n}\r\n\r\ndice20 = {\r\n\r\n\r\nconst popoverTriggerEl = document.querySelector('#d20');\r\nlet popoverVal = 0;\r\n\r\nconst popover = new bootstrap.Popover(popoverTriggerEl, {\r\n  content: popoverVal,\r\n  placement: 'top'\r\n});\r\n\r\npopoverTriggerEl.addEventListener('show.bs.popover', () => {\r\n    const diceNumber = Number(document.getElementById(\"d20-number\").value)\r\n  popoverVal = generalDice(diceNumber,20,0); // replace with a call to your function\r\n\r\n  popover.setContent({\r\n    '.popover-body': popoverVal.toString()\r\n  });\r\n});\r\n\r\n\r\n}\r\n\r\ndice12 = {\r\n\r\n\r\nconst popoverTriggerEl = document.querySelector('#d12');\r\nlet popoverVal = 0;\r\n\r\nconst popover = new bootstrap.Popover(popoverTriggerEl, {\r\n  content: popoverVal,\r\n  placement: 'top'\r\n});\r\n\r\npopoverTriggerEl.addEventListener('show.bs.popover', () => {\r\n    const diceNumber = Number(document.getElementById(\"d12-number\").value) \r\n    popoverVal = generalDice(diceNumber,12,0); // replace with a call to your function\r\n\r\n  popover.setContent({\r\n    '.popover-body': popoverVal.toString()\r\n  });\r\n});\r\n\r\n\r\n}\r\n\r\ndice10 = {\r\n\r\n\r\nconst popoverTriggerEl = document.querySelector('#d10');\r\nlet popoverVal = 0;\r\n\r\nconst popover = new bootstrap.Popover(popoverTriggerEl, {\r\n  content: popoverVal,\r\n  placement: 'top'\r\n});\r\n\r\npopoverTriggerEl.addEventListener('show.bs.popover', () => {\r\n    const diceNumber = Number(document.getElementById(\"d10-number\").value)\r\n    popoverVal = generalDice(diceNumber,10,0); // replace with a call to your function\r\n\r\n  popover.setContent({\r\n    '.popover-body': popoverVal.toString()\r\n  });\r\n});\r\n\r\n\r\n}\r\n\r\ndice8 = {\r\n\r\n\r\nconst popoverTriggerEl = document.querySelector('#d8');\r\nlet popoverVal = 0;\r\n\r\nconst popover = new bootstrap.Popover(popoverTriggerEl, {\r\n  content: popoverVal,\r\n  placement: 'top'\r\n});\r\n\r\npopoverTriggerEl.addEventListener('show.bs.popover', () => {\r\n    const diceNumber = Number(document.getElementById(\"d8-number\").value)\r\n    popoverVal = generalDice(diceNumber,8,0); // replace with a call to your function\r\n\r\n  popover.setContent({\r\n    '.popover-body': popoverVal.toString()\r\n  });\r\n});\r\n\r\n\r\n}\r\n\r\ndice6 = {\r\n\r\n\r\nconst popoverTriggerEl = document.querySelector('#d6');\r\nlet popoverVal = 0;\r\n\r\nconst popover = new bootstrap.Popover(popoverTriggerEl, {\r\n  content: popoverVal,\r\n  placement: 'top'\r\n});\r\n\r\npopoverTriggerEl.addEventListener('show.bs.popover', () => {\r\n    const diceNumber = Number(document.getElementById(\"d6-number\").value)\r\n  popoverVal = generalDice(diceNumber,6,0); // replace with a call to your function\r\n\r\n  popover.setContent({\r\n    '.popover-body': popoverVal.toString()\r\n  });\r\n});\r\n\r\n\r\n}\r\n\r\ndice4 = {\r\n\r\n\r\nconst popoverTriggerEl = document.querySelector('#d4');\r\nlet popoverVal = 0;\r\n\r\nconst popover = new bootstrap.Popover(popoverTriggerEl, {\r\n  content: popoverVal,\r\n  placement: 'top'\r\n});\r\n\r\npopoverTriggerEl.addEventListener('show.bs.popover', () => {\r\n    const diceNumber = Number(document.getElementById(\"d4-number\").value)\r\n    popoverVal = generalDice(diceNumber,4,0); // replace with a call to your function\r\n\r\n  popover.setContent({\r\n    '.popover-body': popoverVal.toString()\r\n  });\r\n});\r\n\r\n\r\n}\r\n"},{"methodName":"interpret","cellName":"ojs-cell-5","inline":false,"source":"\r\nfunction addWeapon() {\r\n      var inputContainer = d3.select('#attackContainer');\r\n      var inputCount = inputContainer.selectAll('.grid').size();\r\n\r\n      \r\n\r\n    var inputGroup = inputContainer\r\n      .append('div')\r\n      .attr('class','grid g-0 justify-content-center').attr('style','--bs-gap:0;--bs-columns:13;')\r\n      .attr('id','attack'+(inputCount + 1))\r\n\r\n    inputGroup\r\n    .html(`\r\n      <div class=\"g-col-3\">\r\n        <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm weaponForm\"  id=\"weaponForm${inputCount + 1}\">\r\n      </div>\r\n      <div class=\"g-col-2\">\r\n        <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm attackForm\" id=\"attackForm${inputCount + 1}\">\r\n      </div>\r\n      <div class=\"g-col-2\">\r\n        <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm damageForm\"  id=\"damageForm${inputCount + 1}\">\r\n      </div>  \r\n      <div class=\"g-col-1\">\r\n        <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm rangeSForm\"  id=\"rangeSForm${inputCount + 1}\">\r\n      </div>\r\n      <div class=\"g-col-1\">\r\n        <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm rangeMForm\" id=\"rangeMForm${inputCount + 1}\" >\r\n      </div>  \r\n      <div class=\"g-col-1\">\r\n        <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm rangeLForm\" id=\"rangeLForm${inputCount + 1}\">\r\n      </div>\r\n      <div class=\"g-col-2\">\r\n        <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm notesForm\"  id=\"notesForm${inputCount + 1}\">\r\n      </div>`)\r\n    .append('div')\r\n    .attr('class','g-col-1')\r\n    .append('i')\r\n    .attr('class', 'bi bi-x-lg mt-3 text-danger')\r\n    .attr('style', 'cursor: pointer;')\r\n    .attr('id', 'attackDel' + (inputCount + 1))\r\n    .on('click', function() {\r\n          inputGroup.remove();\r\n        });\r\n      \r\n    console.log(inputCount)\r\n    }\r\n\r\nweapon = {\r\n    const addInputButton = d3.select('#addWeaponButton');\r\n    addInputButton.on('click', () => addWeapon() );\r\n\r\n \r\n}\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-6","inline":false,"source":"\r\nfunction addAmmo() {\r\n      var inputContainer = d3.select('#ammoContainer');\r\n      var inputCount = inputContainer.selectAll('.grid').size();\r\n\r\n    var inputGroup = inputContainer\r\n      .append('div')\r\n      .attr('class','grid g-0 justify-content-center').attr('style','--bs-gap:0;--bs-columns:13;')\r\n      .attr('id','ammo'+(inputCount + 1))\r\n\r\n    inputGroup\r\n    .html(`\r\n    <div class=\"g-col-3\">\r\n        <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm ammoForm\" id=ammoForm${inputCount + 1}>\r\n    </div>\r\n    <div class=\"g-col-1\">\r\n        <div class=\"form-outline\">\r\n            <input autocomplete=\"off\" type=\"number\" class=\"form-control form-control-sm countForm\" value=0 id=countForm${inputCount + 1}>\r\n        </div>\r\n    </div>\r\n    <div class=\"g-col-1\">\r\n        <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm ammoDmgForm\"  id=ammoDmgForm${inputCount + 1}>\r\n    </div>  \r\n    <div class=\"g-col-6\">\r\n        <div class=\"form-outline\">\r\n            <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm ammo-notesForm\" id=ammo-notesForm${inputCount + 1}>\r\n        </div>\r\n    </div>    \r\n    `)\r\n    .append('div')\r\n    .attr('class','g-col-1')\r\n    .append('i')\r\n    .attr('class', 'bi bi-x-lg mt-3 text-danger')\r\n    .attr('style', 'cursor: pointer;')\r\n    .attr('id', 'ammoDel' + (inputCount + 1))\r\n    .on('click', function() {\r\n          inputGroup.remove();\r\n        });\r\n      \r\n    }\r\n\r\nammo = {\r\n    const addInputButton = d3.select('#addAmmoButton');\r\n    addInputButton.on('click', () => addAmmo() );\r\n\r\n}\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-7","inline":false,"source":"\r\nfunction addSpell() {\r\n      var inputContainer = d3.select('#spellContainer');\r\n      var inputCount = inputContainer.selectAll('.grid').size();\r\n\r\n    var inputGroup = inputContainer\r\n      .append('div')\r\n      .attr('class','grid align-content-center').attr('style','--bs-gap:0;--bs-columns:12;')\r\n      .attr('id','spell'+(inputCount + 1))\r\n\r\n    inputGroup\r\n    .html(`\r\n      <div class=\"g-col-2 g-col-sm-1\">\r\n        <input autocomplete=\"off\" type=\"text\" class=\"form-control text-center spell-level\"  id=\"spell-level-Form${inputCount + 1}\">\r\n      </div>\r\n      <div class=\"g-col-7 g-col-sm-8\">\r\n        <input autocomplete=\"off\" type=\"text\" class=\"form-control  spell-name\"  id=\"spell-name-Form${inputCount + 1}\">\r\n      </div>\r\n      <div class=\"g-col-2\">\r\n        <input autocomplete=\"off\" type=\"number\" class=\"form-control  spell-prep\" id=\"spell-prep-Form${inputCount + 1}\" value=0>\r\n      </div> \r\n    `)\r\n    .append('div')\r\n    .attr('class','g-col-1')\r\n    .append('i')\r\n    .attr('class', 'bi bi-x-lg mt-3 text-danger')\r\n    .attr('style', 'cursor: pointer;')\r\n    .attr('id', 'spellDel' + (inputCount + 1))\r\n    .on('click', function() {\r\n          inputGroup.remove();\r\n        });\r\n      \r\n    }\r\n\r\nspell = {\r\n    const addInputButton = d3.select('#addSpellButton');\r\n    addInputButton.on('click', () => addSpell() );\r\n\r\n}\r\n"},{"methodName":"interpret","cellName":"ojs-cell-8","inline":false,"source":"\r\nfunction addWeaponEq() {\r\n      var inputContainer = d3.select('#weaponEqContainer');\r\n      var inputCount = inputContainer.selectAll('.grid').size();\r\n\r\n    var inputGroup = inputContainer\r\n      .append('div')\r\n      .attr('class','grid align-content-center').attr('style','--bs-gap:0;--bs-columns:12;')\r\n      .attr('id','weaponEq'+(inputCount + 1))\r\n\r\n    inputGroup\r\n    .html(`\r\n        <div class=\"g-col-1 mt-2\">\r\n            <input autocomplete=\"off\" class=\"form-check-input weaponsEqMag\" type=\"checkbox\" value=\"\"  id=\"itemMagical${inputCount + 1}\">\r\n        </div>\r\n        <div class=\"g-col-1 mt-2\">\r\n            <input autocomplete=\"off\" class=\"form-check-input weaponsEqEq\" type=\"checkbox\" value=\"\" id=\"itemEquipped${inputCount + 1}\">\r\n        </div>\r\n        <div class=\"g-col-8\">\r\n            <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm weaponsEqName\"  id=\"itemName${inputCount + 1}\">\r\n        </div>\r\n        <div class=\"g-col-1\">\r\n            <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm weight weaponsEqWeight\"\r\n            onkeypress=\"return event.charCode >= 46 && event.charCode <= 57\" id=\"itemWeight${inputCount + 1}\">\r\n        </div>  \r\n    `)\r\n    .on(\"input\", calcWeight)\r\n    .append('div')\r\n    .attr('class','g-col-1')\r\n    .append('i')\r\n    .attr('class', 'bi bi-x-lg mt-3 text-danger')\r\n    .attr('style', 'cursor: pointer;')\r\n    .attr('id', 'spellDel' + (inputCount + 1))\r\n    .on('click', function() {\r\n          inputGroup.remove();\r\n          calcWeight();\r\n        });\r\n      \r\n    }\r\n\r\nweaponEq = {\r\n    const addInputButton = d3.select('#addWeaponEqButton');\r\n    addInputButton.on('click', () => addWeaponEq() );\r\n\r\n}\r\n\r\n\r\n\r\nfunction addArmorEq() {\r\n      var inputContainer = d3.select('#armorEqContainer');\r\n      var inputCount = inputContainer.selectAll('.grid').size();\r\n\r\n    var inputGroup = inputContainer\r\n      .append('div')\r\n      .attr('class','grid align-content-center').attr('style','--bs-gap:0;--bs-columns:12;')\r\n      .attr('id','armorEq'+(inputCount + 1))\r\n\r\n    inputGroup\r\n    .html(`\r\n        <div class=\"g-col-1 mt-2\">\r\n            <input autocomplete=\"off\" class=\"form-check-input armorMagical\" type=\"checkbox\" value=\"\"  id=\"armorMagical${inputCount + 1}\"> \r\n        </div>\r\n        <div class=\"g-col-1 mt-2\">\r\n            <input autocomplete=\"off\" class=\"form-check-input armorEquipped\" type=\"checkbox\" value=\"\" id=\"armorEquipped${inputCount + 1}\">\r\n        </div>\r\n        <div class=\"g-col-8\">\r\n            <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm armorName\"  id=\"armorName${inputCount + 1}\">\r\n        </div>\r\n        <div class=\"g-col-1\">\r\n            <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm weight armorWeight\"\r\n            onkeypress=\"return event.charCode >= 46 && event.charCode <= 57\" id=\"armorWeight${inputCount + 1}\">\r\n        </div>  \r\n    `)\r\n    .on(\"input\", calcWeight)\r\n    .append('div')\r\n    .attr('class','g-col-1')\r\n    .append('i')\r\n    .attr('class', 'bi bi-x-lg mt-3 text-danger')\r\n    .attr('style', 'cursor: pointer;')\r\n    .attr('id', 'armorEqDel' + (inputCount + 1))\r\n    .on('click', function() {\r\n          inputGroup.remove();\r\n          calcWeight();\r\n        });\r\n      \r\n    }\r\n\r\narmorEq = {\r\n    const addInputButton = d3.select('#addArmorEqButton');\r\n    addInputButton.on('click', () => addArmorEq() );\r\n\r\n}\r\n\r\n\r\nfunction addItemEq() {\r\n      var inputContainer = d3.select('#miscEqContainer');\r\n      var inputCount = inputContainer.selectAll('.grid').size();\r\n\r\n    var inputGroup = inputContainer\r\n      .append('div')\r\n      .attr('class','grid align-content-center').attr('style','--bs-gap:0;--bs-columns:12;')\r\n      .attr('id','miscEq'+(inputCount + 1))\r\n\r\n    inputGroup\r\n    .html(`\r\n        <div class=\"g-col-1 mt-2\">\r\n            <input autocomplete=\"off\" class=\"form-check-input miscMagical\" type=\"checkbox\" value=\"\"  id=\"miscMagical${inputCount + 1}\">\r\n        </div>\r\n        <div class=\"g-col-1 mt-2\">\r\n            <input autocomplete=\"off\" class=\"form-check-input miscEquipped\" type=\"checkbox\" value=\"\" id=\"miscEquipped${inputCount + 1}\">\r\n        </div>\r\n        <div class=\"g-col-8\">\r\n            <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm miscName\"  id=\"miscName${inputCount + 1}\"> \r\n        </div>\r\n        <div class=\"g-col-1\">\r\n            <input autocomplete=\"off\" type=\"text\" class=\"form-control form-control-sm weight miscWeight\"\r\n            onkeypress=\"return event.charCode >= 46 && event.charCode <= 57\" id=\"miscWeight${inputCount + 1}\">\r\n        </div>  \r\n    `)\r\n    .on(\"input\", calcWeight)\r\n    .append('div')\r\n    .attr('class','g-col-1')\r\n    .append('i')\r\n    .attr('class', 'bi bi-x-lg mt-3 text-danger')\r\n    .attr('style', 'cursor: pointer;')\r\n    .attr('id', 'miscEqDel' + (inputCount + 1))\r\n    .on('click', function() {\r\n          inputGroup.remove();\r\n          calcWeight();\r\n        });\r\n      \r\n    }\r\n\r\nmiscEq = {\r\n    const addInputButton = d3.select('#addItemEqButton');\r\n    addInputButton.on('click', () => addItemEq() );\r\n\r\n}\r\n"},{"methodName":"interpret","cellName":"ojs-cell-9","inline":false,"source":"function calcWeight () {\r\n    const eq = d3.select('#equipment')\r\n    const wArray = d3.selectAll('.weight')\r\n    const totWField = d3.select('#totalWeight')\r\n\r\n    var sum = 0\r\n\r\n    wArray.each(function() {\r\n        var value = +d3.select(this).property(\"value\");\r\n        sum += value;\r\n      });\r\n    \r\n    totWField.property(\"value\", sum);\r\n    \r\n}\r\n\r\ntotalW = {\r\n    const eq = d3.select('#equipment');\r\n    var inputs = eq.selectAll(\".weight\");\r\n\r\n    inputs.on(\"input\", calcWeight);\r\n}\r\n"},{"methodName":"interpret","cellName":"ojs-cell-10","inline":false,"source":"\r\nfunction addHireling() {\r\n      var inputContainer = d3.select('#hirelingsContainer');\r\n      var inputCount = inputContainer.selectAll('.input-group').size();\r\n\r\n      var inputGroup = inputContainer\r\n        .append('div')\r\n        .attr('class', 'input-group mb-2');\r\n\r\n      inputGroup\r\n        .append('input')\r\n        .attr('autocomplete',\"off\")\r\n        .attr('type', 'text')\r\n        .attr('id', 'hireling' + (inputCount + 1))\r\n        .attr('class', 'form-control rounded-start hirelings')\r\n        .attr('placeholder', 'Hireling ' + (inputCount + 1));\r\n\r\n      inputGroup\r\n        .append('button')\r\n        .attr('class', 'btn btn-danger delete-button rounded-end')\r\n        .attr('type', 'button')\r\n        .attr('id', 'hirelingDel' + (inputCount + 1))\r\n        .text('-')\r\n        .on('click', function() {\r\n          inputGroup.remove();\r\n        });\r\n    }\r\nhireling = {\r\n      var addInputButton = d3.select('#addHirelingButton');\r\n      addInputButton.on('click', () => addHireling() );\r\n}\r\n"},{"methodName":"interpret","cellName":"ojs-cell-11","inline":false,"source":"import { calculateModifier, generalDice } from \"./custom.js\"\r\nd3 = require('d3@7')\r\n\r\nnumberInputStr = d3.select(\"#strNum\");\r\nnumberInputDex = d3.select(\"#dexNum\");\r\nnumberInputCon = d3.select(\"#conNum\");\r\nnumberInputInt = d3.select(\"#intNum\");\r\nnumberInputWis = d3.select(\"#wisNum\");\r\nnumberInputCha = d3.select(\"#chaNum\");\r\n\r\noutputStr = d3.select(\"#strMod\");\r\noutputDex = d3.select(\"#dexMod\");\r\noutputCon = d3.select(\"#conMod\");\r\noutputInt = d3.select(\"#intMod\");\r\noutputWis = d3.select(\"#wisMod\");\r\noutputCha = d3.select(\"#chaMod\");\r\n\r\n\r\nfunction updateOutput(inp, out) {\r\n    const inputValue = inp.property(\"value\");\r\n    out.text(`( ${calculateModifier((Number(inputValue)))} )`);\r\n}\r\n\r\nb = {\r\noutputStr.text(`( ${calculateModifier(Number(numberInputStr.property(\"value\")))} )`)\r\noutputDex.text(`( ${calculateModifier(Number(numberInputDex.property(\"value\")))} )`)\r\noutputCon.text(`( ${calculateModifier(Number(numberInputCon.property(\"value\")))} )`)\r\noutputInt.text(`( ${calculateModifier(Number(numberInputInt.property(\"value\")))} )`)\r\noutputWis.text(`( ${calculateModifier(Number(numberInputWis.property(\"value\")))} )`)\r\noutputCha.text(`( ${calculateModifier(Number(numberInputCha.property(\"value\")))} )`)\r\n}\r\n\r\n\r\na = {\r\nnumberInputStr.on(\"input\", () => updateOutput(numberInputStr,outputStr));\r\nnumberInputDex.on(\"input\", () => updateOutput(numberInputDex,outputDex));\r\nnumberInputCon.on(\"input\", () => updateOutput(numberInputCon,outputCon));\r\nnumberInputInt.on(\"input\", () => updateOutput(numberInputInt,outputInt));\r\nnumberInputWis.on(\"input\", () => updateOutput(numberInputWis,outputWis));\r\nnumberInputCha.on(\"input\", () => updateOutput(numberInputCha,outputCha));\r\n}\r\n\r\n\r\n\r\nfunction addInputField() {\r\n      var inputContainer = d3.select('#inputContainer');\r\n      var inputCount = inputContainer.selectAll('.input-group').size();\r\n\r\n      var inputGroup = inputContainer\r\n        .append('div')\r\n        .attr('class', 'input-group mb-2');\r\n\r\n      inputGroup\r\n        .append('input')\r\n        .attr('type', 'text')\r\n        .attr('autocomplete',\"off\")\r\n        .attr('id', 'language' + (inputCount + 1))\r\n        .attr('class', 'form-control rounded-start lang')\r\n        .attr('placeholder', 'Language ' + (inputCount + 1));\r\n\r\n      inputGroup\r\n        .append('button')\r\n        .attr('class', 'btn btn-danger delete-button rounded-end')\r\n        .attr('type', 'button')\r\n        .attr('id', 'languageDel' + (inputCount + 1))\r\n        .text('-')\r\n        .on('click', function() {\r\n          inputGroup.remove();\r\n        });\r\n    }\r\nc = {\r\n      var addInputButton = d3.select('#addInputButton');\r\n      addInputButton.on('click', () => addInputField() );\r\n}\r\n\r\n\r\nfunction addSkill() {\r\n      var inputContainer = d3.select('#inputContainerSkills');\r\n      var inputCount = inputContainer.selectAll('.input-group').size();\r\n\r\n      var inputGroup = inputContainer\r\n        .append('div')\r\n        .attr('class', 'input-group mb-2');\r\n\r\n      inputGroup\r\n        .append('input')\r\n        .attr('autocomplete',\"off\")\r\n        .attr('type', 'text')\r\n        .attr('id', 'skill' + (inputCount + 1))\r\n        .attr('class', 'form-control rounded-start oskill')\r\n        .attr('placeholder', 'Skill ' + (inputCount + 1));\r\n\r\n      inputGroup\r\n        .append('button')\r\n        .attr('class', 'btn btn-danger delete-button rounded-end')\r\n        .attr('type', 'button')\r\n        .attr('id', 'skillDel' + (inputCount + 1))\r\n        .text('-')\r\n        .on('click', function() {\r\n          inputGroup.remove();\r\n        });\r\n    }\r\nd = {\r\n      var addInputButton = d3.select('#addSkillButton');\r\n      addInputButton.on('click', () => addSkill() );\r\n\r\n}\r\n\r\nopenLocks = {\r\n    var but = d3.select('#thiefLocksButton');\r\n    var out = d3.select('#thiefLocksOut');\r\n\r\n    but.on('click', () => {\r\n        var temp = generalDice(1,100,0);\r\n        out.text(temp)\r\n    });\r\n}\r\n\r\ntraps = {\r\n    var but = d3.select('#thiefTrapButton');\r\n    var out = d3.select('#thiefTrapOut');\r\n\r\n    but.on('click', () => {\r\n        var temp = generalDice(1,100,0);\r\n        out.text(temp)\r\n    });\r\n}\r\n\r\npocket = {\r\n    var but = d3.select('#thiefPocketsButton');\r\n    var out = d3.select('#thiefPocketsOut');\r\n\r\n    but.on('click', () => {\r\n        var temp = generalDice(1,100,0);\r\n        out.text(temp)\r\n    });\r\n}\r\n\r\nsilently = {\r\n    var but = d3.select('#thiefSilentButton');\r\n    var out = d3.select('#thiefSilentOut');\r\n\r\n    but.on('click', () => {\r\n        var temp = generalDice(1,100,0);\r\n        out.text(temp)\r\n    });\r\n}\r\n\r\nclimb = {\r\n    var but = d3.select('#thiefClimbButton');\r\n    var out = d3.select('#thiefClimbOut');\r\n\r\n    but.on('click', () => {\r\n        var temp = generalDice(1,100,0);\r\n        out.text(temp)\r\n    });\r\n}\r\n\r\nhide = {\r\n    var but = d3.select('#thiefHideButton');\r\n    var out = d3.select('#thiefHideOut');\r\n\r\n    but.on('click', () => {\r\n        var temp = generalDice(1,100,0);\r\n        out.text(temp)\r\n    });\r\n}\r\n\r\nlisten = {\r\n    var but = d3.select('#thiefListenButton');\r\n    var out = d3.select('#thiefListenOut');\r\n\r\n    but.on('click', () => {\r\n        var temp = generalDice(1,100,0);\r\n        out.text(temp)\r\n    });\r\n}\r\n"},{"methodName":"interpret","cellName":"ojs-cell-12","inline":false,"source":"\r\n\r\nfunction savetoFile(){\r\n    let char = {};\r\n\r\n    // Name and basic info\r\n    char.Name = d3.select('#Name').property(\"value\")\r\n    char.Class = d3.select('#charClass').select('dd').text();\r\n    char.Race = d3.select('#charRace').select('dd').text();\r\n    char.Level = d3.select('#charLevel').select('dd').text();\r\n    char.Experience = d3.select('#charExperience').select('dd').text()\r\n\r\n    char.HP = d3.select('#hp1').property('value');\r\n    char.MaxHP = d3.select('#hp2').property('value');\r\n    char.AC = d3.select('#ACinput').property('value');\r\n    char.HD = d3.select('#HDinput').property('value');\r\n\r\n    char.BAB = d3.select('#BABbox').text();\r\n    char.Movement = d3.select('#MovementBox').text();\r\n    char.Initiative = d3.select('#InitiativeBox').text();\r\n\r\n    // Abilities\r\n    char.Abilities = {}; \r\n    char.Abilities.Str = d3.select('#strNum').property('value' ); \r\n    char.Abilities.Dex = d3.select('#dexNum').property('value' );\r\n    char.Abilities.Con = d3.select('#conNum').property('value');\r\n    char.Abilities.Wis = d3.select('#wisNum').property('value' );\r\n    char.Abilities.Int = d3.select('#intNum').property('value' );\r\n    char.Abilities.Cha = d3.select('#chaNum').property('value' );\r\n\r\n\r\n    //saves\r\n    char.Saves = {};\r\n    char.Saves.DRP = d3.select('#save-drpBox').property('value' ); \r\n    char.Saves.MW = d3.select('#save-wandBox').property('value' );\r\n    char.Saves.Par = d3.select('#save-parBox').property('value');\r\n    char.Saves.DB = d3.select('#save-dbBox').property('value');\r\n    char.Saves.Spl = d3.select('#save-spellBox').property('value');\r\n\r\n      // Thieving skills \r\n    char.ThiefSkills = {};\r\n    char.ThiefSkills.OpenLocks = d3.select('#thiefLocksInput ').property('value');\r\n    char.ThiefSkills.RemoveTraps = d3.select('#thiefTrapInput ').property('value');\r\n    char.ThiefSkills.PickPockets = d3.select('#thiefPocketsInput ').property('value');\r\n    char.ThiefSkills.MoveSilent = d3.select('#thiefSilentInput ').property('value');\r\n    char.ThiefSkills.ClimbWalls = d3.select('#thiefClimbInput ').property('value'); \r\n    char.ThiefSkills.Hide = d3.select('#thiefHideInput ').property('value');\r\n    char.ThiefSkills.Listen = d3.select('#thiefListenInput ').property('value');\r\n\r\n\r\n    // Langs and skills\r\n    char.Languages = d3.selectAll(\".lang\").nodes().map((node) => node.value);\r\n    char.OtherSkills = d3.selectAll(\".oskill\").nodes().map((node) => node.value);\r\n\r\n\r\n    //attacks\r\n    char.WeaponEq = []\r\n    for (let i = 0; i < d3.selectAll(\".weaponForm\").size(); i++) {\r\n        char.WeaponEq.push( {\r\n            \"name\": d3.selectAll(\".weaponForm\").nodes().map((node) => node.value)[i],\r\n            \"attack\": d3.selectAll(\".attackForm\").nodes().map((node) => node.value)[i],\r\n            \"damage\": d3.selectAll(\".damageForm\").nodes().map((node) => node.value)[i],\r\n            \"S\": d3.selectAll(\".rangeSForm\").nodes().map((node) => node.value)[i],\r\n            \"M\": d3.selectAll(\".rangeMForm\").nodes().map((node) => node.value)[i],\r\n            \"L\": d3.selectAll(\".rangeLForm\").nodes().map((node) => node.value)[i],\r\n            \"notes\": d3.selectAll(\".notesForm\").nodes().map((node) => node.value)[i]}\r\n    )};\r\n\r\n    //ammo\r\n    char.AmmoEq = []\r\n    for (let i = 0; i < d3.selectAll(\".ammoForm\").size(); i++) {\r\n        char.AmmoEq.push( {\r\n            \"name\": d3.selectAll(\".ammoForm\").nodes().map((node) => node.value)[i],\r\n            \"count\": d3.selectAll(\".countForm\").nodes().map((node) => node.value)[i],\r\n            \"damage\": d3.selectAll(\".ammoDmgForm\").nodes().map((node) => node.value)[i],\r\n            \"notes\": d3.selectAll(\".ammo-notesForm\").nodes().map((node) => node.value)[i]}\r\n    )};\r\n\r\n    char.Turning =  d3.selectAll(\".turningForm\").nodes().map((node) => node.value);\r\n\r\n    // spells\r\n    char.Spells = [];\r\n    for (let i = 0; i < d3.selectAll(\".spell-name\").size(); i++) {\r\n        char.Spells.push( {\r\n            \"spellName\": d3.selectAll(\".spell-name\").nodes().map((node) => node.value)[i],\r\n            \"spellLvl\": d3.selectAll(\".spell-level\").nodes().map((node) => node.value)[i],\r\n            \"prep\": d3.selectAll(\".spell-prep\").nodes().map((node) => node.value)[i]}\r\n    )};\r\n\r\n\r\n    // Currency\r\n    char.Equipment={}\r\n    char.Equipment.Currency  = {}\r\n    char.Equipment.Currency.pp = d3.select('#PPbox').text()\r\n    char.Equipment.Currency.gp = d3.select('#GPbox').text()\r\n    char.Equipment.Currency.ep = d3.select('#EPbox').text()\r\n    char.Equipment.Currency.sp = d3.select('#SPbox').text()\r\n    char.Equipment.Currency.cp = d3.select('#CPbox').text()\r\n\r\n\r\n    // Equipment\r\n    char.Equipment.Weapons = [];\r\n    for (let i = 0; i < d3.selectAll(\".weaponsEqMag\").size(); i++) {\r\n        char.Equipment.Weapons.push( {\r\n            \"magic\": d3.selectAll(\".weaponsEqMag\").nodes().map((node) => node.checked)[i],\r\n            \"equipped\": d3.selectAll(\".weaponsEqEq\").nodes().map((node) => node.checked)[i],\r\n            \"name\": d3.selectAll(\".weaponsEqName\").nodes().map((node) => node.value)[i],\r\n            \"weight\": d3.selectAll(\".weaponsEqWeight\").nodes().map((node) => node.value)[i]\r\n            }\r\n    )};\r\n\r\n    char.Equipment.Armor = [];\r\n    for (let i = 0; i < d3.selectAll(\".armorMagical\").size(); i++) {\r\n        char.Equipment.Armor.push( {\r\n            \"magic\": d3.selectAll(\".armorMagical\").nodes().map((node) => node.checked)[i],\r\n            \"equipped\": d3.selectAll(\".armorEquipped\").nodes().map((node) => node.checked)[i],\r\n            \"name\": d3.selectAll(\".armorName\").nodes().map((node) => node.value)[i],\r\n            \"weight\": d3.selectAll(\".armorWeight\").nodes().map((node) => node.value)[i]\r\n            }\r\n    )};\r\n\r\n    char.Equipment.Misc = [];\r\n    for (let i = 0; i < d3.selectAll(\".miscMagical\").size(); i++) {\r\n        char.Equipment.Misc.push( {\r\n            \"magic\": d3.selectAll(\".miscMagical\").nodes().map((node) => node.checked)[i],\r\n            \"equipped\": d3.selectAll(\".miscEquipped\").nodes().map((node) => node.checked)[i],\r\n            \"name\": d3.selectAll(\".miscName\").nodes().map((node) => node.value)[i],\r\n            \"weight\": d3.selectAll(\".miscWeight\").nodes().map((node) => node.value)[i]\r\n            }\r\n    )};\r\n\r\n    //Notes\r\n    char.Hirelings = d3.selectAll(\".hirelings\").nodes().map((node) => node.value);\r\n    char.Background = d3.select('#background').text()\r\n    char.MiscNotes = d3.select('#miscNotes').text()\r\n\r\n\r\n    return char\r\n}\r\n\r\nfunction downloadJson() {\r\n      // Generate JSON data\r\n  var jsonData = savetoFile();\r\n  \r\n  // Convert JSON to string\r\n  var jsonString = JSON.stringify(jsonData, null, 2);\r\n  \r\n  // Create a Blob from the JSON string\r\n  var blob = new Blob([jsonString], { type: \"application/json\" });\r\n  \r\n  // Create a temporary URL for the Blob\r\n  var url = URL.createObjectURL(blob);\r\n  \r\n  // Create a link element\r\n  var link = document.createElement(\"a\");\r\n  \r\n  // Set the link's properties\r\n  link.href = url;\r\n  link.download = \"character.json\";\r\n  \r\n  // Simulate a click event on the link to trigger the download\r\n  link.click();\r\n  \r\n  // Clean up the temporary URL\r\n  URL.revokeObjectURL(url);\r\n}\r\n\r\n\r\n"},{"methodName":"interpret","cellName":"ojs-cell-13","inline":false,"source":"dchar = {\r\nd3.select(\"#downloadCharButton\").on(\"click\", downloadJson);\r\n}\r\n// savetoFile()\r\n"},{"methodName":"interpretQuiet","source":"shinyInput('recordsFile')"}]}
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiByZWNvcmRzRmlsZSA9IElucHV0cy5maWxlKHthY2NlcHQ6IFwiLmpzb25cIn0pXG5cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImNoYXIgPSB7XG5pZiAocmVjb3Jkc0ZpbGUgIT0gbnVsbCl7XG4gICAgY29uc3QgZGF0YSA9IHJlY29yZHNGaWxlLmpzb24oKVxuICAgIFxuICAgIHJldHVybiBkYXRhXG59fVxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTMiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiIvLyBMb2FkIGpzb24gZmlsZSBpbnRvIGNoYXJhY3RlciBzaGVldC4gXG5cbmZ1bmN0aW9uIGFkZEJ1dHRvbk1heWJlIChpZCxidXR0b24pIHtcbiAgICBpZiAoZDMuc2VsZWN0KGlkKS5lbXB0eSgpKSB7XG4gICAgICAgIGQzLnNlbGVjdChidXR0b24pLm9uKCdjbGljaycpKClcbiAgICB9XG59XG5cbmxvYWRGaWxlID0ge1xuICAgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy9cbmlmIChjaGFyICE9IHVuZGVmaW5lZCl7XG5cblxuICAgIC8vIE5hbWUgYW5kIGJhc2ljIGluZm8gXG4gICAgZDMuc2VsZWN0KCcjTmFtZScpLmF0dHIoJ3ZhbHVlJyxjaGFyLk5hbWUpO1xuICAgIGQzLnNlbGVjdCgnI2NoYXJDbGFzcycpLnNlbGVjdCgnZGQnKS50ZXh0KGNoYXIuQ2xhc3MpO1xuICAgIGQzLnNlbGVjdCgnI2NoYXJSYWNlJykuc2VsZWN0KCdkZCcpLnRleHQoY2hhci5SYWNlKTtcbiAgICBkMy5zZWxlY3QoJyNjaGFyTGV2ZWwnKS5zZWxlY3QoJ2RkJykudGV4dChjaGFyLkxldmVsKTtcbiAgICBkMy5zZWxlY3QoJyNjaGFyRXhwZXJpZW5jZScpLnNlbGVjdCgnZGQnKS50ZXh0KGNoYXIuRXhwZXJpZW5jZSk7XG5cbiAgICBkMy5zZWxlY3QoJyNocDEnKS5hdHRyKCd2YWx1ZScsY2hhci5IUCk7XG4gICAgZDMuc2VsZWN0KCcjaHAyJykuYXR0cigndmFsdWUnLGNoYXIuTWF4SFApO1xuICAgIGQzLnNlbGVjdCgnI0FDaW5wdXQnKS5hdHRyKCd2YWx1ZScsY2hhci5BQyk7XG4gICAgZDMuc2VsZWN0KCcjSERpbnB1dCcpLmF0dHIoJ3ZhbHVlJyxjaGFyLkhEKTtcblxuICAgIGQzLnNlbGVjdCgnI0JBQmJveCcpLnRleHQoY2hhci5CQUIpO1xuICAgIGQzLnNlbGVjdCgnI01vdmVtZW50Qm94JykudGV4dChjaGFyLk1vdmVtZW50KTtcbiAgICBkMy5zZWxlY3QoJyNJbml0aWF0aXZlQm94JykudGV4dChjaGFyLkluaXRpYXRpdmUpO1xuXG4gICAgLy8gQWJpbGl0aWVzXG4gICAgZDMuc2VsZWN0KCcjc3RyTnVtJykuYXR0cigndmFsdWUnLGNoYXIuQWJpbGl0aWVzLlN0ciApOyBcbiAgICBkMy5zZWxlY3QoJyNkZXhOdW0nKS5hdHRyKCd2YWx1ZScsY2hhci5BYmlsaXRpZXMuRGV4ICk7XG4gICAgZDMuc2VsZWN0KCcjY29uTnVtJykuYXR0cigndmFsdWUnLGNoYXIuQWJpbGl0aWVzLkNvbik7XG4gICAgZDMuc2VsZWN0KCcjd2lzTnVtJykuYXR0cigndmFsdWUnLGNoYXIuQWJpbGl0aWVzLldpcyApO1xuICAgIGQzLnNlbGVjdCgnI2ludE51bScpLmF0dHIoJ3ZhbHVlJyxjaGFyLkFiaWxpdGllcy5JbnQgKTtcbiAgICBkMy5zZWxlY3QoJyNjaGFOdW0nKS5hdHRyKCd2YWx1ZScsY2hhci5BYmlsaXRpZXMuQ2hhICk7XG5cbiAgICBkMy5zZWxlY3QoXCIjc3RyTW9kXCIpLnRleHQoY2FsY3VsYXRlTW9kaWZpZXIoY2hhci5BYmlsaXRpZXMuU3RyKSlcbiAgICBkMy5zZWxlY3QoXCIjZGV4TW9kXCIpLnRleHQoY2FsY3VsYXRlTW9kaWZpZXIoY2hhci5BYmlsaXRpZXMuRGV4KSkgXG4gICAgZDMuc2VsZWN0KFwiI2Nvbk1vZFwiKS50ZXh0KGNhbGN1bGF0ZU1vZGlmaWVyKGNoYXIuQWJpbGl0aWVzLkNvbikpXG4gICAgZDMuc2VsZWN0KFwiI2ludE1vZFwiKS50ZXh0KGNhbGN1bGF0ZU1vZGlmaWVyKGNoYXIuQWJpbGl0aWVzLldpcykpXG4gICAgZDMuc2VsZWN0KFwiI3dpc01vZFwiKS50ZXh0KGNhbGN1bGF0ZU1vZGlmaWVyKGNoYXIuQWJpbGl0aWVzLkludCkpXG4gICAgZDMuc2VsZWN0KFwiI2NoYU1vZFwiKS50ZXh0KGNhbGN1bGF0ZU1vZGlmaWVyKGNoYXIuQWJpbGl0aWVzLkNoYSkpXG5cblxuICAgIC8vIFNhdmVzXG4gICAgZDMuc2VsZWN0KCcjc2F2ZS1kcnBCb3gnKS5hdHRyKCd2YWx1ZScsY2hhci5TYXZlcy5EUlAgKTsgXG4gICAgZDMuc2VsZWN0KCcjc2F2ZS13YW5kQm94JykuYXR0cigndmFsdWUnLGNoYXIuU2F2ZXMuTVcgKTtcbiAgICBkMy5zZWxlY3QoJyNzYXZlLXBhckJveCcpLmF0dHIoJ3ZhbHVlJyxjaGFyLlNhdmVzLlBhcik7XG4gICAgZDMuc2VsZWN0KCcjc2F2ZS1kYkJveCcpLmF0dHIoJ3ZhbHVlJyxjaGFyLlNhdmVzLkRCKTtcbiAgICBkMy5zZWxlY3QoJyNzYXZlLXNwZWxsQm94JykuYXR0cigndmFsdWUnLGNoYXIuU2F2ZXMuU3BsKTtcblxuXG4gICAgLy8gVGhpZXZpbmcgc2tpbGxzIFxuICAgIGQzLnNlbGVjdCgnI3RoaWVmTG9ja3NJbnB1dCAnKS5hdHRyKCd2YWx1ZScsY2hhci5UaGllZlNraWxscy5PcGVuTG9ja3MpO1xuICAgIGQzLnNlbGVjdCgnI3RoaWVmVHJhcElucHV0ICcpLmF0dHIoJ3ZhbHVlJyxjaGFyLlRoaWVmU2tpbGxzLlJlbW92ZVRyYXBzKTtcbiAgICBkMy5zZWxlY3QoJyN0aGllZlBvY2tldHNJbnB1dCAnKS5hdHRyKCd2YWx1ZScsY2hhci5UaGllZlNraWxscy5QaWNrUG9ja2V0cyk7XG4gICAgZDMuc2VsZWN0KCcjdGhpZWZTaWxlbnRJbnB1dCAnKS5hdHRyKCd2YWx1ZScsY2hhci5UaGllZlNraWxscy5Nb3ZlU2lsZW50KTtcbiAgICBkMy5zZWxlY3QoJyN0aGllZkNsaW1iSW5wdXQgJykuYXR0cigndmFsdWUnLGNoYXIuVGhpZWZTa2lsbHMuQ2xpbWJXYWxscyk7IFxuICAgIGQzLnNlbGVjdCgnI3RoaWVmSGlkZUlucHV0ICcpLmF0dHIoJ3ZhbHVlJyxjaGFyLlRoaWVmU2tpbGxzLkhpZGUpO1xuICAgIGQzLnNlbGVjdCgnI3RoaWVmTGlzdGVuSW5wdXQgJykuYXR0cigndmFsdWUnLGNoYXIuVGhpZWZTa2lsbHMuTGlzdGVuKTtcblxuICAgIC8vIExhbmdzIGFuZCBvdGhlciBza2lsbHNcblxuICAgIGNvbnN0IGxhbmdzID0gY2hhci5MYW5ndWFnZXNcbiAgICBjb25zdCBvU2tpbGxzID0gY2hhci5PdGhlclNraWxsc1xuXG4gICAgaWYgKGxhbmdzLmxlbmd0aCA8PSAxKSB7XG4gICAgICAgIGQzLnNlbGVjdCgnI2xhbmd1YWdlMScpLmF0dHIoJ3ZhbHVlJyxsYW5nc1swXSk7XG4gICAgfSBlbHNlIHtcbiAgICAgICAgZDMuc2VsZWN0KCcjbGFuZ3VhZ2UxJykuYXR0cigndmFsdWUnLGxhbmdzWzBdKTtcbiAgICAgICAgbGFuZ3Muc2xpY2UoMSkuZm9yRWFjaCggKHgsaSkgPT4ge1xuICAgICAgICAgICAgYWRkQnV0dG9uTWF5YmUoKCcjbGFuZ3VhZ2UnKyBTdHJpbmcoaSsyKSksICcjYWRkSW5wdXRCdXR0b24nKVxuICAgICAgICAgICAgLy8gZDMuc2VsZWN0KCcjYWRkSW5wdXRCdXR0b24nKS5vbignY2xpY2snKSgpXG4gICAgICAgICAgICBkMy5zZWxlY3QoJyNsYW5ndWFnZScgKyBTdHJpbmcoaSsyKSkuYXR0cigndmFsdWUnLHgpXG4gICAgICAgIH0pO1xuICAgIH1cblxuICAgIGlmIChvU2tpbGxzLmxlbmd0aCA8PSAxKSB7XG4gICAgICAgIGQzLnNlbGVjdCgnI3NraWxsMScpLmF0dHIoJ3ZhbHVlJyxvU2tpbGxzWzBdKTtcbiAgICB9IGVsc2Uge1xuICAgICAgICBkMy5zZWxlY3QoJyNza2lsbDEnKS5hdHRyKCd2YWx1ZScsb1NraWxsc1swXSk7XG4gICAgICAgIG9Ta2lsbHMuc2xpY2UoMSkuZm9yRWFjaCggKHgsaSkgPT4ge1xuICAgICAgICAgICAgYWRkQnV0dG9uTWF5YmUoKCcjc2tpbGwnICsgU3RyaW5nKGkrMikpLCAnI2FkZFNraWxsQnV0dG9uJylcbiAgICAgICAgICAgIGQzLnNlbGVjdCgnI3NraWxsJyArIFN0cmluZyhpKzIpKS5hdHRyKCd2YWx1ZScseClcbiAgICAgICAgfSk7XG4gICAgfVxuXG4gICAgLy8vIEF0dGFja3NcbiAgICBjb25zdCB3ZWFwb25FcSA9IGNoYXIuV2VhcG9uRXFcblxuXG4gICAgaWYgKHdlYXBvbkVxLmxlbmd0aCA+IDApIHtcbiAgICAgICAgZDMuc2VsZWN0KCcjd2VhcG9uRm9ybTEnKS5hdHRyKCd2YWx1ZScsd2VhcG9uRXFbMF0ubmFtZSk7XG4gICAgICAgIGQzLnNlbGVjdCgnI2F0dGFja0Zvcm0xJykuYXR0cigndmFsdWUnLHdlYXBvbkVxWzBdLmF0dGFjayk7XG4gICAgICAgIGQzLnNlbGVjdCgnI2RhbWFnZUZvcm0xJykuYXR0cigndmFsdWUnLHdlYXBvbkVxWzBdLmRhbWFnZSk7XG4gICAgICAgIGQzLnNlbGVjdCgnI3JhbmdlU0Zvcm0xJykuYXR0cigndmFsdWUnLHdlYXBvbkVxWzBdLlMpO1xuICAgICAgICBkMy5zZWxlY3QoJyNyYW5nZU1Gb3JtMScpLmF0dHIoJ3ZhbHVlJyx3ZWFwb25FcVswXS5NKTtcbiAgICAgICAgZDMuc2VsZWN0KCcjcmFuZ2VMRm9ybTEnKS5hdHRyKCd2YWx1ZScsd2VhcG9uRXFbMF0uTCk7XG4gICAgICAgIGQzLnNlbGVjdCgnI25vdGVzRm9ybTEnKS5hdHRyKCd2YWx1ZScsd2VhcG9uRXFbMF0ubm90ZXMpO1xuICAgICAgICB3ZWFwb25FcS5zbGljZSgxKS5mb3JFYWNoKCAoeCxpKSA9PiB7XG4gICAgICAgICAgICBhZGRCdXR0b25NYXliZSgoJyN3ZWFwb25Gb3JtJyArIFN0cmluZyhpKzIpKSwgJyNhZGRXZWFwb25CdXR0b24nKVxuICAgICAgICAgICAgLy8gZDMuc2VsZWN0KCcjYWRkV2VhcG9uQnV0dG9uJykub24oJ2NsaWNrJykoKVxuICAgICAgICAgICAgZDMuc2VsZWN0KCcjd2VhcG9uRm9ybScgKyBTdHJpbmcoaSsyKSkuYXR0cigndmFsdWUnLHgubmFtZSk7XG4gICAgICAgICAgICBkMy5zZWxlY3QoJyNhdHRhY2tGb3JtJyArIFN0cmluZyhpKzIpKS5hdHRyKCd2YWx1ZScseC5hdHRhY2spO1xuICAgICAgICAgICAgZDMuc2VsZWN0KCcjZGFtYWdlRm9ybScgKyBTdHJpbmcoaSsyKSkuYXR0cigndmFsdWUnLHguZGFtYWdlKTtcbiAgICAgICAgICAgIGQzLnNlbGVjdCgnI3JhbmdlU0Zvcm0nICsgU3RyaW5nKGkrMikpLmF0dHIoJ3ZhbHVlJyx4LlMpO1xuICAgICAgICAgICAgZDMuc2VsZWN0KCcjcmFuZ2VNRm9ybScgKyBTdHJpbmcoaSsyKSkuYXR0cigndmFsdWUnLHguTSk7XG4gICAgICAgICAgICBkMy5zZWxlY3QoJyNyYW5nZUxGb3JtJyArIFN0cmluZyhpKzIpKS5hdHRyKCd2YWx1ZScseC5MKTtcbiAgICAgICAgICAgIGQzLnNlbGVjdCgnI25vdGVzRm9ybScgKyBTdHJpbmcoaSsyKSkuYXR0cigndmFsdWUnLHgubm90ZXMpO1xuICAgICAgICB9KVxuICAgIH1cblxuXG4gICAgLy8gQW1tb1xuICAgIGNvbnN0IGFtbW9FcSA9IGNoYXIuQW1tb0VxXG4gICAgaWYgKGFtbW9FcS5sZW5ndGggPiAwKSB7XG4gICAgICAgIGQzLnNlbGVjdCgnI2FtbW9Gb3JtMScpLmF0dHIoJ3ZhbHVlJyxhbW1vRXFbMF0ubmFtZSk7XG4gICAgICAgIGQzLnNlbGVjdCgnI2NvdW50Rm9ybTEnKS5hdHRyKCd2YWx1ZScsYW1tb0VxWzBdLmNvdW50KTtcbiAgICAgICAgZDMuc2VsZWN0KCcjYW1tb0RtZ0Zvcm0xJykuYXR0cigndmFsdWUnLGFtbW9FcVswXS5kYW1hZ2UpO1xuICAgICAgICBkMy5zZWxlY3QoJyNhbW1vLW5vdGVzRm9ybTEnKS5hdHRyKCd2YWx1ZScsYW1tb0VxWzBdLm5vdGVzKTtcbiAgICAgICAgYW1tb0VxLnNsaWNlKDEpLmZvckVhY2goICh4LGkpID0+IHtcbiAgICAgICAgICAgIGFkZEJ1dHRvbk1heWJlKCgnI2FtbW9Gb3JtJyArIFN0cmluZyhpKzIpKSwgJyNhZGRBbW1vQnV0dG9uJylcbiAgICAgICAgICAgIC8vZDMuc2VsZWN0KCcjYWRkQW1tb0J1dHRvbicpLm9uKCdjbGljaycpKClcbiAgICAgICAgICAgIGQzLnNlbGVjdCgnI2FtbW9Gb3JtJyArIFN0cmluZyhpKzIpKS5hdHRyKCd2YWx1ZScseC5uYW1lKTtcbiAgICAgICAgICAgIGQzLnNlbGVjdCgnI2NvdW50Rm9ybScgKyBTdHJpbmcoaSsyKSkuYXR0cigndmFsdWUnLHguY291bnQpO1xuICAgICAgICAgICAgZDMuc2VsZWN0KCcjYW1tb0RtZ0Zvcm0nICsgU3RyaW5nKGkrMikpLmF0dHIoJ3ZhbHVlJyx4LmRhbWFnZSk7XG4gICAgICAgICAgICBkMy5zZWxlY3QoJyNhbW1vLW5vdGVzRm9ybScgKyBTdHJpbmcoaSsyKSkuYXR0cigndmFsdWUnLHgubm90ZXMpO1xuICAgICAgICB9KVxuICAgIH1cblxuICAgIC8vLyBUdXJuIFVuZGVhZFxuXG4gICAgY29uc3QgdHVybmluZyA9IGNoYXIuVHVybmluZ1xuXG4gICAgdHVybmluZy5mb3JFYWNoKCAoeCxpKSA9PiB7XG4gICAgICAgIGQzLnNlbGVjdCgnI3R1cm4nKyBTdHJpbmcoaSArIDEpKS5hdHRyKCd2YWx1ZScseClcbiAgICB9KVxuXG4gICAgLy8gc3BlbGxzXG4gICAgY29uc3Qgc3BlbGxzID0gY2hhci5TcGVsbHNcbiAgICBpZiAoc3BlbGxzLmxlbmd0aCA+IDApIHtcbiAgICAgICAgZDMuc2VsZWN0KCcjc3BlbGwtbGV2ZWwtRm9ybTEnKS5hdHRyKCd2YWx1ZScsc3BlbGxzWzBdLnNwZWxsTHZsKTtcbiAgICAgICAgZDMuc2VsZWN0KCcjc3BlbGwtbmFtZS1Gb3JtMScpLmF0dHIoJ3ZhbHVlJyxzcGVsbHNbMF0uc3BlbGxOYW1lKTtcbiAgICAgICAgZDMuc2VsZWN0KCcjc3BlbGwtcHJlcC1Gb3JtMScpLmF0dHIoJ3ZhbHVlJyxzcGVsbHNbMF0ucHJlcCk7XG4gICAgICAgIHNwZWxscy5zbGljZSgxKS5mb3JFYWNoKCAoeCxpKSA9PiB7XG4gICAgICAgICAgICBhZGRCdXR0b25NYXliZSgoJyNzcGVsbC1sZXZlbC1Gb3JtJyArIFN0cmluZyhpKzIpKSwgJyNhZGRTcGVsbEJ1dHRvbicpXG4gICAgICAgICAgICAvL2QzLnNlbGVjdCgnI2FkZFNwZWxsQnV0dG9uJykub24oJ2NsaWNrJykoKVxuICAgICAgICAgICAgZDMuc2VsZWN0KCcjc3BlbGwtbGV2ZWwtRm9ybScgKyBTdHJpbmcoaSsyKSkuYXR0cigndmFsdWUnLHguc3BlbGxMdmwpO1xuICAgICAgICAgICAgZDMuc2VsZWN0KCcjc3BlbGwtbmFtZS1Gb3JtJyArIFN0cmluZyhpKzIpKS5hdHRyKCd2YWx1ZScseC5zcGVsbE5hbWUpO1xuICAgICAgICAgICAgZDMuc2VsZWN0KCcjc3BlbGwtcHJlcC1Gb3JtJyArIFN0cmluZyhpKzIpKS5hdHRyKCd2YWx1ZScseC5wcmVwKTtcbiAgICAgICAgfSlcbiAgICB9XG5cbiAgICAvLyBDdXJyZW5jeVxuICAgIGQzLnNlbGVjdCgnI1BQYm94JykudGV4dChjaGFyLkVxdWlwbWVudC5DdXJyZW5jeS5wcClcbiAgICBkMy5zZWxlY3QoJyNHUGJveCcpLnRleHQoY2hhci5FcXVpcG1lbnQuQ3VycmVuY3kuZ3ApXG4gICAgZDMuc2VsZWN0KCcjRVBib3gnKS50ZXh0KGNoYXIuRXF1aXBtZW50LkN1cnJlbmN5LmVwKVxuICAgIGQzLnNlbGVjdCgnI1NQYm94JykudGV4dChjaGFyLkVxdWlwbWVudC5DdXJyZW5jeS5zcClcbiAgICBkMy5zZWxlY3QoJyNDUGJveCcpLnRleHQoY2hhci5FcXVpcG1lbnQuQ3VycmVuY3kuY3ApXG5cblxuICAgICAgICAvLyBXZWFwb24gSW52ZW50b3J5XG4gICAgY29uc3Qgd2VhcG9uc0ludiA9IGNoYXIuRXF1aXBtZW50LldlYXBvbnNcblxuICAgIGlmICh3ZWFwb25zSW52Lmxlbmd0aCA+IDApIHtcbiAgICAgICAgZDMuc2VsZWN0KCcjaXRlbU1hZ2ljYWwxJykucHJvcGVydHkoJ2NoZWNrZWQnLCB3ZWFwb25zSW52WzBdLm1hZ2ljKTtcbiAgICAgICAgZDMuc2VsZWN0KCcjaXRlbUVxdWlwcGVkMScpLnByb3BlcnR5KCdjaGVja2VkJywgd2VhcG9uc0ludlswXS5lcXVpcHBlZCk7XG4gICAgICAgIGQzLnNlbGVjdCgnI2l0ZW1OYW1lMScpLmF0dHIoJ3ZhbHVlJywgd2VhcG9uc0ludlswXS5uYW1lKTtcbiAgICAgICAgZDMuc2VsZWN0KCcjaXRlbVdlaWdodDEnKS5hdHRyKCd2YWx1ZScsd2VhcG9uc0ludlswXS53ZWlnaHQpLm9uKCdpbnB1dCcpKCk7XG4gICAgICAgIHdlYXBvbnNJbnYuc2xpY2UoMSkuZm9yRWFjaCggKHgsaSkgPT4ge1xuICAgICAgICAgICAgYWRkQnV0dG9uTWF5YmUoKCcjaXRlbU1hZ2ljYWwnICsgU3RyaW5nKGkrMikpLCAnI2FkZFdlYXBvbkVxQnV0dG9uJylcbiAgICAgICAgICAgIC8vZDMuc2VsZWN0KCcjYWRkV2VhcG9uRXFCdXR0b24nKS5vbignY2xpY2snKSgpXG4gICAgICAgICAgICBkMy5zZWxlY3QoJyNpdGVtTWFnaWNhbCcgKyBTdHJpbmcoaSsyKSkucHJvcGVydHkoJ2NoZWNrZWQnLHgubWFnaWMpO1xuICAgICAgICAgICAgZDMuc2VsZWN0KCcjaXRlbUVxdWlwcGVkJyArIFN0cmluZyhpKzIpKS5wcm9wZXJ0eSgnY2hlY2tlZCcseC5lcXVpcHBlZCk7XG4gICAgICAgICAgICBkMy5zZWxlY3QoJyNpdGVtTmFtZScgKyBTdHJpbmcoaSsyKSkuYXR0cigndmFsdWUnLHgubmFtZSk7XG4gICAgICAgICAgICBkMy5zZWxlY3QoJyNpdGVtV2VpZ2h0JyArIFN0cmluZyhpKzIpKS5hdHRyKCd2YWx1ZScseC53ZWlnaHQpXG4gICAgICAgIH0pXG4gICAgfVxuICAgIGQzLnNlbGVjdCgnI2l0ZW1XZWlnaHQxJykuYXR0cigndmFsdWUnLHdlYXBvbnNJbnZbMF0ud2VpZ2h0KS5vbignaW5wdXQnKSgpO1xuICAgIFxuICAgIC8vIGFybW9yIEludmVudG9yeVxuICAgIGNvbnN0IGFybW9ySW52ID0gY2hhci5FcXVpcG1lbnQuQXJtb3JcbiAgICBjb25zb2xlLmxvZyhcImhlbGxvdyB3b3JsZFwiKVxuICAgIGNvbnNvbGUubG9nKGNoYXIuRXF1aXBtZW50LkFybW9yKVxuICAgIGlmIChhcm1vckludi5sZW5ndGggPiAwKSB7XG4gICAgICAgIGQzLnNlbGVjdCgnI2FybW9yTWFnaWNhbDEnKS5wcm9wZXJ0eSgnY2hlY2tlZCcsIGFybW9ySW52WzBdLm1hZ2ljKTtcbiAgICAgICAgZDMuc2VsZWN0KCcjYXJtb3JFcXVpcHBlZDEnKS5wcm9wZXJ0eSgnY2hlY2tlZCcsIGFybW9ySW52WzBdLmVxdWlwcGVkKTtcbiAgICAgICAgZDMuc2VsZWN0KCcjYXJtb3JOYW1lMScpLmF0dHIoJ3ZhbHVlJywgYXJtb3JJbnZbMF0ubmFtZSk7XG4gICAgICAgIGQzLnNlbGVjdCgnI2FybW9yV2VpZ2h0MScpLmF0dHIoJ3ZhbHVlJyxhcm1vckludlswXS53ZWlnaHQpLm9uKCdpbnB1dCcpKCk7IC8vdHJpZ2dlciB0aGUgaW5wdXQgZm9yIHdlaWdodCBzdW1cbiAgICAgICAgYXJtb3JJbnYuc2xpY2UoMSkuZm9yRWFjaCggKHgsaSkgPT4ge1xuICAgICAgICAgICAgYWRkQnV0dG9uTWF5YmUoKCcjYXJtb3JNYWdpY2FsJyArIFN0cmluZyhpKzIpKSwgJyNhZGRBcm1vckVxQnV0dG9uJylcbiAgICAgICAgICAgIC8vZDMuc2VsZWN0KCcjYWRkQXJtb3JFcUJ1dHRvbicpLm9uKCdjbGljaycpKClcbiAgICAgICAgICAgIGQzLnNlbGVjdCgnI2FybW9yTWFnaWNhbCcgKyBTdHJpbmcoaSsyKSkucHJvcGVydHkoJ2NoZWNrZWQnLHgubWFnaWMpO1xuICAgICAgICAgICAgZDMuc2VsZWN0KCcjYXJtb3JFcXVpcHBlZCcgKyBTdHJpbmcoaSsyKSkucHJvcGVydHkoJ2NoZWNrZWQnLHguZXF1aXBwZWQpO1xuICAgICAgICAgICAgZDMuc2VsZWN0KCcjYXJtb3JOYW1lJyArIFN0cmluZyhpKzIpKS5hdHRyKCd2YWx1ZScseC5uYW1lKTtcbiAgICAgICAgICAgIGQzLnNlbGVjdCgnI2FybW9yV2VpZ2h0JyArIFN0cmluZyhpKzIpKS5hdHRyKCd2YWx1ZScseC53ZWlnaHQpLm9uKCdpbnB1dCcpKClcbiAgICAgICAgICAgIDtcbiAgICAgICAgfSlcbiAgICB9XG5cbiAgICAvLyBNaXNjIEludmVudG9yeVxuICAgIGNvbnN0IG1pc2NJbnYgPSBjaGFyLkVxdWlwbWVudC5NaXNjXG5cbiAgICBpZiAobWlzY0ludi5sZW5ndGggPiAwKSB7XG4gICAgICAgIGQzLnNlbGVjdCgnI21pc2NNYWdpY2FsMScpLnByb3BlcnR5KCdjaGVja2VkJywgbWlzY0ludlswXS5tYWdpYyk7XG4gICAgICAgIGQzLnNlbGVjdCgnI21pc2NFcXVpcHBlZDEnKS5wcm9wZXJ0eSgnY2hlY2tlZCcsIG1pc2NJbnZbMF0uZXF1aXBwZWQpO1xuICAgICAgICBkMy5zZWxlY3QoJyNtaXNjTmFtZTEnKS5hdHRyKCd2YWx1ZScsIG1pc2NJbnZbMF0ubmFtZSk7XG4gICAgICAgIGQzLnNlbGVjdCgnI21pc2NXZWlnaHQxJykuYXR0cigndmFsdWUnLG1pc2NJbnZbMF0ud2VpZ2h0KS5vbignaW5wdXQnKSgpOyAvL3RyaWdnZXIgdGhlIGlucHV0IGZvciB3ZWlnaHQgc3VtXG4gICAgICAgIG1pc2NJbnYuc2xpY2UoMSkuZm9yRWFjaCggKHgsaSkgPT4ge1xuICAgICAgICAgICAgYWRkQnV0dG9uTWF5YmUoKCcjbWlzY01hZ2ljYWwnICsgU3RyaW5nKGkrMikpLCAnI2FkZEl0ZW1FcUJ1dHRvbicpXG4gICAgICAgICAgICAvL2QzLnNlbGVjdCgnI2FkZEl0ZW1FcUJ1dHRvbicpLm9uKCdjbGljaycpKClcbiAgICAgICAgICAgIGQzLnNlbGVjdCgnI21pc2NNYWdpY2FsJyArIFN0cmluZyhpKzIpKS5wcm9wZXJ0eSgnY2hlY2tlZCcseC5tYWdpYyk7XG4gICAgICAgICAgICBkMy5zZWxlY3QoJyNtaXNjRXF1aXBwZWQnICsgU3RyaW5nKGkrMikpLnByb3BlcnR5KCdjaGVja2VkJyx4LmVxdWlwcGVkKTtcbiAgICAgICAgICAgIGQzLnNlbGVjdCgnI21pc2NOYW1lJyArIFN0cmluZyhpKzIpKS5hdHRyKCd2YWx1ZScseC5uYW1lKTtcbiAgICAgICAgICAgIGQzLnNlbGVjdCgnI21pc2NXZWlnaHQnICsgU3RyaW5nKGkrMikpLmF0dHIoJ3ZhbHVlJyx4LndlaWdodClcbiAgICAgICAgICAgIDtcbiAgICAgICAgfSlcbiAgICB9XG4gICAgZDMuc2VsZWN0KCcjbWlzY1dlaWdodDEnKS5vbignaW5wdXQnKSgpO1xuXG4gICAgLy8vIG5vdGVzXG4gICAgY29uc3QgaGlyZWxpbmdzID0gY2hhci5IaXJlbGluZ3NcblxuICAgIGlmIChoaXJlbGluZ3MubGVuZ3RoID4gMCkge1xuICAgICAgICBkMy5zZWxlY3QoJyNoaXJlbGluZzEnKS5hdHRyKCd2YWx1ZScsIGhpcmVsaW5nc1swXSk7XG4gICAgICAgIGhpcmVsaW5ncy5zbGljZSgxKS5mb3JFYWNoKCAoeCxpKSA9PiB7XG4gICAgICAgICAgICBhZGRCdXR0b25NYXliZSgoJyNoaXJlbGluZycgKyBTdHJpbmcoaSsyKSksICcjYWRkSGlyZWxpbmdCdXR0b24nKVxuICAgICAgICAgICAgLy9kMy5zZWxlY3QoJyNhZGRIaXJlbGluZ0J1dHRvbicpLm9uKCdjbGljaycpKClcbiAgICAgICAgICAgIGQzLnNlbGVjdCgnI2hpcmVsaW5nJyArIFN0cmluZyhpKzIpKS5hdHRyKCd2YWx1ZScseCk7XG4gICAgICAgIH0pXG4gICAgfVxuXG4gICAgZDMuc2VsZWN0KCcjYmFja2dyb3VuZCcpLnRleHQoY2hhci5CYWNrZ3JvdW5kKTtcbiAgICBkMy5zZWxlY3QoJyNtaXNjTm90ZXMnKS50ZXh0KGNoYXIuTWlzY05vdGVzKTtcblxufS8vIGlmXG4vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vL1xufVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC00IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXG5cbmRpY2UxMDAgPSB7XG5cblxuXG5jb25zdCBwb3BvdmVyVHJpZ2dlckVsID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI2QxMDAnKTtcbmxldCBwb3BvdmVyVmFsID0gMDtcblxuY29uc3QgcG9wb3ZlciA9IG5ldyBib290c3RyYXAuUG9wb3Zlcihwb3BvdmVyVHJpZ2dlckVsLCB7XG4gIGNvbnRlbnQ6IHBvcG92ZXJWYWwsXG4gIHBsYWNlbWVudDogJ3RvcCdcbn0pO1xuXG5wb3BvdmVyVHJpZ2dlckVsLmFkZEV2ZW50TGlzdGVuZXIoJ3Nob3cuYnMucG9wb3ZlcicsICgpID0+IHtcbiAgICBjb25zdCBkaWNlTnVtYmVyID0gTnVtYmVyKGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwiZDEwMC1udW1iZXJcIikudmFsdWUpXG4gICAgcG9wb3ZlclZhbCA9IGdlbmVyYWxEaWNlKGRpY2VOdW1iZXIsMTAwLDApOyAvLyByZXBsYWNlIHdpdGggYSBjYWxsIHRvIHlvdXIgZnVuY3Rpb25cblxuICBwb3BvdmVyLnNldENvbnRlbnQoe1xuICAgICcucG9wb3Zlci1ib2R5JzogcG9wb3ZlclZhbC50b1N0cmluZygpXG4gIH0pO1xufSk7XG59XG5cbmRpY2UyMCA9IHtcblxuXG5jb25zdCBwb3BvdmVyVHJpZ2dlckVsID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI2QyMCcpO1xubGV0IHBvcG92ZXJWYWwgPSAwO1xuXG5jb25zdCBwb3BvdmVyID0gbmV3IGJvb3RzdHJhcC5Qb3BvdmVyKHBvcG92ZXJUcmlnZ2VyRWwsIHtcbiAgY29udGVudDogcG9wb3ZlclZhbCxcbiAgcGxhY2VtZW50OiAndG9wJ1xufSk7XG5cbnBvcG92ZXJUcmlnZ2VyRWwuYWRkRXZlbnRMaXN0ZW5lcignc2hvdy5icy5wb3BvdmVyJywgKCkgPT4ge1xuICAgIGNvbnN0IGRpY2VOdW1iZXIgPSBOdW1iZXIoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJkMjAtbnVtYmVyXCIpLnZhbHVlKVxuICBwb3BvdmVyVmFsID0gZ2VuZXJhbERpY2UoZGljZU51bWJlciwyMCwwKTsgLy8gcmVwbGFjZSB3aXRoIGEgY2FsbCB0byB5b3VyIGZ1bmN0aW9uXG5cbiAgcG9wb3Zlci5zZXRDb250ZW50KHtcbiAgICAnLnBvcG92ZXItYm9keSc6IHBvcG92ZXJWYWwudG9TdHJpbmcoKVxuICB9KTtcbn0pO1xuXG5cbn1cblxuZGljZTEyID0ge1xuXG5cbmNvbnN0IHBvcG92ZXJUcmlnZ2VyRWwgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcjZDEyJyk7XG5sZXQgcG9wb3ZlclZhbCA9IDA7XG5cbmNvbnN0IHBvcG92ZXIgPSBuZXcgYm9vdHN0cmFwLlBvcG92ZXIocG9wb3ZlclRyaWdnZXJFbCwge1xuICBjb250ZW50OiBwb3BvdmVyVmFsLFxuICBwbGFjZW1lbnQ6ICd0b3AnXG59KTtcblxucG9wb3ZlclRyaWdnZXJFbC5hZGRFdmVudExpc3RlbmVyKCdzaG93LmJzLnBvcG92ZXInLCAoKSA9PiB7XG4gICAgY29uc3QgZGljZU51bWJlciA9IE51bWJlcihkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcImQxMi1udW1iZXJcIikudmFsdWUpIFxuICAgIHBvcG92ZXJWYWwgPSBnZW5lcmFsRGljZShkaWNlTnVtYmVyLDEyLDApOyAvLyByZXBsYWNlIHdpdGggYSBjYWxsIHRvIHlvdXIgZnVuY3Rpb25cblxuICBwb3BvdmVyLnNldENvbnRlbnQoe1xuICAgICcucG9wb3Zlci1ib2R5JzogcG9wb3ZlclZhbC50b1N0cmluZygpXG4gIH0pO1xufSk7XG5cblxufVxuXG5kaWNlMTAgPSB7XG5cblxuY29uc3QgcG9wb3ZlclRyaWdnZXJFbCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNkMTAnKTtcbmxldCBwb3BvdmVyVmFsID0gMDtcblxuY29uc3QgcG9wb3ZlciA9IG5ldyBib290c3RyYXAuUG9wb3Zlcihwb3BvdmVyVHJpZ2dlckVsLCB7XG4gIGNvbnRlbnQ6IHBvcG92ZXJWYWwsXG4gIHBsYWNlbWVudDogJ3RvcCdcbn0pO1xuXG5wb3BvdmVyVHJpZ2dlckVsLmFkZEV2ZW50TGlzdGVuZXIoJ3Nob3cuYnMucG9wb3ZlcicsICgpID0+IHtcbiAgICBjb25zdCBkaWNlTnVtYmVyID0gTnVtYmVyKGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwiZDEwLW51bWJlclwiKS52YWx1ZSlcbiAgICBwb3BvdmVyVmFsID0gZ2VuZXJhbERpY2UoZGljZU51bWJlciwxMCwwKTsgLy8gcmVwbGFjZSB3aXRoIGEgY2FsbCB0byB5b3VyIGZ1bmN0aW9uXG5cbiAgcG9wb3Zlci5zZXRDb250ZW50KHtcbiAgICAnLnBvcG92ZXItYm9keSc6IHBvcG92ZXJWYWwudG9TdHJpbmcoKVxuICB9KTtcbn0pO1xuXG5cbn1cblxuZGljZTggPSB7XG5cblxuY29uc3QgcG9wb3ZlclRyaWdnZXJFbCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNkOCcpO1xubGV0IHBvcG92ZXJWYWwgPSAwO1xuXG5jb25zdCBwb3BvdmVyID0gbmV3IGJvb3RzdHJhcC5Qb3BvdmVyKHBvcG92ZXJUcmlnZ2VyRWwsIHtcbiAgY29udGVudDogcG9wb3ZlclZhbCxcbiAgcGxhY2VtZW50OiAndG9wJ1xufSk7XG5cbnBvcG92ZXJUcmlnZ2VyRWwuYWRkRXZlbnRMaXN0ZW5lcignc2hvdy5icy5wb3BvdmVyJywgKCkgPT4ge1xuICAgIGNvbnN0IGRpY2VOdW1iZXIgPSBOdW1iZXIoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJkOC1udW1iZXJcIikudmFsdWUpXG4gICAgcG9wb3ZlclZhbCA9IGdlbmVyYWxEaWNlKGRpY2VOdW1iZXIsOCwwKTsgLy8gcmVwbGFjZSB3aXRoIGEgY2FsbCB0byB5b3VyIGZ1bmN0aW9uXG5cbiAgcG9wb3Zlci5zZXRDb250ZW50KHtcbiAgICAnLnBvcG92ZXItYm9keSc6IHBvcG92ZXJWYWwudG9TdHJpbmcoKVxuICB9KTtcbn0pO1xuXG5cbn1cblxuZGljZTYgPSB7XG5cblxuY29uc3QgcG9wb3ZlclRyaWdnZXJFbCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJyNkNicpO1xubGV0IHBvcG92ZXJWYWwgPSAwO1xuXG5jb25zdCBwb3BvdmVyID0gbmV3IGJvb3RzdHJhcC5Qb3BvdmVyKHBvcG92ZXJUcmlnZ2VyRWwsIHtcbiAgY29udGVudDogcG9wb3ZlclZhbCxcbiAgcGxhY2VtZW50OiAndG9wJ1xufSk7XG5cbnBvcG92ZXJUcmlnZ2VyRWwuYWRkRXZlbnRMaXN0ZW5lcignc2hvdy5icy5wb3BvdmVyJywgKCkgPT4ge1xuICAgIGNvbnN0IGRpY2VOdW1iZXIgPSBOdW1iZXIoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJkNi1udW1iZXJcIikudmFsdWUpXG4gIHBvcG92ZXJWYWwgPSBnZW5lcmFsRGljZShkaWNlTnVtYmVyLDYsMCk7IC8vIHJlcGxhY2Ugd2l0aCBhIGNhbGwgdG8geW91ciBmdW5jdGlvblxuXG4gIHBvcG92ZXIuc2V0Q29udGVudCh7XG4gICAgJy5wb3BvdmVyLWJvZHknOiBwb3BvdmVyVmFsLnRvU3RyaW5nKClcbiAgfSk7XG59KTtcblxuXG59XG5cbmRpY2U0ID0ge1xuXG5cbmNvbnN0IHBvcG92ZXJUcmlnZ2VyRWwgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcjZDQnKTtcbmxldCBwb3BvdmVyVmFsID0gMDtcblxuY29uc3QgcG9wb3ZlciA9IG5ldyBib290c3RyYXAuUG9wb3Zlcihwb3BvdmVyVHJpZ2dlckVsLCB7XG4gIGNvbnRlbnQ6IHBvcG92ZXJWYWwsXG4gIHBsYWNlbWVudDogJ3RvcCdcbn0pO1xuXG5wb3BvdmVyVHJpZ2dlckVsLmFkZEV2ZW50TGlzdGVuZXIoJ3Nob3cuYnMucG9wb3ZlcicsICgpID0+IHtcbiAgICBjb25zdCBkaWNlTnVtYmVyID0gTnVtYmVyKGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwiZDQtbnVtYmVyXCIpLnZhbHVlKVxuICAgIHBvcG92ZXJWYWwgPSBnZW5lcmFsRGljZShkaWNlTnVtYmVyLDQsMCk7IC8vIHJlcGxhY2Ugd2l0aCBhIGNhbGwgdG8geW91ciBmdW5jdGlvblxuXG4gIHBvcG92ZXIuc2V0Q29udGVudCh7XG4gICAgJy5wb3BvdmVyLWJvZHknOiBwb3BvdmVyVmFsLnRvU3RyaW5nKClcbiAgfSk7XG59KTtcblxuXG59XG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTUiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbmZ1bmN0aW9uIGFkZFdlYXBvbigpIHtcbiAgICAgIHZhciBpbnB1dENvbnRhaW5lciA9IGQzLnNlbGVjdCgnI2F0dGFja0NvbnRhaW5lcicpO1xuICAgICAgdmFyIGlucHV0Q291bnQgPSBpbnB1dENvbnRhaW5lci5zZWxlY3RBbGwoJy5ncmlkJykuc2l6ZSgpO1xuXG4gICAgICBcblxuICAgIHZhciBpbnB1dEdyb3VwID0gaW5wdXRDb250YWluZXJcbiAgICAgIC5hcHBlbmQoJ2RpdicpXG4gICAgICAuYXR0cignY2xhc3MnLCdncmlkIGctMCBqdXN0aWZ5LWNvbnRlbnQtY2VudGVyJykuYXR0cignc3R5bGUnLCctLWJzLWdhcDowOy0tYnMtY29sdW1uczoxMzsnKVxuICAgICAgLmF0dHIoJ2lkJywnYXR0YWNrJysoaW5wdXRDb3VudCArIDEpKVxuXG4gICAgaW5wdXRHcm91cFxuICAgIC5odG1sKGBcbiAgICAgIDxkaXYgY2xhc3M9XCJnLWNvbC0zXCI+XG4gICAgICAgIDxpbnB1dCBhdXRvY29tcGxldGU9XCJvZmZcIiB0eXBlPVwidGV4dFwiIGNsYXNzPVwiZm9ybS1jb250cm9sIGZvcm0tY29udHJvbC1zbSB3ZWFwb25Gb3JtXCIgIGlkPVwid2VhcG9uRm9ybSR7aW5wdXRDb3VudCArIDF9XCI+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3M9XCJnLWNvbC0yXCI+XG4gICAgICAgIDxpbnB1dCBhdXRvY29tcGxldGU9XCJvZmZcIiB0eXBlPVwidGV4dFwiIGNsYXNzPVwiZm9ybS1jb250cm9sIGZvcm0tY29udHJvbC1zbSBhdHRhY2tGb3JtXCIgaWQ9XCJhdHRhY2tGb3JtJHtpbnB1dENvdW50ICsgMX1cIj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzcz1cImctY29sLTJcIj5cbiAgICAgICAgPGlucHV0IGF1dG9jb21wbGV0ZT1cIm9mZlwiIHR5cGU9XCJ0ZXh0XCIgY2xhc3M9XCJmb3JtLWNvbnRyb2wgZm9ybS1jb250cm9sLXNtIGRhbWFnZUZvcm1cIiAgaWQ9XCJkYW1hZ2VGb3JtJHtpbnB1dENvdW50ICsgMX1cIj5cbiAgICAgIDwvZGl2PiAgXG4gICAgICA8ZGl2IGNsYXNzPVwiZy1jb2wtMVwiPlxuICAgICAgICA8aW5wdXQgYXV0b2NvbXBsZXRlPVwib2ZmXCIgdHlwZT1cInRleHRcIiBjbGFzcz1cImZvcm0tY29udHJvbCBmb3JtLWNvbnRyb2wtc20gcmFuZ2VTRm9ybVwiICBpZD1cInJhbmdlU0Zvcm0ke2lucHV0Q291bnQgKyAxfVwiPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzPVwiZy1jb2wtMVwiPlxuICAgICAgICA8aW5wdXQgYXV0b2NvbXBsZXRlPVwib2ZmXCIgdHlwZT1cInRleHRcIiBjbGFzcz1cImZvcm0tY29udHJvbCBmb3JtLWNvbnRyb2wtc20gcmFuZ2VNRm9ybVwiIGlkPVwicmFuZ2VNRm9ybSR7aW5wdXRDb3VudCArIDF9XCIgPlxuICAgICAgPC9kaXY+ICBcbiAgICAgIDxkaXYgY2xhc3M9XCJnLWNvbC0xXCI+XG4gICAgICAgIDxpbnB1dCBhdXRvY29tcGxldGU9XCJvZmZcIiB0eXBlPVwidGV4dFwiIGNsYXNzPVwiZm9ybS1jb250cm9sIGZvcm0tY29udHJvbC1zbSByYW5nZUxGb3JtXCIgaWQ9XCJyYW5nZUxGb3JtJHtpbnB1dENvdW50ICsgMX1cIj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzcz1cImctY29sLTJcIj5cbiAgICAgICAgPGlucHV0IGF1dG9jb21wbGV0ZT1cIm9mZlwiIHR5cGU9XCJ0ZXh0XCIgY2xhc3M9XCJmb3JtLWNvbnRyb2wgZm9ybS1jb250cm9sLXNtIG5vdGVzRm9ybVwiICBpZD1cIm5vdGVzRm9ybSR7aW5wdXRDb3VudCArIDF9XCI+XG4gICAgICA8L2Rpdj5gKVxuICAgIC5hcHBlbmQoJ2RpdicpXG4gICAgLmF0dHIoJ2NsYXNzJywnZy1jb2wtMScpXG4gICAgLmFwcGVuZCgnaScpXG4gICAgLmF0dHIoJ2NsYXNzJywgJ2JpIGJpLXgtbGcgbXQtMyB0ZXh0LWRhbmdlcicpXG4gICAgLmF0dHIoJ3N0eWxlJywgJ2N1cnNvcjogcG9pbnRlcjsnKVxuICAgIC5hdHRyKCdpZCcsICdhdHRhY2tEZWwnICsgKGlucHV0Q291bnQgKyAxKSlcbiAgICAub24oJ2NsaWNrJywgZnVuY3Rpb24oKSB7XG4gICAgICAgICAgaW5wdXRHcm91cC5yZW1vdmUoKTtcbiAgICAgICAgfSk7XG4gICAgICBcbiAgICBjb25zb2xlLmxvZyhpbnB1dENvdW50KVxuICAgIH1cblxud2VhcG9uID0ge1xuICAgIGNvbnN0IGFkZElucHV0QnV0dG9uID0gZDMuc2VsZWN0KCcjYWRkV2VhcG9uQnV0dG9uJyk7XG4gICAgYWRkSW5wdXRCdXR0b24ub24oJ2NsaWNrJywgKCkgPT4gYWRkV2VhcG9uKCkgKTtcblxuIFxufVxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTYiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbmZ1bmN0aW9uIGFkZEFtbW8oKSB7XG4gICAgICB2YXIgaW5wdXRDb250YWluZXIgPSBkMy5zZWxlY3QoJyNhbW1vQ29udGFpbmVyJyk7XG4gICAgICB2YXIgaW5wdXRDb3VudCA9IGlucHV0Q29udGFpbmVyLnNlbGVjdEFsbCgnLmdyaWQnKS5zaXplKCk7XG5cbiAgICB2YXIgaW5wdXRHcm91cCA9IGlucHV0Q29udGFpbmVyXG4gICAgICAuYXBwZW5kKCdkaXYnKVxuICAgICAgLmF0dHIoJ2NsYXNzJywnZ3JpZCBnLTAganVzdGlmeS1jb250ZW50LWNlbnRlcicpLmF0dHIoJ3N0eWxlJywnLS1icy1nYXA6MDstLWJzLWNvbHVtbnM6MTM7JylcbiAgICAgIC5hdHRyKCdpZCcsJ2FtbW8nKyhpbnB1dENvdW50ICsgMSkpXG5cbiAgICBpbnB1dEdyb3VwXG4gICAgLmh0bWwoYFxuICAgIDxkaXYgY2xhc3M9XCJnLWNvbC0zXCI+XG4gICAgICAgIDxpbnB1dCBhdXRvY29tcGxldGU9XCJvZmZcIiB0eXBlPVwidGV4dFwiIGNsYXNzPVwiZm9ybS1jb250cm9sIGZvcm0tY29udHJvbC1zbSBhbW1vRm9ybVwiIGlkPWFtbW9Gb3JtJHtpbnB1dENvdW50ICsgMX0+XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImctY29sLTFcIj5cbiAgICAgICAgPGRpdiBjbGFzcz1cImZvcm0tb3V0bGluZVwiPlxuICAgICAgICAgICAgPGlucHV0IGF1dG9jb21wbGV0ZT1cIm9mZlwiIHR5cGU9XCJudW1iZXJcIiBjbGFzcz1cImZvcm0tY29udHJvbCBmb3JtLWNvbnRyb2wtc20gY291bnRGb3JtXCIgdmFsdWU9MCBpZD1jb3VudEZvcm0ke2lucHV0Q291bnQgKyAxfT5cbiAgICAgICAgPC9kaXY+XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzcz1cImctY29sLTFcIj5cbiAgICAgICAgPGlucHV0IGF1dG9jb21wbGV0ZT1cIm9mZlwiIHR5cGU9XCJ0ZXh0XCIgY2xhc3M9XCJmb3JtLWNvbnRyb2wgZm9ybS1jb250cm9sLXNtIGFtbW9EbWdGb3JtXCIgIGlkPWFtbW9EbWdGb3JtJHtpbnB1dENvdW50ICsgMX0+XG4gICAgPC9kaXY+ICBcbiAgICA8ZGl2IGNsYXNzPVwiZy1jb2wtNlwiPlxuICAgICAgICA8ZGl2IGNsYXNzPVwiZm9ybS1vdXRsaW5lXCI+XG4gICAgICAgICAgICA8aW5wdXQgYXV0b2NvbXBsZXRlPVwib2ZmXCIgdHlwZT1cInRleHRcIiBjbGFzcz1cImZvcm0tY29udHJvbCBmb3JtLWNvbnRyb2wtc20gYW1tby1ub3Rlc0Zvcm1cIiBpZD1hbW1vLW5vdGVzRm9ybSR7aW5wdXRDb3VudCArIDF9PlxuICAgICAgICA8L2Rpdj5cbiAgICA8L2Rpdj4gICAgXG4gICAgYClcbiAgICAuYXBwZW5kKCdkaXYnKVxuICAgIC5hdHRyKCdjbGFzcycsJ2ctY29sLTEnKVxuICAgIC5hcHBlbmQoJ2knKVxuICAgIC5hdHRyKCdjbGFzcycsICdiaSBiaS14LWxnIG10LTMgdGV4dC1kYW5nZXInKVxuICAgIC5hdHRyKCdzdHlsZScsICdjdXJzb3I6IHBvaW50ZXI7JylcbiAgICAuYXR0cignaWQnLCAnYW1tb0RlbCcgKyAoaW5wdXRDb3VudCArIDEpKVxuICAgIC5vbignY2xpY2snLCBmdW5jdGlvbigpIHtcbiAgICAgICAgICBpbnB1dEdyb3VwLnJlbW92ZSgpO1xuICAgICAgICB9KTtcbiAgICAgIFxuICAgIH1cblxuYW1tbyA9IHtcbiAgICBjb25zdCBhZGRJbnB1dEJ1dHRvbiA9IGQzLnNlbGVjdCgnI2FkZEFtbW9CdXR0b24nKTtcbiAgICBhZGRJbnB1dEJ1dHRvbi5vbignY2xpY2snLCAoKSA9PiBhZGRBbW1vKCkgKTtcblxufVxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTciLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbmZ1bmN0aW9uIGFkZFNwZWxsKCkge1xuICAgICAgdmFyIGlucHV0Q29udGFpbmVyID0gZDMuc2VsZWN0KCcjc3BlbGxDb250YWluZXInKTtcbiAgICAgIHZhciBpbnB1dENvdW50ID0gaW5wdXRDb250YWluZXIuc2VsZWN0QWxsKCcuZ3JpZCcpLnNpemUoKTtcblxuICAgIHZhciBpbnB1dEdyb3VwID0gaW5wdXRDb250YWluZXJcbiAgICAgIC5hcHBlbmQoJ2RpdicpXG4gICAgICAuYXR0cignY2xhc3MnLCdncmlkIGFsaWduLWNvbnRlbnQtY2VudGVyJykuYXR0cignc3R5bGUnLCctLWJzLWdhcDowOy0tYnMtY29sdW1uczoxMjsnKVxuICAgICAgLmF0dHIoJ2lkJywnc3BlbGwnKyhpbnB1dENvdW50ICsgMSkpXG5cbiAgICBpbnB1dEdyb3VwXG4gICAgLmh0bWwoYFxuICAgICAgPGRpdiBjbGFzcz1cImctY29sLTIgZy1jb2wtc20tMVwiPlxuICAgICAgICA8aW5wdXQgYXV0b2NvbXBsZXRlPVwib2ZmXCIgdHlwZT1cInRleHRcIiBjbGFzcz1cImZvcm0tY29udHJvbCB0ZXh0LWNlbnRlciBzcGVsbC1sZXZlbFwiICBpZD1cInNwZWxsLWxldmVsLUZvcm0ke2lucHV0Q291bnQgKyAxfVwiPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzPVwiZy1jb2wtNyBnLWNvbC1zbS04XCI+XG4gICAgICAgIDxpbnB1dCBhdXRvY29tcGxldGU9XCJvZmZcIiB0eXBlPVwidGV4dFwiIGNsYXNzPVwiZm9ybS1jb250cm9sICBzcGVsbC1uYW1lXCIgIGlkPVwic3BlbGwtbmFtZS1Gb3JtJHtpbnB1dENvdW50ICsgMX1cIj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzcz1cImctY29sLTJcIj5cbiAgICAgICAgPGlucHV0IGF1dG9jb21wbGV0ZT1cIm9mZlwiIHR5cGU9XCJudW1iZXJcIiBjbGFzcz1cImZvcm0tY29udHJvbCAgc3BlbGwtcHJlcFwiIGlkPVwic3BlbGwtcHJlcC1Gb3JtJHtpbnB1dENvdW50ICsgMX1cIiB2YWx1ZT0wPlxuICAgICAgPC9kaXY+IFxuICAgIGApXG4gICAgLmFwcGVuZCgnZGl2JylcbiAgICAuYXR0cignY2xhc3MnLCdnLWNvbC0xJylcbiAgICAuYXBwZW5kKCdpJylcbiAgICAuYXR0cignY2xhc3MnLCAnYmkgYmkteC1sZyBtdC0zIHRleHQtZGFuZ2VyJylcbiAgICAuYXR0cignc3R5bGUnLCAnY3Vyc29yOiBwb2ludGVyOycpXG4gICAgLmF0dHIoJ2lkJywgJ3NwZWxsRGVsJyArIChpbnB1dENvdW50ICsgMSkpXG4gICAgLm9uKCdjbGljaycsIGZ1bmN0aW9uKCkge1xuICAgICAgICAgIGlucHV0R3JvdXAucmVtb3ZlKCk7XG4gICAgICAgIH0pO1xuICAgICAgXG4gICAgfVxuXG5zcGVsbCA9IHtcbiAgICBjb25zdCBhZGRJbnB1dEJ1dHRvbiA9IGQzLnNlbGVjdCgnI2FkZFNwZWxsQnV0dG9uJyk7XG4gICAgYWRkSW5wdXRCdXR0b24ub24oJ2NsaWNrJywgKCkgPT4gYWRkU3BlbGwoKSApO1xuXG59XG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTgiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbmZ1bmN0aW9uIGFkZFdlYXBvbkVxKCkge1xuICAgICAgdmFyIGlucHV0Q29udGFpbmVyID0gZDMuc2VsZWN0KCcjd2VhcG9uRXFDb250YWluZXInKTtcbiAgICAgIHZhciBpbnB1dENvdW50ID0gaW5wdXRDb250YWluZXIuc2VsZWN0QWxsKCcuZ3JpZCcpLnNpemUoKTtcblxuICAgIHZhciBpbnB1dEdyb3VwID0gaW5wdXRDb250YWluZXJcbiAgICAgIC5hcHBlbmQoJ2RpdicpXG4gICAgICAuYXR0cignY2xhc3MnLCdncmlkIGFsaWduLWNvbnRlbnQtY2VudGVyJykuYXR0cignc3R5bGUnLCctLWJzLWdhcDowOy0tYnMtY29sdW1uczoxMjsnKVxuICAgICAgLmF0dHIoJ2lkJywnd2VhcG9uRXEnKyhpbnB1dENvdW50ICsgMSkpXG5cbiAgICBpbnB1dEdyb3VwXG4gICAgLmh0bWwoYFxuICAgICAgICA8ZGl2IGNsYXNzPVwiZy1jb2wtMSBtdC0yXCI+XG4gICAgICAgICAgICA8aW5wdXQgYXV0b2NvbXBsZXRlPVwib2ZmXCIgY2xhc3M9XCJmb3JtLWNoZWNrLWlucHV0IHdlYXBvbnNFcU1hZ1wiIHR5cGU9XCJjaGVja2JveFwiIHZhbHVlPVwiXCIgIGlkPVwiaXRlbU1hZ2ljYWwke2lucHV0Q291bnQgKyAxfVwiPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzcz1cImctY29sLTEgbXQtMlwiPlxuICAgICAgICAgICAgPGlucHV0IGF1dG9jb21wbGV0ZT1cIm9mZlwiIGNsYXNzPVwiZm9ybS1jaGVjay1pbnB1dCB3ZWFwb25zRXFFcVwiIHR5cGU9XCJjaGVja2JveFwiIHZhbHVlPVwiXCIgaWQ9XCJpdGVtRXF1aXBwZWQke2lucHV0Q291bnQgKyAxfVwiPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzcz1cImctY29sLThcIj5cbiAgICAgICAgICAgIDxpbnB1dCBhdXRvY29tcGxldGU9XCJvZmZcIiB0eXBlPVwidGV4dFwiIGNsYXNzPVwiZm9ybS1jb250cm9sIGZvcm0tY29udHJvbC1zbSB3ZWFwb25zRXFOYW1lXCIgIGlkPVwiaXRlbU5hbWUke2lucHV0Q291bnQgKyAxfVwiPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzcz1cImctY29sLTFcIj5cbiAgICAgICAgICAgIDxpbnB1dCBhdXRvY29tcGxldGU9XCJvZmZcIiB0eXBlPVwidGV4dFwiIGNsYXNzPVwiZm9ybS1jb250cm9sIGZvcm0tY29udHJvbC1zbSB3ZWlnaHQgd2VhcG9uc0VxV2VpZ2h0XCJcbiAgICAgICAgICAgIG9ua2V5cHJlc3M9XCJyZXR1cm4gZXZlbnQuY2hhckNvZGUgPj0gNDYgJiYgZXZlbnQuY2hhckNvZGUgPD0gNTdcIiBpZD1cIml0ZW1XZWlnaHQke2lucHV0Q291bnQgKyAxfVwiPlxuICAgICAgICA8L2Rpdj4gIFxuICAgIGApXG4gICAgLm9uKFwiaW5wdXRcIiwgY2FsY1dlaWdodClcbiAgICAuYXBwZW5kKCdkaXYnKVxuICAgIC5hdHRyKCdjbGFzcycsJ2ctY29sLTEnKVxuICAgIC5hcHBlbmQoJ2knKVxuICAgIC5hdHRyKCdjbGFzcycsICdiaSBiaS14LWxnIG10LTMgdGV4dC1kYW5nZXInKVxuICAgIC5hdHRyKCdzdHlsZScsICdjdXJzb3I6IHBvaW50ZXI7JylcbiAgICAuYXR0cignaWQnLCAnc3BlbGxEZWwnICsgKGlucHV0Q291bnQgKyAxKSlcbiAgICAub24oJ2NsaWNrJywgZnVuY3Rpb24oKSB7XG4gICAgICAgICAgaW5wdXRHcm91cC5yZW1vdmUoKTtcbiAgICAgICAgICBjYWxjV2VpZ2h0KCk7XG4gICAgICAgIH0pO1xuICAgICAgXG4gICAgfVxuXG53ZWFwb25FcSA9IHtcbiAgICBjb25zdCBhZGRJbnB1dEJ1dHRvbiA9IGQzLnNlbGVjdCgnI2FkZFdlYXBvbkVxQnV0dG9uJyk7XG4gICAgYWRkSW5wdXRCdXR0b24ub24oJ2NsaWNrJywgKCkgPT4gYWRkV2VhcG9uRXEoKSApO1xuXG59XG5cblxuXG5mdW5jdGlvbiBhZGRBcm1vckVxKCkge1xuICAgICAgdmFyIGlucHV0Q29udGFpbmVyID0gZDMuc2VsZWN0KCcjYXJtb3JFcUNvbnRhaW5lcicpO1xuICAgICAgdmFyIGlucHV0Q291bnQgPSBpbnB1dENvbnRhaW5lci5zZWxlY3RBbGwoJy5ncmlkJykuc2l6ZSgpO1xuXG4gICAgdmFyIGlucHV0R3JvdXAgPSBpbnB1dENvbnRhaW5lclxuICAgICAgLmFwcGVuZCgnZGl2JylcbiAgICAgIC5hdHRyKCdjbGFzcycsJ2dyaWQgYWxpZ24tY29udGVudC1jZW50ZXInKS5hdHRyKCdzdHlsZScsJy0tYnMtZ2FwOjA7LS1icy1jb2x1bW5zOjEyOycpXG4gICAgICAuYXR0cignaWQnLCdhcm1vckVxJysoaW5wdXRDb3VudCArIDEpKVxuXG4gICAgaW5wdXRHcm91cFxuICAgIC5odG1sKGBcbiAgICAgICAgPGRpdiBjbGFzcz1cImctY29sLTEgbXQtMlwiPlxuICAgICAgICAgICAgPGlucHV0IGF1dG9jb21wbGV0ZT1cIm9mZlwiIGNsYXNzPVwiZm9ybS1jaGVjay1pbnB1dCBhcm1vck1hZ2ljYWxcIiB0eXBlPVwiY2hlY2tib3hcIiB2YWx1ZT1cIlwiICBpZD1cImFybW9yTWFnaWNhbCR7aW5wdXRDb3VudCArIDF9XCI+IFxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzcz1cImctY29sLTEgbXQtMlwiPlxuICAgICAgICAgICAgPGlucHV0IGF1dG9jb21wbGV0ZT1cIm9mZlwiIGNsYXNzPVwiZm9ybS1jaGVjay1pbnB1dCBhcm1vckVxdWlwcGVkXCIgdHlwZT1cImNoZWNrYm94XCIgdmFsdWU9XCJcIiBpZD1cImFybW9yRXF1aXBwZWQke2lucHV0Q291bnQgKyAxfVwiPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzcz1cImctY29sLThcIj5cbiAgICAgICAgICAgIDxpbnB1dCBhdXRvY29tcGxldGU9XCJvZmZcIiB0eXBlPVwidGV4dFwiIGNsYXNzPVwiZm9ybS1jb250cm9sIGZvcm0tY29udHJvbC1zbSBhcm1vck5hbWVcIiAgaWQ9XCJhcm1vck5hbWUke2lucHV0Q291bnQgKyAxfVwiPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzcz1cImctY29sLTFcIj5cbiAgICAgICAgICAgIDxpbnB1dCBhdXRvY29tcGxldGU9XCJvZmZcIiB0eXBlPVwidGV4dFwiIGNsYXNzPVwiZm9ybS1jb250cm9sIGZvcm0tY29udHJvbC1zbSB3ZWlnaHQgYXJtb3JXZWlnaHRcIlxuICAgICAgICAgICAgb25rZXlwcmVzcz1cInJldHVybiBldmVudC5jaGFyQ29kZSA+PSA0NiAmJiBldmVudC5jaGFyQ29kZSA8PSA1N1wiIGlkPVwiYXJtb3JXZWlnaHQke2lucHV0Q291bnQgKyAxfVwiPlxuICAgICAgICA8L2Rpdj4gIFxuICAgIGApXG4gICAgLm9uKFwiaW5wdXRcIiwgY2FsY1dlaWdodClcbiAgICAuYXBwZW5kKCdkaXYnKVxuICAgIC5hdHRyKCdjbGFzcycsJ2ctY29sLTEnKVxuICAgIC5hcHBlbmQoJ2knKVxuICAgIC5hdHRyKCdjbGFzcycsICdiaSBiaS14LWxnIG10LTMgdGV4dC1kYW5nZXInKVxuICAgIC5hdHRyKCdzdHlsZScsICdjdXJzb3I6IHBvaW50ZXI7JylcbiAgICAuYXR0cignaWQnLCAnYXJtb3JFcURlbCcgKyAoaW5wdXRDb3VudCArIDEpKVxuICAgIC5vbignY2xpY2snLCBmdW5jdGlvbigpIHtcbiAgICAgICAgICBpbnB1dEdyb3VwLnJlbW92ZSgpO1xuICAgICAgICAgIGNhbGNXZWlnaHQoKTtcbiAgICAgICAgfSk7XG4gICAgICBcbiAgICB9XG5cbmFybW9yRXEgPSB7XG4gICAgY29uc3QgYWRkSW5wdXRCdXR0b24gPSBkMy5zZWxlY3QoJyNhZGRBcm1vckVxQnV0dG9uJyk7XG4gICAgYWRkSW5wdXRCdXR0b24ub24oJ2NsaWNrJywgKCkgPT4gYWRkQXJtb3JFcSgpICk7XG5cbn1cblxuXG5mdW5jdGlvbiBhZGRJdGVtRXEoKSB7XG4gICAgICB2YXIgaW5wdXRDb250YWluZXIgPSBkMy5zZWxlY3QoJyNtaXNjRXFDb250YWluZXInKTtcbiAgICAgIHZhciBpbnB1dENvdW50ID0gaW5wdXRDb250YWluZXIuc2VsZWN0QWxsKCcuZ3JpZCcpLnNpemUoKTtcblxuICAgIHZhciBpbnB1dEdyb3VwID0gaW5wdXRDb250YWluZXJcbiAgICAgIC5hcHBlbmQoJ2RpdicpXG4gICAgICAuYXR0cignY2xhc3MnLCdncmlkIGFsaWduLWNvbnRlbnQtY2VudGVyJykuYXR0cignc3R5bGUnLCctLWJzLWdhcDowOy0tYnMtY29sdW1uczoxMjsnKVxuICAgICAgLmF0dHIoJ2lkJywnbWlzY0VxJysoaW5wdXRDb3VudCArIDEpKVxuXG4gICAgaW5wdXRHcm91cFxuICAgIC5odG1sKGBcbiAgICAgICAgPGRpdiBjbGFzcz1cImctY29sLTEgbXQtMlwiPlxuICAgICAgICAgICAgPGlucHV0IGF1dG9jb21wbGV0ZT1cIm9mZlwiIGNsYXNzPVwiZm9ybS1jaGVjay1pbnB1dCBtaXNjTWFnaWNhbFwiIHR5cGU9XCJjaGVja2JveFwiIHZhbHVlPVwiXCIgIGlkPVwibWlzY01hZ2ljYWwke2lucHV0Q291bnQgKyAxfVwiPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzcz1cImctY29sLTEgbXQtMlwiPlxuICAgICAgICAgICAgPGlucHV0IGF1dG9jb21wbGV0ZT1cIm9mZlwiIGNsYXNzPVwiZm9ybS1jaGVjay1pbnB1dCBtaXNjRXF1aXBwZWRcIiB0eXBlPVwiY2hlY2tib3hcIiB2YWx1ZT1cIlwiIGlkPVwibWlzY0VxdWlwcGVkJHtpbnB1dENvdW50ICsgMX1cIj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxkaXYgY2xhc3M9XCJnLWNvbC04XCI+XG4gICAgICAgICAgICA8aW5wdXQgYXV0b2NvbXBsZXRlPVwib2ZmXCIgdHlwZT1cInRleHRcIiBjbGFzcz1cImZvcm0tY29udHJvbCBmb3JtLWNvbnRyb2wtc20gbWlzY05hbWVcIiAgaWQ9XCJtaXNjTmFtZSR7aW5wdXRDb3VudCArIDF9XCI+IFxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzcz1cImctY29sLTFcIj5cbiAgICAgICAgICAgIDxpbnB1dCBhdXRvY29tcGxldGU9XCJvZmZcIiB0eXBlPVwidGV4dFwiIGNsYXNzPVwiZm9ybS1jb250cm9sIGZvcm0tY29udHJvbC1zbSB3ZWlnaHQgbWlzY1dlaWdodFwiXG4gICAgICAgICAgICBvbmtleXByZXNzPVwicmV0dXJuIGV2ZW50LmNoYXJDb2RlID49IDQ2ICYmIGV2ZW50LmNoYXJDb2RlIDw9IDU3XCIgaWQ9XCJtaXNjV2VpZ2h0JHtpbnB1dENvdW50ICsgMX1cIj5cbiAgICAgICAgPC9kaXY+ICBcbiAgICBgKVxuICAgIC5vbihcImlucHV0XCIsIGNhbGNXZWlnaHQpXG4gICAgLmFwcGVuZCgnZGl2JylcbiAgICAuYXR0cignY2xhc3MnLCdnLWNvbC0xJylcbiAgICAuYXBwZW5kKCdpJylcbiAgICAuYXR0cignY2xhc3MnLCAnYmkgYmkteC1sZyBtdC0zIHRleHQtZGFuZ2VyJylcbiAgICAuYXR0cignc3R5bGUnLCAnY3Vyc29yOiBwb2ludGVyOycpXG4gICAgLmF0dHIoJ2lkJywgJ21pc2NFcURlbCcgKyAoaW5wdXRDb3VudCArIDEpKVxuICAgIC5vbignY2xpY2snLCBmdW5jdGlvbigpIHtcbiAgICAgICAgICBpbnB1dEdyb3VwLnJlbW92ZSgpO1xuICAgICAgICAgIGNhbGNXZWlnaHQoKTtcbiAgICAgICAgfSk7XG4gICAgICBcbiAgICB9XG5cbm1pc2NFcSA9IHtcbiAgICBjb25zdCBhZGRJbnB1dEJ1dHRvbiA9IGQzLnNlbGVjdCgnI2FkZEl0ZW1FcUJ1dHRvbicpO1xuICAgIGFkZElucHV0QnV0dG9uLm9uKCdjbGljaycsICgpID0+IGFkZEl0ZW1FcSgpICk7XG5cbn1cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtOSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImZ1bmN0aW9uIGNhbGNXZWlnaHQgKCkge1xuICAgIGNvbnN0IGVxID0gZDMuc2VsZWN0KCcjZXF1aXBtZW50JylcbiAgICBjb25zdCB3QXJyYXkgPSBkMy5zZWxlY3RBbGwoJy53ZWlnaHQnKVxuICAgIGNvbnN0IHRvdFdGaWVsZCA9IGQzLnNlbGVjdCgnI3RvdGFsV2VpZ2h0JylcblxuICAgIHZhciBzdW0gPSAwXG5cbiAgICB3QXJyYXkuZWFjaChmdW5jdGlvbigpIHtcbiAgICAgICAgdmFyIHZhbHVlID0gK2QzLnNlbGVjdCh0aGlzKS5wcm9wZXJ0eShcInZhbHVlXCIpO1xuICAgICAgICBzdW0gKz0gdmFsdWU7XG4gICAgICB9KTtcbiAgICBcbiAgICB0b3RXRmllbGQucHJvcGVydHkoXCJ2YWx1ZVwiLCBzdW0pO1xuICAgIFxufVxuXG50b3RhbFcgPSB7XG4gICAgY29uc3QgZXEgPSBkMy5zZWxlY3QoJyNlcXVpcG1lbnQnKTtcbiAgICB2YXIgaW5wdXRzID0gZXEuc2VsZWN0QWxsKFwiLndlaWdodFwiKTtcblxuICAgIGlucHV0cy5vbihcImlucHV0XCIsIGNhbGNXZWlnaHQpO1xufVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0xMCIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuZnVuY3Rpb24gYWRkSGlyZWxpbmcoKSB7XG4gICAgICB2YXIgaW5wdXRDb250YWluZXIgPSBkMy5zZWxlY3QoJyNoaXJlbGluZ3NDb250YWluZXInKTtcbiAgICAgIHZhciBpbnB1dENvdW50ID0gaW5wdXRDb250YWluZXIuc2VsZWN0QWxsKCcuaW5wdXQtZ3JvdXAnKS5zaXplKCk7XG5cbiAgICAgIHZhciBpbnB1dEdyb3VwID0gaW5wdXRDb250YWluZXJcbiAgICAgICAgLmFwcGVuZCgnZGl2JylcbiAgICAgICAgLmF0dHIoJ2NsYXNzJywgJ2lucHV0LWdyb3VwIG1iLTInKTtcblxuICAgICAgaW5wdXRHcm91cFxuICAgICAgICAuYXBwZW5kKCdpbnB1dCcpXG4gICAgICAgIC5hdHRyKCdhdXRvY29tcGxldGUnLFwib2ZmXCIpXG4gICAgICAgIC5hdHRyKCd0eXBlJywgJ3RleHQnKVxuICAgICAgICAuYXR0cignaWQnLCAnaGlyZWxpbmcnICsgKGlucHV0Q291bnQgKyAxKSlcbiAgICAgICAgLmF0dHIoJ2NsYXNzJywgJ2Zvcm0tY29udHJvbCByb3VuZGVkLXN0YXJ0IGhpcmVsaW5ncycpXG4gICAgICAgIC5hdHRyKCdwbGFjZWhvbGRlcicsICdIaXJlbGluZyAnICsgKGlucHV0Q291bnQgKyAxKSk7XG5cbiAgICAgIGlucHV0R3JvdXBcbiAgICAgICAgLmFwcGVuZCgnYnV0dG9uJylcbiAgICAgICAgLmF0dHIoJ2NsYXNzJywgJ2J0biBidG4tZGFuZ2VyIGRlbGV0ZS1idXR0b24gcm91bmRlZC1lbmQnKVxuICAgICAgICAuYXR0cigndHlwZScsICdidXR0b24nKVxuICAgICAgICAuYXR0cignaWQnLCAnaGlyZWxpbmdEZWwnICsgKGlucHV0Q291bnQgKyAxKSlcbiAgICAgICAgLnRleHQoJy0nKVxuICAgICAgICAub24oJ2NsaWNrJywgZnVuY3Rpb24oKSB7XG4gICAgICAgICAgaW5wdXRHcm91cC5yZW1vdmUoKTtcbiAgICAgICAgfSk7XG4gICAgfVxuaGlyZWxpbmcgPSB7XG4gICAgICB2YXIgYWRkSW5wdXRCdXR0b24gPSBkMy5zZWxlY3QoJyNhZGRIaXJlbGluZ0J1dHRvbicpO1xuICAgICAgYWRkSW5wdXRCdXR0b24ub24oJ2NsaWNrJywgKCkgPT4gYWRkSGlyZWxpbmcoKSApO1xufVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0xMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImltcG9ydCB7IGNhbGN1bGF0ZU1vZGlmaWVyLCBnZW5lcmFsRGljZSB9IGZyb20gXCIuL2N1c3RvbS5qc1wiXG5kMyA9IHJlcXVpcmUoJ2QzQDcnKVxuXG5udW1iZXJJbnB1dFN0ciA9IGQzLnNlbGVjdChcIiNzdHJOdW1cIik7XG5udW1iZXJJbnB1dERleCA9IGQzLnNlbGVjdChcIiNkZXhOdW1cIik7XG5udW1iZXJJbnB1dENvbiA9IGQzLnNlbGVjdChcIiNjb25OdW1cIik7XG5udW1iZXJJbnB1dEludCA9IGQzLnNlbGVjdChcIiNpbnROdW1cIik7XG5udW1iZXJJbnB1dFdpcyA9IGQzLnNlbGVjdChcIiN3aXNOdW1cIik7XG5udW1iZXJJbnB1dENoYSA9IGQzLnNlbGVjdChcIiNjaGFOdW1cIik7XG5cbm91dHB1dFN0ciA9IGQzLnNlbGVjdChcIiNzdHJNb2RcIik7XG5vdXRwdXREZXggPSBkMy5zZWxlY3QoXCIjZGV4TW9kXCIpO1xub3V0cHV0Q29uID0gZDMuc2VsZWN0KFwiI2Nvbk1vZFwiKTtcbm91dHB1dEludCA9IGQzLnNlbGVjdChcIiNpbnRNb2RcIik7XG5vdXRwdXRXaXMgPSBkMy5zZWxlY3QoXCIjd2lzTW9kXCIpO1xub3V0cHV0Q2hhID0gZDMuc2VsZWN0KFwiI2NoYU1vZFwiKTtcblxuXG5mdW5jdGlvbiB1cGRhdGVPdXRwdXQoaW5wLCBvdXQpIHtcbiAgICBjb25zdCBpbnB1dFZhbHVlID0gaW5wLnByb3BlcnR5KFwidmFsdWVcIik7XG4gICAgb3V0LnRleHQoYCggJHtjYWxjdWxhdGVNb2RpZmllcigoTnVtYmVyKGlucHV0VmFsdWUpKSl9IClgKTtcbn1cblxuYiA9IHtcbm91dHB1dFN0ci50ZXh0KGAoICR7Y2FsY3VsYXRlTW9kaWZpZXIoTnVtYmVyKG51bWJlcklucHV0U3RyLnByb3BlcnR5KFwidmFsdWVcIikpKX0gKWApXG5vdXRwdXREZXgudGV4dChgKCAke2NhbGN1bGF0ZU1vZGlmaWVyKE51bWJlcihudW1iZXJJbnB1dERleC5wcm9wZXJ0eShcInZhbHVlXCIpKSl9IClgKVxub3V0cHV0Q29uLnRleHQoYCggJHtjYWxjdWxhdGVNb2RpZmllcihOdW1iZXIobnVtYmVySW5wdXRDb24ucHJvcGVydHkoXCJ2YWx1ZVwiKSkpfSApYClcbm91dHB1dEludC50ZXh0KGAoICR7Y2FsY3VsYXRlTW9kaWZpZXIoTnVtYmVyKG51bWJlcklucHV0SW50LnByb3BlcnR5KFwidmFsdWVcIikpKX0gKWApXG5vdXRwdXRXaXMudGV4dChgKCAke2NhbGN1bGF0ZU1vZGlmaWVyKE51bWJlcihudW1iZXJJbnB1dFdpcy5wcm9wZXJ0eShcInZhbHVlXCIpKSl9IClgKVxub3V0cHV0Q2hhLnRleHQoYCggJHtjYWxjdWxhdGVNb2RpZmllcihOdW1iZXIobnVtYmVySW5wdXRDaGEucHJvcGVydHkoXCJ2YWx1ZVwiKSkpfSApYClcbn1cblxuXG5hID0ge1xubnVtYmVySW5wdXRTdHIub24oXCJpbnB1dFwiLCAoKSA9PiB1cGRhdGVPdXRwdXQobnVtYmVySW5wdXRTdHIsb3V0cHV0U3RyKSk7XG5udW1iZXJJbnB1dERleC5vbihcImlucHV0XCIsICgpID0+IHVwZGF0ZU91dHB1dChudW1iZXJJbnB1dERleCxvdXRwdXREZXgpKTtcbm51bWJlcklucHV0Q29uLm9uKFwiaW5wdXRcIiwgKCkgPT4gdXBkYXRlT3V0cHV0KG51bWJlcklucHV0Q29uLG91dHB1dENvbikpO1xubnVtYmVySW5wdXRJbnQub24oXCJpbnB1dFwiLCAoKSA9PiB1cGRhdGVPdXRwdXQobnVtYmVySW5wdXRJbnQsb3V0cHV0SW50KSk7XG5udW1iZXJJbnB1dFdpcy5vbihcImlucHV0XCIsICgpID0+IHVwZGF0ZU91dHB1dChudW1iZXJJbnB1dFdpcyxvdXRwdXRXaXMpKTtcbm51bWJlcklucHV0Q2hhLm9uKFwiaW5wdXRcIiwgKCkgPT4gdXBkYXRlT3V0cHV0KG51bWJlcklucHV0Q2hhLG91dHB1dENoYSkpO1xufVxuXG5cblxuZnVuY3Rpb24gYWRkSW5wdXRGaWVsZCgpIHtcbiAgICAgIHZhciBpbnB1dENvbnRhaW5lciA9IGQzLnNlbGVjdCgnI2lucHV0Q29udGFpbmVyJyk7XG4gICAgICB2YXIgaW5wdXRDb3VudCA9IGlucHV0Q29udGFpbmVyLnNlbGVjdEFsbCgnLmlucHV0LWdyb3VwJykuc2l6ZSgpO1xuXG4gICAgICB2YXIgaW5wdXRHcm91cCA9IGlucHV0Q29udGFpbmVyXG4gICAgICAgIC5hcHBlbmQoJ2RpdicpXG4gICAgICAgIC5hdHRyKCdjbGFzcycsICdpbnB1dC1ncm91cCBtYi0yJyk7XG5cbiAgICAgIGlucHV0R3JvdXBcbiAgICAgICAgLmFwcGVuZCgnaW5wdXQnKVxuICAgICAgICAuYXR0cigndHlwZScsICd0ZXh0JylcbiAgICAgICAgLmF0dHIoJ2F1dG9jb21wbGV0ZScsXCJvZmZcIilcbiAgICAgICAgLmF0dHIoJ2lkJywgJ2xhbmd1YWdlJyArIChpbnB1dENvdW50ICsgMSkpXG4gICAgICAgIC5hdHRyKCdjbGFzcycsICdmb3JtLWNvbnRyb2wgcm91bmRlZC1zdGFydCBsYW5nJylcbiAgICAgICAgLmF0dHIoJ3BsYWNlaG9sZGVyJywgJ0xhbmd1YWdlICcgKyAoaW5wdXRDb3VudCArIDEpKTtcblxuICAgICAgaW5wdXRHcm91cFxuICAgICAgICAuYXBwZW5kKCdidXR0b24nKVxuICAgICAgICAuYXR0cignY2xhc3MnLCAnYnRuIGJ0bi1kYW5nZXIgZGVsZXRlLWJ1dHRvbiByb3VuZGVkLWVuZCcpXG4gICAgICAgIC5hdHRyKCd0eXBlJywgJ2J1dHRvbicpXG4gICAgICAgIC5hdHRyKCdpZCcsICdsYW5ndWFnZURlbCcgKyAoaW5wdXRDb3VudCArIDEpKVxuICAgICAgICAudGV4dCgnLScpXG4gICAgICAgIC5vbignY2xpY2snLCBmdW5jdGlvbigpIHtcbiAgICAgICAgICBpbnB1dEdyb3VwLnJlbW92ZSgpO1xuICAgICAgICB9KTtcbiAgICB9XG5jID0ge1xuICAgICAgdmFyIGFkZElucHV0QnV0dG9uID0gZDMuc2VsZWN0KCcjYWRkSW5wdXRCdXR0b24nKTtcbiAgICAgIGFkZElucHV0QnV0dG9uLm9uKCdjbGljaycsICgpID0+IGFkZElucHV0RmllbGQoKSApO1xufVxuXG5cbmZ1bmN0aW9uIGFkZFNraWxsKCkge1xuICAgICAgdmFyIGlucHV0Q29udGFpbmVyID0gZDMuc2VsZWN0KCcjaW5wdXRDb250YWluZXJTa2lsbHMnKTtcbiAgICAgIHZhciBpbnB1dENvdW50ID0gaW5wdXRDb250YWluZXIuc2VsZWN0QWxsKCcuaW5wdXQtZ3JvdXAnKS5zaXplKCk7XG5cbiAgICAgIHZhciBpbnB1dEdyb3VwID0gaW5wdXRDb250YWluZXJcbiAgICAgICAgLmFwcGVuZCgnZGl2JylcbiAgICAgICAgLmF0dHIoJ2NsYXNzJywgJ2lucHV0LWdyb3VwIG1iLTInKTtcblxuICAgICAgaW5wdXRHcm91cFxuICAgICAgICAuYXBwZW5kKCdpbnB1dCcpXG4gICAgICAgIC5hdHRyKCdhdXRvY29tcGxldGUnLFwib2ZmXCIpXG4gICAgICAgIC5hdHRyKCd0eXBlJywgJ3RleHQnKVxuICAgICAgICAuYXR0cignaWQnLCAnc2tpbGwnICsgKGlucHV0Q291bnQgKyAxKSlcbiAgICAgICAgLmF0dHIoJ2NsYXNzJywgJ2Zvcm0tY29udHJvbCByb3VuZGVkLXN0YXJ0IG9za2lsbCcpXG4gICAgICAgIC5hdHRyKCdwbGFjZWhvbGRlcicsICdTa2lsbCAnICsgKGlucHV0Q291bnQgKyAxKSk7XG5cbiAgICAgIGlucHV0R3JvdXBcbiAgICAgICAgLmFwcGVuZCgnYnV0dG9uJylcbiAgICAgICAgLmF0dHIoJ2NsYXNzJywgJ2J0biBidG4tZGFuZ2VyIGRlbGV0ZS1idXR0b24gcm91bmRlZC1lbmQnKVxuICAgICAgICAuYXR0cigndHlwZScsICdidXR0b24nKVxuICAgICAgICAuYXR0cignaWQnLCAnc2tpbGxEZWwnICsgKGlucHV0Q291bnQgKyAxKSlcbiAgICAgICAgLnRleHQoJy0nKVxuICAgICAgICAub24oJ2NsaWNrJywgZnVuY3Rpb24oKSB7XG4gICAgICAgICAgaW5wdXRHcm91cC5yZW1vdmUoKTtcbiAgICAgICAgfSk7XG4gICAgfVxuZCA9IHtcbiAgICAgIHZhciBhZGRJbnB1dEJ1dHRvbiA9IGQzLnNlbGVjdCgnI2FkZFNraWxsQnV0dG9uJyk7XG4gICAgICBhZGRJbnB1dEJ1dHRvbi5vbignY2xpY2snLCAoKSA9PiBhZGRTa2lsbCgpICk7XG5cbn1cblxub3BlbkxvY2tzID0ge1xuICAgIHZhciBidXQgPSBkMy5zZWxlY3QoJyN0aGllZkxvY2tzQnV0dG9uJyk7XG4gICAgdmFyIG91dCA9IGQzLnNlbGVjdCgnI3RoaWVmTG9ja3NPdXQnKTtcblxuICAgIGJ1dC5vbignY2xpY2snLCAoKSA9PiB7XG4gICAgICAgIHZhciB0ZW1wID0gZ2VuZXJhbERpY2UoMSwxMDAsMCk7XG4gICAgICAgIG91dC50ZXh0KHRlbXApXG4gICAgfSk7XG59XG5cbnRyYXBzID0ge1xuICAgIHZhciBidXQgPSBkMy5zZWxlY3QoJyN0aGllZlRyYXBCdXR0b24nKTtcbiAgICB2YXIgb3V0ID0gZDMuc2VsZWN0KCcjdGhpZWZUcmFwT3V0Jyk7XG5cbiAgICBidXQub24oJ2NsaWNrJywgKCkgPT4ge1xuICAgICAgICB2YXIgdGVtcCA9IGdlbmVyYWxEaWNlKDEsMTAwLDApO1xuICAgICAgICBvdXQudGV4dCh0ZW1wKVxuICAgIH0pO1xufVxuXG5wb2NrZXQgPSB7XG4gICAgdmFyIGJ1dCA9IGQzLnNlbGVjdCgnI3RoaWVmUG9ja2V0c0J1dHRvbicpO1xuICAgIHZhciBvdXQgPSBkMy5zZWxlY3QoJyN0aGllZlBvY2tldHNPdXQnKTtcblxuICAgIGJ1dC5vbignY2xpY2snLCAoKSA9PiB7XG4gICAgICAgIHZhciB0ZW1wID0gZ2VuZXJhbERpY2UoMSwxMDAsMCk7XG4gICAgICAgIG91dC50ZXh0KHRlbXApXG4gICAgfSk7XG59XG5cbnNpbGVudGx5ID0ge1xuICAgIHZhciBidXQgPSBkMy5zZWxlY3QoJyN0aGllZlNpbGVudEJ1dHRvbicpO1xuICAgIHZhciBvdXQgPSBkMy5zZWxlY3QoJyN0aGllZlNpbGVudE91dCcpO1xuXG4gICAgYnV0Lm9uKCdjbGljaycsICgpID0+IHtcbiAgICAgICAgdmFyIHRlbXAgPSBnZW5lcmFsRGljZSgxLDEwMCwwKTtcbiAgICAgICAgb3V0LnRleHQodGVtcClcbiAgICB9KTtcbn1cblxuY2xpbWIgPSB7XG4gICAgdmFyIGJ1dCA9IGQzLnNlbGVjdCgnI3RoaWVmQ2xpbWJCdXR0b24nKTtcbiAgICB2YXIgb3V0ID0gZDMuc2VsZWN0KCcjdGhpZWZDbGltYk91dCcpO1xuXG4gICAgYnV0Lm9uKCdjbGljaycsICgpID0+IHtcbiAgICAgICAgdmFyIHRlbXAgPSBnZW5lcmFsRGljZSgxLDEwMCwwKTtcbiAgICAgICAgb3V0LnRleHQodGVtcClcbiAgICB9KTtcbn1cblxuaGlkZSA9IHtcbiAgICB2YXIgYnV0ID0gZDMuc2VsZWN0KCcjdGhpZWZIaWRlQnV0dG9uJyk7XG4gICAgdmFyIG91dCA9IGQzLnNlbGVjdCgnI3RoaWVmSGlkZU91dCcpO1xuXG4gICAgYnV0Lm9uKCdjbGljaycsICgpID0+IHtcbiAgICAgICAgdmFyIHRlbXAgPSBnZW5lcmFsRGljZSgxLDEwMCwwKTtcbiAgICAgICAgb3V0LnRleHQodGVtcClcbiAgICB9KTtcbn1cblxubGlzdGVuID0ge1xuICAgIHZhciBidXQgPSBkMy5zZWxlY3QoJyN0aGllZkxpc3RlbkJ1dHRvbicpO1xuICAgIHZhciBvdXQgPSBkMy5zZWxlY3QoJyN0aGllZkxpc3Rlbk91dCcpO1xuXG4gICAgYnV0Lm9uKCdjbGljaycsICgpID0+IHtcbiAgICAgICAgdmFyIHRlbXAgPSBnZW5lcmFsRGljZSgxLDEwMCwwKTtcbiAgICAgICAgb3V0LnRleHQodGVtcClcbiAgICB9KTtcbn1cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcblxuZnVuY3Rpb24gc2F2ZXRvRmlsZSgpe1xuICAgIGxldCBjaGFyID0ge307XG5cbiAgICAvLyBOYW1lIGFuZCBiYXNpYyBpbmZvXG4gICAgY2hhci5OYW1lID0gZDMuc2VsZWN0KCcjTmFtZScpLnByb3BlcnR5KFwidmFsdWVcIilcbiAgICBjaGFyLkNsYXNzID0gZDMuc2VsZWN0KCcjY2hhckNsYXNzJykuc2VsZWN0KCdkZCcpLnRleHQoKTtcbiAgICBjaGFyLlJhY2UgPSBkMy5zZWxlY3QoJyNjaGFyUmFjZScpLnNlbGVjdCgnZGQnKS50ZXh0KCk7XG4gICAgY2hhci5MZXZlbCA9IGQzLnNlbGVjdCgnI2NoYXJMZXZlbCcpLnNlbGVjdCgnZGQnKS50ZXh0KCk7XG4gICAgY2hhci5FeHBlcmllbmNlID0gZDMuc2VsZWN0KCcjY2hhckV4cGVyaWVuY2UnKS5zZWxlY3QoJ2RkJykudGV4dCgpXG5cbiAgICBjaGFyLkhQID0gZDMuc2VsZWN0KCcjaHAxJykucHJvcGVydHkoJ3ZhbHVlJyk7XG4gICAgY2hhci5NYXhIUCA9IGQzLnNlbGVjdCgnI2hwMicpLnByb3BlcnR5KCd2YWx1ZScpO1xuICAgIGNoYXIuQUMgPSBkMy5zZWxlY3QoJyNBQ2lucHV0JykucHJvcGVydHkoJ3ZhbHVlJyk7XG4gICAgY2hhci5IRCA9IGQzLnNlbGVjdCgnI0hEaW5wdXQnKS5wcm9wZXJ0eSgndmFsdWUnKTtcblxuICAgIGNoYXIuQkFCID0gZDMuc2VsZWN0KCcjQkFCYm94JykudGV4dCgpO1xuICAgIGNoYXIuTW92ZW1lbnQgPSBkMy5zZWxlY3QoJyNNb3ZlbWVudEJveCcpLnRleHQoKTtcbiAgICBjaGFyLkluaXRpYXRpdmUgPSBkMy5zZWxlY3QoJyNJbml0aWF0aXZlQm94JykudGV4dCgpO1xuXG4gICAgLy8gQWJpbGl0aWVzXG4gICAgY2hhci5BYmlsaXRpZXMgPSB7fTsgXG4gICAgY2hhci5BYmlsaXRpZXMuU3RyID0gZDMuc2VsZWN0KCcjc3RyTnVtJykucHJvcGVydHkoJ3ZhbHVlJyApOyBcbiAgICBjaGFyLkFiaWxpdGllcy5EZXggPSBkMy5zZWxlY3QoJyNkZXhOdW0nKS5wcm9wZXJ0eSgndmFsdWUnICk7XG4gICAgY2hhci5BYmlsaXRpZXMuQ29uID0gZDMuc2VsZWN0KCcjY29uTnVtJykucHJvcGVydHkoJ3ZhbHVlJyk7XG4gICAgY2hhci5BYmlsaXRpZXMuV2lzID0gZDMuc2VsZWN0KCcjd2lzTnVtJykucHJvcGVydHkoJ3ZhbHVlJyApO1xuICAgIGNoYXIuQWJpbGl0aWVzLkludCA9IGQzLnNlbGVjdCgnI2ludE51bScpLnByb3BlcnR5KCd2YWx1ZScgKTtcbiAgICBjaGFyLkFiaWxpdGllcy5DaGEgPSBkMy5zZWxlY3QoJyNjaGFOdW0nKS5wcm9wZXJ0eSgndmFsdWUnICk7XG5cblxuICAgIC8vc2F2ZXNcbiAgICBjaGFyLlNhdmVzID0ge307XG4gICAgY2hhci5TYXZlcy5EUlAgPSBkMy5zZWxlY3QoJyNzYXZlLWRycEJveCcpLnByb3BlcnR5KCd2YWx1ZScgKTsgXG4gICAgY2hhci5TYXZlcy5NVyA9IGQzLnNlbGVjdCgnI3NhdmUtd2FuZEJveCcpLnByb3BlcnR5KCd2YWx1ZScgKTtcbiAgICBjaGFyLlNhdmVzLlBhciA9IGQzLnNlbGVjdCgnI3NhdmUtcGFyQm94JykucHJvcGVydHkoJ3ZhbHVlJyk7XG4gICAgY2hhci5TYXZlcy5EQiA9IGQzLnNlbGVjdCgnI3NhdmUtZGJCb3gnKS5wcm9wZXJ0eSgndmFsdWUnKTtcbiAgICBjaGFyLlNhdmVzLlNwbCA9IGQzLnNlbGVjdCgnI3NhdmUtc3BlbGxCb3gnKS5wcm9wZXJ0eSgndmFsdWUnKTtcblxuICAgICAgLy8gVGhpZXZpbmcgc2tpbGxzIFxuICAgIGNoYXIuVGhpZWZTa2lsbHMgPSB7fTtcbiAgICBjaGFyLlRoaWVmU2tpbGxzLk9wZW5Mb2NrcyA9IGQzLnNlbGVjdCgnI3RoaWVmTG9ja3NJbnB1dCAnKS5wcm9wZXJ0eSgndmFsdWUnKTtcbiAgICBjaGFyLlRoaWVmU2tpbGxzLlJlbW92ZVRyYXBzID0gZDMuc2VsZWN0KCcjdGhpZWZUcmFwSW5wdXQgJykucHJvcGVydHkoJ3ZhbHVlJyk7XG4gICAgY2hhci5UaGllZlNraWxscy5QaWNrUG9ja2V0cyA9IGQzLnNlbGVjdCgnI3RoaWVmUG9ja2V0c0lucHV0ICcpLnByb3BlcnR5KCd2YWx1ZScpO1xuICAgIGNoYXIuVGhpZWZTa2lsbHMuTW92ZVNpbGVudCA9IGQzLnNlbGVjdCgnI3RoaWVmU2lsZW50SW5wdXQgJykucHJvcGVydHkoJ3ZhbHVlJyk7XG4gICAgY2hhci5UaGllZlNraWxscy5DbGltYldhbGxzID0gZDMuc2VsZWN0KCcjdGhpZWZDbGltYklucHV0ICcpLnByb3BlcnR5KCd2YWx1ZScpOyBcbiAgICBjaGFyLlRoaWVmU2tpbGxzLkhpZGUgPSBkMy5zZWxlY3QoJyN0aGllZkhpZGVJbnB1dCAnKS5wcm9wZXJ0eSgndmFsdWUnKTtcbiAgICBjaGFyLlRoaWVmU2tpbGxzLkxpc3RlbiA9IGQzLnNlbGVjdCgnI3RoaWVmTGlzdGVuSW5wdXQgJykucHJvcGVydHkoJ3ZhbHVlJyk7XG5cblxuICAgIC8vIExhbmdzIGFuZCBza2lsbHNcbiAgICBjaGFyLkxhbmd1YWdlcyA9IGQzLnNlbGVjdEFsbChcIi5sYW5nXCIpLm5vZGVzKCkubWFwKChub2RlKSA9PiBub2RlLnZhbHVlKTtcbiAgICBjaGFyLk90aGVyU2tpbGxzID0gZDMuc2VsZWN0QWxsKFwiLm9za2lsbFwiKS5ub2RlcygpLm1hcCgobm9kZSkgPT4gbm9kZS52YWx1ZSk7XG5cblxuICAgIC8vYXR0YWNrc1xuICAgIGNoYXIuV2VhcG9uRXEgPSBbXVxuICAgIGZvciAobGV0IGkgPSAwOyBpIDwgZDMuc2VsZWN0QWxsKFwiLndlYXBvbkZvcm1cIikuc2l6ZSgpOyBpKyspIHtcbiAgICAgICAgY2hhci5XZWFwb25FcS5wdXNoKCB7XG4gICAgICAgICAgICBcIm5hbWVcIjogZDMuc2VsZWN0QWxsKFwiLndlYXBvbkZvcm1cIikubm9kZXMoKS5tYXAoKG5vZGUpID0+IG5vZGUudmFsdWUpW2ldLFxuICAgICAgICAgICAgXCJhdHRhY2tcIjogZDMuc2VsZWN0QWxsKFwiLmF0dGFja0Zvcm1cIikubm9kZXMoKS5tYXAoKG5vZGUpID0+IG5vZGUudmFsdWUpW2ldLFxuICAgICAgICAgICAgXCJkYW1hZ2VcIjogZDMuc2VsZWN0QWxsKFwiLmRhbWFnZUZvcm1cIikubm9kZXMoKS5tYXAoKG5vZGUpID0+IG5vZGUudmFsdWUpW2ldLFxuICAgICAgICAgICAgXCJTXCI6IGQzLnNlbGVjdEFsbChcIi5yYW5nZVNGb3JtXCIpLm5vZGVzKCkubWFwKChub2RlKSA9PiBub2RlLnZhbHVlKVtpXSxcbiAgICAgICAgICAgIFwiTVwiOiBkMy5zZWxlY3RBbGwoXCIucmFuZ2VNRm9ybVwiKS5ub2RlcygpLm1hcCgobm9kZSkgPT4gbm9kZS52YWx1ZSlbaV0sXG4gICAgICAgICAgICBcIkxcIjogZDMuc2VsZWN0QWxsKFwiLnJhbmdlTEZvcm1cIikubm9kZXMoKS5tYXAoKG5vZGUpID0+IG5vZGUudmFsdWUpW2ldLFxuICAgICAgICAgICAgXCJub3Rlc1wiOiBkMy5zZWxlY3RBbGwoXCIubm90ZXNGb3JtXCIpLm5vZGVzKCkubWFwKChub2RlKSA9PiBub2RlLnZhbHVlKVtpXX1cbiAgICApfTtcblxuICAgIC8vYW1tb1xuICAgIGNoYXIuQW1tb0VxID0gW11cbiAgICBmb3IgKGxldCBpID0gMDsgaSA8IGQzLnNlbGVjdEFsbChcIi5hbW1vRm9ybVwiKS5zaXplKCk7IGkrKykge1xuICAgICAgICBjaGFyLkFtbW9FcS5wdXNoKCB7XG4gICAgICAgICAgICBcIm5hbWVcIjogZDMuc2VsZWN0QWxsKFwiLmFtbW9Gb3JtXCIpLm5vZGVzKCkubWFwKChub2RlKSA9PiBub2RlLnZhbHVlKVtpXSxcbiAgICAgICAgICAgIFwiY291bnRcIjogZDMuc2VsZWN0QWxsKFwiLmNvdW50Rm9ybVwiKS5ub2RlcygpLm1hcCgobm9kZSkgPT4gbm9kZS52YWx1ZSlbaV0sXG4gICAgICAgICAgICBcImRhbWFnZVwiOiBkMy5zZWxlY3RBbGwoXCIuYW1tb0RtZ0Zvcm1cIikubm9kZXMoKS5tYXAoKG5vZGUpID0+IG5vZGUudmFsdWUpW2ldLFxuICAgICAgICAgICAgXCJub3Rlc1wiOiBkMy5zZWxlY3RBbGwoXCIuYW1tby1ub3Rlc0Zvcm1cIikubm9kZXMoKS5tYXAoKG5vZGUpID0+IG5vZGUudmFsdWUpW2ldfVxuICAgICl9O1xuXG4gICAgY2hhci5UdXJuaW5nID0gIGQzLnNlbGVjdEFsbChcIi50dXJuaW5nRm9ybVwiKS5ub2RlcygpLm1hcCgobm9kZSkgPT4gbm9kZS52YWx1ZSk7XG5cbiAgICAvLyBzcGVsbHNcbiAgICBjaGFyLlNwZWxscyA9IFtdO1xuICAgIGZvciAobGV0IGkgPSAwOyBpIDwgZDMuc2VsZWN0QWxsKFwiLnNwZWxsLW5hbWVcIikuc2l6ZSgpOyBpKyspIHtcbiAgICAgICAgY2hhci5TcGVsbHMucHVzaCgge1xuICAgICAgICAgICAgXCJzcGVsbE5hbWVcIjogZDMuc2VsZWN0QWxsKFwiLnNwZWxsLW5hbWVcIikubm9kZXMoKS5tYXAoKG5vZGUpID0+IG5vZGUudmFsdWUpW2ldLFxuICAgICAgICAgICAgXCJzcGVsbEx2bFwiOiBkMy5zZWxlY3RBbGwoXCIuc3BlbGwtbGV2ZWxcIikubm9kZXMoKS5tYXAoKG5vZGUpID0+IG5vZGUudmFsdWUpW2ldLFxuICAgICAgICAgICAgXCJwcmVwXCI6IGQzLnNlbGVjdEFsbChcIi5zcGVsbC1wcmVwXCIpLm5vZGVzKCkubWFwKChub2RlKSA9PiBub2RlLnZhbHVlKVtpXX1cbiAgICApfTtcblxuXG4gICAgLy8gQ3VycmVuY3lcbiAgICBjaGFyLkVxdWlwbWVudD17fVxuICAgIGNoYXIuRXF1aXBtZW50LkN1cnJlbmN5ICA9IHt9XG4gICAgY2hhci5FcXVpcG1lbnQuQ3VycmVuY3kucHAgPSBkMy5zZWxlY3QoJyNQUGJveCcpLnRleHQoKVxuICAgIGNoYXIuRXF1aXBtZW50LkN1cnJlbmN5LmdwID0gZDMuc2VsZWN0KCcjR1Bib3gnKS50ZXh0KClcbiAgICBjaGFyLkVxdWlwbWVudC5DdXJyZW5jeS5lcCA9IGQzLnNlbGVjdCgnI0VQYm94JykudGV4dCgpXG4gICAgY2hhci5FcXVpcG1lbnQuQ3VycmVuY3kuc3AgPSBkMy5zZWxlY3QoJyNTUGJveCcpLnRleHQoKVxuICAgIGNoYXIuRXF1aXBtZW50LkN1cnJlbmN5LmNwID0gZDMuc2VsZWN0KCcjQ1Bib3gnKS50ZXh0KClcblxuXG4gICAgLy8gRXF1aXBtZW50XG4gICAgY2hhci5FcXVpcG1lbnQuV2VhcG9ucyA9IFtdO1xuICAgIGZvciAobGV0IGkgPSAwOyBpIDwgZDMuc2VsZWN0QWxsKFwiLndlYXBvbnNFcU1hZ1wiKS5zaXplKCk7IGkrKykge1xuICAgICAgICBjaGFyLkVxdWlwbWVudC5XZWFwb25zLnB1c2goIHtcbiAgICAgICAgICAgIFwibWFnaWNcIjogZDMuc2VsZWN0QWxsKFwiLndlYXBvbnNFcU1hZ1wiKS5ub2RlcygpLm1hcCgobm9kZSkgPT4gbm9kZS5jaGVja2VkKVtpXSxcbiAgICAgICAgICAgIFwiZXF1aXBwZWRcIjogZDMuc2VsZWN0QWxsKFwiLndlYXBvbnNFcUVxXCIpLm5vZGVzKCkubWFwKChub2RlKSA9PiBub2RlLmNoZWNrZWQpW2ldLFxuICAgICAgICAgICAgXCJuYW1lXCI6IGQzLnNlbGVjdEFsbChcIi53ZWFwb25zRXFOYW1lXCIpLm5vZGVzKCkubWFwKChub2RlKSA9PiBub2RlLnZhbHVlKVtpXSxcbiAgICAgICAgICAgIFwid2VpZ2h0XCI6IGQzLnNlbGVjdEFsbChcIi53ZWFwb25zRXFXZWlnaHRcIikubm9kZXMoKS5tYXAoKG5vZGUpID0+IG5vZGUudmFsdWUpW2ldXG4gICAgICAgICAgICB9XG4gICAgKX07XG5cbiAgICBjaGFyLkVxdWlwbWVudC5Bcm1vciA9IFtdO1xuICAgIGZvciAobGV0IGkgPSAwOyBpIDwgZDMuc2VsZWN0QWxsKFwiLmFybW9yTWFnaWNhbFwiKS5zaXplKCk7IGkrKykge1xuICAgICAgICBjaGFyLkVxdWlwbWVudC5Bcm1vci5wdXNoKCB7XG4gICAgICAgICAgICBcIm1hZ2ljXCI6IGQzLnNlbGVjdEFsbChcIi5hcm1vck1hZ2ljYWxcIikubm9kZXMoKS5tYXAoKG5vZGUpID0+IG5vZGUuY2hlY2tlZClbaV0sXG4gICAgICAgICAgICBcImVxdWlwcGVkXCI6IGQzLnNlbGVjdEFsbChcIi5hcm1vckVxdWlwcGVkXCIpLm5vZGVzKCkubWFwKChub2RlKSA9PiBub2RlLmNoZWNrZWQpW2ldLFxuICAgICAgICAgICAgXCJuYW1lXCI6IGQzLnNlbGVjdEFsbChcIi5hcm1vck5hbWVcIikubm9kZXMoKS5tYXAoKG5vZGUpID0+IG5vZGUudmFsdWUpW2ldLFxuICAgICAgICAgICAgXCJ3ZWlnaHRcIjogZDMuc2VsZWN0QWxsKFwiLmFybW9yV2VpZ2h0XCIpLm5vZGVzKCkubWFwKChub2RlKSA9PiBub2RlLnZhbHVlKVtpXVxuICAgICAgICAgICAgfVxuICAgICl9O1xuXG4gICAgY2hhci5FcXVpcG1lbnQuTWlzYyA9IFtdO1xuICAgIGZvciAobGV0IGkgPSAwOyBpIDwgZDMuc2VsZWN0QWxsKFwiLm1pc2NNYWdpY2FsXCIpLnNpemUoKTsgaSsrKSB7XG4gICAgICAgIGNoYXIuRXF1aXBtZW50Lk1pc2MucHVzaCgge1xuICAgICAgICAgICAgXCJtYWdpY1wiOiBkMy5zZWxlY3RBbGwoXCIubWlzY01hZ2ljYWxcIikubm9kZXMoKS5tYXAoKG5vZGUpID0+IG5vZGUuY2hlY2tlZClbaV0sXG4gICAgICAgICAgICBcImVxdWlwcGVkXCI6IGQzLnNlbGVjdEFsbChcIi5taXNjRXF1aXBwZWRcIikubm9kZXMoKS5tYXAoKG5vZGUpID0+IG5vZGUuY2hlY2tlZClbaV0sXG4gICAgICAgICAgICBcIm5hbWVcIjogZDMuc2VsZWN0QWxsKFwiLm1pc2NOYW1lXCIpLm5vZGVzKCkubWFwKChub2RlKSA9PiBub2RlLnZhbHVlKVtpXSxcbiAgICAgICAgICAgIFwid2VpZ2h0XCI6IGQzLnNlbGVjdEFsbChcIi5taXNjV2VpZ2h0XCIpLm5vZGVzKCkubWFwKChub2RlKSA9PiBub2RlLnZhbHVlKVtpXVxuICAgICAgICAgICAgfVxuICAgICl9O1xuXG4gICAgLy9Ob3Rlc1xuICAgIGNoYXIuSGlyZWxpbmdzID0gZDMuc2VsZWN0QWxsKFwiLmhpcmVsaW5nc1wiKS5ub2RlcygpLm1hcCgobm9kZSkgPT4gbm9kZS52YWx1ZSk7XG4gICAgY2hhci5CYWNrZ3JvdW5kID0gZDMuc2VsZWN0KCcjYmFja2dyb3VuZCcpLnRleHQoKVxuICAgIGNoYXIuTWlzY05vdGVzID0gZDMuc2VsZWN0KCcjbWlzY05vdGVzJykudGV4dCgpXG5cblxuICAgIHJldHVybiBjaGFyXG59XG5cbmZ1bmN0aW9uIGRvd25sb2FkSnNvbigpIHtcbiAgICAgIC8vIEdlbmVyYXRlIEpTT04gZGF0YVxuICB2YXIganNvbkRhdGEgPSBzYXZldG9GaWxlKCk7XG4gIFxuICAvLyBDb252ZXJ0IEpTT04gdG8gc3RyaW5nXG4gIHZhciBqc29uU3RyaW5nID0gSlNPTi5zdHJpbmdpZnkoanNvbkRhdGEsIG51bGwsIDIpO1xuICBcbiAgLy8gQ3JlYXRlIGEgQmxvYiBmcm9tIHRoZSBKU09OIHN0cmluZ1xuICB2YXIgYmxvYiA9IG5ldyBCbG9iKFtqc29uU3RyaW5nXSwgeyB0eXBlOiBcImFwcGxpY2F0aW9uL2pzb25cIiB9KTtcbiAgXG4gIC8vIENyZWF0ZSBhIHRlbXBvcmFyeSBVUkwgZm9yIHRoZSBCbG9iXG4gIHZhciB1cmwgPSBVUkwuY3JlYXRlT2JqZWN0VVJMKGJsb2IpO1xuICBcbiAgLy8gQ3JlYXRlIGEgbGluayBlbGVtZW50XG4gIHZhciBsaW5rID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcImFcIik7XG4gIFxuICAvLyBTZXQgdGhlIGxpbmsncyBwcm9wZXJ0aWVzXG4gIGxpbmsuaHJlZiA9IHVybDtcbiAgbGluay5kb3dubG9hZCA9IFwiY2hhcmFjdGVyLmpzb25cIjtcbiAgXG4gIC8vIFNpbXVsYXRlIGEgY2xpY2sgZXZlbnQgb24gdGhlIGxpbmsgdG8gdHJpZ2dlciB0aGUgZG93bmxvYWRcbiAgbGluay5jbGljaygpO1xuICBcbiAgLy8gQ2xlYW4gdXAgdGhlIHRlbXBvcmFyeSBVUkxcbiAgVVJMLnJldm9rZU9iamVjdFVSTCh1cmwpO1xufVxuXG5cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTMiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJkY2hhciA9IHtcbmQzLnNlbGVjdChcIiNkb3dubG9hZENoYXJCdXR0b25cIikub24oXCJjbGlja1wiLCBkb3dubG9hZEpzb24pO1xufVxuLy8gc2F2ZXRvRmlsZSgpXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ3JlY29yZHNGaWxlJykifV19
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
@@ -3113,6 +3090,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -3181,13 +3185,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -3222,18 +3228,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -3265,11 +3260,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -3279,8 +3313,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -3292,7 +3335,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -3336,6 +3502,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -3361,6 +3528,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -3422,17 +3615,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./appendixMapmaker.html" class="pagination-link">
+      <a href="./appendixMapmaker.html" class="pagination-link" aria-label="Dungeon Maker">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Dungeon Maker</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./extraClasses.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Additional Classes</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 

@@ -45,3 +45,7 @@ thead {
 .myHighlightedCell {
   background-color: rgb(135, 179, 154) !important;
 }
+
+.btn.btn-quarto, div.cell-output-display .btn-quarto {
+  color:#ccc
+}
